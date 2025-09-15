@@ -1,0 +1,13 @@
+TargetGene,TF,Library/PMID,Tissue,Paper_link
+PTGS2,IRX1,20440264,Stomach,http://www.ncbi.nlm.nih.gov/pubmed/20440264
+PTGS2,NFATC1,21871017,Mammary Gland,http://www.ncbi.nlm.nih.gov/pubmed/21871017
+PTGS2,NFATC3,21871017,Mammary Gland,http://www.ncbi.nlm.nih.gov/pubmed/21871017
+PTGS2,NFATC2,21871017,Mammary Gland,http://www.ncbi.nlm.nih.gov/pubmed/21871017
+PTGS2,NFATC4,21871017,Mammary Gland,http://www.ncbi.nlm.nih.gov/pubmed/21871017
+CYP3A4,NFIL3,18004209,Liver,https://pubmed.ncbi.nlm.nih.gov/18004209/
+CYP3A4,VDR,121472248,Colon,http://www.ncbi.nlm.nih.gov/pubmed/12147248
+CYP3A4,DBP,18004209,Liver,https://pubmed.ncbi.nlm.nih.gov/18004209/
+CYP3A4,NR1I2,18540626,Colon,http://www.ncbi.nlm.nih.gov/pubmed/18540626
+ALOX15,EP300,12517954,Lung,https://pubmed.ncbi.nlm.nih.gov/12517954/
+ALOX15,CEP/P300,12517954,Lung,https://pubmed.ncbi.nlm.nih.gov/12517954/
+ALOX15,CREBBP,12517954,Lung,https://pubmed.ncbi.nlm.nih.gov/12517954/

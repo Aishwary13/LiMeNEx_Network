@@ -1,0 +1,271 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,CTCF,PI4KA,leukocytes,"CTCF IP - GM2255 cells, Rep 1 , CTCF IP - GM12890 cells, Rep 2 , CTCF IP - K562 cells, Rep 15 , CTCF IP - GM19239 cells, Rep 1 , CTCF IP - GM12878 cells, Rep 1 , CTCF IP - GM19238 cells, Rep 1 , CTCF IP - GM2610 cells, Rep 2 , CTCF IP - GM19240 cells, Rep 2 , CTCF IP - K562 cells, CTCF IP - GM12878 cells, Rep 2 , CTCF IP - GM10847 cells, Rep 1 , CTCF ChIP-Seq - GM12878, CTCF IP - GM19238 cells, Rep 2 , CTCF IP - MS1 cells, Rep 1 , CTCF IP - GM2610 cells, Rep 3 , CTCF IP - GM2610 cells, Rep 1 , CTCF IP - K562 cells, Rep 13 , CTCF IP - GM12892 cells, Rep 1 , CTCF IP - K562 cells, CTCF IP, CTCF IP -  DND , CTCF IP - MS1 cells, Rep 2 , CTCF IP - GM12890 cells, Rep 3 , CTCF IP - GM2630 cells, Rep 3 , CTCF IP - K562 cells, Rep 12 , CTCF IP - GM12891 cells, Rep 2 , CTCF IP - GM19240 cells, Rep 1 , CTCF IP - GM2630 cells, Rep 1 , CTCF IP - GM19099 cells, Rep 2 , CTCF IP - K562 cells, CTCF IP - K562 cells, Rep 2 , CTCF IP - GM19239 cells, Rep 2 , CTCF IP - K562 cells , CTCF IP - GM2255 cells, Rep 2 , CTCF IP - MS1 cells, Rep 3 , CTCF IP - GM2630 cells, Rep 2 , CTCF IP - GM2588 cells, Rep 2 , CTCF IP - K562 cells, Rep 11 , CTCF IP - GM12891 cells, Rep 1 , CTCF IP - MS1 cells, Rep 4 , CTCF IP - GM2588 cells, Rep 3 , CTCF IP - GM18526 cells, Rep 2 , CTCF IP - GM18486 cells, Rep 1 , CTCF IP - F36P cells, Rep 11 , CTCF IP - K562 cells, Rep 16 , CTCF IP - GM2255 cells, Rep 3 , CTCF IP - GM2588 cells, Rep 1 , CTCF IP - GM12892 cells, Rep 2 , CTCF IP - GM18486 cells, Rep 3 , CTCF IP - GM12890 cells, Rep 1 , CTCF IP - K562 cells, Rep 14 "
+1,SPP,MAX,PI4KA,leukocytes,"MAX IP - K562 cells, Rep 2, MAX IP - K562 cells, Rep 1, MAX IP - GM12878 cells, MAX IP - NB4 cells, MAX IP - K562 cells"
+2,SPP,MAZ,PI4KA,uterus,MAZ IP - HeLa cells
+3,SPP,MXI1,PI4KA,uterus,MXI1 IP - HeLa cells
+4,SPP,SMAD1,PI4KA,hspcs,SMAD1 IP - Rep 3
+5,SPP,MAX,PI4KA,lung,"MAX IP - A549 cells, MAX IP - A549 cells"
+6,SPP,CTCF,PI4KA,pancreas,CTCF IP
+7,SPP,GATA2,PI4KA,leukocytes,"GATA2 IP - K562 cells, GATA2 IP - K562 cells"
+8,SPP,USF1,PI4KA,cns,"USF1 IP | ATRA - SK-N-SH cells, USF1 IP - SK-N-SH cells"
+9,SPP,ATRA,PI4KA,cns,"USF1 IP | ATRA - SK-N-SH cells, YY1 IP | ATRA - SK-N-SH cells"
+10,SPP,E2F1,PI4KA,prostate,"BICALU | E2F1 ChIP-Seq - Rep 1, BICALU | E2F1 ChIP-Seq - Rep 2, BICALU | E2F1 ChIP-Seq - Rep 3, BICALU + HES6OE | E2F1 ChIP-Seq - Rep 4, BICALU | E2F1 ChIP-Seq - Rep 4, HES6 OE | E2F1 ChIP-Seq - Rep 2, HES6 OE | E2F1 ChIP-Seq - Rep 3, E2F1 ChIP-Seq - Rep 2, E2F1 ChIP-Seq - Rep 3, HES6 OE | E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 1, E2F1 ChIP-Seq - Rep 4, BICALU + HES6 OE | E2F1 ChIP-Seq - Rep 2, E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 3, HES6 OE | E2F1 ChIP-Seq - Rep 4"
+11,SPP,BICALU,PI4KA,prostate,"BICALU | E2F1 ChIP-Seq - Rep 1, BICALU | E2F1 ChIP-Seq - Rep 2, BICALU | E2F1 ChIP-Seq - Rep 3, BICALU + HES6OE | E2F1 ChIP-Seq - Rep 4, BICALU | E2F1 ChIP-Seq - Rep 4, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 1, BICALU + HES6 OE | E2F1 ChIP-Seq - Rep 2, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 3"
+12,SPP,STAT1,PI4KA,leukocytes,"STAT1 IP - Rep 2, STAT1 IP - Rep 4, STAT1 IP - Rep 3, STAT1 IP - Rep 6, STAT1 IP | IFNG - K562 cells, 6 h, STAT1 IP | IFNA1-13 - K562 cells, 6 h, STAT1 IP | IFNA1-13 - K562 cells, 30 min, STAT1 IP - Rep 5, STAT1 IP | IFNG - K562 cells, 30 min, STAT1 IP - Rep 1"
+13,SPP,IFNG,PI4KA,leukocytes,"STAT1 IP - Rep 2, STAT1 IP - Rep 4, STAT1 IP - Rep 3, STAT1 IP - Rep 6, JUN IP | IFNG - K562 cells, 6 h, JUN IP | IFNG - K562 cells, 30 min, STAT1 IP | IFNG - K562 cells, 6 h, IRF1 IP | IFNG - K562 cells, 30 min, IRF1 IP | IFNG - K562 cells, 6 h, MYC IP | IFNG - K562 cells, 6 h, STAT1 IP - Rep 5, MYC IP | IFNG - K562 cells, 30 min, STAT1 IP | IFNG - K562 cells, 30 min, STAT1 IP - Rep 1"
+14,SPP,FOXA1,PI4KA,mammarygland,"FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, DHT | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 IP - T47D cells"
+15,SPP,STAT3,PI4KA,leukocytes,"STAT3 IP - SU-DHL-4, STAT3 IP - OCI-LY3, STAT3 IP - SU-DHL-6, STAT3 IP - OCI-LY10, STAT3 IP - SU-DHL-2, STAT3 IP - OCI-LY7, STAT3 IP - U-2932, STAT3 IP - OCI-LY19, STAT3 IP - SU-DHL-10"
+16,SPP,CEBPB,PI4KA,liver,CEBPB IP | FORSK - HepG2 cells
+17,SPP,FORSK,PI4KA,liver,CEBPB IP | FORSK - HepG2 cells
+18,SPP,MYC,PI4KA,mammarygland,"DHT | MYC ChIP-Seq, MYC IP - MCF-10A cells"
+19,SPP,DHT,PI4KA,mammarygland,"DHT | MYC ChIP-Seq, DHT | FOXA1 ChIP-Seq"
+20,SPP,RELA,PI4KA,leukocytes,"RELA IP | TNF - GM19193 cells, RELA IP | TNF - GM15510 cells, RELA IP | TNF - GM12892 cells, RELA IP | TNF - GM18951 cells, RELA IP | TNF - GM19099 cells, RELA IP | BAY082  - IVD Th1 cells, PIA, RELA IP - IVD Th1 cells, PIA, RELA IP | TNF - GM12891 cells"
+21,SPP,TNF,PI4KA,leukocytes,"RELA IP | TNF - GM19193 cells, RELA IP | TNF - GM15510 cells, RELA IP | TNF - GM12892 cells, RELA IP | TNF - GM18951 cells, RELA IP | TNF - GM12891 cells"
+22,SPP,USF1,PI4KA,stemcells,USF1 IP - H1 cells
+23,SPP,DEX,PI4KA,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, JUN IP | DEX"
+24,SPP,NFKB1,PI4KA,leukocytes,NFKB1 IP - Rep 2
+25,SPP,MAZ,PI4KA,leukocytes,"MAZ IP - GM12878 cells, MAZ IP - K562 cells"
+26,SPP,MXI1,PI4KA,leukocytes,"MXI1 IP - GM12878 cells, MXI1 IP - K562 cells"
+27,SPP,CEBPB,PI4KA,leukocytes,"CEBPB IP| oxLDL  - Rep 207, CEBPB IP, CEBPB IP - K562 cells, CEBPB IP - Rep 204, CEBPB ChIP-Seq - K562, CEBPB IP | oxLDL  - Rep 208, CEBPB IP - Rep 203, CEBPB IP - HL-60 cells, Rep 2 , CEBPB IP - Rep 201, CEBPB IP | oxLDL  - Rep 205, CEBPB IP | oxLDL  - Rep 206"
+28,SPP,SPI1,PI4KA,leukocytes,"SPI1 IP - K562 cells, SPI1 IP, SPI1 IP, SPI1 IP - HL cells, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP - U-937 cells, Rep 1 , ROSI | SPI1 ChIP-Seq"
+29,SPP,JUN,PI4KA,vasculature,JUN IP
+30,SPP,JUND,PI4KA,mammarygland,JUND IP - MCF7 cells
+31,SPP,ARNTL,PI4KA,bone,"ARNTL IP, ARNTL IP, ARNTL IP, ARNTL IP"
+32,SPP,USF1,PI4KA,leukocytes,"USF1 IP - GM12878 cells, USF1 IP - K562 cells"
+33,SPP,FOXA1,PI4KA,liver,"FOXA1 IP - HepG2 cells, Rep 1, FOXA1 IP - HepG2 cells, Rep 2"
+34,SPP,FOXA1,PI4KA,prostate,"CON KD + R1881 | FOXA1 ChIP-Seq, FOXA1 KD | GATA2 ChIP-Seq, FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1, AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, EtOH | FOXA1 ChIP-Seq - Rep 2, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD  | FOXA1 ChIP-Seq, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 1, CON KD | FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1, GATA2 KD  | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CON KD | FOXA1 ChIP-Seq, WT AR OE | FOXA1 ChIP-Seq, EtOH | FOXA1 ChIP-Seq - , DHT | FOXA1 ChIP-Seq, GATA2 KD + R1881 | FOXA1 ChIP-Seq, AR Q640X OE + FOXA1 OE | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - LNCaP-abl, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 2"
+35,SPP,R1881,PI4KA,prostate,"CON KD + R1881 | FOXA1 ChIP-Seq, GABPA IP | R1881, R1881 | FOXA1 ChIP-Seq - Rep 1, GATA2 KD + R1881 | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 2"
+36,SPP,TAL1,PI4KA,megakaryocytelineage,"TAL1 IP - CHRF-288-11 cells, Rep 1 , TAL1 IP - CHRF-288-11 cells, Rep 4 "
+37,SPP,MYC,PI4KA,bone,"MYC IP, MYC IP"
+38,SPP,FOXA2,PI4KA,lung,FOXA2 IP - A549 cells
+39,SPP,HOXA4,PI4KA,colon,HOXA4 IP 
+40,SPP,CTCF,PI4KA,liver,"CTCF IP - SK-N-SH cells, CTCF IP"
+41,SPP,RUNX1,PI4KA,hspcs,"RUNX1 IP, RUNX1"
+42,SPP,PAX5,PI4KA,leukocytes,"PAX5 IP - GM12891 cells, PAX5 IP - GM12878 cells, Rep 1, PAX5 IP - GM12892 cells, PAX5 IP - GM12878 cells, Rep 2"
+43,SPP,SREBF1,PI4KA,leukocytes,SREBF1 IP - GM12878 cells
+44,SPP,TCF12,PI4KA,cns,TCF12 IP - SK-N-SH cells
+45,SPP,TCF12,PI4KA,uterus,TCF12 IP - ECC1 cells
+46,SPP,MAX,PI4KA,uterus,"MAX IP - HeLa cells, Rep 1, MAX IP - ECC1 cells, MAX IP - HeLa cells, Rep 2"
+47,SPP,TAL1,PI4KA,stemcells,"TAL1 IP - Rep 2 , TAL1 IP - Rep 1 "
+48,SPP,MAX,PI4KA,stemcells,"MAX IP - H1 cells, MAX IP - H1 cells"
+49,SPP,MYC,PI4KA,leukocytes,"MYC IP - K562 cells, Rep 1, MYC IP - K562 cells, Rep 2, MYC IP | IFNA1 - K562 cells, 30 min, MYC IP - NB4 cells, MYC IP | IFNA1 - K562 cells, 6 h, MYC IP | IFNG - K562 cells, 6 h, MYC IP | IFNG - K562 cells, 30 min"
+50,SPP,GATA2,PI4KA,cns,GATA2 ChIP-Seq SH-SY5Y
+51,SPP,JUN,PI4KA,mammarygland,"JUN IP - Rep 1, JUN IP - Rep 2, JUN IP, JUN IP | CPDA, JUN IP | DEX"
+52,SPP,GATA2,PI4KA,prostate,"FOXA1 KD | GATA2 ChIP-Seq, GATA2 KD  | FOXA1 ChIP-Seq, GATA2 KD + R1881 | FOXA1 ChIP-Seq"
+53,SPP,USF1,PI4KA,lung,"USF1 IP - A549 cells, Rep 1, USF1 IP | DEX - A549 cells, USF1 IP - A549 cells, Rep 2"
+54,SPP,FOXA2,PI4KA,stemcells,"FOXA2 IP - ES D2, FOXA2 IP - ES D10, FOXA2 IP - ES D5, FOXA2 IP - ES D7"
+55,SPP,IRF4,PI4KA,leukocytes,IRF4 IP
+56,SPP,ATF3,PI4KA,leukocytes,"ATF3 IP - K562 cells, ATF3 IP - K562 cells, ATF3 IP - GM12878 cells"
+57,SPP,17BE2,PI4KA,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+58,SPP,RBPJ,PI4KA,leukocytes,RBPJ IP | COMPE
+59,SPP,COMPE,PI4KA,leukocytes,RBPJ IP | COMPE
+60,SPP,SP1,PI4KA,colon,SP1 IP - HCT116 cells
+61,SPP,FOXM1,PI4KA,mammarygland,"FOXM1 IP | THSP - DS006, FOXM1 IP - DS005"
+62,SPP,FOSL2,PI4KA,liver,FOSL2 IP - HepG2 cells
+63,SPP,SIX5,PI4KA,leukocytes,"SIX5 IP - K562 cells, Rep 2, SIX5 IP - K562 cells, Rep 1, SIX5 IP - GM12878 cells"
+64,SPP,MEF2C,PI4KA,leukocytes,MEF2C IP - GM12878 cells
+65,SPP,TEAD4,PI4KA,leukocytes,TEAD4 IP - K562 cells
+66,SPP,E2F6,PI4KA,leukocytes,"E2F6 IP - K562 cells, E2F6 IP - K562 cells"
+67,SPP,TBP,PI4KA,leukocytes,"TBP IP - GM12878 cells, TBP IP - K562 cells"
+68,SPP,ERG,PI4KA,prostate,"ERG ChIP-Seq, JQI | ERG ChIP-Seq - Rep 1, DMSO | ERG ChIP-Seq - Rep 2, ERG ChIP-Seq, DHT | ERG ChIP-Seq - 18 h, DHT | ERG ChIP-Seq - 2 h, JQI | ERG ChIP-Seq - Rep 2, DMSO | ERG ChIP-Seq - Rep 1"
+69,SPP,CREB1,PI4KA,leukocytes,"CREB1 IP - GM12878 cells, CREB1 IP - K562 cells"
+70,SPP,ETS1,PI4KA,leukocytes,"ETS1 IP - K562 cells, ETS1 IP - GM12878 cells, ETS1 IP"
+71,SPP,PBX3,PI4KA,leukocytes,PBX3 IP - GM12878 cells
+72,SPP,YY1,PI4KA,leukocytes,"YY1 IP - GM12878 cells, YY1 IP - GM12891 cells, YY1 IP - K562 cells, Rep 1, YY1 IP - K562 cells, YY1 IP - GM12892 cells, Rep 1, YY1 IP - K562 cells, Rep 2"
+73,SPP,ATF3,PI4KA,colon,"ATF3 IP | CAMPTO, ATF3 IP - HCT116 cells"
+74,SPP,E2F6,PI4KA,lung,E2F6 IP - A549 cells
+75,SPP,MAX,PI4KA,liver,"MAX IP - MCF7 cells, MAX IP - HepG2 cells, MAX IP - HepG2 cells"
+76,SPP,FOS,PI4KA,mammarygland,"FOS IP | 4HT - MCF10A cells, 36 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 4 h, FOS IP - MCF10A cells"
+77,SPP,4HT,PI4KA,mammarygland,"FOS IP | 4HT - MCF10A cells, 36 h, E2F4 IP | 4HT - MCF10 cells, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 4 h"
+78,SPP,GABPA,PI4KA,prostate,"GABPA IP | R1881, GABPA IP - Rep 1"
+79,SPP,RUNX1,PI4KA,leukocytes,"RUNX1 IP, RUNX1 IP - Rep 2, RUNX1 IP"
+80,SPP,ERG,PI4KA,leukocytes,ERG IP - Rep 1
+81,SPP,E2F4,PI4KA,leukocytes,"E2F4 IP - GM12878 cells, E2F4 IP - K562 cells"
+82,SPP,E2F3,PI4KA,colon,E2F3 IP 
+83,SPP,GATA3,PI4KA,lung,GATA3 IP - A549 cells
+84,SPP,AR,PI4KA,prostate,"WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1, AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE | FOXA1 ChIP-Seq, AR Q640X OE + FOXA1 OE | FOXA1 ChIP-Seq"
+85,SPP,SATB1,PI4KA,liver,SATB1 IP
+86,SPP,HES6,PI4KA,prostate,"BICALU + HES6OE | E2F1 ChIP-Seq - Rep 4, HES6 OE | E2F1 ChIP-Seq - Rep 2, HES6 OE | E2F1 ChIP-Seq - Rep 3, HES6 OE | E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 1, BICALU + HES6 OE | E2F1 ChIP-Seq - Rep 2, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 3, HES6 OE | E2F1 ChIP-Seq - Rep 4"
+87,SPP,CUX1,PI4KA,leukocytes,CUX1 IP - K562 cells
+88,SPP,STAT5A,PI4KA,leukocytes,STAT5A IP - K562 cells
+89,SPP,CREB1,PI4KA,uterus,CREB1 IP - ECC1 cells
+90,SPP,THAP1,PI4KA,leukocytes,THAP1 IP - K562 cells
+91,SPP,SRF,PI4KA,colon,SRF IP - HCT116 cells
+92,SPP,BHLHE40,PI4KA,leukocytes,"BHLHE40 IP - K562 cells, BHLHE40 IP - GM12878 cells"
+93,SPP,IRF1,PI4KA,pancreas,IRF1 IP
+94,SPP,FOS,PI4KA,leukocytes,FOS IP - K562 cells
+95,SPP,ELK4,PI4KA,kidney,"ELK4 IP - HEK293, Rep 2, ELK4 IP - HEK293 cells"
+96,SPP,JUN,PI4KA,leukocytes,"JUN IP | IFNG - K562 cells, 6 h, JUN IP | IFNG - K562 cells, 30 min, JUN IP - K562 cells, Rep 1, JUN IP | IFNA1-13 - 30 min , JUN IP - K562 cells, Rep 2, JUN IP | IFNA1-13 - K562 cells, 6 h"
+97,SPP,GABPA,PI4KA,leukocytes,"GABPA IP - HL cells, GABPA IP - Jurkat, Rep 2, GABPA IP - GM12878 cells, Rep 5 , GABPA IP - GM12878 cells, GABPA IP - GM12878 cells, Rep 4 , GABPA IP - Jurkat, Rep 1, GABPA IP - K562 cells"
+98,SPP,CEBPA,PI4KA,leukocytes,CEBPA IP
+99,SPP,CEBPB,PI4KA,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP"
+100,SPP,JUND,PI4KA,cns,"JUND IP - SK-N-SH cells , JUND IP - SK-N-SH cells"
+101,SPP,MYC,PI4KA,uterus,MYC IP - HeLa cells
+102,SPP,FOXA1,PI4KA,uterus,FOXA1 IP - ECC1 cells
+103,SPP,TBP,PI4KA,liver,TBP IP - HepG2 cells
+104,SPP,USF1,PI4KA,liver,USF1 IP - HepG2 cells
+105,SPP,JQ1,PI4KA,prostate,"JQI | ERG ChIP-Seq - Rep 1, JQI | ERG ChIP-Seq - Rep 2"
+106,SPP,MAZ,PI4KA,liver,MAZ IP - HepG2 cells
+107,SPP,CREB1,PI4KA,lung,"CREB1 IP - A549 cells, Rep 2, CREB1 IP - A549 cells, Rep 1, CREB1 IP | DEX - A549 cells"
+108,SPP,ELF1,PI4KA,lung,ELF1 IP - A549 cells
+109,SPP,ELK4,PI4KA,uterus,"ELK4 IP - HeLa, Rep 1, ELK4 IP - HeLa cells, ELK4 IP - HeLa, Rep 2"
+110,SPP,ELK1,PI4KA,uterus,ELK1 IP - HeLa cells
+111,SPP,HMGN3,PI4KA,leukocytes,HMGN3 IP - K562 cells
+112,SPP,UBTF,PI4KA,leukocytes,"UBTF IP - K562 cells, UBTF IP - K562 cells"
+113,SPP,FOSL1,PI4KA,leukocytes,FOSL1 IP - K562 cells
+114,SPP,ELF1,PI4KA,colon,ELF1 IP - HCT116 cells
+115,SPP,CEBPB,PI4KA,colon,CEBPB IP - HCT116 cells
+116,SPP,STAT2,PI4KA,leukocytes,"STAT2 IP | IFNA1-13 - K562 cells, 30 min, STAT2 IP | IFNA1-13 - K562 cells, 6 h"
+117,SPP,IFNA1,PI4KA,leukocytes,"STAT2 IP | IFNA1-13 - K562 cells, 30 min, MYC IP | IFNA1 - K562 cells, 30 min, JUN IP | IFNA1-13 - 30 min , STAT2 IP | IFNA1-13 - K562 cells, 6 h, MYC IP | IFNA1 - K562 cells, 6 h, JUN IP | IFNA1-13 - K562 cells, 6 h, STAT1 IP | IFNA1-13 - K562 cells, 6 h, STAT1 IP | IFNA1-13 - K562 cells, 30 min, IRF1 IP | IFNA1-13 - K562 cells, 6 h"
+118,SPP,SIX5,PI4KA,lung,SIX5 IP | DEX - A549 cells
+119,SPP,GATA6,PI4KA,stomach,"GATA6 IP - AGS, GATA6 IP - YCC3"
+120,SPP,KLF11,PI4KA,adiposetissue,"ROSI (BrAT) | KLF11 ChIP-Seq, Rep 1, KLF11 ChIP-Seq, Rep 1, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2, KLF11 ChIP-Seq, Rep 2"
+121,SPP,ROSI,PI4KA,adiposetissue,"ROSI (BrAT) | KLF11 ChIP-Seq, Rep 1, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2"
+122,SPP,ZNF143,PI4KA,leukocytes,"ZNF143 IP - GM12878 cells, ZNF143 IP - K562 cells"
+123,SPP,IRF1,PI4KA,leukocytes,"IRF1 IP | IFNG - K562 cells, 30 min, IRF1 IP | IFNG - K562 cells, 6 h, IRF1 IP | IFNA1-13 - K562 cells, 6 h"
+124,SPP,NFYB,PI4KA,leukocytes,"NFYB IP - GM12878 cells, NFYB IP - K562 cells"
+125,SPP,REST,PI4KA,stemcells,"REST IP - H1 cells, Rep 1"
+126,SPP,USF1,PI4KA,uterus,USF1 IP - ECC1 cells
+127,SPP,CLOCK,PI4KA,bone,"CLOCK IP, CLOCK IP"
+128,SPP,SIX2,PI4KA,kidney,"SIX2 IP - 17 weeks, Rep 2, SIX2 IP - 17 weeks, Rep 1"
+129,SPP,DEX,PI4KA,lung,"USF1 IP | DEX - A549 cells, FOXA1 IP | DEX - A549 cells, CREB1 IP | DEX - A549 cells"
+130,SPP,BACH1,PI4KA,stemcells,BACH1 IP - H1 cells
+131,SPP,TAL1,PI4KA,colon,TAL1 IP 
+132,SPP,REST,PI4KA,cns,"REST IP - U87 cells, REST IP - SK cells, REST IP - PFSK1 cells, Rep 2"
+133,SPP,GATA1,PI4KA,hspcs,"GATA1 IP - PBDE cells, Rep 1"
+134,SPP,CREB1,PI4KA,prostate,"CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CREB1 ChIP-Seq - Rep 1, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 1, CREB1 ChIP-Seq - LNCaP, CREB1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CREB1 ChIP-Seq - LNCaP-abl, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 2"
+135,SPP,MYB,PI4KA,leukocytes,"MYB IP - MOLT3, MYB IP - Jurkat, Rep 5, MYB IP - Jurkat, Rep 4, MYB IP - Jurkat, Rep 1, MYB IP - Jurkat, Rep 2, MYB IP - Jurkat, Rep 3"
+136,SPP,USF1,PI4KA,colon,USF1 IP - HCT116 cells
+137,SPP,ZBTB7A,PI4KA,leukocytes,ZBTB7A IP - SK-N-SH cells
+138,SPP,MYC,PI4KA,liver,MYC IP
+139,SPP,MEF2A,PI4KA,leukocytes,"MEF2A IP - K562 cells, MEF2A IP - GM12878 cells"
+140,SPP,USF2,PI4KA,leukocytes,"USF2 IP - GM12878 cells, USF2 IP - K562 cells"
+141,SPP,GATA3,PI4KA,mammarygland,"GATA3 IP - T47D cells, GATA3 IP - MCF7 cells"
+142,SPP,TCF7L2,PI4KA,mammarygland,TCF7L2 ChIP-Seq
+143,SPP,ATF3,PI4KA,liver,ATF3 IP - HepG2 cells
+144,SPP,CTCF,PI4KA,hspcs,"CTCF IP - Erythroid cells, Rep 1, CTCF IP - Erythroid cells, Rep 2"
+145,SPP,BAY082,PI4KA,leukocytes,"RELA IP | BAY082  - IVD Th1 cells, PIA"
+146,SPP,MXI1,PI4KA,cns,MXI1 IP - SK-N-SH cells 
+147,SPP,TAL1,PI4KA,leukocytes,"TAL1 IP - MOLT3, TAL1 IP - K562 cells"
+148,SPP,USF2,PI4KA,uterus,USF2 IP - HeLa cells
+149,SPP,FOXA1,PI4KA,lung,FOXA1 IP | DEX - A549 cells
+150,SPP,CREB1,PI4KA,liver,"CREB1 IP, CREB1 IP - HepG2 cells, CREB1 IP"
+151,SPP,GABPA,PI4KA,lung,GABPA IP - A549 cells
+152,SPP,GATA4,PI4KA,stomach,"GATA4 IP - YCC3, GATA4 IP - AGS"
+153,SPP,CTCF,PI4KA,mammarygland,CTCF IP - MCF7 cells
+154,SPP,USF2,PI4KA,liver,USF2 IP - HepG2 cells
+155,SPP,NFYA,PI4KA,leukocytes,NFYA IP - K562 cells
+156,SPP,YY1,PI4KA,stemcells,YY1 IP - H1 cells
+157,SPP,ATF3,PI4KA,lung,ATF3 IP - A549 cells
+158,SPP,IRF1,PI4KA,colon,IRF1 IP 
+159,SPP,TCF3,PI4KA,leukocytes,TCF3 IP - GM12878 cells
+160,SPP,HEY1,PI4KA,leukocytes,HEY1 IP - K562 cells
+161,SPP,SIX1,PI4KA,kidney,"SIX1 IP - 17 weeks, Rep 1"
+162,SPP,EGR1,PI4KA,leukocytes,"EGR1 IP - GM12878 cells, Rep 1, EGR1 IP - K562 cells"
+163,SPP,FOXA2,PI4KA,liver,FOXA2 IP - HepG2 cells
+164,SPP,ZEB1,PI4KA,liver,ZEB1 IP - HepG2 cells
+165,SPP,TEAD4,PI4KA,uterus,TEAD4 IP - ECC1 cells
+166,SPP,E2F1,PI4KA,mammarygland,"E2F1 IP, E2F1 IP - MCF7 cells"
+167,SPP,MXI1,PI4KA,lung,MXI1 IP - IMR cells
+168,SPP,TCF12,PI4KA,lung,TCF12 IP - A549 cells
+169,SPP,MAX,PI4KA,colon,MAX IP - HCT116 cells
+170,SPP,JUND,PI4KA,colon,JUND IP - HCT116 cells
+171,SPP,ZBTB7A,PI4KA,liver,ZBTB7A IP - HepG2 cells
+172,SPP,JUND,PI4KA,leukocytes,"JUND IP - GM12878 cells, Rep 1 , JUND IP - K562 cells"
+173,SPP,GATA3,PI4KA,cns,GATA3 IP - SK-N-SH cells
+174,SPP,MYBL2,PI4KA,liver,MYBL2 IP - HepG2 cells
+175,SPP,GABPA,PI4KA,liver,"GABPA IP - HepG2 cells, GABPA IP, GABPA IP - MCF7 cells"
+176,SPP,HOXA6,PI4KA,colon,HOXA6 IP 
+177,SPP,EBF1,PI4KA,leukocytes,"EBF1 IP - GM12878 cells, EBF1 IP - GM12878 cells"
+178,SPP,KLF5,PI4KA,stomach,KLF5 IP - KATOIII
+179,SPP,JUND,PI4KA,liver,"JUND IP - HepG2 cells, JUND IP - HepG2 cells"
+180,SPP,GATA1,PI4KA,leukocytes,"GATA1 ChIP-Seq - SC266, GATA1 ChIP-Seq - K562"
+181,SPP,ZNF263,PI4KA,leukocytes,ZNF263 IP - K562 cells
+182,SPP,ZNF384,PI4KA,leukocytes,ZNF384 IP - K562 cells
+183,SPP,SP1,PI4KA,stemcells,SP1 IP - H1 cells
+184,SPP,SIX5,PI4KA,stemcells,SIX5 IP - H1 cells
+185,SPP,CPDA,PI4KA,mammarygland,JUN IP | CPDA
+186,SPP,E2F4,PI4KA,mammarygland,E2F4 IP | 4HT - MCF10 cells
+187,SPP,GABPA,PI4KA,cns,GABPA IP - SK-N-SH cells
+188,SPP,EGR1,PI4KA,colon,EGR1 IP - HCT116 cells
+189,SPP,CTCF,PI4KA,skin,"CTCF IP - GM12878 cells, Rep 2 , CTCF IP - AG04449 cells, Rep 1 "
+190,SPP,MAFK,PI4KA,leukocytes,"MAFK IP - K562 cells, MAFK IP - K562 cells, MAFK IP - GM12878 cells"
+191,SPP,MAFK,PI4KA,uterus,MAFK IP - HeLa cells
+192,SPP,STAT1,PI4KA,uterus,"STAT1 IP | IFNG - HeLa cells, 30 min"
+193,SPP,IFNG,PI4KA,uterus,"STAT1 IP | IFNG - HeLa cells, 30 min"
+194,SPP,CTCF,PI4KA,colon,CTCF IP - Caco 
+195,SPP,STAT5B,PI4KA,leukocytes,"STAT5B IP | H9, Rep 2, STAT5B IP | H9RET, Rep 2"
+196,SPP,H9,PI4KA,leukocytes,"STAT5B IP | H9, Rep 2"
+197,SPP,USF2,PI4KA,stemcells,USF2 IP - H1 cells
+198,SPP,CTCF,PI4KA,cns,"CTCF IP - SK-N-SH cells , CTCF IP - HCPEpiC cells, Rep 1 "
+199,SPP,ELF1,PI4KA,cns,ELF1 IP - SK-N-SH cells
+200,SPP,REST,PI4KA,liver,"REST IP - HepG2 cells, Rep 2"
+201,SPP,ARID3A,PI4KA,leukocytes,ARID3A IP - K562 cells
+202,SPP,MXI1,PI4KA,stemcells,MXI1 IP - H1 cells
+203,SPP,HEY1,PI4KA,liver,HEY1 IP - HepG2 cells
+204,SPP,TBP,PI4KA,stemcells,TBP IP - H1 cells
+205,SPP,FOSL1,PI4KA,colon,FOSL1 IP - HCT116 cells
+206,SPP,ZEB1,PI4KA,leukocytes,ZEB1 IP - GM12878 cells
+207,SPP,ATF1,PI4KA,leukocytes,ATF1 IP - K562 cells
+208,SPP,SREBF1,PI4KA,liver,SREBF1 IP | INS + 22RHC - HepG2 cells
+209,SPP,22RHC; INS,PI4KA,liver,SREBF1 IP | INS + 22RHC - HepG2 cells
+210,SPP,ATF2,PI4KA,leukocytes,ATF2 IP - GM12878 cells
+211,SPP,SP1,PI4KA,liver,SP1 IP - HepG2 cells
+212,SPP,ZBTB17,PI4KA,bone,ZBTB17 IP
+213,SPP,BHLHE40,PI4KA,liver,BHLHE40 IP - HepG2 cells
+214,SPP,YY1,PI4KA,colon,YY1 IP - HCT116 cells
+215,SPP,ARID3A,PI4KA,liver,ARID3A IP - HepG2 cells
+216,SPP,JUND,PI4KA,stemcells,"JUND IP - H1 cells, JUND IP - H1 cells"
+217,SPP,CTCF,PI4KA,sensory,"CTCF IP - WERI-Rb-1- cells, Rep 1 "
+218,SPP,JUND,PI4KA,lung,JUND IP - A549 cells
+219,SPP,FOXP2,PI4KA,cns,FOXP2 IP - PFSK-1 cells
+220,SPP,E2F6,PI4KA,stemcells,E2F6 IP - H1 cells
+221,SPP,MAX,PI4KA,vasculature,MAX IP - HUVEC cells
+222,SPP,CTCF,PI4KA,megakaryocytelineage,"CTCF IP - MEG-01 cells, Rep 8 "
+223,SPP,DHT,PI4KA,prostate,"DHT | ERG ChIP-Seq - 18 h, DHT | ERG ChIP-Seq - 2 h, DHT | FOXA1 ChIP-Seq"
+224,SPP,SP1,PI4KA,leukocytes,"SP1 IP - K562 cells, SP1 IP - GM12878 cells"
+225,SPP,E2F1,PI4KA,uterus,"E2F1 IP - HeLa cells, Rep 2, E2F1 IP - HeLa cells, Rep 1"
+226,SPP,ELK1,PI4KA,leukocytes,"ELK1 IP - K562 cells, ELK1 IP - GM12878 cells"
+227,SPP,ELF1,PI4KA,liver,ELF1 IP - HepG2 cells
+228,SPP,YY1,PI4KA,cns,"YY1 IP - SK-N-SH cells, YY1 IP | ATRA - SK-N-SH cells"
+229,SPP,POU2F2,PI4KA,leukocytes,POU2F2 IP - GM12878 cells
+230,SPP,SP1,PI4KA,lung,SP1 IP - A549 cells
+231,SPP,YY1,PI4KA,liver,YY1 IP - HepG2 cells
+232,SPP,CREB1,PI4KA,stemcells,CREB1 IP - H1 cells
+233,SPP,RUNX1T1,PI4KA,leukocytes,RUNX1T1 IP
+234,SPP,BHLHE40,PI4KA,lung,BHLHE40 IP - A549 cells
+235,SPP,CEBPB,PI4KA,lung,CEBPB ChIP-Seq - IMR90
+236,SPP,FLI1,PI4KA,hspcs,FLI1 IP
+237,SPP,MAFF,PI4KA,liver,MAFF IP - HepG2 cells
+238,SPP,ZBTB7A,PI4KA,uterus,ZBTB7A IP - ECC1 cells
+239,SPP,NANOG,PI4KA,stemcells,NANOG IP - H1 cells
+240,SPP,JUN,PI4KA,colon,JUN IP 
+241,SPP,ATF3,PI4KA,stemcells,ATF3 IP - H1 cells
+242,SPP,PBX3,PI4KA,cns,PBX3 IP - SK-N-SH cells
+243,SPP,ZNF263,PI4KA,kidney,ZNF263 IP - HEK293 cells
+244,SPP,MAZ,PI4KA,lung,MAZ IP - IMR cells
+245,SPP,FOXA2,PI4KA,embryonictissue,FOXA2 IP - Rep 2
+246,SPP,ELF1,PI4KA,leukocytes,"ELF1 IP - SK-N-SH cells, ELF1 IP - SK-N-SH cells"
+247,SPP,TP53,PI4KA,mammarygland,TP53 IP
+248,SPP,E2F4,PI4KA,uterus,E2F4 IP - HeLa cells
+249,SPP,ELF1,PI4KA,mammarygland,ELF1 IP - MCF7 cells
+250,SPP,TCF12,PI4KA,leukocytes,TCF12 IP - GM12878 cells
+251,SPP,REST,PI4KA,leukocytes,REST IP - K562 cells
+252,SPP,SRF,PI4KA,leukocytes,SRF IP - K562 cells
+253,SPP,BCL3,PI4KA,leukocytes,BCL3 IP - K562 cells
+254,SPP,YY1,PI4KA,uterus,YY1 IP - ECC1 cells
+255,SPP,MAX,PI4KA,cns,MAX IP - SK-N-SH cells
+256,SPP,CTCF,PI4KA,vasculature,"CTCF IP - HBMEC cells, Rep 1 "
+257,SPP,H9RET,PI4KA,leukocytes,"STAT5B IP | H9RET, Rep 2"
+258,SPP,ZNF143,PI4KA,stemcells,ZNF143 IP - H1 cells
+259,SPP,GATA2,PI4KA,hspcs,GATA2 IP
+260,SPP,CEBPB,PI4KA,uterus,CEBPB ChIP-Seq - HeLaS3
+261,SPP,ROSI,PI4KA,leukocytes,ROSI | SPI1 ChIP-Seq
+262,SPP,FOXM1,PI4KA,leukocytes,FOXM1 IP - GM12878 cells
+263,SPP,MAFK,PI4KA,lung,MAFK IP - IMR cells
+264,SPP,GTF2B,PI4KA,uterus,GTF2B IP - Rep 2
+265,SPP,SRF,PI4KA,uterus,SRF IP - ECC1 cells
+266,SPP,SRF,PI4KA,stemcells,SRF IP - Rep 6 
+267,SPP,MXI1,PI4KA,liver,MXI1 IP - HepG2 cells
+268,SPP,HIF1A,PI4KA,bone,HIF1A IP
+269,SPP,MAFF,PI4KA,leukocytes,MAFF IP - K562 cells

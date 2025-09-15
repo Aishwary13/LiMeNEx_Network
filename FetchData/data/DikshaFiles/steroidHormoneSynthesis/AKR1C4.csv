@@ -1,0 +1,63 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,JUN,AKR1C4,vasculature,JUN IP
+SPP,CTCF,AKR1C4,mammarygland,"CTCF IP - MCF-7 cells, Rep 1 , CTCF IP - MCF7 cells, CTCF IP - MCF-7 cells Rep 2 , CTCF IP - T47D cells, CTCF IP - HMEC cells, Rep 1 "
+SPP,FOXA1,AKR1C4,prostate,"FOXA1 ChIP-Seq, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1"
+SPP,CEBPB,AKR1C4,leukocytes,"CEBPB IP - HL-60 cells, Rep 2 , CEBPB IP - K562 cells, CEBPB IP - HL-60 cells, Rep 1 , CEBPB ChIP-Seq - K562"
+SPP,CTCF,AKR1C4,lung,"CTCF IP - A549 cells , CTCF ChIP-Seq - A549, CTCF IP - A549 cells, CTCF IP | DEX - A549 cells , CTCF IP - A549 cells, Rep 2 "
+SPP,CTCF,AKR1C4,megakaryocytelineage,"CTCF IP - MEG-01 cells, Rep 2 , CTCF IP - MEG-01 cells, Rep 4 , CTCF IP - MEG-01 cells, Rep 6 , CTCF IP - MEG-01 cells, Rep 8 "
+SPP,REST,AKR1C4,lung,REST IP - A549 cells
+SPP,CTCF,AKR1C4,leukocytes,"CTCF ChIP-Seq - GM12878, CTCF IP - K562 cells, CTCF IP - K562 cells, Rep 14 , CTCF IP - K562 cells , CTCF IP - K562 cells, CTCF IP - K562 cells, Rep 1 , CTCF IP - K562 cells, Rep 12 , CTCF IP - HeLa cells, Rep 2 "
+SPP,SPI1,AKR1C4,leukocytes,"SPI1 IP, SPI1 IP, SPI1 IP - HL cells, SPI1 IP, SPI1 IP, SPI1 IP - HL-60 cells, Rep 4 "
+SPP,CTCF,AKR1C4,stemcells,"CTCF IP - H1 cells , CTCF IP - Rep 5 , CTCF IP - Rep 6 , CTCF IP - H1 cells"
+SPP,JUND,AKR1C4,vasculature,JUND IP
+SPP,TEAD4,AKR1C4,liver,TEAD4 IP - HepG2 cells
+SPP,CDX2,AKR1C4,colon,"CDX2 IP, CDX2 IP | 125DVD3"
+SPP,CREB1,AKR1C4,prostate,"CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1"
+SPP,FOXA1,AKR1C4,pancreas,"FOXA1 IP, FOXA1 IP"
+SPP,CTCF,AKR1C4,uterus,CTCF IP - HeLa cells 
+SPP,GATA3,AKR1C4,lung,GATA3 IP - A549 cells
+SPP,CEBPB,AKR1C4,colon,"CEBPB IP, CEBPB IP | 125DVD3"
+SPP,FOXA1,AKR1C4,lung,"FOXA1 IP | DEX - A549 cells, FOXA1 IP - A549 cells"
+SPP,DEX,AKR1C4,lung,"FOXA1 IP | DEX - A549 cells, CTCF IP | DEX - A549 cells "
+SPP,AR,AKR1C4,prostate,"AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1"
+SPP,125DVD3,AKR1C4,colon,"CDX2 IP | 125DVD3, CEBPB IP | 125DVD3"
+SPP,ELF3,AKR1C4,pancreas,ELF3 IP
+SPP,DHT,AKR1C4,prostate,DHT | FOXA1 ChIP-Seq
+SPP,CTCF,AKR1C4,cns,"CTCF IP - BE(2)-C cells, Rep 2 "
+SPP,KLF5,AKR1C4,stomach,KLF5 IP - KATOIII
+SPP,CTCF,AKR1C4,liver,"CTCF IP - HepG2 cells, Rep 1 "
+SPP,MAX,AKR1C4,liver,"MAX IP - MCF7 cells, MAX IP - HepG2 cells"
+SPP,FOXA1,AKR1C4,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 1, FOXA1 IP - T47D cells, FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1"
+SPP,DEX,AKR1C4,mammarygland,DEX | FOXA1 ChIP-Seq - Rep 1
+SPP,CTCF,AKR1C4,kidney,"CTCF IP - RPTEC cells, Rep 2 , CTCF IP - HEK293 cells, Rep 1 , CTCF IP - HEK293 cells, Rep 2 , CTCF IP - RPTEC cells, Rep 1 "
+SPP,FOXA2,AKR1C4,liver,FOXA2 IP - HepG2 cells
+SPP,ARID3A,AKR1C4,liver,ARID3A IP - HepG2 cells
+SPP,FOSL2,AKR1C4,lung,FOSL2 IP - A549 cells
+SPP,FOSL2,AKR1C4,liver,FOSL2 IP - HepG2 cells
+SPP,CEBPB,AKR1C4,liver,"CEBPB ChIP-Seq - HepG2, CEBPB IP - HepG2 cells"
+SPP,CEBPB,AKR1C4,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,CEBPB,AKR1C4,lung,"CEBPB IP - A549 cells, CEBPB ChIP-Seq - A549"
+SPP,SP1,AKR1C4,liver,SP1 IP - HepG2 cells
+SPP,CTCF,AKR1C4,colon,"CTCF IP - HCT116 cells, Rep 1 "
+SPP,FOXH1,AKR1C4,stemcells,FOXH1 ChIP-Seq - Escs
+SPP,FOS,AKR1C4,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h"
+SPP,4HT,AKR1C4,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h"
+SPP,MAX,AKR1C4,lung,MAX IP - A549 cells
+SPP,E2F6,AKR1C4,lung,E2F6 IP - A549 cells
+SPP,JUND,AKR1C4,liver,JUND IP - HepG2 cells
+SPP,MYBL2,AKR1C4,liver,MYBL2 IP - HepG2 cells
+SPP,FOXA2,AKR1C4,lung,FOXA2 IP - A549 cells
+SPP,HNF1B,AKR1C4,pancreas,HNF1B IP
+SPP,TCF12,AKR1C4,lung,TCF12 IP - A549 cells
+SPP,17BE2,AKR1C4,mammarygland,17BE2 | FOXA1 ChIP-Seq - Rep 1
+SPP,HIF1A,AKR1C4,bone,HIF1A IP
+SPP,CTCF,AKR1C4,bone,CTCF IP - Osteoblasts 
+SPP,RELA,AKR1C4,adiposetissue,RELA IP
+SPP,SRF,AKR1C4,stemcells,SRF IP - Rep 7 
+SPP,FOXA1,AKR1C4,liver,"FOXA1 IP - HepG2 cells, Rep 1, FOXA1 IP - HepG2 cells, Rep 2"
+SPP,KLF5,AKR1C4,pancreas,KLF5 IP
+SPP,HNF1A,AKR1C4,colon,HNF1A IP
+SPP,USF1,AKR1C4,lung,"USF1 IP - A549 cells, Rep 2"
+SPP,IRF1,AKR1C4,pancreas,IRF1 IP
+SPP,BCL3,AKR1C4,lung,BCL3 IP - A549 cells
+SPP,SP1,AKR1C4,lung,SP1 IP - A549 cells

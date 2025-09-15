@@ -1,0 +1,41 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,JUND,CYP7A1,vasculature,JUND IP
+1,SPP,CTCF,CYP7A1,leukocytes,"CTCF IP - MS1 cells, Rep 2 , CTCF IP - MS1 cells, Rep 3 , CTCF IP - GM12891 cells, Rep 2 , CTCF IP - GM19240 cells, Rep 1 , CTCF IP - GM19240 cells, Rep 2 , CTCF IP - GM12891 cells, Rep 1 , CTCF IP - MS1 cells, Rep 4 "
+2,SPP,FOXA1,CYP7A1,prostate,"GATA2 KD + R1881 | FOXA1 ChIP-Seq, AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, EtOH | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - LNCaP-abl, FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD  | FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, FOXA1 KD | GATA2 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, EtOH | FOXA1 ChIP-Seq - , PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, AR Q640X OE + FOXA1 OE | FOXA1 ChIP-Seq, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1"
+3,SPP,R1881,CYP7A1,prostate,"GATA2 KD + R1881 | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2"
+4,SPP,GATA2,CYP7A1,prostate,"GATA2 KD + R1881 | FOXA1 ChIP-Seq, GATA2 ChIP-Seq - Rep 1, GATA2 ChIP-Seq - Rep 2, FOXA1 KD | GATA2 ChIP-Seq, GATA2 ChIP-Seq"
+5,SPP,SRF,CYP7A1,stemcells,SRF IP - Rep 7 
+6,SPP,AR,CYP7A1,prostate,"AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, AR Q640X OE + FOXA1 OE | FOXA1 ChIP-Seq"
+7,SPP,MAFK,CYP7A1,liver,"MAFK IP - HepG2 cells, Rep 1, MAFK IP - HepG2 cells, Rep 2"
+8,SPP,FOXA2,CYP7A1,liver,FOXA2 IP - HepG2 cells
+9,SPP,GATA3,CYP7A1,mammarygland,GATA3 IP - MCF7 cells
+10,SPP,DHT,CYP7A1,prostate,"DHT | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq"
+11,SPP,CTCF,CYP7A1,megakaryocytelineage,"CTCF IP - MEG-01 cells, Rep 8 , CTCF IP - MEG-01 cells, Rep 2 "
+12,SPP,FOXA1,CYP7A1,stemcells,FOXA1 IP - Rep 5 
+13,SPP,CEBPB,CYP7A1,leukocytes,"CEBPB IP, CEBPB IP, CEBPB IP"
+14,SPP,FOXA1,CYP7A1,liver,"FOXA1 IP - HepG2 cells, Rep 2, FOXA1 IP - HepG2 cells, Rep 1"
+15,SPP,FOS,CYP7A1,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP - MCF10A cells"
+16,SPP,4HT,CYP7A1,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h"
+17,SPP,MAFF,CYP7A1,liver,MAFF IP - HepG2 cells
+18,SPP,JUN,CYP7A1,liver,JUN IP - HepG2 cells
+19,SPP,CEBPB,CYP7A1,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP"
+20,SPP,CREB1,CYP7A1,prostate,"CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2"
+21,SPP,FOS,CYP7A1,uterus,FOS IP - HeLa cells
+22,SPP,ZEB1,CYP7A1,liver,ZEB1 IP - HepG2 cells
+23,SPP,CEBPB,CYP7A1,liver,"CEBPB IP - HepG2 cells, CEBPB ChIP-Seq - HepG2"
+24,SPP,MYBL2,CYP7A1,liver,MYBL2 IP - HepG2 cells
+25,SPP,FOSL2,CYP7A1,liver,FOSL2 IP - HepG2 cells
+26,SPP,SPI1,CYP7A1,leukocytes,"SPI1 IP, SPI1 IP"
+27,SPP,CTCF,CYP7A1,kidney,"CTCF IP - RPTEC cells, Rep 1 "
+28,SPP,SP1,CYP7A1,liver,SP1 IP - HepG2 cells
+29,SPP,JUN,CYP7A1,vasculature,JUN IP
+30,SPP,HEY1,CYP7A1,liver,HEY1 IP - HepG2 cells
+31,SPP,JUND,CYP7A1,liver,JUND IP - HepG2 cells
+32,SPP,PIAS1,CYP7A1,prostate,PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2
+33,SPP,CTCF,CYP7A1,stemcells,"CTCF IP - Rep 6 , CTCF IP - H1 cells "
+34,SPP,CTCF,CYP7A1,colon,"CTCF IP - HCT116 cells, Rep 1 "
+35,SPP,TEAD4,CYP7A1,liver,TEAD4 IP - HepG2 cells
+36,SPP,ARID3A,CYP7A1,liver,ARID3A IP - HepG2 cells
+37,SPP,ELF1,CYP7A1,leukocytes,ELF1 IP - SK-N-SH cells
+38,SPP,MAX,CYP7A1,leukocytes,MAX IP - K562 cells
+39,SPP,JUND,CYP7A1,leukocytes,JUND IP - K562 cells

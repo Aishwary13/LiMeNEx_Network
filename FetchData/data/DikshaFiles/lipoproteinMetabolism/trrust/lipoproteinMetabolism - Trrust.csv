@@ -1,0 +1,88 @@
+TargetGene,TF,Library/PMID,Tissue,Pubmed_Link,Paper_Link
+ABCA1,FOXA1,24807696,Liver,https://pubmed.ncbi.nlm.nih.gov/24807696/,https://www.sciencedirect.com/science/article/pii/S1874939914001047?via%3Dihub
+ABCA1,FOXA2,24807696,Liver,https://pubmed.ncbi.nlm.nih.gov/24807696/,https://www.sciencedirect.com/science/article/pii/S1874939914001047?via%3Dihub
+ABCA1,RELA,17135302,"Leukocytes, Lung",https://pubmed.ncbi.nlm.nih.gov/17135302/,https://journals.physiology.org/doi/full/10.1152/ajpcell.00016.2006
+ABCA1,SP1,11264984,Liver,https://pubmed.ncbi.nlm.nih.gov/11264984/,"https://journals.lww.com/co-lipidology/abstract/2001/04000/structure,_function_and_regulation_of_the_abc1.6.aspx"
+ABCA1,NFKB1,17135302,"Leukocytes, Lung",https://pubmed.ncbi.nlm.nih.gov/17135302/,https://journals.physiology.org/doi/full/10.1152/ajpcell.00016.2006
+ABCA1,NR1H2,16141411,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/16141411/,https://www.ahajournals.org/doi/10.1161/01.RES.0000184678.43488.9f
+ABCA1,NR1H3,11264984,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/11264984/,"https://journals.lww.com/co-lipidology/abstract/2001/04000/structure,_function_and_regulation_of_the_abc1.6.aspx"
+ABCA1,RXRA,14764426,"Liver, Kidney",https://pubmed.ncbi.nlm.nih.gov/14764426/,https://www.ahajournals.org/doi/10.1161/01.ATV.0000121202.72593.da
+ABCA1,SP3,15922656,"Liver, Leukocytes, Colon, Adrenal Gland, Colon, Rectum, Duodenum 
+",https://pubmed.ncbi.nlm.nih.gov/15922656/,https://www.sciencedirect.com/science/article/pii/S1388198105000892?via%3Dihub
+ABCA1,SREBF2,15922656,"Liver, Leukocytes, Colon, Adrenal Gland, Colon, Rectum, Duodenum 
+",https://pubmed.ncbi.nlm.nih.gov/15922656/,https://www.sciencedirect.com/science/article/pii/S1388198105000892?via%3Dihub
+ABCA1,STAT3,19783654,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/19783654/,https://www.sciencedirect.com/science/article/pii/S002192582037825X?via%3Dihub
+ABCA1,USF1,11861672,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/11861672/,
+ABCA1,USF2,11861672,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/11861672/,
+ABCA1,ZNF202,15922656,"Liver, Leukocytes, Colon, Adrenal Gland, Colon, Rectum, Duodenum 
+",https://pubmed.ncbi.nlm.nih.gov/15922656/,https://www.sciencedirect.com/science/article/pii/S1388198105000892?via%3Dihub
+LCAT,SP1,9610763,"Liver, Uterus",https://pubmed.ncbi.nlm.nih.gov/9610763/,
+LCAT,SP3,9610763,"Liver, Uterus",https://pubmed.ncbi.nlm.nih.gov/9610763/,
+LCAT,STAT3,12032172,Liver,https://pubmed.ncbi.nlm.nih.gov/12032172/,
+PLTP,NR1H4,10998425,Liver,https://pubmed.ncbi.nlm.nih.gov/10998425/,https://linkinghub.elsevier.com/retrieve/pii/S0021925819558677
+CETP,NR5A2,11331284,Liver,https://pubmed.ncbi.nlm.nih.gov/11331284/,https://www.sciencedirect.com/science/article/pii/S0021925820795487?via%3Dihub
+CETP,PPARA,18481130,Liver,https://pubmed.ncbi.nlm.nih.gov/18481130/,https://aocs.onlinelibrary.wiley.com/doi/10.1007/s11745-008-3187-0
+CETP,SP1,10669650,Liver,https://pubmed.ncbi.nlm.nih.gov/10669650/,https://www.ahajournals.org/doi/10.1161/01.ATV.20.2.507
+CETP,SP3,10669650,Liver,https://pubmed.ncbi.nlm.nih.gov/10669650/,https://www.ahajournals.org/doi/10.1161/01.ATV.20.2.507
+CETP,SREBF1,10393213,Adipose Tissue,https://pubmed.ncbi.nlm.nih.gov/10393213/,
+CETP,YY1,10393213,Adipose Tissue,https://pubmed.ncbi.nlm.nih.gov/10393213/,
+CETP,NR1H3,18562803,Liver,https://pubmed.ncbi.nlm.nih.gov/18562803/,
+LPL,PPARA,10634806,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/10634806/,https://www.ahajournals.org/doi/10.1161/01.ATV.20.1.104
+LPL,PPARD,10634806,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/10634806/,https://www.ahajournals.org/doi/10.1161/01.ATV.20.1.104
+LPL,SP1,18793716,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/18793716/,https://www.sciencedirect.com/science/article/pii/S089865680800260X?via%3Dihub
+LPL,SP3,11073119,"Liver, Kidney, Bone",https://pubmed.ncbi.nlm.nih.gov/11073119/,
+LPL,RELA,20200316,Vasculature,https://pubmed.ncbi.nlm.nih.gov/20200316/,https://diabetesjournals.org/diabetes/article/59/6/1292/33422/Local-Non-Esterified-Fatty-Acids-Correlate-With
+LPL,NFKB1,20200316,Vasculature,https://pubmed.ncbi.nlm.nih.gov/20200316/,https://diabetesjournals.org/diabetes/article/59/6/1292/33422/Local-Non-Esterified-Fatty-Acids-Correlate-With
+LIPC,USF1,19416648,Liver,https://pubmed.ncbi.nlm.nih.gov/19416648/,https://www.sciencedirect.com/science/article/pii/S1388198109000201?via%3Dihub
+LIPC,USF1,15721010,Liver,https://pubmed.ncbi.nlm.nih.gov/15721010/,https://www.sciencedirect.com/science/article/pii/S0021915004005647?via%3Dihub
+LIPC,USF2,19416648,Liver,https://pubmed.ncbi.nlm.nih.gov/19416648/,https://www.sciencedirect.com/science/article/pii/S1388198109000201?via%3Dihub
+LIPC,HNF4A,16603721,Liver,https://pubmed.ncbi.nlm.nih.gov/16603721/,https://www.sciencedirect.com/science/article/pii/S0021915004005647?via%3Dihub
+LIPC,SREBF2,15721010,Liver,https://pubmed.ncbi.nlm.nih.gov/15721010/,https://www.sciencedirect.com/science/article/pii/S0021915004005647?via%3Dihub
+LDLR,SREBF2,15721010,Liver,https://pubmed.ncbi.nlm.nih.gov/15721010/,https://www.sciencedirect.com/science/article/pii/S0021915004005647?via%3Dihub
+LDLR,USF1,19416648,Liver,https://pubmed.ncbi.nlm.nih.gov/19416648/,https://www.sciencedirect.com/science/article/pii/S1388198109000201?via%3Dihub
+LDLR,USF1,15721010,Liver,https://pubmed.ncbi.nlm.nih.gov/15721010/,https://www.sciencedirect.com/science/article/pii/S0021915004005647?via%3Dihub
+LDLR,USF2,19416648,Liver,https://pubmed.ncbi.nlm.nih.gov/19416648/,https://www.sciencedirect.com/science/article/pii/S1388198109000201?via%3Dihub
+SCARB1,SPI1,8007948,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/8007948/,https://www.tandfonline.com/doi/abs/10.1128/mcb.14.7.4408-4418.1994
+SCARB1,STAT1,17998316,Liver,https://pubmed.ncbi.nlm.nih.gov/17998316/,https://gut.bmj.com/content/57/5/664
+SCARB1,STAT2,17998316,Liver,https://pubmed.ncbi.nlm.nih.gov/17998316/,https://gut.bmj.com/content/57/5/664
+SCARB1,NR1H4,20956002,Liver,https://pubmed.ncbi.nlm.nih.gov/20956002/,https://www.sciencedirect.com/science/article/pii/S0021915010007446?via%3Dihub
+MTTP,HNF1A,22357705,"Liver, Kidney, Colon",https://pubmed.ncbi.nlm.nih.gov/22357705/,https://www.sciencedirect.com/science/article/pii/S0022227520392208?via%3Dihub
+MTTP,HNF4A,22357705,"Liver, Kidney, Colon",https://pubmed.ncbi.nlm.nih.gov/22357705/,https://www.sciencedirect.com/science/article/pii/S0022227520392208?via%3Dihub
+MTTP,NR2F1,22357705,"Liver, Kidney, Colon",https://pubmed.ncbi.nlm.nih.gov/22357705/,https://www.sciencedirect.com/science/article/pii/S0022227520392208?via%3Dihub
+MTTP,SREBF2,10455139,Liver,https://pubmed.ncbi.nlm.nih.gov/10455139/,https://www.sciencedirect.com/science/article/pii/S0021925819554059?via%3Dihub
+APOA1,HNF4A,7961760,Liver,https://pubmed.ncbi.nlm.nih.gov/7961760/,
+APOA1,SP1,10829013,Liver,https://pubmed.ncbi.nlm.nih.gov/10829013/,https://www.sciencedirect.com/science/article/pii/S0021925820892485?via%3Dihub
+APOA1,FOXA2,7961760,Liver,https://pubmed.ncbi.nlm.nih.gov/7961760/,
+APOA1,GATA6,14659877,Liver,https://pubmed.ncbi.nlm.nih.gov/14659877/,https://www.sciencedirect.com/science/article/pii/S0378111903008643?via%3Dihub
+APOE,SP1,11229886,Liver,https://pubmed.ncbi.nlm.nih.gov/11229886/,https://www.imrpress.com/journal/FBL/6/3/10.2741/zannis
+APOE,FOXM1,11229886,Liver,https://pubmed.ncbi.nlm.nih.gov/11229886/,https://www.imrpress.com/journal/FBL/6/3/10.2741/zannis
+APOE,SP1,11229886,Liver,https://pubmed.ncbi.nlm.nih.gov/11229886/,https://www.imrpress.com/journal/FBL/6/3/10.2741/zannis
+APOE,ATF4,22028770,"Liver, CNS, Kidney",https://pubmed.ncbi.nlm.nih.gov/22028770/,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0024669
+APOA2,USF2,9880489,Liver,https://pubmed.ncbi.nlm.nih.gov/9880489/,https://www.sciencedirect.com/science/article/pii/S0021925819882261?via%3Dihub
+APOA2,USF1,9880489,Liver,https://pubmed.ncbi.nlm.nih.gov/9880489/,https://www.sciencedirect.com/science/article/pii/S0021925819882261?via%3Dihub
+APOA2,NR2F1,1639815,"Liver, Colon ,rectum, jejunum, duodenum",https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOA2,HNF4A,1639815,"Liver, Colon ,rectum, jejunum, duodenum",https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOA2,NR2F6,1639815,"Liver, Colon ,rectum, jejunum, duodenum",https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOB,PPARG,16542871,Liver,https://pubmed.ncbi.nlm.nih.gov/16542871/,https://www.sciencedirect.com/science/article/pii/S1388198106000308?via%3Dihub
+APOB,PPARA,11925428,Liver,https://pubmed.ncbi.nlm.nih.gov/11925428/,https://www.sciencedirect.com/science/article/pii/S0021925819669097?via%3Dihub
+APOB,FOXA1,8441395,Liver,https://pubmed.ncbi.nlm.nih.gov/8441395/,
+APOB,HNF4A,1639815,Liver,https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOB,NR2F6,1639815,Liver,https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOB,NR2F1,1639815,Liver,https://pubmed.ncbi.nlm.nih.gov/1639815/,
+ABCG1,NR1H2,16141411,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/16141411/,https://www.ahajournals.org/doi/10.1161/01.RES.0000184678.43488.9f
+ABCG1,NR1H3,18580406,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/18580406/,https://journals.lww.com/acsm-msse/fulltext/2008/07000/low_intensity_exercise_exerts_beneficial_effects.10.aspx
+ABCG1,NR1H3,16141411,"Liver, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/16141411/,https://www.ahajournals.org/doi/10.1161/01.RES.0000184678.43488.9f
+APOA4,PPARA,19433068,Liver,https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOC3,NR2F1,1639815,Liver,https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOC3,NR2F6,1639815,Liver,https://pubmed.ncbi.nlm.nih.gov/1639815/,
+APOC3,PPARA,10494028,Liver,https://pubmed.ncbi.nlm.nih.gov/10494028/,https://karger.com/cpb/article-abstract/9/3/139/74377/Cell-Culture-Conditions-Determine-Apolipoprotein?redirectedFrom=fulltext
+APOC3,PPARGC1A,16891307,Liver,https://pubmed.ncbi.nlm.nih.gov/16891307/,https://www.sciencedirect.com/science/article/pii/S0021925819338918?via%3Dihub
+APOC3,SMAD4,10995777,Liver,https://pubmed.ncbi.nlm.nih.gov/10995777/,https://www.sciencedirect.com/science/article/pii/S0021925819556800?via%3Dihub
+APOC3,SP1,7640286,Liver,https://pubmed.ncbi.nlm.nih.gov/7640286/,https://pubs.acs.org/doi/abs/10.1021/bi00032a025
+APOC3,ATF2,9760243,Liver,https://pubmed.ncbi.nlm.nih.gov/9760243/,https://pubs.acs.org/doi/10.1021/bi9804176
+APOC3,HDAC1,20516075,Uterus,https://pubmed.ncbi.nlm.nih.gov/20516075/,https://www.sciencedirect.com/science/article/pii/S0021925820663542?via%3Dihub
+APOC3,HDAC3,20516075,Uterus,https://pubmed.ncbi.nlm.nih.gov/20516075/,https://www.sciencedirect.com/science/article/pii/S0021925820663542?via%3Dihub
+APOC3,HNF4A,20516075,Uterus,https://pubmed.ncbi.nlm.nih.gov/20516075/,https://www.sciencedirect.com/science/article/pii/S0021925820663542?via%3Dihub
+APOC3,HNF4A,1639815,Liver,https://pubmed.ncbi.nlm.nih.gov/1639815/,https://pubs.acs.org/doi/10.1021/bi9804176
+APOC3,JUN,9760243,Liver,https://pubmed.ncbi.nlm.nih.gov/9760243/,https://pubs.acs.org/doi/10.1021/bi9804176
+APOC3,NROB2,20516075,Uterus,https://pubmed.ncbi.nlm.nih.gov/20516075/,https://www.sciencedirect.com/science/article/pii/S0021925820663542?via%3Dihub

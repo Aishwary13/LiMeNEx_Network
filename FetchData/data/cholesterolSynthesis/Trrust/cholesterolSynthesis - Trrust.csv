@@ -1,0 +1,14 @@
+TargetGene,TF,Library/PMID,Tissue,Paper Links
+ACAT2,"CDX2,HNF1A",16274362,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=16274362
+ACAT2,HNF4A,19478207,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=19478207
+HMGCS1,HDAC1,12626711,Colon,http://www.ncbi.nlm.nih.gov/pubmed/?term=12626711
+HMGCR,SREBF2,17448444,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=17448444
+HMGCR,SREBF2,19288057,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=19288057
+GGPS1,EGR1,21983072,Lung,http://www.ncbi.nlm.nih.gov/pubmed/?term=21983072
+FDPS,NFYC,20450493,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=20450493
+FDPS,SREBF1,8798690,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=8798690
+FDPS,SREBF2,20450493,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=20450493
+FDPS,YY1,10318878,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=10318878
+FDFT1,"SREBF1, SREBF2",11111077,Liver,https://pubmed.ncbi.nlm.nih.gov/11111077/
+LSS,"YY1, HDAC3","17925399, 17925399",Liver,https://pubmed.ncbi.nlm.nih.gov/17925399/
+DHCR24,SP1,22431021,Liver,http://www.ncbi.nlm.nih.gov/pubmed/?term=22431021

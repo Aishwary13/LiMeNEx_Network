@@ -1,0 +1,118 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,FOXA1,AKR1C1,prostate,"FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, EtOH | FOXA1 ChIP-Seq - , AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, POU2F1 KD + DHT | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, GATA2 KD + R1881 | FOXA1 ChIP-Seq, EtOH | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CON KD  | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq, FOXA1 KD | FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1, FOXA1 KD | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - LNCaP, FOXA1 ChIP-Seq - LNCaP-abl, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD | FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, GATA2 KD  | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1"
+SPP,YY1,AKR1C1,lung,YY1 IP - A549 cells
+SPP,FOXA1,AKR1C1,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, FOXA1 IP - T47D cells, 17BE2 | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DHT | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1, FOXA1 IP - T47D, DEX | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq"
+SPP,DEX,AKR1C1,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2"
+SPP,NFYB,AKR1C1,leukocytes,NFYB IP - K562 cells
+SPP,GATA6,AKR1C1,stomach,GATA6 IP - YCC3
+SPP,KLF11,AKR1C1,adiposetissue,"KLF11 ChIP-Seq, Rep 1, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 1, KLF11 ChIP-Seq, Rep 2, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2"
+SPP,SPI1,AKR1C1,leukocytes,"SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP - K562 cells, SPI1 IP"
+SPP,CEBPB,AKR1C1,lung,"CEBPB ChIP-Seq - IMR90, CEBPB IP - A549 cells, CEBPB ChIP-Seq - A549"
+SPP,CEBPB,AKR1C1,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,NFYA,AKR1C1,leukocytes,NFYA IP - K562 cells
+SPP,BACH1,AKR1C1,stemcells,BACH1 IP - H1 cells
+SPP,BCL3,AKR1C1,lung,BCL3 IP - A549 cells
+SPP,TCF12,AKR1C1,lung,TCF12 IP - A549 cells
+SPP,SP1,AKR1C1,stemcells,SP1 IP - H1 cells
+SPP,CREB1,AKR1C1,prostate,"CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CREB1 ChIP-Seq - LNCaP-abl"
+SPP,MYBL2,AKR1C1,liver,MYBL2 IP - HepG2 cells
+SPP,STAT5A,AKR1C1,leukocytes,STAT5A IP - K562 cells
+SPP,17BE2,AKR1C1,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq"
+SPP,MAFK,AKR1C1,liver,"MAFK IP - HepG2 cells, Rep 2, MAFK IP - HepG2 cells, Rep 1"
+SPP,FOSL2,AKR1C1,lung,FOSL2 IP - A549 cells
+SPP,GTF2B,AKR1C1,uterus,GTF2B IP - Rep 2
+SPP,MAX,AKR1C1,liver,"MAX IP - HepG2 cells, MAX IP - HepG2 cells"
+SPP,AR,AKR1C1,prostate,"AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1"
+SPP,CEBPB,AKR1C1,leukocytes,"CEBPB IP | oxLDL  - Rep 205, CEBPB ChIP-Seq - K562, CEBPB IP - K562 cells"
+SPP,DHT,AKR1C1,prostate,"POU2F1 KD + DHT | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq"
+SPP,POU2F1,AKR1C1,prostate,POU2F1 KD + DHT | FOXA1 ChIP-Seq
+SPP,MAFK,AKR1C1,stemcells,MAFK IP - H1 cells
+SPP,CEBPB,AKR1C1,liver,"CEBPB IP - HepG2 cells, CEBPB IP | FORSK - HepG2 cells, CEBPB ChIP-Seq - HepG2"
+SPP,MYC,AKR1C1,leukocytes,"MYC IP - NB4 cells, MYC IP | IFNG - K562 cells, 30 min, MYC IP - K562 cells, Rep 1, MYC IP | IFNG - K562 cells, 6 h"
+SPP,FOSL2,AKR1C1,liver,FOSL2 IP - HepG2 cells
+SPP,RELA,AKR1C1,adiposetissue,"RELA IP, RELA IP, RELA IP, RELA IP"
+SPP,TP63,AKR1C1,skin,"TP63 IP | BANF1 KD, TP63 IP, TP63 IP, TP63 IP"
+SPP,BANF1,AKR1C1,skin,TP63 IP | BANF1 KD
+SPP,R1881,AKR1C1,prostate,"GATA2 KD + R1881 | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+SPP,GATA2,AKR1C1,prostate,"GATA2 KD + R1881 | FOXA1 ChIP-Seq, GATA2 KD  | FOXA1 ChIP-Seq"
+SPP,ROSI,AKR1C1,adiposetissue,"ROSI (BrAT) | KLF11 ChIP-Seq, Rep 1, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2"
+SPP,JUND,AKR1C1,liver,"JUND IP - HepG2 cells, JUND IP - HepG2 cells"
+SPP,FOS,AKR1C1,mammarygland,"FOS IP - MCF10A cells, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h, FOS IP | 4HT - MCF10A cells, 4 h"
+SPP,IFNG,AKR1C1,leukocytes,"MYC IP | IFNG - K562 cells, 30 min, MYC IP | IFNG - K562 cells, 6 h, IRF1 IP | IFNG - K562 cells, 6 h"
+SPP,STAT3,AKR1C1,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 36 h, STAT3 IP | 4HT - MCF10 cells, 12 h, STAT3 IP - MCF10A cells, Rep 2"
+SPP,4HT,AKR1C1,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 36 h, MYC IP | 4HT - MCF10A cells, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h, FOS IP | 4HT - MCF10A cells, 4 h, STAT3 IP | 4HT - MCF10 cells, 12 h"
+SPP,NFYA,AKR1C1,uterus,NFYA IP - HeLa cells
+SPP,FOXA1,AKR1C1,liver,"FOXA1 IP - HepG2 cells, Rep 2, FOXA1 IP - HepG2 cells, Rep 1"
+SPP,TCF21,AKR1C1,vasculature,"TCF21 IP, TCF21 IP, TCF21 IP"
+SPP,JUND,AKR1C1,lung,JUND IP - A549 cells
+SPP,SP1,AKR1C1,lung,SP1 IP - A549 cells
+SPP,HEY1,AKR1C1,leukocytes,HEY1 IP - K562 cells
+SPP,NFYB,AKR1C1,uterus,NFYB IP - HeLa cells
+SPP,FOS,AKR1C1,leukocytes,FOS IP - K562 cells
+SPP,CEBPB,AKR1C1,uterus,CEBPB ChIP-Seq - HeLaS3
+SPP,JUND,AKR1C1,vasculature,JUND IP
+SPP,FOXA1,AKR1C1,pancreas,"FOXA1 IP, FOXA1 IP | KLF5 KO, FOXA1 IP"
+SPP,MAFK,AKR1C1,lung,MAFK IP - IMR cells
+SPP,GATA1,AKR1C1,hspcs,"GATA1 IP - PBDE cells, Rep 1"
+SPP,BACH1,AKR1C1,leukocytes,BACH1 IP - K562 cells
+SPP,SP1,AKR1C1,liver,SP1 IP - HepG2 cells
+SPP,CREB1,AKR1C1,liver,"CREB1 IP, CREB1 IP - HepG2 cells, CREB1 IP"
+SPP,FORSK,AKR1C1,liver,CEBPB IP | FORSK - HepG2 cells
+SPP,MAFK,AKR1C1,leukocytes,MAFK IP - K562 cells
+SPP,MYC,AKR1C1,mammarygland,"MYC IP | 4HT - MCF10A cells, MYC IP - MCF-10A cells"
+SPP,REST,AKR1C1,liver,"REST IP - HepG2 cells, Rep 1"
+SPP,FOXA1,AKR1C1,lung,"FOXA1 IP | DEX - A549 cells, FOXA1 IP - A549 cells"
+SPP,DEX,AKR1C1,lung,"FOXA1 IP | DEX - A549 cells, CREB1 IP | DEX - A549 cells"
+SPP,GATA3,AKR1C1,lung,GATA3 IP - A549 cells
+SPP,MAFF,AKR1C1,liver,MAFF IP - HepG2 cells
+SPP,MXI1,AKR1C1,liver,MXI1 IP - HepG2 cells
+SPP,CREB1,AKR1C1,lung,CREB1 IP | DEX - A549 cells
+SPP,TBP,AKR1C1,leukocytes,TBP IP - K562 cells
+SPP,ATF3,AKR1C1,lung,ATF3 IP - A549 cells
+SPP,GATA2,AKR1C1,leukocytes,"GATA2 IP - K562 cells, GATA2 IP - K562 cells"
+SPP,GATA1,AKR1C1,leukocytes,GATA1 ChIP-Seq - SC266
+SPP,ELF1,AKR1C1,liver,ELF1 IP - HepG2 cells
+SPP,ELF1,AKR1C1,lung,ELF1 IP - A549 cells
+SPP,TEAD4,AKR1C1,leukocytes,TEAD4 IP - K562 cells
+SPP,GTF2B,AKR1C1,lung,GTF2B IP
+SPP,FOXA2,AKR1C1,liver,FOXA2 IP - HepG2 cells
+SPP,ZEB1,AKR1C1,liver,ZEB1 IP - HepG2 cells
+SPP,CEBPB,AKR1C1,mammarygland,CEBPB IP - MCF7 cells
+SPP,ETS1,AKR1C1,lung,ETS1 IP - A549 cells
+SPP,MAFF,AKR1C1,leukocytes,MAFF IP - K562 cells
+SPP,FOXA2,AKR1C1,embryonictissue,FOXA2 IP - Rep 1
+SPP,YY1,AKR1C1,leukocytes,"YY1 IP - K562 cells, Rep 1"
+SPP,TBP,AKR1C1,liver,TBP IP - HepG2 cells
+SPP,MAX,AKR1C1,leukocytes,"MAX IP - K562 cells, MAX IP - NB4 cells, MAX IP - K562 cells, Rep 2"
+SPP,USF1,AKR1C1,liver,USF1 IP - HepG2 cells
+SPP,TEAD4,AKR1C1,liver,TEAD4 IP - HepG2 cells
+SPP,DHT,AKR1C1,mammarygland,DHT | FOXA1 ChIP-Seq
+SPP,FOXA2,AKR1C1,lung,FOXA2 IP - A549 cells
+SPP,ATF1,AKR1C1,leukocytes,ATF1 IP - K562 cells
+SPP,CEBPB,AKR1C1,colon,"CEBPB IP, CEBPB IP | 125DVD3"
+SPP,KLF5,AKR1C1,pancreas,FOXA1 IP | KLF5 KO
+SPP,CTCF,AKR1C1,hspcs,"CTCF IP - HSPCs, Rep 1"
+SPP,REST,AKR1C1,stemcells,"REST IP - H1 cells, Rep 1"
+SPP,ARID3A,AKR1C1,liver,ARID3A IP - HepG2 cells
+SPP,JUND,AKR1C1,uterus,JUND IP - HeLa cells
+SPP,PIAS1,AKR1C1,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+SPP,ZNF143,AKR1C1,stemcells,ZNF143 IP - H1 cells
+SPP,FOSL2,AKR1C1,mammarygland,FOSL2 IP - MCF7 cells
+SPP,IRF1,AKR1C1,leukocytes,"IRF1 IP | IFNG - K562 cells, 6 h, IRF1 IP | IFNA1-13 - K562 cells, 6 h"
+SPP,REST,AKR1C1,cns,REST IP - U87 cells
+SPP,REST,AKR1C1,leukocytes,REST IP - K562 cells
+SPP,JUN,AKR1C1,leukocytes,"JUN IP - K562 cells, Rep 2"
+SPP,FOXA1,AKR1C1,stemcells,FOXA1 IP - Rep 5 
+SPP,IFNA1,AKR1C1,leukocytes,"IRF1 IP | IFNA1-13 - K562 cells, 6 h"
+SPP,USF1,AKR1C1,leukocytes,USF1 IP - K562 cells
+SPP,MAX,AKR1C1,lung,MAX IP - A549 cells
+SPP,JUN,AKR1C1,vasculature,JUN IP
+SPP,GTF2B,AKR1C1,leukocytes,GTF2B IP - K562 cells
+SPP,REST,AKR1C1,lung,REST IP - A549 cells
+SPP,TAL1,AKR1C1,leukocytes,TAL1 IP - K562 cells
+SPP,HEY1,AKR1C1,liver,HEY1 IP - HepG2 cells
+SPP,TBP,AKR1C1,uterus,TBP IP - HeLa cells
+SPP,IRF1,AKR1C1,pancreas,IRF1 IP
+SPP,JUND,AKR1C1,leukocytes,JUND IP - K562 cells
+SPP,PDX1,AKR1C1,pancreas,PDX1 IP
+SPP,125DVD3,AKR1C1,colon,CEBPB IP | 125DVD3

@@ -1,0 +1,30 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,GATA3,PIK3C2G,cns,GATA3 IP - SK-N-SH cells
+1,SPP,FOXA1,PIK3C2G,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, FOXA1 IP - T47D cells, 17BE2 | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+2,SPP,17BE2,PIK3C2G,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+3,SPP,GATA6,PIK3C2G,stomach,GATA6 IP - YCC3
+4,SPP,JUND,PIK3C2G,liver,JUND IP - HepG2 cells
+5,SPP,JUND,PIK3C2G,uterus,JUND IP - HeLa cells
+6,SPP,MEF2B,PIK3C2G,kidney,"MEF2B IP | MEF2B D83V OE - Rep 1, MEF2B IP | MEF2B OE - Rep 2"
+7,SPP,JUND,PIK3C2G,mammarygland,"JUND IP - T47D cells, JUND IP - MCF7 cells"
+8,SPP,CEBPB,PIK3C2G,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP"
+9,SPP,USF1,PIK3C2G,stemcells,USF1 IP - H1 cells
+10,SPP,POU2F2,PIK3C2G,leukocytes,POU2F2 IP | POU2F2 WT OE
+11,SPP,GATA3,PIK3C2G,mammarygland,"GATA3 IP - MCF-7 cells, GATA3 IP - MCF7 cells, GATA3 IP - T47D cells"
+12,SPP,JUN,PIK3C2G,vasculature,JUN IP
+13,SPP,FOS,PIK3C2G,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h, FOS IP - MCF10A cells"
+14,SPP,4HT,PIK3C2G,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h, STAT3 IP | 4HT - MCF10 cells, 36 h"
+15,SPP,FOXA1,PIK3C2G,prostate,AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq
+16,SPP,AR,PIK3C2G,prostate,AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq
+17,SPP,ZNF217,PIK3C2G,mammarygland,ZNF217 IP - MCF7 cells
+18,SPP,TP63,PIK3C2G,skin,"TP63 IP, TP63 IP | BANF1 KD, TP63 IP"
+19,SPP,MAX,PIK3C2G,liver,MAX IP - MCF7 cells
+20,SPP,CEBPB,PIK3C2G,mammarygland,CEBPB IP - MCF7 cells
+21,SPP,FOXA1,PIK3C2G,pancreas,"FOXA1 IP, FOXA1 IP"
+22,SPP,BANF1,PIK3C2G,skin,TP63 IP | BANF1 KD
+23,SPP,DEX,PIK3C2G,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1"
+24,SPP,JUND,PIK3C2G,cns,JUND IP - SK-N-SH cells 
+25,SPP,JUND,PIK3C2G,vasculature,JUND IP
+26,SPP,STAT3,PIK3C2G,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 36 h"
+27,SPP,MYC,PIK3C2G,mammarygland,MYC IP - MCF-10A cells
+28,SPP,MAX,PIK3C2G,uterus,MAX IP - ECC1 cells

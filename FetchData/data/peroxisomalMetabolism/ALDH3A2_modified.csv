@@ -1,0 +1,279 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,JUND,ALDH3A2,uterus,JUND IP - HeLa cells
+1,SPP,CTCF,ALDH3A2,leukocytes,"CTCF IP - GM12874 cells, CTCF IP - GM2255 cells, Rep 2 , CTCF IP - GM11994 cells, Rep 1, CTCF IP - K562 cells, Rep 11 , CTCF IP - GM11992 cells, Rep 1, CTCF IP - F36P cells, Rep 9 , CTCF IP - GM06990 cells, Rep 1 , CTCF IP - UT-7 cells, Rep 4 , CTCF IP - F36P cells, Rep 6 , CTCF IP - GM12865 cells, Rep 2 , CTCF IP - GM12154 cells, Rep 1, CTCF IP - GM12872 cells, CTCF IP - U-937 cells, Rep 2 , CTCF IP - K562 cells, Rep 1 , CTCF IP - MS1 cells, Rep 3 , CTCF IP - KU812 cells, Rep 13 , CTCF IP - KU812 cells, Rep 17 , CTCF IP - GM2630 cells, Rep 2 , CTCF IP - GM12864 cells, Rep 1 , CTCF IP - GM18951 cells, Rep 2 , CTCF IP - GM12891 cells, Rep 1 , CTCF IP - MS1 cells, Rep 4 , CTCF IP - GM12873 cells, Rep 3 , CTCF IP - GM12875 cells, Rep 1 , CTCF IP - KU812 cells, Rep 9 , CTCF IP - GM2588 cells, Rep 2 , CTCF IP - GM18526 cells, Rep 2 , CTCF IP - GM18505 cells, Rep 2 , CTCF IP - GM12865 cells, Rep 3 , CTCF IP - GM18486 cells, Rep 1 , CTCF IP - GM11992 cells, Rep 2, CTCF IP - GM11811 cells, Rep 2, CTCF IP - GM12869 cells , CTCF IP - F36P cells, Rep 11 , CTCF IP - F36P cells, Rep 3 , CTCF IP - GM12864 cells, Rep 3 , CTCF IP - GM11881 cells, CTCF IP - GM2255 cells, Rep 3 , CTCF IP - GM06986 cells, CTCF IP - GM12874 cells, Rep 2 , CTCF IP - GM10847 cells, Rep 1 , CTCF IP - GM12875 cells, Rep 2 , CTCF IP - GM12815 cells, Rep 2, CTCF IP - GM18526 cells, Rep 1 , CTCF IP - GM19193 cells, Rep 1 , CTCF IP - KU812 cells, Rep 1 , CTCF IP - GM12006 cells, Rep 1, CTCF IP - GM12866 cells , CTCF IP - K562 cells, Rep 14 , CTCF IP - GM12892 cells, Rep 2 , CTCF IP - GM2588 cells, Rep 1 , CTCF IP - GM12155 cells, Rep 2, CTCF IP - F36P cells, Rep 19 , CTCF IP - F36P cells, Rep 17 , CTCF IP - K562 cells, Rep 16 , CTCF IP - GM12873 cells, Rep 1 , CTCF IP - GM12878 cells , CTCF IP - GM12890 cells, Rep 1 , CTCF IP - GM18486 cells, Rep 3 , CTCF IP - F36P cells, Rep 7 , CTCF IP - GM12872 cells, Rep 2 , CTCF IP - GM12865 cells, Rep 1 , CTCF IP - GM12814 cells, Rep 1, CTCF IP - GM19193 cells, Rep 2 , CTCF IP - GM12868 cells , CTCF IP - GM11894 cells, Rep 2, CTCF IP - GM12867 cells , CTCF IP - GM12878 cells, Rep 1 , CTCF IP - GM12870 cells , CTCF IP - GM12814 cells, Rep 2, CTCF IP - GM19239 cells, Rep 1 , CTCF IP - KU812 cells, Rep 5 , CTCF IP - K562 cells, Rep 15 , CTCF IP - GM12873 cells, Rep 1 , CTCF IP - GM12005 cells, Rep 2, CTCF IP - GM12872 cells, Rep 3 , CTCF IP - GM12864 cells, Rep 2 , CTCF IP - GM12828 cells, CTCF IP - K562 cells, CTCF IP - HL , CTCF IP - GM11811 cells, Rep 1, CTCF IP - GM12005 cells, Rep 1, CTCF IP - GM10847 cells, Rep 2 , CTCF IP - GM2255 cells, Rep 1 , CTCF IP - GM12890 cells, Rep 2 , CTCF IP - GM12287 cells, Rep 1, CTCF ChIP-Seq - GM12878, CTCF IP - NB4 cells , CTCF IP - F36P cells, Rep 14 , CTCF IP - GM19240 cells, Rep 2 , CTCF IP - GM12878 cells, Rep 2 , CTCF IP - HeLa cells, Rep 2 , CTCF IP -  CD20+ cells , CTCF IP - GM19238 cells, Rep 2 , CTCF IP - GM19238 cells, Rep 1 , CTCF IP - GM12234 cells, CTCF IP - GM12878 cells, Rep 1 , CTCF IP - F36P cells, Rep 13 , CTCF IP - GM12489 cells, Rep 1, CTCF IP - GM2610 cells, Rep 2 , CTCF IP - F36P cells, Rep 2 , CTCF IP - GM12878 cells, Rep 2 , CTCF IP - GM12872 cells, Rep 1 , CTCF IP - GM07037 cells, CTCF IP - GM2610 cells, Rep 1 , CTCF IP - K562 cells , CTCF IP - K562 cells, Rep 12 , CTCF IP - GM12892 cells, Rep 1 , CTCF IP - GM12749 cells, Rep 1, CTCF IP - GM2610 cells, Rep 3 , CTCF IP - GM12155 cells, Rep 1, CTCF IP - GM2588 cells, Rep 3 , CTCF IP -  DND , CTCF IP - GM12890 cells, Rep 3 , CTCF IP - GM2630 cells, Rep 3 , CTCF IP - GM18951 cells, Rep 1 , CTCF IP - MS1 cells, Rep 1 , CTCF IP - K562 cells, CTCF IP - GM12874 cells, Rep 1 , CTCF IP - GM12891 cells, Rep 2 , CTCF IP - CD14+ cells , CTCF IP - GM19240 cells, Rep 1 , CTCF IP - GM2630 cells, Rep 1 , CTCF IP - UT-7 cells, Rep 5 , CTCF IP - F36P cells, Rep 15 , CTCF IP - GM12815 cells, Rep 1, CTCF IP - MS1 cells, Rep 2 , CTCF IP - GM07346 cells, CTCF IP, CTCF IP - GM19099 cells, Rep 2 , CTCF IP - GM19099 cells, Rep 1 , CTCF IP - K562 cells, Rep 2 , CTCF IP - K562 cells, CTCF IP - K562 cells, Rep 13 , CTCF IP - GM06990 cells, Rep 2 , CTCF IP - GM11994 cells, Rep 2, CTCF IP - GM12871 cells , CTCF IP - GM18505 cells, Rep 1 , CTCF IP - GM11831 cells, CTCF IP - GM19239 cells, Rep 2 , CTCF IP - GM12154 cells, Rep 2, CTCF IP - F36P cells, Rep 10 "
+2,SPP,CTCF,ALDH3A2,sensory,"CTCF IP - HRPEpiC cells, Rep 1 , CTCF IP - WERI , CTCF IP - WERI-Rb-1- cells, Rep 1 , CTCF IP - HRPEpiC cells, Rep 2 "
+3,SPP,MEF2B,ALDH3A2,kidney,"MEF2B IP | MEF2B OE - Rep 2, MEF2B IP | MEF2B OE - Rep 1"
+4,SPP,FOXA1,ALDH3A2,prostate,"FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1, CON KD | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, EtOH | FOXA1 ChIP-Seq - Rep 2, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, GATA2 KD  | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1, FOXA1 KD | FOXA1 ChIP-Seq, FOXA1 KD | GATA2 ChIP-Seq, FOXA1 ChIP-Seq, CON KD  | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, EtOH | FOXA1 ChIP-Seq - , GATA2 KD + R1881 | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, AR Q640X OE + FOXA1 OE | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD | FOXA1 ChIP-Seq, FOXA1 KD | FOXA1 ChIP-Seq, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - LNCaP-abl, FOXA1 ChIP-Seq - LNCaP, DHT | FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, FOXA1 + FBS | GATA2 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - C4- Rep 2B, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+5,SPP,CTCF,ALDH3A2,lung,"CTCF IP - SAEC cells, Rep 1 , CTCF IP | DEX - A549 cells , CTCF IP - SAEC cells, Rep 2 , CTCF IP - A549 cells , CTCF IP - NHLF cells , CTCF IP - WI-38 cells, Rep 1 , CTCF IP - HPF cells, Rep 1 , CTCF IP - A549 cells, Rep 1 , CTCF IP - IMR cells, CTCF ChIP-Seq - A549, CTCF IP - HPF cells, Rep 2 , CTCF IP - AG04450 cells, Rep 1 , CTCF IP | DEX - A549 cells, CTCF IP - NHLF cells , CTCF IP - A549 cells, Rep 2 , CTCF IP - A549 cells"
+6,SPP,FOS,ALDH3A2,uterus,FOS IP - HeLa cells
+7,SPP,AR,ALDH3A2,prostate,"WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq - high FOXA1, AR C562S OE + FOXA1 OE | FOXA1 ChIP-Seq, WT AR OE + FOXA1 OE | FOXA1 ChIP-Seq, AR Q640X OE + FOXA1 OE | FOXA1 ChIP-Seq"
+8,SPP,FOXA2,ALDH3A2,lung,FOXA2 IP - A549 cells
+9,SPP,JUND,ALDH3A2,lung,JUND IP - A549 cells
+10,SPP,CEBPB,ALDH3A2,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP - H1 cells, CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP"
+11,SPP,CTCF,ALDH3A2,cns,"CTCF IP - BE(2)-C cells, Rep 2 , CTCF IP - SK-N-SH cells , CTCF IP - SK-N-SH cells, Rep 2 , CTCF IP - HCPEpiC cells, Rep 2 , CTCF IP - HCPEpiC cells, Rep 1 , CTCF IP - spinal cord astrocyte cells, Rep 1 , CTCF IP - SK cells, CTCF IP - NHA cells , CTCF IP - SK-N-SH cells, Rep 1 , CTCF IP - spinal cord astrocyte cells, Rep 2 , CTCF IP - cerebellar astrocyte cells, Rep 2 , CTCF IP - BE(2)-C cells, Rep 1 "
+12,SPP,ATF3,ALDH3A2,colon,ATF3 IP - HCT116 cells
+13,SPP,MXI1,ALDH3A2,lung,MXI1 IP - IMR cells
+14,SPP,CTCF,ALDH3A2,stemcells,"CTCF IP - Rep 5 , CTCF IP - Rep 4 , CTCF IP - Rep 2 , CTCF IP - H1 cells, CTCF IP - Rep 1 , CTCF IP - Rep 7 , CTCF IP - H1 cells , CTCF IP - Rep 6 "
+15,SPP,NFKB1,ALDH3A2,leukocytes,NFKB1 IP - Rep 2
+16,SPP,NFYB,ALDH3A2,uterus,NFYB IP - HeLa cells
+17,SPP,HOXA4,ALDH3A2,colon,HOXA4 IP 
+18,SPP,ATF3,ALDH3A2,leukocytes,"ATF3 IP - K562 cells, ATF3 IP - GM12878 cells"
+19,SPP,MAFF,ALDH3A2,leukocytes,MAFF IP - K562 cells
+20,SPP,YY1,ALDH3A2,cns,"YY1 IP - SK-N-SH cells, YY1 IP | ATRA - SK-N-SH cells"
+21,SPP,RELA,ALDH3A2,leukocytes,"RELA IP | TNF - GM12891 cells, RELA IP | BAY082  - IVD Th1 cells, PIA"
+22,SPP,TNF,ALDH3A2,leukocytes,RELA IP | TNF - GM12891 cells
+23,SPP,PAX5,ALDH3A2,leukocytes,"PAX5 IP - GM12892 cells, PAX5 IP - GM12878 cells, Rep 1, PAX5 IP - GM12878 cells, Rep 2, PAX5 IP - GM12891 cells"
+24,SPP,CREB1,ALDH3A2,prostate,"CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CREB1 ChIP-Seq - Rep 1, CREB1 ChIP-Seq - LNCaP-abl, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CREB1 ChIP-Seq - Rep 2, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 2"
+25,SPP,FOXA1,ALDH3A2,mammarygland,"FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, FOXA1 IP - T47D, FOXA1 ChIP-Seq - Rep 2, DHT | FOXA1 ChIP-Seq, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, FOXA1 IP - T47D cells, FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+26,SPP,17BE2,ALDH3A2,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+27,SPP,NFYB,ALDH3A2,leukocytes,"NFYB IP - GM12878 cells, NFYB IP - K562 cells"
+28,SPP,GATA2,ALDH3A2,prostate,"CON KD  | GATA2 ChIP-Seq, CON KD + R1881 | GATA2 ChIP-Seq, GATA2 ChIP-Seq - Rep 2, GATA2 KD  | FOXA1 ChIP-Seq, FOXA1 KD | GATA2 ChIP-Seq, CON KD + FBS | GATA2 ChIP-Seq, GATA2 ChIP-Seq - Rep 1, GATA2 KD + R1881 | FOXA1 ChIP-Seq, CON KD | GATA2 ChIP-Seq, GATA2 ChIP-Seq, GATA2 KD  | GATA2 ChIP-Seq, GATA2 KD + R1881 | GATA2 ChIP-Seq, FOXA1 + FBS | GATA2 ChIP-Seq"
+29,SPP,GATA6,ALDH3A2,stemcells,"GATA6 IP - Rep 5 , GATA6 IP - Rep 1 , GATA6 IP - Rep 7 "
+30,SPP,FOS,ALDH3A2,mammarygland,"FOS IP | 4HT - MCF10A cells, 36 h, FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP - MCF10A cells"
+31,SPP,4HT,ALDH3A2,mammarygland,"FOS IP | 4HT - MCF10A cells, 36 h, FOS IP | 4HT - MCF10A cells, 4 h, E2F4 IP | 4HT - MCF10 cells, STAT3 IP | 4HT - MCF10 cells, 36 h, STAT3 IP | 4HT - MCF10 cells, 12 h, FOS IP | 4HT - MCF10A cells, 12 h, MYC IP | 4HT - MCF10A cells"
+32,SPP,CTCF,ALDH3A2,liver,"CTCF IP, CTCF IP - HepG2 cells , CTCF IP - SK-N-SH cells, CTCF IP - HepG2 cells, Rep 1 , CTCF IP - HepG2 cells, Rep 2 "
+33,SPP,CTCF,ALDH3A2,colon,"CTCF IP - Caco , CTCF IP - HCT116 cells, CTCF IP - HCT116 cells, Rep 1 , CTCF IP - HCT116 cells, Rep 2 , CTCF IP - Caco-2 cells, Rep 1 "
+34,SPP,MYC,ALDH3A2,mammarygland,"MYC IP - MCF-10A cells, DHT | MYC ChIP-Seq, MYC IP | 4HT - MCF10A cells"
+35,SPP,CTCF,ALDH3A2,skin,"CTCF IP - GM12878 cells, Rep 2 , CTCF IP - NHDF cells, Rep 2 , CTCF IP - AG10803 cells, Rep 1 , CTCF IP - AG09309 cells, Rep 1 , CTCF IP - HFFC cells, Rep 3 , CTCF IP - HFFC cells, Rep 2 , CTCF IP - HFFC cells, Rep 1 , CTCF IP - NHDF cells , CTCF IP - NHEK cells, Rep 2 , CTCF IP - AG04449 cells, Rep 1 , CTCF IP - BJ cells, Rep 1 , CTCF IP - NHEK cells , CTCF IP - BJ cells, Rep 2 , CTCF IP - AG04449 cells, Rep 2 "
+36,SPP,CTCF,ALDH3A2,heart,"CTCF IP - myocytes cells, Rep 2 , CTCF IP - HCF cells , CTCF IP - myocytes cells, Rep 1 "
+37,SPP,YY1,ALDH3A2,uterus,YY1 IP - ECC1 cells
+38,SPP,EGR1,ALDH3A2,uterus,EGR1 IP - ECC1 cells
+39,SPP,FOS,ALDH3A2,leukocytes,"FOS IP - K562 cells, FOS IP - GM12878 cells"
+40,SPP,USF1,ALDH3A2,uterus,USF1 IP - ECC1 cells
+41,SPP,TCF7L2,ALDH3A2,mammarygland,"TCF7L2 ChIP-Seq, DHT | TCF7L2 ChIP-Seq"
+42,SPP,CEBPB,ALDH3A2,mammarygland,CEBPB IP - MCF7 cells
+43,SPP,USF1,ALDH3A2,lung,"USF1 IP | DEX - A549 cells, USF1 IP - A549 cells, Rep 2, USF1 IP - A549 cells, Rep 1"
+44,SPP,DEX,ALDH3A2,lung,"USF1 IP | DEX - A549 cells, FOXA1 IP | DEX - A549 cells, CTCF IP | DEX - A549 cells , CREB1 IP | DEX - A549 cells, CTCF IP | DEX - A549 cells"
+45,SPP,GATA3,ALDH3A2,mammarygland,"GATA3 IP - T47D cells, GATA3 IP - MCF7 cells"
+46,SPP,MYC,ALDH3A2,uterus,MYC IP - HeLa cells
+47,SPP,MYC,ALDH3A2,liver,MYC IP
+48,SPP,STAT5B,ALDH3A2,leukocytes,"STAT5B IP | H9, Rep 2"
+49,SPP,H9,ALDH3A2,leukocytes,"STAT5B IP | H9, Rep 2"
+50,SPP,CDX2,ALDH3A2,colon,"CDX2 IP | 125DVD3, CDX2 IP"
+51,SPP,125DVD3,ALDH3A2,colon,"CDX2 IP | 125DVD3, CEBPB IP | 125DVD3"
+52,SPP,PDX1,ALDH3A2,stemcells,PDX1 IP
+53,SPP,GATA4,ALDH3A2,stemcells,"GATA4 IP - Rep 8 , GATA4 IP - Rep 3 , GATA4 IP - Rep 11 , GATA4 IP - Rep 9 , GATA4 IP - Rep 10 , GATA4 IP - Rep 12 "
+54,SPP,CTCF,ALDH3A2,mammarygland,"CTCF IP - HMEC cells, Rep 1 , CTCF IP - T47D cells, CTCF IP - HMEC cells , CTCF IP - HMF cells, Rep 1 , CTCF IP - MCF-7 cells Rep 2 , CTCF IP - MCF-7 cells, Rep 1 , CTCF IP - HMF cells, Rep 2 , CTCF IP - HMEC cells, Rep 2 , CTCF IP - MCF7 cells"
+55,SPP,REST,ALDH3A2,liver,"REST IP - HepG2 cells, Rep 1, REST IP - HepG2 cells, Rep 2"
+56,SPP,POU2F2,ALDH3A2,leukocytes,POU2F2 IP - GM12878 cells
+57,SPP,YY1,ALDH3A2,leukocytes,"YY1 IP - GM12891 cells, YY1 IP - GM12892 cells, Rep 1, YY1 IP - GM12878 cells"
+58,SPP,FOXA1,ALDH3A2,lung,"FOXA1 IP | DEX - A549 cells, FOXA1 IP - A549 cells"
+59,SPP,RUNX1,ALDH3A2,hspcs,RUNX1
+60,SPP,TCF12,ALDH3A2,liver,"TCF12 IP - HepG2 cells, TCF12 IP - MCF7 cells"
+61,SPP,USF1,ALDH3A2,colon,USF1 IP - HCT116 cells
+62,SPP,CTCF,ALDH3A2,kidney,"CTCF IP - HRE cells, Rep 2 , CTCF IP - HEK293 cells, Rep 2 , CTCF IP - HEK293 cells, Rep 1 , CTCF IP - RPTEC cells, Rep 1 , CTCF IP - RPTEC cells, Rep 2 , CTCF IP - HRE cells, Rep 1 "
+63,SPP,E2F4,ALDH3A2,mammarygland,E2F4 IP | 4HT - MCF10 cells
+64,SPP,CTCF,ALDH3A2,hspcs,"CTCF IP - HSPCs, Rep 1, CTCF IP - HSPCs, Rep 2"
+65,SPP,TP53,ALDH3A2,mammarygland,TP53 IP
+66,SPP,CTCF,ALDH3A2,placenta,"CTCF IP - HVMF cells, Rep 1 , CTCF IP - HVMF cells, Rep 2 "
+67,SPP,R1881,ALDH3A2,prostate,"CON KD + R1881 | GATA2 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, GABPA IP | R1881, GATA2 KD + R1881 | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, GATA2 KD + R1881 | GATA2 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+68,SPP,SPI1,ALDH3A2,leukocytes,"SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP - GM12891 cells, SPI1 IP, SPI1 IP"
+69,SPP,FOXP1,ALDH3A2,colon,FOXP1 IP 
+70,SPP,CEBPB,ALDH3A2,leukocytes,"CEBPB IP | oxLDL  - Rep 208, CEBPB IP - Rep 203, CEBPB IP - Rep 201, CEBPB IP | oxLDL  - Rep 205, CEBPB IP, CEBPB IP| oxLDL  - Rep 207, CEBPB IP | oxLDL  - Rep 206, CEBPB IP - Rep 204, CEBPB ChIP-Seq - K562"
+71,SPP,GABPA,ALDH3A2,stemcells,GABPA IP - H1 cells
+72,SPP,TEAD4,ALDH3A2,colon,TEAD4 IP - HCT116 cells
+73,SPP,MAZ,ALDH3A2,uterus,MAZ IP - HeLa cells
+74,SPP,CTCF,ALDH3A2,erythroidlineage,"CTCF IP - HEL 92.1.7 cells, Rep 14 , CTCF IP - HEL 92.1.7 cells, Rep 8 , CTCF IP - HEL 92.1.7 cells, Rep 5 , CTCF IP - HEL 92.1.7 cells, Rep 2 , CTCF IP - HEL 92.1.7 cells, Rep 11 , CTCF IP - Erythroid cells, Rep 1"
+75,SPP,JUND,ALDH3A2,liver,"JUND IP - HepG2 cells, JUND IP - HepG2 cells"
+76,SPP,MYC,ALDH3A2,leukocytes,MYC IP - NB4 cells
+77,SPP,SP1,ALDH3A2,liver,SP1 IP - HepG2 cells
+78,SPP,TBP,ALDH3A2,stemcells,TBP IP - H1 cells
+79,SPP,MAZ,ALDH3A2,leukocytes,MAZ IP - GM12878 cells
+80,SPP,CREB1,ALDH3A2,leukocytes,CREB1 IP - GM12878 cells
+81,SPP,MAX,ALDH3A2,liver,"MAX IP - HepG2 cells, MAX IP - HepG2 cells, MAX IP - MCF7 cells"
+82,SPP,E2F1,ALDH3A2,prostate,"BICALU | E2F1 ChIP-Seq - Rep 3, HES6 OE | E2F1 ChIP-Seq - Rep 3, E2F1 ChIP-Seq - Rep 3, HES6 OE | E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 1, E2F1 ChIP-Seq - Rep 4, E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 3, BICALU | E2F1 ChIP-Seq - Rep 1"
+83,SPP,BICALU,ALDH3A2,prostate,"BICALU | E2F1 ChIP-Seq - Rep 3, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 3, BICALU | E2F1 ChIP-Seq - Rep 1"
+84,SPP,TP53,ALDH3A2,bone,TP53 IP
+85,SPP,CEBPA,ALDH3A2,leukocytes,CEBPA IP
+86,SPP,PBX3,ALDH3A2,cns,PBX3 IP - SK-N-SH cells
+87,SPP,TCF12,ALDH3A2,lung,TCF12 IP - A549 cells
+88,SPP,CTCF,ALDH3A2,megakaryocytelineage,"CTCF IP - MEG-01 cells, Rep 8 , CTCF IP - MEG-01 cells, Rep 6 , CTCF IP - MEG-01 cells, Rep 2 , CTCF IP - MEG-01 cells, Rep 10 , CTCF IP - MEG-01 cells, Rep 4 "
+89,SPP,CTCF,ALDH3A2,uterus,"CTCF IP - ECC1 cells, CTCF IP - HeLa cells , CTCF IP - HeLa cells, Rep 1 "
+90,SPP,FOXA2,ALDH3A2,embryonictissue,"FOXA2 IP - Rep 2, FOXA2 IP - Rep 1"
+91,SPP,ZEB1,ALDH3A2,liver,ZEB1 IP - HepG2 cells
+92,SPP,FOXM1,ALDH3A2,uterus,FOXM1 IP - ECC1 cells
+93,SPP,ELF3,ALDH3A2,pancreas,"ELF3 IP | KLF5 KO, ELF3 IP, ELF3 IP"
+94,SPP,KLF5,ALDH3A2,pancreas,"ELF3 IP | KLF5 KO, FOXA1 IP | KLF5 KO, KLF5 IP"
+95,SPP,JUND,ALDH3A2,colon,JUND IP - HCT116 cells
+96,SPP,FOXA1,ALDH3A2,liver,"FOXA1 IP - HepG2 cells, Rep 1, FOXA1 IP - HepG2 cells, Rep 2"
+97,SPP,GABPA,ALDH3A2,leukocytes,"GABPA IP - GM12878 cells, Rep 4 , GABPA IP - GM12878 cells, Rep 1 , GABPA IP - GM12878 cells, Rep 2 , GABPA IP - Jurkat, Rep 2, GABPA IP - HL cells, GABPA IP - GM12878 cells"
+98,SPP,MAX,ALDH3A2,vasculature,MAX IP - HUVEC cells
+99,SPP,FOXH1,ALDH3A2,stemcells,FOXH1 ChIP-Seq - Escs
+100,SPP,SP1,ALDH3A2,lung,SP1 IP - A549 cells
+101,SPP,USF1,ALDH3A2,cns,"USF1 IP - SK-N-SH cells, USF1 IP | ATRA - SK-N-SH cells"
+102,SPP,CEBPB,ALDH3A2,colon,"CEBPB IP - HCT116 cells, CEBPB IP | 125DVD3, CEBPB IP"
+103,SPP,RELA,ALDH3A2,adiposetissue,"RELA IP, RELA IP, RELA IP"
+104,SPP,FOSL1,ALDH3A2,mammarygland,FOSL1 IP
+105,SPP,CTCF,ALDH3A2,adiposetissue,"CTCF ChIP-Seq - d 9, CTCF ChIP-Seq - d -2, CTCF ChIP-Seq - d 0"
+106,SPP,MYB,ALDH3A2,leukocytes,"MYB IP - Jurkat, Rep 2, MYB IP - Jurkat, Rep 3, MYB IP - Jurkat, Rep 4"
+107,SPP,TEAD4,ALDH3A2,liver,TEAD4 IP - HepG2 cells
+108,SPP,HES6,ALDH3A2,prostate,"HES6 OE | E2F1 ChIP-Seq - Rep 3, HES6 OE | E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 1, HES6 OE + BICALU | E2F1 ChIP-Seq - Rep 3"
+109,SPP,MAFK,ALDH3A2,liver,"MAFK IP - HepG2 cells, Rep 1, MAFK IP - HepG2 cells, Rep 2"
+110,SPP,REST,ALDH3A2,cns,"REST IP - PFSK1 cells, Rep 2, REST IP - SK cells, REST IP - U87 cells"
+111,SPP,ETV5,ALDH3A2,colon,ETV5 IP 
+112,SPP,STAT3,ALDH3A2,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 36 h, STAT3 IP | 4HT - MCF10 cells, 12 h, STAT3 IP - MCF10A cells, Rep 2"
+113,SPP,FOXA2,ALDH3A2,stemcells,"FOXA2 IP - ES D2, FOXA2 IP - ES D10, FOXA2 IP - ES D5, FOXA2 IP - ES D7"
+114,SPP,E2F4,ALDH3A2,uterus,E2F4 IP - HeLa cells
+115,SPP,USF2,ALDH3A2,liver,USF2 IP - HepG2 cells
+116,SPP,REST,ALDH3A2,lung,REST IP - A549 cells
+117,SPP,ARNTL,ALDH3A2,bone,ARNTL IP
+118,SPP,DHT,ALDH3A2,mammarygland,"DHT | MYC ChIP-Seq, DHT | FOXA1 ChIP-Seq, DHT | TCF7L2 ChIP-Seq"
+119,SPP,TCF12,ALDH3A2,cns,TCF12 IP - SK-N-SH cells
+120,SPP,SRF,ALDH3A2,uterus,SRF IP - ECC1 cells
+121,SPP,TCF12,ALDH3A2,uterus,TCF12 IP - ECC1 cells
+122,SPP,ELF1,ALDH3A2,leukocytes,ELF1 IP - SK-N-SH cells
+123,SPP,KLF11,ALDH3A2,adiposetissue,"KLF11 ChIP-Seq, Rep 2, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 1, KLF11 ChIP-Seq, Rep 1, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2"
+124,SPP,CEBPB,ALDH3A2,lung,"CEBPB ChIP-Seq - A549, CEBPB ChIP-Seq - IMR90, CEBPB IP - A549 cells"
+125,SPP,HOXA6,ALDH3A2,colon,HOXA6 IP 
+126,SPP,USF1,ALDH3A2,leukocytes,"USF1 IP - K562 cells, USF1 IP - GM12878 cells"
+127,SPP,SMAD1,ALDH3A2,hspcs,SMAD1 IP - Rep 3
+128,SPP,FOXA1,ALDH3A2,pancreas,"FOXA1 IP | KLF5 KO, FOXA1 IP"
+129,SPP,GLI2,ALDH3A2,colon,GLI2 IP 
+130,SPP,USF2,ALDH3A2,leukocytes,USF2 IP - GM12878 cells
+131,SPP,GABPA,ALDH3A2,prostate,"GABPA IP - Rep 1, GABPA IP | R1881"
+132,SPP,FOXH1,ALDH3A2,embryonictissue,FOXH1 IP - endoderm
+133,SPP,MAFK,ALDH3A2,stemcells,MAFK IP - H1 cells
+134,SPP,SP1,ALDH3A2,leukocytes,SP1 IP - GM12878 cells
+135,SPP,MYC,ALDH3A2,bone,MYC IP
+136,SPP,GABPA,ALDH3A2,uterus,GABPA IP - HeLa cells
+137,SPP,JUN,ALDH3A2,colon,JUN IP 
+138,SPP,MAFF,ALDH3A2,liver,MAFF IP - HepG2 cells
+139,SPP,IRF1,ALDH3A2,leukocytes,IRF1 IP - Rep 3
+140,SPP,IFNG,ALDH3A2,leukocytes,"IRF1 IP - Rep 3, STAT1 IP - Rep 5, STAT1 IP - Rep 4, STAT1 IP - Rep 3, STAT1 IP - Rep 1, STAT1 IP - Rep 6, STAT1 IP - Rep 2"
+141,SPP,GATA6,ALDH3A2,stomach,"GATA6 IP - AGS, GATA6 IP - YCC3"
+142,SPP,CTCF,ALDH3A2,vasculature,"CTCF IP - HUVEC cells, Rep 1 , CTCF IP - HUVEC cells , CTCF IP - HBMEC cells, Rep 2 , CTCF IP - HBMEC cells, Rep 1 , CTCF IP - HPAF cells, Rep 1 , CTCF IP - HUVEC cells, Rep 2 , CTCF IP - AoAFC cells, Rep 1 , CTCF IP - HPAF cells, Rep 2 "
+143,SPP,NKX3-1,ALDH3A2,prostate,"NKX3-1 ChIP-Seq, DHT | NKX3-1 ChIP-Seq"
+144,SPP,REST,ALDH3A2,pancreas,"REST IP - Panc1 cells, Rep 3"
+145,SPP,GABPA,ALDH3A2,liver,"GABPA IP - MCF7 cells, GABPA IP - HepG2 cells"
+146,SPP,DEX,ALDH3A2,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2"
+147,SPP,SRF,ALDH3A2,colon,SRF IP - HCT116 cells
+148,SPP,MAX,ALDH3A2,cns,MAX IP - SK-N-SH cells
+149,SPP,BHLHE40,ALDH3A2,liver,BHLHE40 IP - HepG2 cells
+150,SPP,MXI1,ALDH3A2,liver,MXI1 IP - HepG2 cells
+151,SPP,NFYA,ALDH3A2,uterus,NFYA IP - HeLa cells
+152,SPP,MAZ,ALDH3A2,liver,MAZ IP - HepG2 cells
+153,SPP,ETS1,ALDH3A2,leukocytes,ETS1 IP
+154,SPP,E2F6,ALDH3A2,leukocytes,"E2F6 IP - K562 cells, E2F6 IP - K562 cells"
+155,SPP,TBP,ALDH3A2,uterus,TBP IP - HeLa cells
+156,SPP,MAX,ALDH3A2,uterus,"MAX IP - HeLa cells, Rep 2, MAX IP - HeLa cells, Rep 1, MAX IP - ECC1 cells"
+157,SPP,FOXA1,ALDH3A2,stemcells,"FOXA1 IP - ES D7, FOXA1 IP - Rep 5 "
+158,SPP,SOX9,ALDH3A2,colon,SOX9 IP 
+159,SPP,ZBTB7A,ALDH3A2,leukocytes,ZBTB7A IP - SK-N-SH cells
+160,SPP,ZNF143,ALDH3A2,leukocytes,ZNF143 IP - GM12878 cells
+161,SPP,JUN,ALDH3A2,mammarygland,"JUN IP - Rep 1, JUN IP | CPDA, JUN IP - Rep 2"
+162,SPP,RELA,ALDH3A2,colon,RELA IP 
+163,SPP,STAT3,ALDH3A2,leukocytes,"STAT3 IP - SU-DHL-6, STAT3 IP - OCI-LY7"
+164,SPP,KLF5,ALDH3A2,stomach,KLF5 IP - KATOIII
+165,SPP,MAX,ALDH3A2,leukocytes,"MAX IP - K562 cells, MAX IP - K562 cells, Rep 2, MAX IP - GM12878 cells, MAX IP - NB4 cells"
+166,SPP,MTA3,ALDH3A2,leukocytes,MTA3 IP - GM12878 cells
+167,SPP,MAX,ALDH3A2,colon,MAX IP - HCT116 cells
+168,SPP,CEBPB,ALDH3A2,uterus,"CEBPB ChIP-Seq - HeLaS3, CEBPB IP - ECC1 cells"
+169,SPP,STAT1,ALDH3A2,leukocytes,"STAT1 IP - Rep 5, STAT1 IP - Rep 4, STAT1 IP - Rep 3, STAT1 IP - Rep 1, STAT1 IP - Rep 6, STAT1 IP - Rep 2"
+170,SPP,MAX,ALDH3A2,lung,"MAX IP - A549 cells, MAX IP - A549 cells"
+171,SPP,ATF2,ALDH3A2,colon,ATF2 IP 
+172,SPP,ZNF143,ALDH3A2,stemcells,ZNF143 IP - H1 cells
+173,SPP,MXI1,ALDH3A2,leukocytes,MXI1 IP - GM12878 cells
+174,SPP,CREB1,ALDH3A2,lung,CREB1 IP | DEX - A549 cells
+175,SPP,USF1,ALDH3A2,liver,USF1 IP - HepG2 cells
+176,SPP,RUNX1T1,ALDH3A2,leukocytes,RUNX1T1 IP
+177,SPP,NFYA,ALDH3A2,colon,NFYA IP 
+178,SPP,CTCF,ALDH3A2,bone,CTCF IP - Osteoblasts 
+179,SPP,NANOG,ALDH3A2,stemcells,"NANOG IP - Rep 4 , NANOG IP - Rep 3 , NANOG IP - Rep 8 , NANOG IP - H1 cells, NANOG IP - Rep 2 "
+180,SPP,CREB1,ALDH3A2,liver,"CREB1 IP - HepG2 cells, CREB1 IP, CREB1 IP"
+181,SPP,JUN,ALDH3A2,vasculature,JUN IP - HUVEC cells
+182,SPP,ATF3,ALDH3A2,stemcells,ATF3 IP - H1 cells
+183,SPP,CEBPB,ALDH3A2,liver,CEBPB ChIP-Seq - HepG2
+184,SPP,HEY1,ALDH3A2,liver,HEY1 IP - HepG2 cells
+185,SPP,E2F1,ALDH3A2,mammarygland,"E2F1 IP, E2F1 IP - MCF7 cells"
+186,SPP,SRF,ALDH3A2,mammarygland,SRF IP - MCF7 cells
+187,SPP,MYBL2,ALDH3A2,liver,MYBL2 IP - HepG2 cells
+188,SPP,ASCL1,ALDH3A2,skin,ASCL1 IP - NHDF
+189,SPP,DHT,ALDH3A2,prostate,"DHT | FOXA1 ChIP-Seq, DHT | NKX3-1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, DHT | FOXP1 ChIP-Seq"
+190,SPP,MYC,ALDH3A2,lung,MYC IP - A549 cells
+191,SPP,TFAP4,ALDH3A2,leukocytes,TFAP4 IP - Rep 2
+192,SPP,SRF,ALDH3A2,stemcells,"SRF IP - Rep 1 , SRF IP - Rep 7 "
+193,SPP,GTF2B,ALDH3A2,uterus,GTF2B IP - Rep 2
+194,SPP,USF2,ALDH3A2,uterus,USF2 IP - HeLa cells
+195,SPP,EGR1,ALDH3A2,colon,EGR1 IP - HCT116 cells
+196,SPP,GATA4,ALDH3A2,stomach,GATA4 IP - AGS
+197,SPP,E2F1,ALDH3A2,uterus,"E2F1 IP - HeLa cells, Rep 2, E2F1 IP - HeLa cells, Rep 1"
+198,SPP,EBF1,ALDH3A2,adiposetissue,"EBF1 IP, EBF1 IP"
+199,SPP,CTCF,ALDH3A2,pancreas,CTCF IP
+200,SPP,FOXA2,ALDH3A2,colon,FOXA2 IP 
+201,SPP,MAFK,ALDH3A2,leukocytes,MAFK IP - GM12878 cells
+202,SPP,FOSL2,ALDH3A2,cns,FOSL2 IP - SK-N-SH cells
+203,SPP,TAL1,ALDH3A2,colon,TAL1 IP 
+204,SPP,JUND,ALDH3A2,cns,"JUND IP - SK-N-SH cells, JUND IP - SK-N-SH cells "
+205,SPP,ATF3,ALDH3A2,liver,ATF3 IP - HepG2 cells
+206,SPP,BHLHE40,ALDH3A2,leukocytes,BHLHE40 IP - GM12878 cells
+207,SPP,SP1,ALDH3A2,colon,SP1 IP - HCT116 cells
+208,SPP,TCF12,ALDH3A2,leukocytes,TCF12 IP - GM12878 cells
+209,SPP,EBF1,ALDH3A2,leukocytes,"EBF1 IP - GM12878 cells, EBF1 IP - GM12878 cells"
+210,SPP,FOSL1,ALDH3A2,colon,FOSL1 IP - HCT116 cells
+211,SPP,GATA2,ALDH3A2,hspcs,GATA2 IP
+212,SPP,ATRA,ALDH3A2,cns,"YY1 IP | ATRA - SK-N-SH cells, USF1 IP | ATRA - SK-N-SH cells"
+213,SPP,TCF3,ALDH3A2,leukocytes,TCF3 IP - GM12878 cells
+214,SPP,CTCF,ALDH3A2,miscellaneous,"CTCF IP - AG09319 cells, Rep 1 , CTCF IP - AG09319 cells, Rep 2 "
+215,SPP,BCL3,ALDH3A2,leukocytes,BCL3 IP - GM12878 cells
+216,SPP,GATA3,ALDH3A2,cns,GATA3 IP - SK-N-SH cells
+217,SPP,REST,ALDH3A2,stemcells,"REST IP - H1 cells, Rep 1"
+218,SPP,IRF4,ALDH3A2,leukocytes,IRF4 IP
+219,SPP,CEBPB,ALDH3A2,bone,CEBPB IP
+220,SPP,CREB1,ALDH3A2,stemcells,CREB1 IP - H1 cells
+221,SPP,CTCF,ALDH3A2,skeletalmuscle,"CTCF IP - HSMM cells, Rep 2 "
+222,SPP,OTX2,ALDH3A2,stemcells,OTX2 IP - Rep 10 
+223,SPP,TBP,ALDH3A2,liver,TBP IP - HepG2 cells
+224,SPP,ZNF83,ALDH3A2,colon,ZNF83 IP 
+225,SPP,PBX3,ALDH3A2,lung,PBX3 IP - A549 cells
+226,SPP,BAY082,ALDH3A2,leukocytes,"RELA IP | BAY082  - IVD Th1 cells, PIA"
+227,SPP,USF1,ALDH3A2,stemcells,USF1 IP - H1 cells
+228,SPP,YY1,ALDH3A2,stemcells,YY1 IP - H1 cells
+229,SPP,ZBTB7A,ALDH3A2,uterus,ZBTB7A IP - ECC1 cells
+230,SPP,SMARCC1,ALDH3A2,uterus,SMARCC1 IP - HeLa cells
+231,SPP,TEAD4,ALDH3A2,cns,TEAD4 IP - SK-N-SH cells
+232,SPP,EGR1,ALDH3A2,liver,EGR1 IP - MCF7 cells
+233,SPP,FOXP2,ALDH3A2,cns,FOXP2 IP - PFSK-1 cells
+234,SPP,ROSI,ALDH3A2,adiposetissue,"ROSI (BrAT) | KLF11 ChIP-Seq, Rep 1, ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2"
+235,SPP,FOS,ALDH3A2,vasculature,FOS IP - HUVEC cells
+236,SPP,ZEB1,ALDH3A2,leukocytes,ZEB1 IP - GM12878 cells
+237,SPP,NFYA,ALDH3A2,leukocytes,NFYA IP - K562 cells
+238,SPP,IRF1,ALDH3A2,colon,IRF1 IP 
+239,SPP,GABPA,ALDH3A2,lung,GABPA IP - A549 cells
+240,SPP,ERG,ALDH3A2,prostate,ERG ChIP-Seq
+241,SPP,GATA2,ALDH3A2,cns,GATA2 ChIP-Seq SH-SY5Y
+242,SPP,FOXM1,ALDH3A2,leukocytes,FOXM1 IP - GM12878 cells
+243,SPP,E2F3,ALDH3A2,colon,E2F3 IP 
+244,SPP,ELF1,ALDH3A2,liver,ELF1 IP - HepG2 cells
+245,SPP,FOSL2,ALDH3A2,lung,FOSL2 IP - A549 cells
+246,SPP,MAFK,ALDH3A2,lung,MAFK IP - IMR cells
+247,SPP,MYC,ALDH3A2,colon,MYC IP - DTT
+248,SPP,TEAD1,ALDH3A2,cns,"TEAD1 IP - Rep 1, TEAD1 IP - Rep 2"
+249,SPP,GATA3,ALDH3A2,lung,GATA3 IP - A549 cells
+250,SPP,PIAS1,ALDH3A2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+251,SPP,MXI1,ALDH3A2,cns,MXI1 IP - SK-N-SH cells 
+252,SPP,NFYC,ALDH3A2,colon,NFYC IP 
+253,SPP,FOSL2,ALDH3A2,liver,FOSL2 IP - HepG2 cells
+254,SPP,EGR1,ALDH3A2,stemcells,EGR1 IP - H1 cells
+255,SPP,ARNTL,ALDH3A2,colon,ARNTL IP - Rep 1 
+256,SPP,YY1,ALDH3A2,liver,YY1 IP - HepG2 cells
+257,SPP,REST,ALDH3A2,mammarygland,REST IP - MCF7 cells
+258,SPP,BACH1,ALDH3A2,stemcells,BACH1 IP - H1 cells
+259,SPP,CTCF,ALDH3A2,esophagus,"CTCF IP - HEEpiC cells, Rep 1 , CTCF IP - HEEpiC cells, Rep 2 "
+260,SPP,E2F6,ALDH3A2,lung,E2F6 IP - A549 cells
+261,SPP,EGR1,ALDH3A2,leukocytes,"EGR1 IP - GM12878 cells, Rep 1, EGR1 IP - K562 cells"
+262,SPP,MAX,ALDH3A2,stemcells,MAX IP - H1 cells
+263,SPP,USF2,ALDH3A2,stemcells,USF2 IP - H1 cells
+264,SPP,E2F6,ALDH3A2,uterus,E2F6 IP - HeLa cells
+265,SPP,TEAD4,ALDH3A2,uterus,TEAD4 IP - ECC1 cells
+266,SPP,CPDA,ALDH3A2,mammarygland,JUN IP | CPDA
+267,SPP,SIX2,ALDH3A2,kidney,"SIX2 IP - 17 weeks, Rep 1"
+268,SPP,FOXP1,ALDH3A2,prostate,DHT | FOXP1 ChIP-Seq
+269,SPP,MXI1,ALDH3A2,uterus,MXI1 IP - HeLa cells
+270,SPP,MAZ,ALDH3A2,lung,MAZ IP - IMR cells
+271,SPP,ZBTB7A,ALDH3A2,liver,ZBTB7A IP - HepG2 cells
+272,SPP,FOXA2,ALDH3A2,liver,FOXA2 IP - HepG2 cells
+273,SPP,ELF1,ALDH3A2,colon,ELF1 IP - HCT116 cells
+274,SPP,YY1,ALDH3A2,lung,YY1 IP - A549 cells
+275,SPP,PRDM1,ALDH3A2,uterus,PRDM1 IP - HeLa cells
+276,SPP,ZNF263,ALDH3A2,kidney,ZNF263 IP - HEK293 cells
+277,SPP,E2F6,ALDH3A2,stemcells,E2F6 IP - H1 cells

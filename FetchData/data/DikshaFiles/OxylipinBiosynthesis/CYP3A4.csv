@@ -1,0 +1,43 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,MYC,CYP3A4,mammarygland,"MYC IP | 4HT - MCF10A cells, MYC IP - MCF-10A cells"
+SPP,4HT,CYP3A4,mammarygland,"MYC IP | 4HT - MCF10A cells, STAT3 IP | 4HT - MCF10 cells, 36 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 4 h, STAT3 IP | 4HT - MCF10 cells, 12 h"
+SPP,CEBPB,CYP3A4,lung,"CEBPB ChIP-Seq - A549, CEBPB ChIP-Seq - IMR90"
+SPP,TP53,CYP3A4,bone,"TP53 IP | TP53EE/RR OE, TP53 IP | NUTL3, TP53 IP - Rep 2, TP53 IP | NUTL3 - SJSA-1"
+SPP,JUND,CYP3A4,vasculature,JUND IP
+SPP,STAT3,CYP3A4,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 36 h, STAT3 IP - MCF10A cells, Rep 2, STAT3 IP - MCF10A cells, Rep 1, STAT3 IP | 4HT - MCF10 cells, 12 h"
+SPP,JUND,CYP3A4,cns,JUND IP - SK-N-SH cells 
+SPP,JUN,CYP3A4,liver,JUN IP - HepG2 cells
+SPP,FOS,CYP3A4,mammarygland,"FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 4 h"
+SPP,CTCF,CYP3A4,leukocytes,"CTCF IP - K562 cells, CTCF IP - K562 cells, Rep 16 , CTCF IP - K562 cells, Rep 12 , CTCF IP - K562 cells, Rep 14 , CTCF IP - GM19239 cells, Rep 1 "
+SPP,SPI1,CYP3A4,leukocytes,"SPI1 IP - K562 cells, SPI1 IP - HL cells, SPI1 IP, SPI1 IP - GM12878 cells, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP"
+SPP,CEBPB,CYP3A4,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,TP53,CYP3A4,skin,"TP53 IP, TP53 IP - Adriam, TP53 IP"
+SPP,TP53,CYP3A4,mammarygland,TP53 IP | NUTL3 - MCF-7
+SPP,CTCF,CYP3A4,stemcells,CTCF IP - H1 cells 
+SPP,CEBPB,CYP3A4,leukocytes,"CEBPB IP - K562 cells, CEBPB ChIP-Seq - K562"
+SPP,NUTL3,CYP3A4,bone,TP53 IP | NUTL3
+SPP,GABPA,CYP3A4,leukocytes,"GABPA IP - Jurkat, Rep 2, GABPA IP - Jurkat, Rep 1"
+SPP,MAX,CYP3A4,liver,MAX IP - HepG2 cells
+SPP,CEBPB,CYP3A4,liver,"CEBPB IP - HepG2 cells, CEBPB ChIP-Seq - HepG2"
+SPP,JUN,CYP3A4,leukocytes,"JUN IP - K562 cells, Rep 1, JUN IP - K562 cells, Rep 2, JUN IP | IFNG - K562 cells, 6 h, JUN IP | IFNG - K562 cells, 30 min"
+SPP,JUND,CYP3A4,leukocytes,JUND IP - K562 cells
+SPP,SMAD1,CYP3A4,hspcs,SMAD1 IP - Rep 3
+SPP,CTCF,CYP3A4,liver,"CTCF IP - SK-N-SH cells, CTCF IP - HepG2 cells , CTCF IP"
+SPP,TP73,CYP3A4,bone,"TP73 IP - beta isoform, Rep 2"
+SPP,GATA3,CYP3A4,mammarygland,GATA3 IP - MCF7 cells
+SPP,IFNG,CYP3A4,leukocytes,"JUN IP | IFNG - K562 cells, 6 h, JUN IP | IFNG - K562 cells, 30 min"
+SPP,CEBPB,CYP3A4,uterus,CEBPB ChIP-Seq - HeLaS3
+SPP,TP63,CYP3A4,lung,TP63 IP - HCC95
+SPP,TP63,CYP3A4,skin,"TP63 IP, TP63 IP | BANF1 KD, TP63 IP, TP63 IP"
+SPP,JUND,CYP3A4,liver,JUND IP - HepG2 cells
+SPP,FOXA1,CYP3A4,liver,"FOXA1 IP - HepG2 cells, Rep 2, FOXA1 IP - HepG2 cells, Rep 1"
+SPP,EGR1,CYP3A4,leukocytes,EGR1 IP - K562 cells
+SPP,CEBPB,CYP3A4,colon,CEBPB IP | 125DVD3
+SPP,125DVD3,CYP3A4,colon,"CEBPB IP | 125DVD3, CDX2 IP | 125DVD3"
+SPP,TP53,CYP3A4,leukocytes,TP53 IP - Doxo DNA damage
+SPP,CREB1,CYP3A4,liver,CREB1 IP - HepG2 cells
+SPP,BANF1,CYP3A4,skin,TP63 IP | BANF1 KD
+SPP,JUN,CYP3A4,vasculature,JUN IP
+SPP,CDX2,CYP3A4,colon,CDX2 IP | 125DVD3
+SPP,GATA2,CYP3A4,cns,GATA2 ChIP-Seq SH-SY5Y
+SPP,FOXA2,CYP3A4,liver,FOXA2 IP - HepG2 cells

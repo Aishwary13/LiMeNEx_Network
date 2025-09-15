@@ -1,0 +1,73 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+STAT6,"SMPD3,GLB1",20620947,https://pubmed.ncbi.nlm.nih.gov/20620947/,"SMPD3,GLB1",Leukocytes,https://www.sciencedirect.com/science/article/pii/S1074761310002141?via%3Dihub
+RUNX1,"ARSA,HEXA,GBA2,GALC,SMPD3,SMPD2,NEU4,SMPD1",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"ARSA,HEXA,GBA2,GALC,SMPD3,SMPD2,NEU4,SMPD1",Skin,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+EGR1,SMPD1,19374776,https://pubmed.ncbi.nlm.nih.gov/19374776/,SMPD1,Leukocytes,https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-4-r41#Sec18
+RELA,"SMPD2,SMPD1,NEU1",24523406,Modulation of gene expression regulated by the transcription factor NF-κB/RelA - PubMed,"SMPD2,SMPD1,NEU1",PNS,https://www.sciencedirect.com/science/article/pii/S0021925820415108?via%3Dihub#sec1
+AR,"GBA2,GALC,SMPD1,ENPP7",20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+GATA2,"ASAH1,ASAH2,GALC,GLB1",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,"ASAH1,ASAH2,GALC,GLB1",Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+ATF3,"GBA2,SMPD1,NEU1,GLA",23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,"GBA2,SMPD1,NEU1,GLA",CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+HNF4A,"ASAH1,ASAH2,GALC,SMPD3,NEU4,GLB1,NEU1,ENPP7",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"ASAH1,ASAH2,GALC,SMPD3,NEU4,GLB1,NEU1,ENPP7",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+RUNX2,"ASAH1,ASAH2,GBA2,GALC,ENPP7",22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,not found,Prostate,https://academic.oup.com/nar/article/40/8/3538/2411202?login=false#supplementary-data
+GATA1,"ASAH1,GLB1",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,"ASAH1,GLB1",Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+TP53,"GALC,ENPP7",18474530,https://pubmed.ncbi.nlm.nih.gov/18474530/,"GALC,ENPP7",Bone,https://academic.oup.com/nar/article/36/11/3639/2410222?login=true#82535491
+VDR,GLB1,20736230,https://pubmed.ncbi.nlm.nih.gov/20736230/,not found,Leukocytes,https://genome.cshlp.org/content/20/10/1352
+MYCN,NEU1,19997598,https://pubmed.ncbi.nlm.nih.gov/19997598/,NEU1,CNS,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008154#s5
+ESR1,GLA,21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,GLA,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36#Abs1
+TFAP2A,"GALC,SMPD3,GLA",17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,"GALC,SMPD3,GLA",Mammary Gland,https://genome.cshlp.org/content/16/12/1585
+WT1,"ASAH2,HEXA,GALC,SMPD1",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,"ASAH2,HEXA,GALC,SMPD1",Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub
+ESR2,GLA,21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,GLA,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36#Abs1
+FOXP3,"GALC,NEU1",21729870,https://pubmed.ncbi.nlm.nih.gov/21729870/,not found,,https://academic.oup.com/nar/article/39/18/7946/1084168
+CLOCK,ARSA,20551151,https://pubmed.ncbi.nlm.nih.gov/20551151/,ARSA,Colon,https://aacrjournals.org/mcr/article/8/7/952/90638/Mutations-in-the-Circadian-Gene-CLOCK-in
+NFE2L2,HEXA,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,HEXA,Leukocytes,https://academic.oup.com/nar/article/40/15/7416/1213698?login=true#supplementary-data
+ETS1,"HEXA,SMPD3",20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,"HEXA,SMPD3",leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+MITF,"ARSA,ASAH1,GLB1,SMPD1,NEU1",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"ARSA,ASAH1,GLB1,SMPD1,NEU1",Skin,https://www.nature.com/articles/onc2010612
+E2F1,"GALC,SMPD3",17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,"GALC,SMPD3",Mammary Gland,https://genome.cshlp.org/content/16/12/1585
+NR1H3,SMPD2,23393188,https://pubmed.ncbi.nlm.nih.gov/23393188/,SMPD2,Leukocytes,https://academic.oup.com/nar/article/41/6/3518/2902510?login=true#83582439
+STAT3,"ASAH1,HEXA,SMPD3",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,CNS,paid https://academic.oup.com/neuro-oncology/article-abstract/15/3/279/1055801?redirectedFrom=fulltext&login=true
+HOXB7,"ARSA,ENPP7",26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,ENPP7,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+FOXA1,"ASAH2,SMPD1",25329375,https://pubmed.ncbi.nlm.nih.gov/25329375/,not found,,https://academic.oup.com/mend/article/28/12/2012/2623249?login=true
+TCF21,"SMPD2,SMPD1",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+ELK3,"NEU4,SMPD1",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+TFEB,NEU1,21752829,https://pubmed.ncbi.nlm.nih.gov/21752829/,not found,,paid https://academic.oup.com/hmg/article-abstract/20/19/3852/602520?redirectedFrom=fulltext&login=false
+TP63,"ASAH1,ASAH2,SMPD2",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,"ASAH1,SMPD2",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s5
+E2F4,NEU1,17652178,https://pubmed.ncbi.nlm.nih.gov/17652178/,NEU1,Thymus,https://genesdev.cshlp.org/content/21/15/1882
+ELK1,HEXA,19687146,https://pubmed.ncbi.nlm.nih.gov/19687146/,HEXA,Kidney,https://genome.cshlp.org/content/19/11/1963
+EOMES,GLB1,21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,GLB1,Embryonic tissue,https://genesdev.cshlp.org/content/25/3/238
+FOXP1,"ASAH1,NEU1,ENPP7",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"ASAH1,NEU1,ENPP7",Embryonic tissue,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub#app3
+YY1,SMPD3,22570637,https://pubmed.ncbi.nlm.nih.gov/22570637/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002688
+SOX11,ENPP7,23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,ENPP7,Lymph node,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+FLI1,"ARSA,HEXA,NEU4,GLA",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"ARSA,HEXA,NEU4,GLA",Skin,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+TFAP2C,HEXA,20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,HEXA,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+CUX1,"ASAH2,GLB1",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"ASAH2,GLB1",Lung,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+BACH1,ASAH1,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,ASAH1,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+ZNF217,SMPD3,24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,SMPD3,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec26
+DACH1,SMPD1,20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,SMPD1,Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+SMAD3,SMPD1,18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,SMPD1,Skin,https://www.tandfonline.com/doi/suppl/10.1128/MCB.01038-08?scroll=top
+RBPJ,GBA2,21746931,https://pubmed.ncbi.nlm.nih.gov/21746931/,not found,,https://www.pnas.org/doi/full/10.1073/pnas.1108892108
+JUN,ASAH2,26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+JUND,ASAH2,26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+BCL6,ASAH2,25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+GATA6,GALC,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+SMAD4,HEXA,21799915,https://pubmed.ncbi.nlm.nih.gov/21799915/,HEXA,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022606#s5
+FOXA2,ASAH2,19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,ASAH2,Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+PPARD,GALC,21283829,https://pubmed.ncbi.nlm.nih.gov/21283829/,GALC,Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016344
+TCF4,ASAH2,23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,CNS,paid https://academic.oup.com/neuro-oncology/article-abstract/15/3/279/1055801?redirectedFrom=fulltext&login=true
+E2F7,GBA,22180533,https://pubmed.ncbi.nlm.nih.gov/22180533/,GBA,Fibroblasts,https://academic.oup.com/nar/article/40/8/3511/2411136?login=true#supplementary-data
+SOX11,GBA,23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,GBA,Lymph node,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+HNF4A,GBA,19761587,https://pubmed.ncbi.nlm.nih.gov/19761587/,GBA,"Colon, Duodenum, lleum, Jejunum, Rectum",https://bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-9-68
+SMAD3,GBA,18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,GBA,Skin,https://www.tandfonline.com/doi/suppl/10.1128/MCB.01038-08?scroll=top
+FOXM1,GBA,23109430,https://pubmed.ncbi.nlm.nih.gov/23109430/,GBA,"Bone, Kidney, Fibroblasts, Colon",https://www.tandfonline.com/doi/full/10.1128/MCB.00881-12#d1e207
+NFE2L2,GBA,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,GBA,Leukocytes,https://academic.oup.com/nar/article/40/15/7416/1213698?login=true#supplementary-data
+TFEB,GBA,21752829,https://pubmed.ncbi.nlm.nih.gov/21752829/,not found,,paid https://academic.oup.com/hmg/article-abstract/20/19/3852/602520?redirectedFrom=fulltext&login=true
+ELF1,GBA,20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+E2F1,GBA,21310950,https://pubmed.ncbi.nlm.nih.gov/21310950/,GBA,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)51577-9/fulltext#app-1
+FOXP3,GBA,21729870,https://pubmed.ncbi.nlm.nih.gov/21729870/,not found,,https://academic.oup.com/nar/article/39/18/7946/1084168
+MITF,GBA,21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,GBA,Skin,https://www.nature.com/articles/onc2010612
+ETS1,GBA,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,GBA,Leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+GATA6,GBA,25053715,,not found,,paid https://gut.bmj.com/content/64/5/707
+ATF3,GBA,23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,GBA,CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+VDR,GBA,23849224,,not found,,https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-11-163
+E2F4,GBA,21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,GBA,Lymph node,https://academic.oup.com/nar/article/39/9/3558/1243263#supplementary-data
+CUX1,GBA,19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,GBA,"Mammary Gland, Kidney",https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+AR,GBA,19668381,https://pubmed.ncbi.nlm.nih.gov/19668381/,GBA,Prostate ,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006589
+FOXP1,GBA,21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,GBA,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub#app3

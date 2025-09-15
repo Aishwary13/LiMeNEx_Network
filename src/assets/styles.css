@@ -1,0 +1,657 @@
+.highlighted-checklist .custom-checkbox-label {
+    color: #1e90ff; /* Example color for labels */
+    font-weight: bold;
+}
+
+.upload{
+    width: 100%;
+}
+
+.navbar {
+    /* position: fixed; */
+    /* right:0; */
+    /* top: 5px; */
+    /* z-index: 1000; */
+    background-color: #292929;
+    display: flex;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+/* style.css */
+.sidebar {
+    width: 4em;  /* Collapsed width */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    padding-top: 1em;
+    background-color: #292929;
+    color: white;
+    z-index: 1;  /* Ensure the sidebar is on top */
+    box-shadow: 4px 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.sidebar:hover {
+    width: 15em;  /* Expanded width */
+}
+
+#page-content {
+    padding-left: 4em;  /* Keep margin for the collapsed sidebar */
+    transition: margin-left 0.5s;
+    z-index: 0;  /* Ensure the content is below the sidebar */
+    position: relative;  /* Ensure the content stays in place */
+}
+
+.sidebar:hover ~ #content {
+    margin-left: 3em;  /* Keep the same margin even when sidebar expands */
+}
+
+/* make sure the contents of the navlink don't wrap when navbar collapses */
+.sidebar .nav-link {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+/* fix the width of the icons */
+.sidebar .nav-link i {
+    width: 1rem;
+}
+
+/* hide the navlink labels by default */
+.sidebar .nav-link span {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+
+  /* when the sidebar is hovered, reveal the labels */
+.sidebar:hover .nav-link span {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* container for the sidebar header. make sure the contents don't wrap when
+* the sidebar is collapsed.
+*/
+.sidebar-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-link.active{
+    background-color: #0084d6 !important;
+    color: #fff !important;
+    /* box-shadow: 0 2px 4px 0 rgba(32, 121, 255, 0.308) !important; */
+  }
+
+  .nav-link.active:hover{
+    color: #fff !important;
+  }
+
+  /* .nav-link:hover {
+    color:  #0084d6 !important;
+  } */
+
+.image_title {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+    align-items: center;
+}
+
+.icon_title {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+    margin-left: 7px;
+    color : #ffffff
+}
+
+/* ----------------------------------------contact us CSS------------------------------------------------------------- */
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.form {
+    width: 100%;
+    max-width: 820px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.formDiv {
+    padding: 2rem 2rem;
+}
+
+.contact-info-form {
+    background-color: #292929;
+    position: relative
+}
+
+.circle {
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, #a7323254);
+    position: absolute
+}
+
+.circle.one {
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px
+}
+
+.circle.two {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30px
+}
+
+.contact-info-form:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #292929;
+    transform: rotate(45deg);
+    bottom: 66px;
+    left: -13px
+}
+
+form {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-bottom: 0.7rem
+}
+
+.social-input-containers {
+    position: relative;
+    margin: 1rem 0;
+    color : #fafafa
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #fca117;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.70rem;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    transition: 0.3s
+}
+
+.input::placeholder{
+    color : #fafafa;
+}
+
+textarea.input {
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 4px;
+    resize: none;
+    overflow-y: auto
+}
+
+.social-input-containers label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0 0.4rem;
+    color: #fafafa;
+    font-size: 0.7rem;
+    font-weight: 400;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0.5s
+}
+
+.social-input-containers.textarea label {
+    top: 1rem;
+    transform: translateY(0)
+}
+
+.btn {
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.9rem;
+    color: #1abc9c;
+    line-height: 1;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #fff
+}
+
+.social-input-containers span {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    font-size: 0.7rem;
+    padding: 0 0.4rem;
+    color: transparent;
+    pointer-events: none;
+    z-index: 500
+}
+
+.social-input-containers span:before,
+.social-input-containers span:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    opacity: 0;
+    transition: 0.3s;
+    height: 5px;
+    background-color: #292929;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.social-input-containers span:before {
+    left: 50%
+}
+
+.social-input-containers span:after {
+    right: 50%
+}
+
+.social-input-containers.focus label {
+    top: 0;
+    transform: translateY(-50%);
+    left: 25px;
+    font-size: 0.7rem
+}
+
+.social-input-containers.focus span:before,
+.social-input-containers.focus span:after {
+    width: 50%;
+    opacity: 1
+}
+
+.contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative
+}
+
+.contact-info .title {
+    color: #292929
+}
+
+.text {
+    color: #333;
+    margin: 1.5rem 0 2rem 0
+}
+
+.social-information {
+    display: flex;
+    color: #555;
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 0.70rem
+}
+
+.icon {
+    width: 28px;
+    margin-right: 0.7rem
+}
+
+.social-media {
+    padding: 2rem 0 0 0
+}
+
+.social-media p {
+    color: #333
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 0.5rem
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 43px;
+    background: linear-gradient(45deg, #292929, #292929);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s
+}
+
+.social-icons a:hover {
+    transform: scale(1.05)
+}
+
+.contact-info:before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    border: 22px solid #292929;
+    border-radius: 50%;
+    bottom: -77px;
+    right: 50px;
+    opacity: 0.3
+}
+
+.social-information i {
+    font-size: 15px;
+    margin-bottom: 23px;
+    margin-right: 8px;
+    color: #cf0606
+}
+
+.big-circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #292929, #cb0b0b);
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-40%, 38%)
+}
+
+.big-circle:after {
+    content: "";
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    top: calc(50% - 180px);
+    left: calc(50% - 180px)
+}
+
+.square {
+    position: absolute;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(181%, 11%);
+    opacity: 0.2
+}
+
+@media (max-width: 850px) {
+    .form {
+        grid-template-columns: 1fr
+    }
+
+    .contact-info:before {
+        bottom: initial;
+        top: -75px;
+        right: 65px;
+        transform: scale(0.95)
+    }
+
+    .contact-info-form:before {
+        top: -13px;
+        left: initial;
+        right: 70px
+    }
+
+    .square {
+        transform: translate(140%, 43%);
+        height: 350px
+    }
+
+    .big-circle {
+        bottom: 75%;
+        transform: scale(0.9) translate(-40%, 30%);
+        right: 50%
+    }
+
+    .text {
+        margin: 1rem 0 1.5rem 0
+    }
+
+    .social-media {
+        padding: 1.5rem 0 0 0
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem
+    }
+
+    .contact-info:before {
+        display: none
+    }
+
+    .square,
+    .big-circle {
+        display: none
+    }
+
+    form,
+    .contact-info {
+        padding: 1.7rem 1.6rem
+    }
+
+    .text,
+    .social-information,
+    .social-media p {
+        font-size: 0.7rem
+    }
+
+    .title {
+        font-size: 1rem
+    }
+
+    .social-icons a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .icon {
+        width: 23px
+    }
+
+    .input {
+        padding: 0.45rem 1.2rem
+    }
+
+    .btn {
+        padding: 0.45rem 1.2rem
+    }
+}
+
+/* ###############################------Analysis----################################################################ */
+
+
+.form-container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #1A1A1A;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.step {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #444;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.completed {
+    background-color: #00CC96;
+}
+
+.active {
+    background-color: #0074D9;
+}
+
+.arrow {
+    flex-grow: 1;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.arrowCompleted{
+    border-color: #00CC96;
+}
+
+.btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00CC96;
+}
+
+/* ####################################### Pipeline Save and load button #################################### */
+
+#save-graphs-button {
+    position: fixed;
+    right: 90px; /* Distance from the right */
+    bottom: 70px; /* Adjust to place it above the load button */
+    background-color: #129cff; /* Button color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px; /* Set font size */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 1000; /* Ensure buttons are above other elements */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+#load-graphs-button {
+    position: fixed;
+    right: 90px; /* Same distance from the right */
+    bottom: 20px; /* Place it below the save button */
+    background-color: #129cff; /* Button color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px; /* Set font size */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 1000; /* Ensure buttons are above other elements */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+#save-graphs-button:hover, #load-graphs-button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5); /* Deepen the shadow */
+}
+
+
+/* Legend container */
+.legendContainer {
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em; /* Collapsed width */
+    background-color: #292929; /* Uniform color when collapsed */
+    z-index: 10;
+    display: flex;
+    flex-direction: row; /* Arrange arrow and content in a row */
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden; /* Prevent content from being visible in collapsed state */
+    transition: width 0.5s ease, background-color 0.4s ease;
+}
+
+/* Expands the legend when hovered */
+.legendContainer:hover {
+    width: 25em; /* Expanded width */
+    background-color: #FFFFFF; /* Change background to white when expanded */
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow for a cool effect */
+}
+
+/* Arrow to indicate hover action */
+.legendArrow {
+    color: #FFFFFF; /* Arrow color */
+    font-size: 1.5em; /* Arrow size */
+    transform: rotate(0deg); /* Default left-pointing arrow */
+    transition: transform 0.4s;
+    cursor: pointer;
+    margin-left: 0.25em; /* Adjust positioning */
+    margin-right: 0.25em;
+}
+
+/* Arrow flips when hovered */
+.legendContainer:hover .legendArrow {
+    transform: rotate(180deg); /* Rotate arrow to indicate collapse */
+}
+
+/* Legend content (Cytoscape wrapper) */
+
+
+
+
+

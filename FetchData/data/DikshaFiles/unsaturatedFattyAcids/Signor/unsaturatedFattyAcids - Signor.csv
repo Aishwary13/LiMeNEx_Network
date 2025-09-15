@@ -1,0 +1,5 @@
+TargetGene,TF,Library/PMID,Tissue,Pubmed_Link,Paper_Link
+ACOT2,TFEB,33176151,Uterus,https://pubmed.ncbi.nlm.nih.gov/33176151/,https://www.sciencedirect.com/science/article/pii/S2211124720313607?via%3Dihub
+SCD,PRKAA1,21478464,Liver,https://pubmed.ncbi.nlm.nih.gov/21478464/,https://diabetesjournals.org/diabetes/article/60/5/1493/33585/Metformin-Inhibits-Nuclear-Receptor-TR4-Mediated
+ELOVL6,SREBF1,18226595,Liver,https://pubmed.ncbi.nlm.nih.gov/18226595/,https://www.sciencedirect.com/science/article/pii/S0006291X08000946?via%3Dihub
+ELOVL6,MLXIPL,18226595,Liver,https://pubmed.ncbi.nlm.nih.gov/18226595/,https://www.sciencedirect.com/science/article/pii/S0006291X08000946?via%3Dihub

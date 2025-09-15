@@ -1,0 +1,8 @@
+TargetGene,TF,Library/PMID,Tissue,Paper Links
+CYP7A1, PPARGC1A,16891307,Liver,http://www.ncbi.nlm.nih.gov/pubmed/16891307
+CYP7A1,DBP,8617210,"Liver,Kidney",http://www.ncbi.nlm.nih.gov/pubmed/8617210
+CYP7A1,NCOA1,16891307,Liver,http://www.ncbi.nlm.nih.gov/pubmed/16891307
+CYP7A1,TFEB,33176151,Uterus,http://www.ncbi.nlm.nih.gov/pubmed/33176151
+CYP7B1,AR,16630558,Prostate,http://www.ncbi.nlm.nih.gov/pubmed/16630558
+AKR1C4,"HNF1A, HNF1B, HNF4G, HNF4A",2044952,"Lung,Liver",http://www.ncbi.nlm.nih.gov/pubmed/2044952
+CYP27A1,"SP1, SP3, HNF4A",11867220,Liver,http://www.ncbi.nlm.nih.gov/pubmed/11867220

@@ -1,0 +1,43 @@
+TF,Overlapping Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue
+PPARD,"CPT1A,HADHB,HADHA,SLC25A20",23208498,https://pubmed.ncbi.nlm.nih.gov/23208498/,"CPT1A,HADHB,HADHA,SLC25A20",Mammary Gland
+ELK3,"CPT1A,ACADVL,ECI1,CPT2,ACADM",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,endothelial cells
+EGR1,"ACADVL,HADHB",19032775,https://pubmed.ncbi.nlm.nih.gov/19032775/,"ACADVL,HADHB",Prostate 
+HNF4A,"HADHB,HADHA,SLC25A20",19761587,https://pubmed.ncbi.nlm.nih.gov/19761587/,"HADHB,HADHA,SLC25A20","Duodenum, Jejunum, lleum"
+ZNF652,HADHA,21678463,https://pubmed.ncbi.nlm.nih.gov/21678463/,HADHA,Mammary Gland
+ELK1,"HADHB,CPT2",19687146,https://pubmed.ncbi.nlm.nih.gov/19687146/,"HADHB,CPT2",kidney
+E2F4,"ECHS1,ECI1,CPT2,ACADM",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"ECHS1,CPT2,ACADM,ECI1",Leukocytes
+VDR,SLC25A20,20736230,https://pubmed.ncbi.nlm.nih.gov/20736230/,SLC25A20,Leukocytes
+IRF1,ECHS1,21803131,https://pubmed.ncbi.nlm.nih.gov/21803131/,not found,human monocytes (Blood)
+FOXP1,"CPT1A,ECI1,CPT1B,CPT2",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"CPT1A,ECI1,CPT1B,CPT2",Stem cells
+SALL4,"CPT1A,HADHA",22934838,https://pubmed.ncbi.nlm.nih.gov/22934838/,"CPT1A,HADHA",Stem cells
+CUX1,"CPT1B,HADHB,HADHA",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"CPT1B,HADHB,HADHA",Mammary Gland
+STAT3,"CPT1A,HADHA,SLC25A20",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,"CPT1A,HADHA,SLC25A20",CNS
+NR1H3,ACADVL,23393188,https://pubmed.ncbi.nlm.nih.gov/23393188/,ACADVL,Leukocytes
+HOXB7,"ECI1,ACADL",26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,not found,Mammary Gland
+FOXA1,"SLC25A20,ACADS",25329375,https://pubmed.ncbi.nlm.nih.gov/25329375/,not found,
+BCL6,"CPT1A,HADHB",25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,
+TCF21,"CPT1A,ACADS",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,
+PBX1,"HADHB,HADHA",22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,"HADHB,HADHA", Kidney
+FOXP2,ECI1,23625967,https://pubmed.ncbi.nlm.nih.gov/23625967/,ECI1,CNS
+TP53,ACADVL,22127205,https://pubmed.ncbi.nlm.nih.gov/22127205/,ACADVL,Lung
+RUNX1,ACADM,17652178,https://pubmed.ncbi.nlm.nih.gov/17652178/,ACADM,Thymus
+TP63,"CPT1A,HADHB,CPT2",22573176,https://pubmed.ncbi.nlm.nih.gov/22573176/,"CPT1A,HADHB,CPT2",Skin
+ELF1,ECHS1,20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,Bone Marrow
+GATA1,"HADHA,ACADM",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"HADHA,ACADM",Bone marrow
+YY1,ACADM,22570637,https://pubmed.ncbi.nlm.nih.gov/22570637/,ACADM,Skin
+ELF5,CPT1A,23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,CPT1A,Mammary Gland
+ERG,SLC25A20,20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,Bone Marrow
+FOXA2,"CPT1A,HADHB",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"CPT1A,HADHB",Liver
+BACH1,ACADL,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,ACADL,Mammary Gland
+ZNF217,CPT1A,24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,CPT1A,Mammary Gland
+JUN,CPT1A,21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,not found,Bone Marrow
+ETS1,ACADVL,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,ACADVL,Leukocytes
+DACH1,ACADM,20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,ACADM,Mammary Gland
+MITF,"CPT1A,ECHS1,ECI1",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"CPT1A,ECHS1",Skin
+TCF4,"CPT1A,CPT2",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,"CPT1A,CPT2",CNS
+SMAD3,ACADVL,18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,not found,
+KLF5,CPT1A,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,
+HOXC9,HADHA,25013753,https://pubmed.ncbi.nlm.nih.gov/25013753/,HADHA,cns
+GATA6,ECI1,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,
+AR,SLC25A20,20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,bone marrow
+ATF3,ACADM,23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,ACADM,CNS

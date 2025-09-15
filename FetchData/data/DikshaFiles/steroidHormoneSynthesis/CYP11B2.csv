@@ -1,0 +1,47 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,REST,CYP11B2,leukocytes,"REST IP - GM12878 cells, Rep 7 , REST IP - GM12878 cells, Rep 1 , REST IP - GM12878 cells, Rep 2, REST IP - K562 cells, REST IP - Jurkat cells, Rep 5 , REST IP - GM12878 cells, Rep 11 , REST IP - Jurkat cells, Rep 3 , REST IP - Jurkat cells, Rep 8 , REST IP - GM12878 cells, Rep 10 , REST IP - GM12878 cells, Rep 12 , REST IP - GM12878 cells, Rep 4 , REST IP - Jurkat cells, Rep 13 , REST IP - GM12878 cells, Rep 27 , REST IP - HL60 cells, REST IP - GM12878 cells, Rep 15 , REST IP - GM12878 cells, Rep 1, REST IP - GM12878 cells, Rep 21 , REST IP - Jurkat cells, Rep 2 , REST IP - GM12878 cells, Rep 25 , REST IP - Jurkat cells, Rep 14 , REST IP - GM12878 cells, Rep 22 , REST IP - Jurkat cells, Rep 11 , REST IP - GM12878 cells, Rep 19 , REST IP - GM12878 cells, Rep 17 , REST IP - Jurkat cells, Rep 7 , REST IP - GM12878 cells, Rep 9 , REST IP - GM12878 cells, Rep 6 , REST IP - GM12878 cells, Rep 5 , REST IP - K562 cells , REST IP - GM12878 cells, Rep 18 , REST IP - GM12878 cells, Rep 23 , REST IP - Jurkat cells, Rep 10 , REST IP - Jurkat cells, Rep 1 , REST IP - GM12878 cells, Rep 20 , REST IP -  K562 cells, REST IP - GM12878 cells, Rep 16 , REST IP - GM12878 cells, Rep 13 , REST IP - GM12878 cells, Rep 14 , REST IP - Jurkat cells, Rep 12 , REST IP - GM12878 cells, Rep 24 , REST IP - GM12878 cells, Rep 26 , REST IP - Jurkat cells, Rep 4 , REST IP - GM12878 cells, Rep 3 , REST IP - GM12878 cells, Rep 8 , REST IP - GM12878 cells, Rep 2 , REST IP - GM12878 cells, Rep 17 , REST IP - GM12878 cells, Rep 28 , REST IP - Jurkat cells, Rep 15 "
+SPP,MAX,CYP11B2,liver,MAX IP - MCF7 cells
+SPP,STAT3,CYP11B2,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 12 h, STAT3 IP - MCF10A cells, Rep 2, STAT3 IP | 4HT - MCF10 cells, 36 h"
+SPP,4HT,CYP11B2,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 12 h, STAT3 IP | 4HT - MCF10 cells, 36 h, FOS IP | 4HT - MCF10A cells, 12 h"
+SPP,FOXA1,CYP11B2,mammarygland,"17BE2 + TNF | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, TNF | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, 17BE2 + TNF | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, TNF | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2"
+SPP,17BE2; TNF,CYP11B2,mammarygland,"17BE2 + TNF | FOXA1 ChIP-Seq - Rep 1, 17BE2 + TNF | FOXA1 ChIP-Seq - Rep 2"
+SPP,FOXA1,CYP11B2,prostate,"R1881 | FOXA1 ChIP-Seq - Rep 2, POU2F1 KD + DHT | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq, CON KD  | FOXA1 ChIP-Seq, EtOH | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, FOXA1 KD | FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, EtOH | FOXA1 ChIP-Seq - , FOXA1 KD | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CON KD | FOXA1 ChIP-Seq, GATA2 KD  | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - LNCaP-abl, DHT | FOXA1 ChIP-Seq, GATA2 KD + R1881 | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq"
+SPP,R1881,CYP11B2,prostate,"R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, GATA2 KD + R1881 | FOXA1 ChIP-Seq"
+SPP,17BE2,CYP11B2,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+SPP,TNF,CYP11B2,mammarygland,"TNF | FOXA1 ChIP-Seq - Rep 1, TNF | FOXA1 ChIP-Seq - Rep 2"
+SPP,CTCF,CYP11B2,liver,CTCF IP - SK-N-SH cells
+SPP,DHT,CYP11B2,prostate,"POU2F1 KD + DHT | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq, DHT | FOXA1 ChIP-Seq"
+SPP,POU2F1,CYP11B2,prostate,POU2F1 KD + DHT | FOXA1 ChIP-Seq
+SPP,GATA2,CYP11B2,prostate,"GATA2 ChIP-Seq, GATA2 KD  | FOXA1 ChIP-Seq, GATA2 KD + R1881 | FOXA1 ChIP-Seq"
+SPP,REST,CYP11B2,mammarygland,REST IP - MCF7 cells
+SPP,DEX,CYP11B2,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2"
+SPP,ZNF263,CYP11B2,kidney,ZNF263 IP - HEK293 cells
+SPP,REST,CYP11B2,uterus,"REST IP - ECC1 cells, REST IP - SK-N-SH cells"
+SPP,ELF1,CYP11B2,leukocytes,ELF1 IP - SK-N-SH cells
+SPP,CEBPB,CYP11B2,stemcells,CEBPB IP
+SPP,CEBPB,CYP11B2,liver,"CEBPB IP | FORSK - HepG2 cells, CEBPB ChIP-Seq - HepG2"
+SPP,FORSK,CYP11B2,liver,CEBPB IP | FORSK - HepG2 cells
+SPP,REST,CYP11B2,pancreas,"REST IP - PANC1 cells, Rep 2, REST IP - PANC1 cells, Rep 1, REST IP - Panc1 cells, Rep 3"
+SPP,REST,CYP11B2,cns,"REST IP - SK-N-SH cells, REST IP - U87 cells, REST IP - SK cells, REST IP - PFSK1 cells, Rep 2, REST IP - PFSK-N-SH cells1 cells, Rep 1"
+SPP,REST,CYP11B2,stemcells,"REST IP - H1 cells, Rep 2"
+SPP,ELF3,CYP11B2,pancreas,ELF3 IP
+SPP,REST,CYP11B2,lung,REST IP - A549 cells
+SPP,ETS1,CYP11B2,leukocytes,ETS1 IP
+SPP,REST,CYP11B2,colon,REST IP - HCT116 cells
+SPP,GATA3,CYP11B2,mammarygland,"GATA3 IP - T47D cells, GATA3 IP - MCF7 cells"
+SPP,TP53,CYP11B2,bone,TP53 IP | TP53EE/RR OE
+SPP,PIAS1,CYP11B2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+SPP,REST,CYP11B2,liver,"REST IP - HepG2 cells, Rep 1, REST IP - HepG2 cells, Rep 2"
+SPP,CTCF,CYP11B2,leukocytes,"CTCF IP - GM12871 cells , CTCF IP -  DND "
+SPP,EGR1,CYP11B2,leukocytes,EGR1 IP - K562 cells
+SPP,PBX3,CYP11B2,leukocytes,PBX3 IP - GM12878 cells
+SPP,TEAD4,CYP11B2,lung,TEAD4 IP - A549 cells
+SPP,CREB1,CYP11B2,prostate,"CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1"
+SPP,ZNF263,CYP11B2,leukocytes,ZNF263 IP - K562 cells
+SPP,ELF1,CYP11B2,liver,ELF1 IP - HepG2 cells
+SPP,ELF1,CYP11B2,mammarygland,ELF1 IP - MCF7 cells
+SPP,MAX,CYP11B2,leukocytes,MAX IP - K562 cells
+SPP,MAX,CYP11B2,vasculature,MAX IP - HUVEC cells
+SPP,MAX,CYP11B2,uterus,MAX IP - ECC1 cells
+SPP,FOS,CYP11B2,mammarygland,"FOS IP | 4HT - MCF10A cells, 12 h"
+SPP,CTCF,CYP11B2,kidney,"CTCF IP - HEK293 cells, Rep 1 "

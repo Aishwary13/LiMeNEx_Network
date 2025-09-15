@@ -1,0 +1,21 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,FOXA1,HSD3B2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, CON KD | FOXA1 ChIP-Seq, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - LNCaP-abl, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1, EtOH | FOXA1 ChIP-Seq - , FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, R1881 | FOXA1 ChIP-Seq - Rep 1, DHT | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq"
+SPP,R1881,HSD3B2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2"
+SPP,PIAS1,HSD3B2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+SPP,CTCF,HSD3B2,stemcells,"CTCF IP - H1 cells , CTCF IP - H1 cells"
+SPP,FOXA2,HSD3B2,stemcells,"FOXA2 IP - ES D2, FOXA2 IP - Rep 5 , FOXA2 IP - Rep 1 "
+SPP,EOMES,HSD3B2,stemcells,"EOMES IP - Rep 2 , EOMES IP - Rep 3 "
+SPP,CEBPB,HSD3B2,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,CREB1,HSD3B2,prostate,"CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2"
+SPP,CTCF,HSD3B2,skin,"CTCF IP - GM12878 cells, Rep 2 "
+SPP,CTCF,HSD3B2,kidney,"CTCF IP - HEK293 cells, Rep 1 "
+SPP,CTCF,HSD3B2,mammarygland,"CTCF IP - HMEC cells, Rep 2 , CTCF IP - HMEC cells, Rep 1 "
+SPP,FOXH1,HSD3B2,embryonictissue,FOXH1 IP - endoderm
+SPP,FOXA2,HSD3B2,embryonictissue,"FOXA2 IP - Rep 1, FOXA2 IP - Rep 2"
+SPP,FOXA1,HSD3B2,stemcells,"FOXA1 IP - Rep 5 , FOXA1 IP - Rep 1 "
+SPP,SPI1,HSD3B2,leukocytes,SPI1 IP - HL cells
+SPP,CTCF,HSD3B2,leukocytes,"CTCF IP - GM19239 cells, Rep 1 , CTCF IP - GM19239 cells, Rep 2 , CTCF IP - GM19240 cells, Rep 2 , CTCF IP - GM19240 cells, Rep 1 , CTCF IP - GM12865 cells, Rep 2 "
+SPP,MAFF,HSD3B2,liver,MAFF IP - HepG2 cells
+SPP,DHT,HSD3B2,prostate,DHT | FOXA1 ChIP-Seq
+SPP,MAFK,HSD3B2,liver,"MAFK IP - HepG2 cells, Rep 2"
+SPP,CTCF,HSD3B2,miscellaneous,"CTCF IP - AG09319 cells, Rep 1 "

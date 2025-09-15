@@ -1,0 +1,10 @@
+TargetGene,TF,Library/PMID,validated genes,Tissue,Paper Links
+ACLY,SREBF1,10777536,Yes,"Liver,Embryonic tissue",https://pubmed.ncbi.nlm.nih.gov/10777536/
+ACACA,CREB1,19842072,Yes,Liver,https://pubmed.ncbi.nlm.nih.gov/19842072/
+FASN,SREBF1,18774944,Yes,Prostate,https://pubmed.ncbi.nlm.nih.gov/19842072/
+SOAT1,PPARG,19049899,Yes,"Liver,Lung,Skin,Spleen",https://pubmed.ncbi.nlm.nih.gov/19049899/
+ACSL1,PPARA,17150915,Yes,Kidney,https://pubmed.ncbi.nlm.nih.gov/17150915/
+FASN,KLF5,18774944,Yes,Prostate,https://pubmed.ncbi.nlm.nih.gov/18774944/
+SOAT1,STAT1,19049899,Yes,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/19049899/
+SCD, SREBF1,11397803,Yes,Sensory,https://pubmed.ncbi.nlm.nih.gov/11397803/
+SCD,RARA,11397803,Yes,Sensory,https://pubmed.ncbi.nlm.nih.gov/11397803/

@@ -1,0 +1,32 @@
+TF,TargetGene,Library/PMID,Pubmed_Link,Tissue
+GATA6,CYP17A1,15284005,https://pubmed.ncbi.nlm.nih.gov/15284005/,Ovary
+TFEB,CYP17A1,15284005,https://pubmed.ncbi.nlm.nih.gov/15284005/,Ovary
+AHR,CYP1A1,17012224,https://pubmed.ncbi.nlm.nih.gov/17012224/,Lung
+ARNT,CYP1A1,17012224,https://pubmed.ncbi.nlm.nih.gov/17012224/,Lung
+NR5A2,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/,Uterus
+FOS,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/,Uterus
+FOXL2,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/,Uterus
+ESRRA,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/,Uterus
+NR5A1,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/, Liver
+CREB1,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/,Liver
+JUN,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/,Uterus
+ESR1,CYP19A1,19022561,https://pubmed.ncbi.nlm.nih.gov/19022561/,Uterus
+SP1,CYP1B1,12801909,https://pubmed.ncbi.nlm.nih.gov/12801909/,"Liver, Mammary Gland, Ovary ,Colon"
+ARNT,CYP1B1,12801909,https://pubmed.ncbi.nlm.nih.gov/12801909/,"Liver, Mammary Gland, Ovary ,Colon"
+AHR,CYP1B1,12801909,https://pubmed.ncbi.nlm.nih.gov/12801909/,"Liver, Mammary Gland, Ovary ,Colon"
+CREB,ALOX15,12517954,https://pubmed.ncbi.nlm.nih.gov/12517954/,Lung
+P300,ALOX15,12517954,https://pubmed.ncbi.nlm.nih.gov/12517954/,Lung
+EP300,ALOX15,12517954,https://pubmed.ncbi.nlm.nih.gov/12517954/,Lung
+MECP2,ALOX5,19781662,https://pubmed.ncbi.nlm.nih.gov/19781662/,Leukocytes
+MBD1,ALOX5,19781662,https://pubmed.ncbi.nlm.nih.gov/19781662/,Leukocytes
+SP1,ALOX5,19781662,https://pubmed.ncbi.nlm.nih.gov/19781662/,Leukocytes
+MBD2,ALOX5,19781662,https://pubmed.ncbi.nlm.nih.gov/19781662/,Leukocytes
+EGR1,PTGES,21983014,https://pubmed.ncbi.nlm.nih.gov/21983014/,"Leukocytes, Colon, mammarygland, Skin"
+HES1,PTGDS,15743775,https://pubmed.ncbi.nlm.nih.gov/15743775/,CNS
+TFAP2B,PTGDS,15743775,https://pubmed.ncbi.nlm.nih.gov/15743775/,CNS
+NRF2,TBXAS1,14565864,https://pubmed.ncbi.nlm.nih.gov/14565864/,Lung
+TP53,TBXAS5,14565864,https://pubmed.ncbi.nlm.nih.gov/14565864/,Lung
+EP300,TBXAS3,14565864,https://pubmed.ncbi.nlm.nih.gov/14565864/,Lung
+ETS1,TBXAS4,14565864,https://pubmed.ncbi.nlm.nih.gov/14565864/,Lung
+SNAI1,HPGD,19010907,https://pubmed.ncbi.nlm.nih.gov/19010907/,"Colon, Rectum"
+HDAC2,HPGD,19010907,https://pubmed.ncbi.nlm.nih.gov/19010907/,"Colon, Rectum"

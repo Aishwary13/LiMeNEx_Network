@@ -1,0 +1,40 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper_Link
+VDR,"ELOVL6,FADS2,FADS1",20736230,https://pubmed.ncbi.nlm.nih.gov/20736230/,"ELOVL6,FADS2,FADS1",Leukocytes,https://genome.cshlp.org/content/20/10/1352
+GATA2,"ELOVL1,ACOT7,ELOVL5,ELOVL6,HSD17B12,FADS2,SCD",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,"ELOVL1,ACOT7,ELOVL5,ELOVL6,FADS2,SCD",Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+EOMES,"HSD17B12,FADS2,SCD,FADS1",21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,"HSD17B12,FADS2,SCD,FADS1","Stem cells, embryonic tissue
+",https://genesdev.cshlp.org/content/25/3/238.full
+ELF5,"ELOVL5,ELOVL6,ACOT2,ACOT4",23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,"ELOVL5,ELOVL6,ACOT2,ACOT4",Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461#s5
+FOXP1,"ACOT7,ELOVL5,ELOVL2,ELOVL3,ELOVL6,HACD3,FADS2,ACOT2,FADS1",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"ACOT7,ELOVL5,ELOVL2,ELOVL3,ELOVL6,HACD3,FADS2,ACOT2,FADS1","Stem cells, Embryonic Tissue",https://www.cell.com/cell/fulltext/S0092-8674(11)00949-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867411009494%3Fshowall%3Dtrue
+WT1,"HACD1,ACOT7,ELOVL5,TECR,ELOVL6,FADS2,ACOT2",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,"HACD1,ACOT7,ELOVL5,TECR,ELOVL6,FADS2,ACOT2",Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub#s0045
+TCF4,"ELOVL1,ACOT7",18268006,https://pubmed.ncbi.nlm.nih.gov/18268006/,"ELOVL1,ACOT7","Colon, rectum",https://www.tandfonline.com/doi/full/10.1128/MCB.02175-07?scroll=top&needAccess=true
+SALL1,ELOVL6,21062744,https://pubmed.ncbi.nlm.nih.gov/21062744/,ELOVL6,"Stem cells, embryonic tissue",https://www.sciencedirect.com/science/article/pii/S0021925820562911?via%3Dihub#sec1
+MITF,"ELOVL1,HACD1,ACOT7,ELOVL4,SCD5,ELOVL6,HACD3,FADS2,SCD,FADS1",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"ELOVL1,HACD1,ACOT7,ELOVL4,SCD5,ELOVL6,HACD3,FADS2,SCD,FADS1",Skin,https://www.nature.com/articles/onc2010612
+TP63,"ACOT7,ELOVL4,ELOVL5,ELOVL6,BAAT,HACD2,FADS1",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,"ACOT7,FADS1",Prostate ,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s4
+E2F4,"ELOVL1,ACOT7,HACD3,FADS2,ACOT4,FADS1",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"ELOVL1,ACOT7,HACD3,FADS2,ACOT4,FADS1",Leukocytes,https://academic.oup.com/nar/article/39/9/3558/1243263?login=false#supplementary-data
+FOXA2,"ACOT7,ELOVL5,ELOVL2,ELOVL6,BAAT,HACD2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"ACOT7,ELOVL5,ELOVL2,ELOVL6,BAAT,HACD2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false
+NR1H3,"ELOVL5,SCD",23393188,https://pubmed.ncbi.nlm.nih.gov/23393188/,"ELOVL5,SCD",Leukocytes,https://academic.oup.com/nar/article/41/6/3518/2902510?login=true#83582439
+TFAP2C,"ELOVL5,TECR,HSD17B12",20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,"ELOVL5,TECR,HSD17B12",Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+GATA1,"HACD1,ELOVL5,HSD17B12,FADS2,SCD",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"HACD1,ELOVL5,HSD17B12,FADS2,SCD",Skin,https://academic.oup.com/nar/article/40/15/7190/1208916#83696418
+GATA3,"ELOVL4,ELOVL5,ELOVL2,ACOT2",24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,"ELOVL4,ELOVL5,ELOVL2,ACOT2",Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+MYC,"ELOVL5,TECR",18940864,https://pubmed.ncbi.nlm.nih.gov/18940864/,"ELOVL5,TECR",Leukocytes,https://academic.oup.com/nar/article/36/21/e144/2410244?login=false
+RUNX1,"ELOVL1,ELOVL5,SCD5,TECR,ELOVL6,HSD17B12,SCD,FADS1",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"ELOVL1,ELOVL5,SCD5,TECR,ELOVL6,HSD17B12,SCD,FADS1",Skin,https://academic.oup.com/nar/article/40/15/7190/1208916#83696418
+TP53,"HACD2,FADS2",18474530,https://pubmed.ncbi.nlm.nih.gov/18474530/,"HACD2,FADS2",Bone,https://academic.oup.com/nar/article/36/11/3639/2410222?login=false
+HNF4A,"ACOT7,ELOVL5,ELOVL2,ELOVL6,BAAT,HACD3,HACD2,SCD,ACOT2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"ACOT7,ELOVL5,ELOVL2,ELOVL6,BAAT,HACD3,HACD2,SCD,ACOT2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false
+HIF1A,SCD,21447827,https://pubmed.ncbi.nlm.nih.gov/21447827/,SCD,Mammary Gland,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3374576/?report=printable
+ELF1,"ACOT7,ACOT2",20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,"ACOT7,ACOT2","Leukocytes, Prostate, Bone",https://www.embopress.org/doi/full/10.1038/emboj.2010.106#supplementary-materials
+SOX11,"SCD,ACOT1",23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,"SCD,ACOT1",Leukocytes,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+AR,"HACD1,ACOT7,ELOVL4,ELOVL3,HACD2",19668381,https://pubmed.ncbi.nlm.nih.gov/19668381/,"HACD1,ACOT7,ELOVL4,ELOVL3,HACD2",Prostate ,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006589
+TFAP2A,"TECR,HSD17B12,FADS1",17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,"TECR,HSD17B12,FADS1","Mammary Gland, Uterus",https://genome.cshlp.org/content/16/12/1585.full
+ESR2,ACOT4,21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,ACOT4,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36#Abs1
+CLOCK,ACOT1,20551151,https://pubmed.ncbi.nlm.nih.gov/20551151/,ACOT1,"Colon, Rectum",https://aacrjournals.org/mcr/article/8/7/952/90638/Mutations-in-the-Circadian-Gene-CLOCK-in
+ATF3,"ACOT7,ELOVL6,ACOT2",23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,"ACOT7,ELOVL6,ACOT2",CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+NFE2L2,ELOVL1,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,ELOVL1,Leukocytes,https://academic.oup.com/nar/article/40/15/7416/1213698?login=true#supplementary-data
+ZNF217,"ELOVL5,ELOVL2",24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,"ELOVL5,ELOVL2",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec25
+SMAD4,"ELOVL5,HSD17B12,HACD2",21799915,https://pubmed.ncbi.nlm.nih.gov/21799915/,"ELOVL5,HSD17B12,HACD2",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022606#s5
+ETS1,"HSD17B12,HACD2",20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,"HSD17B12,HACD2",Leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+CUX1,"ACOT7,ELOVL5,FADS2",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"ACOT7,ELOVL5,FADS2","Mammary Gland, Kidney, Embryonic tissue",https://www.jbc.org/article/S0021-9258(20)38439-8/fulltext
+HOXB7,"HSD17B12,ACOT4",26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,ACOT4,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+PBX1,"HACD2,HACD4",22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,"HACD2,HACD4",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+BACH1,ELOVL2,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,ELOVL2,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+POU3F2,BAAT,20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,BAAT,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+DACH1,FADS2,20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,FADS2,Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107

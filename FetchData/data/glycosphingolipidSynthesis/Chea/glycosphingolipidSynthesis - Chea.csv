@@ -1,0 +1,55 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+EGR1,FUT1,19374776,https://pubmed.ncbi.nlm.nih.gov/19374776/,FUT1,Leukocytes,https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-4-r41#Sec18
+NFE2L2,"B3GNT5,ST3GAL2",22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,"B3GNT5,ST3GAL2",Leukocytes,https://academic.oup.com/nar/article/40/15/7416/1213698?login=true#supplementary-data
+SOX2,"B3GALT4,UGT8,ST3GAL2",16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,"B3GALT4,UGT8,ST3GAL2",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#sec3
+VDR,"B3GALT4,ST3GAL2,ST3GAL3",24763502,https://pubmed.ncbi.nlm.nih.gov/24763502/,not found,,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096184
+BACH1,"GAL3ST1,B3GALT4,UGCG",22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,"GAL3ST1,B3GALT4,UGCG",Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+IKZF1,B3GALT4,21737484,https://pubmed.ncbi.nlm.nih.gov/21737484/,B3GALT4,Colon,https://aacrjournals.org/mcr/article/9/8/1139/90776/Long-Range-Epigenetic-Silencing-Associates-with
+PPARD,"B3GALNT1,FUT1,UGCG,B3GNT5,B4GALT5",21283829,https://pubmed.ncbi.nlm.nih.gov/21283829/,"FUT1,UGCG,B3GNT5,B4GALT5",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016344
+DACH1,"B3GALT4,UGCG,B4GALT5",20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,"B3GALT4,UGCG,B4GALT5",Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+TP53,"ST3GAL5,ST6GALNAC5",18474530,https://pubmed.ncbi.nlm.nih.gov/18474530/,"ST3GAL5,ST6GALNAC5",Bone,https://academic.oup.com/nar/article/36/11/3639/2410222?login=true#82535491
+AR,"B3GALNT1,UGT8,ST3GAL5",22383394,https://pubmed.ncbi.nlm.nih.gov/22383394/,"B3GALNT1,UGT8,ST3GAL5",Prostate,https://www.oncotarget.com/article/449/text/
+RBPJ,"ST3GAL5,ST3GAL2,ST3GAL3",21746931,https://pubmed.ncbi.nlm.nih.gov/21746931/,not found,,https://www.pnas.org/doi/full/10.1073/pnas.1108892108
+KLF5,"FUT1,UGCG,ST3GAL5",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+TCF21,"GAL3ST1,A4GALT,ST3GAL2",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+FOXA1,"B3GALNT1,UGCG,B4GALT5",25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,not found,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=false
+GATA3,"B3GALNT1,UGCG,ST3GAL2",24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,"B3GALNT1,UGCG,ST3GAL2",Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+NR3C1,"ST3GAL5,B4GALT5",21868756,https://pubmed.ncbi.nlm.nih.gov/21868756/,not found,,https://aacrjournals.org/cancerres/article/71/20/6360/568755/Activation-of-the-Glucocorticoid-Receptor-Is
+ERG,ST6GALNAC5,21242973,https://pubmed.ncbi.nlm.nih.gov/21242973/,not found,progenitors,https://www.nature.com/articles/onc2010582#Sec22
+SMAD3,"ST3GAL5,ST3GAL2",21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,"ST3GAL5,ST3GAL2",Stem cells,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub#ec0005
+MITF,"B3GALT4,UGCG,ST3GAL5,A4GALT,B4GALT5,ST3GAL3",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"B3GALT4,UGCG,ST3GAL5,A4GALT,B4GALT5,ST3GAL3",Skin,https://www.nature.com/articles/onc2010612
+RUNX2,"UGT8,ST8SIA5,A4GALT,B4GALT5",22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,not found,Prostate,https://academic.oup.com/nar/article/40/8/3538/2411202?login=false#supplementary-data
+SMAD4,"ST3GAL5,ST8SIA5,ST3GAL2",21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,"ST3GAL5,ST8SIA5,ST3GAL2",Stem cells,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub#ec0005
+TP63,"B3GNT5,ST3GAL5,A4GALT,ST3GAL3",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,"B3GNT5,ST3GAL5,A4GALT,ST3GAL3",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s5
+SPI1,"ST8SIA5,ST3GAL3",23127762,https://pubmed.ncbi.nlm.nih.gov/23127762/,"ST8SIA5,ST3GAL3",Blood,https://www.sciencedirect.com/science/article/pii/S0301472X12005310?via%3Dihub
+ESR2,B3GALT4,21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,B3GALT4,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36#Abs1
+MYC,"B3GALNT1,ST6GALNAC5",20876797,https://pubmed.ncbi.nlm.nih.gov/20876797/,"B3GALNT1,ST6GALNAC5",CNS,https://aacrjournals.org/cancerres/article/70/20/8199/561094/Silencing-of-Thrombospondin-1-Is-Critical-for-Myc
+TCF4,"ST8SIA5,ST6GALNAC5,ST3GAL2,B4GALT5",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,CNS,paid https://academic.oup.com/neuro-oncology/article/15/3/279/1055801?login=true
+ZNF217,"UGCG,ST3GAL5",24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,"UGCG,ST3GAL5",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec26
+STAT1,FUT1,20625510,https://pubmed.ncbi.nlm.nih.gov/20625510/,not found,Leukocytes,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011425
+AHR,A4GALT,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext
+JUN,"B3GNT5,B4GALT5",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+JUND,"B3GNT5,B4GALT5",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+BCL6,"B4GALT5,ST3GAL3",25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+GATA4,"UGCG,ST3GAL2",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+GATA6,"FUT1,UGT8",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+ELK3,"FUT1,ST3GAL2",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,Vasculature,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+HNF4A,"GAL3ST1,B3GALT4,ST3GAL2,B4GALT5,ST3GAL3",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"GAL3ST1,B3GALT4,ST3GAL2,B4GALT5,ST3GAL3",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146#supplementary-data
+ATF3,"B3GALNT1,B3GNT5",23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,"B3GALNT1,B3GNT5",CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+PBX1,"B3GALNT1,ST3GAL5",22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,"B3GALNT1,ST3GAL5",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#abstract0
+EOMES,B3GALNT1,21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,B3GALNT1,Embryonic tissue,https://genesdev.cshlp.org/content/25/3/238
+FOXP1,"UGCG,ST3GAL2,B4GALT5",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"UGCG,ST3GAL2,B4GALT5",Embryonic tissue,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub#app3
+ARNT,A4GALT,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext
+YY1,GAL3ST1,22570637,https://pubmed.ncbi.nlm.nih.gov/22570637/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002688
+SOX11,B3GALNT1,23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,B3GALNT1,Lymph node,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+TFAP2C,ST3GAL2,20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,ST3GAL2,Mammary gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+RELA,B4GALT5,24523406,https://pubmed.ncbi.nlm.nih.gov/24523406/,B4GALT5,PNS,https://www.sciencedirect.com/science/article/pii/S0021925820415108?via%3Dihub#sec1
+FOXA2,"B3GALT4,ST3GAL3",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"B3GALT4,ST3GAL3",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+FOXP3,ST3GAL5,21729870,https://pubmed.ncbi.nlm.nih.gov/21729870/,not found,,https://academic.oup.com/nar/article/39/18/7946/1084168
+ETS1,ST3GAL2,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,ST3GAL2,leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+POU3F2,UGT8,20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,UGT8,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+TFAP2A,ST3GAL2,17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,ST3GAL2,Mammary gland,https://genome.cshlp.org/content/16/12/1585
+HOXB7,ST3GAL2,26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,not found,,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+HOXC9,ST6GALNAC5,25013753,https://pubmed.ncbi.nlm.nih.gov/25013753/,ST6GALNAC5,CNS,https://www.sciencedirect.com/science/article/pii/S2213596014000142?via%3Dihub
+E2F4,ST3GAL3,21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,ST3GAL3,Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=true
+CUX1,B3GALNT1,19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,B3GALNT1,Lung,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub

@@ -1,0 +1,4 @@
+TargetGene,TF,Library/PMID,Pubmed_Link,Tissue
+PCYT1A,"SP1, SP2, SP3",10744779,https://pubmed.ncbi.nlm.nih.gov/10744779/,Mammary Gland
+CHEK1,MAP2K1,28138032,https://pubmed.ncbi.nlm.nih.gov/28138032/,"Bone, Ovary, Mammary Gland"
+CHEK1,MAP2K2,28138032,https://pubmed.ncbi.nlm.nih.gov/28138032/,"Bone, Ovary, Mammary Gland"

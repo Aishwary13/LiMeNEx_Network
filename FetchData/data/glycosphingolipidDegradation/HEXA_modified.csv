@@ -1,0 +1,32 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,FOXA1,HEXA,mammarygland,"FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, TNF | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, DHT | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq, 17BE2 + TNF | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, TNF | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq - Rep 2"
+1,SPP,KLF11,HEXA,adiposetissue,"ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2, KLF11 ChIP-Seq, Rep 2"
+2,SPP,ROSI,HEXA,adiposetissue,"ROSI (BrAT) | KLF11 ChIP-Seq, Rep 2"
+3,SPP,CREB1,HEXA,prostate,"CREB1 ChIP-Seq - LNCaP-abl, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, CREB1 ChIP-Seq - Rep 1, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 1, CREB1 ChIP-Seq - LNCaP, CREB1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2"
+4,SPP,GATA2,HEXA,prostate,"GATA2 ChIP-Seq - Rep 1, GATA2 KD + R1881 | FOXA1 ChIP-Seq, GATA2 ChIP-Seq - Rep 2, GATA2 KD  | FOXA1 ChIP-Seq, GATA2 ChIP-Seq"
+5,SPP,17BE2,HEXA,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+6,SPP,FOXA1,HEXA,prostate,"CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, DHT | FOXA1 ChIP-Seq, GATA2 KD + R1881 | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, FOXA1 KD | FOXA1 ChIP-Seq, POU2F1 KD + DHT | FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 2, EtOH | FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - LNCaP, CON KD | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - LNCaP-abl, CON KD  | FOXA1 ChIP-Seq, GATA2 KD  | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 2, FOXA1 siRNA | CREB1 ChIP-Seq - Rep 1, CON KD | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq, CON KD | FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, FOXA1 KD | FOXA1 ChIP-Seq, R1881 | FOXA1 ChIP-Seq - Rep 2, FOXA1 ChIP-Seq, FOXA1 ChIP-Seq - Rep 1, EtOH | FOXA1 ChIP-Seq - , DHT | FOXA1 ChIP-Seq"
+7,SPP,R1881,HEXA,prostate,"CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, GATA2 KD + R1881 | FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, R1881 | FOXA1 ChIP-Seq - Rep 2"
+8,SPP,ERG,HEXA,prostate,"DHT | ERG ChIP-Seq - 18 h, ERG ChIP-Seq, ERG ChIP-Seq, DMSO | ERG ChIP-Seq - Rep 2, DHT | ERG ChIP-Seq - 2 h, JQI | ERG ChIP-Seq - Rep 2, DMSO | ERG ChIP-Seq - Rep 1, JQI | ERG ChIP-Seq - Rep 1, ERG | ERG ChIP-Seq"
+9,SPP,DHT,HEXA,prostate,"DHT | ERG ChIP-Seq - 18 h, DHT | FOXA1 ChIP-Seq, POU2F1 KD + DHT | FOXA1 ChIP-Seq, DHT | ERG ChIP-Seq - 2 h, DHT | FOXA1 ChIP-Seq"
+10,SPP,MYC,HEXA,mammarygland,DHT | MYC ChIP-Seq
+11,SPP,DHT,HEXA,mammarygland,"DHT | MYC ChIP-Seq, DHT | FOXA1 ChIP-Seq"
+12,SPP,CTCF,HEXA,leukocytes,CTCF ChIP-Seq - GM12878
+13,SPP,DEX,HEXA,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2, DEX | FOXA1 ChIP-Seq - Rep 2"
+14,SPP,CEBPB,HEXA,uterus,CEBPB ChIP-Seq - HeLaS3
+15,SPP,POU2F1,HEXA,prostate,POU2F1 KD + DHT | FOXA1 ChIP-Seq
+16,SPP,PIAS1,HEXA,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2"
+17,SPP,E2F1,HEXA,prostate,HES6 OE | E2F1 ChIP-Seq - Rep 1
+18,SPP,HES6,HEXA,prostate,HES6 OE | E2F1 ChIP-Seq - Rep 1
+19,SPP,TNF,HEXA,mammarygland,"TNF | FOXA1 ChIP-Seq - Rep 1, TNF | FOXA1 ChIP-Seq - Rep 2"
+20,SPP,CTCF,HEXA,lung,CTCF ChIP-Seq - A549
+21,SPP,CEBPB,HEXA,lung,"CEBPB ChIP-Seq - A549, CEBPB ChIP-Seq - IMR90"
+22,SPP,CTCF,HEXA,adiposetissue,CTCF ChIP-Seq - d 0
+23,SPP,TCF7L2,HEXA,mammarygland,TCF7L2 ChIP-Seq
+24,SPP,CEBPB,HEXA,liver,CEBPB ChIP-Seq - HepG2
+25,SPP,JQ1,HEXA,prostate,"JQI | ERG ChIP-Seq - Rep 2, JQI | ERG ChIP-Seq - Rep 1"
+26,SPP,17BE2; TNF,HEXA,mammarygland,17BE2 + TNF | FOXA1 ChIP-Seq - Rep 2
+27,SPP,SPI1,HEXA,leukocytes,ROSI | SPI1 ChIP-Seq
+28,SPP,ROSI,HEXA,leukocytes,ROSI | SPI1 ChIP-Seq
+29,SPP,CEBPB,HEXA,leukocytes,CEBPB ChIP-Seq - K562
+30,SPP,GATA2,HEXA,cns,GATA2 ChIP-Seq SH-SY5Y

@@ -1,0 +1,106 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,RUNX1,ALOX5,leukocytes,"RUNX1 IP - Rep 2, SPI1 IP | RUNX1 KD, RUNX1 IP - N terminus 1, RUNX1 IP - N terminus 2, RUNX1 IP, RUNX1 IP - Rep 1"
+1,SPP,FOXA1,ALOX5,pancreas,FOXA1 IP
+2,SPP,CEBPB,ALOX5,leukocytes,"CEBPB IP| oxLDL  - Rep 207, CEBPB IP - Rep 204, CEBPB IP - Rep 203, CEBPB IP | oxLDL  - Rep 205, CEBPB IP, CEBPB IP, CEBPB IP | oxLDL  - Rep 206, CEBPB IP, CEBPB IP - Rep 202, CEBPB IP - K562 cells, CEBPB IP - HL-60 cells, Rep 2 , CEBPB IP - HL-60 cells, Rep 1 , CEBPB ChIP-Seq - K562, CEBPB IP, CEBPB IP | oxLDL  - Rep 208, CEBPB IP - Rep 201, CEBPB IP"
+3,SPP,FOSL2,ALOX5,liver,FOSL2 IP - HepG2 cells
+4,SPP,TAL1,ALOX5,leukocytes,TAL1 IP - MOLT3
+5,SPP,CTCF,ALOX5,leukocytes,"CTCF IP - K562 cells, CTCF IP - GM18486 cells, Rep 3 , CTCF IP - GM19239 cells, Rep 2 , CTCF IP - GM12878 cells, Rep 1 , CTCF IP, CTCF IP - GM19239 cells, Rep 1 , CTCF IP - F36P cells, Rep 7 , CTCF IP - GM19238 cells, Rep 1 , CTCF IP - GM12890 cells, Rep 3 , CTCF IP - GM2630 cells, Rep 3 , CTCF IP - MS1 cells, Rep 3 , CTCF IP - GM2630 cells, Rep 2 , CTCF IP - GM12874 cells, Rep 1 , CTCF IP - GM12891 cells, Rep 2 , CTCF IP - GM12891 cells, Rep 1 , CTCF IP - GM19240 cells, Rep 1 , CTCF IP - GM2255 cells, Rep 2 , CTCF IP - MS1 cells, Rep 4 , CTCF IP - MS1 cells, Rep 2 "
+6,SPP,SPI1,ALOX5,leukocytes,"SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP - HL-60 cells, Rep 2 , SPI1 IP | RUNX1 KD, SPI1 IP, SPI1 IP, SPI1 IP, ROSI | SPI1 ChIP-Seq, SPI1 IP - GM12878 cells, Rep 2 , SPI1 IP, SPI1 IP - GM12878 cells, Rep 4 , SPI1 IP - HL-60 cells, Rep 1 , SPI1 IP - K562 cells, SPI1 IP, SPI1 IP, SPI1 IP - U-937 cells, Rep 4 , SPI1 IP, SPI1 IP - GM12891 cells, SPI1 IP, SPI1 IP - HL-60 cells, Rep 4 , SPI1 IP - GM12878 cells, Rep 3 , SPI1 IP - GM12878 cells, SPI1 IP - HL cells"
+7,SPP,CEBPB,ALOX5,colon,"CEBPB IP - HCT116 cells, CEBPB IP, CEBPB IP | 125DVD3"
+8,SPP,MAZ,ALOX5,uterus,MAZ IP - HeLa cells
+9,SPP,GATA3,ALOX5,mammarygland,"GATA3 IP - MCF7 cells, GATA3 IP - T47D cells"
+10,SPP,CEBPB,ALOX5,stemcells,"CEBPB IP, CEBPB IP - H1 cells, CEBPB IP, CEBPB IP"
+11,SPP,FOXA2,ALOX5,stemcells,"FOXA2 IP - ES D2, FOXA2 IP - ES D5"
+12,SPP,RELA,ALOX5,leukocytes,"RELA IP | TNF - GM12891 cells, RELA IP | TNF - GM19099 cells"
+13,SPP,TNF,ALOX5,leukocytes,RELA IP | TNF - GM12891 cells
+14,SPP,STAT1,ALOX5,leukocytes,"STAT1 IP - Rep 2, STAT1 IP - Rep 5, STAT1 IP - Rep 6, STAT1 IP - Rep 3, STAT1 IP - Rep 1, STAT1 IP - Rep 4"
+15,SPP,IFNG,ALOX5,leukocytes,"STAT1 IP - Rep 2, IRF1 IP | IFNG - K562 cells, 30 min, STAT1 IP - Rep 5, STAT1 IP - Rep 6, STAT1 IP - Rep 3, IRF1 IP - Rep 3, STAT1 IP - Rep 1, STAT1 IP - Rep 4"
+16,SPP,FOXA1,ALOX5,mammarygland,DEX | FOXA1 ChIP-Seq - Rep 2
+17,SPP,DEX,ALOX5,mammarygland,DEX | FOXA1 ChIP-Seq - Rep 2
+18,SPP,SMARCC1,ALOX5,uterus,SMARCC1 IP - HeLa cells
+19,SPP,CEBPB,ALOX5,mammarygland,CEBPB IP - MCF7 cells
+20,SPP,JUND,ALOX5,uterus,JUND IP - HeLa cells
+21,SPP,ATF3,ALOX5,colon,ATF3 IP | CAMPTO
+22,SPP,IRF1,ALOX5,leukocytes,"IRF1 IP | IFNG - K562 cells, 30 min, IRF1 IP - Rep 3"
+23,SPP,E2F1,ALOX5,mammarygland,E2F1 IP - MCF7 cells
+24,SPP,IRF4,ALOX5,leukocytes,IRF4 IP
+25,SPP,HOXA4,ALOX5,colon,HOXA4 IP 
+26,SPP,MAX,ALOX5,leukocytes,"MAX IP - K562 cells, MAX IP - NB4 cells, MAX IP - K562 cells, Rep 2"
+27,SPP,ELF3,ALOX5,pancreas,"ELF3 IP, ELF3 IP"
+28,SPP,EGR1,ALOX5,uterus,EGR1 IP - ECC1 cells
+29,SPP,EGR1,ALOX5,liver,EGR1 IP - MCF7 cells
+30,SPP,E2F4,ALOX5,leukocytes,E2F4 IP - K562 cells
+31,SPP,MYB,ALOX5,leukocytes,"MYB IP - Jurkat, Rep 5, MYB IP - Jurkat, Rep 4"
+32,SPP,EBF1,ALOX5,leukocytes,"EBF1 IP - GM12878 cells, EBF1 IP - GM12878 cells"
+33,SPP,MAX,ALOX5,colon,MAX IP - HCT116 cells
+34,SPP,FOS,ALOX5,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h"
+35,SPP,4HT,ALOX5,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h"
+36,SPP,JUND,ALOX5,stemcells,"JUND IP - H1 cells, JUND IP - H1 cells"
+37,SPP,GLI2,ALOX5,colon,GLI2 IP 
+38,SPP,MAX,ALOX5,uterus,"MAX IP - HeLa cells, Rep 1, MAX IP - ECC1 cells"
+39,SPP,GATA2,ALOX5,prostate,FOXA1 KD | GATA2 ChIP-Seq
+40,SPP,FOXA1,ALOX5,prostate,FOXA1 KD | GATA2 ChIP-Seq
+41,SPP,CREB1,ALOX5,leukocytes,CREB1 IP - GM12878 cells
+42,SPP,ELF1,ALOX5,leukocytes,"ELF1 IP - SK-N-SH cells, ELF1 IP - SK-N-SH cells"
+43,SPP,JUN,ALOX5,mammarygland,"JUN IP - Rep 1, JUN IP - Rep 2"
+44,SPP,IRF1,ALOX5,colon,IRF1 IP 
+45,SPP,CEBPA,ALOX5,leukocytes,CEBPA IP
+46,SPP,JUND,ALOX5,vasculature,JUND IP
+47,SPP,MAX,ALOX5,liver,"MAX IP - HepG2 cells, MAX IP - MCF7 cells"
+48,SPP,IRF1,ALOX5,pancreas,IRF1 IP
+49,SPP,MAZ,ALOX5,leukocytes,MAZ IP - K562 cells
+50,SPP,ROSI,ALOX5,leukocytes,ROSI | SPI1 ChIP-Seq
+51,SPP,JUND,ALOX5,liver,"JUND IP - HepG2 cells, JUND IP - HepG2 cells"
+52,SPP,ZEB1,ALOX5,leukocytes,ZEB1 IP - GM12878 cells
+53,SPP,MYC,ALOX5,uterus,MYC IP - HeLa cells
+54,SPP,HIF1A,ALOX5,bone,HIF1A IP
+55,SPP,JUND,ALOX5,leukocytes,JUND IP - K562 cells
+56,SPP,MAX,ALOX5,stemcells,MAX IP - H1 cells
+57,SPP,TP53,ALOX5,mammarygland,TP53 IP | NUTL3 - MCF-7
+58,SPP,JUN,ALOX5,vasculature,JUN IP
+59,SPP,GATA1,ALOX5,leukocytes,GATA1 ChIP-Seq - SC266
+60,SPP,JUND,ALOX5,mammarygland,JUND IP - MCF7 cells
+61,SPP,JUND,ALOX5,prostate,JUND IP
+62,SPP,EGR1,ALOX5,stemcells,EGR1 IP - H1 cells
+63,SPP,EGR1,ALOX5,colon,EGR1 IP - HCT116 cells
+64,SPP,E2F6,ALOX5,uterus,E2F6 IP - HeLa cells
+65,SPP,MYC,ALOX5,leukocytes,MYC IP - NB4 cells
+66,SPP,HMGN3,ALOX5,leukocytes,HMGN3 IP - K562 cells
+67,SPP,SMAD1,ALOX5,hspcs,SMAD1 IP - Rep 2
+68,SPP,NANOG,ALOX5,stemcells,NANOG IP - Rep 5 
+69,SPP,SPI1,ALOX5,hspcs,SPI1 IP - Rep 2
+70,SPP,RUNX1T1,ALOX5,leukocytes,RUNX1T1 IP
+71,SPP,GATA4,ALOX5,stomach,GATA4 IP - AGS
+72,SPP,TFAP4,ALOX5,leukocytes,TFAP4 IP - Rep 1
+73,SPP,E2F6,ALOX5,leukocytes,"E2F6 IP - K562 cells, E2F6 IP - K562 cells"
+74,SPP,ZBTB7A,ALOX5,uterus,ZBTB7A IP - ECC1 cells
+75,SPP,EGR1,ALOX5,leukocytes,EGR1 IP - K562 cells
+76,SPP,USF1,ALOX5,uterus,USF1 IP - ECC1 cells
+77,SPP,CTCF,ALOX5,hspcs,"CTCF IP - Erythroid cells, Rep 1"
+78,SPP,CEBPB,ALOX5,uterus,CEBPB ChIP-Seq - HeLaS3
+79,SPP,TEAD4,ALOX5,leukocytes,TEAD4 IP - K562 cells
+80,SPP,E2F6,ALOX5,stemcells,E2F6 IP - H1 cells
+81,SPP,STAT1,ALOX5,uterus,"STAT1 IP | IFNG - HeLa cells, 30 min"
+82,SPP,IFNG,ALOX5,uterus,"STAT1 IP | IFNG - HeLa cells, 30 min"
+83,SPP,JUND,ALOX5,colon,JUND IP - HCT116 cells
+84,SPP,JUN,ALOX5,uterus,JUN IP - HeLa cells
+85,SPP,SIX2,ALOX5,kidney,"SIX2 IP - 17 weeks, Rep 2, SIX2 IP - 17 weeks, Rep 1"
+86,SPP,PRDM1,ALOX5,uterus,PRDM1 IP - HeLa cells
+87,SPP,BHLHE40,ALOX5,leukocytes,BHLHE40 IP - K562 cells
+88,SPP,STAT3,ALOX5,leukocytes,STAT3 IP - U-2932
+89,SPP,ZNF263,ALOX5,kidney,ZNF263 IP - HEK293 cells
+90,SPP,LYL1,ALOX5,leukocytes,LYL1 IP - NB4
+91,SPP,TP53,ALOX5,bone,TP53 IP | NUTL3
+92,SPP,NUTL3,ALOX5,bone,TP53 IP | NUTL3
+93,SPP,TBP,ALOX5,stemcells,TBP IP - H1 cells
+94,SPP,FOXA2,ALOX5,embryonictissue,FOXA2 IP - Rep 2
+95,SPP,FOSL1,ALOX5,colon,FOSL1 IP - HCT116 cells
+96,SPP,NFKB2,ALOX5,leukocytes,NFKB2 IP - Rep 1
+97,SPP,SP1,ALOX5,colon,SP1 IP - HCT116 cells
+98,SPP,CEBPB,ALOX5,liver,CEBPB ChIP-Seq - HepG2
+99,SPP,125DVD3,ALOX5,colon,CEBPB IP | 125DVD3
+100,SPP,TBP,ALOX5,uterus,TBP IP - HeLa cells
+101,SPP,STAT3,ALOX5,uterus,STAT3 IP - HeLa cells
+102,SPP,FOSL2,ALOX5,mammarygland,FOSL2 IP - MCF7 cells
+103,SPP,ZNF143,ALOX5,leukocytes,ZNF143 IP - GM12878 cells
+104,SPP,CEBPB,ALOX5,lung,CEBPB ChIP-Seq - A549

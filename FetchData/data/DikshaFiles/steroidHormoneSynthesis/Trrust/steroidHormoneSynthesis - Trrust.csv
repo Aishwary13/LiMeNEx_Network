@@ -1,0 +1,89 @@
+TargetGene,TF,Library/PMID,Tissue,Paper Links,Paper_link
+CYP11A1,NR4A1,20083153,Ovary,https://pubmed.ncbi.nlm.nih.gov/20083153/,https://www.sciencedirect.com/science/article/pii/S030372071000016X?via%3Dihub
+CYP11A1,NR5A1,23530236,Ovary,https://pubmed.ncbi.nlm.nih.gov/20083153/,https://www.sciencedirect.com/science/article/pii/S030372071000016X?via%3Dihub
+CYP11A1,NR5A1,11057754,Liver,https://pubmed.ncbi.nlm.nih.gov/11057754/,https://www.sciencedirect.com/science/article/pii/S0024320500007906?via%3Dihub
+CYP11A1,NR5A2,19067654,Liver,https://pubmed.ncbi.nlm.nih.gov/19067654/,https://portlandpress.com/biochemj/article-abstract/419/1/201/44971/PIASy-inhibits-LRH-1-dependent-CYP11A1-expression?redirectedFrom=fulltext
+CYP11A1,SF1,19477906,Liver,https://pubmed.ncbi.nlm.nih.gov/19477906/,https://jme.bioscientifica.com/view/journals/jme/43/3/121.xml
+CYP11A1,TFAP2A,10446912,placenta,https://pubmed.ncbi.nlm.nih.gov/10446912/,https://academic.oup.com/mend/article/13/8/1402/2747876?login=true
+CYP11A1,TFCP2L1,18004979,placenta,https://pubmed.ncbi.nlm.nih.gov/18004979/,https://www.liebertpub.com/doi/10.1089/dna.2007.0640
+CYP11A1,UBP1,18004979,placenta,https://pubmed.ncbi.nlm.nih.gov/18004979/,https://www.liebertpub.com/doi/10.1089/dna.2007.0640
+CYP11A1,CREB1,11057754,Liver,https://pubmed.ncbi.nlm.nih.gov/11057754/,https://www.sciencedirect.com/science/article/pii/S0024320500007906?via%3Dihub
+CYP11A1,FOXL2,21862621,Ovary,https://pubmed.ncbi.nlm.nih.gov/21862621/,https://academic.oup.com/endo/article-abstract/152/10/3917/2457274?redirectedFrom=fulltext&login=true
+CYP11A1,GATA6,15284005,Ovary,https://pubmed.ncbi.nlm.nih.gov/15284005/,https://www.sciencedirect.com/science/article/pii/S016503780400066X?via%3Dihub
+CYP11A1,GRHL1,18004979,placenta,https://pubmed.ncbi.nlm.nih.gov/10446912/,https://academic.oup.com/mend/article/13/8/1402/2747876?login=true
+CYP11A1,JUN,11057754,Liver,https://pubmed.ncbi.nlm.nih.gov/11057754/,https://www.sciencedirect.com/science/article/pii/S0024320500007906?via%3Dihub
+CYP17A1,NR4A1,20083153,Ovary,https://pubmed.ncbi.nlm.nih.gov/20083153/,https://www.sciencedirect.com/science/article/pii/S030372071000016X?via%3Dihub
+CYP17A1,NR5A1,17786540,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/17786540/,https://link.springer.com/article/10.1007/s11010-007-9585-4
+CYP17A1,PIAS1,21467194,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/21467194/,https://academic.oup.com/endo/article-abstract/152/6/2266/2457321?redirectedFrom=fulltext&login=true
+CYP17A1,SMAD3,17786540,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/17786540/,https://link.springer.com/article/10.1007/s11010-007-9585-4
+CYP17A1,SP1,11379008,Ovary,https://pubmed.ncbi.nlm.nih.gov/11379008/,https://www.tandfonline.com/doi/abs/10.1080/gye.15.2.123.128
+CYP17A1,SP1,11463853,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11463853/,https://academic.oup.com/mend/article/15/8/1277/2748010?login=true
+CYP17A1,SP3,11463853,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11463853/,https://academic.oup.com/mend/article/15/8/1277/2748010?login=true
+CYP17A1,CREB1,2543297,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/2543297/,https://www.sciencedirect.com/science/article/abs/pii/0003986189902981?via%3Dihub
+CYP17A1,GATA4,14988427,"Adrenal Gland, placenta",https://pubmed.ncbi.nlm.nih.gov/14988427/,
+CYP17A1,GATA6,15284005,Ovary,https://pubmed.ncbi.nlm.nih.gov/15284005/,
+CYP17A1,NFIC,14684846,Ovary,https://pubmed.ncbi.nlm.nih.gov/14684846/,
+CYP17A1,NROB1,11592817,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11592817/,
+CYP17A1,NR2F1,11592817,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11592817/,
+CYP7B1,AR,16630558,Prostate,https://pubmed.ncbi.nlm.nih.gov/16630558/,
+CYP7B1,SP1,11470525,"Liver, Kidney, Fibroblasts",https://pubmed.ncbi.nlm.nih.gov/11470525/,
+CYP11B1,ATF1,11014212,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11014212/,
+CYP11B1,ATF2,11014212,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11014212/,
+CYP11B1,CREB1,11196473,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11196473/,
+CYP11B1,NR5A1,11014212,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11014212/,
+CYP11B1,NR5A2,11564608,Liver,https://pubmed.ncbi.nlm.nih.gov/11564608/,
+CYP11B2,CREB1,11196473,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11196473/,
+CYP11B2,ATF1,11196473,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11196473/,
+CYP11B2,ATF2,11196473,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/11196473/,
+CYP11B2,NR5A1,21169726,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/21169726/,
+CYP11B2,APEX1,22652909,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/22652909/,
+HSD11B2,EGR1,15659537,Colon,https://pubmed.ncbi.nlm.nih.gov/15659537/,
+HSD11B2,NF1,17551100,Colon,https://pubmed.ncbi.nlm.nih.gov/17551100/,
+HSD11B2,NFIC,17551100,Colon,https://pubmed.ncbi.nlm.nih.gov/17551100/,
+HSD11B2,NFKB1,15659537,Colon,https://pubmed.ncbi.nlm.nih.gov/15659537/,
+HSD11B2,NR3C1,17551100,Colon,https://pubmed.ncbi.nlm.nih.gov/17551100/,
+HSD11B2,PPRAD,15591138,placenta,https://pubmed.ncbi.nlm.nih.gov/15591138/,
+HSD11B2,RELA,15659537,Colon,https://pubmed.ncbi.nlm.nih.gov/15659537/,
+HSD11B2,SP1,17551100,Colon,https://pubmed.ncbi.nlm.nih.gov/17551100/,
+AKR1C4,HNF1A,11284743,Liver,https://pubmed.ncbi.nlm.nih.gov/11284743/,
+AKR1C4,HNF4A,11284743,Liver,https://pubmed.ncbi.nlm.nih.gov/11284743/,
+AKR1C4,HNF4G,11284743,Liver,https://pubmed.ncbi.nlm.nih.gov/11284743/,
+AKR1C2,TWIST1,19051271,Stomach,https://pubmed.ncbi.nlm.nih.gov/19051271/,
+AKR1C2,TWIST2,19051271,Stomach,https://pubmed.ncbi.nlm.nih.gov/19051271/,
+HSD17B6,HSF1,16278218,Uterus,https://pubmed.ncbi.nlm.nih.gov/16278218/,
+AKR1C3,AR,22971343,Prostate,https://pubmed.ncbi.nlm.nih.gov/22971343/,
+HSD17B2,RARA,17538076,placenta,https://pubmed.ncbi.nlm.nih.gov/17538076/,
+HSD17B2,RARA,18270252,Uterus,https://pubmed.ncbi.nlm.nih.gov/18270252/,
+HSD17B2,RXRA,18270252,Uterus,https://pubmed.ncbi.nlm.nih.gov/18270252/,
+HSD17B2,RXRA,17538076,placenta,https://pubmed.ncbi.nlm.nih.gov/17538076/,
+HSD17B2,SP1,16807381,Uterus,https://pubmed.ncbi.nlm.nih.gov/16807381/,
+HSD17B2,SP1,18270252,placenta,https://pubmed.ncbi.nlm.nih.gov/17538076/,
+HSD17B2,SP2,18270252,Uterus,https://pubmed.ncbi.nlm.nih.gov/18270252/,
+HSD17B2,SP3,16807381,Uterus,https://pubmed.ncbi.nlm.nih.gov/16807381/,
+HSD17B2,SP3,18270252,Uterus,https://pubmed.ncbi.nlm.nih.gov/18270252/,
+CYP19A1,RARG,11973645,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/11973645/,
+CYP19A1,RELA,15459115,Ovary,https://pubmed.ncbi.nlm.nih.gov/15459115/,
+CYP19A1,SP1,15072557,Bone,https://pubmed.ncbi.nlm.nih.gov/15072557/,
+CYP19A1,STAT3,15072557,Bone,https://pubmed.ncbi.nlm.nih.gov/15072557/,
+CYP19A1,USF1,12917334,placenta,https://pubmed.ncbi.nlm.nih.gov/12917334/,
+CYP19A1,USF2,12917334,placenta,https://pubmed.ncbi.nlm.nih.gov/12917334/,
+CYP19A1,WT1,12213901,Uterus,https://pubmed.ncbi.nlm.nih.gov/12213901/,
+CYP19A1,BRCA1,21087664,"Ovary, Liver, Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/21087664/,
+CYP19A1,CEBPB,11994385,Uterus,https://pubmed.ncbi.nlm.nih.gov/11994385/,
+CYP19A1,CEBPD,11994385,Uterus,https://pubmed.ncbi.nlm.nih.gov/11994385/,
+CYP19A1,CREB1,15955695,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/15955695/,
+CYP19A1,ESR1,12839940,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/12839940/,
+CYP19A1,ESRRA,20351196,Prostate,https://pubmed.ncbi.nlm.nih.gov/20351196/,
+CYP19A1,ESRRA,15955695,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/15955695/,
+CYP19A1,FOXL2,21862621,Ovary,https://pubmed.ncbi.nlm.nih.gov/21862621/,
+CYP19A1,JUN,16810058,Ovary,https://pubmed.ncbi.nlm.nih.gov/16810058/,
+CYP19A1,NFKB1,15459115,Ovary,https://pubmed.ncbi.nlm.nih.gov/15459115/,
+CYP19A1,NROB1,22427816,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/22427816/,
+CYP19A1,NROB1,12213901,Uterus,https://pubmed.ncbi.nlm.nih.gov/12213901/,
+CYP19A1,NR2F1,11973645,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/11973645/,
+CYP19A1,NR2F6,11973645,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/11973645/,
+CYP19A1,NR3C1,16740737,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/16740737/,
+CYP19A1,NR5A1,21087664,"Ovary, Liver, Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/21087664/,
+CYP19A1,NR5A1,12213901,Uterus,https://pubmed.ncbi.nlm.nih.gov/12213901/,
+CYP19A1,NR5A2,19067654,Liver,https://pubmed.ncbi.nlm.nih.gov/19067654/,
+CYP19A1,PGR,18483177,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/18483177/,

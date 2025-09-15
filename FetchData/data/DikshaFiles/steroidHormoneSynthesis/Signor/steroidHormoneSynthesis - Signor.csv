@@ -1,0 +1,31 @@
+TargetGene,TF,Library/PMID,validated genes,Tissue,Paper Links
+CYP11A1,GATA6,15284005,Yes,Ovary,https://pubmed.ncbi.nlm.nih.gov/15284005/
+CYP11A1,FOXL2,15284005,Yes,Ovary,https://pubmed.ncbi.nlm.nih.gov/15284005/
+CYP17A1,TEFB,33176151,Yes,Liver,https://pubmed.ncbi.nlm.nih.gov/33176151/
+CYP17A1,GATA6,15284005,Yes,Liver,http://www.ncbi.nlm.nih.gov/pubmed/15284005
+HSD3B2,JUN,19022561,Yes,Uterus,https://pubmed.ncbi.nlm.nih.gov/19022561/
+HSD3B2,STAT6,15632317,Yes,"Placenta, Adrenal Gland, Ovary, Testis",http://www.ncbi.nlm.nih.gov/pubmed/15632317
+HSD3B2,NR4A1,19022561,Yes,Uterus,https://pubmed.ncbi.nlm.nih.gov/19022561/
+HSD3B2,YY1,15291746,Yes,"Placenta, Adrenal Gland, Ovary, Testis",http://www.ncbi.nlm.nih.gov/pubmed/15291746
+HSD3B2,NR5A1,19022561,Yes,Liver,https://pubmed.ncbi.nlm.nih.gov/19022561/
+HSD3B2,NR5A2,19022561,Yes,Uterus,https://pubmed.ncbi.nlm.nih.gov/19022561/
+HSD3B2,FOS,19022561,Yes,Uterus,https://pubmed.ncbi.nlm.nih.gov/19022561/
+CYP11B1,NR5A2,11564608,Yes,"Liver, Pancreas, Adrenal Gland",https://pubmed.ncbi.nlm.nih.gov/11564608/
+CYP11B2,APEX1,22652909,Yes,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/22652909/
+CYP11B2,NR5A1,22652909,Yes,Adrenal Gland,https://pubmed.ncbi.nlm.nih.gov/22652909/
+HSD11B2,NFKB-P65,15659537,Yes,Colon,https://pubmed.ncbi.nlm.nih.gov/15659537/
+HSD11B2,PPRAD,15591138,Yes,Placenta,https://pubmed.ncbi.nlm.nih.gov/15591138/
+HSD11B2,EGR1,15659537,Yes,Colon,https://pubmed.ncbi.nlm.nih.gov/15659537/
+AKR1C4,HNF4G,2044952,Yes,"Liver, Kidney, Lung",https://pubmed.ncbi.nlm.nih.gov/2044952/
+AKR1C4,HNF1A,2044952,Yes,"Liver, Kidney, Lung",https://pubmed.ncbi.nlm.nih.gov/2044952/
+AKR1C2,TWIST1,19051271,Yes,Stomach,https://pubmed.ncbi.nlm.nih.gov/19051271/
+AKR1C2,TWIST2,19051271,Yes,Stomach,https://pubmed.ncbi.nlm.nih.gov/19051271/
+AKR1C4,HNF4A,2044952,Yes,"Liver, Kidney, Lung",https://pubmed.ncbi.nlm.nih.gov/2044952/
+AKR1C4,HNF1B,2044952,Yes,"Liver, Kidney, Lung",https://pubmed.ncbi.nlm.nih.gov/2044952/
+CYP19A1,FOXL2,21862621,Yes,Ovary,https://pubmed.ncbi.nlm.nih.gov/21862621/
+CYP19A1,NR5A1,19022561,Yes,Uterus,http://www.ncbi.nlm.nih.gov/pubmed/19022561
+CYP19A1,FOS,19022561,Yes,Uterus,http://www.ncbi.nlm.nih.gov/pubmed/19022561
+CYP19A1,JUN,19022561,Yes,Uterus,http://www.ncbi.nlm.nih.gov/pubmed/19022561
+CYP19A1,CREB1,15955695,Yes,Mammary Gland,http://www.ncbi.nlm.nih.gov/pubmed/15955695
+CYP19A1,ESRRA,15955695,Yes,Mammary Gland,http://www.ncbi.nlm.nih.gov/pubmed/15955695
+CYP19A1,NR5A2,19022561,Yes,Uterus,http://www.ncbi.nlm.nih.gov/pubmed/19022561

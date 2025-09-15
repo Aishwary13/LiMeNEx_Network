@@ -1,0 +1,104 @@
+TF,TargetGene,Library/PMID,Tissue,Paper Links
+JUN,CYP2J2,12737630; 16008525,Liver,"https://pubmed.ncbi.nlm.nih.gov/12737630/,https://pubmed.ncbi.nlm.nih.gov/16008525/"
+AHR,CYP1A1,12213390; 9865727,Liver,"https://pubmed.ncbi.nlm.nih.gov/12213390/ , https://pubmed.ncbi.nlm.nih.gov/9865727/"
+AHR,CYP1A1,17012224,Lung,https://pubmed.ncbi.nlm.nih.gov/17012224/
+AHR,CYP1A1,10359656,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/10359656/
+AHR,CYP1A1,12376470,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/12376470/
+AHR,CYP1A1,15325265,"Colon, Rectum",https://pubmed.ncbi.nlm.nih.gov/15325265/
+AHR,CYP1A1,19376845,"Liver, Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/19376845/
+AHR,CYP1A1,21357676,Liver,https://pubmed.ncbi.nlm.nih.gov/21357676/
+AHR,CYP1A1,24639079,Skin,https://pubmed.ncbi.nlm.nih.gov/24639079/
+AHR,CYP1A1,8631128,"Liver, Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/8631128/
+AHR,CYP1A1,9698073,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/9698073/
+ARNT,CYP1A1,22387692,Liver,https://pubmed.ncbi.nlm.nih.gov/22387692/
+ARNT,CYP1A1,22387692,Liver,https://pubmed.ncbi.nlm.nih.gov/22387692/
+ARNT,CYP1A1,12376470,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/12376470/
+ARNT,CYP1A1,19255421,Skin,https://pubmed.ncbi.nlm.nih.gov/19255421/
+ARNT,CYP1A1,8631128,"Liver, Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/8631128/
+ARNT,CYP1A1,19376845,"Liver, Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/19376845/
+NFIC,CYP1A1,10490621,Liver,https://pubmed.ncbi.nlm.nih.gov/10490621/
+BRCA1,CYP1A1,16567799,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/16567799/
+ESR1,CYP1A1,15837795,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/15837795/
+KLF4,CYP1A1,9651398,Ovary,https://pubmed.ncbi.nlm.nih.gov/9651398/
+NFKB1,CYP1A1,19928584,Liver,https://pubmed.ncbi.nlm.nih.gov/19928584/
+PPARA,CYP1A1,15521013,"Liver, Lung",https://pubmed.ncbi.nlm.nih.gov/15521013/
+RARA,CYP1A1,15325265,"Colon, Rectum",https://pubmed.ncbi.nlm.nih.gov/15325265/
+RELA,CYP1A1,19928584,Liver,https://pubmed.ncbi.nlm.nih.gov/19928584/
+USF1,CYP1A1,9388470,Liver,https://pubmed.ncbi.nlm.nih.gov/9388470/
+VDR,CYP1A1,22837390,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/22837390/
+FOS,CYP1A2,12135113,Liver,https://pubmed.ncbi.nlm.nih.gov/12135113/
+HNF1A,CYP1A2,7723729,"Liver, Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/7723729/
+JUN,CYP1A2,12135113,Liver,https://pubmed.ncbi.nlm.nih.gov/12135113/
+AHR,CYP1B1,16115918; ,Prostate,"https://pubmed.ncbi.nlm.nih.gov/16115918/ , "
+AHR,CYP1B1,19287966,"Colon, Rectum",https://pubmed.ncbi.nlm.nih.gov/19287966/
+AHR,CYP1B1,12376470; 19376845; 21742528; 24299737,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/12376470/
+AHR,CYP1B1,19376845,"Mammary Gland, Liver",https://pubmed.ncbi.nlm.nih.gov/19376845/
+AHR,CYP1B1,21742528,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/21742528/
+AHR,CYP1B1,24299737,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/24299737/
+ARNT,CYP1B1,16115918,Prostate,"https://pubmed.ncbi.nlm.nih.gov/16115918/ , "
+ARNT,CYP1B1,19287966,"Colon, Rectum",https://pubmed.ncbi.nlm.nih.gov/19287966/
+ARNT,CYP1B1,12376470,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/12376470/
+ARNT,CYP1B1,19255421,Skin,https://pubmed.ncbi.nlm.nih.gov/19255421/
+ARNT,CYP1B1,19376845,"Mammary Gland, Liver",https://pubmed.ncbi.nlm.nih.gov/19376845/
+ARNT,CYP1B1,21742528,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/21742528/
+ARNT,CYP1B1,24299737,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/24299737/
+P300,CYP1B1,20631054,"Mammary Gland, Liver",https://pubmed.ncbi.nlm.nih.gov/20631054/
+ESR1,CYP1B1,15126349,"Mammary Gland ,Uterus, Ovary",https://pubmed.ncbi.nlm.nih.gov/15126349/
+KAT2B,CYP1B1,20631054,"Mammary Gland, Liver",https://pubmed.ncbi.nlm.nih.gov/20631054/
+SP1,CYP1B1,12801909,"Mammary Gland, Skin, Colon, Liver",https://pubmed.ncbi.nlm.nih.gov/12801909/
+JUN,ALOX12,14518567,"Skin, Erythroid lineage, Leukocytes, Bone Marrow,  Mammary Gland",https://pubmed.ncbi.nlm.nih.gov/14518567/
+RUNX1,ALOX12,20181616,"Erythroid lineage, Megakaryocytelineage, Bone marrow",https://pubmed.ncbi.nlm.nih.gov/20181616/
+SP1,ALOX12,9164849,Skin,https://pubmed.ncbi.nlm.nih.gov/9164849/
+SP1,ALOX12,14518567,"Erythroid lineage, Skin",https://pubmed.ncbi.nlm.nih.gov/14518567/
+SP1,ALOX12,16118214,Skin,https://pubmed.ncbi.nlm.nih.gov/16118214/
+STAT6,ALOX12,10657944,Lung,https://pubmed.ncbi.nlm.nih.gov/10657944/
+TFAP2C,GPX1,22964634,Mammary Gland,https://pubmed.ncbi.nlm.nih.gov/22964634/
+CREBBP,ALOX15,12517954,Lung,https://pubmed.ncbi.nlm.nih.gov/12517954/
+P300,ALOX15,12517954,Lung,https://pubmed.ncbi.nlm.nih.gov/12517954/
+HDAC1,ALOX15,19198625,Colon,https://pubmed.ncbi.nlm.nih.gov/19198625/
+MTA1,ALOX15,19198625,Colon,https://pubmed.ncbi.nlm.nih.gov/19198625/
+SPI1,ALOX15,16320347,"Lung, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/16320347/
+KLF6,LTC4S,10722737, Leukocytes,https://pubmed.ncbi.nlm.nih.gov/10722737/
+NFKB1,LTC4S,12574384,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/12574384/
+RELA,LTC4S,12574384,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/12574384/
+SP1,LTC4S,10722737,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/10722737/
+SP1,LTC4S,10919991,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/10919991/
+EGR1,ALOX5,9062372,Vasculature,https://pubmed.ncbi.nlm.nih.gov/9062372/
+EGR1,ALOX5,15517885,"Liver, Kidney, Mammary Gland, Prostate, Stomach, colon, Pancreas, Ovary, Skin, Sensory, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/15517885/
+EGR1,ALOX5,10436859,"Lung, Leukocytes ,Bone marrow, Liver, Pancreas",https://pubmed.ncbi.nlm.nih.gov/15517885/
+HDAC2,ALOX5,21883892,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/21883892/
+HDAC3,ALOX5,21883892,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/21883892/
+MBD1,ALOX5,19781662,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/21883892/
+MBD2,ALOX5,19781662,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/21883892/
+MECP2,ALOX5,19781662,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/21883892/
+NFKB1,ALOX5,15517885,"Liver, Kidney, Mammary Gland, Prostate, Stomach, colon, Pancreas, Ovary, Skin, Sensory, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/15517885/
+RELA,ALOX5,15517885,"Liver, Kidney, Mammary Gland, Prostate, Stomach, colon, Pancreas, Ovary, Skin, Sensory, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/15517885/
+SP1,ALOX5,9062372,Vasculature,https://pubmed.ncbi.nlm.nih.gov/9062372/
+SP1,ALOX5,19781662,"Leukocytes, blood, hspcs",https://pubmed.ncbi.nlm.nih.gov/19781662/
+SP1,ALOX5,10436859,"Leukocytes, blood, hspcs",https://pubmed.ncbi.nlm.nih.gov/10436859/
+SP1,ALOX5,2251250,"Lung, Leukocytes, Uterus, Erythroid lineage",https://pubmed.ncbi.nlm.nih.gov/2251250/
+TP53,ALOX5,17018618,Prostate,https://pubmed.ncbi.nlm.nih.gov/17018618/
+STAT3,FAAH,12556536,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/12556536/
+CREB1,PTGES,20688046," Lung, Uterus",https://pubmed.ncbi.nlm.nih.gov/20688046/
+EGR1,PTGES,21983014, Uterus,https://pubmed.ncbi.nlm.nih.gov/21983014/
+HDAC4,PTGES,19115247,Fibroblasts,https://pubmed.ncbi.nlm.nih.gov/19115247/
+HIF1A,PTGES,18050215,Cartilage,https://pubmed.ncbi.nlm.nih.gov/18050215/
+NFKB1,PTGES,17928629,Placenta,https://pubmed.ncbi.nlm.nih.gov/17928629/
+RELA,PTGES,17928629,Placenta,https://pubmed.ncbi.nlm.nih.gov/17928629/
+SP1,PTGES,20688046,Uterus,https://pubmed.ncbi.nlm.nih.gov/20688046/
+MLL4,COX1,19570036,Kidney,https://pubmed.ncbi.nlm.nih.gov/19570036/
+NFKB1,COX1,19570036,Kidney,https://pubmed.ncbi.nlm.nih.gov/19570036/
+NR3C1,COX1,19570036,Kidney,https://pubmed.ncbi.nlm.nih.gov/19570036/
+RELA,COX1,19570036,Kidney,https://pubmed.ncbi.nlm.nih.gov/19570036/
+ARNT,AKR1C3,22971343,Prostate,https://pubmed.ncbi.nlm.nih.gov/22971343/
+HES1,PTGDS,15743775,CNS,https://pubmed.ncbi.nlm.nih.gov/15743775/
+NFKB1,PTGDS,19094210,Cartilage,https://pubmed.ncbi.nlm.nih.gov/15743775/
+USF1,PTGDS,17574780,CNS,https://pubmed.ncbi.nlm.nih.gov/17574780/
+USF1,PTGDS,18817855,CNS,https://pubmed.ncbi.nlm.nih.gov/18817855/
+P300,TBXAS1,14565864,Lung,https://pubmed.ncbi.nlm.nih.gov/14565864/
+ETS1,TBXAS1,14586398,CNS,https://pubmed.ncbi.nlm.nih.gov/14586398/
+TP53,TBXAS1,14586398,CNS,https://pubmed.ncbi.nlm.nih.gov/14586398/
+CREB1,HPGD,10650939,"Uterus, Placenta, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/10650939/
+ERG,HPGD,21178489,Prostate,https://pubmed.ncbi.nlm.nih.gov/21178489/
+ETS1,HPGD,10650939,"Uterus, Placenta, Leukocytes",https://pubmed.ncbi.nlm.nih.gov/10650939/
+PGE2,HPGD,17575121,Lung,https://pubmed.ncbi.nlm.nih.gov/17575121/

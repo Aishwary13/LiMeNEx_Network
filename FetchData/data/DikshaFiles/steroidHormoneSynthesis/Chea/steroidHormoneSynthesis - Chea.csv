@@ -1,0 +1,27 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+VDR,"CYP19A1,HSD17B2",23401126,https://pubmed.ncbi.nlm.nih.gov/23401126/,"CYP19A1,HSD17B2","Leukocytes, Blood",https://journals.sagepub.com/doi/10.1177/1352458512471873
+RELA,"AKR1C1,CYP7B1,CYP19A1,HSD11B2",24523406,https://pubmed.ncbi.nlm.nih.gov/24523406/,"AKR1C1,CYP7B1,CYP19A1,HSD11B2",Lung,https://www.sciencedirect.com/science/article/pii/S0021925820415108?via%3Dihub
+TP53,"AKR1D1,HSD17B3",16413492,https://pubmed.ncbi.nlm.nih.gov/16413492/,"AKR1D1,HSD17B3",Colon,https://www.sciencedirect.com/science/article/pii/S0092867405013991?via%3Dihub#app2
+AR,"SRD5A1,HSD17B3,AKR1C2,CYP7B1,CYP19A1",19668381,https://pubmed.ncbi.nlm.nih.gov/19668381/,"SRD5A1,HSD17B3,AKR1C2,CYP7B1,CYP19A1",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006589
+FOXA2,"AKR1D1,AKR1C2,CYP19A1,HSD17B2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"AKR1D1,AKR1C2,CYP19A1,HSD17B2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true#supplementary-data
+SMAD4,AKR1C2,19686287,https://pubmed.ncbi.nlm.nih.gov/19686287/,AKR1C2,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1349-7006.2009.01299.x
+ESR2,AKR1C2,21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,AKR1C2,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36
+WT1,"AKR1D1,HSD17B3,HSD11B2,CYP11A1",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,"AKR1D1,HSD17B3,HSD11B2,CYP11A1",Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub
+NFE2L2,AKR1D1,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,AKR1D1,Leukocytes,https://academic.oup.com/nar/article/40/15/7416/1213698?login=true
+TP63,"SRD5A1,HSD17B3,CYP21A2,HSD17B2",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,"HSD17B3,CYP21A2",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547
+HNF4A,"AKR1D1,AKR1C2,AKR1C4,CYP19A1,CYP17A1,HSD17B2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"AKR1D1,AKR1C2,AKR1C4,CYP19A1,CYP17A1,HSD17B2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+MYC,CYP7B1,18940864,https://pubmed.ncbi.nlm.nih.gov/18940864/,CYP7B1,"Leukocytes, Blood",https://academic.oup.com/nar/article/36/21/e144/2410244?login=true
+GATA1,CYP11A1,19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,CYP11A1,"Leukocytes, Blood",https://www.sciencedirect.com/science/article/pii/S1097276509008144?via%3Dihub
+PPARD,"AKR1D1,HSD17B6,CYP17A1",21283829,https://pubmed.ncbi.nlm.nih.gov/21283829/,"AKR1D1,HSD17B6,CYP17A1",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016344#s4
+ELF5,CYP11B2,23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,CYP11B2,Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461
+TFAP2C,CYP19A1,20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,CYP19A1,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+SALL4,CYP19A1,22934838,https://pubmed.ncbi.nlm.nih.gov/22934838/,CYP19A1,HSPCs,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+CUX1,"AKR1C1,CYP21A2",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"AKR1C1,CYP21A2",Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+JUN,HSD17B2,21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,HSD17B2,"Erythroid lineage, HSPCs",https://www.sciencedirect.com/science/article/pii/S1673852711000890?via%3Dihub
+POU3F2,AKR1C3,20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,AKR1C3,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+TFAP2A,HSD11B2,17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,HSD11B2,Uterus,https://genome.cshlp.org/content/16/12/1585
+FOXM1,AKR1D1,26456572,https://pubmed.ncbi.nlm.nih.gov/26456572/,AKR1D1,Mammary Gland,https://link.springer.com/article/10.1007/s10549-015-3589-7
+FOXA1,AKR1D1,25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,AKR1D1,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789
+GATA3,CYP19A1,24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,CYP19A1,Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+FOXP1,"HSD11B2,CYP11A1",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"HSD11B2,CYP11A1",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub
+GATA2,CYP11A1,19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,CYP11A1,Erythroid lineage,https://www.sciencedirect.com/science/article/pii/S1097276509008144?via%3Dihub

@@ -1,0 +1,9 @@
+TF,TargetGene,Library/PMID,Mechanism,Tissue,validated genes,Paper Links
+SREBF1,ACLY,11994399,Transcription Regulation,Liver,Yes,https://pubmed.ncbi.nlm.nih.gov/11994399/
+MLXIPL,ACACA,15496471,Transcription Regulation,Liver,Yes,https://pubmed.ncbi.nlm.nih.gov/15496471/
+SREBF1,ACACA,15496471,Transcription Regulation,Liver,Yes,https://pubmed.ncbi.nlm.nih.gov/15496471/
+SREBF1,FASN,20373869,Transcription Regulation,"Adipose Tissue,Kidney,Liver,Pancreas",Yes,https://pubmed.ncbi.nlm.nih.gov/20373869/
+PPARD,SLC25A20,19577614,Transcription Regulation,Liver,Yes,https://pubmed.ncbi.nlm.nih.gov/19577614/
+PPARA,SLC25A20,19577614,Transcription Regulation,Liver,Yes,https://pubmed.ncbi.nlm.nih.gov/19577614/
+PPARA,ACSL1,17150915,Transcription Regulation,Kidney,Yes,https://pubmed.ncbi.nlm.nih.gov/17150915/
+PRKAA1,SCD,21478464,Transcription Regulation,Liver,Yes,https://pubmed.ncbi.nlm.nih.gov/21478464/

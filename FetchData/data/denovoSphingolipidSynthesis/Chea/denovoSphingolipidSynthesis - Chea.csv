@@ -1,0 +1,50 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+EGR1,"DEGS1,KDSR",19032775,https://pubmed.ncbi.nlm.nih.gov/19032775/,"DEGS1,KDSR",Prostate,https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-11-r166#MOESM1
+SMAD4,"SPTLC1,SPTLC2,SGMS1,SPTLC3,SGMS2",21799915,https://pubmed.ncbi.nlm.nih.gov/21799915/,"SPTLC1,SPTLC2,SGMS1,SPTLC3,SGMS2",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022606
+SMAD3,"SPTLC2,SGMS1,SPTLC3,KDSR",18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,not found,,
+GATA1,"SPTLC1,SPTLC2,SGMS1,DEGS1",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"SPTLC1,SPTLC2,SGMS1,DEGS1","progenitors,Megakaryocyte lineage,Erythroid lineage",https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue
+GATA4,"SPTLC2,DEGS1,CERS1",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,Stomach,paid https://gut.bmj.com/content/64/5/707
+TCF4,"SPTLC1,SPTLC2,SGMS1,SGMS2",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,CNS,paid https://academic.oup.com/neuro-oncology/article-abstract/15/3/279/1055801?redirectedFrom=fulltext&login=false
+GBX2,SGMS1,23144817,https://pubmed.ncbi.nlm.nih.gov/23144817/,SGMS1,Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0047366
+JUN,"DEGS1,CERS1",21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,not found,Erythroid lineage,paid https://linkinghub.elsevier.com/retrieve/pii/S1673852711000890
+TP53,SPTLC1,16413492,https://pubmed.ncbi.nlm.nih.gov/16413492/,SPTLC1,"Colon, Rectum",https://www.cell.com/cell/fulltext/S0092-8674(05)01399-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867405013991%3Fshowall%3Dtrue#app-1
+AR,"SPTLC3,KDSR",25329375,https://pubmed.ncbi.nlm.nih.gov/25329375/,not found,Prostate,https://academic.oup.com/mend/article/28/12/2012/2623249?login=false
+NFE2L2,SGMS1,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,SGMS1,"Adipose tissue, Leukocytes",https://academic.oup.com/nar/article/40/15/7416/1213698?login=false
+TP63,"SPTLC2,SPTLC3,SGMS2",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,not found,Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547
+JUND,"DEGS1,SGMS2",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Vasculature,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+GATA3,"DEGS1,SGMS2",24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,"DEGS1,SGMS2",Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+ELK3,"SGMS1,KDSR",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,Vasculature,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+GATA2,"SGMS1,DEGS1",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,"SGMS1,DEGS1",Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+POU5F1,SGMS1,16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,not found,Embryonic tissue,https://www.cell.com/cell/fulltext/S0092-8674(05)00825-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867405008251%3Fshowall%3Dtrue
+STAT1,SPTLC1,20625510,https://pubmed.ncbi.nlm.nih.gov/20625510/,not found,Blood,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011425#abstract0
+AHR,DEGS1,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,Mammary Gland,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext
+SOX2,"SPTLC2,SGMS2",20726797,https://pubmed.ncbi.nlm.nih.gov/20726797/,not found,,paid https://www.liebertpub.com/doi/10.1089/omi.2010.0053
+VDR,DEGS1,24787735,https://pubmed.ncbi.nlm.nih.gov/24787735/,not found,Blood,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096105
+TFEB,SGMS1,21752829,https://pubmed.ncbi.nlm.nih.gov/21752829/,not found,,paid https://academic.oup.com/hmg/article-abstract/20/19/3852/602520?redirectedFrom=fulltext&login=false
+EOMES,DEGS1,21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,DEGS1,Embryonic tissue,https://genesdev.cshlp.org/content/25/3/238
+ARNT,DEGS1,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext&login=false
+E2F4,"SGMS1,DEGS1",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"SGMS1,DEGS1",Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=false#supplementary-data
+ELF5,SPTLC2,23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,SPTLC2,Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461
+ERG,SPTLC3,20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,Prostate,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+FOXA2,"SGMS1,SPTLC3",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"SGMS1,SPTLC3",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false
+SPI1,"SPTLC1,SPTLC3",23547873,https://pubmed.ncbi.nlm.nih.gov/23547873/,"SPTLC1,SPTLC3",Bone Marrow,https://jhoonline.biomedcentral.com/articles/10.1186/1756-8722-6-25
+WT1,"SGMS1,SGMS2",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,not found,Kidney,https://www.kidney-international.org/article/S2157-1716(15)32169-9/fulltext
+PPARD,"SPTLC1,SGMS1",21283829,https://pubmed.ncbi.nlm.nih.gov/21283829/,"SPTLC1,SGMS1",Fibroblasts,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016344#s4
+BACH1,SPTLC2,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,SPTLC2,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+SALL4,SGMS1,22934838,https://pubmed.ncbi.nlm.nih.gov/22934838/,SGMS1,Bone Marrow,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+FOXP1,"SPTLC1,KDSR",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"SPTLC1,KDSR",Embryonic tissue,https://www.cell.com/cell/fulltext/S0092-8674(11)00949-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867411009494%3Fshowall%3Dtrue
+ZNF217,SGMS1,24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,SGMS1,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec25
+ETS1,SPTLC1,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,SPTLC1,Thymus,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+DACH1,SGMS1,20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,SGMS1,Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107#supplementary-materials
+KLF5,DEGS1,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+FOXA1,KDSR,25329375,https://pubmed.ncbi.nlm.nih.gov/25329375/,not found,Prostate,https://academic.oup.com/mend/article/28/12/2012/2623249?login=false
+BCL6,DEGS1,25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+TCF21,SGMS1,26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202#sec024
+GATA6,DEGS1,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+ATF3,SGMS2,23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,SGMS2,CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+PBX1,SPTLC2,22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,SPTLC2,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+MITF,"SGMS1,SPTLC3",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"SGMS1,SPTLC3",Skin,https://www.nature.com/articles/onc2010612#Sec15
+FLI1,"SPTLC1,SGMS1",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,not found,Blood,https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue
+CUX1,SGMS2,19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,not found,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)38439-8/fulltext
+HNF4A,"SGMS1,SPTLC3",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"SGMS1,SPTLC3",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false#supplementary-data
+RUNX1,SGMS1,21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,SGMS1,Bone Marrow,https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue

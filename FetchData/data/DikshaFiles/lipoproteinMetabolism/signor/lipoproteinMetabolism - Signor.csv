@@ -1,0 +1,13 @@
+TargetGene,TF,Library/PMID,Tissue,Pubmed_Link,Paper_Link
+LDLR,SREBF2,21123766,"Liver, Kidney, Colon, Rectum",https://pubmed.ncbi.nlm.nih.gov/21123766/,https://www.sciencedirect.com/science/article/pii/S0022227520409368?via%3Dihub
+LDLR,HNF4A,21123766,"Liver, Kidney, Colon, Rectum",https://pubmed.ncbi.nlm.nih.gov/21123766/,https://www.sciencedirect.com/science/article/pii/S0022227520409368?via%3Dihub
+LPL,TGFB1,11742878,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/11742878/,https://www.ahajournals.org/doi/10.1161/hq1201.099426
+LPL,IFNG,2114181,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/2114181/,https://www.sciencedirect.com/science/article/abs/pii/0167488990900248?via%3Dihub
+LPL,INS,21966368,Adipose tissue,https://pubmed.ncbi.nlm.nih.gov/21966368/,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0024783
+LPL,TNF,3063839,Liver,https://pubmed.ncbi.nlm.nih.gov/3063839/,https://aspenjournals.onlinelibrary.wiley.com/doi/10.1177/014860718801200604
+LPL,CRP,11742878,Leukocytes,https://pubmed.ncbi.nlm.nih.gov/18708524/,https://www.sciencedirect.com/science/article/pii/S0022227520346617?via%3Dihub
+MTTP,SREBF1,11111091,Liver,https://pubmed.ncbi.nlm.nih.gov/11111091/,https://www.sciencedirect.com/science/article/pii/S1388198100001517?via%3Dihub
+APOC3,PPARGC1A,16891307,Liver,https://pubmed.ncbi.nlm.nih.gov/16891307/,https://www.sciencedirect.com/science/article/pii/S0021925819338918?via%3Dihub
+APOC3,NCOA1,16891307,Liver,https://pubmed.ncbi.nlm.nih.gov/16891307/,https://www.sciencedirect.com/science/article/pii/S0021925819338918?via%3Dihub
+APOA4,TFEB,33176151,Uterus,https://pubmed.ncbi.nlm.nih.gov/33176151/,https://www.sciencedirect.com/science/article/pii/S2211124720313607?via%3Dihub
+APOB,RAD21,25575569,Liver,https://pubmed.ncbi.nlm.nih.gov/25575569/,https://www.sciencedirect.com/science/article/pii/S2211124720313607?via%3Dihub

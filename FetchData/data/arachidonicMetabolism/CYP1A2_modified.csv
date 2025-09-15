@@ -1,0 +1,35 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,EBF1,CYP1A2,leukocytes,EBF1 IP - GM12878 cells
+1,SPP,SIX2,CYP1A2,kidney,"SIX2 IP - 17 weeks, Rep 2, SIX2 IP -  16 weeks, SIX2 IP - 17 weeks, Rep 1"
+2,SPP,MAFK,CYP1A2,liver,"MAFK IP - HepG2 cells, Rep 1, MAFK IP - HepG2 cells, Rep 2"
+3,SPP,OTX2,CYP1A2,stemcells,"OTX2 IP - Rep 10 , OTX2 IP - Rep 3 , OTX2 IP - Rep 2 "
+4,SPP,RELA,CYP1A2,adiposetissue,"RELA IP, RELA IP"
+5,SPP,NANOG,CYP1A2,stemcells,NANOG IP - Rep 5 
+6,SPP,CEBPB,CYP1A2,stemcells,CEBPB IP
+7,SPP,MAFK,CYP1A2,lung,MAFK IP - IMR cells
+8,SPP,CTCF,CYP1A2,stemcells,CTCF IP - H1 cells 
+9,SPP,TEAD1,CYP1A2,cns,"TEAD1 IP - Rep 2, TEAD1 IP - Rep 1"
+10,SPP,GATA3,CYP1A2,cns,GATA3 IP - SK-N-SH cells
+11,SPP,GATA2,CYP1A2,prostate,"FOXA1 + FBS | GATA2 ChIP-Seq, FOXA1 KD | GATA2 ChIP-Seq"
+12,SPP,FOXA1,CYP1A2,prostate,"FOXA1 + FBS | GATA2 ChIP-Seq, FOXA1 KD | GATA2 ChIP-Seq"
+13,SPP,TEAD4,CYP1A2,uterus,TEAD4 IP - ECC1 cells
+14,SPP,PBX3,CYP1A2,cns,PBX3 IP - SK-N-SH cells
+15,SPP,TCF12,CYP1A2,cns,TCF12 IP - SK-N-SH cells
+16,SPP,MAFK,CYP1A2,leukocytes,MAFK IP - K562 cells
+17,SPP,JUND,CYP1A2,cns,JUND IP - SK-N-SH cells
+18,SPP,JUND,CYP1A2,vasculature,JUND IP
+19,SPP,MAFK,CYP1A2,uterus,MAFK IP - HeLa cells
+20,SPP,MYC,CYP1A2,leukocytes,MYC IP - NB4 cells
+21,SPP,MAFF,CYP1A2,leukocytes,MAFF IP - K562 cells
+22,SPP,GATA3,CYP1A2,mammarygland,GATA3 IP - T47D cells
+23,SPP,TEAD4,CYP1A2,cns,TEAD4 IP - SK-N-SH cells
+24,SPP,MAX,CYP1A2,leukocytes,"MAX IP - NB4 cells, MAX IP - K562 cells"
+25,SPP,MAFF,CYP1A2,liver,MAFF IP - HepG2 cells
+26,SPP,EGR1,CYP1A2,leukocytes,EGR1 IP - K562 cells
+27,SPP,NFKB1,CYP1A2,leukocytes,NFKB1 IP - Rep 2
+28,SPP,FOSL2,CYP1A2,cns,FOSL2 IP - SK-N-SH cells
+29,SPP,ZNF384,CYP1A2,leukocytes,ZNF384 IP - GM12878 cells
+30,SPP,SPI1,CYP1A2,leukocytes,SPI1 IP - HL cells
+31,SPP,RELA,CYP1A2,leukocytes,RELA IP | TNF - GM12891 cells
+32,SPP,TNF,CYP1A2,leukocytes,RELA IP | TNF - GM12891 cells
+33,SPP,MAX,CYP1A2,cns,MAX IP - SK-N-SH cells

@@ -1,0 +1,47 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+NR1H3,"PNPLA7,PNPLA6,GDPD5",23393188,https://pubmed.ncbi.nlm.nih.gov/23393188/,"PNPLA7,PNPLA6,GDPD5",Adipose tissue,https://academic.oup.com/nar/article/41/6/3518/2902510?login=false
+ESR2,"PNPLA7,GDPD3",21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,"PNPLA7,GDPD3",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36
+ZNF652,PNPLA7,21678463,https://pubmed.ncbi.nlm.nih.gov/21678463/,PNPLA7,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/jcb.23214
+MYC,"GDPD1,GDPD3,PNPLA6",19915707,https://pubmed.ncbi.nlm.nih.gov/19915707/,"GDPD1,GDPD3,PNPLA6",Embryonic tissue,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007839
+EOMES,"GDPD1,GDPD5",21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,"GDPD1,GDPD5",Embryonic tissue,https://genesdev.cshlp.org/content/25/3/238
+ESR1,PNPLA7,21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,PNPLA7,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36
+SPI1,"PNPLA7,GDE1",23127762,https://pubmed.ncbi.nlm.nih.gov/23127762/,"PNPLA7,GDE1",Blood,https://www.exphem.org/article/S0301-472X(12)00531-0/fulltext
+PPARD,"PNPLA7,PNPLA6,GDPD5",21283829,https://pubmed.ncbi.nlm.nih.gov/21283829/,"PNPLA7,PNPLA6,GDPD5",Fibroblasts,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016344
+FOXP1,"GDPD1,GDPD3,PNPLA6",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"GDPD1,GDPD3,PNPLA6",Embryonic tissue,https://www.cell.com/cell/fulltext/S0092-8674(11)00949-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867411009494%3Fshowall%3Dtrue
+SOX2,"GDE1,GDPD1",20726797,https://pubmed.ncbi.nlm.nih.gov/20726797/,not found,,paid https://www.liebertpub.com/doi/10.1089/omi.2010.0053
+AHR,PNPLA7,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext&login=false
+FOXO3,PNPLA7,23340844,https://pubmed.ncbi.nlm.nih.gov/23340844/,not found,skeletal muscle,https://www.embopress.org/doi/full/10.1038/msb.2012.74
+GATA1,"GDPD1,PNPLA6",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"GDPD1,PNPLA6",Blood,https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue
+RUNX1,"PNPLA7,GDPD3,PNPLA6",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"PNPLA7,GDPD3,PNPLA6",Blood,https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue
+E2F4,"GDE1,GDPD5",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"GDE1,GDPD5",Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=false
+ELF1,PNPLA6,20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,PNPLA6,"Blood,
+Bone Marrow,
+Leukocytes,
+Lymph node,
+Spleen,
+Thymus,
+Prostate",https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+ARNT,PNPLA7,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext
+SOX11,PNPLA6,23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,PNPLA6,Kidney,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+HNF4A,GDE1,19761587,https://pubmed.ncbi.nlm.nih.gov/19761587/,GDE1,"Colon, Duodenum, lleum, Jejunum, Rectum",https://bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-9-68
+TFAP2C,GDPD5,20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,GDPD5,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+EGR1,"PNPLA7,PNPLA6,GDPD5",20690147,https://pubmed.ncbi.nlm.nih.gov/20690147/,"PNPLA7,PNPLA6,GDPD5",Megakaryocyte lineage,https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.201000094
+TCF4,"PNPLA7,GDPD1",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,,paid https://academic.oup.com/neuro-oncology/article-abstract/15/3/279/1055801?redirectedFrom=fulltext
+FOXP3,PNPLA6,21729870,https://pubmed.ncbi.nlm.nih.gov/21729870/,not found,Blood,https://academic.oup.com/nar/article/39/18/7946/1084168?login=false#supplementary-data
+JUN,PNPLA6,21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1673852711000890?via%3Dihub
+ETS1,PNPLA6,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,PNPLA6,Uterus,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+DACH1,GDPD5,20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,GDPD5,Embryonic tissue,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+E2F1,GDPD5,17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,GDPD5,Erythroid lineage,https://genome.cshlp.org/content/16/12/1585
+SMAD3,GDE1,18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,not found,,paid https://www.tandfonline.com/doi/full/10.1128/MCB.01038-08?scroll=top&needAccess=true
+RBPJ,PNPLA6,21746931,https://pubmed.ncbi.nlm.nih.gov/21746931/,not found,Blood,https://www.pnas.org/doi/full/10.1073/pnas.1108892108
+BCL6,GDPD5,25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+FOXA1,PNPLA7,25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,not found,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789
+GATA3,GDE1,24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,GDE1,Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+HOXC9,PNPLA6,25013753,https://pubmed.ncbi.nlm.nih.gov/25013753/,not found,CNS,https://www.sciencedirect.com/science/article/pii/S2213596014000142?via%3Dihub
+GATA6,GDE1,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+ELK3,PNPLA6,25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,Skin,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050#s5
+GATA2,GDPD5,19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,GDPD5,Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue#app-2
+SMAD4,PNPLA7,21799915,https://pubmed.ncbi.nlm.nih.gov/21799915/,PNPLA7,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022606#s5
+FOXA2,PNPLA7,19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,PNPLA7,Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false
+TP63,GDPD5,22573176,https://pubmed.ncbi.nlm.nih.gov/22573176/,GDPD5,Skin,https://academic.oup.com/nar/article/40/15/7190/1208916
+MITF,GDPD5,21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,GDPD5,Skin,https://www.nature.com/articles/onc2010612

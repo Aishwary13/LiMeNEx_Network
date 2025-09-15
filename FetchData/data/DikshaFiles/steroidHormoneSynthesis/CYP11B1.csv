@@ -1,0 +1,46 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,SPI1,CYP11B1,leukocytes,"SPI1 IP, SPI1 IP, SPI1 IP - HL cells, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP, SPI1 IP - K562 cells"
+SPP,REST,CYP11B1,leukocytes,"REST IP - GM12878 cells, Rep 27 , REST IP - Jurkat cells, Rep 13 , REST IP - GM12878 cells, Rep 21 , REST IP - GM12878 cells, Rep 12 , REST IP - GM12878 cells, Rep 15 , REST IP - Jurkat cells, Rep 14 , REST IP - Jurkat cells, Rep 6 , REST IP - GM12878 cells, Rep 25 , REST IP - GM12878 cells, Rep 4 , REST IP - Jurkat cells, Rep 7 , REST IP - GM12878 cells, Rep 18 , REST IP - GM12878 cells, Rep 22 , REST IP - K562 cells , REST IP - Jurkat cells, Rep 11 , REST IP - Jurkat cells, Rep 10 , REST IP - GM12878 cells, Rep 5 , REST IP - GM12878 cells, Rep 9 , REST IP - GM12878 cells, Rep 6 , REST IP - GM12878 cells, Rep 8 , REST IP - Jurkat cells, Rep 1 , REST IP - GM12878 cells, Rep 2, REST IP - GM12878 cells, Rep 23 , REST IP - GM12878 cells, Rep 16 , REST IP - GM12878 cells, Rep 13 , REST IP - GM12878 cells, Rep 14 , REST IP - Jurkat cells, Rep 12 , REST IP - GM12878 cells, Rep 19 , REST IP - Jurkat cells, Rep 4 , REST IP - HL60 cells, REST IP - GM12878 cells, Rep 3 , REST IP - GM12878 cells, Rep 24 , REST IP - GM12878 cells, Rep 26 , REST IP - K562 cells, REST IP - Jurkat cells, Rep 15 , REST IP - GM12878 cells, Rep 2 , REST IP - GM12878 cells, Rep 28 , REST IP - GM12878 cells, Rep 17 , REST IP - GM12878 cells, Rep 10 , REST IP - GM12878 cells, Rep 1 , REST IP - GM12878 cells, Rep 7 , REST IP - Jurkat cells, Rep 2 , REST IP - GM12878 cells, Rep 11 , REST IP - GM12878 cells, Rep 1, REST IP - Jurkat cells, Rep 5 , REST IP - Jurkat cells, Rep 3 , REST IP - Jurkat cells, Rep 8 , REST IP -  K562 cells"
+SPP,REST,CYP11B1,cns,"REST IP - SK-N-SH cells, REST IP - SK cells, REST IP - U87 cells, REST IP - PFSK1 cells, Rep 2, REST IP - PFSK-N-SH cells1 cells, Rep 1"
+SPP,FOXP1,CYP11B1,leukocytes,"FOXP1 IP - HT, FOXP1 IP - OCI-LY10"
+SPP,IRF1,CYP11B1,leukocytes,"IRF1 IP - Rep 2, IRF1 IP - Rep 3, IRF1 IP - Rep 1"
+SPP,IFNG,CYP11B1,leukocytes,"IRF1 IP - Rep 2, IRF1 IP - Rep 3, STAT1 IP - Rep 5, IRF1 IP - Rep 1, STAT1 IP - Rep 2, STAT1 IP - Rep 3, MYC IP | IFNG - K562 cells, 30 min"
+SPP,TP53,CYP11B1,colon,"TP53 IP | TP53 KO, TP53 IP | CAMPTO"
+SPP,TFAP4,CYP11B1,leukocytes,"TFAP4 IP - Rep 1, TFAP4 IP - Rep 2"
+SPP,REST,CYP11B1,stemcells,"REST IP - H1 cells, Rep 2"
+SPP,MAX,CYP11B1,uterus,"MAX IP - ECC1 cells, MAX IP - HeLa cells, Rep 2"
+SPP,REST,CYP11B1,pancreas,"REST IP - PANC1 cells, Rep 1, REST IP - Panc1 cells, Rep 3, REST IP - PANC1 cells, Rep 2"
+SPP,MXI1,CYP11B1,leukocytes,MXI1 IP - K562 cells
+SPP,BHLHE40,CYP11B1,leukocytes,BHLHE40 IP - K562 cells
+SPP,MYC,CYP11B1,bone,"MYC IP, MYC IP"
+SPP,REST,CYP11B1,liver,"REST IP - HepG2 cells, Rep 2, REST IP - HepG2 cells, Rep 1"
+SPP,MYC,CYP11B1,mammarygland,MYC IP - MCF-10A cells
+SPP,CEBPB,CYP11B1,leukocytes,"CEBPB IP, CEBPB ChIP-Seq - K562, CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,FOSL1,CYP11B1,colon,FOSL1 IP - HCT116 cells
+SPP,PRDM1,CYP11B1,uterus,PRDM1 IP - HeLa cells
+SPP,CTCF,CYP11B1,megakaryocytelineage,"CTCF IP - MEG-01 cells, Rep 8 , CTCF IP - MEG-01 cells, Rep 4 "
+SPP,BATF,CYP11B1,leukocytes,BATF IP - GM12878 cells
+SPP,MYC,CYP11B1,leukocytes,"MYC IP - NB4 cells, MYC IP - K562 cells, Rep 1, MYC IP | IFNG - K562 cells, 30 min"
+SPP,ATF3,CYP11B1,colon,ATF3 IP | CAMPTO
+SPP,MAX,CYP11B1,stemcells,MAX IP - H1 cells
+SPP,TP53,CYP11B1,lung,"TP53 IP - growing, TP53 IP | TP53 KD - senescent, TP53 IP - senescent"
+SPP,MAX,CYP11B1,liver,"MAX IP - MCF7 cells, MAX IP - HepG2 cells"
+SPP,CTCF,CYP11B1,liver,CTCF IP - SK-N-SH cells
+SPP,STAT1,CYP11B1,leukocytes,"STAT1 IP - Rep 5, STAT1 IP - Rep 2, STAT1 IP - Rep 3"
+SPP,CAMPTO,CYP11B1,colon,TP53 IP | CAMPTO
+SPP,REST,CYP11B1,mammarygland,REST IP - MCF7 cells
+SPP,MAX,CYP11B1,leukocytes,"MAX IP - NB4 cells, MAX IP - K562 cells, MAX IP - K562 cells, Rep 2"
+SPP,MAX,CYP11B1,vasculature,MAX IP - HUVEC cells
+SPP,USF1,CYP11B1,liver,USF1 IP - HepG2 cells
+SPP,REST,CYP11B1,colon,REST IP - HCT116 cells
+SPP,USF1,CYP11B1,stemcells,USF1 IP - H1 cells
+SPP,TEAD4,CYP11B1,lung,TEAD4 IP - A549 cells
+SPP,EBF1,CYP11B1,leukocytes,"EBF1 IP - GM12878 cells, EBF1 IP - GM12878 cells"
+SPP,FOSL2,CYP11B1,mammarygland,FOSL2 IP - MCF7 cells
+SPP,CEBPB,CYP11B1,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,REST,CYP11B1,lung,REST IP - A549 cells
+SPP,REST,CYP11B1,uterus,"REST IP - SK-N-SH cells, REST IP - ECC1 cells"
+SPP,USF1,CYP11B1,uterus,USF1 IP - ECC1 cells
+SPP,MXI1,CYP11B1,lung,MXI1 IP - IMR cells
+SPP,MXI1,CYP11B1,stemcells,MXI1 IP - H1 cells
+SPP,CTCF,CYP11B1,leukocytes,"CTCF IP - GM12873 cells, Rep 1 "

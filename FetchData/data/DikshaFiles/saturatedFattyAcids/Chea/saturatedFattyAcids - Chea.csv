@@ -1,0 +1,34 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper_Link
+PPARD,"ACAA2,HADHB,HADHA",23208498,https://pubmed.ncbi.nlm.nih.gov/23208498/,"ACAA2,HADHB,HADHA",Mammary Gland,https://www.nature.com/articles/onc2012549#Sec29
+CREB1,"OXSM,HADH,CBR4",15753290,https://pubmed.ncbi.nlm.nih.gov/15753290/,HADH,"Kidney, Liver, Pancreas",https://www.pnas.org/doi/full/10.1073/pnas.0501076102
+HNF4A,"HADHB,HADHA,HADH",19761587,https://pubmed.ncbi.nlm.nih.gov/19761587/,"HADHB,HADHA,HADH","Liver, pancreas, colon, stomach",https://bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-9-68
+ZNF652,HADHA,21678463,https://pubmed.ncbi.nlm.nih.gov/21678463/,HADHA,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/jcb.23214
+NANOG,"ECHS1,HADH",21062744,https://pubmed.ncbi.nlm.nih.gov/21062744/,"ECHS1,HADH","Stem cells, kidney",https://www.sciencedirect.com/science/article/pii/S0021925820562911?via%3Dihub#sec1
+ELK1,"HADHB,CBR4",19687146,https://pubmed.ncbi.nlm.nih.gov/19687146/,"HADHB,CBR4",kidney,https://genome.cshlp.org/content/19/11/1963
+CUX1,"MECR,OXSM,HADHB,HADHA",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"MEC,HADHB,HADHA",Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub#ecomp10
+ELF5,"MCAT,CBR4",23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,"MCAT,CBR4",Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461
+EGR1,HADHB,19032775,https://pubmed.ncbi.nlm.nih.gov/19032775/,HADHB,Prostate ,https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-11-r166
+PBX1,"HADHB,HADHA,HADH",22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,"HADHB,HADHA,HADH",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+HIF1A,OXSM,21447827,https://pubmed.ncbi.nlm.nih.gov/21447827/,OXSM,Mammary Gland,https://ashpublications.org/blood/article/117/23/e207/22454/High-resolution-genome-wide-mapping-of-HIF-binding
+SMAD4,CBR4,19686287,https://pubmed.ncbi.nlm.nih.gov/19686287/,CBR4,"Skin, Pancreas, Colon",https://onlinelibrary.wiley.com/doi/10.1111/j.1349-7006.2009.01299.x
+STAT6,HADH,20620947,https://pubmed.ncbi.nlm.nih.gov/20620947/,HADH,Leukocytes,https://www.sciencedirect.com/science/article/pii/S1074761310002141?via%3Dihub
+TCF4,OXSM,18268006,https://pubmed.ncbi.nlm.nih.gov/18268006/,OXSM,"Colon, rectum",https://www.tandfonline.com/doi/full/10.1128/MCB.02175-07
+AR,"OXSM,CBR4",22383394,https://pubmed.ncbi.nlm.nih.gov/22383394/,"OXSM,CBR4",Prostate,https://www.oncotarget.com/article/449/text/
+SPI1,"ACAA2,HADHA,CBR4",23547873,https://pubmed.ncbi.nlm.nih.gov/23547873/,"ACAA2,HADHA,CBR4","hspcs, Leukocytes",https://jhoonline.biomedcentral.com/articles/10.1186/1756-8722-6-25
+FOXA1,"MCAT,CBR4",25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,CBR4,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=true
+TP63,"OLAH,ACACB,HADHB",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,OLAH,Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s4
+FOXP1,"MECR,OXSM,CBR4",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"MECR,OXSM,CBR4",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub#fread0010
+FLI1,"OXSM,MCAT,HADHA,CBR4",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"OXSM,MCAT,HADHA,CBR4","hspcs, Megakaryocyte lineage",https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+GATA1,"HADHA,CBR4",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"HADHA,CBR4","hspcs, Megakaryocyte lineage",https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+SOX11,ACAA2,23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,ACAA2,"Leukocytes, Kidney",https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+SMAD3,ACAA2,21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,ACAA2,"Embryonic tissue, stem cells",https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub
+FOXA2,"MECR,HADHB",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"MECR,HADHB",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+TP53,CBR4,22573176,https://pubmed.ncbi.nlm.nih.gov/22573176/,CBR4,Skin,https://academic.oup.com/nar/article/40/15/7190/1208916?login=true
+BACH1,ACACB,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,ACACB,Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820628563?via%3Dihub
+ETS1,CBR4,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,CBR4,Leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778#s5
+DACH1,OXSM,20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,OXSM,Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+MITF,"ECHS1,HADH,CBR4",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"ECHS1,HADH,CBR4",Skin,https://www.nature.com/articles/onc2010612#Sec15
+TFAP2A,ACAA2,17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,ACAA2,"Uterus, Mammary Gland",https://genome.cshlp.org/content/16/12/1585
+GATA3,CBR4,24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,CBR4,Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+ATF3,OXSM,23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,OXSM,CNS,https://www.sciencedirect.com/science/article/pii/S1535610813001335?via%3Dihub
+E2F4,ECHS1,21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,ECHS1,Leukocytes,https://academic.oup.com/nar/article/39/9/3558/1243263?login=true

@@ -1,0 +1,43 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+AR,"ACER2,PLPP3,SGPP2,SGPP1",25329375,https://pubmed.ncbi.nlm.nih.gov/25329375/,not found,,https://academic.oup.com/mend/article/28/12/2012/2623249?login=true
+ESR2,"ACER3,PLPP3",21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,"ACER3,PLPP3",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36#Abs1
+FOXM1,"ACER2,SGPL1,PLPP3,SGPP2",26456572,https://pubmed.ncbi.nlm.nih.gov/26456572/,"ACER2,SGPL1",Mammary Gland,https://link.springer.com/article/10.1007/s10549-015-3589-7#Sec13
+CLOCK,"SGPL1,PLPP3",20551151,https://pubmed.ncbi.nlm.nih.gov/20551151/,"SGPL1,PLPP3",Colon,https://aacrjournals.org/mcr/article/8/7/952/90638/Mutations-in-the-Circadian-Gene-CLOCK-in
+GATA6,"ACER2,SGPL1,SGPP2,PLPP2",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+TP63,"ACER2,ACER3,PLPP3,SGPP1,PLPP1",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,"ACER2,ACER3,SGPP1",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s5
+FOXA2,"ACER3,PLPP3,SGPP1,PLPP1",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"ACER3,PLPP3,SGPP1,PLPP1",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+FOXA1,"SGPL1,PLPP3,SGPP1",25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,PLPP3,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=false
+ELF5,"ACER3,PLPP2",23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,"ACER3,PLPP2",Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461#s5
+SOX2,"PLPP3,SGPP2,PLPP1",20726797,https://pubmed.ncbi.nlm.nih.gov/20726797/,not found,,paid https://www.liebertpub.com/doi/10.1089/omi.2010.0053
+SPI1,"SGPL1,PLPP3",23127762,https://pubmed.ncbi.nlm.nih.gov/23127762/,"SGPL1,PLPP3",Blood,https://www.sciencedirect.com/science/article/pii/S0301472X12005310?via%3Dihub
+ZNF217,"PLPP3,PLPP1",24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,"PLPP3,PLPP1",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec26
+SMAD4,SGPL1,19686287,https://pubmed.ncbi.nlm.nih.gov/19686287/,SGPL1,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1349-7006.2009.01299.x
+E2F4,"ACER3,PLPP3,SGPP1",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"ACER3,PLPP3,SGPP1",Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=true
+DACH1,"ACER3,SGPP1",20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,"ACER3,SGPP1",Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+TCF4,PLPP3,18268006,https://pubmed.ncbi.nlm.nih.gov/18268006/,PLPP3,Colon,https://www.tandfonline.com/doi/full/10.1128/MCB.02175-07?scroll=top&needAccess=true
+WT1,"SGPL1,PLPP3,PLPP2",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,not found,Kidney,https://www.kidney-international.org/article/S2157-1716(15)32169-9/fulltext
+PPARD,ACER2,23208498,https://pubmed.ncbi.nlm.nih.gov/23208498/,ACER2,Mammary Gland,https://www.nature.com/articles/onc2012549
+KLF5,"ACER3,PLPP1",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+BCL6,"ACER1,ACER3",25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+GATA3,"ACER2,PLPP3",24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,"ACER2,PLPP3",Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+POU5F1,PLPP1,16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,PLPP1,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#sec3
+STAT1,ACER2,20625510,https://pubmed.ncbi.nlm.nih.gov/20625510/,not found,Leukocytes,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011425
+FOXP1,"ACER2,SGPL1,PLPP2",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"ACER2,SGPL1,PLPP2",Embryonic tissue,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub#app3
+AHR,SGPP1,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext
+FOXO3,SGPL1,23340844,https://pubmed.ncbi.nlm.nih.gov/23340844/,not found,skeletal muscle,https://www.embopress.org/doi/full/10.1038/msb.2012.74
+HNF4A,"SGPL1,ACER3,PLPP3,PLPP1",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"SGPL1,ACER3,PLPP3,PLPP1",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+ELF1,ACER1,20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,ACER1,Prostate,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+ARNT,SGPP1,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext
+YY1,SGPP1,22570637,https://pubmed.ncbi.nlm.nih.gov/22570637/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002688
+TFAP2C,PLPP3,20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,PLPP3,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+BACH1,SGPL1,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,SGPL1,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+JUN,ACER1,21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1673852711000890?via%3Dihub
+SMAD3,SGPL1,18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,SGPL1,Skin,https://www.tandfonline.com/doi/suppl/10.1128/MCB.01038-08?scroll=top
+HOXB7,ACER2,26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,not found,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+PBX1,PLPP3,22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,PLPP3,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#abstract0
+GATA1,PLPP1,21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,PLPP1,Blood,https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue
+CUX1,PLPP1,19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,PLPP1,Lung,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+RUNX2,PLPP3,22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,not found,Prostate,https://academic.oup.com/nar/article/40/8/3538/2411202?login=false#supplementary-data
+MITF,PLPP3,21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,PLPP3,Skin,https://www.nature.com/articles/onc2010612
+FLI1,SGPP2,21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,SGPP2,Blood,https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue
+EGR1,SGPL1,20690147,https://pubmed.ncbi.nlm.nih.gov/20690147/,SGPL1,Erythroid lineage,https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.201000094

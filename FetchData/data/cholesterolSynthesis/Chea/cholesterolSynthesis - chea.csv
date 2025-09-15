@@ -1,0 +1,57 @@
+TF,Overlapping_Genes,Pubmed_ID,Genes mentioned in the paper,Tissue,Paper Link
+VDR,"HMGCS1,MSMO1,SQLE,DHCR7,FDFT1",20736230,"HMGCS1,MSMO1,SQLE,DHCR7,FDFT1",Leukocytes,https://genome.cshlp.org/content/20/10/1352
+CREB1,"IDI1,FDPS,MSMO1,HMGCR,HSD17B7,PMVK,SC5D,MVD",15753290,"IDI1,FDPS,MSMO1,HMGCR,HSD17B7,PMVK,SC5D,MVD","Liver, Pancreas",https://www.pnas.org/doi/full/10.1073/pnas.0501076102
+CLOCK,"IDI1,LSS,NSDHL,PMVK,MVD",20551151,"IDI1,LSS,NSDHL,PMVK,MVD",Colon,https://aacrjournals.org/mcr/article/8/7/952/90638/Mutations-in-the-Circadian-Gene-CLOCK-in
+E2F4,"IDI1,FDPS,MVK,DHCR24,TM7SF2,PMVK,SC5D,MVD,DHCR7",21247883,"IDI1,FDPS,MVK,DHCR24,TM7SF2,PMVK,SC5D,MVD,DHCR7",Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=true
+ATF3,"HMGCS1,DHCR24,MSMO1,HSD17B7,LSS,TM7SF2,PLPP6",23680149,"DHCR24,MSMO1,HSD17B7,LSS,TM7SF2,PLPP6",CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+EGR1,"IDI1,HMGCS1,GGPS1,CYP51A1,DHCR24,MSMO1,HMGCR,LSS,TM7SF2,SQLE,NSDHL,EBP,MVD,DHCR7",20690147,"IDI1,HMGCS1,GGPS1,CYP51A1,DHCR24,MSMO1,HMGCR,LSS,TM7SF2,SQLE,NSDHL,EBP,MVD,DHCR7",Erythroid lineage,https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.201000094
+RUNX1,"CYP51A1,DHCR24,HMGCR,SC5D",17652178,"CYP51A1,DHCR24,HMGCR,SC5D",Thymus,https://genesdev.cshlp.org/content/21/15/1882
+TFEB,"HMGCR,PMVK,SC5D",21752829,not found,,paid https://academic.oup.com/hmg/article-abstract/20/19/3852/602520?redirectedFrom=fulltext&login=false
+GATA1,"FDPS,HMGCS1,DHCR24",19941826,"FDPS,HMGCS1,DHCR24",Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+FOXA1,"DHCR24,LSS,TM7SF2,PLPP6,PMVK",25552417,"DHCR24,PLPP6",Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=false
+ZNF263,SQLE,19887448,SQLE,Erythroid lineage,https://www.sciencedirect.com/science/article/pii/S0021925820588935?via%3Dihub
+ELK1,"HMGCS1,GGPS1,HMGCR",19687146,"HMGCS1,GGPS1,HMGCR",Kidney,https://genome.cshlp.org/content/19/11/1963
+FOXM1,"GGPS1,PMVK,MVD",25889361,"GGPS1,PMVK,MVD",Esophagus,https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-015-0339-8
+SALL1,GGPS1,21062744,GGPS1,Stem cells,https://www.sciencedirect.com/science/article/pii/S0021925820562911?via%3Dihub#sec1
+NANOG,"FDPS,ACAT2,SC5D,DHCR7",16153702,"FDPS,ACAT2,SC5D,DHCR7",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#sec3
+YY1,"IDI1,FDPS,PMVK",22570637,"IDI1,FDPS,PMVK",Skin,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002688
+SOX11,"HMGCR,PLPP6,SQLE",23321250,"HMGCR,PLPP6,SQLE",Lymph node,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+CUX1,"MVK,CYP51A1,HMGCR,HSD17B7,EBP,FDFT1",19635798,"MVK,CYP51A1,HMGCR,HSD17B7,EBP,FDFT1",Lung,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+FOXA2,"IDI1,MVK,DHCR24,HMGCR,SC5D,FDFT1",19822575,"IDI1,MVK,DHCR24,HMGCR,SC5D,FDFT1",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+SPI1,"HMGCS1,GGPS1,DHCR24,PLPP6,SQLE,PMVK",23547873,"HMGCS1,GGPS1,DHCR24,PLPP6,SQLE,PMVK",Bone Marrow,https://jhoonline.biomedcentral.com/articles/10.1186/1756-8722-6-25
+FOXO3,"DHCR24,DHCR7",23340844,DHCR24,skeletal muscle,https://www.embopress.org/doi/full/10.1038/msb.2012.74
+GATA2,"GGPS1,DHCR24",21666600,"GGPS1,DHCR24",Vasculature,https://www.embopress.org/doi/full/10.1038/emboj.2011.173#sec-1
+ELK3,"FDPS,GGPS1,PMVK,FDFT1",25401928,not found,Vasculature,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+SALL4,"GGPS1,MSMO1,NSDHL",22934838,"GGPS1,MSMO1,NSDHL",Bone Marrow,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+JUN,"IDI1,MSMO1,MVD",21703547,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1673852711000890?via%3Dihub
+AR,ACAT2,21909140,ACAT2,Prostate,https://www.nature.com/articles/onc2011401
+HIF1A,DHCR7,21447827,DHCR7,Mammary Gland,https://ashpublications.org/blood/article/117/23/e207/22454/High-resolution-genome-wide-mapping-of-HIF-binding
+ELF1,"IDI1,PLPP6",20517297,not found,Prostate,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+HNF4A,"HMGCS1,DHCR24",19761587,"HMGCS1,DHCR24","Colon, Duodenum, lleum, Jejunum, Rectum",https://bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-9-68
+TP53,PMVK,16413492,PMVK,"Colon, Rectum",https://www.cell.com/cell/fulltext/S0092-8674(05)01399-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867405013991%3Fshowall%3Dtrue#app-1
+TP63,"CYP51A1,HMGCR,SQLE,NSDHL,PMVK",23658742,"HMGCR,PMVK",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s5
+SMAD4,GGPS1,19686287,GGPS1,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1349-7006.2009.01299.x
+JUND,"HMGCS1,MSMO1,PMVK",26020271,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+GATA6,"FDPS,DHCR24,LSS",25053715,not found,,paid https://gut.bmj.com/content/64/5/707
+RELA,"HMGCS1,PLPP6",24523406,"HMGCS1,PLPP6",Miscellaneous,https://www.sciencedirect.com/science/article/pii/S0021925820415108?via%3Dihub#sec1
+TCF4,PMVK,18268006,PMVK,Colon,https://www.tandfonline.com/doi/full/10.1128/MCB.02175-07?scroll=top&needAccess=true
+BACH1,"LSS,ACAT2",22875853,"LSS,ACAT2",Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+FOXP3,"PMVK,SC5D",21729870,not found,,https://academic.oup.com/nar/article/39/18/7946/1084168?login=true
+NR1H3,SC5D,23393188,SC5D,Leukocytes,https://academic.oup.com/nar/article/41/6/3518/2902510?login=true
+STAT1,HSD17B7,20625510,not found,,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011425
+ETS1,"FDPS,GGPS1",20019798,"FDPS,GGPS1",Leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+DACH1,"FDPS,MVK",20351289,"FDPS,MVK",Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107#supplementary-materials
+AHR,DHCR7,22903824,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext&login=true
+FLI1,"IDI1,HMGCS1,GGPS1,TM7SF2,SC5D,DHCR7",21571218,"IDI1,HMGCS1,GGPS1,TM7SF2,SC5D,DHCR7",Megakaryocyte lineage,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+FOXP1,"FDPS,TM7SF2,PLPP6,SQLE",21924763,"FDPS,TM7SF2,PLPP6,SQLE",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub
+SMAD3,"IDI1,PMVK",18955504,not found,,https://www.tandfonline.com/doi/full/10.1128/MCB.01038-08?scroll=top&needAccess=true
+RBPJ,"TM7SF2,PMVK",21746931,not found,,https://www.pnas.org/doi/full/10.1073/pnas.1108892108#supplementary-materials
+BCL6,"HMGCR,SQLE",25482012,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+ARNT,DHCR7,22903824,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext&login=true
+PBX1,"HSD17B7,DHCR7",22567123,"HSD17B7,DHCR7",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+MITF,"HMGCS1,DHCR24,LSS,PMVK,SC5D",21258399,"HMGCS1,DHCR24,LSS,PMVK,SC5D",Skin,https://www.nature.com/articles/onc2010612
+ZNF217,DHCR7,24962896,DHCR7,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520
+POU3F2,MSMO1,20337985,MSMO1,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+RUNX2,"PMVK,DHCR7",22187159,not found,,https://academic.oup.com/nar/article/40/8/3538/2411202?login=true#supplementary-data
+HOXB7,DHCR24,26014856,not found,,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+TCF21,DHCR24,26020271,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202

@@ -1,0 +1,36 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+MYC,"HSD3B7,AKR1D1,CYP46A1,CYP7B1,CYP27A1,ACOX2",19915707,https://pubmed.ncbi.nlm.nih.gov/19915707/,"HSD3B7,AKR1D1,CYP46A1,CYP7B1,CYP27A1,ACOX2",Embryonic tissue,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007839
+SPI1,"HSD3B7,AKR1D1,AKR1C4,CYP27A1",20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+HNF4A,"ACOT8,AKR1D1,HSD17B4,AKR1C4,CYP7A1,CYP8B1,CYP39A1,CYP27A1,ACOX2,SCP2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"ACOT8,AKR1D1,HSD17B4,AKR1C4,CYP7A1,CYP8B1,CYP39A1,CYP27A1,ACOX2,SCP2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false
+SMAD4,"ACOT8,HSD17B4,AKR1C4,CYP27A1",21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,"ACOT8,HSD17B4,AKR1C4,CYP27A1",Embryonic tissue,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub
+ELF1,"HSD3B7,SCP2",20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,SCP2,Prostate,https://www.embopress.org/doi/full/10.1038/emboj.2010.106#supplementary-materials
+FOXA1,"AKR1D1,CYP7A1,ACOX2",25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,"AKR1D1,ACOX2",Prostate,https://academic.oup.com/nar/article/43/2/848/2414789
+GATA4,"HSD17B4,CYP39A1,ACOX2",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+MYCN,CYP39A1,21190229,https://pubmed.ncbi.nlm.nih.gov/21190229/,not found,,
+TP53,AKR1D1,16413492,https://pubmed.ncbi.nlm.nih.gov/16413492/,AKR1D1,Liver,https://www.cell.com/cell/fulltext/S0092-8674(05)01399-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867405013991%3Fshowall%3Dtrue
+NFE2L2,AKR1D1,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,AKR1D1,Lymph node,https://academic.oup.com/nar/article/40/15/7416/1213698?login=false
+CUX1,"HSD17B4,CYP46A1,SCP2",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"HSD17B4,CYP46A1,SCP2",Mammary Gland,https://www.jbc.org/article/S0021-9258(20)38439-8/fulltext
+FOXA2,"ACOT8,AKR1D1,CYP27A1",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"ACOT8,AKR1D1,CYP27A1",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false
+NR1H3,ACOX2,23393188,https://pubmed.ncbi.nlm.nih.gov/23393188/,ACOX2,Blood,https://academic.oup.com/nar/article/41/6/3518/2902510?login=false
+AR,"AKR1D1,CYP7B1",22383394,https://pubmed.ncbi.nlm.nih.gov/22383394/,"AKR1D1,CYP7B1",Prostate,https://www.oncotarget.com/article/449/text/
+HOXB7,"CYP7B1,CYP7A1",26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,not found,,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+WT1,"AKR1D1,CYP46A1,SCP2",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,not found,,https://www.kidney-international.org/article/S2157-1716(15)32169-9/fulltext
+HOXC9,"ACOT8,SCP2",25013753,https://pubmed.ncbi.nlm.nih.gov/25013753/,SCP2,CNS,https://www.sciencedirect.com/science/article/pii/S2213596014000142?via%3Dihub
+ELK3,"CYP46A1,CYP8B1",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+PPARD,"AKR1D1,HSD17B4,SCP2",21283829,https://pubmed.ncbi.nlm.nih.gov/21283829/,"AKR1D1,HSD17B4,SCP2",Fibroblasts,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016344
+ELK1,ACOT8,22589737,https://pubmed.ncbi.nlm.nih.gov/22589737/,ACOT8,Mammary Gland,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002694#s5
+E2F1,CYP46A1,21310950,https://pubmed.ncbi.nlm.nih.gov/21310950/,CYP46A1,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)51577-9/fulltext#app-1
+SMAD3,HSD17B4,21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,HSD17B4,Embryonic tissue,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub
+RELA,CYP7B1,24523406,https://pubmed.ncbi.nlm.nih.gov/24523406/,CYP7B1,Fibroblasts,https://www.jbc.org/article/S0021-9258(20)41510-8/fulltext
+BACH1,CYP46A1,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,CYP46A1,Bone,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+SALL4,HSD17B4,22934838,https://pubmed.ncbi.nlm.nih.gov/22934838/,HSD17B4,HSPCs,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+FOXP3,SCP2,21729870,https://pubmed.ncbi.nlm.nih.gov/21729870/,SCP2,Leukocytes,https://academic.oup.com/nar/article/39/18/7946/1084168?login=false
+RUNX2,"CYP7A1,CYP8B1",22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,not found,,https://academic.oup.com/nar/article/40/8/3538/2411202?login=false
+TCF4,"AKR1D1,ACOX2",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,,paid https://academic.oup.com/neuro-oncology/article-abstract/15/3/279/1055801?redirectedFrom=fulltext
+TFAP2A,CYP46A1,17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,CYP46A1,Mammary Gland,https://genome.cshlp.org/content/16/12/1585
+BCL6,HSD3B7,25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+TCF21,AKR1D1,26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+PBX1,ACOT8,22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,ACOT8,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+VDR,SCP2,23849224,https://pubmed.ncbi.nlm.nih.gov/23849224/,not found,,https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-11-163
+E2F4,CYP46A1,21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,CYP46A1,Lymph node,https://academic.oup.com/nar/article/39/9/3558/1243263#supplementary-data
+MITF,ACOX2,21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,ACOX2,Skin,https://www.nature.com/articles/onc2010612

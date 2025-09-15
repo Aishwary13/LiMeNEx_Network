@@ -1,0 +1,45 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,FOSL2,PLA2G5,cns,FOSL2 IP - SK-N-SH cells
+1,SPP,MYB,PLA2G5,leukocytes,"MYB IP - Jurkat, Rep 1, MYB IP - Jurkat, Rep 5, MYB IP - Jurkat, Rep 4, MYB IP - Jurkat, Rep 3, MYB IP - Jurkat, Rep 2"
+2,SPP,MYC,PLA2G5,leukocytes,MYC IP - NB4 cells
+3,SPP,SPI1,PLA2G5,leukocytes,"SPI1 IP - GM12878 cells, Rep 3 , SPI1 IP - GM12878 cells, SPI1 IP - GM12878 cells, Rep 2 , SPI1 IP - HL-60 cells, Rep 4 , SPI1 IP - GM12891 cells"
+4,SPP,GATA3,PLA2G5,cns,GATA3 IP - SK-N-SH cells
+5,SPP,PBX3,PLA2G5,cns,PBX3 IP - SK-N-SH cells
+6,SPP,JUND,PLA2G5,vasculature,JUND IP
+7,SPP,CEBPB,PLA2G5,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP"
+8,SPP,EBF1,PLA2G5,adiposetissue,EBF1 IP
+9,SPP,TCF3,PLA2G5,leukocytes,TCF3 IP - GM12878 cells
+10,SPP,FOS,PLA2G5,vasculature,FOS IP - HUVEC cells
+11,SPP,FOSL1,PLA2G5,mammarygland,FOSL1 IP
+12,SPP,FOXA1,PLA2G5,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2"
+13,SPP,R1881,PLA2G5,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2"
+14,SPP,PIAS1,PLA2G5,prostate,PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2
+15,SPP,FOS,PLA2G5,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP - MCF10A cells, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h"
+16,SPP,4HT,PLA2G5,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, STAT3 IP | 4HT - MCF10 cells, 12 h, STAT3 IP | 4HT - MCF10 cells, 36 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h"
+17,SPP,RELA,PLA2G5,leukocytes,"RELA IP | TNF - GM18505 cells, RELA IP | TNF - GM19193 cells, RELA IP | TNF - GM12891 cells, RELA IP | TNF - GM15510 cells, RELA IP | TNF - GM10847 cells, RELA IP | TNF - GM19099 cells, RELA IP | TNF - GM18526 cells, RELA IP | TNF - GM12878 cells, RELA IP | TNF - GM18951 cells"
+18,SPP,TNF,PLA2G5,leukocytes,"RELA IP | TNF - GM18505 cells, RELA IP | TNF - GM19193 cells, RELA IP | TNF - GM12891 cells, RELA IP | TNF - GM15510 cells, RELA IP | TNF - GM10847 cells, RELA IP | TNF - GM18526 cells, RELA IP | TNF - GM12878 cells, RELA IP | TNF - GM18951 cells"
+19,SPP,TCF12,PLA2G5,cns,TCF12 IP - SK-N-SH cells
+20,SPP,MAX,PLA2G5,leukocytes,MAX IP - NB4 cells
+21,SPP,EBF1,PLA2G5,leukocytes,"EBF1 IP - GM12878 cells, EBF1 IP - GM12878 cells"
+22,SPP,TP53,PLA2G5,mammarygland,TP53 IP
+23,SPP,JUND,PLA2G5,colon,JUND IP - HCT116 cells
+24,SPP,YY1,PLA2G5,leukocytes,"YY1 IP - GM12892 cells, Rep 1, YY1 IP - GM12878 cells"
+25,SPP,RELA,PLA2G5,adiposetissue,RELA IP
+26,SPP,FOSL1,PLA2G5,colon,FOSL1 IP - HCT116 cells
+27,SPP,BATF,PLA2G5,leukocytes,BATF IP - GM12878 cells
+28,SPP,SP1,PLA2G5,colon,SP1 IP - HCT116 cells
+29,SPP,TCF12,PLA2G5,leukocytes,TCF12 IP - GM12878 cells
+30,SPP,SRF,PLA2G5,colon,SRF IP - HCT116 cells
+31,SPP,TP53,PLA2G5,skin,TP53 IP | TP53 KD
+32,SPP,IKZF1,PLA2G5,leukocytes,IKZF1 IP - GM12878 cells
+33,SPP,STAT3,PLA2G5,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 12 h, STAT3 IP - MCF10A cells, Rep 2, STAT3 IP | 4HT - MCF10 cells, 36 h"
+34,SPP,ELF3,PLA2G5,pancreas,"ELF3 IP, ELF3 IP"
+35,SPP,JUN,PLA2G5,vasculature,JUN IP
+36,SPP,JUND,PLA2G5,cns,JUND IP - SK-N-SH cells
+37,SPP,ASCL1,PLA2G5,skin,ASCL1 IP - NHDF
+38,SPP,ATF2,PLA2G5,leukocytes,ATF2 IP - GM12878 cells
+39,SPP,SP1,PLA2G5,leukocytes,SP1 IP - GM12878 cells
+40,SPP,FOXA1,PLA2G5,mammarygland,DHT | FOXA1 ChIP-Seq
+41,SPP,DHT,PLA2G5,mammarygland,DHT | FOXA1 ChIP-Seq
+42,SPP,ZNF384,PLA2G5,leukocytes,ZNF384 IP - GM12878 cells
+43,SPP,CEBPB,PLA2G5,leukocytes,CEBPB IP

@@ -1,0 +1,62 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+RELA,"ALOX12,ALOX12B,ALOX5,PTGDS,GGT1,PTGIS,PLA2G4A,PTGES",24523406,https://pubmed.ncbi.nlm.nih.gov/24523406/,"ALOX12,ALOX12B,ALOX5,PTGDS,GGT1,PTGIS,PLA2G4A,PTGES",Lung,https://www.jbc.org/article/S0021-9258(20)41510-8/fulltext
+ESR1,"CYP1B1,LTA4H",15608294,https://pubmed.ncbi.nlm.nih.gov/15608294/,not found,,
+BACH1,"ALOX15,CYP1B1,GGT5,PLA2G4A,CYP1A1,PTGES",22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,"ALOX15,CYP1B1, GGT5 ,PLA2G4A,CYP1A1,PTGES",Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+ESR2,"CYP1B1,CYP1A1,PTGES",21235772,https://pubmed.ncbi.nlm.nih.gov/21235772/,"CYP1B1,CYP1A1,PTGES",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36#Abs1
+GATA4,"HPGD,ALOX5,GGT1,GPX2,PLA2G4A,PTGR2,PTGES",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+DLX4,CBR1,19119308,https://pubmed.ncbi.nlm.nih.gov/19119308/,CBR1,Mammary Gland,https://www.ijbs.com/v05p0001.htm#headingA2
+IRF1,"HPGD,CYP1A1",19129219,https://pubmed.ncbi.nlm.nih.gov/19129219/,"HPGD,CYP1A1",Mammary Gland,https://academic.oup.com/nar/article/37/4/1073/2410148?login=false#82580087
+TP63,GPX2,17297297,https://pubmed.ncbi.nlm.nih.gov/17297297/,GPX2,"Skin, Lung, Liver, Pancreas, Stomach",https://www.tandfonline.com/doi/abs/10.4161/cc.6.3.3802
+ARNT,"CYP1B1,CYP1A2,TBXAS1,CYP1A1",22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,"CYP1B1,CYP1A2,TBXAS1,CYP1A1",Mammary Gland,https://academic.oup.com/toxsci/article/130/2/349/1725824
+TCF21,"CYP1B1,LTA4H,PTGIS,TBXAS1,CYP1A1,PTGES",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202#sec012
+GATA3,"LTA4H,GPX2,PTGR2,CYP1A1,DPEP2,PTGES",24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,"LTA4H,GPX2,PTGR2,CYP1A1,DPEP2,PTGES",Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+SOX2,"HPGD,ALOX5,CYP1B1,CYP2J2,CBR1,GPX2,PLA2G4A",20726797,https://pubmed.ncbi.nlm.nih.gov/20726797/,not found,,paid https://www.liebertpub.com/doi/10.1089/omi.2010.0053
+AR,"CYP2J2,CYP1A1",21909140,https://pubmed.ncbi.nlm.nih.gov/21909140/,"CYP2J2,CYP1A1",Prostate,https://www.nature.com/articles/onc2011401
+HIF1A,"CYP1B1,ALOXE3",21447827,https://pubmed.ncbi.nlm.nih.gov/21447827/,"CYP1B1,ALOXE3",Mammary Gland,https://ashpublications.org/blood/article/117/23/e207/22454/High-resolution-genome-wide-mapping-of-HIF-binding
+AHR,"CYP1B1,CYP1A2,CYP1A1",22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,"CYP1B1,CYP1A2,CYP1A1",Mammary Gland,https://academic.oup.com/toxsci/article/130/2/349/1725824?login=false
+VDR,"LTC4S,LTA4H,TBXAS1",24787735,https://pubmed.ncbi.nlm.nih.gov/24787735/,not found,Leukocytes,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096105#s2
+TP53,"ALOX5,CYP4F2",16413492,https://pubmed.ncbi.nlm.nih.gov/16413492/,"ALOX5,CYP4F2",Colon,https://www.cell.com/cell/fulltext/S0092-8674(05)01399-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867405013991%3Fshowall%3Dtrue
+EOMES,"FAAH,ALOX5,GPX2",21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,"ALOX5,GPX2",Stem cells,https://genesdev.cshlp.org/content/25/3/238.full
+GATA6,"HPGD,ALOX15,ALOXE3,CYP4F2,AKR1C3",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707.full
+STAT3,"ALOX12,ALOX5,CYP2J2,PTGIS,PLA2G4A,PTGR2,TBXAS1",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,"ALOX12,ALOX5,CYP2J2,PTGIS,PLA2G4A,PTGR2,TBXAS1",CNS,https://academic.oup.com/neuro-oncology/article/15/3/279/1055801?login=false
+GATA2,"HPGD,GPX1,PTGR2,TBXAS1,CYP1A1",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,"HPGD,GPX1,PTGR2 ,TBXAS1",Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+SOX11,"ALOX12B,TBXAS1,DPEP2",23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,"ALOX12B,TBXAS1,DPEP2",Leukocytes,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+E2F1,"ALOX12,LTA4H,CYP4F2,PTGR2",17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,"ALOX12,LTA4H,CYP4F2,PTGR2",Mammary Gland,https://genome.cshlp.org/content/16/12/1585.full
+HOXB7,"ALOX12,LTC4S,CYP1B1,PTGIS",26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,ALOX12,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+GATA1,"HPGD,ALOX12,GPX1,CYP4F2,TBXAS1",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"HPGD,ALOX12,GPX1,CYP4F2,TBXAS1",Skin,https://www.cell.com/developmental-cell/fulltext/S1534-5807(11)00159-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580711001596%3Fshowall%3Dtrue
+FOXM1,"ALOX15,CYP1B1,PTGIS,PLA2G4A",26456572,https://pubmed.ncbi.nlm.nih.gov/26456572/,not found,Mammary Gland,https://link.springer.com/article/10.1007/s10549-015-3589-7#Sec13
+BCL6,"HPGD,ALOX12B,PTGIS,CYP1A1",25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+FOXA1,"FAAH,HPGD,ALOXE3,TBXAS1",25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,HPGD,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=false
+ATF3,"LTA4H,ALOXE3,GPX1,TBXAS1",23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,"LTA4H,ALOXE3,GPX1,TBXAS1",CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+EGR1,"FAAH,ALOX5,PTGDS,GGT1,ALOXE3,GGT5,TBXAS1,DPEP2,DPEP1,PTGES",20690147,https://pubmed.ncbi.nlm.nih.gov/20690147/,"ALOX5,PTGDS,ALOXE3,GGT5,TBXAS1,DPEP2,DPEP1,PTGES",Erythroid lineage,https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.201000094
+JUN,"LTC4S,CYP1B1,PLA2G4A",21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1673852711000890?via%3Dihub
+ERG,PTGIS,21242973,https://pubmed.ncbi.nlm.nih.gov/21242973/,PTGIS,progenitors,https://www.nature.com/articles/onc2010582#Sec22
+DACH1,"CYP1B1,ALOXE3,TBXAS1",20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,"CYP1B1,ALOXE3,TBXAS1",Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+MYCN,TBXAS1,21190229,https://pubmed.ncbi.nlm.nih.gov/21190229/,not found,,Paid
+ELF1,"ALOXE3,DPEP2",20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,not found,,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+ELF5,"LTC4S,PTGES",23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,"LTC4S,PTGES",Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461#s5
+SMAD4,PTGES,19686287,https://pubmed.ncbi.nlm.nih.gov/19686287/,PTGES,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1349-7006.2009.01299.x
+CLOCK,DPEP1,20551151,https://pubmed.ncbi.nlm.nih.gov/20551151/,DPEP1,Colon,https://aacrjournals.org/mcr/article/8/7/952/90638/Mutations-in-the-Circadian-Gene-CLOCK-in
+HNF4A,"ALOX15,CYP1B1,GGT1,ALOXE3,CYP2J2,GPX2,PTGR2,TBXAS1,CYP1A1",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"ALOX15,CYP1B1,GGT1,ALOXE3,CYP2J2,GPX2,PTGR2,TBXAS1,CYP1A1",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=false
+RUNX2,"CYP1B1,CYP2J2,GPX2,PTGIS,TBXAS1",22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,not found,Prostate,https://academic.oup.com/nar/article/40/8/3538/2411202?login=false#supplementary-data
+TCF4,PLA2G4A,18268006,https://pubmed.ncbi.nlm.nih.gov/18268006/,PLA2G4A,Colon,https://www.tandfonline.com/doi/full/10.1128/MCB.02175-07?scroll=top&needAccess=true
+TFAP2A,"ALOXE3,CYP1A1,DPEP2",17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,"ALOXE3,CYP1A1,DPEP2",Mammary Gland,https://genome.cshlp.org/content/16/12/1585
+JUND,"LTA4H,PLA2G4A,PTGES",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202#sec024
+FOXP3,"LTC4S,LTA4H",21729870,https://pubmed.ncbi.nlm.nih.gov/21729870/,LTA4H,Leukocytes,https://academic.oup.com/nar/article/39/18/7946/1084168#supplementary-data
+STAT1,FAAH,20625510,https://pubmed.ncbi.nlm.nih.gov/20625510/,not found,Leukocytes,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011425
+ZNF217,"PTGIS,PLA2G4A",24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,"PTGIS,PLA2G4A",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec25
+POU3F2,"AKR1C3,PLA2G4A",20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,"AKR1C3,PLA2G4A",Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+TFEB,GPX1,21752829,https://pubmed.ncbi.nlm.nih.gov/21752829/,not found,Leukocytes,https://academic.oup.com/hmg/article/20/19/3852/602520?login=false#supplementary-data
+SMAD3,"ALOXE3,PTGES",18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,PTGES,Skin,https://www.tandfonline.com/doi/full/10.1128/MCB.01038-08
+KLF5,"FAAH,CYP1B1",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,Stomach,paid https://gut.bmj.com/content/64/5/707
+FOXP1,"ALOX12B,LTC4S,LTA4H,ALOXE3",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"ALOX12B,LTC4S,LTA4H,ALOXE3",Embryonic Tissue,https://www.cell.com/cell/fulltext/S0092-8674(11)00949-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867411009494%3Fshowall%3Dtrue
+ELK3,"ALOXE3,DPEP1",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,Vasculature,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+CUX1,"LTA4H,PTGR2,TBXAS1",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"LTA4H, TBXAS1",Lung,https://www.jbc.org/article/S0021-9258(20)38439-8/fulltext
+YY1,CYP1A1,22570637,https://pubmed.ncbi.nlm.nih.gov/22570637/,not found,Skin,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002688#s5
+FOXA2,"GGT1,GPX2,TBXAS1",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"GGT1,GPX2,TBXAS1",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146#supplementary-data
+PBX1,"GPX2,PTGR2",22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,GPX2,Kidney,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054
+TFAP2C,TBXAS1,20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,TBXAS1,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+MITF,"HPGD,PTGDS,GPX1,CYP1A1,DPEP1",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"HPGD,PTGDS,GPX1,CYP1A1,DPEP1",Skin,https://www.nature.com/articles/onc2010612
+ETS1,LTA4H,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,LTA4H,Blood,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+E2F4,"ALOX5,ALOXE3",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"ALOX5,ALOXE3",Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=false#supplementary-data
+HOXC9,GGT5,25013753,https://pubmed.ncbi.nlm.nih.gov/25013753/,GGT5,CNS,https://www.sciencedirect.com/science/article/pii/S2213596014000142?via%3Dihub#s0045

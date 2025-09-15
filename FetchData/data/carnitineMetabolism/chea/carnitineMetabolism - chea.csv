@@ -1,0 +1,25 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+FOXP1,"CPT1A,CPT2,CPT1B",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,CPT1A,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub#fread0010
+ELK3,"CPT1A,CPT2",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,,
+PPARD,CPT1A,23208498,https://pubmed.ncbi.nlm.nih.gov/23208498/,CPT1A,Mammary Gland,https://www.nature.com/articles/onc2012549#Sec29
+POU5F1,CPT1A,16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,CPT1A,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#app2
+ELK1,CPT2,19687146,https://pubmed.ncbi.nlm.nih.gov/19687146/,not found,,
+TCF4,"CPT1A,CPT2",23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,"CPT2, CPT1A",CNS,https://academic.oup.com/neuro-oncology/article/15/3/279/1055801?login=true
+ELF5,CPT1A,23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,CPT1A,Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461
+TP63,"CPT1A,CPT2",22573176,https://pubmed.ncbi.nlm.nih.gov/22573176/,"CPT2, CPT1A",Skin,https://academic.oup.com/nar/article/40/15/7190/1208916?login=true#83696418
+E2F1,CPT2,21310950,https://pubmed.ncbi.nlm.nih.gov/21310950/,CPT2,Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820515779?via%3Dihub#cesec10
+SALL4,CPT1A,22934838,https://pubmed.ncbi.nlm.nih.gov/22934838/,CPT1A,Stem cells,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+ZNF217,CPT1A,24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,CPT1A,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520
+JUN,CPT1A,21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,not found,,https://www.sciencedirect.com/science/article/abs/pii/S1673852711000890?via%3Dihub#preview-section-abstract
+NANOG,CPT1A,16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,not found,,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub
+KLF5,CPT1A,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,https://gut.bmj.com/content/64/5/707
+BCL6,CPT1A,25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+TCF21,CPT1A,26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202#sec024
+HNF4A,"CPT1A,CPT2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"CPT2, CPT1A",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+E2F4,CPT2,21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,not found,,https://academic.oup.com/nar/article/39/9/3558/1243263?login=true
+CUX1,CPT1B,19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,CPT1B,Kidney,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+FOXA2,CPT1A,19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,CPT1A,Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true#82578977
+STAT3,CPT1A,23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,CPT1A,CNS,https://academic.oup.com/neuro-oncology/article/15/3/279/1055801?login=true#supplementary-data
+AR,CPT1A,19668381,https://pubmed.ncbi.nlm.nih.gov/19668381/,"CPT2, CPT1A",Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006589#s5
+MITF,CPT1A,21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,not found,,https://www.nature.com/articles/onc2010612
+EGR1,CPT1A,20690147,https://pubmed.ncbi.nlm.nih.gov/20690147/,CPT1A,Bone Marrow,https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.201000094

@@ -1,0 +1,20 @@
+TargetGene,TF,Library/PMID,Pubmed_Link,Tissue
+LIPH,HNF4A,16603721,https://pubmed.ncbi.nlm.nih.gov/16603721/,Liver
+LIPH,SREBF2,15721010,https://pubmed.ncbi.nlm.nih.gov/15721010,Liver
+LIPH,"USF1, USF2",19416648,",https://pubmed.ncbi.nlm.nih.gov/19416648/",Liver
+CHAT,STAT1,12425940, https://pubmed.ncbi.nlm.nih.gov/12425940/, CNS
+CHAT,"ESR1, ESR2",10037443,https://pubmed.ncbi.nlm.nih.gov/10037443/,Liver
+ACHE,"TFAP2A, EGR1 ",7559515,https://pubmed.ncbi.nlm.nih.gov/7559515/,CNS
+PCYT2,"NFKB1, RELA  ",18583706,https://pubmed.ncbi.nlm.nih.gov/18583706/,Mammary Gland
+PCYT1A,"ZNF143,  ZNF76",14702349,https://pubmed.ncbi.nlm.nih.gov/14702349/,"Mammary Gland, Uterus, Liver"
+PLD1,"CTNNB1,TCF4 ",20442281,https://pubmed.ncbi.nlm.nih.gov/20442281/ ,"Mammary Gland, Colon, Rectum, Stomach, Thyroid gland"
+PLD1,PGR,21284604,https://pubmed.ncbi.nlm.nih.gov/21284604/,"Uterus, Ovary"
+PLD1,"VDR, RXRA",17433303,http://www.ncbi.nlm.nih.gov/pubmed/?term=17433303,Skin
+PLB1,HIRA,9809417,https://pubmed.ncbi.nlm.nih.gov/9809417/,Stomach
+CHEK1,TP53,11152453,https://pubmed.ncbi.nlm.nih.gov/11152453/,"Colon, Uterus, Ovary, Bone"
+CHEK1,TP53,15016801,https://pubmed.ncbi.nlm.nih.gov/15016801/,"Colon, Rectum"
+CHEK1,BCL6,18346918,https://pubmed.ncbi.nlm.nih.gov/18346918/,Leukocytes
+CHEK1,E2F1,18660752,https://pubmed.ncbi.nlm.nih.gov/18660752/,Kidney
+CHEK1,MYC,23269272,https://pubmed.ncbi.nlm.nih.gov/23269272/,Lung
+PLA2G2A,NFKB1,11899260,https://pubmed.ncbi.nlm.nih.gov/11899260/,Leukocytes
+PLA2G2A,RELA,11899260,https://pubmed.ncbi.nlm.nih.gov/11899260/,Leukocytes

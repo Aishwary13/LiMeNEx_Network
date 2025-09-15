@@ -1,0 +1,24 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+SMAD4,PNPLA2,19686287,https://pubmed.ncbi.nlm.nih.gov/19686287/,PNPLA2,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1349-7006.2009.01299.x
+NFE2L2,MGLL,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,MGLL,Adipose tissue,https://academic.oup.com/nar/article/40/15/7416/1213698?login=true#supplementary-data
+STAT1,MGLL,20625510,https://pubmed.ncbi.nlm.nih.gov/20625510/,not found,,
+FOXO3,MGLL,23340844,https://pubmed.ncbi.nlm.nih.gov/23340844/,MGLL,"Stem cells, Liver",https://www.embopress.org/doi/full/10.1038/msb.2012.74#supplementary-materials
+GATA2,MGLL,21666600,https://pubmed.ncbi.nlm.nih.gov/21666600/,MGLL,Vasculature,https://www.embopress.org/doi/full/10.1038/emboj.2011.173#supplementary-materials
+AR,"LIPE,MGLL",19668381,https://pubmed.ncbi.nlm.nih.gov/19668381/,MGLL,Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006589#s5
+TP53,PNPLA2,22127205,https://pubmed.ncbi.nlm.nih.gov/22127205/,PNPLA2,Fibroblasts,https://www.tandfonline.com/doi/full/10.4161/cc.10.24.18383#d1e969
+YY1,MGLL,22570637,https://pubmed.ncbi.nlm.nih.gov/22570637/,MGLL,Skin,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002688#s5
+RELA,MGLL,24523406,https://pubmed.ncbi.nlm.nih.gov/24523406/,MGLL,Fibroblasts,https://www.sciencedirect.com/science/article/pii/S0021925820415108?via%3Dihub#sec1
+SALL4,MGLL,22934838,https://pubmed.ncbi.nlm.nih.gov/22934838/,not found,,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+ZNF217,MGLL,24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,not found,,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec25
+FLI1,"LIPE,MGLL",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"MGLL, LIPE",megakaryocytelineage,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub#app3
+SMAD3,PNPLA2,18955504,https://pubmed.ncbi.nlm.nih.gov/18955504/,not found,,https://www.tandfonline.com/doi/full/10.1128/MCB.01038-08
+BCL6,MGLL,25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+GATA3,MGLL,24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,MGLL,Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278#Sec23
+EGR1,"MGLL,PNPLA2",20690147,https://pubmed.ncbi.nlm.nih.gov/20690147/,PNPLA2,megakaryocytelineage,https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.201000094
+PBX1,MGLL,22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,MGLL,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+GATA1,MGLL,21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,MGLL,megakaryocytelineage,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub#app3
+STAT3,MGLL,23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,CNS,paid
+WT1,MGLL,25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,MGLL,Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub#s0085
+PPARD,LIPE,21283829,https://pubmed.ncbi.nlm.nih.gov/21283829/,LIPE,Fibroblasts,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016344#s4
+MITF,MGLL,21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,not found,Skin,paid
+HNF4A,LIPE,19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,LIPE,Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true#supplementary-data

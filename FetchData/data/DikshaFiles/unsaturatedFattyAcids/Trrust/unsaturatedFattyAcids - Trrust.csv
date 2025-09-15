@@ -1,0 +1,6 @@
+TargetGene,TF,Library/PMID,Tissue,Pubmed_Link,Paper_Link
+ACOT7,SREBF2,16335799,CNS,http://pubmed.ncbi.nlm.nih.gov/16335799/,https://link.springer.com/article/10.1007/s11010-005-1990-y
+SCD,RARA,11397803,Sensory,https://pubmed.ncbi.nlm.nih.gov/11397803/,https://www.sciencedirect.com/science/article/pii/S0021925820803251?via%3Dihub
+SCD,SREBF1,11414710,Liver,https://pubmed.ncbi.nlm.nih.gov/11414710/,https://www.sciencedirect.com/science/article/pii/S0006291X01951022?via%3Dihub
+SCD5,EFR2,22510410,"CNS, Placenta",https://pubmed.ncbi.nlm.nih.gov/22510410/,https://www.sciencedirect.com/science/article/pii/S0006291X12006596?via%3Dihub
+SCD5,SREBP1,22510410,"CNS, Placenta",https://pubmed.ncbi.nlm.nih.gov/22510410/,https://www.sciencedirect.com/science/article/pii/S0006291X12006596?via%3Dihub

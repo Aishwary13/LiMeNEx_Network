@@ -1,0 +1,28 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+BACH1,"ALOX15,PTGS2,PTGS1",22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,"ALOX15,PTGS2,PTGS1",Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820628563?via%3Dihub
+TP53,"CYP2C9,CYP3A4",18474530,https://pubmed.ncbi.nlm.nih.gov/18474530/,"CYP2C9,CYP3A4",Bone,https://academic.oup.com/nar/article/36/11/3639/2410222?login=true
+RELA,"ALOX12B,PTGS2",24523406,https://pubmed.ncbi.nlm.nih.gov/24523406/,"ALOX12B,PTGS2","Fibroblasts, Leukocytes",https://www.sciencedirect.com/science/article/pii/S0021925820415108?via%3Dihub
+HIF1A,ALOXE3,21447827,https://pubmed.ncbi.nlm.nih.gov/21447827/,ALOXE3,Mammary Gland,https://ashpublications.org/blood/article/117/23/e207/22454/High-resolution-genome-wide-mapping-of-HIF-binding
+TCF4,CYP4A11,18268006,https://pubmed.ncbi.nlm.nih.gov/18268006/,CYP4A11,"Colon, rectum",https://www.tandfonline.com/doi/full/10.1128/MCB.02175-07
+NFE2L2,PTGS1,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,PTGS1,"Leukocytes, Lung, Adipose tissue",https://academic.oup.com/nar/article/40/15/7416/1213698?login=true#supplementary-data
+FOXM1,"ALOX15,PTGS1",26456572,https://pubmed.ncbi.nlm.nih.gov/26456572/,PTGS1,Mammary Gland,https://link.springer.com/article/10.1007/s10549-015-3589-7#Sec13
+GATA3,"PTGS2,PTGS1",24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,"PTGS2,PTGS1",Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+ELK1,PTGS2,19687146,https://pubmed.ncbi.nlm.nih.gov/19687146/,PTGS2,kidney,https://genome.cshlp.org/content/19/11/1963
+SMAD4,"CYP4A11,PTGS2",21799915,https://pubmed.ncbi.nlm.nih.gov/21799915/,"CYP4A11,PTGS2",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022606#s5
+GATA1,"PTGS2,PTGS1",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"PTGS2,PTGS1","Bone marrow, Blood, hspcs",https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+SOX11,ALOX12B,23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,ALOX12B,"Leukocytes,Lymph node, blood",https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+HNF4A,"CYP4A11,ALOX15,CYP3A4,ALOXE3",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"CYP4A11,ALOX15,CYP3A4,ALOXE3","Liver,Pancreas",https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+GATA2,PTGS1,21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,PTGS1,"Bone marrow, Blood, hspcs",https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+E2F4,"PTGS2,ALOXE3",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"PTGS2,ALOXE3",Leukocytes,https://academic.oup.com/nar/article/39/9/3558/1243263?login=true
+SMAD3,CYP2C19,21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,CYP2C19,"Embryonic tissue, stem cells",https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub
+MYC,ALOXE3,20876797,https://pubmed.ncbi.nlm.nih.gov/20876797/,ALOXE3,CNS,https://aacrjournals.org/cancerres/article/70/20/8199/561094/Silencing-of-Thrombospondin-1-Is-Critical-for-Myc
+WT1,"ALOX12B,PTGS1",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,"ALOX12B,PTGS1",kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub
+NANOG,PTGS2,16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,PTGS2,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#app2
+TP63,"PTGS2,CYP3A4",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,CYP3A4,Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s4
+POU3F2,PTGS2,20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,PTGS2,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+DACH1,ALOXE3,20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,ALOXE3,"Mammary Gland,Kidney ",https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+FOXP1,"ALOX12B,ALOXE3",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"ALOX12B,ALOXE3",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub#fread0010
+TFAP2A,ALOXE3,17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,ALOXE3,"Uterus, Mammary Gland",https://genome.cshlp.org/content/16/12/1585
+ATF3,ALOXE3,23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,ALOXE3,"CNS, Stem cells",https://www.sciencedirect.com/science/article/pii/S1535610813001335?via%3Dihub
+CUX1,PTGS1,19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,PTGS1,Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub#ecomp10
+EGR1,ALOXE3,20690147,https://pubmed.ncbi.nlm.nih.gov/20690147/,ALOXE3,"Bone Marrow, Leukocytes",https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.201000094

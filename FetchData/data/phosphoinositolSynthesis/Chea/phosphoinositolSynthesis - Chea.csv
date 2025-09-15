@@ -1,0 +1,59 @@
+TF,Overlapping_Genes,Pubmed_ID,Genes mentioned in the paper,Tissue,Paper Link
+GATA2,"MTMR2,PIK3C2A,PIP4K2A,SYNJ2,PIK3CA",21666600,"MTMR2,PIK3C2A,PIP4K2A,SYNJ2,PIK3CA",Vasculature,https://www.embopress.org/doi/full/10.1038/emboj.2011.173#sec-1
+VDR,"PIK3C2B,PIP5K1B,PIK3CA",20736230,"PIK3C2B,PIK3CA",Leukocytes,https://genome.cshlp.org/content/20/10/1352
+SMAD4,"MTMR2,PIK3CG,PIP4K2B,PIP5K1B,SACM1L,INPP4A,FIG4,INPP4B,SYNJ1",21741376,"MTMR2,PIK3CG,PIP4K2B,PIP5K1B,SACM1L,INPP4A,FIG4,INPP4B,SYNJ1",Stem cells,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub#ec0005
+TP53,"PIK3C2G,PIK3C2A,PIP5K1A,INPP5K,PIP5K1B,PI4KA",22573176,"PIK3C2G,PIK3C2A,PIP5K1A,INPP5K,PIP5K1B,PI4KA",Skin,https://academic.oup.com/nar/article/40/15/7190/1208916#supplementary-data
+SPI1,"MTMR2,PIK3CD,PIK3CB,TPTE2,INPP4A,FIG4",23127762,"MTMR2,PIK3CD,PIK3CB,TPTE2,INPP4A,FIG4",Blood,https://www.sciencedirect.com/science/article/pii/S0301472X12005310?via%3Dihub
+HOXB7,"PIP4K2A,PIP4K2B,PIP4K2C,TPTE2,SYNJ2,PIK3CA,PI4KB",26014856,SYNJ2,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+ZNF217,"PIK3C2G,PIK3CB,PIK3C2B,PIP4K2A,INPP4A,INPP4B",24962896,"PIK3C2G,PIK3CB,PIK3C2B,PIP4K2A,INPP4A,INPP4B",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520#Sec26
+GATA4,"MTMR2,PIK3C2A,PIK3C2B,PIP5K1B,SACM1L,PIK3CA,PI4KA",25053715,not found,,paid https://gut.bmj.com/content/64/5/707
+MITF,"PIK3CD,PIK3CB,PIK3C2B,PIP4K2A,PIP5K1A,PIP5K1B,PIP4K2C,SYNJ2,FIG4,INPP4B,PIKFYVE,SYNJ1,PI4KA,PI4KB",21258399,"PIK3CD,PIK3CB,PIK3C2B,PIP4K2A,PIP5K1A,PIP5K1B,PIP4K2C,SYNJ2,FIG4,INPP4B,PIKFYVE,SYNJ1,PI4KA,PI4KB",Skin,https://www.nature.com/articles/onc2010612
+RUNX1,"PTEN,PIK3CD,PIK3CB,PIP4K2A,PIP4K2B,PIP5K1B,TPTE2,SACM1L,SYNJ2,INPP4B,SYNJ1,PIK3CA,PI4KA",21571218,"PTEN,PIK3CD,PIK3CB,PIP4K2A,PIP4K2B,PIP5K1B,TPTE2,SACM1L,SYNJ2,INPP4B,SYNJ1,PIK3CA,PI4KA",Skin,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+POU3F2,"PIK3C2G,PIK3CB,PIK3C2A,INPP5K,INPP4B,SYNJ1",20337985,"PIK3C2G,PIK3CB,PIK3C2A,INPP5K,INPP4B,SYNJ1",Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+FOXA2,"PIK3CB,PIK3C2B,PIP4K2A,PIP5K1B,SYNJ2,INPP4A,INPP4B,PIK3CA,PI4KA",19822575,"PIK3CB,PIK3C2B,PIP4K2A,PIP5K1B,SYNJ2,INPP4A,INPP4B,PIK3CA,PI4KA",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146#supplementary-data
+TFAP2C,"PIK3C2B,PIP5K1A,SYNJ2,INPP4A,PI4KB",20629094,"PIK3C2B,PIP5K1A,SYNJ2,INPP4A,PI4KB",Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+KLF5,"MTMR2,PIK3C2B,PIP4K2B,SYNJ2,INPP4B,PIK3CA",25053715,not found,,paid https://gut.bmj.com/content/64/5/707
+NR1H3,"PTEN,PIK3CD,FIG4",23393188,"PTEN,PIK3CD,FIG4",Leukocytes,https://academic.oup.com/nar/article/41/6/3518/2902510?login=true#83582439
+MYC,"MTMR2,PIK3CD,PIK3C2A,PIP5K1B,INPP4A,PIKFYVE",19915707,"MTMR2,PIK3CD,PIK3C2A,PIP5K1B,INPP4A,PIKFYVE",Stem cells,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007839
+DACH1,"MTMR2,PTEN,PIP4K2A,INPP5K,SACM1L",20351289,"MTMR2,PTEN,PIP4K2A,INPP5K,SACM1L",Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+TCF4,"MTMR2,PIK3C2G,PIK3CB,PIK3C2A,PIP4K2A,PIP5K1B,INPP4A,INPP4B,PIKFYVE",23295773,not found,CNS,paid https://academic.oup.com/neuro-oncology/article/15/3/279/1055801?login=true
+SMAD3,"PIK3CG,SACM1L,INPP4A,SYNJ1",21741376,"PIK3CG,SACM1L,INPP4A,SYNJ1",Stem cells,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub#ec0005
+RELA,"MTMR2,PTEN,PIK3C2B,PIK3CA",24523406,"MTMR2,PTEN,PIK3C2B,PIK3CA",Lung,https://www.jbc.org/article/S0021-9258(20)41510-8/fulltext
+AR,"MTMR2,PIK3CG,FIG4,SYNJ1,PIK3CA",22383394,"MTMR2,PIK3CG,FIG4,SYNJ1,PIK3CA",Prostate,https://www.oncotarget.com/article/449/text/
+FOXP3,"PTEN,PIP4K2B,SACM1L,PIKFYVE",21729870,"PTEN,PIP4K2B",Leukocytes,https://academic.oup.com/nar/article/39/18/7946/1084168#supplementary-data
+FOXP2,"PIP4K2A,INPP5K,SYNJ2",23625967,"PIP4K2A,INPP5K,SYNJ2",CNS,https://academic.oup.com/nar/article/41/12/5991/1025774?login=true#83621512
+BCL6,"MTMR2,PIK3CD,PIK3CG,SACM1L,SYNJ2",25482012,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+GATA3,"PIK3C2B,PIP5K1A,PIKFYVE,PIK3CA,PI4KB",24758297,"PIK3C2B,PIP5K1A,PIKFYVE,PIK3CA,PI4KB",Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278
+SALL1,PIP4K2C,21062744,PIP4K2C,Stem cells,https://www.sciencedirect.com/science/article/pii/S0021925820562911?via%3Dihub#sec1
+ATF3,"MTMR2,PIP5K1A,SACM1L,SYNJ2,PI4KB",23680149,"MTMR2,PIP5K1A,SACM1L,SYNJ2,PI4KB",CNS,https://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00133-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1535610813001335%3Fshowall%3Dtrue
+ARNT,"PIK3C2G,PIK3C2B,SYNJ2",22903824,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext&login=false
+PPARD,"INPP4B,PI4KB",23208498,"INPP4B,PI4KB",Mammary Gland,https://www.nature.com/articles/onc2012549
+ELF5,"SACM1L,SYNJ2,SYNJ1",23300383,"SACM1L,SYNJ2,SYNJ1",Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461#s5
+HNF4A,"PIK3CD,PIK3CB,PIK3C2B,PIP4K2A,PIP4K2B,PIP5K1B,SYNJ2,INPP4A,PIKFYVE,SYNJ1,PI4KA",19822575,"PIK3CD,PIK3CB,PIK3C2B,PIP4K2A,PIP4K2B,PIP5K1B,SYNJ2,INPP4A,PIKFYVE,SYNJ1,PI4KA",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146#supplementary-data
+TP63,"PTEN,PIK3C2G,PIP4K2A,SACM1L,SYNJ2,INPP4A,PIKFYVE",23658742,not found,,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s5
+FLI1,"MTMR2,PIK3CD,PIK3CG,PIP4K2B,PIP5K1B,INPP4A,INPP4B,SYNJ1,PIK3CA,PI4KA",21571218,"MTMR2,PIK3CD,PIK3CG,PIP4K2B,PIP5K1B,INPP4A,INPP4B,SYNJ1,PIK3CA,PI4KA",Skin,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+AHR,"PIK3C2B,SYNJ2",22903824,not found,,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext&login=false
+FOXM1,"PIK3C2G,PIP4K2A,PIP5K1A,INPP4B",26456572,"PIK3C2G,PIP5K1A",Mammary Gland,https://link.springer.com/article/10.1007/s10549-015-3589-7#Sec13
+JUND,"MTMR2,PIK3CB,PIP5K1A,PI4KB",26020271,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+WT1,"PTEN,PIP5K1B,SYNJ2,INPP4A,PIKFYVE,SYNJ1",25993318,"PTEN,PIP5K1B,SYNJ2,INPP4A,PIKFYVE,SYNJ1",Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub
+RUNX2,"PIK3CG,PIP5K1A,TPTE2,INPP4A,INPP4B,PIK3CA",22187159,not found,Prostate,https://academic.oup.com/nar/article/40/8/3538/2411202?login=false#supplementary-data
+SALL4,"PTEN,PIP4K2A,PIP5K1B",22934838,"PTEN,PIP4K2A,PIP5K1B",Stem cells,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+TFEB,"PIP5K1A,PIP4K2C",21752829,not found,,paid https://academic.oup.com/hmg/article-abstract/20/19/3852/602520?redirectedFrom=fulltext&login=false
+E2F4,"PTEN,PIK3CD,PIP5K1A,INPP5K,PIP4K2C",21247883,"PTEN,PIK3CD,PIP5K1A,INPP5K,PIP4K2C",Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=false#supplementary-data
+CUX1,"PIK3CG,PIP4K2B,SYNJ2,PIKFYVE,PI4KB",19635798,"PIK3CG,PIP4K2B,SYNJ2,PI4KB",Mammary Gland,https://www.jbc.org/article/S0021-9258(20)38439-8/fulltext
+ELK1,"MTMR2,PIP5K1A",19687146,"MTMR2,PIP5K1A",Kidney,https://genome.cshlp.org/content/19/11/1963
+IRF1,INPP4A,21803131,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S0378111911003258?via%3Dihub
+MYCN,INPP4A,21190229,not found,,PMID not available
+ERG,"PIK3C2B,TPTE2",20517297,not found,,https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+ESR2,PIP4K2A,21235772,PIP4K2A,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-36#Abs1
+FOXA1,"SYNJ2,PIKFYVE,PIK3CA",25552417,not found,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=false
+HOXC9,"MTMR2,PIP5K1A,FIG4",25013753,not found,CNS,https://www.sciencedirect.com/science/article/pii/S2213596014000142?via%3Dihub#s0045
+GATA6,"PIK3C2G,PIP5K1A,PI4KB",25053715,not found,,paid https://gut.bmj.com/content/64/5/707
+PBX1,"PIP4K2A,PIP5K1A,SYNJ1",22567123,"PIP4K2A,PIP5K1A,SYNJ1",Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+BACH1,"INPP5K,SYNJ2",22875853,"INPP5K,SYNJ2",Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+STAT1,SYNJ2,20625510,not found,Leukocytes,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011425
+JUN,"PIK3CB,PI4KA",21703547,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1673852711000890?via%3Dihub
+TFAP2A,"PIP4K2B,PIP4K2C",17053090,"PIP4K2B,PIP4K2C",Mammary Gland,https://genome.cshlp.org/content/16/12/1585.full
+ELK3,"PIK3C2B,PIP5K1A",25401928,not found,Vasculature,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+SOX11,SYNJ2,23321250,SYNJ2,Leukocytes,https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+RBPJ,PIK3C2B,21746931,not found,,https://www.pnas.org/doi/full/10.1073/pnas.1108892108

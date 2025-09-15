@@ -1,0 +1,51 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+CLOCK,"DGAT2,DGAT1,LPIN1",20551151,https://pubmed.ncbi.nlm.nih.gov/20551151/,"DGAT2,DGAT1,LPIN1",Colon,https://aacrjournals.org/mcr/article/8/7/952/90638/Mutations-in-the-Circadian-Gene-CLOCK-in
+FOXA2,"AGPAT5,DGAT2,MOGAT1,AGPAT3,AGPAT4,AGPS,LPIN1,LPIN2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"AGPAT5,DGAT2,MOGAT1,AGPAT3,AGPAT4,AGPS,LPIN1,LPIN2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146#supplementary-data
+NR3C1,"AGPAT5,DGAT2,AGPAT3,GPAM",21868756,https://pubmed.ncbi.nlm.nih.gov/21868756/,not found,,https://aacrjournals.org/cancerres/article/71/20/6360/568755/Activation-of-the-Glucocorticoid-Receptor-Is
+HNF4A,"DGAT2,DGAT1,MOGAT2,MOGAT1,AGPAT1,AGPAT2,AGPAT3,AGPAT4,AGPS,GPD1,LPIN1,LPIN2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"DGAT2,DGAT1,MOGAT2,MOGAT1,AGPAT1,AGPAT2,AGPAT3,AGPAT4,AGPS,GPD1,LPIN1,LPIN2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146#supplementary-data
+GATA1,"AGPAT5,MOGAT1,AGPAT3,AGMO,LPIN1,LPIN2",21571218,https://pubmed.ncbi.nlm.nih.gov/21571218/,"AGPAT5,MOGAT1,AGPAT3,AGMO,LPIN1,LPIN2",Skin,https://www.sciencedirect.com/science/article/pii/S1534580711001596?via%3Dihub
+SPI1,"DGAT2,AGPAT1,AGPAT4,LPIN1",23127762,https://pubmed.ncbi.nlm.nih.gov/23127762/,"DGAT2,AGPAT1,AGPAT4,LPIN1",Blood,https://www.sciencedirect.com/science/article/pii/S0301472X12005310?via%3Dihub
+GATA2,"DGAT1,AGPAT3,AGPAT4,GNPAT,LPIN1",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,"DGAT1,AGPAT3,AGPAT4,GNPAT,LPIN1",Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+SMAD4,"AGPAT1,AGPS",19686287,https://pubmed.ncbi.nlm.nih.gov/19686287/,"AGPAT1,AGPS",Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1349-7006.2009.01299.x
+STAT6,"LPIN1,LPIN2",20620947,https://pubmed.ncbi.nlm.nih.gov/20620947/,"LPIN1,LPIN2",Leukocytes,https://www.sciencedirect.com/science/article/pii/S1074761310002141?via%3Dihub
+AR,"AGPAT3,GPAM,LPIN1,LPIN2",25329375,https://pubmed.ncbi.nlm.nih.gov/25329375/,not found,,https://academic.oup.com/mend/article/28/12/2012/2623249?login=true
+TFAP2C,"DGAT2,AGPAT2,LPIN1",20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,"DGAT2,AGPAT2,LPIN1",Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+NR1H3,"AGPAT5,LPIN1",23393188,https://pubmed.ncbi.nlm.nih.gov/23393188/,"AGPAT5,LPIN1",Leukocytes,https://academic.oup.com/nar/article/41/6/3518/2902510?login=true#83582439
+VDR,"DGAT1,AGPAT1,AGPAT4",24763502,https://pubmed.ncbi.nlm.nih.gov/24763502/,not found,,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096184
+SALL4,"AGPAT5,AGPAT1,AGPS",22934838,https://pubmed.ncbi.nlm.nih.gov/22934838/,"AGPAT5,AGPAT1,AGPS",Stem cells,https://onlinelibrary.wiley.com/doi/10.1111/j.1537-2995.2012.03888.x
+FOXP1,"AGPAT1,AGPAT3,GPAM,GPD1,GPAT2,LPIN2",21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,"AGPAT1,AGPAT3,GPAM,GPD1,GPAT2,LPIN2",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub
+MITF,"AGPAT5,DGAT2,MOGAT1,AGPAT2,AGPAT3,AGPAT4,LPIN1,LPIN2",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"AGPAT5,DGAT2,MOGAT1,AGPAT2,AGPAT3,AGPAT4,LPIN1,LPIN2",Skin,https://www.nature.com/articles/onc2010612
+NANOG,"AGPAT1,LPIN1",21062744,https://pubmed.ncbi.nlm.nih.gov/21062744/,"AGPAT1,LPIN1",Stem cells,https://www.sciencedirect.com/science/article/pii/S0021925820562911?via%3Dihub#sec1
+WT1,"AGPAT2,AGPAT4,AGPS,GPD1,LPIN2",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,"AGPAT2,AGPAT4,AGPS,GPD1,LPIN2",Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub#s0045
+E2F4,"GNPAT,LPIN1",17652178,https://pubmed.ncbi.nlm.nih.gov/17652178/,"GNPAT,LPIN1",Thymus,https://genesdev.cshlp.org/content/21/15/1882
+YY1,"AGPAT1,LPIN1",22570637,https://pubmed.ncbi.nlm.nih.gov/22570637/,not found,Skin,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002688#s4
+HIF1A,AGPAT5,21447827,https://pubmed.ncbi.nlm.nih.gov/21447827/,AGPAT5,Mammary Gland,https://ashpublications.org/blood/article/117/23/e207/22454/High-resolution-genome-wide-mapping-of-HIF-binding
+IRF1,GK2,21803131,https://pubmed.ncbi.nlm.nih.gov/21803131/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S0378111911003258?via%3Dihub
+FOXA1,"MOGAT2,AGPAT4,AGPS",25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,not found,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=false
+TCF4,AGPS,18268006,https://pubmed.ncbi.nlm.nih.gov/18268006/,AGPS,Colon,https://www.tandfonline.com/doi/full/10.1128/MCB.02175-07?scroll=top&needAccess=true
+RUNX2,"AGPAT5,GK2,GPAM,LPIN1",22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,not found,Prostate,https://academic.oup.com/nar/article/40/8/3538/2411202?login=false#supplementary-data
+CDX2,MOGAT2,20551321,https://pubmed.ncbi.nlm.nih.gov/20551321/,MOGAT2,"Colon,Duodenum ,lleum, Jejunum,
+Rectum",https://www.sciencedirect.com/science/article/pii/S0021925820598943?via%3Dihub
+PPARD,AGPAT4,23208498,https://pubmed.ncbi.nlm.nih.gov/23208498/,AGPAT4,Mammary Gland,https://www.nature.com/articles/onc2012549
+NFE2L2,LPIN1,22581777,https://pubmed.ncbi.nlm.nih.gov/22581777/,LPIN1,Leukocytes,https://academic.oup.com/nar/article/40/15/7416/1213698?login=true#supplementary-data
+JUN,"GK2,AGPS",21703547,https://pubmed.ncbi.nlm.nih.gov/21703547/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1673852711000890?via%3Dihub
+POU3F2,"AGPAT4,AGMO",20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,"AGPAT4,AGMO",Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+DACH1,"DGAT2,DGAT1",20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,"DGAT2,DGAT1",Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+STAT1,MOGAT1,20625510,https://pubmed.ncbi.nlm.nih.gov/20625510/,not found,Leukocytes,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011425
+RBPJ,"AGPAT5,LPIN1",21746931,https://pubmed.ncbi.nlm.nih.gov/21746931/,not found,Blood,https://www.pnas.org/doi/full/10.1073/pnas.1108892108
+HOXB7,"MOGAT2,LPIN2",26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,not found,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+JUND,"DGAT2,LPIN2",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Vasculature,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202#abstract0
+ELK3,"AGPAT1,LPIN2",25401928,https://pubmed.ncbi.nlm.nih.gov/25401928/,not found,Vasculature,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113050
+ATF3,"AGPAT4,LPIN1",23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,"AGPAT4,LPIN1",CNS,https://www.sciencedirect.com/science/article/pii/S1535610813001335?via%3Dihub
+EOMES,DGAT2,21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,DGAT2,embryonictissue,https://genesdev.cshlp.org/content/25/3/238/suppl/DC1
+ARNT,LPIN1,22903824,https://pubmed.ncbi.nlm.nih.gov/22903824/,not found,Mammary Gland,paid https://academic.oup.com/toxsci/article-abstract/130/2/349/1725824?redirectedFrom=fulltext&login=true
+ELF5,LPIN2,23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,LPIN2,Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461#s5
+TP63,"AGPAT2,AGMO,AGPS",23658742,https://pubmed.ncbi.nlm.nih.gov/23658742/,AGPAT2,Prostate,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062547#s5
+SMAD3,AGPAT3,21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,AGPAT3,Embryonic tissue,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub#ec0005
+ETS1,DGAT1,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,DGAT1,Leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+KLF5,AGPAT2,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,Stomach,paid https://gut.bmj.com/content/64/5/707
+TFAP2A,DGAT2,17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,DGAT2,Mammary Gland,https://genome.cshlp.org/content/16/12/1585
+BCL6,AGPAT3,25482012,https://pubmed.ncbi.nlm.nih.gov/25482012/,not found,,paid https://www.sciencedirect.com/science/article/abs/pii/S1874939914002958?via%3Dihub
+TCF21,GPAM,26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202#abstract0
+HOXC9,AGPAT4,25013753,https://pubmed.ncbi.nlm.nih.gov/25013753/,not found,SNS,https://www.sciencedirect.com/science/article/pii/S2213596014000142?via%3Dihub#s0010
+PBX1,AGPAT1,22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,AGPAT1,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5

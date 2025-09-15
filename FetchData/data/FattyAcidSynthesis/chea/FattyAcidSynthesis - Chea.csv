@@ -1,0 +1,65 @@
+TF,Overlapping Genes,Genes mentioned in the paper,Pubmed_ID,Pubmed_Link,Tissue
+NR1H3,"ELOVL5, ACACA, SCD, FASN",SCD,23393188,https:pubmed.ncbi.nlm.nih.gov23393188,Vasculature
+SOX2,"ELOVL1, HACD1, ELOVL5, ACSL5, ELOVL7, ACACA, SOAT1",not found,20726797,  paid,"Colon, Rectum"
+HNF4A,"ACSS2, SOAT1, SCD, SLC25A20
+","ACSS2,SOAT1, SCD, SLC25A20
+",19761587,https:pubmed.ncbi.nlm.nih.gov19761587,"Liver, pancreas, colon, stomach"
+TP63,FASN,not found,17297297,https:pubmed.ncbi.nlm.nih.gov17297297,Skin
+WT1,"HACD1, ELOVL5, TECR, HSD17B3, ACACA, SOAT1,FASN
+","TECR, HSD17B3, ACACA, SOAT1, FASN",25993318,https:pubmed.ncbi.nlm.nih.gov25993318,Kidney
+GATA3,"ELOVL4, ELOVL5, ELOVL2,  SOAT1,FASN",not found,24758297,https:pubmed.ncbi.nlm.nih.gov24758297,Mammary Gland
+GATA6,"ELOVL1, HACD1, TECR,  SOAT1,FASN",not found,25053715,paid,Colon
+CLOCK,"ACSL5, ACLY","ACSL5, ACLY",20551151,https:pubmed.ncbi.nlm.nih.gov20551151,Kidney
+FOXA2,"ELOVL, ELOVL2, ACSL5, ACACA, ACLY, FASN
+",not found,19822575,https:pubmed.ncbi.nlm.nih.gov19822575,Liver
+PPARD,"ACSL5, SLC25A20","ACSL5, SLC25A20",23208498,https:pubmed.ncbi.nlm.nih.gov23208498,Mammary Gland
+GATA1,"HACD1, ACSS2,ELOVL5, ACSL5, SCD
+","ACSS2, ELOVL5, ACSL5, SCD",21571218,https:pubmed.ncbi.nlm.nih.gov21571218,Bone Marrow
+TFAP2C,"ELOVL5, TECR, FASN","ELOVL5, TECR, FASN",20629094,https:pubmed.ncbi.nlm.nih.gov20629094,Mammary Gland
+GATA4,"ACSS2, ACSL5, ELOVL7, SOAT1",not found,25053715,paid,Colon
+VDR,"ELOVL1, HSD17B3, FASN",not found,24763502,https:pubmed.ncbi.nlm.nih.gov24763502,Bone Marrow
+FOXP1,"ACSS2, ELOVL5, ELOVL2, ELOVL3, ACLY, SOAT1",not found,21924763,https:pubmed.ncbi.nlm.nih.gov21924763,inner cell mass of the blastocyst
+MYC,"ELOVL5,TECR",ELOVL5,18940864,https:pubmed.ncbi.nlm.nih.gov18940864,Bone Marrow
+DACH1,"ACACA, SOAT1, FASN","ACACA, SOAT1, FASN",20351289,https:pubmed.ncbi.nlm.nih.gov20351289,Mammary Gland
+EGR1,"ELOVL, HACD1, ELOVL2,TECR, ACACA, SOAT1, SCD
+","SCD, SOAT1, ELOVL2",20690147,https:pubmed.ncbi.nlm.nih.gov20690147,Bone Marrow
+TP53,"ELOVL2, FASN","ELOVL2, FASN",22127205,https:pubmed.ncbi.nlm.nih.gov22127205,"Bone,Cartilage,Adipose tissue,Fibroblasts"
+AR,"HACD, ELOVL3, ELOVL4, HSD17B3, ACACA",ACACA,19668381,https:pubmed.ncbi.nlm.nih.gov19668381,Prostate
+EOMES,"ACLY, SCD","ACLY, SCD",21245162,https:pubmed.ncbi.nlm.nih.gov21245162,Embryonic tissue
+ELF1,"ACSS2, SOAT1",not found,20517297,https:pubmed.ncbi.nlm.nih.gov20517297,Leukocytes
+MITF,"ELOVL1,HACD1, ELOVL4, ACACA, SOAT1, SCD, FASN",not found,21258399,paid,
+SMAD3,"TECR, SOAT1, SCD",not found,18955504,paid,Skin
+SOX11,"ACSS2, SCD
+","ACSS2, SCD",23321250,https:pubmed.ncbi.nlm.nih.gov23321250,Leukocytes
+RBPJ,"ACSS2, ELOVL5,TECR",not found,21746931,https:www.ncbi.nlm.nih.govpmcarticlesPMC3169132pdfpnas.201108892.pdf,Leukocytes
+HIF1A,SCD,SCD,21447827,https:www.ncbi.nlm.nih.govpmcarticlesPMC3374576?report=printable,Mammary Gland
+NR3C1,"ACSL5,ACACA",not found,21868756,https:www.ncbi.nlm.nih.govpmcarticlesPMC3514452pdfnihms320652.pdf,Mammary Gland
+IRF1,ACSL5,ACSL5,21803131,https:www.ncbi.nlm.nih.govpmcarticlesPMC3167955pdfnihms319654.pdf,Bone Marrow
+GATA2,"ELOVL, ELOVL5, SCD","ELOVL5, SCD",19941826,https:www.ncbi.nlm.nih.govpmcarticlesPMC2784893pdfnihms-159886.pdf,Blood
+TCF4,ELOVL1,ELOVL1,18268006,https:www.ncbi.nlm.nih.govpmcarticlesPMC2293123pdf2175-07.pdf,Colon
+NFE2L2,ELOVL1,ELOVL1,22581777,https:www.ncbi.nlm.nih.govpmcarticlesPMC3424561pdfgks409.pdf,Leukocytes
+ZNF217,"ELOVL5, ELOVL2",ELOVL2 ,24962896,https:www.ncbi.nlm.nih.govpmcarticlesPMC4082627pdf12864_2014_Article_6197.pdf,Mammary Gland
+JUN,"ELOVL5, ELOVL7",not found,21703547,https:pubmed.ncbi.nlm.nih.gov21703547,Bone Marrow
+RUNX1,"ELOVL, ELOVL5, TECR, ACSL5, SCD
+","TECR, ELOVL5, ACSL5, SCD",21571218,https:www.ncbi.nlm.nih.govpmcarticlesPMC3145975?report=printable,Bone Marrow
+FOXO3,ELOVL3,ELOVL3,23340844,https:www.ncbi.nlm.nih.govpmcarticlesPMC3564262pdfmsb201274.pdf,Colon
+KLF5,"ACSS2, HSD17B3",not found,25053715,,Colon
+TFAP2A,"TECR, FASN","TECR, FASN",17053090,https:www.ncbi.nlm.nih.govpmcarticlesPMC1665642pdf1585.pdf,Mammary Gland
+HOXB7,"ACSS2, FASN",not found,26014856,https:www.ncbi.nlm.nih.govpmcarticlesPMC4744995pdfIJC-137-2374.pdf,Mammary Gland
+TCF21,"ACSL, ACLY
+",not found,26020271,https:www.ncbi.nlm.nih.govpmcarticlesPMC4447360pdfpgen.1005202.pdf,skeletal muscle
+FOXA1,"ACSS2,ACACA",ACACA,25552417,https:www.ncbi.nlm.nih.govpmcarticlesPMC4333416pdfgku1375.pdf,Prostate
+HOXC9,"ELOVL5,SCD",not found,25013753,https:www.ncbi.nlm.nih.govpmcarticlesPMC4084856pdfmain.pdf,Adrenal gland
+ELK3,"ELOVL1,ACLY",not found,25401928,https:www.ncbi.nlm.nih.govpmcarticlesPMC4234625pdfpone.0113050.pdf,Embryonic tissue
+ELK1,FASN,not found,22589737,https:www.ncbi.nlm.nih.govpmcarticlesPMC3349735pdfpgen.1002694.pdf,Mammary Gland
+PBX1,"ACSS2,ACSL5","ACSS2, ACSL5",22567123,https:www.ncbi.nlm.nih.govpmcarticlesPMC3342315pdfpone.0036054.pdf,Ovary
+YY1,FASN,FASN,22570637,https:www.ncbi.nlm.nih.govpmcarticlesPMC3342948pdfpgen.1002688.pdf,Skin
+ELF5,ELOVL5,ELOVL5,23300383,https:www.ncbi.nlm.nih.govpmcarticlesPMC3531499pdfpbio.1001461.pdf,Mammary Gland
+SMAD4,"ELOVL5, SOAT1",not found,21799915,https:www.ncbi.nlm.nih.govpmcarticlesPMC3143154pdfpone.0022606.pdf,Ovary
+BACH1,"ELOVL2
+",ELOVL2 ,22875853,https:www.ncbi.nlm.nih.govpmcarticlesPMC3460454pdfzbc33533.pdf,Uterus
+E2F4,"ELOVL1,SOAT1","ELOVL5, SOAT1",21247883,https:www.ncbi.nlm.nih.govpmcarticlesPMC3089461pdfgkq1313.pdf,Leukocytes
+JUND,ELOVL5,not found,26020271,https:www.ncbi.nlm.nih.govpmcarticlesPMC4447360pdfpgen.1005202.pdf,skeletal muscle
+BCL6,ACSS2,not found,25482012,https:pubmed.ncbi.nlm.nih.gov25482012,Bone Marrow
+RUNX2,SOAT1,SOAT1,22187159,https:www.ncbi.nlm.nih.govpmcarticlesPMC3333873pdfgkr1219.pdf,Bone
+ST8T3,"ACSS2,ELOVL5,HSD17B3,MCAT,ACACA,SLC25A20",not found,23295773,https:www.ncbi.nlm.nih.govpmcarticlesPMC3333873pdfgkr1219.pdf,Brain

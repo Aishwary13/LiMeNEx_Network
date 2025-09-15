@@ -1,0 +1,41 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper_Link
+FOXA2,"MTTP,LIPA,LIPC,APOB,PLTP,LDLR,ABCA1,SORT1,APOA2,APOA1,APOA4,NCEH1",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"MTTP,LIPA,LIPC,APOB,PLTP,LDLR,ABCA1,SORT1,APOA2,APOA1,APOA4,NCEH1",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+NR1H3,"PLTP,ABCA1,SORT1,APOC1,ABCG1",23393188,https://pubmed.ncbi.nlm.nih.gov/23393188/,"PLTP,ABCA1,SORT1,APOC1,ABCG1",Leukocytes,https://academic.oup.com/nar/article/41/6/3518/2902510?login=true
+HNF4A,"APOB,APOA2,APOA1,APOC3,APOA4,SOAT1",19761587,https://pubmed.ncbi.nlm.nih.gov/19761587/,"APOB,APOA2,APOA1,APOC3,APOA4,SOAT1",Colon,https://bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-9-68
+CLOCK,"SCARB1,ABCA1,DGAT1",20551151,https://pubmed.ncbi.nlm.nih.gov/20551151/,"SCARB1,DGAT1","Colon, rectum",https://aacrjournals.org/mcr/article/8/7/952/90638/Mutations-in-the-Circadian-Gene-CLOCK-in
+RELA,"LIPG,APOE,LDLR,ABCA1,APOC3",24523406,https://pubmed.ncbi.nlm.nih.gov/24523406/,"LIPG,APOE,LDLR,ABCA1,APOC3",Liver,https://www.sciencedirect.com/science/article/pii/S0021925820415108?via%3Dihub
+SOX11,"APOB,ABCA1,SORT1,APOA2",23321250,https://pubmed.ncbi.nlm.nih.gov/23321250/,"APOB,ABCA1,SORT1,APOA2","Leukocytes, Kidney",https://ashpublications.org/blood/article/121/12/2175/31453/SOX11-regulates-PAX5-expression-and-blocks
+WT1,"SCARB1,LIPC,LIPG,APOB,PLTP,LDLR,SOAT1,ABCG1",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,"SCARB1,LIPC,LIPG,APOB,PLTP,LDLR,SOAT1,ABCG1",Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub
+MYC,"MTTP,PLTP,LDLR",18940864,https://pubmed.ncbi.nlm.nih.gov/18940864/,"MTTP,PLTP,LDLR",Leukocytes,https://academic.oup.com/nar/article/36/21/e144/2410244?login=true
+FOXP2,"SCARB1,PLTP,ABCA1",23625967,https://pubmed.ncbi.nlm.nih.gov/23625967/,"SCARB1,PLTP,ABCA1","CNS, Bone",https://academic.oup.com/nar/article/41/12/5991/1025774
+GATA2,"SCARB1,LIPA,LIPC,APOB,DGAT1",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,"SCARB1,LIPA,LIPC,APOB,DGAT1",                     Erythroid lineage,https://www.sciencedirect.com/science/article/pii/S1097276509008144?via%3Dihub
+ZNF217,"SCARB1,LIPC,ABCA1,NCEH1",24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,"SCARB1,LIPC,ABCA1,NCEH1",Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520
+CDX2,"SCARB1,APOA4",20551321,https://pubmed.ncbi.nlm.nih.gov/20551321/,"SCARB1,APOA4", Colon,https://linkinghub.elsevier.com/retrieve/pii/S0021925820598943
+ATF3,"SCARB1,PLTP,LDLR,NCEH1,ABCG1",23680149,https://pubmed.ncbi.nlm.nih.gov/23680149/,"SCARB1,PLTP,LDLR,NCEH1,ABCG1",CNS,https://www.sciencedirect.com/science/article/pii/S1535610813001335?via%3Dihub
+ZNF652,LDLR,21678463,https://pubmed.ncbi.nlm.nih.gov/21678463/,LDLR,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/jcb.23214
+DACH1,"LIPA,LDLR,DGAT1,SOAT1",20351289,https://pubmed.ncbi.nlm.nih.gov/20351289/,"LIPA,LDLR,DGAT1,SOAT1",Mammary Gland,https://www.pnas.org/doi/full/10.1073/pnas.1002746107
+JUN,"LIPC,PLTP,LDLR,ABCG1",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,LDLR,                          Vasculature,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+JUND,"LIPC,PLTP,LDLR,APOC1",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,LDLR,                          Vasculature,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+TCF21,"CETP,PLTP,LDLR,ABCG1",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,LDLR,                          Vasculature,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+RUNX2,"LIPC,ABCA1,SORT1,NCEH1,SOAT1,ABCG1",22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,SOAT1,Prostate,https://academic.oup.com/nar/article/40/8/3538/2411202?login=true#supplementary-data
+SPI1,"LIPC,NCEH1,ABCG1",23127762,https://pubmed.ncbi.nlm.nih.gov/23127762/,"LIPC,NCEH1,ABCG1",Erythroid lineage,https://www.sciencedirect.com/science/article/pii/S0301472X12005310?via%3Dihub
+TP53,"LCAT,LIPG",18474530,https://pubmed.ncbi.nlm.nih.gov/18474530/,"LCAT,LIPG",Bone,https://academic.oup.com/nar/article/36/11/3639/2410222?login=true
+PBX1,"MTTP,ABCA1,APOA2,ABCG1",22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,"MTTP,ABCA1,APOA2,ABCG1","Ovary, Mammary Gland, Skin",https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+CUX1,"CETP,LDLR,SORT1,NCEH1,APOC1",19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,"CETP,LDLR,SORT1,NCEH1,APOC1",Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+HIF1A,SCARB1,21447827,https://pubmed.ncbi.nlm.nih.gov/21447827/,SCARB1,Mammary Gland,https://ashpublications.org/blood/article/117/23/e207/22454/High-resolution-genome-wide-mapping-of-HIF-binding
+ELF1,"APOA1,SOAT1",20517297,https://pubmed.ncbi.nlm.nih.gov/20517297/,SOAT1,"Prostate, Leukocytes, Bone",https://www.embopress.org/doi/full/10.1038/emboj.2010.106
+MITF,"SCARB1,LPL,LIPC,LIPG,PLTP,SORT1,NCEH1,SOAT1",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"SCARB1,LPL,LIPC,LIPG,PLTP,SORT1,NCEH1,SOAT1",Skin,https://www.nature.com/articles/onc2010612
+TP63,"SCARB1,LIPG,LDLR,ABCA1,SORT1,ABCG1",22573176,https://pubmed.ncbi.nlm.nih.gov/22573176/,"SCARB1,LIPG,LDLR,ABCA1,SORT1,ABCG1",Skin,https://academic.oup.com/nar/article/40/15/7190/1208916?login=true
+TFAP2A,"LIPC,APOA1,ABCG1",17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,"LIPC,APOA1,ABCG1","Mammary Gland, Uterus",https://genome.cshlp.org/content/16/12/1585
+TFAP2C,"SCARB1,APOC3",20629094,https://pubmed.ncbi.nlm.nih.gov/20629094/,"SCARB1,APOC3",Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/gcc.20807
+HOXC9,"LIPA,LDLR,NCEH1",25013753,https://pubmed.ncbi.nlm.nih.gov/25013753/,"LIPA,LDLR",CNS,https://www.sciencedirect.com/science/article/pii/S2213596014000142?via%3Dihub
+BACH1,"LDLR,ABCA1",22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,"LDLR,ABCA1","Bone, Mammary Gland",https://www.sciencedirect.com/science/article/pii/S0021925820628563?via%3Dihub
+SMAD4,"LPL,APOA4,ABCG1",21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,"LPL,APOA4,ABCG1","Embryonic tissue, Stem cells",https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub
+FOXO3,LIPG,23340844,https://pubmed.ncbi.nlm.nih.gov/23340844/,LIPG,Colon,https://www.embopress.org/doi/full/10.1038/msb.2012.74
+ELK1,PLTP,19687146,https://pubmed.ncbi.nlm.nih.gov/19687146/,PLTP,Kidney,https://genome.cshlp.org/content/19/11/1963
+FOXM1,LIPG,25889361,https://pubmed.ncbi.nlm.nih.gov/25889361/,LIPG,Esophagus,https://molecular-cancer.biomedcentral.com/articles/10.1186/s12943-015-0339-8
+EOMES,APOA2,21245162,https://pubmed.ncbi.nlm.nih.gov/21245162/,APOA2,Stem cells,https://genesdev.cshlp.org/content/25/3/238.full
+E2F4,"SORT1,APOA1,SOAT1",21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,"SORT1,APOA1,SOAT1",Leukocytes,https://academic.oup.com/nar/article/39/9/3558/1243263?login=false#supplementary-data
+ETS1,DGAT1,20019798,https://pubmed.ncbi.nlm.nih.gov/20019798/,DGAT1,Leukocytes,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000778
+POU3F2,MTTP,20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,MTTP,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+GATA3,SOAT1,24758297,https://pubmed.ncbi.nlm.nih.gov/24758297/,SOAT1,Mammary Gland,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-14-278

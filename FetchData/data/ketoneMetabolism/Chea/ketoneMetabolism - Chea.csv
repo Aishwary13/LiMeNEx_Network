@@ -1,0 +1,38 @@
+TF,Overlapping_Genes,Pubmed_ID,Pubmed_Link,Genes mentioned in the paper,Tissue,Paper Link
+AR,"ACSS3,BDH1,OXCT1,ACAT1",25329375,https://pubmed.ncbi.nlm.nih.gov/25329375/,not found,,https://academic.oup.com/mend/article/28/12/2012/2623249?login=true
+HOXB7,"ACSS3,BDH1,OXCT1",26014856,https://pubmed.ncbi.nlm.nih.gov/26014856/,BDH1,Mammary Gland,https://onlinelibrary.wiley.com/doi/10.1002/ijc.29616
+TCF21,"HMGCL,BDH2,HMGCS2",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+FOXA1,"ACSS3,HMGCS2,AACS",25552417,https://pubmed.ncbi.nlm.nih.gov/25552417/,HMGCS2,Prostate,https://academic.oup.com/nar/article/43/2/848/2414789?login=false
+GATA4,"ACSS3,BDH1,OXCT1",25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+VDR,"BDH2,OXCT1,ACAT1",23849224,https://pubmed.ncbi.nlm.nih.gov/23849224/,not found,,https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-11-163#Sec20
+SOX2,"BDH2,BDH1",16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,"BDH2,BDH1",Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#sec3
+SMAD3,"ACSS3,BDH1",21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,"ACSS3,BDH1",Stem cells,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub#ec0005
+HNF4A,"HMGCL,ACSS3,BDH2,BDH1,HMGCS2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"HMGCL,ACSS3,BDH2,BDH1,HMGCS2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+FOXA2,"HMGCL,BDH1,HMGCS2",19822575,https://pubmed.ncbi.nlm.nih.gov/19822575/,"HMGCL,BDH1,HMGCS2",Liver,https://academic.oup.com/nar/article/37/22/7498/2410146?login=true
+WT1,"BDH1,OXCT1,AACS",25993318,https://pubmed.ncbi.nlm.nih.gov/25993318/,"BDH1,OXCT1,AACS",Kidney,https://www.sciencedirect.com/science/article/pii/S2157171615321699?via%3Dihub
+RUNX2,"ACSS3,BDH1,AACS",22187159,https://pubmed.ncbi.nlm.nih.gov/22187159/,not found,,https://academic.oup.com/nar/article/40/8/3538/2411202?login=true#supplementary-data
+TFAP2A,"AACS,ACAT1",17053090,https://pubmed.ncbi.nlm.nih.gov/17053090/,"AACS,ACAT1",Mammary Gland,https://genome.cshlp.org/content/16/12/1585
+JUN,"ACSS3,OXCT1",26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,Heart,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+GATA2,"BDH1,ACAT1",19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,BDH1,Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+POU5F1,BDH1,16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,BDH1,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#sec3
+MYC,"OXCT1,HMGCS2",19915707,https://pubmed.ncbi.nlm.nih.gov/19915707/,"OXCT1,HMGCS2",Embryonic tissue,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007839
+PBX1,"ACSS3,HMGCS2",22567123,https://pubmed.ncbi.nlm.nih.gov/22567123/,HMGCS2,Ovary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036054#s5
+FOXO3,BDH1,23340844,https://pubmed.ncbi.nlm.nih.gov/23340844/,not found,skeletal muscle,https://www.embopress.org/doi/full/10.1038/msb.2012.74
+SMAD4,"ACSS3,BDH1",21741376,https://pubmed.ncbi.nlm.nih.gov/21741376/,"ACSS3,BDH1",Stem cells,https://www.sciencedirect.com/science/article/pii/S0012160611010165?via%3Dihub#ec0005
+TP63,"BDH1,HMGCS2,AACS",22573176,https://pubmed.ncbi.nlm.nih.gov/22573176/,"BDH1,HMGCS2,AACS",Skin,https://academic.oup.com/nar/article/40/15/7190/1208916
+GATA1,BDH1,19941826,https://pubmed.ncbi.nlm.nih.gov/19941826/,BDH1,Erythroid lineage,https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00814-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509008144%3Fshowall%3Dtrue
+ELF5,BDH1,23300383,https://pubmed.ncbi.nlm.nih.gov/23300383/,BDH1,Mammary Gland,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001461#s5
+NR3C1,AACS,21868756,https://pubmed.ncbi.nlm.nih.gov/21868756/,not found,,https://aacrjournals.org/cancerres/article/71/20/6360/568755/Activation-of-the-Glucocorticoid-Receptor-Is
+E2F1,OXCT1,21310950,https://pubmed.ncbi.nlm.nih.gov/21310950/,OXCT1,Mammary Gland,https://www.sciencedirect.com/science/article/pii/S0021925820515779?via%3Dihub#cesec10
+MITF,"HMGCL,BDH1,OXCT1",21258399,https://pubmed.ncbi.nlm.nih.gov/21258399/,"HMGCL,BDH1,OXCT1",Skin,https://www.nature.com/articles/onc2010612
+BACH1,OXCT1,22875853,https://pubmed.ncbi.nlm.nih.gov/22875853/,OXCT1,Mammary Gland,https://www.jbc.org/article/S0021-9258(20)62856-3/fulltext
+ZNF217,BDH1,24962896,https://pubmed.ncbi.nlm.nih.gov/24962896/,BDH1,Mammary Gland,https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-520
+NANOG,BDH1,16153702,https://pubmed.ncbi.nlm.nih.gov/16153702/,BDH1,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867405008251?via%3Dihub#sec3
+POU3F2,OXCT1,20337985,https://pubmed.ncbi.nlm.nih.gov/20337985/,OXCT1,Skin,https://onlinelibrary.wiley.com/doi/10.1111/j.1755-148X.2010.00697.x
+KLF5,HMGCS2,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+JUND,OXCT1,26020271,https://pubmed.ncbi.nlm.nih.gov/26020271/,not found,,https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005202
+GATA6,HMGCS2,25053715,https://pubmed.ncbi.nlm.nih.gov/25053715/,not found,,paid https://gut.bmj.com/content/64/5/707
+E2F4,ACAT1,21247883,https://pubmed.ncbi.nlm.nih.gov/21247883/,ACAT1,Blood,https://academic.oup.com/nar/article/39/9/3558/1243263?login=true
+CUX1,ACSS3,19635798,https://pubmed.ncbi.nlm.nih.gov/19635798/,not found,,https://www.sciencedirect.com/science/article/pii/S0021925820384398?via%3Dihub
+FOXP1,HMGCL,21924763,https://pubmed.ncbi.nlm.nih.gov/21924763/,HMGCL,Stem cells,https://www.sciencedirect.com/science/article/pii/S0092867411009494?via%3Dihub
+TCF4,HMGCL,23295773,https://pubmed.ncbi.nlm.nih.gov/23295773/,not found,,paid https://academic.oup.com/neuro-oncology/article-abstract/15/3/279/1055801?redirectedFrom=fulltext&login=true

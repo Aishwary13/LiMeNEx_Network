@@ -1,0 +1,16 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,MYB,CYP2C19,leukocytes,"MYB IP - Jurkat, Rep 2, MYB IP - Jurkat, Rep 1, MYB IP - Jurkat, Rep 4, MYB IP - Jurkat, Rep 5, MYB IP - Jurkat, Rep 3"
+SPP,NFKB1,CYP2C19,leukocytes,"NFKB1 IP - Rep 2, NFKB1 IP - Rep 1"
+SPP,NANOG,CYP2C19,stemcells,NANOG IP - Rep 5 
+SPP,CEBPB,CYP2C19,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,NFYB,CYP2C19,leukocytes,"NFYB IP - GM12878 cells, NFYB IP - K562 cells"
+SPP,SP1,CYP2C19,stemcells,SP1 IP - H1 cells
+SPP,FOXA2,CYP2C19,stemcells,"FOXA2 IP - ES D2, FOXA2 IP - ES D5"
+SPP,MAX,CYP2C19,stemcells,MAX IP - H1 cells
+SPP,FOSL1,CYP2C19,stemcells,FOSL1 IP - H1 cells
+SPP,YY1,CYP2C19,stemcells,YY1 IP - H1 cells
+SPP,MAFK,CYP2C19,liver,"MAFK IP - HepG2 cells, Rep 2"
+SPP,FOS,CYP2C19,leukocytes,FOS IP - K562 cells
+SPP,NFYA,CYP2C19,leukocytes,NFYA IP - K562 cells
+SPP,MAFF,CYP2C19,liver,MAFF IP - HepG2 cells
+SPP,ZNF143,CYP2C19,stemcells,ZNF143 IP - H1 cells

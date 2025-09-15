@@ -1,0 +1,21 @@
+TargetGene,TF,Library/PMID,validated genes,Tissue,Paper Links
+CYP46A1,SP3,20930312,Yes,CNS,https://pubmed.ncbi.nlm.nih.gov/20930312/
+CYP7B1,AR,16630558,Yes,Kidney,https://pubmed.ncbi.nlm.nih.gov/16630558/
+CYP7B1,SP1,11470525,Yes,Kidney,https://pubmed.ncbi.nlm.nih.gov/11470525/
+AKR1C4,"HNF1A, HNF4A, HNF4G",11284743,Yes,Kidney,https://pubmed.ncbi.nlm.nih.gov/11284743/
+CYP27A1," SP1, SP3 ",11867220,Yes,Liver,https://pubmed.ncbi.nlm.nih.gov/11867220/
+CYP27A1, HNF4A,12957378,Yes,Liver,https://pubmed.ncbi.nlm.nih.gov/12957378/
+CYP8B1,NR0B2,15581596,Yes,Liver,https://pubmed.ncbi.nlm.nih.gov/15581596/
+CYP7A1,DBP,8617210,yes,"Liver, Kidney",https://pubmed.ncbi.nlm.nih.gov/8617210/
+CYP7A1,HDAC7,17654698,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/17654698/
+CYP7A1,HNF4A,23626788,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/23626788/
+CYP7A1,NR0B2,15581596,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/15581596/
+CYP7A1,NR0B2,15358835,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/15581596/
+CYP7A1,NR1H4,17135343,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/17135343/
+CYP7A1,PPARGC1A,16891307,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/16891307/
+CYP7A1,PROX1,23626788,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/23626788/
+CYP7A1,RXRA,19106115,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/19106115/
+CYP7A1,SMAD3,17920062,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/17920062/
+CYP7A1,SP1,9875228,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/9875228/
+CYP7A1,VDR,19106115,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/19106115/
+CYP7A1,VDR,20371703,yes,Liver,https://pubmed.ncbi.nlm.nih.gov/20371703/

@@ -1,0 +1,66 @@
+Database,TF,TargetGene,Tissue,Experiment
+SPP,IRF1,OLAH,leukocytes,"IRF1 IP | IFNG - K562 cells, 30 min, IRF1 IP | IFNG - K562 cells, 6 h, IRF1 IP | IFNA1-13 - K562 cells, 6 h, IRF1 IP - Rep 2, IRF1 IP - Rep 4, IRF1 IP - Rep 1, IRF1 IP - Rep 3"
+SPP,IFNG,OLAH,leukocytes,"IRF1 IP | IFNG - K562 cells, 30 min, STAT1 IP - Rep 5, STAT1 IP - Rep 6, IRF1 IP | IFNG - K562 cells, 6 h, IRF1 IP - Rep 2, IRF1 IP - Rep 4, IRF1 IP - Rep 1, STAT1 IP - Rep 2, STAT1 IP - Rep 1, MYC IP | IFNG - K562 cells, 6 h, STAT1 IP - Rep 4, MYC IP | IFNG - K562 cells, 30 min, STAT1 IP - Rep 3, IRF1 IP - Rep 3"
+SPP,FOXA1,OLAH,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 1, FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2, FOXA1 IP - T47D cells, FOXA1 IP - T47D, FOXA1 ChIP-Seq - Rep 2, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+SPP,17BE2,OLAH,mammarygland,"17BE2 | FOXA1 ChIP-Seq - Rep 1, 17BE2 | FOXA1 ChIP-Seq - Rep 2"
+SPP,CEBPB,OLAH,colon,CEBPB IP | 125DVD3
+SPP,125DVD3,OLAH,colon,CEBPB IP | 125DVD3
+SPP,E2F6,OLAH,leukocytes,"E2F6 IP - K562 cells, E2F6 IP - K562 cells"
+SPP,TP53,OLAH,bone,"TP53 IP | TP53RR OE, TP53 IP | TP53 OE, TP53 IP | TP53EE OE, TP53 IP | TP53EE/RR OE, TP53 IP | NUTL3 - SJSA-1"
+SPP,SPI1,OLAH,leukocytes,"SPI1 IP, SPI1 IP, SPI1 IP, ROSI | SPI1 ChIP-Seq, SPI1 IP, SPI1 IP, SPI1 IP - K562 cells, SPI1 IP, SPI1 IP, SPI1 IP - GM12878 cells, SPI1 IP, SPI1 IP - HL cells, SPI1 IP - GM12891 cells, SPI1 IP - GM12878 cells, Rep 3 , SPI1 IP"
+SPP,MYC,OLAH,leukocytes,"MYC IP - K562 cells, Rep 1, MYC IP | IFNG - K562 cells, 6 h, MYC IP | IFNG - K562 cells, 30 min, MYC IP - K562 cells, Rep 2"
+SPP,FOXA2,OLAH,liver,FOXA2 IP - HepG2 cells
+SPP,CEBPB,OLAH,lung,"CEBPB ChIP-Seq - IMR90, CEBPB ChIP-Seq - A549"
+SPP,STAT1,OLAH,leukocytes,"STAT1 IP - Rep 5, STAT1 IP - Rep 6, STAT1 IP - Rep 2, STAT1 IP - Rep 1, STAT1 IP - Rep 4, STAT1 IP - Rep 3"
+SPP,MAX,OLAH,stemcells,MAX IP - H1 cells
+SPP,STAT3,OLAH,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 12 h, STAT3 IP - MCF10A cells, Rep 2, STAT3 IP | 4HT - MCF10 cells, 36 h"
+SPP,4HT,OLAH,mammarygland,"STAT3 IP | 4HT - MCF10 cells, 12 h, FOS IP | 4HT - MCF10A cells, 4 h, STAT3 IP | 4HT - MCF10 cells, 36 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h"
+SPP,JUN,OLAH,mammarygland,"JUN IP - Rep 1, JUN IP - Rep 2"
+SPP,ROSI,OLAH,leukocytes,ROSI | SPI1 ChIP-Seq
+SPP,FOS,OLAH,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP - MCF10A cells, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h"
+SPP,IFNA1,OLAH,leukocytes,"IRF1 IP | IFNA1-13 - K562 cells, 6 h"
+SPP,UBTF,OLAH,leukocytes,UBTF IP - K562 cells
+SPP,ELF1,OLAH,leukocytes,ELF1 IP - SK-N-SH cells
+SPP,JUND,OLAH,vasculature,JUND IP
+SPP,USF1,OLAH,leukocytes,USF1 IP - K562 cells
+SPP,FOXA1,OLAH,lung,FOXA1 IP | DEX - A549 cells
+SPP,DEX,OLAH,lung,FOXA1 IP | DEX - A549 cells
+SPP,ASCL1,OLAH,skin,ASCL1 IP - NHDF
+SPP,DEX,OLAH,mammarygland,"DEX | FOXA1 ChIP-Seq - Rep 1, DEX | FOXA1 ChIP-Seq - Rep 2"
+SPP,ATF1,OLAH,leukocytes,ATF1 IP - K562 cells
+SPP,GATA2,OLAH,prostate,"FOXA1 KD | GATA2 ChIP-Seq, GATA2 KD  | FOXA1 ChIP-Seq"
+SPP,FOXA1,OLAH,prostate,"FOXA1 KD | GATA2 ChIP-Seq, CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, GATA2 KD  | FOXA1 ChIP-Seq, FOXA1 ChIP-Seq, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+SPP,JUND,OLAH,stemcells,JUND IP - H1 cells
+SPP,CREB1,OLAH,prostate,CREB1 siRNA | FOXA1 ChIP-Seq - Rep 2
+SPP,BATF,OLAH,leukocytes,BATF IP - GM12878 cells
+SPP,SOX2,OLAH,stemcells,SOX2 IP
+SPP,R1881,OLAH,prostate,"CON KD + R1881 | FOXA1 ChIP-Seq, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+SPP,MAX,OLAH,leukocytes,"MAX IP - K562 cells, Rep 2, MAX IP - K562 cells"
+SPP,CEBPB,OLAH,uterus,CEBPB ChIP-Seq - HeLaS3
+SPP,STAT5B,OLAH,leukocytes,STAT5B IP | IL2 - Rep 2
+SPP,IL2,OLAH,leukocytes,STAT5B IP | IL2 - Rep 2
+SPP,JUN,OLAH,vasculature,JUN IP - HUVEC cells
+SPP,BHLHE40,OLAH,leukocytes,BHLHE40 IP - K562 cells
+SPP,POU5F1,OLAH,stemcells,"POU5F1 IP - Rep 1 , POU5F1 IP"
+SPP,ATF2,OLAH,leukocytes,ATF2 IP - GM12878 cells
+SPP,CEBPB,OLAH,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP"
+SPP,FOXA1,OLAH,liver,"FOXA1 IP - HepG2 cells, Rep 2, FOXA1 IP - HepG2 cells, Rep 1"
+SPP,NFATC1,OLAH,leukocytes,NFATC1 IP - GM12878 cells
+SPP,NFKB1,OLAH,leukocytes,NFKB1 IP - Rep 1
+SPP,TP63,OLAH,skin,"TP63 IP, TP63 IP"
+SPP,CTCF,OLAH,leukocytes,CTCF IP - K562 cells
+SPP,MXI1,OLAH,leukocytes,MXI1 IP - K562 cells
+SPP,PIAS1,OLAH,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1"
+SPP,MAZ,OLAH,leukocytes,MAZ IP - K562 cells
+SPP,GATA3,OLAH,mammarygland,GATA3 IP - T47D cells
+SPP,EGR1,OLAH,leukocytes,EGR1 IP - K562 cells
+SPP,TP53,OLAH,leukocytes,TP53 IP - Doxo DNA damage
+SPP,JUND,OLAH,leukocytes,JUND IP - K562 cells
+SPP,TP53,OLAH,mammarygland,TP53 IP
+SPP,TEAD4,OLAH,leukocytes,TEAD4 IP - K562 cells
+SPP,FOS,OLAH,vasculature,FOS IP - HUVEC cells
+SPP,GATA2,OLAH,vasculature,GATA2 IP - HUVEC cells
+SPP,CEBPB,OLAH,liver,CEBPB ChIP-Seq - HepG2
+SPP,CEBPB,OLAH,mammarygland,CEBPB IP - MCF7 cells
+SPP,MEF2A,OLAH,leukocytes,MEF2A IP - GM12878 cells
+SPP,ELF3,OLAH,pancreas,ELF3 IP

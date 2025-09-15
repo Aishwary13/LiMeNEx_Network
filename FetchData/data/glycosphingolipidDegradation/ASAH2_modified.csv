@@ -1,0 +1,47 @@
+,Database,TF,TargetGene,Tissue,Experiment
+0,SPP,CEBPB,ASAH2,mammarygland,CEBPB IP - MCF7 cells
+1,SPP,FOXA1,ASAH2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2"
+2,SPP,R1881,ASAH2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, R1881 | FOXA1 ChIP-Seq - Rep 1, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2, CON KD + R1881 | FOXA1 ChIP-Seq - Rep 2"
+3,SPP,PIAS1,ASAH2,prostate,"PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 1, PIAS1 + R1881 | FOXA1 ChIP-Seq - Rep 2"
+4,SPP,CREB1,ASAH2,liver,"CREB1 IP - HepG2 cells, CREB1 IP, CREB1 IP"
+5,SPP,BATF,ASAH2,leukocytes,BATF IP - GM12878 cells
+6,SPP,ZEB1,ASAH2,liver,ZEB1 IP - HepG2 cells
+7,SPP,E2F3,ASAH2,colon,E2F3 IP 
+8,SPP,HOXA4,ASAH2,colon,HOXA4 IP 
+9,SPP,USF1,ASAH2,liver,USF1 IP - HepG2 cells
+10,SPP,PDX1,ASAH2,stemcells,PDX1 IP
+11,SPP,SPI1,ASAH2,leukocytes,"SPI1 IP, SPI1 IP"
+12,SPP,JUN,ASAH2,vasculature,"JUN IP, JUN IP - HUVEC cells"
+13,SPP,SP1,ASAH2,liver,SP1 IP - HepG2 cells
+14,SPP,FOXA1,ASAH2,stemcells,FOXA1 IP - ES D10
+15,SPP,IRF1,ASAH2,leukocytes,"IRF1 IP | IFNG - K562 cells, 30 min, IRF1 IP | IFNA1-13 - K562 cells, 6 h"
+16,SPP,IFNG,ASAH2,leukocytes,"IRF1 IP | IFNG - K562 cells, 30 min"
+17,SPP,CEBPB,ASAH2,stemcells,"CEBPB IP, CEBPB IP, CEBPB IP, CEBPB IP"
+18,SPP,JUND,ASAH2,cns,JUND IP - SK-N-SH cells 
+19,SPP,FOXA1,ASAH2,liver,"FOXA1 IP - HepG2 cells, Rep 2, FOXA1 IP - HepG2 cells, Rep 1"
+20,SPP,IRF1,ASAH2,colon,IRF1 IP 
+21,SPP,IFNA1,ASAH2,leukocytes,"IRF1 IP | IFNA1-13 - K562 cells, 6 h"
+22,SPP,CEBPB,ASAH2,liver,"CEBPB ChIP-Seq - HepG2, CEBPB IP | FORSK - HepG2 cells, CEBPB IP - HepG2 cells"
+23,SPP,PBX3,ASAH2,leukocytes,PBX3 IP - GM12878 cells
+24,SPP,MYBL2,ASAH2,liver,MYBL2 IP - HepG2 cells
+25,SPP,FOXA2,ASAH2,liver,FOXA2 IP - HepG2 cells
+26,SPP,SIX2,ASAH2,kidney,"SIX2 IP - 17 weeks, Rep 2, SIX2 IP - 17 weeks, Rep 1, SIX2 IP -  16 weeks"
+27,SPP,FOXH1,ASAH2,embryonictissue,FOXH1 IP - endoderm
+28,SPP,JUND,ASAH2,leukocytes,JUND IP - K562 cells
+29,SPP,ELF1,ASAH2,liver,ELF1 IP - HepG2 cells
+30,SPP,FORSK,ASAH2,liver,CEBPB IP | FORSK - HepG2 cells
+31,SPP,FOXA2,ASAH2,colon,FOXA2 IP 
+32,SPP,FOXP1,ASAH2,colon,FOXP1 IP 
+33,SPP,TAL1,ASAH2,colon,TAL1 IP 
+34,SPP,RELA,ASAH2,adiposetissue,RELA IP
+35,SPP,JUND,ASAH2,liver,"JUND IP - HepG2 cells, JUND IP - HepG2 cells"
+36,SPP,MAX,ASAH2,liver,MAX IP - HepG2 cells
+37,SPP,JUND,ASAH2,vasculature,JUND IP
+38,SPP,TEAD4,ASAH2,liver,TEAD4 IP - HepG2 cells
+39,SPP,FOS,ASAH2,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h, FOS IP - MCF10A cells"
+40,SPP,4HT,ASAH2,mammarygland,"FOS IP | 4HT - MCF10A cells, 4 h, FOS IP | 4HT - MCF10A cells, 12 h, FOS IP | 4HT - MCF10A cells, 36 h"
+41,SPP,JUN,ASAH2,colon,JUN IP 
+42,SPP,GATA2,ASAH2,cns,GATA2 ChIP-Seq SH-SY5Y
+43,SPP,JUN,ASAH2,liver,JUN IP - HepG2 cells
+44,SPP,JUND,ASAH2,uterus,JUND IP - HeLa cells
+45,SPP,NFYB,ASAH2,leukocytes,NFYB IP - K562 cells
