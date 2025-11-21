@@ -1,0 +1,518 @@
+{
+  "nodes": {
+    "ABCA1": {
+      "id": "s5",
+      "class": "enzymaticGene"
+    },
+    "Mature-HDL(CE+PL)": {
+      "id": "s6",
+      "class": "lipidMetabolite"
+    },
+    "LCAT": {
+      "id": "s7",
+      "class": "enzymaticGene"
+    },
+    "PLTP": {
+      "id": "s11",
+      "class": "enzymaticGene"
+    },
+    "VLDL(PL+CE)": {
+      "id": "s12",
+      "class": "lipidMetabolite"
+    },
+    "CETP": {
+      "id": "s13",
+      "class": "enzymaticGene"
+    },
+    "VLDL(PL+TG)": {
+      "id": "s10",
+      "class": "lipidMetabolite"
+    },
+    "Fatty-Acids": {
+      "id": "s2",
+      "class": "lipidMetabolite"
+    },
+    "LIPG": {
+      "id": "s17",
+      "class": "enzymaticGene"
+    },
+    "Phospholipids": {
+      "id": "s16",
+      "class": "lipidMetabolite"
+    },
+    "Triglycerides": {
+      "id": "s18",
+      "class": "lipidMetabolite"
+    },
+    "LPL": {
+      "id": "s19",
+      "class": "enzymaticGene"
+    },
+    "Lysophospholipids": {
+      "id": "s20",
+      "class": "lipidMetabolite"
+    },
+    "Glycerol": {
+      "id": "s21",
+      "class": "nonlipidMetabolite"
+    },
+    "VLDL(TG)": {
+      "id": "s23",
+      "class": "lipidMetabolite"
+    },
+    "Free-choelsterol(FC)": {
+      "id": "s25",
+      "class": "lipidMetabolite"
+    },
+    "Cholesteryl-ester(CE)": {
+      "id": "s24",
+      "class": "lipidMetabolite"
+    },
+    "NCEH1": {
+      "id": "s26",
+      "class": "enzymaticGene"
+    },
+    "SOAT1": {
+      "id": "s27",
+      "class": "enzymaticGene"
+    },
+    "LIPC": {
+      "id": "s28",
+      "class": "enzymaticGene"
+    },
+    "IDL(TG)": {
+      "id": "s22",
+      "class": "lipidMetabolite"
+    },
+    "LDL(CE+PL+FC)": {
+      "id": "s29",
+      "class": "lipidMetabolite"
+    },
+    "LDLR": {
+      "id": "s30",
+      "class": "enzymaticGene"
+    },
+    "SORT1": {
+      "id": "s31",
+      "class": "enzymaticGene"
+    },
+    "SCARB1": {
+      "id": "s32",
+      "class": "enzymaticGene"
+    },
+    "LIPA": {
+      "id": "s33",
+      "class": "enzymaticGene"
+    },
+    "Dietary-Triglycerides": {
+      "id": "s34",
+      "class": "lipidMetabolite;first"
+    },
+    "HDL(PL+TG)": {
+      "id": "s14",
+      "class": "lipidMetabolite"
+    },
+    "PNLIP": {
+      "id": "s35",
+      "class": "enzymaticGene"
+    },
+    "Monoglycerides": {
+      "id": "s36",
+      "class": "lipidMetabolite"
+    },
+    "DGAT1": {
+      "id": "s37",
+      "class": "enzymaticGene"
+    },
+    "MTTP": {
+      "id": "s47",
+      "class": "enzymaticGene"
+    },
+    "Nascent-Chylomicrons": {
+      "id": "s38",
+      "class": "lipidMetabolite"
+    },
+    "Chylomicron-remnants(CE)": {
+      "id": "s48",
+      "class": "lipidMetabolite"
+    },
+    "APOA1": {
+      "id": "s3",
+      "class": "enzymaticGene"
+    },
+    "APOE": {
+      "id": "s46",
+      "class": "enzymaticGene"
+    },
+    "APOC3": {
+      "id": "s45",
+      "class": "enzymaticGene"
+    },
+    "APOC2": {
+      "id": "s44",
+      "class": "enzymaticGene"
+    },
+    "APOC1": {
+      "id": "s43",
+      "class": "enzymaticGene"
+    },
+    "APOA2": {
+      "id": "s39",
+      "class": "enzymaticGene"
+    },
+    "APOA4": {
+      "id": "s40",
+      "class": "enzymaticGene"
+    },
+    "APOB": {
+      "id": "s41",
+      "class": "enzymaticGene"
+    },
+    "Nascent-VLDL": {
+      "id": "s51",
+      "class": "lipidMetabolite"
+    },
+    "ABCG1": {
+      "id": "s52",
+      "class": "enzymaticGene"
+    },
+    "Nascent-HDL(FC)": {
+      "id": "s4",
+      "class": "lipidMetabolite"
+    }
+  },
+  "reactions": {
+    "r=nascent-hdl(fc);p=mature-hdl(ce+pl);g=lcat|apoa1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "esterification",
+      "reactantList": [
+        "Nascent-HDL(FC)"
+      ],
+      "productList": [
+        "Mature-HDL(CE+PL)"
+      ],
+      "geneList": [
+        "LCAT",
+        "APOA1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=mature-hdl(ce+pl);p=vldl(pl+tg);g=pltp": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "phospholipidexchange",
+      "reactantList": [
+        "Mature-HDL(CE+PL)"
+      ],
+      "productList": [
+        "VLDL(PL+TG)"
+      ],
+      "geneList": [
+        "PLTP"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=mature-hdl(ce+pl);p=vldl(pl+ce);g=cetp": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "cholesterolesterexchange",
+      "reactantList": [
+        "Mature-HDL(CE+PL)"
+      ],
+      "productList": [
+        "VLDL(PL+CE)"
+      ],
+      "geneList": [
+        "CETP"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=vldl(pl+tg);p=hdl(pl+tg);g=cetp": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "triglyceridexchange",
+      "reactantList": [
+        "VLDL(PL+TG)"
+      ],
+      "productList": [
+        "HDL(PL+TG)"
+      ],
+      "geneList": [
+        "CETP"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=phospholipids;p=fatty-acids|lysophospholipids;g=lipg": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Phospholipids"
+      ],
+      "productList": [
+        "Fatty-Acids",
+        "Lysophospholipids"
+      ],
+      "geneList": [
+        "LIPG"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=triglycerides;p=fatty-acids|glycerol|chylomicron-remnants(ce);g=lpl": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Triglycerides"
+      ],
+      "productList": [
+        "Fatty-Acids",
+        "Glycerol",
+        "Chylomicron-remnants(CE)"
+      ],
+      "geneList": [
+        "LPL"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=vldl(tg);p=idl(tg)|fatty-acids;g=lpl|lipc": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "VLDL(TG)"
+      ],
+      "productList": [
+        "IDL(TG)",
+        "Fatty-Acids"
+      ],
+      "geneList": [
+        "LPL",
+        "LIPC"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=cholesteryl-ester(ce);p=free-choelsterol(fc);g=nceh1|lipa": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Cholesteryl-ester(CE)"
+      ],
+      "productList": [
+        "Free-choelsterol(FC)"
+      ],
+      "geneList": [
+        "NCEH1",
+        "LIPA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=free-choelsterol(fc);p=cholesteryl-ester(ce);g=soat1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "esterification",
+      "reactantList": [
+        "Free-choelsterol(FC)"
+      ],
+      "productList": [
+        "Cholesteryl-ester(CE)"
+      ],
+      "geneList": [
+        "SOAT1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=idl(tg);p=ldl(ce+pl+fc)|fatty-acids|triglycerides;g=lipc": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "IDL(TG)"
+      ],
+      "productList": [
+        "LDL(CE+PL+FC)",
+        "Fatty-Acids",
+        "Triglycerides"
+      ],
+      "geneList": [
+        "LIPC"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=ldl(ce+pl+fc);p=free-choelsterol(fc);g=ldlr|sort1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "endocytosis",
+      "reactantList": [
+        "LDL(CE+PL+FC)"
+      ],
+      "productList": [
+        "Free-choelsterol(FC)"
+      ],
+      "geneList": [
+        "LDLR",
+        "SORT1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=dietary-triglycerides;p=fatty-acids|monoglycerides;g=pnlip": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Dietary-Triglycerides"
+      ],
+      "productList": [
+        "Fatty-Acids",
+        "Monoglycerides"
+      ],
+      "geneList": [
+        "PNLIP"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=fatty-acids|monoglycerides;p=triglycerides;g=soat1|dgat1": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "esterification",
+      "reactantList": [
+        "Fatty-Acids",
+        "Monoglycerides"
+      ],
+      "productList": [
+        "Triglycerides"
+      ],
+      "geneList": [
+        "SOAT1",
+        "DGAT1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=cholesteryl-ester(ce)|triglycerides|phospholipids|apoa1;p=nascent-chylomicrons;g=mttp|apoe|apoc3|apoc2|apoc1|apoa2|apoa4|apob": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "lipidtransfer",
+      "reactantList": [
+        "Cholesteryl-ester(CE)",
+        "Triglycerides",
+        "Phospholipids",
+        "APOA1"
+      ],
+      "productList": [
+        "Nascent-Chylomicrons"
+      ],
+      "geneList": [
+        "MTTP",
+        "APOE",
+        "APOC3",
+        "APOC2",
+        "APOC1",
+        "APOA2",
+        "APOA4",
+        "APOB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=free-choelsterol(fc)|apoa1;p=nascent-hdl(fc)|fatty-acids;g=abca1|abcg1": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "efflux",
+      "reactantList": [
+        "Free-choelsterol(FC)",
+        "APOA1"
+      ],
+      "productList": [
+        "Nascent-HDL(FC)",
+        "Fatty-Acids"
+      ],
+      "geneList": [
+        "ABCA1",
+        "ABCG1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=mature-hdl(ce+pl);p=free-choelsterol(fc);g=scarb1|apoa1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "lipiduptakebytissues",
+      "reactantList": [
+        "Mature-HDL(CE+PL)"
+      ],
+      "productList": [
+        "Free-choelsterol(FC)"
+      ],
+      "geneList": [
+        "SCARB1",
+        "APOA1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=vldl(tg);p=nascent-vldl;g=mttp|apob": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "lipidassembly",
+      "reactantList": [
+        "VLDL(TG)"
+      ],
+      "productList": [
+        "Nascent-VLDL"
+      ],
+      "geneList": [
+        "MTTP",
+        "APOB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    }
+  }
+}

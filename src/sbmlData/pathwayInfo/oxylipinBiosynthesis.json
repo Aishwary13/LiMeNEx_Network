@@ -1,0 +1,318 @@
+{
+  "nodes": {
+    "Linoleic-Acid": {
+      "id": "s34",
+      "class": "lipidMetabolite;first"
+    },
+    "9-Hydroxyoctadecadienoic-acid(9-HODE)": {
+      "id": "s2",
+      "class": "lipidMetabolite"
+    },
+    "13-Hydroxyoctadecadienoic-acid(13-HODE)": {
+      "id": "s1",
+      "class": "lipidMetabolite"
+    },
+    "11-Hydroxyoctadecadienoic-acid(11-HODE)": {
+      "id": "s3",
+      "class": "lipidMetabolite"
+    },
+    "17-Hydroxyoctadecadienoic-acid(17-HODE)": {
+      "id": "s5",
+      "class": "lipidMetabolite"
+    },
+    "18-Hydroxyoctadecadienoic-acid(18-HODE)": {
+      "id": "s4",
+      "class": "lipidMetabolite"
+    },
+    "16-Hydroxyoctadecadienoic-acid(16-HODE)": {
+      "id": "s6",
+      "class": "lipidMetabolite"
+    },
+    "PTGS1": {
+      "id": "s7",
+      "class": "enzymaticGene"
+    },
+    "PTGS2": {
+      "id": "s8",
+      "class": "enzymaticGene"
+    },
+    "CYP2C19": {
+      "id": "s9",
+      "class": "enzymaticGene"
+    },
+    "CYP2C9": {
+      "id": "s10",
+      "class": "enzymaticGene"
+    },
+    "CYP2C8": {
+      "id": "s11",
+      "class": "enzymaticGene"
+    },
+    "CYP1A2": {
+      "id": "s12",
+      "class": "enzymaticGene"
+    },
+    "CYP3A4": {
+      "id": "s13",
+      "class": "enzymaticGene"
+    },
+    "CYP4A11": {
+      "id": "s14",
+      "class": "enzymaticGene"
+    },
+    "9-hpODE": {
+      "id": "s15",
+      "class": "lipidMetabolite"
+    },
+    "13-hpODE": {
+      "id": "s16",
+      "class": "lipidMetabolite"
+    },
+    "ALOX12B": {
+      "id": "s17",
+      "class": "enzymaticGene"
+    },
+    "ALOX15": {
+      "id": "s18",
+      "class": "enzymaticGene"
+    },
+    "9(10)-EpOME": {
+      "id": "s19",
+      "class": "lipidMetabolite"
+    },
+    "12(13)-EpOME": {
+      "id": "s20",
+      "class": "lipidMetabolite"
+    },
+    "9-OH-12,13-EpOME": {
+      "id": "s21",
+      "class": "lipidMetabolite"
+    },
+    "11-OH-12,13-EpOME": {
+      "id": "s22",
+      "class": "lipidMetabolite"
+    },
+    "ALOXE3": {
+      "id": "s23",
+      "class": "enzymaticGene"
+    }
+  },
+  "reactions": {
+    "r=linoleic-acid;p=9-hydroxyoctadecadienoic-acid(9-hode);g=ptgs1|ptgs2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "monooxygenation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "9-Hydroxyoctadecadienoic-acid(9-HODE)"
+      ],
+      "geneList": [
+        "PTGS1",
+        "PTGS2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=11-hydroxyoctadecadienoic-acid(11-hode);g=cyp2c19|cyp2c9|cyp2c8|cyp1a2|cyp3a4": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "monooxygenation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "11-Hydroxyoctadecadienoic-acid(11-HODE)"
+      ],
+      "geneList": [
+        "CYP2C19",
+        "CYP2C9",
+        "CYP2C8",
+        "CYP1A2",
+        "CYP3A4"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=13-hydroxyoctadecadienoic-acid(13-hode);g=ptgs1|ptgs2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "monooxygenation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "13-Hydroxyoctadecadienoic-acid(13-HODE)"
+      ],
+      "geneList": [
+        "PTGS1",
+        "PTGS2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=16-hydroxyoctadecadienoic-acid(16-hode);g=cyp2c9": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "monooxygenation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "16-Hydroxyoctadecadienoic-acid(16-HODE)"
+      ],
+      "geneList": [
+        "CYP2C9"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=17-hydroxyoctadecadienoic-acid(17-hode);g=cyp2c9": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "monooxygenation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "17-Hydroxyoctadecadienoic-acid(17-HODE)"
+      ],
+      "geneList": [
+        "CYP2C9"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=18-hydroxyoctadecadienoic-acid(18-hode);g=cyp4a11": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "monooxygenation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "18-Hydroxyoctadecadienoic-acid(18-HODE)"
+      ],
+      "geneList": [
+        "CYP4A11"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=9-hpode;g=alox12b": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "9-hpODE"
+      ],
+      "geneList": [
+        "ALOX12B"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=13-hpode;g=alox15": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "13-hpODE"
+      ],
+      "geneList": [
+        "ALOX15"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=9(10)-epome;g=cyp2c9": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "epoxidation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "9(10)-EpOME"
+      ],
+      "geneList": [
+        "CYP2C9"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleic-acid;p=12(13)-epome;g=cyp2c9": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "epoxidation",
+      "reactantList": [
+        "Linoleic-Acid"
+      ],
+      "productList": [
+        "12(13)-EpOME"
+      ],
+      "geneList": [
+        "CYP2C9"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=13-hpode;p=9-oh-12,13-epome;g=aloxe3": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydroxylation",
+      "reactantList": [
+        "13-hpODE"
+      ],
+      "productList": [
+        "9-OH-12,13-EpOME"
+      ],
+      "geneList": [
+        "ALOXE3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=13-hpode;p=11-oh-12,13-epome;g=aloxe3": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "13-hpODE"
+      ],
+      "productList": [
+        "11-OH-12,13-EpOME"
+      ],
+      "geneList": [
+        "ALOXE3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+    "adiposetissue": [
+        "Metabolic"
+    ],
+    "kidney": [
+        "Metabolic"
+    ],
+    "liver": [
+        "Metabolic"
+    ],
+    "pancreas": [
+        "Metabolic"
+    ],
+    "skeletalmuscle": [
+        "Metabolic"
+    ],
+    "thyroidgland": [
+        "Metabolic"
+    ],
+    "erythroidlineage": [
+        "Blood"
+    ],
+    "hspcs": [
+        "Blood"
+    ],
+    "megakaryocytelineage": [
+        "Blood"
+    ],
+    "progenitors": [
+        "Blood"
+    ],
+    "other": [
+        "Blood",
+        "Cardiovascular",
+        "Female reproductive",
+        "Gastrointestinal",
+        "Immune",
+        "Male Reproductive"
+    ],
+    "blood": [
+        "Cardiovascular"
+    ],
+    "bonemarrow": [
+        "Cardiovascular"
+    ],
+    "heart": [
+        "Cardiovascular"
+    ],
+    "vasculature": [
+        "Cardiovascular"
+    ],
+    "mammarygland": [
+        "Female reproductive"
+    ],
+    "ovary": [
+        "Female reproductive"
+    ],
+    "oviduct": [
+        "Female reproductive"
+    ],
+    "placenta": [
+        "Female reproductive"
+    ],
+    "uterus": [
+        "Female reproductive"
+    ],
+    "vagina": [
+        "Female reproductive"
+    ],
+    "bileduct": [
+        "Gastrointestinal"
+    ],
+    "colon": [
+        "Gastrointestinal"
+    ],
+    "duodenum": [
+        "Gastrointestinal"
+    ],
+    "esophagus": [
+        "Gastrointestinal"
+    ],
+    "lleum": [
+        "Gastrointestinal"
+    ],
+    "jejunum": [
+        "Gastrointestinal"
+    ],
+    "rectum": [
+        "Gastrointestinal"
+    ],
+    "stomach": [
+        "Gastrointestinal"
+    ],
+    "leukocytes": [
+        "Immune"
+    ],
+    "lymphnode": [
+        "Immune"
+    ],
+    "spleen": [
+        "Immune"
+    ],
+    "thymus": [
+        "Immune"
+    ],
+    "prostate": [
+        "Male Reproductive",
+        "Male reproductive"
+    ],
+    "testis": [
+        "Male Reproductive"
+    ],
+    "epididymis": [
+        "Male Reproductive"
+    ],
+    "pns": [
+        "Neurosensory"
+    ],
+    "sns": [
+        "Neurosensory"
+    ],
+    "cns": [
+        "Neurosensory"
+    ],
+    "sensory": [
+        "Neurosensory"
+    ],
+    "lung": [
+        "Respiratory",
+        "Other"
+    ],
+    "bone": [
+        "Skeletal"
+    ],
+    "cartilage": [
+        "Skeletal"
+    ],
+    "adrenalgland": [
+        "Other"
+    ],
+    "bladder": [
+        "Other"
+    ],
+    "embryonictissue": [
+        "Other"
+    ],
+    "fibroblasts": [
+        "Other"
+    ],
+    "miscellaneous": [
+        "Other"
+    ],
+    "skin": [
+        "Other"
+    ],
+    "stemcells": [
+        "Other"
+    ]
+}

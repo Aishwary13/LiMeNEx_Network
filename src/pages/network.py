@@ -1,0 +1,29 @@
+from dash import html, dcc
+from components import console1,console2,console3
+
+root_dir = "D:/Raylab/LiMeNEx_Network"
+
+
+
+
+# print(type(lipids))
+layout = html.Div([
+    # dcc.Location(id="url", refresh=True),
+    dcc.Store(id="dummy-output-store"),
+    dcc.Store(id="graph-update-flag"),
+    # ===== HEADER BAR =====
+    html.Div([
+        html.H2("Lipid Network Explorer",
+                style={'color': 'white', 'margin': '0', 'padding': '0 20px', 'flex': '1', 'fontSize': '18px'}),
+    ],
+    style={
+        'display': 'flex', 'alignItems': 'center', 'justifyContent': 'space-between',
+        'backgroundColor': '#292929', 'padding': '8px', 'borderBottom': '1px solid #374152'
+    }),
+    
+    console1.console1_layout,
+    console2.console2_layout,
+    console3.console3_layout,
+    
+
+], style={'backgroundColor': "#1a1a1a", 'height': '100vh', 'overflow': 'auto'})

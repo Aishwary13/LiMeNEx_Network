@@ -1,0 +1,1352 @@
+{
+    "leukotriene-A4(LTA4)": [
+        "arachidonicMetabolism"
+    ],
+    "leukotriene-C4(LTC4)": [
+        "arachidonicMetabolism"
+    ],
+    "leukotriene-D4(LTD4)": [
+        "arachidonicMetabolism"
+    ],
+    "leukotriene-E4(LTE4)": [
+        "arachidonicMetabolism"
+    ],
+    "11-dehydro-TXB2": [
+        "arachidonicMetabolism"
+    ],
+    "11epi-PGF2alpha": [
+        "arachidonicMetabolism"
+    ],
+    "12,14,15-epoxyeicosatrienoic acid(12,14,15-EET)": [
+        "arachidonicMetabolism"
+    ],
+    "12R-hydroperoxy-eicosatetraenoic acid(12R-HpETE)": [
+        "arachidonicMetabolism"
+    ],
+    "12S-hydro-eicosatetraenoic acid(12S-HETE)": [
+        "arachidonicMetabolism"
+    ],
+    "12S-hydroperoxy-eicosatetraenoic acid(12S-HpETE)": [
+        "arachidonicMetabolism"
+    ],
+    "13,14-dihydro-15-keto-PGE2": [
+        "arachidonicMetabolism"
+    ],
+    "13,14-dihydro-15-keto-PGF2alpha": [
+        "arachidonicMetabolism"
+    ],
+    "15-keto-PGD2": [
+        "arachidonicMetabolism"
+    ],
+    "15-keto-PGE2": [
+        "arachidonicMetabolism"
+    ],
+    "15-keto-PGF2alpha": [
+        "arachidonicMetabolism"
+    ],
+    "15-oxo-eicosatetraenoic acid(15-oxoETE)": [
+        "arachidonicMetabolism"
+    ],
+    "15R-hydroxyeicosatetraenoic acid (15R-HETE)": [
+        "arachidonicMetabolism"
+    ],
+    "15S-hydroperoxyeicosatetraenoic acid(15S-HpETE)": [
+        "arachidonicMetabolism"
+    ],
+    "15S-hydroxyeicosatetraenoic acid(15S-HETE)": [
+        "arachidonicMetabolism"
+    ],
+    "15d-PGD2": [
+        "arachidonicMetabolism"
+    ],
+    "15d-PGJ2": [
+        "arachidonicMetabolism"
+    ],
+    "16-hydroxyeicosatetraenoic acids": [
+        "arachidonicMetabolism"
+    ],
+    "17-hydroxyeicosatetraenoic acids": [
+        "arachidonicMetabolism"
+    ],
+    "18-hydroxyeicosatetraenoic acids": [
+        "arachidonicMetabolism"
+    ],
+    "2-oxo-eicosatetraenoic acid(12-oxoETE)": [
+        "arachidonicMetabolism"
+    ],
+    "20-carboxy-leukotriene-B4 (LTB4)": [
+        "arachidonicMetabolism"
+    ],
+    "20-hydroxy-leukotriene-B4 (LTB4)": [
+        "arachidonicMetabolism"
+    ],
+    "5,6-epoxyeicosatrienoic acid(5,6-EET)": [
+        "arachidonicMetabolism"
+    ],
+    "5-hydroxyeicosatetraenoic acid(5-HETE)": [
+        "arachidonicMetabolism"
+    ],
+    "5-oxo-eicosatetraenoic acid(5-oxoETE)": [
+        "arachidonicMetabolism"
+    ],
+    "5S-hydroperoxyeicosatetranoic acid (5S-HpETE)": [
+        "arachidonicMetabolism"
+    ],
+    "6-keto-PGF1alpha": [
+        "arachidonicMetabolism"
+    ],
+    "8,9-epoxyeicosatrienoic acid(8,9-EET)": [
+        "arachidonicMetabolism"
+    ],
+    "PGA2": [
+        "arachidonicMetabolism"
+    ],
+    "PGB2": [
+        "arachidonicMetabolism"
+    ],
+    "PGC2": [
+        "arachidonicMetabolism"
+    ],
+    "PGD2": [
+        "arachidonicMetabolism"
+    ],
+    "PGE2": [
+        "arachidonicMetabolism"
+    ],
+    "PGF2alpha": [
+        "arachidonicMetabolism"
+    ],
+    "PGG2": [
+        "arachidonicMetabolism"
+    ],
+    "PGH2": [
+        "arachidonicMetabolism"
+    ],
+    "PGI2": [
+        "arachidonicMetabolism"
+    ],
+    "PGJ2": [
+        "arachidonicMetabolism"
+    ],
+    "TXA2": [
+        "arachidonicMetabolism"
+    ],
+    "TXB2": [
+        "arachidonicMetabolism"
+    ],
+    "anandamide": [
+        "arachidonicMetabolism"
+    ],
+    "arachidonic acid": [
+        "arachidonicMetabolism"
+    ],
+    "delta12-PGJ2": [
+        "arachidonicMetabolism"
+    ],
+    "dihydroxy-acid-leukotriene-B4 (LTB4)": [
+        "arachidonicMetabolism"
+    ],
+    "eoxin-A4(EXA4)": [
+        "arachidonicMetabolism"
+    ],
+    "eoxin-C4(EXC4)": [
+        "arachidonicMetabolism"
+    ],
+    "eoxin-D4(EXD4)": [
+        "arachidonicMetabolism"
+    ],
+    "eoxin-E4(EXE4)": [
+        "arachidonicMetabolism"
+    ],
+    "hepoxilin-A3": [
+        "arachidonicMetabolism"
+    ],
+    "Phosphatidylcholine": [
+        "arachidonicMetabolism",
+        "denovoSphingolipidSynthesis",
+        "glycerophospholipidSynthesis"
+    ],
+    "Fatty-Acyl-CoA": [
+        "betaOxidationFattyAcid",
+        "triglycerideSynthesis"
+    ],
+    "AcylCarnitine": [
+        "betaOxidationFattyAcid"
+    ],
+    "Palmitoyl CoA": [
+        "betaOxidationFattyAcid",
+        "carnitineMetabolism"
+    ],
+    "Trans-hexadecanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "3-Hydroxyhexadecanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "3-Oxopalmitoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Myristoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Trans-tetradex-2-enoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Dxotetradecanoyl-CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Lauroyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "2-trans-dodecenoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "3-Oxododexanonyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Decanoyl-CoA": [
+        "betaOxidationFattyAcid",
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Trans-dec-2-enoyl-CoA": [
+        "betaOxidationFattyAcid",
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxocanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Octaoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "3-trans-decenoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "2-trans-4-cis-decadienoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "4-cis-dexeboyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Trans,cis-lauro-2,6-dienoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "cis-cis-3,6-dodecadienoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Linoleoyl-CoA": [
+        "betaOxidationFattyAcid",
+        "omega3Metabolism",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Trans-oct-2-enoyl-CoA": [
+        "betaOxidationFattyAcid",
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Hydroxyoctanoyl-CoA": [
+        "betaOxidationFattyAcid",
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-octanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Hexanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Trans-hex-2-enoyl-CoA": [
+        "betaOxidationFattyAcid",
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-hexanoyl-CoA": [
+        "betaOxidationFattyAcid",
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Butanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Cronoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "3-Hydroxybutanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Acetoacetyl-CoA": [
+        "betaOxidationFattyAcid",
+        "cholesterolSynthesis",
+        "ketoneMetabolism"
+    ],
+    "Acetyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "-Hydrocyhexanoyl CoA": [
+        "betaOxidationFattyAcid"
+    ],
+    "Palmitoylcarnitine(L-PCARN)": [
+        "carnitineMetabolism"
+    ],
+    "Carnitine": [
+        "carnitineMetabolism",
+        "peroxisomalMetabolism"
+    ],
+    "Cholesterol": [
+        "cholesterolDegradation",
+        "cholesterolSynthesis",
+        "steroidHormoneSynthesis"
+    ],
+    "7alpha-cholesterol": [
+        "cholesterolDegradation"
+    ],
+    "4-cholesten-7alpha-ol-3-one": [
+        "cholesterolDegradation"
+    ],
+    "AKR1D1": [
+        "cholesterolDegradation"
+    ],
+    "AKR1C4": [
+        "cholesterolDegradation"
+    ],
+    "CYP27A1": [
+        "cholesterolDegradation"
+    ],
+    "24-hydroxycholesterol": [
+        "cholesterolDegradation"
+    ],
+    "Cholest-5-ene-3b,7a,24-triol": [
+        "cholesterolDegradation"
+    ],
+    "4-Cholesten-7a,24(S)-diol-3-one": [
+        "cholesterolDegradation"
+    ],
+    "4-Cholesten-7a,12a,24(S)-triol-3-one": [
+        "cholesterolDegradation"
+    ],
+    "5b-Cholesten-7a,12a,24(S)-triol-3-one": [
+        "cholesterolDegradation"
+    ],
+    "5b-Cholestan-7a,24(S)-diol-3-one": [
+        "cholesterolDegradation"
+    ],
+    "5b-Cholestan-3a,7a,12a,24(S)-tetrol": [
+        "cholesterolDegradation"
+    ],
+    "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al": [
+        "cholesterolDegradation"
+    ],
+    "5b-Cholestan-3a,7a,12a,24(S),27-pentol": [
+        "cholesterolDegradation"
+    ],
+    "5b-Cholestan-3a,7a,24(S),27-tetrol": [
+        "cholesterolDegradation"
+    ],
+    "5b-Cholestan-3a,7a,24(S)-triol": [
+        "cholesterolDegradation"
+    ],
+    "3a,7a,24(S)-Trihydroxy-5b-cholestanoate": [
+        "cholesterolDegradation"
+    ],
+    "Tetrahydroxy-5b-cholestanoate": [
+        "cholesterolDegradation"
+    ],
+    "Cholest-5-ene-3b,7a,25-triol": [
+        "cholesterolDegradation"
+    ],
+    "CYP7B1": [
+        "cholesterolDegradation"
+    ],
+    "2-Acetyl-CoA": [
+        "cholesterolSynthesis"
+    ],
+    "HMG-CoA": [
+        "cholesterolSynthesis",
+        "ketoneMetabolism"
+    ],
+    "Mevalonate(MVA)": [
+        "cholesterolSynthesis"
+    ],
+    "Mevalonate-5-phosphate(MVA5P)": [
+        "cholesterolSynthesis"
+    ],
+    "Mevalonate-5-pyrophosphate(MVA5PP)": [
+        "cholesterolSynthesis"
+    ],
+    "Isopentenyl-pyrophosphate(IPPP)": [
+        "cholesterolSynthesis"
+    ],
+    "Dimethylallyl-pyrophosphate(DMAPP)": [
+        "cholesterolSynthesis"
+    ],
+    "Farnesyl-pyrophosphate(FPP)": [
+        "cholesterolSynthesis"
+    ],
+    "Geranylgeranyl-pyrophosphate(GGPP)": [
+        "cholesterolSynthesis"
+    ],
+    "Presqualene-diphosphate(PSQPP)": [
+        "cholesterolSynthesis"
+    ],
+    "Presqualene-monophosphate(PSMP)": [
+        "cholesterolSynthesis"
+    ],
+    "Squalene(SQNE)": [
+        "cholesterolSynthesis"
+    ],
+    "Squalene-2,3-Epoxide": [
+        "cholesterolSynthesis"
+    ],
+    "Lanosterol": [
+        "cholesterolSynthesis"
+    ],
+    "24,25-Dihydrolanosterol(dhLAN)": [
+        "cholesterolSynthesis"
+    ],
+    "DMCHOLtrienol": [
+        "cholesterolSynthesis"
+    ],
+    "DMLAdienol": [
+        "cholesterolSynthesis"
+    ],
+    "4M4Cdienol": [
+        "cholesterolSynthesis"
+    ],
+    "4MCdienone": [
+        "cholesterolSynthesis"
+    ],
+    "4MCdienonol": [
+        "cholesterolSynthesis"
+    ],
+    "4CCdienonol": [
+        "cholesterolSynthesis"
+    ],
+    "Zymosterone": [
+        "cholesterolSynthesis"
+    ],
+    "Zymosterol": [
+        "cholesterolSynthesis"
+    ],
+    "Cholesta-7,24-dien-3\u03b2-ol": [
+        "cholesterolSynthesis"
+    ],
+    "Cholesta-5,7,24-trien-3\u03b2-ol": [
+        "cholesterolSynthesis"
+    ],
+    "Desmosterol": [
+        "cholesterolSynthesis"
+    ],
+    "Palmitoyl-CoA": [
+        "denovoSphingolipidSynthesis",
+        "saturatedFattyAcidsSynthesis",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Dihydroceramide(DHCE)": [
+        "denovoSphingolipidSynthesis"
+    ],
+    "3-Ketosphinganine": [
+        "denovoSphingolipidSynthesis"
+    ],
+    "Sphinganine": [
+        "denovoSphingolipidSynthesis"
+    ],
+    "Acyl-CoA": [
+        "denovoSphingolipidSynthesis"
+    ],
+    "Ceramide": [
+        "denovoSphingolipidSynthesis",
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis",
+        "sphingolipidDegradation"
+    ],
+    "Sphingomyelin": [
+        "denovoSphingolipidSynthesis",
+        "glycosphingolipidDegradation"
+    ],
+    "GroPIns(1-(sn-glycero-3-O-phosphonato)-1D-myo-inositol)": [
+        "glycerophospholipidDegradation"
+    ],
+    "Glycerol-3-phosphate(G3P)": [
+        "glycerophospholipidDegradation"
+    ],
+    "Lysophosphatidylcholine(LPC)": [
+        "glycerophospholipidDegradation",
+        "glycerophospholipidSynthesis"
+    ],
+    "Glycerophosphocholine(GPC)": [
+        "glycerophospholipidDegradation"
+    ],
+    "Choline": [
+        "glycerophospholipidDegradation",
+        "glycerophospholipidSynthesis"
+    ],
+    "2-acyl-Lysophosphatidic-acid": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphatidic-acid(PA)": [
+        "glycerophospholipidSynthesis",
+        "triglycerideSynthesis"
+    ],
+    "Cardiolipin": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Triacylglycerol": [
+        "glycerophospholipidSynthesis",
+        "triglycerideDegradation",
+        "triglycerideSynthesis"
+    ],
+    "Diacylglycerol(DAG)": [
+        "glycerophospholipidSynthesis",
+        "triglycerideDegradation",
+        "triglycerideSynthesis"
+    ],
+    "Monoacylglycerol": [
+        "glycerophospholipidSynthesis",
+        "triglycerideDegradation",
+        "triglycerideSynthesis"
+    ],
+    "Glycerol": [
+        "glycerophospholipidSynthesis",
+        "lipoproteinMetabolism",
+        "triglycerideDegradation",
+        "triglycerideSynthesis"
+    ],
+    "Fatty-Acids": [
+        "glycerophospholipidSynthesis",
+        "lipoproteinMetabolism",
+        "triglycerideDegradation"
+    ],
+    "Ethanolamine(ETA)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphoethanolamine (PETA)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "CDP-ethanolamine (CDP-ETA)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphatidylethanolamine": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Glycerophosphoethanolamine(GPETA)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Glycerol-3-phosphate": [
+        "glycerophospholipidSynthesis",
+        "triglycerideSynthesis"
+    ],
+    "Acetylcholine": [
+        "glycerophospholipidSynthesis"
+    ],
+    "CDP-choline": [
+        "glycerophospholipidSynthesis"
+    ],
+    "1-acylglycerophosphocholine(AGPC)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Glycerophosphocholine(GPCho)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphatidylserine(PS)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Lysophosphatidylserine (LPS)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphatidylinositol(PI)": [
+        "glycerophospholipidSynthesis",
+        "phosphoinositolSynthesis"
+    ],
+    "Lysophosphatidylinositol(LPI)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Cytidine-diphosphate-diacylglycerol(CDP-DAG)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphatidylglycerophosphate(PGP)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphatidylglycerol": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Lysophosphatidylglycerol(LPG)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Monolysocardiolipin (MLCL)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Dilysocardiolipin (DLCL)": [
+        "glycerophospholipidSynthesis"
+    ],
+    "Phosphocholine": [
+        "glycerophospholipidSynthesis",
+        "glycosphingolipidDegradation"
+    ],
+    "Ganglioside(GM1)": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GM2)": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GM3)": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "N-acetylgalactosamine(GalNAc)": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "Lactosylceramide(LacCer)": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "Globotetraosylceramide": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "Globotriaosylceramide": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "Galactose": [
+        "glycosphingolipidDegradation"
+    ],
+    "Sulfated-Glycosphingolipid(SM2)": [
+        "glycosphingolipidDegradation"
+    ],
+    "Sulfated-Glycosphingolipid(SM3)": [
+        "glycosphingolipidDegradation"
+    ],
+    "Galactocerebroside-(GalCer)": [
+        "glycosphingolipidDegradation",
+        "glycosphingolipidSynthesis"
+    ],
+    "Digalactosylceramide(Gal2Cer)": [
+        "glycosphingolipidDegradation"
+    ],
+    "\u03b2-Galactosylceramide": [
+        "glycosphingolipidDegradation"
+    ],
+    "Sphingosine": [
+        "glycosphingolipidDegradation",
+        "sphingolipidDegradation"
+    ],
+    "Free-Fatty-acid(FFA)": [
+        "glycosphingolipidDegradation",
+        "sphingolipidDegradation"
+    ],
+    "UDP-galactose(UDP-Gal)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Phosphoadenylylsulfate(PAPS)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Sulfogalactoceramide": [
+        "glycosphingolipidSynthesis"
+    ],
+    "UDP-Glucose(UDP-Glu)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GD2)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GA2)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GD1B)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GA1)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GD1A)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "CMP-Neu5Ac": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GM1B)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GT1A)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GD1C)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GT1B)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GQ1B)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside-GD1alpha(GD1\u03b1)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "GDP-fucose": [
+        "glycosphingolipidSynthesis"
+    ],
+    "FucGA1": [
+        "glycosphingolipidSynthesis"
+    ],
+    "UDP-alpha-D-galactose": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Lactotriaosylceramide(Lc3Cer)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Ganglioside(GM4)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "Glucosylceramide(GlcCer)": [
+        "glycosphingolipidSynthesis"
+    ],
+    "FucGM1": [
+        "glycosphingolipidSynthesis"
+    ],
+    "CERA-d18": [
+        "glycosphingolipidSynthesis"
+    ],
+    "3-Hydroxybutyrate(3HBA)": [
+        "ketoneMetabolism"
+    ],
+    "Acetoacetate(ACA)": [
+        "ketoneMetabolism"
+    ],
+    "Acetate": [
+        "ketoneMetabolism"
+    ],
+    "Acetyl-CoA": [
+        "ketoneMetabolism",
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "bHMG-CoA": [
+        "ketoneMetabolism"
+    ],
+    "D-beta-hydroxybutyrate": [
+        "ketoneMetabolism"
+    ],
+    "Succinyl-CoA": [
+        "ketoneMetabolism"
+    ],
+    "Succinate": [
+        "ketoneMetabolism"
+    ],
+    "Mature-HDL(CE+PL)": [
+        "lipoproteinMetabolism"
+    ],
+    "VLDL(PL+CE)": [
+        "lipoproteinMetabolism"
+    ],
+    "VLDL(PL+TG)": [
+        "lipoproteinMetabolism"
+    ],
+    "Phospholipids": [
+        "lipoproteinMetabolism"
+    ],
+    "Triglycerides": [
+        "lipoproteinMetabolism"
+    ],
+    "Lysophospholipids": [
+        "lipoproteinMetabolism"
+    ],
+    "VLDL(TG)": [
+        "lipoproteinMetabolism"
+    ],
+    "Free-choelsterol(FC)": [
+        "lipoproteinMetabolism"
+    ],
+    "Cholesteryl-ester(CE)": [
+        "lipoproteinMetabolism"
+    ],
+    "IDL(TG)": [
+        "lipoproteinMetabolism"
+    ],
+    "LDL(CE+PL+FC)": [
+        "lipoproteinMetabolism"
+    ],
+    "Dietary-Triglycerides": [
+        "lipoproteinMetabolism"
+    ],
+    "HDL(PL+TG)": [
+        "lipoproteinMetabolism"
+    ],
+    "Monoglycerides": [
+        "lipoproteinMetabolism"
+    ],
+    "Nascent-Chylomicrons": [
+        "lipoproteinMetabolism"
+    ],
+    "Chylomicron-remnants(CE)": [
+        "lipoproteinMetabolism"
+    ],
+    "Nascent-VLDL": [
+        "lipoproteinMetabolism"
+    ],
+    "Nascent-HDL(FC)": [
+        "lipoproteinMetabolism"
+    ],
+    "Alpha-Linolenic-Acid": [
+        "omega3Metabolism",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Alpha-Linolenoyl-CoA": [
+        "omega3Metabolism",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Stearidonoyl-CoA": [
+        "omega3Metabolism",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Eicosatetraenoyl-CoA(ETA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "Eicosapentaenoyl-CoA (EPA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "Docosapentaenoyl-CoA(DPA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "tetracosapentaenoyl-CoA(TPA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "Delta2-tetracosaheptaenoyl(THA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "Tetracosahexaenoyl-CoA(THA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "1-3-hydroxy-tetracosahexaenoyl-CoA": [
+        "omega3Metabolism"
+    ],
+    "1-3-oxo-tetracosahexaenoyl-CoA": [
+        "omega3Metabolism"
+    ],
+    "Docosahexaenoyl-CoA": [
+        "omega3Metabolism",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Linoleic-Acid": [
+        "omega3Metabolism",
+        "oxylipinBiosynthesis",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Gamma-Linolenoyl-CoA": [
+        "omega3Metabolism",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Dihomo-Gamma-Linolenoyl-CoA": [
+        "omega3Metabolism"
+    ],
+    "Arachidonoyl-CoA(AA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "Docosatetraenoyl-CoA(DTA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "Tetracosatetraenoyl-CoA(TTA-CoA)": [
+        "omega3Metabolism"
+    ],
+    "9-Hydroxyoctadecadienoic-acid(9-HODE)": [
+        "oxylipinBiosynthesis"
+    ],
+    "13-Hydroxyoctadecadienoic-acid(13-HODE)": [
+        "oxylipinBiosynthesis"
+    ],
+    "11-Hydroxyoctadecadienoic-acid(11-HODE)": [
+        "oxylipinBiosynthesis"
+    ],
+    "17-Hydroxyoctadecadienoic-acid(17-HODE)": [
+        "oxylipinBiosynthesis"
+    ],
+    "18-Hydroxyoctadecadienoic-acid(18-HODE)": [
+        "oxylipinBiosynthesis"
+    ],
+    "16-Hydroxyoctadecadienoic-acid(16-HODE)": [
+        "oxylipinBiosynthesis"
+    ],
+    "9-hpODE": [
+        "oxylipinBiosynthesis"
+    ],
+    "13-hpODE": [
+        "oxylipinBiosynthesis"
+    ],
+    "9(10)-EpOME": [
+        "oxylipinBiosynthesis"
+    ],
+    "12(13)-EpOME": [
+        "oxylipinBiosynthesis"
+    ],
+    "9-OH-12,13-EpOME": [
+        "oxylipinBiosynthesis"
+    ],
+    "11-OH-12,13-EpOME": [
+        "oxylipinBiosynthesis"
+    ],
+    "Phytanate": [
+        "peroxisomalMetabolism"
+    ],
+    "Phytanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "2E-phytenoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "2-hydroxyphytanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "Formyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "Pristanate": [
+        "peroxisomalMetabolism"
+    ],
+    "2R-Pristanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "2S-Pristanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "Trans-2,3-dehydropristanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "3-hydroxypristanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "3-Ketoxypristanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "4,8,12-trimethyltridecanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "Propionyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "4,8-dimethylnonanoyl-CoA": [
+        "peroxisomalMetabolism"
+    ],
+    "4,8-dimethylnonanoylcarnitine": [
+        "peroxisomalMetabolism"
+    ],
+    "Propionylcarnitine": [
+        "peroxisomalMetabolism"
+    ],
+    "Pristanal": [
+        "peroxisomalMetabolism"
+    ],
+    "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2": [
+        "phosphoinositolSynthesis"
+    ],
+    "Phosphatidylinosito-l3-phosphate(PI3P)": [
+        "phosphoinositolSynthesis"
+    ],
+    "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)": [
+        "phosphoinositolSynthesis"
+    ],
+    "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)": [
+        "phosphoinositolSynthesis"
+    ],
+    "Phosphatidylinosito-l4-phosphate(PI4P)": [
+        "phosphoinositolSynthesis"
+    ],
+    "Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)": [
+        "phosphoinositolSynthesis"
+    ],
+    "Phosphatidylinosito-l5-phosphate(PI5P)": [
+        "phosphoinositolSynthesis"
+    ],
+    "citrate": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Acetyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Malonyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Acetoacetyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Butyryl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Palmitoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Malonyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-hydroxy-butanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "But-2-enoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxohexanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-hydroxy-hexanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-hex-2-enoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Hexanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxooctanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-hydroxy-octanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-oct-2-enoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Octanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Octanoic Acid": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxodecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-hydroxy-decanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-dec-2-enoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Decanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Decanoic Acid": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-dodecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-dodec-2-enoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Dodecanoic Acid": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-tetradecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Tetradecanoic Acid": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxohexadecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-hydroxy-hexadecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-hexadec-2-enoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Palmitic-Acid": [
+        "saturatedFattyAcidsSynthesis",
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Tetradecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-hydroxy-dodecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Dodecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-tetradec-2-enoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-hydroxy-tetradecanoyl-ACP": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Butanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Hydroxyhexanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Hexanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-octanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Octanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-decanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Hydroxydecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-dodecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Hydroxydodecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-dodec-2-enoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Dodecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-tetra-decanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Hydroxytetradecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-tetradec-2-enoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "tetradecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Oxo-hexadecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "3-Hydroxy-hexadecanoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "trans-hexadec-2-enoyl-CoA": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Palmitate": [
+        "saturatedFattyAcidsSynthesis"
+    ],
+    "Phytoceramide(PCE)": [
+        "sphingolipidDegradation"
+    ],
+    "Phytosphingosine": [
+        "sphingolipidDegradation"
+    ],
+    "Sphingosine-1-phosphate(S1P)": [
+        "sphingolipidDegradation"
+    ],
+    "Phosphoethanolamine(PE)": [
+        "sphingolipidDegradation"
+    ],
+    "20a,22b-Dihydroxycholesterol": [
+        "steroidHormoneSynthesis"
+    ],
+    "Pregnenolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Isocaproaldehyde": [
+        "steroidHormoneSynthesis"
+    ],
+    "17a,20a-Dihydroxycholesterol": [
+        "steroidHormoneSynthesis"
+    ],
+    "20a-Hydroxycholesterol": [
+        "steroidHormoneSynthesis"
+    ],
+    "22b-Hydroxycholesterol": [
+        "steroidHormoneSynthesis"
+    ],
+    "21-Hydroxypregnenolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "11-Deoxycorticosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "7a-Hydroxypregnenolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Progesterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "17a-Hydroxypregnenolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "17a-Hydroxyprogesterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "17a,21-Dihydroxypregnenolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "11-Deoxycortisol": [
+        "steroidHormoneSynthesis"
+    ],
+    "11b,17a,21-Trihydroxypregnenolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Corticosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "11beta-Hydroxyprogesterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "21-Deoxycortisol": [
+        "steroidHormoneSynthesis"
+    ],
+    "Cortisol": [
+        "steroidHormoneSynthesis"
+    ],
+    "Cortisone": [
+        "steroidHormoneSynthesis"
+    ],
+    "11-Dehydrocorticosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "18-Hydroxycorticosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Aldosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "5b-Pregnane-3,20-dione": [
+        "steroidHormoneSynthesis"
+    ],
+    "Pregnanolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "5a-Pregnane-3,20-dione": [
+        "steroidHormoneSynthesis"
+    ],
+    "Allopregnanolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Allopregnane-3a,20a-diol": [
+        "steroidHormoneSynthesis"
+    ],
+    "Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione": [
+        "steroidHormoneSynthesis"
+    ],
+    "17a-Hydroxyallopregnanolone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Androstenedione": [
+        "steroidHormoneSynthesis"
+    ],
+    "Testosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "4-Androsten-11b-ol-3,17-dione": [
+        "steroidHormoneSynthesis"
+    ],
+    "Adrenosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "19-Hydroxyandrostenedione": [
+        "steroidHormoneSynthesis"
+    ],
+    "19-Oxoandrostenedione": [
+        "steroidHormoneSynthesis"
+    ],
+    "Estrone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Androsterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Dihydrotestosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "19-Hydroxytestosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "19-Oxotestosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Estradiol": [
+        "steroidHormoneSynthesis"
+    ],
+    "Dehydroepiandrosterone": [
+        "steroidHormoneSynthesis"
+    ],
+    "Acyl-dihydroxyacetone-phosphate": [
+        "triglycerideSynthesis"
+    ],
+    "Lysophosphatidic-acid(LPA)": [
+        "triglycerideSynthesis"
+    ],
+    "Dihydroxy-acetone-phosphate(DHAP)": [
+        "triglycerideSynthesis"
+    ],
+    "Docosahexaenoic-acid": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "8,11,14-Eicosatrienoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Dihomo-gamma-linolenic-acid": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Arachidonic-acid": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Stearoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Stearic-acid": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Arachidic-acid": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Oleoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Oleic-acid": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Sapienoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "6Z,9Z-Octadecadienoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Arachidoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Docosanoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Tetracosanoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Cerotoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Montanoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Icosenoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Ximenoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "(8Z,11Z)-Icosadienoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "(5Z,8Z,11Z)-Icosatrienoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "(11Z,14Z,17Z)-Icosatrienoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "(8Z,11Z,14Z,17Z)-Icosatetraenoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "(5Z,8Z,11Z,14Z,17Z)-Icosapentaenoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "(7Z,10Z,13Z,16Z,19Z)-Docosapentaenoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "(11Z,14Z)-Icosadienoyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ],
+    "Arachidonyl-CoA": [
+        "unsaturatedFattyAcidsSynthesis"
+    ]
+}

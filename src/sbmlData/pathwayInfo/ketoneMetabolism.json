@@ -1,0 +1,235 @@
+{
+  "nodes": {
+    "3-Hydroxybutyrate(3HBA)": {
+      "id": "s1",
+      "class": "lipidMetabolite;first"
+    },
+    "Acetoacetate(ACA)": {
+      "id": "s2",
+      "class": "lipidMetabolite"
+    },
+    "BDH2": {
+      "id": "s3",
+      "class": "enzymaticGene"
+    },
+    "Acetoacetyl-CoA": {
+      "id": "s4",
+      "class": "lipidMetabolite"
+    },
+    "AACS": {
+      "id": "s5",
+      "class": "enzymaticGene"
+    },
+    "Acetate": {
+      "id": "s6",
+      "class": "lipidMetabolite"
+    },
+    "Acetyl-CoA": {
+      "id": "s7",
+      "class": "lipidMetabolite"
+    },
+    "ACSS3": {
+      "id": "s8",
+      "class": "enzymaticGene"
+    },
+    "ACAT1": {
+      "id": "s9",
+      "class": "enzymaticGene"
+    },
+    "HMG-CoA": {
+      "id": "s10",
+      "class": "lipidMetabolite"
+    },
+    "HMGCS2": {
+      "id": "s11",
+      "class": "enzymaticGene"
+    },
+    "HMGCL": {
+      "id": "s12",
+      "class": "enzymaticGene"
+    },
+    "bHMG-CoA": {
+      "id": "s13",
+      "class": "lipidMetabolite"
+    },
+    "D-beta-hydroxybutyrate": {
+      "id": "s14",
+      "class": "nonlipidMetabolite"
+    },
+    "BDH1": {
+      "id": "s15",
+      "class": "enzymaticGene"
+    },
+    "Succinyl-CoA": {
+      "id": "s16",
+      "class": "nonlipidMetabolite"
+    },
+    "Succinate": {
+      "id": "s17",
+      "class": "nonlipidMetabolite"
+    },
+    "OXCT1": {
+      "id": "s18",
+      "class": "enzymaticGene"
+    }
+  },
+  "reactions": {
+    "r=3-hydroxybutyrate(3hba);p=acetoacetate(aca);g=bdh2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "3-Hydroxybutyrate(3HBA)"
+      ],
+      "productList": [
+        "Acetoacetate(ACA)"
+      ],
+      "geneList": [
+        "BDH2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=acetoacetate(aca);p=acetoacetyl-coa;g=aacs": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "activation",
+      "reactantList": [
+        "Acetoacetate(ACA)"
+      ],
+      "productList": [
+        "Acetoacetyl-CoA"
+      ],
+      "geneList": [
+        "AACS"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=acetate;p=acetyl-coa;g=acss3": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "activation",
+      "reactantList": [
+        "Acetate"
+      ],
+      "productList": [
+        "Acetyl-CoA"
+      ],
+      "geneList": [
+        "ACSS3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=acetyl-coa;p=acetoacetyl-coa;g=acat1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "condensation",
+      "reactantList": [
+        "Acetyl-CoA"
+      ],
+      "productList": [
+        "Acetoacetyl-CoA"
+      ],
+      "geneList": [
+        "ACAT1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=acetoacetyl-coa|acetyl-coa;p=hmg-coa;g=hmgcs2": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "condensation",
+      "reactantList": [
+        "Acetoacetyl-CoA",
+        "Acetyl-CoA"
+      ],
+      "productList": [
+        "HMG-CoA"
+      ],
+      "geneList": [
+        "HMGCS2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=hmg-coa;p=acetyl-coa|acetoacetate(aca);g=hmgcl": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "cleavage",
+      "reactantList": [
+        "HMG-CoA"
+      ],
+      "productList": [
+        "Acetyl-CoA",
+        "Acetoacetate(ACA)"
+      ],
+      "geneList": [
+        "HMGCL"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=bhmg-coa;p=acetoacetate(aca)|acetyl-coa;g=hmgcl": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "cleavage",
+      "reactantList": [
+        "bHMG-CoA"
+      ],
+      "productList": [
+        "Acetoacetate(ACA)",
+        "Acetyl-CoA"
+      ],
+      "geneList": [
+        "HMGCL"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=acetoacetate(aca);p=d-beta-hydroxybutyrate;g=bdh1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "Acetoacetate(ACA)"
+      ],
+      "productList": [
+        "D-beta-hydroxybutyrate"
+      ],
+      "geneList": [
+        "BDH1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=acetoacetate(aca)|succinyl-coa;p=succinate;g=oxct1": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "Acetoacetate(ACA)",
+        "Succinyl-CoA"
+      ],
+      "productList": [
+        "Succinate"
+      ],
+      "geneList": [
+        "OXCT1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    }
+  }
+}

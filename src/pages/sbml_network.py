@@ -6,14 +6,12 @@ from dash import dcc, html, Input, Output, State, dash_table, callback
 import dash_cytoscape as cyto
 import json
 import os
-from pages.css import ex_stylesheet,legend_stylesheet
+from utils.css import ex_stylesheet,legend_stylesheet
 from itertools import chain
 from dash_extensions import EventListener
-# import diskcache
-# from dash.long_callback import DiskcacheLongCallbackManager
 import io
 
-dataBasePath= 'D:/Raylab/LiMeNEx/sbmlData'
+dataBasePath= 'D:/Raylab/LiMeNEx_Network/src/sbmlData'
 
 ns = {'celldesigner': 'http://www.sbml.org/2001/ns/celldesigner', '': 'http://www.sbml.org/sbml/level2/version4',
         'html': 'http://www.w3.org/1999/xhtml'}
@@ -63,9 +61,6 @@ def parseReaction(rx,idToName):
         'geneList' : geneList,
         'geneModifierType' : geneModifierType
     }
-
-
-
 
 def readSbml(fileName,finalNodes,finalNodeSet,finalEdges,reactionNum):
 
@@ -279,86 +274,6 @@ def update_pathway_selection(selected_values):
         all_pathway_values = list(pathwayDropdownOptions.values())
         return all_pathway_values
     return selected_values
-
-
-# @long_callback(
-#     Output('cytoscape', 'elements',allow_duplicate=True),
-#     Output('cytoscape','stylesheet', allow_duplicate=True),
-#     Output('followers-node-store','data'),
-#     Output('followers-edge-store','data'),
-#     Output('dataframe-store','data'),
-#     Input('fetchPathwaysButton','n_clicks'),
-#     State('pathwayDropdownOptions', 'value'),
-#     State('cytoscape','stylesheet'),
-#     running=[
-#         (
-#             Output("progress-container", "style"),
-#             {"display": "block","value" : '0','max' : '10',"position":"fixed","top":"0","left":"0","zIndex" : '1002', "width": "100vw", "height": "100vh",  "background": "rgba(0, 0, 0, 0.5)", "backdrop-filter": "blur(5px)"},
-#             {"display": "none"},
-#         )
-#     ],
-#     progress=[Output("progress-bar", "value"), Output("progress-bar", "max")],
-#     prevent_initial_call = True
-# )
-# def handlePathwaySelection(set_progress,n_clicks,optionList,stylesheet):
-#     if optionList is None:
-#         return [], stylesheet,{},{},{}
-
-#     if len(optionList) != 0:
-#         set_progress(('0','10'))
-
-#         followers_edges_di = {}
-#         followers_node_di = {}
-
-#         finalNodes = []
-#         finalEdges = []
-#         finalNodeSet = set()
-#         finalReactionList = []
-#         reactionNum = 1
-
-#         total_files = len(optionList)
-#         try:
-#             inc = 10/total_files
-#         except:
-#             set_progress(('10','10'))
-#         # init = 0
-
-#         dfList = []
-#         for i,fileName in enumerate(optionList):
-#             filePathSbml = os.path.join(dataBasePath,'networkFile',f"{fileName}.xml")
-#             filePathTf = os.path.join(dataBasePath,'pathwayTfs',f"{fileName}.csv")
-#             readSbml(filePath=filePathSbml,finalNodes=finalNodes,finalNodeSet=finalNodeSet,finalEdges=finalEdges, reactionNum=reactionNum)
-            
-#             if os.path.exists(filePathTf):
-#                 temp = pd.read_csv(filePathTf)
-#                 dfList.append(temp)
-
-#         df = pd.DataFrame()
-
-#         if len(dfList) != 0:
-#             df = pd.concat(dfList, ignore_index=True)
-
-#             # adding display stylesheet for each tissue
-#             uniqueTissue = df['Tissue'].unique()
-#             for tis in uniqueTissue:
-#                 stylesheet.extend([{
-#                     "selector" : f".{tis}_T",
-#                     "style" : {"display" : "element"}
-#                 }])
-            
-#             for progress in readMapping(df=df,finalNodes=finalNodes,finalEdges=finalEdges, finalNodeSet=finalNodeSet,followers_node_di=followers_node_di,followers_edges_di=followers_edges_di):
-#                 set_progress((progress,'10'))
-
-#         # print(followers_edges_di)
-#         dataframe_json = df.to_json(orient='split')
-#         return finalNodes+finalEdges, stylesheet,followers_node_di,followers_edges_di,dataframe_json
-#     else:
-#         new_stylesheet = []
-#         for style in stylesheet:
-#             if 'T_' != style.get('selector')[-1:-3:-1]:
-#                 new_stylesheet.append(style)
-
-#         return [], new_stylesheet,{},{},{}
 
 @callback(
     Output("cytoscape", "stylesheet", allow_duplicate=True),
@@ -806,7 +721,7 @@ layout = html.Div([
                         ],
                         multi=True,
                         maxHeight=300,
-                        optionHeight= 30,
+                        optionHeight= 30, 
                         placeholder="Select one or more pathways",
                         style={
                             'width': '100%',  # Adjust width to make space for the button

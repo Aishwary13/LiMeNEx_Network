@@ -1,0 +1,1315 @@
+{
+  "nodes": {
+    "leukotriene-A4(LTA4)": {
+      "id": "s41",
+      "class": "lipidMetabolite"
+    },
+    "leukotriene-C4(LTC4)": {
+      "id": "s48",
+      "class": "lipidMetabolite"
+    },
+    "leukotriene-D4(LTD4)": {
+      "id": "s50",
+      "class": "lipidMetabolite"
+    },
+    "leukotriene-E4(LTE4)": {
+      "id": "s53",
+      "class": "lipidMetabolite"
+    },
+    "11-dehydro-TXB2": {
+      "id": "s38",
+      "class": "lipidMetabolite"
+    },
+    "11epi-PGF2alpha": {
+      "id": "s30",
+      "class": "lipidMetabolite"
+    },
+    "12,14,15-epoxyeicosatrienoic acid(12,14,15-EET)": {
+      "id": "s87",
+      "class": "lipidMetabolite"
+    },
+    "12R-hydroperoxy-eicosatetraenoic acid(12R-HpETE)": {
+      "id": "s71",
+      "class": "lipidMetabolite"
+    },
+    "12S-hydro-eicosatetraenoic acid(12S-HETE)": {
+      "id": "s76",
+      "class": "lipidMetabolite"
+    },
+    "12S-hydroperoxy-eicosatetraenoic acid(12S-HpETE)": {
+      "id": "s74",
+      "class": "lipidMetabolite"
+    },
+    "13,14-dihydro-15-keto-PGE2": {
+      "id": "s23",
+      "class": "lipidMetabolite"
+    },
+    "13,14-dihydro-15-keto-PGF2alpha": {
+      "id": "s15",
+      "class": "lipidMetabolite"
+    },
+    "15-keto-PGD2": {
+      "id": "s32",
+      "class": "lipidMetabolite"
+    },
+    "15-keto-PGE2": {
+      "id": "s22",
+      "class": "lipidMetabolite"
+    },
+    "15-keto-PGF2alpha": {
+      "id": "s14",
+      "class": "lipidMetabolite"
+    },
+    "15-oxo-eicosatetraenoic acid(15-oxoETE)": {
+      "id": "s67",
+      "class": "lipidMetabolite"
+    },
+    "15R-hydroxyeicosatetraenoic acid (15R-HETE)": {
+      "id": "s68",
+      "class": "lipidMetabolite"
+    },
+    "15S-hydroperoxyeicosatetraenoic acid(15S-HpETE)": {
+      "id": "s64",
+      "class": "lipidMetabolite"
+    },
+    "15S-hydroxyeicosatetraenoic acid(15S-HETE)": {
+      "id": "s65",
+      "class": "lipidMetabolite"
+    },
+    "15d-PGD2": {
+      "id": "s29",
+      "class": "lipidMetabolite"
+    },
+    "15d-PGJ2": {
+      "id": "s28",
+      "class": "lipidMetabolite"
+    },
+    "16-hydroxyeicosatetraenoic acids": {
+      "id": "s78",
+      "class": "lipidMetabolite"
+    },
+    "17-hydroxyeicosatetraenoic acids": {
+      "id": "s79",
+      "class": "lipidMetabolite"
+    },
+    "18-hydroxyeicosatetraenoic acids": {
+      "id": "s80",
+      "class": "lipidMetabolite"
+    },
+    "2-oxo-eicosatetraenoic acid(12-oxoETE)": {
+      "id": "s77",
+      "class": "lipidMetabolite"
+    },
+    "20-carboxy-leukotriene-B4 (LTB4)": {
+      "id": "s46",
+      "class": "lipidMetabolite"
+    },
+    "20-hydroxy-leukotriene-B4 (LTB4)": {
+      "id": "s44",
+      "class": "lipidMetabolite"
+    },
+    "5,6-epoxyeicosatrienoic acid(5,6-EET)": {
+      "id": "s84",
+      "class": "lipidMetabolite"
+    },
+    "5-hydroxyeicosatetraenoic acid(5-HETE)": {
+      "id": "s61",
+      "class": "lipidMetabolite"
+    },
+    "5-oxo-eicosatetraenoic acid(5-oxoETE)": {
+      "id": "s63",
+      "class": "lipidMetabolite"
+    },
+    "5S-hydroperoxyeicosatetranoic acid (5S-HpETE)": {
+      "id": "s39",
+      "class": "lipidMetabolite"
+    },
+    "6-keto-PGF1alpha": {
+      "id": "s36",
+      "class": "lipidMetabolite"
+    },
+    "8,9-epoxyeicosatrienoic acid(8,9-EET)": {
+      "id": "s86",
+      "class": "lipidMetabolite"
+    },
+    "AKR1C3": {
+      "id": "s11",
+      "class": "enzymaticGene"
+    },
+    "ALOX12": {
+      "id": "s75",
+      "class": "enzymaticGene"
+    },
+    "ALOX12B": {
+      "id": "s69",
+      "class": "enzymaticGene"
+    },
+    "ALOX15": {
+      "id": "s57",
+      "class": "enzymaticGene"
+    },
+    "ALOX5": {
+      "id": "s40",
+      "class": "enzymaticGene"
+    },
+    "ALOXE3": {
+      "id": "s73",
+      "class": "enzymaticGene"
+    },
+    "CBR1": {
+      "id": "s18",
+      "class": "enzymaticGene"
+    },
+    "COX1": {
+      "id": "s7",
+      "class": "enzymaticGene"
+    },
+    "COX2": {
+      "id": "s9",
+      "class": "enzymaticGene"
+    },
+    "CYP1A1": {
+      "id": "s81",
+      "class": "enzymaticGene"
+    },
+    "CYP1A2": {
+      "id": "s82",
+      "class": "enzymaticGene"
+    },
+    "CYP1B1": {
+      "id": "s83",
+      "class": "enzymaticGene"
+    },
+    "CYP2J2": {
+      "id": "s85",
+      "class": "enzymaticGene"
+    },
+    "CYP4F2": {
+      "id": "s45",
+      "class": "enzymaticGene"
+    },
+    "DPEP1": {
+      "id": "s54",
+      "class": "enzymaticGene"
+    },
+    "DPEP2": {
+      "id": "s55",
+      "class": "enzymaticGene"
+    },
+    "FAAH": {
+      "id": "s5",
+      "class": "enzymaticGene"
+    },
+    "GGT1": {
+      "id": "s51",
+      "class": "enzymaticGene"
+    },
+    "GGT5": {
+      "id": "s52",
+      "class": "enzymaticGene"
+    },
+    "GPX1": {
+      "id": "s62",
+      "class": "enzymaticGene"
+    },
+    "GPX2": {
+      "id": "s66",
+      "class": "enzymaticGene"
+    },
+    "HPGD": {
+      "id": "s31",
+      "class": "enzymaticGene"
+    },
+    "LTA4H": {
+      "id": "s43",
+      "class": "enzymaticGene"
+    },
+    "LTC4S": {
+      "id": "s49",
+      "class": "enzymaticGene"
+    },
+    "PGA2": {
+      "id": "s19",
+      "class": "lipidMetabolite"
+    },
+    "PGB2": {
+      "id": "s20",
+      "class": "lipidMetabolite"
+    },
+    "PGC2": {
+      "id": "s21",
+      "class": "lipidMetabolite"
+    },
+    "PGD2": {
+      "id": "s24",
+      "class": "lipidMetabolite"
+    },
+    "PGE2": {
+      "id": "s16",
+      "class": "lipidMetabolite"
+    },
+    "PGF2alpha": {
+      "id": "s10",
+      "class": "lipidMetabolite"
+    },
+    "PGG2": {
+      "id": "s6",
+      "class": "lipidMetabolite"
+    },
+    "PGH2": {
+      "id": "s8",
+      "class": "lipidMetabolite"
+    },
+    "PGI2": {
+      "id": "s34",
+      "class": "lipidMetabolite"
+    },
+    "PGJ2": {
+      "id": "s26",
+      "class": "lipidMetabolite"
+    },
+    "PLA2G4A": {
+      "id": "s3",
+      "class": "enzymaticGene"
+    },
+    "PTGDS": {
+      "id": "s25",
+      "class": "enzymaticGene"
+    },
+    "PTGES": {
+      "id": "s17",
+      "class": "enzymaticGene"
+    },
+    "PTGIS": {
+      "id": "s35",
+      "class": "enzymaticGene"
+    },
+    "PTGR2": {
+      "id": "s33",
+      "class": "enzymaticGene"
+    },
+    "TBXAS1": {
+      "id": "s13",
+      "class": "enzymaticGene"
+    },
+    "TXA2": {
+      "id": "s12",
+      "class": "lipidMetabolite"
+    },
+    "TXB2": {
+      "id": "s37",
+      "class": "lipidMetabolite"
+    },
+    "anandamide": {
+      "id": "s4",
+      "class": "lipidMetabolite"
+    },
+    "arachidonic acid": {
+      "id": "s2",
+      "class": "lipidMetabolite"
+    },
+    "delta12-PGJ2": {
+      "id": "s27",
+      "class": "lipidMetabolite"
+    },
+    "dihydroxy-acid-leukotriene-B4 (LTB4)": {
+      "id": "s42",
+      "class": "lipidMetabolite"
+    },
+    "eoxin-A4(EXA4)": {
+      "id": "s56",
+      "class": "lipidMetabolite"
+    },
+    "eoxin-C4(EXC4)": {
+      "id": "s58",
+      "class": "lipidMetabolite"
+    },
+    "eoxin-D4(EXD4)": {
+      "id": "s59",
+      "class": "lipidMetabolite"
+    },
+    "eoxin-E4(EXE4)": {
+      "id": "s60",
+      "class": "lipidMetabolite"
+    },
+    "hepoxilin-A3": {
+      "id": "s72",
+      "class": "lipidMetabolite"
+    },
+    "Phosphatidylcholine": {
+      "id": "s1",
+      "class": "lipidMetabolite;first"
+    }
+  },
+  "reactions": {
+    "r=phosphatidylcholine;p=arachidonicacid;g=pla2g4a": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "Phosphatidylcholine"
+      ],
+      "productList": [
+        "arachidonic acid"
+      ],
+      "geneList": [
+        "PLA2G4A"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=anandamide;g=faah": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "anandamide"
+      ],
+      "geneList": [
+        "FAAH"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=pgg2;g=cox1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "PGG2"
+      ],
+      "geneList": [
+        "COX1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=pgh2;g=cox2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "PGH2"
+      ],
+      "geneList": [
+        "COX2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgg2;p=pgh2;g=cox1|cox2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "PGG2"
+      ],
+      "productList": [
+        "PGH2"
+      ],
+      "geneList": [
+        "COX1",
+        "COX2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=pgh2;p=pgf2alpha;g=akr1c3": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "PGH2"
+      ],
+      "productList": [
+        "PGF2alpha"
+      ],
+      "geneList": [
+        "AKR1C3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgh2;p=txa2;g=tbxas1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "PGH2"
+      ],
+      "productList": [
+        "TXA2"
+      ],
+      "geneList": [
+        "TBXAS1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgf2alpha;p=15-keto-pgf2alpha;g=hpgd": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "PGF2alpha"
+      ],
+      "productList": [
+        "15-keto-PGF2alpha"
+      ],
+      "geneList": [
+        "HPGD"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=15-keto-pgf2alpha;p=13,14-dihydro-15-keto-pgf2alpha;g=ptgr2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "15-keto-PGF2alpha"
+      ],
+      "productList": [
+        "13,14-dihydro-15-keto-PGF2alpha"
+      ],
+      "geneList": [
+        "PTGR2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgh2;p=pge2;g=ptges": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "PGH2"
+      ],
+      "productList": [
+        "PGE2"
+      ],
+      "geneList": [
+        "PTGES"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pge2;p=pgf2alpha;g=cbr1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "activation",
+      "reactantList": [
+        "PGE2"
+      ],
+      "productList": [
+        "PGF2alpha"
+      ],
+      "geneList": [
+        "CBR1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pge2;p=pga2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydration",
+      "reactantList": [
+        "PGE2"
+      ],
+      "productList": [
+        "PGA2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=pge2;p=15-keto-pge2;g=hpgd": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "PGE2"
+      ],
+      "productList": [
+        "15-keto-PGE2"
+      ],
+      "geneList": [
+        "HPGD"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pge2;p=13,14-dihydro-15-keto-pge2;g=ptgr2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "PGE2"
+      ],
+      "productList": [
+        "13,14-dihydro-15-keto-PGE2"
+      ],
+      "geneList": [
+        "PTGR2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pga2;p=pgc2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "PGA2"
+      ],
+      "productList": [
+        "PGC2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=pgc2;p=pgb2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "PGC2"
+      ],
+      "productList": [
+        "PGB2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=pgh2;p=pgd2;g=ptgds": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "PGH2"
+      ],
+      "productList": [
+        "PGD2"
+      ],
+      "geneList": [
+        "PTGDS"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgd2;p=pgj2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydration",
+      "reactantList": [
+        "PGD2"
+      ],
+      "productList": [
+        "PGJ2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=pgj2;p=delta12-pgj2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "PGJ2"
+      ],
+      "productList": [
+        "delta12-PGJ2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=delta12-pgj2;p=15d-pgj2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydration",
+      "reactantList": [
+        "delta12-PGJ2"
+      ],
+      "productList": [
+        "15d-PGJ2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=pgd2;p=15d-pgd2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydration",
+      "reactantList": [
+        "PGD2"
+      ],
+      "productList": [
+        "15d-PGD2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=pgd2;p=11epi-pgf2alpha;g=akr1c3": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "PGD2"
+      ],
+      "productList": [
+        "11epi-PGF2alpha"
+      ],
+      "geneList": [
+        "AKR1C3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgd2;p=15-keto-pgd2;g=hpgd": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "PGD2"
+      ],
+      "productList": [
+        "15-keto-PGD2"
+      ],
+      "geneList": [
+        "HPGD"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=15-keto-pgd2;p=13,14-dihydro-15-keto-pgf2alpha;g=ptgr2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "15-keto-PGD2"
+      ],
+      "productList": [
+        "13,14-dihydro-15-keto-PGF2alpha"
+      ],
+      "geneList": [
+        "PTGR2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgh2;p=pgi2;g=ptgis": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "PGH2"
+      ],
+      "productList": [
+        "PGI2"
+      ],
+      "geneList": [
+        "PTGIS"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=pgi2;p=6-keto-pgf1alpha;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "PGI2"
+      ],
+      "productList": [
+        "6-keto-PGF1alpha"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=txa2;p=txb2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "TXA2"
+      ],
+      "productList": [
+        "TXB2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=txb2;p=11-dehydro-txb2;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "TXB2"
+      ],
+      "productList": [
+        "11-dehydro-TXB2"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=arachidonicacid;p=5s-hydroperoxyeicosatetranoicacid(5s-hpete);g=alox5": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "5S-hydroperoxyeicosatetranoic acid (5S-HpETE)"
+      ],
+      "geneList": [
+        "ALOX5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=5s-hydroperoxyeicosatetranoicacid(5s-hpete);p=leukotriene-a4(lta4);g=alox5": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydration",
+      "reactantList": [
+        "5S-hydroperoxyeicosatetranoic acid (5S-HpETE)"
+      ],
+      "productList": [
+        "leukotriene-A4(LTA4)"
+      ],
+      "geneList": [
+        "ALOX5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=leukotriene-a4(lta4);p=dihydroxy-acid-leukotriene-b4(ltb4);g=lta4h": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "leukotriene-A4(LTA4)"
+      ],
+      "productList": [
+        "dihydroxy-acid-leukotriene-B4 (LTB4)"
+      ],
+      "geneList": [
+        "LTA4H"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=dihydroxy-acid-leukotriene-b4(ltb4);p=20-hydroxy-leukotriene-b4(ltb4);g=cyp4f2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydroxylation",
+      "reactantList": [
+        "dihydroxy-acid-leukotriene-B4 (LTB4)"
+      ],
+      "productList": [
+        "20-hydroxy-leukotriene-B4 (LTB4)"
+      ],
+      "geneList": [
+        "CYP4F2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=20-hydroxy-leukotriene-b4(ltb4);p=20-carboxy-leukotriene-b4(ltb4);g=cyp4f2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "20-hydroxy-leukotriene-B4 (LTB4)"
+      ],
+      "productList": [
+        "20-carboxy-leukotriene-B4 (LTB4)"
+      ],
+      "geneList": [
+        "CYP4F2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=leukotriene-a4(lta4);p=leukotriene-c4(ltc4);g=ltc4s": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "leukotriene-A4(LTA4)"
+      ],
+      "productList": [
+        "leukotriene-C4(LTC4)"
+      ],
+      "geneList": [
+        "LTC4S"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=leukotriene-c4(ltc4);p=leukotriene-d4(ltd4);g=ggt1|ggt5": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "leukotriene-C4(LTC4)"
+      ],
+      "productList": [
+        "leukotriene-D4(LTD4)"
+      ],
+      "geneList": [
+        "GGT1",
+        "GGT5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=leukotriene-d4(ltd4);p=leukotriene-e4(lte4);g=dpep1|dpep2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "leukotriene-D4(LTD4)"
+      ],
+      "productList": [
+        "leukotriene-E4(LTE4)"
+      ],
+      "geneList": [
+        "DPEP1",
+        "DPEP2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=leukotriene-a4(lta4);p=eoxin-a4(exa4);g=alox15": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "conversion",
+      "reactantList": [
+        "leukotriene-A4(LTA4)"
+      ],
+      "productList": [
+        "eoxin-A4(EXA4)"
+      ],
+      "geneList": [
+        "ALOX15"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=eoxin-a4(exa4);p=eoxin-c4(exc4);g=ltc4s": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "conversion",
+      "reactantList": [
+        "eoxin-A4(EXA4)"
+      ],
+      "productList": [
+        "eoxin-C4(EXC4)"
+      ],
+      "geneList": [
+        "LTC4S"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=eoxin-c4(exc4);p=eoxin-d4(exd4);g=ggt1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "conversion",
+      "reactantList": [
+        "eoxin-C4(EXC4)"
+      ],
+      "productList": [
+        "eoxin-D4(EXD4)"
+      ],
+      "geneList": [
+        "GGT1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=eoxin-d4(exd4);p=eoxin-e4(exe4);g=dpep1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "conversion",
+      "reactantList": [
+        "eoxin-D4(EXD4)"
+      ],
+      "productList": [
+        "eoxin-E4(EXE4)"
+      ],
+      "geneList": [
+        "DPEP1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=5s-hydroperoxyeicosatetranoicacid(5s-hpete);p=5-hydroxyeicosatetraenoicacid(5-hete);g=gpx1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "5S-hydroperoxyeicosatetranoic acid (5S-HpETE)"
+      ],
+      "productList": [
+        "5-hydroxyeicosatetraenoic acid(5-HETE)"
+      ],
+      "geneList": [
+        "GPX1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=5-hydroxyeicosatetraenoicacid(5-hete);p=5-oxo-eicosatetraenoicacid(5-oxoete);g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "5-hydroxyeicosatetraenoic acid(5-HETE)"
+      ],
+      "productList": [
+        "5-oxo-eicosatetraenoic acid(5-oxoETE)"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=arachidonicacid;p=15s-hydroperoxyeicosatetraenoicacid(15s-hpete);g=alox15": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "15S-hydroperoxyeicosatetraenoic acid(15S-HpETE)"
+      ],
+      "geneList": [
+        "ALOX15"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=15s-hydroperoxyeicosatetraenoicacid(15s-hpete);p=15s-hydroxyeicosatetraenoicacid(15s-hete);g=gpx2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "15S-hydroperoxyeicosatetraenoic acid(15S-HpETE)"
+      ],
+      "productList": [
+        "15S-hydroxyeicosatetraenoic acid(15S-HETE)"
+      ],
+      "geneList": [
+        "GPX2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=15s-hydroxyeicosatetraenoicacid(15s-hete);p=15-oxo-eicosatetraenoicacid(15-oxoete);g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "15S-hydroxyeicosatetraenoic acid(15S-HETE)"
+      ],
+      "productList": [
+        "15-oxo-eicosatetraenoic acid(15-oxoETE)"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=arachidonicacid;p=15r-hydroxyeicosatetraenoicacid(15r-hete);g=cox2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "15R-hydroxyeicosatetraenoic acid (15R-HETE)"
+      ],
+      "geneList": [
+        "COX2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=12r-hydroperoxy-eicosatetraenoicacid(12r-hpete);g=alox12b": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "12R-hydroperoxy-eicosatetraenoic acid(12R-HpETE)"
+      ],
+      "geneList": [
+        "ALOX12B"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=12r-hydroperoxy-eicosatetraenoicacid(12r-hpete);p=12r-hydroperoxy-eicosatetraenoicacid(12r-hpete);g=gpx2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "12R-hydroperoxy-eicosatetraenoic acid(12R-HpETE)"
+      ],
+      "productList": [
+        "12R-hydroperoxy-eicosatetraenoic acid(12R-HpETE)"
+      ],
+      "geneList": [
+        "GPX2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=12r-hydroperoxy-eicosatetraenoicacid(12r-hpete);p=hepoxilin-a3;g=aloxe3": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "12R-hydroperoxy-eicosatetraenoic acid(12R-HpETE)"
+      ],
+      "productList": [
+        "hepoxilin-A3"
+      ],
+      "geneList": [
+        "ALOXE3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=12s-hydroperoxy-eicosatetraenoicacid(12s-hpete);g=alox12": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "oxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "12S-hydroperoxy-eicosatetraenoic acid(12S-HpETE)"
+      ],
+      "geneList": [
+        "ALOX12"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=12s-hydroperoxy-eicosatetraenoicacid(12s-hpete);p=12s-hydro-eicosatetraenoicacid(12s-hete);g=gpx1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "12S-hydroperoxy-eicosatetraenoic acid(12S-HpETE)"
+      ],
+      "productList": [
+        "12S-hydro-eicosatetraenoic acid(12S-HETE)"
+      ],
+      "geneList": [
+        "GPX1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=2-oxo-eicosatetraenoicacid(12-oxoete);g=alox12": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "epoxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "2-oxo-eicosatetraenoic acid(12-oxoETE)"
+      ],
+      "geneList": [
+        "ALOX12"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=hepoxilin-a3;g=alox12": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "hepoxilin-A3"
+      ],
+      "geneList": [
+        "ALOX12"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=17-hydroxyeicosatetraenoicacids;g=cyp1a2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "17-hydroxyeicosatetraenoic acids"
+      ],
+      "geneList": [
+        "CYP1A2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=16-hydroxyeicosatetraenoicacids;g=cyp1a1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "16-hydroxyeicosatetraenoic acids"
+      ],
+      "geneList": [
+        "CYP1A1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=18-hydroxyeicosatetraenoicacids;g=cyp1b1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "18-hydroxyeicosatetraenoic acids"
+      ],
+      "geneList": [
+        "CYP1B1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=5,6-epoxyeicosatrienoicacid(5,6-eet);g=cyp1a1|cyp1a2|cyp1b1|cyp2j2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "5,6-epoxyeicosatrienoic acid(5,6-EET)"
+      ],
+      "geneList": [
+        "CYP1A1",
+        "CYP1A2",
+        "CYP1B1",
+        "CYP2J2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=8,9-epoxyeicosatrienoicacid(8,9-eet);g=cyp1a1|cyp1a2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "8,9-epoxyeicosatrienoic acid(8,9-EET)"
+      ],
+      "geneList": [
+        "CYP1A1",
+        "CYP1A2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=arachidonicacid;p=12,14,15-epoxyeicosatrienoicacid(12,14,15-eet);g=cyp1b1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "epoxidation",
+      "reactantList": [
+        "arachidonic acid"
+      ],
+      "productList": [
+        "12,14,15-epoxyeicosatrienoic acid(12,14,15-EET)"
+      ],
+      "geneList": [
+        "CYP1B1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    }
+  }
+}

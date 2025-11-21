@@ -1,0 +1,108 @@
+{
+  "nodes": {
+    "GroPIns(1-(sn-glycero-3-O-phosphonato)-1D-myo-inositol)": {
+      "id": "s1",
+      "class": "lipidMetabolite;first"
+    },
+    "Glycerol-3-phosphate(G3P)": {
+      "id": "s2",
+      "class": "nonlipidMetabolite"
+    },
+    "GDE1": {
+      "id": "s81",
+      "class": "enzymaticGene"
+    },
+    "Lysophosphatidylcholine(LPC)": {
+      "id": "s26",
+      "class": "lipidMetabolite"
+    },
+    "Glycerophosphocholine(GPC)": {
+      "id": "s3",
+      "class": "nonlipidMetabolite"
+    },
+    "GDPD1": {
+      "id": "s4",
+      "class": "enzymaticGene"
+    },
+    "GDPD3": {
+      "id": "s5",
+      "class": "enzymaticGene"
+    },
+    "PNPLA6": {
+      "id": "s6",
+      "class": "enzymaticGene"
+    },
+    "PNPLA7": {
+      "id": "s7",
+      "class": "enzymaticGene"
+    },
+    "Choline": {
+      "id": "s8",
+      "class": "nonlipidMetabolite"
+    },
+    "GDPD5": {
+      "id": "s9",
+      "class": "enzymaticGene"
+    }
+  },
+  "reactions": {
+    "r=gropins(1-(sn-glycero-3-o-phosphonato)-1d-myo-inositol);p=glycerol-3-phosphate(g3p);g=gde1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "GroPIns(1-(sn-glycero-3-O-phosphonato)-1D-myo-inositol)"
+      ],
+      "productList": [
+        "Glycerol-3-phosphate(G3P)"
+      ],
+      "geneList": [
+        "GDE1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=lysophosphatidylcholine(lpc);p=glycerophosphocholine(gpc);g=gdpd1|gdpd3|pnpla6|pnpla7": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Lysophosphatidylcholine(LPC)"
+      ],
+      "productList": [
+        "Glycerophosphocholine(GPC)"
+      ],
+      "geneList": [
+        "GDPD1",
+        "GDPD3",
+        "PNPLA6",
+        "PNPLA7"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=glycerophosphocholine(gpc);p=glycerol-3-phosphate(g3p)|choline;g=gdpd5": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Glycerophosphocholine(GPC)"
+      ],
+      "productList": [
+        "Glycerol-3-phosphate(G3P)",
+        "Choline"
+      ],
+      "geneList": [
+        "GDPD5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    }
+  }
+}

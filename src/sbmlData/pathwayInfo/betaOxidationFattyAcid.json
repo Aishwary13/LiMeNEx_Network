@@ -1,0 +1,968 @@
+{
+  "nodes": {
+    "Fatty-Acyl-CoA": {
+      "id": "s1",
+      "class": "lipidMetabolite;first"
+    },
+    "AcylCarnitine": {
+      "id": "s2",
+      "class": "nonlipidMetabolite"
+    },
+    "CPT2": {
+      "id": "s6",
+      "class": "enzymaticGene"
+    },
+    "SLC25A20": {
+      "id": "s7",
+      "class": "enzymaticGene"
+    },
+    "CPT1A": {
+      "id": "s4",
+      "class": "enzymaticGene"
+    },
+    "CPT1B": {
+      "id": "s8",
+      "class": "enzymaticGene"
+    },
+    "Palmitoyl CoA": {
+      "id": "s5",
+      "class": "lipidMetabolite"
+    },
+    "Trans-hexadecanoyl CoA": {
+      "id": "s9",
+      "class": "lipidMetabolite"
+    },
+    "ACADVL": {
+      "id": "s10",
+      "class": "enzymaticGene"
+    },
+    "3-Hydroxyhexadecanoyl CoA": {
+      "id": "s11",
+      "class": "lipidMetabolite"
+    },
+    "HADHA": {
+      "id": "s12",
+      "class": "enzymaticGene"
+    },
+    "HADHB": {
+      "id": "s13",
+      "class": "enzymaticGene"
+    },
+    "3-Oxopalmitoyl CoA": {
+      "id": "s14",
+      "class": "lipidMetabolite"
+    },
+    "Myristoyl CoA": {
+      "id": "s16",
+      "class": "lipidMetabolite"
+    },
+    "Trans-tetradex-2-enoyl CoA": {
+      "id": "s17",
+      "class": "lipidMetabolite"
+    },
+    "ACADL": {
+      "id": "s18",
+      "class": "enzymaticGene"
+    },
+    "Dxotetradecanoyl-CoA": {
+      "id": "s19",
+      "class": "lipidMetabolite"
+    },
+    "Lauroyl CoA": {
+      "id": "s20",
+      "class": "lipidMetabolite"
+    },
+    "2-trans-dodecenoyl CoA": {
+      "id": "s21",
+      "class": "lipidMetabolite"
+    },
+    "ECHS1": {
+      "id": "s22",
+      "class": "enzymaticGene"
+    },
+    "3-Oxododexanonyl CoA": {
+      "id": "s23",
+      "class": "lipidMetabolite"
+    },
+    "HADH": {
+      "id": "s24",
+      "class": "enzymaticGene"
+    },
+    "Decanoyl-CoA": {
+      "id": "s25",
+      "class": "lipidMetabolite"
+    },
+    "Trans-dec-2-enoyl-CoA": {
+      "id": "s26",
+      "class": "lipidMetabolite"
+    },
+    "ACADM": {
+      "id": "s28",
+      "class": "enzymaticGene"
+    },
+    "3-Oxocanoyl CoA": {
+      "id": "s29",
+      "class": "lipidMetabolite"
+    },
+    "Octaoyl CoA": {
+      "id": "s30",
+      "class": "lipidMetabolite"
+    },
+    "3-trans-decenoyl CoA": {
+      "id": "s31",
+      "class": "lipidMetabolite"
+    },
+    "ECI1": {
+      "id": "s32",
+      "class": "enzymaticGene"
+    },
+    "2-trans-4-cis-decadienoyl CoA": {
+      "id": "s33",
+      "class": "lipidMetabolite"
+    },
+    "4-cis-dexeboyl CoA": {
+      "id": "s35",
+      "class": "lipidMetabolite"
+    },
+    "Trans,cis-lauro-2,6-dienoyl CoA": {
+      "id": "s36",
+      "class": "lipidMetabolite"
+    },
+    "cis-cis-3,6-dodecadienoyl CoA": {
+      "id": "s37",
+      "class": "lipidMetabolite"
+    },
+    "Linoleoyl-CoA": {
+      "id": "s38",
+      "class": "lipidMetabolite"
+    },
+    "Trans-oct-2-enoyl-CoA": {
+      "id": "s39",
+      "class": "lipidMetabolite"
+    },
+    "3-Hydroxyoctanoyl-CoA": {
+      "id": "s40",
+      "class": "lipidMetabolite"
+    },
+    "3-Oxo-octanoyl CoA": {
+      "id": "s41",
+      "class": "lipidMetabolite"
+    },
+    "Hexanoyl CoA": {
+      "id": "s42",
+      "class": "lipidMetabolite"
+    },
+    "Trans-hex-2-enoyl-CoA": {
+      "id": "s43",
+      "class": "lipidMetabolite"
+    },
+    "ACADS": {
+      "id": "s44",
+      "class": "enzymaticGene"
+    },
+    "3-Oxo-hexanoyl-CoA": {
+      "id": "s46",
+      "class": "lipidMetabolite"
+    },
+    "Butanoyl CoA": {
+      "id": "s47",
+      "class": "lipidMetabolite"
+    },
+    "Cronoyl CoA": {
+      "id": "s48",
+      "class": "lipidMetabolite"
+    },
+    "3-Hydroxybutanoyl CoA": {
+      "id": "s49",
+      "class": "lipidMetabolite"
+    },
+    "Acetoacetyl-CoA": {
+      "id": "s50",
+      "class": "lipidMetabolite"
+    },
+    "Acetyl CoA": {
+      "id": "s15",
+      "class": "nonlipidMetabolite"
+    },
+    "-Hydrocyhexanoyl CoA": {
+      "id": "s45",
+      "class": "lipidMetabolite"
+    }
+  },
+  "reactions": {
+    "r=fatty-acyl-coa;p=acylcarnitine;g=cpt1a|cpt1b": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "Fatty-Acyl-CoA"
+      ],
+      "productList": [
+        "AcylCarnitine"
+      ],
+      "geneList": [
+        "CPT1A",
+        "CPT1B"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=acylcarnitine;p=palmitoylcoa;g=cpt2|slc25a20": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "notAssignedInfo",
+      "reactantList": [
+        "AcylCarnitine"
+      ],
+      "productList": [
+        "Palmitoyl CoA"
+      ],
+      "geneList": [
+        "CPT2",
+        "SLC25A20"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=palmitoylcoa;p=trans-hexadecanoylcoa;g=acadvl": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "Palmitoyl CoA"
+      ],
+      "productList": [
+        "Trans-hexadecanoyl CoA"
+      ],
+      "geneList": [
+        "ACADVL"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=trans-hexadecanoylcoa;p=3-hydroxyhexadecanoylcoa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "Trans-hexadecanoyl CoA"
+      ],
+      "productList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=3-hydroxyhexadecanoylcoa;p=3-oxopalmitoylcoa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "productList": [
+        "3-Oxopalmitoyl CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxopalmitoylcoa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "3-Oxopalmitoyl CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxopalmitoylcoa;p=myristoylcoa;g=hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolysis",
+      "reactantList": [
+        "3-Oxopalmitoyl CoA"
+      ],
+      "productList": [
+        "Myristoyl CoA"
+      ],
+      "geneList": [
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=myristoylcoa;p=trans-tetradex-2-enoylcoa;g=acadl": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "Myristoyl CoA"
+      ],
+      "productList": [
+        "Trans-tetradex-2-enoyl CoA"
+      ],
+      "geneList": [
+        "ACADL"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=trans-tetradex-2-enoylcoa;p=3-hydroxyhexadecanoylcoa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "Trans-tetradex-2-enoyl CoA"
+      ],
+      "productList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=3-hydroxyhexadecanoylcoa;p=dxotetradecanoyl-coa;g=hadhb|hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "productList": [
+        "Dxotetradecanoyl-CoA"
+      ],
+      "geneList": [
+        "HADHB",
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=dxotetradecanoyl-coa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "Dxotetradecanoyl-CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=dxotetradecanoyl-coa;p=lauroylcoa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolysis",
+      "reactantList": [
+        "Dxotetradecanoyl-CoA"
+      ],
+      "productList": [
+        "Lauroyl CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=lauroylcoa;p=2-trans-dodecenoylcoa;g=acadl": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "Lauroyl CoA"
+      ],
+      "productList": [
+        "2-trans-dodecenoyl CoA"
+      ],
+      "geneList": [
+        "ACADL"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=2-trans-dodecenoylcoa;p=3-hydroxyhexadecanoylcoa;g=echs1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "2-trans-dodecenoyl CoA"
+      ],
+      "productList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "geneList": [
+        "ECHS1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-hydroxyhexadecanoylcoa;p=3-oxododexanonylcoa;g=hadh": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "productList": [
+        "3-Oxododexanonyl CoA"
+      ],
+      "geneList": [
+        "HADH"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxododexanonylcoa;p=decanoyl-coa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolysis",
+      "reactantList": [
+        "3-Oxododexanonyl CoA"
+      ],
+      "productList": [
+        "Decanoyl-CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=decanoyl-coa;p=trans-dec-2-enoyl-coa;g=acadm": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "Decanoyl-CoA"
+      ],
+      "productList": [
+        "Trans-dec-2-enoyl-CoA"
+      ],
+      "geneList": [
+        "ACADM"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=trans-dec-2-enoyl-coa;p=3-hydroxyhexadecanoylcoa;g=echs1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "Trans-dec-2-enoyl-CoA"
+      ],
+      "productList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "geneList": [
+        "ECHS1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-hydroxyhexadecanoylcoa;p=3-oxocanoylcoa;g=hadh": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "3-Hydroxyhexadecanoyl CoA"
+      ],
+      "productList": [
+        "3-Oxocanoyl CoA"
+      ],
+      "geneList": [
+        "HADH"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxocanoylcoa;p=octaoylcoa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolysis",
+      "reactantList": [
+        "3-Oxocanoyl CoA"
+      ],
+      "productList": [
+        "Octaoyl CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=3-trans-decenoylcoa;p=trans-dec-2-enoyl-coa;g=eci1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "3-trans-decenoyl CoA"
+      ],
+      "productList": [
+        "Trans-dec-2-enoyl-CoA"
+      ],
+      "geneList": [
+        "ECI1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=2-trans-4-cis-decadienoylcoa;p=3-trans-decenoylcoa;g=acadm": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "2-trans-4-cis-decadienoyl CoA"
+      ],
+      "productList": [
+        "3-trans-decenoyl CoA"
+      ],
+      "geneList": [
+        "ACADM"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=4-cis-dexeboylcoa;p=2-trans-4-cis-decadienoylcoa;g=acadm": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "4-cis-dexeboyl CoA"
+      ],
+      "productList": [
+        "2-trans-4-cis-decadienoyl CoA"
+      ],
+      "geneList": [
+        "ACADM"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=trans,cis-lauro-2,6-dienoylcoa;p=4-cis-dexeboylcoa;g=acadl|hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "reduction",
+      "reactantList": [
+        "Trans,cis-lauro-2,6-dienoyl CoA"
+      ],
+      "productList": [
+        "4-cis-dexeboyl CoA"
+      ],
+      "geneList": [
+        "ACADL",
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=cis-cis-3,6-dodecadienoylcoa;p=trans,cis-lauro-2,6-dienoylcoa;g=eci1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "isomerization",
+      "reactantList": [
+        "cis-cis-3,6-dodecadienoyl CoA"
+      ],
+      "productList": [
+        "Trans,cis-lauro-2,6-dienoyl CoA"
+      ],
+      "geneList": [
+        "ECI1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=linoleoyl-coa;p=cis-cis-3,6-dodecadienoylcoa;g=acadl|hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "Linoleoyl-CoA"
+      ],
+      "productList": [
+        "cis-cis-3,6-dodecadienoyl CoA"
+      ],
+      "geneList": [
+        "ACADL",
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=octaoylcoa;p=trans-oct-2-enoyl-coa;g=acadm": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "Octaoyl CoA"
+      ],
+      "productList": [
+        "Trans-oct-2-enoyl-CoA"
+      ],
+      "geneList": [
+        "ACADM"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-hydroxyoctanoyl-coa;p=3-oxo-octanoylcoa;g=hadh": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "3-Hydroxyoctanoyl-CoA"
+      ],
+      "productList": [
+        "3-Oxo-octanoyl CoA"
+      ],
+      "geneList": [
+        "HADH"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxo-octanoylcoa;p=hexanoylcoa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolysis",
+      "reactantList": [
+        "3-Oxo-octanoyl CoA"
+      ],
+      "productList": [
+        "Hexanoyl CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=hexanoylcoa;p=trans-hex-2-enoyl-coa;g=acads": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "Hexanoyl CoA"
+      ],
+      "productList": [
+        "Trans-hex-2-enoyl-CoA"
+      ],
+      "geneList": [
+        "ACADS"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=trans-hex-2-enoyl-coa;p=-hydrocyhexanoylcoa;g=echs1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "Trans-hex-2-enoyl-CoA"
+      ],
+      "productList": [
+        "-Hydrocyhexanoyl CoA"
+      ],
+      "geneList": [
+        "ECHS1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=-hydrocyhexanoylcoa;p=3-oxo-hexanoyl-coa;g=hadh": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "-Hydrocyhexanoyl CoA"
+      ],
+      "productList": [
+        "3-Oxo-hexanoyl-CoA"
+      ],
+      "geneList": [
+        "HADH"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxo-hexanoyl-coa;p=butanoylcoa;g=hadha|hadhb": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolysis",
+      "reactantList": [
+        "3-Oxo-hexanoyl-CoA"
+      ],
+      "productList": [
+        "Butanoyl CoA"
+      ],
+      "geneList": [
+        "HADHA",
+        "HADHB"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=butanoylcoa;p=cronoylcoa;g=acads": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "Butanoyl CoA"
+      ],
+      "productList": [
+        "Cronoyl CoA"
+      ],
+      "geneList": [
+        "ACADS"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=cronoylcoa;p=3-hydroxybutanoylcoa;g=echs1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "Cronoyl CoA"
+      ],
+      "productList": [
+        "3-Hydroxybutanoyl CoA"
+      ],
+      "geneList": [
+        "ECHS1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-hydroxybutanoylcoa;p=acetoacetyl-coa;g=hadh": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "dehydrogenation",
+      "reactantList": [
+        "3-Hydroxybutanoyl CoA"
+      ],
+      "productList": [
+        "Acetoacetyl-CoA"
+      ],
+      "geneList": [
+        "HADH"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxododexanonylcoa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "3-Oxododexanonyl CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxocanoylcoa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "3-Oxocanoyl CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxo-octanoylcoa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "3-Oxo-octanoyl CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=3-oxo-hexanoyl-coa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "3-Oxo-hexanoyl-CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=acetoacetyl-coa;p=acetylcoa;g=": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "Acetoacetyl-CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [],
+      "geneModifierType": []
+    },
+    "r=linoleoyl-coa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "Linoleoyl-CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=trans,cis-lauro-2,6-dienoylcoa;p=acetylcoa;g=hadha": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "thiolase",
+      "reactantList": [
+        "Trans,cis-lauro-2,6-dienoyl CoA"
+      ],
+      "productList": [
+        "Acetyl CoA"
+      ],
+      "geneList": [
+        "HADHA"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=trans-oct-2-enoyl-coa;p=3-hydroxyoctanoyl-coa;g=echs1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydration",
+      "reactantList": [
+        "Trans-oct-2-enoyl-CoA"
+      ],
+      "productList": [
+        "3-Hydroxyoctanoyl-CoA"
+      ],
+      "geneList": [
+        "ECHS1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    }
+  }
+}

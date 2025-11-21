@@ -1,0 +1,165 @@
+{
+  "nodes": {
+    "Ceramide": {
+      "id": "s11",
+      "class": "lipidMetabolite;first"
+    },
+    "Sphingosine": {
+      "id": "s8",
+      "class": "lipidMetabolite"
+    },
+    "Free-Fatty-acid(FFA)": {
+      "id": "s29",
+      "class": "lipidMetabolite"
+    },
+    "ACER1": {
+      "id": "s7",
+      "class": "enzymaticGene"
+    },
+    "ACER2": {
+      "id": "s1",
+      "class": "enzymaticGene"
+    },
+    "Phytoceramide(PCE)": {
+      "id": "s2",
+      "class": "lipidMetabolite"
+    },
+    "Phytosphingosine": {
+      "id": "s3",
+      "class": "lipidMetabolite"
+    },
+    "ACER3": {
+      "id": "s4",
+      "class": "enzymaticGene"
+    },
+    "Sphingosine-1-phosphate(S1P)": {
+      "id": "s5",
+      "class": "lipidMetabolite"
+    },
+    "SGPP1": {
+      "id": "s6",
+      "class": "enzymaticGene"
+    },
+    "SGPP2": {
+      "id": "s9",
+      "class": "enzymaticGene"
+    },
+    "Phosphoethanolamine(PE)": {
+      "id": "s10",
+      "class": "nonlipidMetabolite"
+    },
+    "SGPL1": {
+      "id": "s12",
+      "class": "enzymaticGene"
+    },
+    "PLPP1": {
+      "id": "s13",
+      "class": "enzymaticGene"
+    },
+    "PLPP2": {
+      "id": "s14",
+      "class": "enzymaticGene"
+    },
+    "PLPP3": {
+      "id": "s15",
+      "class": "enzymaticGene"
+    }
+  },
+  "reactions": {
+    "r=ceramide;p=sphingosine|free-fatty-acid(ffa);g=acer1|acer2": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Ceramide"
+      ],
+      "productList": [
+        "Sphingosine",
+        "Free-Fatty-acid(FFA)"
+      ],
+      "geneList": [
+        "ACER1",
+        "ACER2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=phytoceramide(pce);p=free-fatty-acid(ffa)|phytosphingosine;g=acer3": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Phytoceramide(PCE)"
+      ],
+      "productList": [
+        "Free-Fatty-acid(FFA)",
+        "Phytosphingosine"
+      ],
+      "geneList": [
+        "ACER3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=sphingosine-1-phosphate(s1p);p=phytosphingosine;g=sgpp1|sgpp2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Sphingosine-1-phosphate(S1P)"
+      ],
+      "productList": [
+        "Phytosphingosine"
+      ],
+      "geneList": [
+        "SGPP1",
+        "SGPP2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=sphingosine-1-phosphate(s1p);p=phosphoethanolamine(pe);g=sgpl1": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "cleavage",
+      "reactantList": [
+        "Sphingosine-1-phosphate(S1P)"
+      ],
+      "productList": [
+        "Phosphoethanolamine(PE)"
+      ],
+      "geneList": [
+        "SGPL1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=sphingosine-1-phosphate(s1p);p=sphingosine;g=plpp1|plpp3|plpp2": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "hydrolysis",
+      "reactantList": [
+        "Sphingosine-1-phosphate(S1P)"
+      ],
+      "productList": [
+        "Sphingosine"
+      ],
+      "geneList": [
+        "PLPP1",
+        "PLPP3",
+        "PLPP2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "nodes": {
+    "UDP-galactose(UDP-Gal)": {
+      "id": "s2",
+      "class": "nonlipidMetabolite"
+    },
+    "Ceramide": {
+      "id": "s11",
+      "class": "lipidMetabolite"
+    },
+    "UGT8": {
+      "id": "s81",
+      "class": "enzymaticGene"
+    },
+    "Phosphoadenylylsulfate(PAPS)": {
+      "id": "s12",
+      "class": "lipidMetabolite"
+    },
+    "Sulfogalactoceramide": {
+      "id": "s14",
+      "class": "lipidMetabolite"
+    },
+    "GAL3ST1": {
+      "id": "s15",
+      "class": "enzymaticGene"
+    },
+    "Lactosylceramide(LacCer)": {
+      "id": "s17",
+      "class": "lipidMetabolite"
+    },
+    "ST3GAL5": {
+      "id": "s19",
+      "class": "enzymaticGene"
+    },
+    "UDP-Glucose(UDP-Glu)": {
+      "id": "s20",
+      "class": "nonlipidMetabolite;first"
+    },
+    "UGCG": {
+      "id": "s22",
+      "class": "enzymaticGene"
+    },
+    "B4GALT5": {
+      "id": "s23",
+      "class": "enzymaticGene"
+    },
+    "Ganglioside(GM2)": {
+      "id": "s25",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GD2)": {
+      "id": "s26",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GA2)": {
+      "id": "s27",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GM1)": {
+      "id": "s28",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GD1B)": {
+      "id": "s29",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GA1)": {
+      "id": "s30",
+      "class": "lipidMetabolite"
+    },
+    "B3GALT4": {
+      "id": "s31",
+      "class": "enzymaticGene"
+    },
+    "Ganglioside(GD1A)": {
+      "id": "s32",
+      "class": "lipidMetabolite"
+    },
+    "CMP-Neu5Ac": {
+      "id": "s33",
+      "class": "nonlipidMetabolite"
+    },
+    "Ganglioside(GM1B)": {
+      "id": "s34",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GT1A)": {
+      "id": "s35",
+      "class": "lipidMetabolite"
+    },
+    "ST3GAL2": {
+      "id": "s36",
+      "class": "enzymaticGene"
+    },
+    "ST3GAL3": {
+      "id": "s37",
+      "class": "enzymaticGene"
+    },
+    "Ganglioside(GD1C)": {
+      "id": "s38",
+      "class": "lipidMetabolite"
+    },
+    "ST8SIA5": {
+      "id": "s39",
+      "class": "enzymaticGene"
+    },
+    "Ganglioside(GT1B)": {
+      "id": "s40",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GQ1B)": {
+      "id": "s41",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside-GD1alpha(GD1\u03b1)": {
+      "id": "s42",
+      "class": "lipidMetabolite"
+    },
+    "ST6GALNAC5": {
+      "id": "s43",
+      "class": "enzymaticGene"
+    },
+    "GDP-fucose": {
+      "id": "s44",
+      "class": "nonlipidMetabolite"
+    },
+    "FucGA1": {
+      "id": "s45",
+      "class": "lipidMetabolite"
+    },
+    "FUT1": {
+      "id": "s46",
+      "class": "enzymaticGene"
+    },
+    "UDP-alpha-D-galactose": {
+      "id": "s47",
+      "class": "nonlipidMetabolite"
+    },
+    "Globotriaosylceramide": {
+      "id": "s48",
+      "class": "lipidMetabolite"
+    },
+    "A4GALT": {
+      "id": "s49",
+      "class": "enzymaticGene"
+    },
+    "N-acetylgalactosamine(GalNAc)": {
+      "id": "s50",
+      "class": "nonlipidMetabolite"
+    },
+    "Globotetraosylceramide": {
+      "id": "s51",
+      "class": "lipidMetabolite"
+    },
+    "B3GALNT1": {
+      "id": "s52",
+      "class": "enzymaticGene"
+    },
+    "Lactotriaosylceramide(Lc3Cer)": {
+      "id": "s53",
+      "class": "lipidMetabolite"
+    },
+    "B3GNT5": {
+      "id": "s54",
+      "class": "enzymaticGene"
+    },
+    "Ganglioside(GM3)": {
+      "id": "s18",
+      "class": "lipidMetabolite"
+    },
+    "Ganglioside(GM4)": {
+      "id": "s82",
+      "class": "lipidMetabolite"
+    },
+    "Galactocerebroside-(GalCer)": {
+      "id": "s21",
+      "class": "lipidMetabolite"
+    },
+    "Glucosylceramide(GlcCer)": {
+      "id": "s83",
+      "class": "lipidMetabolite"
+    },
+    "FUT2": {
+      "id": "s84",
+      "class": "enzymaticGene"
+    },
+    "FucGM1": {
+      "id": "s85",
+      "class": "lipidMetabolite"
+    },
+    "CERA-d18": {
+      "id": "s86",
+      "class": "lipidMetabolite"
+    }
+  },
+  "reactions": {
+    "r=lactosylceramide(laccer);p=ganglioside(gm3);g=st3gal5": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "sialylation",
+      "reactantList": [
+        "Lactosylceramide(LacCer)"
+      ],
+      "productList": [
+        "Ganglioside(GM3)"
+      ],
+      "geneList": [
+        "ST3GAL5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=galactocerebroside-(galcer);p=lactosylceramide(laccer);g=b4galt5": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "Galactocerebroside-(GalCer)"
+      ],
+      "productList": [
+        "Lactosylceramide(LacCer)"
+      ],
+      "geneList": [
+        "B4GALT5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=udp-galactose(udp-gal)|ganglioside(gm2);p=ganglioside(gm1);g=b3galt4": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "UDP-galactose(UDP-Gal)",
+        "Ganglioside(GM2)"
+      ],
+      "productList": [
+        "Ganglioside(GM1)"
+      ],
+      "geneList": [
+        "B3GALT4"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=udp-galactose(udp-gal)|ganglioside(gd2);p=ganglioside(gd1b);g=b3galt4": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "UDP-galactose(UDP-Gal)",
+        "Ganglioside(GD2)"
+      ],
+      "productList": [
+        "Ganglioside(GD1B)"
+      ],
+      "geneList": [
+        "B3GALT4"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=udp-galactose(udp-gal)|ganglioside(ga2);p=ganglioside(ga1);g=b3galt4": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "UDP-galactose(UDP-Gal)",
+        "Ganglioside(GA2)"
+      ],
+      "productList": [
+        "Ganglioside(GA1)"
+      ],
+      "geneList": [
+        "B3GALT4"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=cmp-neu5ac|ganglioside(gm1);p=ganglioside(gd1a);g=st3gal2|st3gal3": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "sialylation",
+      "reactantList": [
+        "CMP-Neu5Ac",
+        "Ganglioside(GM1)"
+      ],
+      "productList": [
+        "Ganglioside(GD1A)"
+      ],
+      "geneList": [
+        "ST3GAL2",
+        "ST3GAL3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=cmp-neu5ac|ganglioside(ga1);p=ganglioside(gm1b);g=st3gal2|st3gal3": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "sialylation",
+      "reactantList": [
+        "CMP-Neu5Ac",
+        "Ganglioside(GA1)"
+      ],
+      "productList": [
+        "Ganglioside(GM1B)"
+      ],
+      "geneList": [
+        "ST3GAL2",
+        "ST3GAL3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=cmp-neu5ac|ganglioside(gd1b);p=ganglioside(gt1a);g=st3gal2|st3gal3": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "sialylation",
+      "reactantList": [
+        "CMP-Neu5Ac",
+        "Ganglioside(GD1B)"
+      ],
+      "productList": [
+        "Ganglioside(GT1A)"
+      ],
+      "geneList": [
+        "ST3GAL2",
+        "ST3GAL3"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=cmp-neu5ac|ganglioside(gd1a);p=ganglioside(gd1c);g=st8sia5": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "polysialylation",
+      "reactantList": [
+        "CMP-Neu5Ac",
+        "Ganglioside(GD1A)"
+      ],
+      "productList": [
+        "Ganglioside(GD1C)"
+      ],
+      "geneList": [
+        "ST8SIA5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=cmp-neu5ac|ganglioside(gt1b);p=ganglioside(gt1a);g=st8sia5": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "polysialylation",
+      "reactantList": [
+        "CMP-Neu5Ac",
+        "Ganglioside(GT1B)"
+      ],
+      "productList": [
+        "Ganglioside(GT1A)"
+      ],
+      "geneList": [
+        "ST8SIA5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=cmp-neu5ac|ganglioside(gm1b);p=ganglioside(gq1b);g=st8sia5": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "polysialylation",
+      "reactantList": [
+        "CMP-Neu5Ac",
+        "Ganglioside(GM1B)"
+      ],
+      "productList": [
+        "Ganglioside(GQ1B)"
+      ],
+      "geneList": [
+        "ST8SIA5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=cmp-neu5ac|ganglioside(gm1b);p=ganglioside-gd1alpha(gd1\u03b1);g=st6galnac5": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "sialylation",
+      "reactantList": [
+        "CMP-Neu5Ac",
+        "Ganglioside(GM1B)"
+      ],
+      "productList": [
+        "Ganglioside-GD1alpha(GD1\u03b1)"
+      ],
+      "geneList": [
+        "ST6GALNAC5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=gdp-fucose|ganglioside(ga1);p=fucga1;g=fut1|fut2": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "fucosylation",
+      "reactantList": [
+        "GDP-fucose",
+        "Ganglioside(GA1)"
+      ],
+      "productList": [
+        "FucGA1"
+      ],
+      "geneList": [
+        "FUT1",
+        "FUT2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=udp-alpha-d-galactose|lactosylceramide(laccer);p=globotriaosylceramide;g=a4galt": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "UDP-alpha-D-galactose",
+        "Lactosylceramide(LacCer)"
+      ],
+      "productList": [
+        "Globotriaosylceramide"
+      ],
+      "geneList": [
+        "A4GALT"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=globotriaosylceramide|n-acetylgalactosamine(galnac);p=globotetraosylceramide;g=b3galnt1": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "Globotriaosylceramide",
+        "N-acetylgalactosamine(GalNAc)"
+      ],
+      "productList": [
+        "Globotetraosylceramide"
+      ],
+      "geneList": [
+        "B3GALNT1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=lactosylceramide(laccer)|n-acetylgalactosamine(galnac);p=lactotriaosylceramide(lc3cer);g=b3gnt5": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "Lactosylceramide(LacCer)",
+        "N-acetylgalactosamine(GalNAc)"
+      ],
+      "productList": [
+        "Lactotriaosylceramide(Lc3Cer)"
+      ],
+      "geneList": [
+        "B3GNT5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=galactocerebroside-(galcer);p=ganglioside(gm4);g=st3gal5": {
+      "reactionType": "STATE_TRANSITION",
+      "isReversible": "false",
+      "reactInfo": "sialylation",
+      "reactantList": [
+        "Galactocerebroside-(GalCer)"
+      ],
+      "productList": [
+        "Ganglioside(GM4)"
+      ],
+      "geneList": [
+        "ST3GAL5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=udp-galactose(udp-gal)|ceramide;p=galactocerebroside-(galcer);g=ugt8": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "UDP-galactose(UDP-Gal)",
+        "Ceramide"
+      ],
+      "productList": [
+        "Galactocerebroside-(GalCer)"
+      ],
+      "geneList": [
+        "UGT8"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=phosphoadenylylsulfate(paps)|galactocerebroside-(galcer);p=sulfogalactoceramide;g=gal3st1": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "Phosphoadenylylsulfate(PAPS)",
+        "Galactocerebroside-(GalCer)"
+      ],
+      "productList": [
+        "Sulfogalactoceramide"
+      ],
+      "geneList": [
+        "GAL3ST1"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=udp-galactose(udp-gal)|glucosylceramide(glccer);p=lactosylceramide(laccer);g=b4galt5": {
+      "reactionType": "HETERODIMER_ASSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "UDP-galactose(UDP-Gal)",
+        "Glucosylceramide(GlcCer)"
+      ],
+      "productList": [
+        "Lactosylceramide(LacCer)"
+      ],
+      "geneList": [
+        "B4GALT5"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    },
+    "r=gdp-fucose;p=ganglioside(gm1)|fucgm1;g=fut1|fut2": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "fucosylation",
+      "reactantList": [
+        "GDP-fucose"
+      ],
+      "productList": [
+        "Ganglioside(GM1)",
+        "FucGM1"
+      ],
+      "geneList": [
+        "FUT1",
+        "FUT2"
+      ],
+      "geneModifierType": [
+        "CATALYSIS",
+        "CATALYSIS"
+      ]
+    },
+    "r=cera-d18;p=udp-glucose(udp-glu)|glucosylceramide(glccer);g=ugcg": {
+      "reactionType": "DISSOCIATION",
+      "isReversible": "false",
+      "reactInfo": "glycosylation",
+      "reactantList": [
+        "CERA-d18"
+      ],
+      "productList": [
+        "UDP-Glucose(UDP-Glu)",
+        "Glucosylceramide(GlcCer)"
+      ],
+      "geneList": [
+        "UGCG"
+      ],
+      "geneModifierType": [
+        "CATALYSIS"
+      ]
+    }
+  }
+}

@@ -1,11 +1,10 @@
 import dash
-from dash import html
-from dash import dcc
+from dash import html,dcc,MATCH,ALL
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output,State
 import dash_cytoscape as cyto
 import diskcache
-from dash.long_callback import DiskcacheLongCallbackManager
+from dash import DiskcacheManager
 import os
 import pandas as pd
 
@@ -13,19 +12,22 @@ font_awesome1 = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/a
 font_awesome3 = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css'
 
 external_js_lib="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+local_warn_suppressor = "/assets/ignore_wheel_warn.js"
 
 os.environ['TMPDIR'] = 'C:\\Temp'
 
 cache = diskcache.Cache("./cache")
-long_callback_manager = DiskcacheLongCallbackManager(cache)
+long_callback_manager = DiskcacheManager(cache)
 
 dash_app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP,font_awesome1,font_awesome3],
                     title="LiMeNex" ,use_pages=True,suppress_callback_exceptions=True,
-                    external_scripts=[external_js_lib],long_callback_manager=long_callback_manager)
+                    external_scripts=[external_js_lib, local_warn_suppressor],background_callback_manager=long_callback_manager)
 
 cyto.load_extra_layouts()
 
-from pages import home, contact,sbml_network
+from pages import home, contact,sbml_network,network
+from callbacks import network_callback
+
 dataBasePath= sbml_network.dataBasePath
 
 link_style = {
@@ -43,13 +45,13 @@ dash_app.layout = html.Div([
         # ) for page in dash.page_registry.values()
         html.Div([
                 html.Div([
-                    html.Img(src="assets/network_pic.png", style={"width": "4rem"}),
-                    html.Img(src="assets/Title.png", style={"width": "10rem"})
+                    html.Img(src="assets/network_pic.png", style={"width": "3rem"}),
+                    html.Img(src="assets/Title.png", style={"width": "9rem"})
                     # html.H5("LiMeNEx", style={'color': 'white', 'marginTop': '20px'}),
                     # html.Img(src="assets/Title.png", style={"width": "4.5rem"})
                 ], className='image_title')
             ], className="sidebar-header"),
-        html.Hr(),
+        # html.Hr(),
         dbc.Nav(
             [
                 dbc.NavLink([html.Div([
@@ -61,11 +63,19 @@ dash_app.layout = html.Div([
                 ),
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-circle-nodes"),
+                    html.Span("Network-2", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
+                    href="/Network2",
+                    active="exact",
+                    className="pe-3",
+                    style={'marginTop' : '7px'}
+                ),
+                dbc.NavLink([html.Div([
+                    html.I(className="fa-solid fa-circle-nodes"),
                     html.Span("Network", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
                     href="/Network",
                     active="exact",
                     className="pe-3",
-                    style={'marginTop' : '8px'}
+                    style={'marginTop' : '7px'}
                 ),
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-address-card"),
@@ -73,17 +83,20 @@ dash_app.layout = html.Div([
                     href="/Contact",
                     active="exact",
                     className="pe-3",
-                    style={'marginTop' : '8px'}
+                    style={'marginTop' : '7px'}
                 )
             ],
             vertical=True,
             pills=True,
+            id='nav-links',
+            style={'padding':'6px'}
         )
 
     ], className='sidebar'),
 
     html.Div(
         # dash.page_container,
+        className='page-content',
         id='page-content',
         children=[]
     )
@@ -100,8 +113,11 @@ def display_page(pathname):
         return sbml_network.layout
     elif pathname == '/Contact':
         return contact.layout
+    elif pathname == '/Network2':
+        return network.layout
 
-@dash_app.long_callback(
+
+@dash_app.callback(
     Output('cytoscape', 'elements',allow_duplicate=True),
     Output('cytoscape','stylesheet', allow_duplicate=True),
     Output('followers-node-store','data'),
@@ -118,7 +134,8 @@ def display_page(pathname):
         )
     ],
     progress=[Output("progress-bar", "value"), Output("progress-bar", "max")],
-    prevent_initial_call = True
+    prevent_initial_call = True,
+    background=True
 )
 def handlePathwaySelection(set_progress,n_clicks,optionList,stylesheet):
     if optionList is None:
@@ -180,5 +197,64 @@ def handlePathwaySelection(set_progress,n_clicks,optionList,stylesheet):
 
         return [], new_stylesheet,{},{},{}
 
+
+# correct clientside callback registration (paste into Python)
+# dash_app.clientside_callback(
+#     """
+#     async function(n_clicks) {
+#         // If no clicks, do nothing (prevent_initial_call will usually avoid this)
+#         // But return no_update if you want to be extra safe:
+#         if (typeof n_clicks === 'undefined' || n_clicks === null) {
+#             return window.dash_clientside.no_update;
+#         }
+
+#         // children (empty string) and style object
+#         const children = "";
+#         const style = {
+#             display: "none",
+#             position: "absolute",
+#             top: "15px",
+#             right: "15px",
+#             zIndex: 2000
+#         };
+
+#         // MUST return an array matching the Outputs order
+#         return [children, style];
+#     }
+#     """,
+#     Output("cytoscape-pop-pre", "children", allow_duplicate=True),
+#     Output("cytoscape-tap-edge-data-output", "style", allow_duplicate=True),
+#     Input("cytoscape-pop-close-btn", "n_clicks"),
+#     prevent_initial_call=True,
+# )
+
+
+dash_app.clientside_callback(
+    """
+    function(data1,data2,data3) {
+        const data = data1 || data2 || data3;
+        
+        // console.log("Tapped node data:", data);
+        
+        if (!data || !('uniprotAcc' in data) || data.uniprotAcc.length === 0) {
+            return window.dash_clientside.no_update;
+        }
+        window.open(`https://www.uniprot.org/uniprotkb/${data.uniprotAcc}`, "_blank");
+        
+        delete data1;
+        delete data2;
+        delete data3;
+        
+        return window.dash_clientside.no_update;
+    }
+    """,
+    Output("dummy-output-store", "data"),
+    Input({'type': 'cy-graph','index':'console-1'}, "tapNodeData"),
+    Input({'type': 'cy-graph','index':'console-2'}, "tapNodeData"),
+    Input({'type': 'cy-graph','index':'console-3'}, "tapNodeData"),
+    prevent_initial_call=True,
+)
+
+
 if __name__ == '__main__':
-    dash_app.run_server(debug=True)
+    dash_app.run(debug=True)

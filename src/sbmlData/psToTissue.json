@@ -1,0 +1,83 @@
+{
+    "Metabolic": [
+        "adiposetissue",
+        "kidney",
+        "liver",
+        "pancreas",
+        "skeletalmuscle",
+        "thyroidgland"
+    ],
+    "Blood": [
+        "erythroidlineage",
+        "hspcs",
+        "megakaryocytelineage",
+        "progenitors",
+        "other"
+    ],
+    "Cardiovascular": [
+        "blood",
+        "bonemarrow",
+        "heart",
+        "vasculature",
+        "other"
+    ],
+    "Female reproductive": [
+        "mammarygland",
+        "ovary",
+        "oviduct",
+        "placenta",
+        "uterus",
+        "vagina",
+        "other"
+    ],
+    "Gastrointestinal": [
+        "bileduct",
+        "colon",
+        "duodenum",
+        "esophagus",
+        "lleum",
+        "jejunum",
+        "rectum",
+        "stomach",
+        "other"
+    ],
+    "Immune": [
+        "leukocytes",
+        "lymphnode",
+        "spleen",
+        "thymus",
+        "other"
+    ],
+    "Male Reproductive": [
+        "prostate",
+        "testis",
+        "epididymis",
+        "other"
+    ],
+    "Neurosensory": [
+        "pns",
+        "sns",
+        "cns",
+        "sensory"
+    ],
+    "Respiratory": [
+        "lung"
+    ],
+    "Skeletal": [
+        "bone",
+        "cartilage"
+    ],
+    "Other": [
+        "adrenalgland",
+        "bladder",
+        "embryonictissue",
+        "fibroblasts",
+        "lung",
+        "miscellaneous",
+        "skin",
+        "stemcells"
+    ],
+    "Male reproductive": [
+        "prostate"
+    ]
+}
