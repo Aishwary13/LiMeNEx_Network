@@ -3,8 +3,12 @@ from utils.css import ex_stylesheet
 import dash_cytoscape as cyto
 import os
 import json
+from dotenv import load_dotenv
 
-root_dir = "D:/Raylab/LiMeNEx_Network"
+
+load_dotenv()
+
+root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
 with open(os.path.join(root_dir,'src/sbmlData/lipid_pathway_map.json'), 'r') as file:
     # Load the JSON data

@@ -5,7 +5,11 @@ import os
 import json
 import pickle
 
-root_dir = "D:/Raylab/LiMeNEx_Network"
+from dotenv import load_dotenv
+
+
+load_dotenv()
+root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
 with open(os.path.join(root_dir,"src/sbmlData/targetGene.pkl"), "rb") as f:
     enzymaticGene = pickle.load(f)
@@ -109,7 +113,9 @@ console2_layout = html.Div([
                     searchable=True,
                     style={
                         'width': '100%', 'marginBottom': '12px',
-                        'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px'
+                        'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px',
+                        'scrollbarWidth': 'thin',
+                        'scrollbarColor': '#555 #fff'
                     }
                 ),
 
@@ -129,6 +135,8 @@ console2_layout = html.Div([
                     'fontSize': '14px',
                     'overflowY': 'auto',
                     'height' : '60vh',
+                    'scrollbarWidth': 'thin',
+                    'scrollbarColor': '#555 #2e2e2e'
                     # 'borderRight': '2px solid #5e5e5e'
                 }),
             

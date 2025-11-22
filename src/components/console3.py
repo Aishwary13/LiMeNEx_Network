@@ -5,7 +5,11 @@ import os
 import json
 import pickle
 
-root_dir = "D:/Raylab/LiMeNEx_Network"
+from dotenv import load_dotenv
+
+
+load_dotenv()
+root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
 with open(os.path.join(root_dir,'src/sbmlData/pathwayDropdownOptions.json'), 'r') as file:
     # Load the JSON data
@@ -116,7 +120,9 @@ console3_layout = html.Div([
                         placeholder='Select Genes...',
                         style={
                             'width': '100%', 'marginBottom': '12px',
-                            'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px'
+                            'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px',
+                            'scrollbarWidth': 'thin',
+                            'scrollbarColor': '#555 #fff'
                         }
                     ),
                     html.Button(
@@ -125,7 +131,9 @@ console3_layout = html.Div([
                         style={
                             'width': '100%', 'backgroundColor': '#fca117',
                             'color': 'white', 'border': 'none',
-                            'padding': '6px', 'borderRadius': '4px', 'marginBottom': '10px'
+                            'padding': '6px', 'borderRadius': '4px', 'marginBottom': '10px',
+                            'scrollbarWidth': 'thin',
+                            'scrollbarColor': '#555 #fff'
                         }
                     )
                 ], style={
@@ -154,7 +162,9 @@ console3_layout = html.Div([
                         multi=True, closeOnSelect=False, placeholder='Select Systems...',
                         style={
                             'width': '100%', 'marginBottom': '10px',
-                            'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px'
+                            'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px',
+                            'scrollbarWidth': 'thin',
+                            'scrollbarColor': '#555 #fff'
                         }
                     ),
                     html.Label("Select Tissue(s):",
@@ -180,7 +190,9 @@ console3_layout = html.Div([
                 'fontSize': '14px',
                 'overflowY': 'auto',
                 'height': '55vh',
-                'gridColumn' : 1
+                'gridColumn' : 1,
+                'scrollbarWidth': 'thin',
+                'scrollbarColor': '#555 #2e2e2e'
             }),
             
             cyto.Cytoscape(
@@ -213,13 +225,15 @@ console3_layout = html.Div([
                     id='tf-select',
                     options=[], placeholder='Select TF(s)...',
                     multi=True, closeOnSelect=False,
-                    style={'width': '100%', 'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px','marginBottom' : '10px'}
+                    style={'width': '100%', 'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px','marginBottom' : '10px','scrollbarWidth': 'thin',
+                        'scrollbarColor': '#555 #fff'}
                 ),
                 dcc.Dropdown(
                     id='gene-select',
                     options=[], placeholder='Select Gene(s)...',
                     multi=True, closeOnSelect=False,
-                    style={'width': '100%', 'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px','marginBottom' : '10px'}
+                    style={'width': '100%', 'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px','marginBottom' : '10px','scrollbarWidth': 'thin',
+                        'scrollbarColor': '#555 #fff'}
                 ),
                 html.Button(
                     "Load Evidence",
@@ -234,7 +248,7 @@ console3_layout = html.Div([
             ], style={'fontSize': '14px','gridColumn': '1',
                         'padding': '8px 10px',
                         'alignItems': 'center',
-                        'justifyContent': 'center','overflowY': 'auto','borderTop' : '1px solid #5e5e5e',}),
+                        'justifyContent': 'center','overflowY': 'auto','borderTop' : '1px solid #5e5e5e','scrollbarWidth': 'thin','scrollbarColor': '#555 #2e2e2e'}),
 
             html.Div([
                 

@@ -7,7 +7,10 @@ from itertools import chain
 import dash
 import dash_cytoscape as cyto
 
-root_dir = "D:/Raylab/LiMeNEx_Network"
+from dotenv import load_dotenv
+
+load_dotenv()
+root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 with open(os.path.join(root_dir, 'src/sbmlData/lipid_pathway_map.json')) as file:
     lipid_map = json.load(file)
 

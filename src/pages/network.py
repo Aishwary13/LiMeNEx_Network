@@ -1,10 +1,13 @@
+import os
 from dash import html, dcc
 from components import console1,console2,console3
-
-root_dir = "D:/Raylab/LiMeNEx_Network"
-
+from dotenv import load_dotenv
 
 
+load_dotenv()
+
+
+root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
 # print(type(lipids))
 layout = html.Div([
@@ -24,6 +27,20 @@ layout = html.Div([
     console1.console1_layout,
     console2.console2_layout,
     console3.console3_layout,
-    
+    html.Div(
+        [
+            html.Div("© 2025 LiMeNEx — Ray Lab. All rights reserved.", style={"opacity": 0.6}),
+        ],
+        style={'position':'relative',
+               'bottom':'0px','display' : 'flex',
+               'flexDirection':'column',
+               'textAlign':'center',
+               'justifyContent':'center',
+               'left':'0','width':'100%',
+               'paddingLeft': '3.8em', 
+               'paddingBottom':'10px',
+               'color': 'white',
+               'marginTop': '20px'}
+    )
 
 ], style={'backgroundColor': "#1a1a1a", 'height': '100vh', 'overflow': 'auto'})

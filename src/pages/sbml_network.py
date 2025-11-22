@@ -10,8 +10,13 @@ from utils.css import ex_stylesheet,legend_stylesheet
 from itertools import chain
 from dash_extensions import EventListener
 import io
+from dotenv import load_dotenv
 
-dataBasePath= 'D:/Raylab/LiMeNEx_Network/src/sbmlData'
+    
+load_dotenv()
+
+root_dir = os.getenv('root_dir_path', default='D:/Raylab/LiMeNEx_Network/')
+dataBasePath= os.path.join(root_dir, 'src/sbmlData')
 
 ns = {'celldesigner': 'http://www.sbml.org/2001/ns/celldesigner', '': 'http://www.sbml.org/sbml/level2/version4',
         'html': 'http://www.w3.org/1999/xhtml'}

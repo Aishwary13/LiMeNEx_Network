@@ -2,8 +2,11 @@ import os
 import json
 from functools import lru_cache
 import networkx as nx
+from dotenv import load_dotenv
 
-root_dir = "D:/Raylab/LiMeNEx_Network"
+load_dotenv()
+
+root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
 @lru_cache(maxsize=64)
 def load_pathway_data(pathway):
