@@ -25,10 +25,10 @@ dash_app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP,font_aw
 
 cyto.load_extra_layouts()
 
-from pages import home, contact,sbml_network,network
+from pages import home, contact,network
 from callbacks import network_callback
 
-dataBasePath= sbml_network.dataBasePath
+# dataBasePath= sbml_network.dataBasePath
 
 link_style = {
     'padding': '0.75em 1em',
@@ -63,20 +63,20 @@ dash_app.layout = html.Div([
                 ),
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-circle-nodes"),
-                    html.Span("Network-2", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
+                    html.Span("Network", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
                     href="/Network2",
                     active="exact",
                     className="pe-3",
                     style={'marginTop' : '7px'}
                 ),
-                dbc.NavLink([html.Div([
-                    html.I(className="fa-solid fa-circle-nodes"),
-                    html.Span("Network", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
-                    href="/Network",
-                    active="exact",
-                    className="pe-3",
-                    style={'marginTop' : '7px'}
-                ),
+                # dbc.NavLink([html.Div([
+                #     html.I(className="fa-solid fa-circle-nodes"),
+                #     html.Span("Network", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
+                #     href="/Network",
+                #     active="exact",
+                #     className="pe-3",
+                #     style={'marginTop' : '7px'}
+                # ),
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-address-card"),
                     html.Span("Contact Us", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
@@ -109,93 +109,93 @@ dash_app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/':
         return home.layout
-    elif pathname == '/Network':
-        return sbml_network.layout
+    # elif pathname == '/Network':
+    #     return sbml_network.layout
     elif pathname == '/Contact':
         return contact.layout
     elif pathname == '/Network2':
         return network.layout
 
 
-@dash_app.callback(
-    Output('cytoscape', 'elements',allow_duplicate=True),
-    Output('cytoscape','stylesheet', allow_duplicate=True),
-    Output('followers-node-store','data'),
-    Output('followers-edge-store','data'),
-    Output('dataframe-store','data'),
-    Input('fetchPathwaysButton','n_clicks'),
-    State('pathwayDropdownOptions', 'value'),
-    State('cytoscape','stylesheet'),
-    running=[
-        (
-            Output("progress-container", "style"),
-            {"display": "block","value" : '0','max' : '10',"position":"fixed","top":"0","left":"0","zIndex" : '1002', "width": "100vw", "height": "100vh",  "background": "rgba(0, 0, 0, 0.5)", "backdrop-filter": "blur(5px)"},
-            {"display": "none"},
-        )
-    ],
-    progress=[Output("progress-bar", "value"), Output("progress-bar", "max")],
-    prevent_initial_call = True,
-    background=True
-)
-def handlePathwaySelection(set_progress,n_clicks,optionList,stylesheet):
-    if optionList is None:
-        return [], stylesheet,{},{},{}
+# @dash_app.callback(
+#     Output('cytoscape', 'elements',allow_duplicate=True),
+#     Output('cytoscape','stylesheet', allow_duplicate=True),
+#     Output('followers-node-store','data'),
+#     Output('followers-edge-store','data'),
+#     Output('dataframe-store','data'),
+#     Input('fetchPathwaysButton','n_clicks'),
+#     State('pathwayDropdownOptions', 'value'),
+#     State('cytoscape','stylesheet'),
+#     running=[
+#         (
+#             Output("progress-container", "style"),
+#             {"display": "block","value" : '0','max' : '10',"position":"fixed","top":"0","left":"0","zIndex" : '1002', "width": "100vw", "height": "100vh",  "background": "rgba(0, 0, 0, 0.5)", "backdrop-filter": "blur(5px)"},
+#             {"display": "none"},
+#         )
+#     ],
+#     progress=[Output("progress-bar", "value"), Output("progress-bar", "max")],
+#     prevent_initial_call = True,
+#     background=True
+# )
+# def handlePathwaySelection(set_progress,n_clicks,optionList,stylesheet):
+#     if optionList is None:
+#         return [], stylesheet,{},{},{}
 
-    if len(optionList) != 0:
-        set_progress(('0','10'))
+#     if len(optionList) != 0:
+#         set_progress(('0','10'))
 
-        followers_edges_di = {}
-        followers_node_di = {}
+#         followers_edges_di = {}
+#         followers_node_di = {}
 
-        finalNodes = []
-        finalEdges = []
-        finalNodeSet = set()
-        finalReactionList = []
-        reactionNum = 1
+#         finalNodes = []
+#         finalEdges = []
+#         finalNodeSet = set()
+#         finalReactionList = []
+#         reactionNum = 1
 
-        total_files = len(optionList)
-        try:
-            inc = 10/total_files
-        except:
-            set_progress(('10','10'))
-        # init = 0
+#         total_files = len(optionList)
+#         try:
+#             inc = 10/total_files
+#         except:
+#             set_progress(('10','10'))
+#         # init = 0
 
-        dfList = []
-        for i,fileName in enumerate(optionList):
-            # filePathSbml = os.path.join(dataBasePath,'networkFile',f"{fileName}.xml")
-            filePathTf = os.path.join(dataBasePath,'pathwayTfsModified',f"{fileName}.csv")
-            reactionNum = sbml_network.readSbml(fileName=fileName,finalNodes=finalNodes,finalNodeSet=finalNodeSet,finalEdges=finalEdges, reactionNum=reactionNum)
+#         dfList = []
+#         for i,fileName in enumerate(optionList):
+#             # filePathSbml = os.path.join(dataBasePath,'networkFile',f"{fileName}.xml")
+#             filePathTf = os.path.join(dataBasePath,'pathwayTfsModified',f"{fileName}.csv")
+#             reactionNum = sbml_network.readSbml(fileName=fileName,finalNodes=finalNodes,finalNodeSet=finalNodeSet,finalEdges=finalEdges, reactionNum=reactionNum)
             
-            if os.path.exists(filePathTf):
-                temp = pd.read_csv(filePathTf)
-                dfList.append(temp)
+#             if os.path.exists(filePathTf):
+#                 temp = pd.read_csv(filePathTf)
+#                 dfList.append(temp)
 
-        df = pd.DataFrame()
+#         df = pd.DataFrame()
 
-        if len(dfList) != 0:
-            df = pd.concat(dfList, ignore_index=True)
+#         if len(dfList) != 0:
+#             df = pd.concat(dfList, ignore_index=True)
 
-            # adding display stylesheet for each tissue
-            uniqueTissue = df['Tissue'].unique()
-            for tis in uniqueTissue:
-                stylesheet.extend([{
-                    "selector" : f".{tis}_T",
-                    "style" : {"display" : "element"}
-                }])
+#             # adding display stylesheet for each tissue
+#             uniqueTissue = df['Tissue'].unique()
+#             for tis in uniqueTissue:
+#                 stylesheet.extend([{
+#                     "selector" : f".{tis}_T",
+#                     "style" : {"display" : "element"}
+#                 }])
             
-            for progress in sbml_network.readMapping(df=df,finalNodes=finalNodes,finalEdges=finalEdges, finalNodeSet=finalNodeSet,followers_node_di=followers_node_di,followers_edges_di=followers_edges_di):
-                set_progress((progress,'10'))
+#             for progress in sbml_network.readMapping(df=df,finalNodes=finalNodes,finalEdges=finalEdges, finalNodeSet=finalNodeSet,followers_node_di=followers_node_di,followers_edges_di=followers_edges_di):
+#                 set_progress((progress,'10'))
 
-        # print(followers_edges_di)
-        dataframe_json = df.to_json(orient='split')
-        return finalNodes+finalEdges, stylesheet,followers_node_di,followers_edges_di,dataframe_json
-    else:
-        new_stylesheet = []
-        for style in stylesheet:
-            if 'T_' != style.get('selector')[-1:-3:-1]:
-                new_stylesheet.append(style)
+#         # print(followers_edges_di)
+#         dataframe_json = df.to_json(orient='split')
+#         return finalNodes+finalEdges, stylesheet,followers_node_di,followers_edges_di,dataframe_json
+#     else:
+#         new_stylesheet = []
+#         for style in stylesheet:
+#             if 'T_' != style.get('selector')[-1:-3:-1]:
+#                 new_stylesheet.append(style)
 
-        return [], new_stylesheet,{},{},{}
+#         return [], new_stylesheet,{},{},{}
 
 
 # correct clientside callback registration (paste into Python)
