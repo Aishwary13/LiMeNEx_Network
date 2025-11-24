@@ -274,7 +274,7 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
     finalEdges = []
     finalNodeSet = set()
 
-    df = pd.read_csv(os.path.join(root_dir, 'src/sbmlData/cleaned_tf_targetgene_tissue_groups.csv'), dtype=str)
+    df = pd.read_csv(os.path.join(root_dir, 'src/sbmlData/final_tf_targetgene_tissue_groups.csv'), dtype=str)
     transcription_factors = df[df['TargetGene'].isin(selected_genes)]['TF'].unique().tolist()
     global_tissues = set()
     for tf in transcription_factors:

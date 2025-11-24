@@ -25,7 +25,7 @@ console2_layout = html.Div([
     # Header Section
     html.Div([
         html.Div([
-            html.Span("Console-2: Reaction Network Exploration",
+            html.Span("Console-2: Lipid-enzyme Reactions",
                     style={'color': 'white', 'fontSize': '16px', 'fontWeight': 'bold'}),
 
             html.Span("Active",

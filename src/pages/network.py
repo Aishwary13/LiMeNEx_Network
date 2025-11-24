@@ -16,7 +16,7 @@ layout = html.Div([
     dcc.Store(id="graph-update-flag"),
     # ===== HEADER BAR =====
     html.Div([
-        html.H2("Lipid Network Explorer",
+        html.H2("Lipid Metabolism Network Explorer",
                 style={'color': 'white', 'margin': '0', 'padding': '0 20px', 'flex': '1', 'fontSize': '18px'}),
     ],
     style={

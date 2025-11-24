@@ -26,7 +26,7 @@ console1_layout = html.Div([
         
         html.Div([
             html.Div([
-                html.Span("Console-1: Pathway Exploration",
+                html.Span("Console-1: Lipid Pathways Network Exploration",
                         style={'color': 'white', 'fontSize': '16px', 'fontWeight': 'bold'}),
 
                 html.Span("Active",
@@ -96,7 +96,7 @@ console1_layout = html.Div([
         html.Div([
             # Left Control Panel
             html.Div([
-                html.Label("Select Lipids for Pathway Highlight:",
+                html.Label("Search and select Lipids:",
                         style={'color': 'white', 'fontWeight': 'bold', 'marginBottom': '5px'}),
 
                 dcc.Dropdown(

@@ -214,10 +214,44 @@ def gene_to_reaction():
     return
 
 
+
+def cross_verify_genes():
+
+    mapping_file = 'D:/Raylab/LiMeNEx_Network/src/sbmlData/tf_targetgene_mapping_cleaned.json'
+    not_Tf_genes = ["FUT2", "HSD17B8", "PPT1", "AKR1C8","GK3","COX1","COX2"]
+    
+    pathways_folder = "D:\\Raylab\\LiMeNEx_Network\\src\\sbmlData\\pathwayInfo"
+    gene_set = set()
+    for file_name in os.listdir(pathways_folder):
+        file_path = os.path.join(pathways_folder, file_name)
+        if os.path.isfile(file_path) and file_name.endswith('.json'):
+            with open(file_path, 'r') as json_file:
+                data = json.load(json_file)
+                nodes = data.get('nodes', {})
+                
+                for node_name, node_data in nodes.items():
+                    if "lipid" not in node_data.get('class',''):
+                        gene_set.add(node_name)
+                        
+                        
+    with open(mapping_file, 'r') as f:
+        tf_target_mapping = json.load(f)
+    mapped_genes = set(tf_target_mapping.keys())
+    mapped_genes.update(set(not_Tf_genes))
+    
+    
+    # unmapped_genes = gene_set - mapped_genes
+    unmapped_genes = mapped_genes - gene_set
+    print("Unmapped Genes:")
+    print(unmapped_genes)
+    
+    return
+
+
 if __name__ == "__main__":
     # create_phys_tissue_mapping()
-    
-    gene_to_reaction()
+    cross_verify_genes()
+    # gene_to_reaction()
 #     networkPath = 'D:/Raylab/LiMeNEx_Network/src/sbmlData/networks_updated'
 #     outputPath = 'D:/Raylab/LiMeNEx_Network/src/sbmlData/pathwayInfo'
 #     runUniqueReactions(networkPath=networkPath,outputPath=outputPath)

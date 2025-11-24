@@ -31,7 +31,7 @@ console3_layout = html.Div([
     # Header Section
     html.Div([
         html.Div([
-            html.Span("Console-3: Explore TFs",
+            html.Span("Console-3: Enzyme-TF regulatory Network",
                     style={'color': 'white', 'fontSize': '16px', 'fontWeight': 'bold'}),
 
             html.Span("Active",
