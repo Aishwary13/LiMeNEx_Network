@@ -101,7 +101,7 @@ console2_layout = html.Div([
     html.Div([
         html.Div([
             html.Div([
-                html.Label("Select Gene for visualization:",
+                html.Label("Select enzymatic gene",
                         style={'color': 'white', 'fontWeight': 'bold', 'marginBottom': '5px'}),
 
                 dcc.Dropdown(
@@ -128,30 +128,65 @@ console2_layout = html.Div([
                 html.Hr(style={'border': '1px solid #EEEEEE', 'margin': '15px 0'}),
 
             ],
-                style={
-                    'gridColumn': '1',
-                    'padding': '10px',
-                    'backgroundColor': "#2e2e2e",
-                    'fontSize': '14px',
-                    'overflowY': 'auto',
-                    'height' : '60vh',
-                    'scrollbarWidth': 'thin',
-                    'scrollbarColor': '#555 #2e2e2e'
-                    # 'borderRight': '2px solid #5e5e5e'
-                }),
+            style={
+                'gridColumn': '1',
+                'padding': '10px',
+                'backgroundColor': "#2e2e2e",
+                'fontSize': '14px',
+                'overflowY': 'auto',
+                'height' : '60vh',
+                'scrollbarWidth': 'thin',
+                'scrollbarColor': '#555 #2e2e2e'
+                # 'borderRight': '2px solid #5e5e5e'
+            }),
             
-            cyto.Cytoscape(
-                id={'type': 'cy-graph','index':'console-2'},
-                layout={'name': 'cose-bilkent'},
+            html.Div([
+                cyto.Cytoscape(
+                    id={'type': 'cy-graph','index':'console-2'},
+                    layout={'name': 'cose-bilkent'},
+                    style={
+                        'width': '100%',
+                        'height': '60vh',
+                        'backgroundColor': '#F3F3F3',
+                        'borderRadius': '8px',
+                    },
+                    elements=[], stylesheet=ex_stylesheet
+                ),
+                
+                html.Div([
+                    # Close button stays in DOM permanently (initially hidden via CSS)
+                    html.Button(
+                        "×",
+                        id='cytoscape-pop-close-btn',
+                        className='pop-close-btn',
+                        title='Close',
+                        n_clicks=0
+                    ),
+
+                    # Preformatted area for JSON/text (server writes here)
+                    html.Pre(
+                        id='cytoscape-pop-pre',
+                        children='',
+                        className='pop-content-pre'
+                    )
+                ],
+                id='cytoscape-tap-edge-data-output',
+                className='cytoscape-tap-edge-data-output',
+                # keep default hidden here; server will set display:block when showing
                 style={
-                    'width': '100%',
-                    'height': '60vh',
-                    'backgroundColor': '#F3F3F3',
-                    'borderRadius': '8px',
-                    'gridColumn': '2',
-                },
-                elements=[], stylesheet=ex_stylesheet
-            ),
+                    'display': 'none',
+                    'position': 'absolute',
+                    'top': '15px',
+                    'right': '15px',
+                    'zIndex': 2000
+                })
+                
+            ],style={
+                'position' : 'relative',
+                'gridColumn': '2',
+                'height': '60vh'
+            })
+            
         ], style={
             'display': 'grid',
             'gridTemplateColumns': '22% 78%',

@@ -43,4 +43,4 @@ layout = html.Div([
                'marginTop': '20px'}
     )
 
-], style={'backgroundColor': "#1a1a1a", 'height': '100vh', 'overflow': 'auto'})
+], style={'backgroundColor': "#101010", 'height': '100vh', 'overflow': 'auto'})

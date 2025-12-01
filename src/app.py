@@ -13,6 +13,10 @@ font_awesome3 = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/s
 
 external_js_lib="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
 local_warn_suppressor = "/assets/ignore_wheel_warn.js"
+typedjs = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"
+temp2 = "https://unpkg.com/react@18/umd/react.production.min.js"
+temp3 = "https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+
 
 os.environ['TMPDIR'] = 'C:\\Temp'
 
@@ -21,9 +25,11 @@ long_callback_manager = DiskcacheManager(cache)
 
 dash_app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP,font_awesome1,font_awesome3],
                     title="LiMeNex" ,use_pages=True,suppress_callback_exceptions=True,
-                    external_scripts=[external_js_lib, local_warn_suppressor],background_callback_manager=long_callback_manager)
+                    external_scripts=[external_js_lib, local_warn_suppressor, typedjs, temp2, temp3],background_callback_manager=long_callback_manager)
 
 cyto.load_extra_layouts()
+
+server = dash_app.server
 
 from pages import home, contact,network
 from callbacks import network_callback
@@ -46,7 +52,18 @@ dash_app.layout = html.Div([
         html.Div([
                 html.Div([
                     html.Img(src="assets/network_pic.png", style={"width": "3rem"}),
-                    html.Img(src="assets/Title.png", style={"width": "9rem"})
+                    html.H1("LiMeNEx",
+                        style={
+                                "background": "linear-gradient(90deg, #14e6ff, #4ca9ff, #9c4dff)",
+                                "WebkitBackgroundClip": "text",
+                                "WebkitTextFillColor": "transparent",
+                                "fontSize": "32px",
+                                "fontWeight": "500",
+                                "margin": "0px",
+                                # "marginBottom": "10px",
+                            }, 
+                        ),
+                    # html.Img(src="assets/Title.png", style={"width": "9rem"})
                     # html.H5("LiMeNEx", style={'color': 'white', 'marginTop': '20px'}),
                     # html.Img(src="assets/Title.png", style={"width": "4.5rem"})
                 ], className='image_title')
@@ -229,22 +246,64 @@ def display_page(pathname):
 # )
 
 
+# dash_app.clientside_callback(
+#     """
+#     function(data1,data2,data3) {
+#         const data = data1 || data2 || data3;
+        
+#         // console.log("Tapped node data:", data);
+        
+#         if (!data || !('uniprotAcc' in data) || data.uniprotAcc.length === 0) {
+#             return window.dash_clientside.no_update;
+#         }
+#         window.open(`https://www.uniprot.org/uniprotkb/${data.uniprotAcc}`, "_blank");
+        
+#         delete data1;
+#         delete data2;
+#         delete data3;
+        
+#         return window.dash_clientside.no_update;
+#     }
+#     """,
+#     Output("dummy-output-store", "data"),
+#     Input({'type': 'cy-graph','index':'console-1'}, "tapNodeData"),
+#     Input({'type': 'cy-graph','index':'console-2'}, "tapNodeData"),
+#     Input({'type': 'cy-graph','index':'console-3'}, "tapNodeData"),
+#     prevent_initial_call=True,
+# )
+
+
 dash_app.clientside_callback(
     """
-    function(data1,data2,data3) {
-        const data = data1 || data2 || data3;
-        
-        // console.log("Tapped node data:", data);
-        
-        if (!data || !('uniprotAcc' in data) || data.uniprotAcc.length === 0) {
+    function(data1, data2, data3) {
+        // get clientside callback context
+        const ctx = dash_clientside.callback_context || window.dash_clientside && window.dash_clientside.callback_context;
+        if (!ctx || !ctx.triggered || ctx.triggered.length === 0) {
             return window.dash_clientside.no_update;
         }
-        window.open(`https://www.uniprot.org/uniprotkb/${data.uniprotAcc}`, "_blank");
-        
-        delete data1;
-        delete data2;
-        delete data3;
-        
+
+        // ctx.triggered[0].prop_id looks like:
+        // '{"type":"cy-graph","index":"console-2"}.tapNodeData'
+        const triggeredProp = ctx.triggered[0].prop_id || '';
+
+        let activeData = null;
+        if (triggeredProp.indexOf('"console-1"') !== -1) {
+            activeData = data1;
+        } else if (triggeredProp.indexOf('"console-2"') !== -1) {
+            activeData = data2;
+        } else if (triggeredProp.indexOf('"console-3"') !== -1) {
+            activeData = data3;
+        } else {
+            // fallback: prefer the most-recent non-null value
+            activeData = data3 || data2 || data1;
+        }
+
+        if (!activeData || !('uniprotAcc' in activeData) || !activeData.uniprotAcc || activeData.uniprotAcc.length === 0) {
+            return window.dash_clientside.no_update;
+        }
+
+        window.open(`https://www.uniprot.org/uniprotkb/${activeData.uniprotAcc}`, "_blank");
+
         return window.dash_clientside.no_update;
     }
     """,
@@ -254,6 +313,7 @@ dash_app.clientside_callback(
     Input({'type': 'cy-graph','index':'console-3'}, "tapNodeData"),
     prevent_initial_call=True,
 )
+
 
 
 if __name__ == '__main__':

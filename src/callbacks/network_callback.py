@@ -112,7 +112,7 @@ def download_table_csv(n_clicks, derived_data):
 @callback(
     Output('cytoscape-pop-pre', 'children'),
     Output('cytoscape-tap-edge-data-output', 'style'),
-    Input({'type': 'cy-graph','index':'console-1'}, 'tapEdgeData'),
+    Input({'type': 'cy-graph','index':'console-2'}, 'tapEdgeData'),
     prevent_initial_call=True
 )
 def show_popup(tap_edge_data):
@@ -121,7 +121,6 @@ def show_popup(tap_edge_data):
         return "", {'display': 'none'}
 
     reactInfo = tap_edge_data.get('reactInfo', 'No reaction info available.')
-    reactionType = tap_edge_data.get('reactionType', 'No reaction type available.')
 
     info = {'Reaction Info': reactInfo}
     pretty_text = json.dumps(info, indent=2)
@@ -540,9 +539,9 @@ def fetch_rxn(n_clicks, genes, stylesheet):
         for key,value in rxn.items():
             if key in finalReactionList:
                 print(f"Reaction {key} already processed, skipping.")
-                pathway = value.get('pathways',[])
-                pathway = set(pathway).difference(set(finalReactionList[key]))
-                finalReactionList[key] += list(pathway)
+                pathway = set(value.get('pathways',[]))
+                pathway.update(set(finalReactionList[key]))
+                finalReactionList[key] = list(pathway)
                 continue
             
             finalReactionList[key] = value.get('pathways',[])
@@ -566,7 +565,7 @@ def fetch_rxn(n_clicks, genes, stylesheet):
 
                 
                 finalEdges.append({
-                    'data': {'source': reactant, 'target': key, 'classes' : 'first_half'},
+                    'data': {'source': reactant, 'target': key, 'classes' : 'first_half','reactInfo' : value.get('reactInfo','')},
                     'classes': 'first_half',
                     # 'selectable': True, 
                     # 'grabbable': False
@@ -583,7 +582,7 @@ def fetch_rxn(n_clicks, genes, stylesheet):
                     }
                 
                 finalEdges.append({
-                    'data': {'source': key, 'target': product, 'classes' : 'second_half'},
+                    'data': {'source': key, 'target': product, 'classes' : 'second_half','reactInfo' : value.get('reactInfo','')},
                     'classes': 'second_half',
                     # 'selectable': True, 
                     # 'grabbable': False
@@ -602,7 +601,7 @@ def fetch_rxn(n_clicks, genes, stylesheet):
                 })
                 
                 finalEdges.append({
-                    'data': {'source': gene, 'target': key, 'classes' : modifier},
+                    'data': {'source': gene, 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo','')},
                     'classes': modifier,
                     # 'selectable': True, 
                     # 'grabbable': False

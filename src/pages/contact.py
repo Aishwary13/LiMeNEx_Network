@@ -108,6 +108,6 @@ layout = html.Div(
         )
     
     ],
-    style={"backgroundColor": "#1a1a1a", "minHeight": "100vh", "padding": "20px 24px", "color": "white"}
+    style={"backgroundColor": "#101010", "minHeight": "100vh", "padding": "20px 24px", "color": "white"}
 )
 

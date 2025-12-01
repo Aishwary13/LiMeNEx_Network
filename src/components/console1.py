@@ -183,39 +183,10 @@ console1_layout = html.Div([
                     elements=[],
                     stylesheet=ex_stylesheet
                 ),
-                
-                html.Div([
-                    # Close button stays in DOM permanently (initially hidden via CSS)
-                    html.Button(
-                        "×",
-                        id='cytoscape-pop-close-btn',
-                        className='pop-close-btn',
-                        title='Close',
-                        n_clicks=0
-                    ),
-
-                    # Preformatted area for JSON/text (server writes here)
-                    html.Pre(
-                        id='cytoscape-pop-pre',
-                        children='',
-                        className='pop-content-pre'
-                    )
-                ],
-                id='cytoscape-tap-edge-data-output',
-                className='cytoscape-tap-edge-data-output',
-                # keep default hidden here; server will set display:block when showing
-                style={
-                    'display': 'none',
-                    'position': 'absolute',
-                    'top': '15px',
-                    'right': '15px',
-                    'zIndex': 2000
-                })
             ],
             style={
                 'position' : 'relative',
                 'gridColumn': '2',
-                'backgroundColor': '#2E2E2E',
                 'height': '75vh'
             })
         ],
