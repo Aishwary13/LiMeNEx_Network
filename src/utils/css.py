@@ -7,13 +7,15 @@ ex_stylesheet = [
             'shape': 'rectangle',
             'background-color': "#d889a0",
             'label': 'data(label)',
-            'width': '40px',
+            'width': '50px',
             'height': '20px',
             'color': "#000000",
             'text-valign': 'center',
             'text-halign': 'center',
             'font-size' : '10px',
-            'z-index' : 1001
+            'z-index' : 99,
+            'border-color': '#000000',
+            'border-width': '1px',
         }
     },
     {
@@ -27,7 +29,8 @@ ex_stylesheet = [
             'color': '#000000',
             'text-valign': 'center',
             'text-halign': 'center',
-            'font-size' : '10px'
+            'font-size' : '10px',
+            'z-index' : 1000
         }
     },
     # Style for Lipid nodes
@@ -179,7 +182,7 @@ ex_stylesheet = [
         }
     },
     {
-        'selector' : '.highlightedLipid',
+        'selector' : '.highlightedNode',
         'style' : {
             'background-color': "#00E1FF",
         }

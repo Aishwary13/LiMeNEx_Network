@@ -17,7 +17,7 @@
     overflow-x: hidden;
     transition: width 0.5s;
     /* padding-top: 0.75em; */
-    background-color: #292929;
+    background-color: #1f1f1f;
     color: white;
     z-index: 2;  /* Ensure the sidebar is on top */
     box-shadow: 4px 0 2px 0 rgba(0, 0, 0, 0.3);
@@ -77,19 +77,24 @@
     padding: 6px;
 }
 
+.nav_link{
+  transition: transform 0.1s ease;
+}
+
 .nav-link.active{
     background-color: #3b82f5 !important;
     color: #fff !important;
     /* box-shadow: 0 2px 4px 0 rgba(32, 121, 255, 0.308) !important; */
   }
 
-  .nav-link.active:hover{
+.nav-link.active:hover{
     color: #fff !important;
   }
 
-  /* .nav-link:hover {
+.nav-link:hover {
     color:  #0084d6 !important;
-  } */
+    transform: translateY(-4px);
+  }
 
 .image_title {
     display: flex;
@@ -105,6 +110,13 @@
     align-items: center;
     color : #ffffff
 }
+
+
+
+/* .nav-bar-icons:hover{
+  transform: translateY(-4px);
+} */
+
 
 /* ----------------------------------------Network Expandable download ---------------------------------------- */
 
@@ -368,14 +380,14 @@
 
 
 .grad-li {
-    background: linear-gradient(90deg,#26d4ff);
+    background: linear-gradient(90deg,#17e0ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
 
 .grad-me {
-    background: linear-gradient(90deg, #47afff);
+    background: linear-gradient(90deg, #2ecbff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -468,7 +480,80 @@
 .hero-title-wrapper > * { position: relative; z-index: 2; }
 
 
+/* ------------------------------------------ console1 playcards information------------------------------ */
+
+
+/* Each play-card */
+
+/* card container (existing) */
+.pinfo-card {
+    display: grid;
+    grid-template-columns: 60px 1fr;   /* label | value */
+    column-gap: 8px;
+    row-gap: 6px;
+    min-width: 220px;
+    max-width: 340px;
+    background-color: #262626;
+    border: 1.5px solid #374152;
+    border-radius: 8px;
+    padding: 8px 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* label side */
+.pinfo-label {
+    color: #a8b3c0;
+    font-weight: 600;
+    font-size: 12px;
+    white-space: nowrap; /* keep labels on one line */
+}
+
+/* value side */
+.pinfo-value {
+    color: #e6e6e6;
+    font-size: 13px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
+/* hover effect (optional) */
+.pinfo-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Responsive tweak */
+@media (max-width: 360px) {
+    .pinfo-card { grid-template-columns: 80px 1fr; }
+}
 
 
 
+
+
+
+
+
+
+
+/* ------------------------------------------ Disabled button cursor style ------------------------------ */
+#fetch-network-button:disabled {
+    cursor: not-allowed !important;
+}
+
+#fetch-reactions-button:disabled {
+    cursor: not-allowed !important;
+}
+
+#fetch-tfs-button:disabled {
+    cursor: not-allowed !important;
+}
+
+#load-evidence-btn:disabled {
+    cursor: not-allowed !important;
+}
 

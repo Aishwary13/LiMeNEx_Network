@@ -1,3 +1,4 @@
+import time
 from dash import MATCH, html, dcc, callback, Input, Output, State, no_update
 import os
 import json
@@ -22,6 +23,15 @@ with open(os.path.join(root_dir, 'src/sbmlData/tissueToPs.json')) as file:
     
 with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
     uniprot_cache = json.load(file)
+    
+
+with open(os.path.join(root_dir,'src/sbmlData/pathwayDropdownOptions.json'), 'r') as file:
+    # Load the JSON data
+    dropdownOptions = json.load(file)
+    # pathwayDropdownOptions = dropdownOptions["PathwayOptions"]
+    # physiologicalSystemOptions = dropdownOptions["physiologicalOptions"]
+    databaseCategory = dropdownOptions["databaseCategory"]
+
 ################################################### download callbacks###################################################
 
 @callback(
@@ -161,21 +171,22 @@ def close_popup(n_clicks):
 
 ####################################################################################################################
 
-
-
-# @callback(
-#     Output('url', 'href'),
-#     Input({'type': 'cy-graph', 'index': 'console-1'}, 'tapNodeData'),
-#     prevent_initial_call=True
-# )
-# def redirect_to_uniprot(tap_node_data):
-#     if not tap_node_data or 'gene_id' not in tap_node_data:
-#         return dash.no_update
+def return_pathway_card(pathways, lipid_list, database):
     
-#     base_url = "https://www.uniprot.org/uniprot/"
-#     full_url = f"{base_url}{tap_node_data.get('gene_id', '')}"
-#     return full_url
+    return html.Div(
+        [
+            html.Div("Pathway:", className="pinfo-label"),
+            html.Div(pathways, className="pinfo-value"),
 
+            html.Div("Lipids:", className="pinfo-label"),
+            html.Div(", ".join(lipid_list), className="pinfo-value"),
+
+            html.Div("Database:", className="pinfo-label"),
+            html.Div(database, className="pinfo-value"),
+        ],
+        className="pinfo-card"
+    )
+    
 
 
 @callback(
@@ -186,6 +197,7 @@ def close_popup(n_clicks):
     State('lipid-dropdown', 'value'),
     State({'type': 'cy-graph','index':'console-1'},'stylesheet'),
     prevent_initial_call=True,
+    running=[(Output("fetch-network-button", "disabled"), True, False)]
     # background=True
 )
 def fetch_network(n_clicks, selected_lipids,stylesheet):
@@ -195,7 +207,7 @@ def fetch_network(n_clicks, selected_lipids,stylesheet):
         finalNodes, finalEdges, pathway_info_children = [], [], []
         
         if n_clicks is None or not selected_lipids:
-            return [],stylesheet,[] # No clicks or no lipids selected, return empty list
+            return [],stylesheet,dash.no_update # No clicks or no lipids selected, return empty list
         
         print(f"Selected lipids: {selected_lipids}")
         #get all pathways for selected lipids
@@ -218,14 +230,20 @@ def fetch_network(n_clicks, selected_lipids,stylesheet):
         
         #output for pathway info container
         pathway_info_children = []
+                    
+        # build infor cards
         for pathway, lipids in pathway_lipids.items():
-            pathway_info_children.append(html.Div(f"- {pathway}: {'; '.join(lipids)}", style={'marginBottom': '5px'}))
+            # database_list = ["Kegg","Reactome"]  # Example database list
+            database = databaseCategory.get(pathway, "None")
+            card = return_pathway_card(pathway, lipids, database)
+            pathway_info_children.append(card)
+        
 
         return elements,stylesheet,pathway_info_children
 
     except Exception as e:
         print(f"Error in fetch_network: {e}")
-        return [], stylesheet, []
+        return [], stylesheet, dash.no_update
 
 
 @callback(
@@ -259,6 +277,7 @@ def highlight_reaction_Chain(value, elements, selected_lipids):
     State('gene-dropdown', 'value'),
     State({'type': 'cy-graph','index':'console-3'}, 'stylesheet'),
     prevent_initial_call=True,
+    running=[(Output("fetch-tfs-button", "disabled"), True, False)]
 )
 def fetch_tfs(n_clicks, selected_genes, stylesheet):
 
@@ -482,14 +501,15 @@ def populate_table_dropdown(flag, elements):
     Input('load-evidence-btn', 'n_clicks'),
     State('tf-select', 'value'),
     State('gene-select', 'value'),
-    prevent_initial_call=True
+    prevent_initial_call=True,
+    running=[(Output("load-evidence-btn", "disabled"), True, False)]
 )
 def populate_table(n_clicks, tf_value, gene_value):
     if not n_clicks or not tf_value or not gene_value:
         return no_update
 
     # ---- Read CSV ----
-    file_path = os.path.join(root_dir, 'src', 'sbmlData', 'cleaned_tf_targetgene_tissue_groups.csv')
+    file_path = os.path.join(root_dir, 'src', 'sbmlData', 'final_tf_targetgene_tissue_groups.csv')
     df = pd.read_csv(file_path, dtype=str).fillna("")
 
     # ---- Filter by TF(s) and Gene(s) ----
@@ -517,7 +537,8 @@ def populate_table(n_clicks, tf_value, gene_value):
     Input('fetch-reactions-button', 'n_clicks'),
     State('gene-rxn-dropdown', 'value'),
     State({'type': 'cy-graph','index':'console-2'},'stylesheet'),
-    prevent_initial_call = True
+    prevent_initial_call = True,
+    running=[(Output("fetch-reactions-button", "disabled"), True, False)]
 )
 def fetch_rxn(n_clicks, genes, stylesheet):
     
@@ -593,12 +614,17 @@ def fetch_rxn(n_clicks, genes, stylesheet):
                 if gene not in finalNodeSet:
                     finalNodeSet.add(gene)
                 
-                finalNodes.append({
+                geneNode = {
                     'data': {'id': gene, 'label':gene,'classes' : 'enzymaticGene', 'uniprotAcc': uniprot_cache.get(gene,'')},
                     'classes': 'enzymaticGene',
                     # 'selectable': True,
                     # 'grabbable': True
-                })
+                }
+                
+                if gene in genes:
+                    geneNode['classes'] += ' highlightedNode'
+                
+                finalNodes.append(geneNode)
                 
                 finalEdges.append({
                     'data': {'source': gene, 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo','')},

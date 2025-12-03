@@ -115,8 +115,9 @@ console1_layout = html.Div([
                         'color': '#000000',
                         'borderRadius': '4px',
                         'scrollbarWidth': 'thin',
-                        'scrollbarColor': '#555 #fff'
-                    }
+                        'scrollbarColor': '#555 #fff',
+                    },
+                    
                 ),
 
                 html.Div([ 
@@ -133,24 +134,24 @@ console1_layout = html.Div([
 
                 html.Button('Fetch Network',
                             id='fetch-network-button',
+                            n_clicks=0,
                             style={'width': '100%', 'backgroundColor': '#fca117',
                                 'color': 'white', 'border': 'none', 'padding': '6px',
-                                'borderRadius': '4px', 'fontWeight': 'bold'}),
+                                'borderRadius': '4px', 'fontWeight': 'bold'}
+                            ),
 
                 html.Hr(style={'border': '1px solid #EEEEEE', 'margin': '15px 0'}),
 
                 html.Div(
                     id='pathway-info-container',
+                    
                     children=[
                         html.Div("No lipids selected yet.",
-                                style={'color': 'white', 'fontSize': '13px', 'textAlign': 'center'})
+                                style={'color': 'white', 'fontSize': '13px', 'textAlign': 'center'}),                        
                     ],
+
                     style={
-                        'backgroundColor': '#1f1f1f',
-                        'padding': '10px',
-                        'borderRadius': '6px',
-                        'minHeight': '120px',
-                        'border': '1px solid #333',
+                        'paddingTop': '5px',
                         'overflowY': 'auto',
                         'color': 'white',
                         'fontSize': '13px'
@@ -163,7 +164,7 @@ console1_layout = html.Div([
                     'backgroundColor': "#2e2e2e",
                     'fontSize': '14px',
                     'overflowY': 'auto',
-                    'height' : '75vh',
+                    'height' : '80vh',
                     'scrollbarWidth': 'thin',
                     'scrollbarColor': '#555 #2e2e2e'
                 }),
@@ -175,7 +176,7 @@ console1_layout = html.Div([
                     layout={'name': 'cose-bilkent'},
                     style={
                         'width': '100%',
-                        'height': '75vh',
+                        'height': '80vh',
                         'backgroundColor': "#F3F3F3",
                         # 'position': 'relative',
                         'borderRadius' : '10px'
@@ -183,11 +184,13 @@ console1_layout = html.Div([
                     elements=[],
                     stylesheet=ex_stylesheet
                 ),
+                
+                
             ],
             style={
                 'position' : 'relative',
                 'gridColumn': '2',
-                'height': '75vh'
+                'height': '80vh'
             })
         ],
         style={

@@ -14,9 +14,9 @@ root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 with open(os.path.join(root_dir,'src/sbmlData/pathwayDropdownOptions.json'), 'r') as file:
     # Load the JSON data
     dropdownOptions = json.load(file)
-    pathwayDropdownOptions = dropdownOptions["PathwayOptions"]
+    # pathwayDropdownOptions = dropdownOptions["PathwayOptions"]
     physiologicalSystemOptions = dropdownOptions["physiologicalOptions"]
-    databaseCategory = dropdownOptions["databaseCategory"]
+    # databaseCategory = dropdownOptions["databaseCategory"]
 
 with open(os.path.join(root_dir,"src/sbmlData/targetGene.pkl"), "rb") as f:
     enzymaticGene = pickle.load(f)
@@ -145,16 +145,15 @@ console3_layout = html.Div([
                 
                 # --- Filters section ---
                 html.Div([
-                    html.Div("Tissue Filters", 
+                    html.Div("Filter TFs by:", 
                         style={
                             'color': '#bbb', 'fontSize': '12px',
-                            'textTransform': 'uppercase',
                             'letterSpacing': '0.5px',
                             'marginBottom': '6px',
                             'borderBottom': '1px solid #3a3a3a',
                             'paddingBottom': '3px'
                         }),
-                    html.Label("Filter by Physiological System:",
+                    html.Label("Physiological System:",
                             style={'color': '#f1f1f1', 'fontWeight': '600', 'fontSize': '13px'}),
                     dcc.Dropdown(
                         id='physiological-systems-dropdown',
@@ -167,7 +166,7 @@ console3_layout = html.Div([
                             'scrollbarColor': '#555 #fff'
                         }
                     ),
-                    html.Label("Select Tissue(s):",
+                    html.Label("Tissue(s):",
                             style={'color': '#f1f1f1', 'fontWeight': '600', 'fontSize': '13px'}),
                     dcc.Dropdown(
                         id='tissue-dropdown',
@@ -278,7 +277,7 @@ console3_layout = html.Div([
                             {'name': 'TF', 'id': 'TF'},
                             {'name': 'Target Gene', 'id': 'TargetGene'},
                             {'name': 'Tissue', 'id': 'Tissue'},
-                            {'name': 'Experiment', 'id': 'Experiment'},
+                            {'name': 'SPP', 'id': 'Experiment'},
                             {'name': 'Chea', 'id': 'Chea'},
                             {'name': 'Signor', 'id': 'Signor'},
                             {'name': 'Trrust', 'id': 'Trrust'}

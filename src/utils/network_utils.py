@@ -21,35 +21,34 @@ def create_nodes_and_edges(pathways,selected_lipids):
     print("Pathways: ", pathways)
     finalNodes = []
     finalEdges = []
-    finalNodeSet = set()
-    finalReactionList = []
-    genecount = {}
+
+    finalReactionList = set()
     finalLipidNodes = {}
     
+    finalGeneSet = set()
+    genecount = {} 
+      
     with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
         uniprot_cache = json.load(file)
     
     for pathway in pathways:
-        # pathway_file = os.path.join(root_dir, 'src/sbmlData/pathwayInfo', f'{pathway}.json')
-        # print("pathway file name : ", pathway_file)
-        # pathway_data = json.load(open(pathway_file))
 
         pathway_data = load_pathway_data(pathway)
         
         nodes = pathway_data.get('nodes', [])
         reactions = pathway_data.get('reactions', [])
         for key,value in reactions.items():
-            if key in finalReactionList:
-                print(f"Reaction {key} already processed, skipping.")
-                continue
             
-            finalReactionList.append(key)
+            if key in finalReactionList:
+                print(f"Reaction {key} already processed, only updating the parent pathway.")
+                # continue            
             
             #create the connector node for reaction
-            finalNodes.append({
-                'data': {'id': key, 'label':key,'classes' : 'temp','parent': pathway},
-                'classes': 'temp',
-            })
+            if key not in finalReactionList:
+                finalNodes.append({
+                    'data': {'id': key, 'label':key,'classes' : 'temp','parent': pathway},
+                    'classes': 'temp',
+                })
             
             intersection = set(selected_lipids).intersection(value.get('reactantList',[]) + value.get('productList',[]))
             if intersection:
@@ -66,21 +65,22 @@ def create_nodes_and_edges(pathways,selected_lipids):
                     }
                     
                     if reactant in selected_lipids:
-                        finalLipidNodes[reactant]['data']['classes'] += ' highlightedLipid'
-                        finalLipidNodes[reactant]['classes'] += ' highlightedLipid'
+                        finalLipidNodes[reactant]['data']['classes'] += ' highlightedNode'
+                        finalLipidNodes[reactant]['classes'] += ' highlightedNode'
                 else:
                     if pathway not in finalLipidNodes[reactant]['data']['parent']:
                         finalLipidNodes[reactant]['data']['parent'].append(pathway)
-
-                edge = {
-                    'data': {'source': reactant, 'target': key, 'classes' : 'first_half','reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
-                    'classes': 'first_half',
-                }
-                if is_selected_lipid_in_reaction:
-                    edge['classes'] += ' highlightedEdge'
-                    edge['data']['classes'] += ' highlightedEdge'
-                    
-                finalEdges.append(edge)
+                
+                if key not in finalReactionList:
+                    edge = {
+                        'data': {'source': reactant, 'target': key, 'classes' : 'first_half','reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
+                        'classes': 'first_half',
+                    }
+                    if is_selected_lipid_in_reaction:
+                        edge['classes'] += ' highlightedEdge'
+                        edge['data']['classes'] += ' highlightedEdge'
+                        
+                    finalEdges.append(edge)
                 
             
             for product in value.get('productList',[]):
@@ -90,44 +90,49 @@ def create_nodes_and_edges(pathways,selected_lipids):
                         'classes': nodes.get(product,{}).get('class', ''),
                     }
                     if product in selected_lipids:
-                        finalLipidNodes[product]['classes'] += ' highlightedLipid'
-                        finalLipidNodes[product]['data']['classes'] += ' highlightedLipid'
+                        finalLipidNodes[product]['classes'] += ' highlightedNode'
+                        finalLipidNodes[product]['data']['classes'] += ' highlightedNode'
                     
                 else:
                     if pathway not in finalLipidNodes[product]['data']['parent']:
                         finalLipidNodes[product]['data']['parent'].append(pathway)
                 
-                edge = {
-                    'data': {'source': key, 'target': product, 'classes' : 'second_half','reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
-                    'classes': 'second_half',
-                }
-                if is_selected_lipid_in_reaction:
-                    edge['classes'] += ' highlightedEdge'
-                    edge['data']['classes'] += ' highlightedEdge'
+                if key not in finalReactionList:
+                    edge = {
+                        'data': {'source': key, 'target': product, 'classes' : 'second_half','reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
+                        'classes': 'second_half',
+                    }
+                    if is_selected_lipid_in_reaction:
+                        edge['classes'] += ' highlightedEdge'
+                        edge['data']['classes'] += ' highlightedEdge'
+                        
+                    finalEdges.append(edge)            
+            
+            #create gene nodes and edges for reaction
+            if key not in finalReactionList:
+                for gene, modifier in zip(value.get('geneList',[]),value.get('geneModifierType',[])):
+                    if gene in finalGeneSet:
+                        genecount[gene] += 1
+                    else:
+                        finalGeneSet.add(gene)
+                        genecount[gene] = 1
                     
-                finalEdges.append(edge)            
-
-            for gene, modifier in zip(value.get('geneList',[]),value.get('geneModifierType',[])):
-                if gene in finalNodeSet:
-                    genecount[gene] += 1
-                else:
-                    finalNodeSet.add(gene)
-                    genecount[gene] = 1
-                
-                finalNodes.append({
-                    'data': {'id': f"{gene}_{genecount[gene]}", 'label':gene,'classes' : nodes.get(gene,{}).get('class', ''),'parent': pathway,'uniprotAcc': uniprot_cache.get(gene,'')},
-                    'classes': nodes.get(gene,{}).get('class', ''),
-                })
-                
-                edge = {
-                    'data': {'source': f"{gene}_{genecount[gene]}", 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
-                    'classes': modifier,
-                }
-                if is_selected_lipid_in_reaction:
-                    edge['classes'] += ' highlightedEdge'
-                    edge['data']['classes'] += ' highlightedEdge'
+                    finalNodes.append({
+                        'data': {'id': f"{gene}_{genecount[gene]}", 'label':gene,'classes' : nodes.get(gene,{}).get('class', ''),'parent': pathway,'uniprotAcc': uniprot_cache.get(gene,'')},
+                        'classes': nodes.get(gene,{}).get('class', ''),
+                    })
                     
-                finalEdges.append(edge)  
+                    edge = {
+                        'data': {'source': f"{gene}_{genecount[gene]}", 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
+                        'classes': modifier,
+                    }
+                    if is_selected_lipid_in_reaction:
+                        edge['classes'] += ' highlightedEdge'
+                        edge['data']['classes'] += ' highlightedEdge'
+                        
+                    finalEdges.append(edge)  
+            
+            finalReactionList.add(key)
                 
                           
     #add lipid nodes to finalNodes
