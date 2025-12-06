@@ -8,108 +8,124 @@
 }
 
 /* style.css */
+/* === SIDEBAR CONTAINER === */
 .sidebar {
-    width: 3.8em;  /* Collapsed width */
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    overflow-x: hidden;
-    transition: width 0.5s;
-    /* padding-top: 0.75em; */
-    background-color: #1f1f1f;
-    color: white;
-    z-index: 2;  /* Ensure the sidebar is on top */
-    box-shadow: 4px 0 2px 0 rgba(0, 0, 0, 0.3);
+  width: 3.8em;                /* collapsed width */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  transition: width 0.5s;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  z-index: 2;
+  box-shadow: 4px 0 2px 0 rgba(0, 0, 0, 0.3);
 }
 
 .sidebar:hover {
-    width: 13em;  /* Expanded width */
+  width: 13em;                 /* expanded width */
 }
 
+/* === PAGE CONTENT SHIFT === */
 #page-content {
-    padding-left: 3.8em;  /* Keep space for the collapsed sidebar */
-    transition: margin-left 0.5s ease;
-    z-index: 1;  /* Ensure the content is below the sidebar */
-    position: relative;  /* Ensure the content stays in place */
-    scrollbar-width: thin;
-    scrollbar-color: #555 #2e2e2e;
+  padding-left: 3.8em;         /* space for collapsed sidebar */
+  transition: padding-left 0.5s ease;
+  z-index: 1;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: #555 #2e2e2e;
 }
 
-.sidebar:hover ~ #content {
-    margin-left: 3em;  /* Keep the same margin even when sidebar expands */
-}
+/* when sidebar expands, push content a bit */
+/* .sidebar:hover ~ #page-content {
+  padding-left: 13em;
+} */
 
-/* make sure the contents of the navlink don't wrap when navbar collapses */
+/* === NAV LINKS === */
 .sidebar .nav-link {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-  }
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  border-radius: 0 8px 8px 0;
+  padding: 6px 10px;
+  color: #e5e7eb;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.1s ease;
+}
 
-/* fix the width of the icons */
+/* icon width fixed */
 .sidebar .nav-link i {
-    width: 0.75rem;
+  width: 0.75rem;
 }
 
-/* hide the navlink labels by default */
+/* hide labels by default (collapsed state) */
 .sidebar .nav-link span {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out;
-  }
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
 
-  /* when the sidebar is hovered, reveal the labels */
+/* reveal labels when sidebar hovered */
 .sidebar:hover .nav-link span {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
-/* container for the sidebar header. make sure the contents don't wrap when
-* the sidebar is collapsed.
-*/
+/* hover state for any nav item */
+.sidebar .nav-link:hover {
+  background-color: #111827;     /* subtle dark highlight */
+  color: #bfdbfe !important;     /* light bluish text */
+  transform: translateY(-1px);
+}
+
+/* ACTIVE NAV LINK */
+.nav-link.active {
+  background-color: #111827 !important;   /* dark slate strip */
+  color: #3b82f5 !important;              /* blue accent */
+  border-left: 3px solid #3b82f5;
+  box-shadow: 2px 0 10px rgba(59, 130, 245, 0.4);
+}
+
+/* active icon explicitly blue */
+.nav-link.active i {
+  color: #3b82f5 !important;
+}
+
+/* keep text readable on hover even when active */
+.nav-link.active:hover {
+  color: #e5e7eb !important;
+}
+
+/* === HEADER + ICON ROWS === */
 .sidebar-header {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 6px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 6px;
 }
-
-.nav_link{
-  transition: transform 0.1s ease;
-}
-
-.nav-link.active{
-    background-color: #3b82f5 !important;
-    color: #fff !important;
-    /* box-shadow: 0 2px 4px 0 rgba(32, 121, 255, 0.308) !important; */
-  }
-
-.nav-link.active:hover{
-    color: #fff !important;
-  }
-
-.nav-link:hover {
-    color:  #0084d6 !important;
-    transform: translateY(-4px);
-  }
 
 .image_title {
-    display: flex;
-    flex-direction: row;
-    column-gap: 4px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  column-gap: 6px;
+  align-items: center;
 }
 
 .icon_title {
-    display: flex;
-    flex-direction: row;
-    column-gap: 5px;
-    align-items: center;
-    color : #ffffff
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: center;
+  color: #ffffff;
 }
+
 
 
 
@@ -130,7 +146,7 @@
 
 /* icon button (no change needed, ensure width used below matches) */
 .download-icon-btn {
-  background-color: #fca117;
+  background-color: #4ca9ff;
   border: none;
   color: black;
   width: 50px;   /* used below to position the panel */
@@ -535,11 +551,6 @@
 
 
 
-
-
-
-
-
 /* ------------------------------------------ Disabled button cursor style ------------------------------ */
 #fetch-network-button:disabled {
     cursor: not-allowed !important;
@@ -557,3 +568,34 @@
     cursor: not-allowed !important;
 }
 
+/* ------------------------------------------ buttons css ----------------------------------------------------- */
+
+/* common class: add this to your buttons via className="primary-btn" */
+.primary-btn {
+  background-color: #4ca9ff;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(76, 169, 255, 0.35);
+  transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.primary-btn:hover {
+  background-color: #6bb7ff;  /* slightly lighter */
+  box-shadow: 0 0 14px rgba(76, 169, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.primary-btn:disabled {
+  background-color: #374151;
+  color: #9ca3af;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+
+/* ---------------- warning css ------------------------------------- */

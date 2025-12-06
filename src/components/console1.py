@@ -19,9 +19,6 @@ lipids = [{'label': lipid.strip(), 'value': lipid.strip()} for lipid in sorted(l
 console1_layout = html.Div([
         # Header Section
         # near top of console1_layout children
-        # somewhere in your layout (once)
-
-        dcc.Store(id={'type': 'cy-elements-store', 'index': 'console-1'}, storage_type='memory'),
         dcc.Download(id={'type': 'download-target-json', 'index': 'console-1'}),
         
         html.Div([
@@ -134,10 +131,9 @@ console1_layout = html.Div([
 
                 html.Button('Fetch Network',
                             id='fetch-network-button',
+                            className='primary-btn',
                             n_clicks=0,
-                            style={'width': '100%', 'backgroundColor': '#fca117',
-                                'color': 'white', 'border': 'none', 'padding': '6px',
-                                'borderRadius': '4px', 'fontWeight': 'bold'}
+                            style={'width' : '100%'}
                             ),
 
                 html.Hr(style={'border': '1px solid #EEEEEE', 'margin': '15px 0'}),

@@ -2,7 +2,7 @@ import os
 from dash import html, dcc
 from components import console1,console2,console3
 from dotenv import load_dotenv
-
+import dash_bootstrap_components as dbc
 
 load_dotenv()
 
@@ -11,7 +11,19 @@ root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
 # print(type(lipids))
 layout = html.Div([
-    # dcc.Location(id="url", refresh=True),
+
+    dcc.Store(id="Modal-store"),
+    
+    dbc.Modal(
+        [
+            dbc.ModalHeader("Warning",style={"padding" : "6px 12px 6px 12px"}),
+            dbc.ModalBody(id="modal-text"),
+        ],
+        id="warning-modal",
+        is_open=False,
+        backdrop=True,  # dims background
+    ),
+    
     dcc.Store(id="dummy-output-store"),
     dcc.Store(id="graph-update-flag"),
     # ===== HEADER BAR =====

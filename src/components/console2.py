@@ -17,8 +17,6 @@ with open(os.path.join(root_dir,"src/sbmlData/targetGene.pkl"), "rb") as f:
 enzymaticGene_options = [{'label': gene.strip(), 'value': gene.strip()} for gene in sorted(enzymaticGene)]
 
 console2_layout = html.Div([
-    
-    dcc.Store(id={'type': 'cy-elements-store', 'index': 'console-2'}, storage_type='memory'),
     dcc.Download(id={'type': 'download-target-json', 'index': 'console-2'}),
     dcc.Download(id={'type': 'download-target-csv', 'index': 'console-2'}),
     
@@ -121,9 +119,8 @@ console2_layout = html.Div([
 
                 html.Button('Fetch Reactions',
                             id='fetch-reactions-button',
-                            style={'width': '100%', 'backgroundColor': '#fca117',
-                                'color': 'white', 'border': 'none', 'padding': '6px',
-                                'borderRadius': '4px'}),
+                            className='primary-btn',
+                            style={'width': '100%'}),
 
                 html.Hr(style={'border': '1px solid #EEEEEE', 'margin': '15px 0'}),
 

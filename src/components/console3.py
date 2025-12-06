@@ -12,11 +12,8 @@ load_dotenv()
 root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
 with open(os.path.join(root_dir,'src/sbmlData/pathwayDropdownOptions.json'), 'r') as file:
-    # Load the JSON data
     dropdownOptions = json.load(file)
-    # pathwayDropdownOptions = dropdownOptions["PathwayOptions"]
     physiologicalSystemOptions = dropdownOptions["physiologicalOptions"]
-    # databaseCategory = dropdownOptions["databaseCategory"]
 
 with open(os.path.join(root_dir,"src/sbmlData/targetGene.pkl"), "rb") as f:
     enzymaticGene = pickle.load(f)
@@ -24,7 +21,6 @@ with open(os.path.join(root_dir,"src/sbmlData/targetGene.pkl"), "rb") as f:
 enzymaticGene_options = [{'label': gene.strip(), 'value': gene.strip()} for gene in sorted(enzymaticGene)]
 
 console3_layout = html.Div([
-    dcc.Store(id={'type': 'cy-elements-store', 'index': 'console-3'}, storage_type='memory'),
     dcc.Download(id={'type': 'download-target-json', 'index': 'console-3'}),
     dcc.Download(id={'type': 'download-target-csv', 'index': 'console-3'}),
 
@@ -128,12 +124,9 @@ console3_layout = html.Div([
                     html.Button(
                         'Fetch TFs',
                         id='fetch-tfs-button',
+                        className='primary-btn',
                         style={
-                            'width': '100%', 'backgroundColor': '#fca117',
-                            'color': 'white', 'border': 'none',
-                            'padding': '6px', 'borderRadius': '4px', 'marginBottom': '10px',
-                            'scrollbarWidth': 'thin',
-                            'scrollbarColor': '#555 #fff'
+                            'width': '100%'
                         }
                     )
                 ], style={
@@ -237,11 +230,10 @@ console3_layout = html.Div([
                 html.Button(
                     "Load Evidence",
                     id='load-evidence-btn',
+                    className='primary-btn',
                     n_clicks=0,
                     style={
-                        'width': '50%', 'backgroundColor': '#fca117',
-                        'color': 'white', 'border': 'none',
-                        'padding': '6px', 'borderRadius': '4px'
+                        'width': '50%'
                     }
                 ),
             ], style={'fontSize': '14px','gridColumn': '1',
