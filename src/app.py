@@ -175,6 +175,11 @@ dash_app.clientside_callback(
     prevent_initial_call=True,
 )
 
+from flask import jsonify
+
+@server.route("/health")
+def health():
+    return jsonify(status="ok"), 200
 
 
 if __name__ == '__main__':
