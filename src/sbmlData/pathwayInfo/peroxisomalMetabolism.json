@@ -1,386 +1,386 @@
 {
-  "nodes": {
-    "Phytanate": {
-      "id": "s56",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Phytanate": {
+            "id": "s56",
+            "class": "lipidMetabolite;first"
+        },
+        "Phytanoyl-CoA": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "SLC27A2": {
+            "id": "s65",
+            "class": "enzymaticGene"
+        },
+        "2E-phytenoyl-CoA": {
+            "id": "s2",
+            "class": "lipidMetabolite"
+        },
+        "PECR": {
+            "id": "s3",
+            "class": "enzymaticGene"
+        },
+        "2-hydroxyphytanoyl-CoA": {
+            "id": "s4",
+            "class": "lipidMetabolite"
+        },
+        "PHYH": {
+            "id": "s5",
+            "class": "enzymaticGene"
+        },
+        "HACL1": {
+            "id": "s7",
+            "class": "enzymaticGene"
+        },
+        "Formyl-CoA": {
+            "id": "s8",
+            "class": "nonlipidMetabolite"
+        },
+        "Pristanate": {
+            "id": "s9",
+            "class": "lipidMetabolite"
+        },
+        "ALDH3A2": {
+            "id": "s10",
+            "class": "enzymaticGene"
+        },
+        "2R-Pristanoyl-CoA": {
+            "id": "s11",
+            "class": "lipidMetabolite"
+        },
+        "2S-Pristanoyl-CoA": {
+            "id": "s12",
+            "class": "lipidMetabolite"
+        },
+        "AMACR": {
+            "id": "s13",
+            "class": "enzymaticGene"
+        },
+        "Trans-2,3-dehydropristanoyl-CoA": {
+            "id": "s14",
+            "class": "lipidMetabolite"
+        },
+        "ACOX2": {
+            "id": "s15",
+            "class": "enzymaticGene"
+        },
+        "ACOX3": {
+            "id": "s16",
+            "class": "enzymaticGene"
+        },
+        "3-hydroxypristanoyl-CoA": {
+            "id": "s17",
+            "class": "lipidMetabolite"
+        },
+        "HSD17B4": {
+            "id": "s18",
+            "class": "enzymaticGene"
+        },
+        "3-Ketoxypristanoyl-CoA": {
+            "id": "s19",
+            "class": "lipidMetabolite"
+        },
+        "4,8,12-trimethyltridecanoyl-CoA": {
+            "id": "s20",
+            "class": "lipidMetabolite"
+        },
+        "Propionyl-CoA": {
+            "id": "s21",
+            "class": "nonlipidMetabolite"
+        },
+        "SCP2": {
+            "id": "s22",
+            "class": "enzymaticGene"
+        },
+        "4,8-dimethylnonanoyl-CoA": {
+            "id": "s23",
+            "class": "lipidMetabolite"
+        },
+        "4,8-dimethylnonanoylcarnitine": {
+            "id": "s24",
+            "class": "lipidMetabolite"
+        },
+        "CROT": {
+            "id": "s25",
+            "class": "enzymaticGene"
+        },
+        "CRAT": {
+            "id": "s26",
+            "class": "enzymaticGene"
+        },
+        "Propionylcarnitine": {
+            "id": "s27",
+            "class": "lipidMetabolite"
+        },
+        "Pristanal": {
+            "id": "s66",
+            "class": "lipidMetabolite"
+        },
+        "Carnitine": {
+            "id": "s67",
+            "class": "nonlipidMetabolite"
+        }
     },
-    "Phytanoyl-CoA": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "SLC27A2": {
-      "id": "s65",
-      "class": "enzymaticGene"
-    },
-    "2E-phytenoyl-CoA": {
-      "id": "s2",
-      "class": "lipidMetabolite"
-    },
-    "PECR": {
-      "id": "s3",
-      "class": "enzymaticGene"
-    },
-    "2-hydroxyphytanoyl-CoA": {
-      "id": "s4",
-      "class": "lipidMetabolite"
-    },
-    "PHYH": {
-      "id": "s5",
-      "class": "enzymaticGene"
-    },
-    "HACL1": {
-      "id": "s7",
-      "class": "enzymaticGene"
-    },
-    "Formyl-CoA": {
-      "id": "s8",
-      "class": "nonlipidMetabolite"
-    },
-    "Pristanate": {
-      "id": "s9",
-      "class": "lipidMetabolite"
-    },
-    "ALDH3A2": {
-      "id": "s10",
-      "class": "enzymaticGene"
-    },
-    "2R-Pristanoyl-CoA": {
-      "id": "s11",
-      "class": "lipidMetabolite"
-    },
-    "2S-Pristanoyl-CoA": {
-      "id": "s12",
-      "class": "lipidMetabolite"
-    },
-    "AMACR": {
-      "id": "s13",
-      "class": "enzymaticGene"
-    },
-    "Trans-2,3-dehydropristanoyl-CoA": {
-      "id": "s14",
-      "class": "lipidMetabolite"
-    },
-    "ACOX2": {
-      "id": "s15",
-      "class": "enzymaticGene"
-    },
-    "ACOX3": {
-      "id": "s16",
-      "class": "enzymaticGene"
-    },
-    "3-hydroxypristanoyl-CoA": {
-      "id": "s17",
-      "class": "lipidMetabolite"
-    },
-    "HSD17B4": {
-      "id": "s18",
-      "class": "enzymaticGene"
-    },
-    "3-Ketoxypristanoyl-CoA": {
-      "id": "s19",
-      "class": "lipidMetabolite"
-    },
-    "4,8,12-trimethyltridecanoyl-CoA": {
-      "id": "s20",
-      "class": "lipidMetabolite"
-    },
-    "Propionyl-CoA": {
-      "id": "s21",
-      "class": "nonlipidMetabolite"
-    },
-    "SCP2": {
-      "id": "s22",
-      "class": "enzymaticGene"
-    },
-    "4,8-dimethylnonanoyl-CoA": {
-      "id": "s23",
-      "class": "lipidMetabolite"
-    },
-    "4,8-dimethylnonanoylcarnitine": {
-      "id": "s24",
-      "class": "lipidMetabolite"
-    },
-    "CROT": {
-      "id": "s25",
-      "class": "enzymaticGene"
-    },
-    "CRAT": {
-      "id": "s26",
-      "class": "enzymaticGene"
-    },
-    "Propionylcarnitine": {
-      "id": "s27",
-      "class": "lipidMetabolite"
-    },
-    "Pristanal": {
-      "id": "s66",
-      "class": "lipidMetabolite"
-    },
-    "Carnitine": {
-      "id": "s67",
-      "class": "nonlipidMetabolite"
+    "reactions": {
+        "r=2e-phytenoyl-coa;p=phytanoyl-coa;g=pecr": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "2E-phytenoyl-CoA"
+            ],
+            "productList": [
+                "Phytanoyl-CoA"
+            ],
+            "geneList": [
+                "PECR"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phytanoyl-coa;p=2-hydroxyphytanoyl-coa;g=phyh": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Phytanoyl-CoA"
+            ],
+            "productList": [
+                "2-hydroxyphytanoyl-CoA"
+            ],
+            "geneList": [
+                "PHYH"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pristanate;p=2r-pristanoyl-coa;g=slc27a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thioesterification",
+            "reactantList": [
+                "Pristanate"
+            ],
+            "productList": [
+                "2R-Pristanoyl-CoA"
+            ],
+            "geneList": [
+                "SLC27A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=2r-pristanoyl-coa;p=2s-pristanoyl-coa;g=amacr": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "isomerization",
+            "reactantList": [
+                "2R-Pristanoyl-CoA"
+            ],
+            "productList": [
+                "2S-Pristanoyl-CoA"
+            ],
+            "geneList": [
+                "AMACR"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=2s-pristanoyl-coa;p=trans-2,3-dehydropristanoyl-coa;g=acox2|acox3": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "2S-Pristanoyl-CoA"
+            ],
+            "productList": [
+                "Trans-2,3-dehydropristanoyl-CoA"
+            ],
+            "geneList": [
+                "ACOX2",
+                "ACOX3"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=trans-2,3-dehydropristanoyl-coa;p=3-hydroxypristanoyl-coa;g=hsd17b4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "Trans-2,3-dehydropristanoyl-CoA"
+            ],
+            "productList": [
+                "3-hydroxypristanoyl-CoA"
+            ],
+            "geneList": [
+                "HSD17B4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=3-hydroxypristanoyl-coa;p=3-ketoxypristanoyl-coa;g=hsd17b4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydration",
+            "reactantList": [
+                "3-hydroxypristanoyl-CoA"
+            ],
+            "productList": [
+                "3-Ketoxypristanoyl-CoA"
+            ],
+            "geneList": [
+                "HSD17B4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=3-ketoxypristanoyl-coa;p=4,8,12-trimethyltridecanoyl-coa;g=scp2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thiolysis",
+            "reactantList": [
+                "3-Ketoxypristanoyl-CoA"
+            ],
+            "productList": [
+                "4,8,12-trimethyltridecanoyl-CoA"
+            ],
+            "geneList": [
+                "SCP2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=3-ketoxypristanoyl-coa;p=propionyl-coa;g=scp2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thiolysis",
+            "reactantList": [
+                "3-Ketoxypristanoyl-CoA"
+            ],
+            "productList": [
+                "Propionyl-CoA"
+            ],
+            "geneList": [
+                "SCP2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4,8,12-trimethyltridecanoyl-coa;p=4,8-dimethylnonanoyl-coa;g=scp2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thiolysis",
+            "reactantList": [
+                "4,8,12-trimethyltridecanoyl-CoA"
+            ],
+            "productList": [
+                "4,8-dimethylnonanoyl-CoA"
+            ],
+            "geneList": [
+                "SCP2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=carnitine|propionyl-coa;p=propionylcarnitine;g=crat": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Propionyl-CoA",
+                "Carnitine"
+            ],
+            "productList": [
+                "Propionylcarnitine"
+            ],
+            "geneList": [
+                "CRAT"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phytanate;p=phytanoyl-coa;g=slc27a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thioesterification",
+            "reactantList": [
+                "Phytanate"
+            ],
+            "productList": [
+                "Phytanoyl-CoA"
+            ],
+            "geneList": [
+                "SLC27A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=2-hydroxyphytanoyl-coa;p=formyl-coa|pristanal;g=hacl1": {
+            "reactionType": "DISSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "2-hydroxyphytanoyl-CoA"
+            ],
+            "productList": [
+                "Pristanal",
+                "Formyl-CoA"
+            ],
+            "geneList": [
+                "HACL1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pristanate;p=pristanal;g=aldh3a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Pristanate"
+            ],
+            "productList": [
+                "Pristanal"
+            ],
+            "geneList": [
+                "ALDH3A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4,8-dimethylnonanoyl-coa|carnitine;p=4,8-dimethylnonanoylcarnitine;g=crot": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thiolysis",
+            "reactantList": [
+                "4,8-dimethylnonanoyl-CoA",
+                "Carnitine"
+            ],
+            "productList": [
+                "4,8-dimethylnonanoylcarnitine"
+            ],
+            "geneList": [
+                "CROT"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=2e-phytenoyl-coa;p=phytanoyl-coa;g=pecr": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "2E-phytenoyl-CoA"
-      ],
-      "productList": [
-        "Phytanoyl-CoA"
-      ],
-      "geneList": [
-        "PECR"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phytanoyl-coa;p=2-hydroxyphytanoyl-coa;g=phyh": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Phytanoyl-CoA"
-      ],
-      "productList": [
-        "2-hydroxyphytanoyl-CoA"
-      ],
-      "geneList": [
-        "PHYH"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pristanate;p=2r-pristanoyl-coa;g=slc27a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thioesterification",
-      "reactantList": [
-        "Pristanate"
-      ],
-      "productList": [
-        "2R-Pristanoyl-CoA"
-      ],
-      "geneList": [
-        "SLC27A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=2r-pristanoyl-coa;p=2s-pristanoyl-coa;g=amacr": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "isomerization",
-      "reactantList": [
-        "2R-Pristanoyl-CoA"
-      ],
-      "productList": [
-        "2S-Pristanoyl-CoA"
-      ],
-      "geneList": [
-        "AMACR"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=2s-pristanoyl-coa;p=trans-2,3-dehydropristanoyl-coa;g=acox2|acox3": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "2S-Pristanoyl-CoA"
-      ],
-      "productList": [
-        "Trans-2,3-dehydropristanoyl-CoA"
-      ],
-      "geneList": [
-        "ACOX2",
-        "ACOX3"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=trans-2,3-dehydropristanoyl-coa;p=3-hydroxypristanoyl-coa;g=hsd17b4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "Trans-2,3-dehydropristanoyl-CoA"
-      ],
-      "productList": [
-        "3-hydroxypristanoyl-CoA"
-      ],
-      "geneList": [
-        "HSD17B4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=3-hydroxypristanoyl-coa;p=3-ketoxypristanoyl-coa;g=hsd17b4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydration",
-      "reactantList": [
-        "3-hydroxypristanoyl-CoA"
-      ],
-      "productList": [
-        "3-Ketoxypristanoyl-CoA"
-      ],
-      "geneList": [
-        "HSD17B4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=3-ketoxypristanoyl-coa;p=4,8,12-trimethyltridecanoyl-coa;g=scp2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thiolysis",
-      "reactantList": [
-        "3-Ketoxypristanoyl-CoA"
-      ],
-      "productList": [
-        "4,8,12-trimethyltridecanoyl-CoA"
-      ],
-      "geneList": [
-        "SCP2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=3-ketoxypristanoyl-coa;p=propionyl-coa;g=scp2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thiolysis",
-      "reactantList": [
-        "3-Ketoxypristanoyl-CoA"
-      ],
-      "productList": [
-        "Propionyl-CoA"
-      ],
-      "geneList": [
-        "SCP2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4,8,12-trimethyltridecanoyl-coa;p=4,8-dimethylnonanoyl-coa;g=scp2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thiolysis",
-      "reactantList": [
-        "4,8,12-trimethyltridecanoyl-CoA"
-      ],
-      "productList": [
-        "4,8-dimethylnonanoyl-CoA"
-      ],
-      "geneList": [
-        "SCP2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=propionyl-coa|carnitine;p=propionylcarnitine;g=crat": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Propionyl-CoA",
-        "Carnitine"
-      ],
-      "productList": [
-        "Propionylcarnitine"
-      ],
-      "geneList": [
-        "CRAT"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phytanate;p=phytanoyl-coa;g=slc27a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thioesterification",
-      "reactantList": [
-        "Phytanate"
-      ],
-      "productList": [
-        "Phytanoyl-CoA"
-      ],
-      "geneList": [
-        "SLC27A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=2-hydroxyphytanoyl-coa;p=pristanal|formyl-coa;g=hacl1": {
-      "reactionType": "DISSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "2-hydroxyphytanoyl-CoA"
-      ],
-      "productList": [
-        "Pristanal",
-        "Formyl-CoA"
-      ],
-      "geneList": [
-        "HACL1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pristanate;p=pristanal;g=aldh3a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Pristanate"
-      ],
-      "productList": [
-        "Pristanal"
-      ],
-      "geneList": [
-        "ALDH3A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4,8-dimethylnonanoyl-coa|carnitine;p=4,8-dimethylnonanoylcarnitine;g=crot": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thiolysis",
-      "reactantList": [
-        "4,8-dimethylnonanoyl-CoA",
-        "Carnitine"
-      ],
-      "productList": [
-        "4,8-dimethylnonanoylcarnitine"
-      ],
-      "geneList": [
-        "CROT"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    }
-  }
 }

@@ -1615,27 +1615,6 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s42" id="s42" name="Ganglioside-GD1alpha(GD1α)" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Ganglioside-GD1alpha(GD1α)</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s43" id="s43" name="ST6GALNAC5" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2034,7 +2013,7 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s86" id="s86" name="CERA-d18" compartment="default" initialAmount="0">
+<species metaid="s86" id="s86" name="N-acylsphingosine" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2050,7 +2029,28 @@ nonlipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>CERA-d18</celldesigner:name>
+<celldesigner:name>N-acylsphingosine</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s42" id="s42" name="Ganglioside-GD1alpha(GD1a)" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>Ganglioside-GD1alpha(GD1a)</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -2340,7 +2340,7 @@ nonlipidSubstrate
 <celldesigner:editPoints num0="1" num1="0" num2="2" tShapeIndex="1">0.04183435228669019,0.08453255954976102 0.4981684981684982,0.0 0.5860805860805864,0.0 0.6101364522417141,0.3898635477582848</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s31" aliases="sa24" targetLineIndex="2,2" editPoints="0.9392207771968915,0.18358684959991156">
+<celldesigner:modification type="CATALYSIS" modifiers="s31" aliases="sa24" targetLineIndex="2,2" editPoints="0.9392207771968906,0.18358684959991156">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -3212,7 +3212,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s84" aliases="sa53" targetLineIndex="2,6" editPoints="0.4748095603942595,0.28193402506732657">
+<celldesigner:modification type="CATALYSIS" modifiers="s84" aliases="sa53" targetLineIndex="2,6" editPoints="0.4748095603942568,0.2819340250673248">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -3651,7 +3651,7 @@ nonlipidSubstrate
 <celldesigner:editPoints num0="1" num1="1" num2="2" tShapeIndex="1">0.006371325614908441,-0.02829059258988645 0.27849815682546797,-0.11516381144163645 0.5230769230769232,0.0 0.6153846153846159,0.0 0.6587257128729225,0.3898635477582848</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s81" aliases="sa3" targetLineIndex="2,6" editPoints="0.3668283719561194,-0.08203041448856041">
+<celldesigner:modification type="CATALYSIS" modifiers="s81" aliases="sa3" targetLineIndex="2,6" editPoints="0.36682837195612006,-0.0820304144885613">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>

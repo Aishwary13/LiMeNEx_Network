@@ -552,7 +552,7 @@ lipidSubstrate
 <title/>
 </head>
 <body>
-<customClass type="lipidMetabolite"/>
+<customClass type="nonlipidMetabolite"/>
 </body>
 </html>
 </notes>
@@ -621,7 +621,7 @@ lipidSubstrate
 <title/>
 </head>
 <body>
-<customClass type="lipidMetabolite"/>
+<customClass type="nonlipidMetabolite"/>
 </body>
 </html>
 </notes>
@@ -1257,7 +1257,7 @@ lipidSubstrate
 <celldesigner:editPoints num0="3" num1="0" num2="1" tShapeIndex="2">0.8210267320588698,0.3095264413452452 0.862268398149652,0.2382007831222106 0.8809438695869873,0.20590237185140214 0.0792123347790532,-0.023418159042646658 1.357212639251514,0.41035244646271263</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s12" aliases="sa14" targetLineIndex="0,2" editPoints="0.45100953733975274,0.5359673249602492">
+<celldesigner:modification type="CATALYSIS" modifiers="s12" aliases="sa14" targetLineIndex="0,2" editPoints="0.45100953733975274,0.5359673249602491">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>

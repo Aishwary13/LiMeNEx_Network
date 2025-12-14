@@ -1,84 +1,84 @@
 {
-  "nodes": {
-    "Palmitoyl CoA": {
-      "id": "s40",
-      "class": "lipidMetabolite"
+    "nodes": {
+        "Palmitoylcarnitine(L-PCARN)": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "CPT1A": {
+            "id": "s64",
+            "class": "enzymaticGene"
+        },
+        "CPT1B": {
+            "id": "s2",
+            "class": "enzymaticGene"
+        },
+        "CPT2": {
+            "id": "s3",
+            "class": "enzymaticGene"
+        },
+        "Carnitine": {
+            "id": "s4",
+            "class": "nonlipidMetabolite;first"
+        },
+        "Palmitoyl-CoA": {
+            "id": "s40",
+            "class": "lipidMetabolite"
+        }
     },
-    "Palmitoylcarnitine(L-PCARN)": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "CPT1A": {
-      "id": "s64",
-      "class": "enzymaticGene"
-    },
-    "CPT1B": {
-      "id": "s2",
-      "class": "enzymaticGene"
-    },
-    "CPT2": {
-      "id": "s3",
-      "class": "enzymaticGene"
-    },
-    "Carnitine": {
-      "id": "s4",
-      "class": "lipidMetabolite;first"
+    "reactions": {
+        "r=palmitoylcarnitine(l-pcarn);p=palmitoyl-coa;g=cpt2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Palmitoylcarnitine(L-PCARN)"
+            ],
+            "productList": [
+                "Palmitoyl-CoA"
+            ],
+            "geneList": [
+                "CPT2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=palmitoylcarnitine(l-pcarn);p=carnitine;g=cpt2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Palmitoylcarnitine(L-PCARN)"
+            ],
+            "productList": [
+                "Carnitine"
+            ],
+            "geneList": [
+                "CPT2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=carnitine|palmitoyl-coa;p=palmitoylcarnitine(l-pcarn);g=cpt1a|cpt1b": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Carnitine",
+                "Palmitoyl-CoA"
+            ],
+            "productList": [
+                "Palmitoylcarnitine(L-PCARN)"
+            ],
+            "geneList": [
+                "CPT1A",
+                "CPT1B"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=palmitoylcarnitine(l-pcarn);p=palmitoylcoa;g=cpt2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Palmitoylcarnitine(L-PCARN)"
-      ],
-      "productList": [
-        "Palmitoyl CoA"
-      ],
-      "geneList": [
-        "CPT2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=palmitoylcarnitine(l-pcarn);p=carnitine;g=cpt2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Palmitoylcarnitine(L-PCARN)"
-      ],
-      "productList": [
-        "Carnitine"
-      ],
-      "geneList": [
-        "CPT2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=carnitine|palmitoylcoa;p=palmitoylcarnitine(l-pcarn);g=cpt1a|cpt1b": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Carnitine",
-        "Palmitoyl CoA"
-      ],
-      "productList": [
-        "Palmitoylcarnitine(L-PCARN)"
-      ],
-      "geneList": [
-        "CPT1A",
-        "CPT1B"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    }
-  }
 }

@@ -48,7 +48,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa4" species="s29">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="275.5" y="97.0" w="132.0" h="46.0"/>
+<celldesigner:bounds x="393.5" y="74.0" w="132.0" h="46.0"/>
 <celldesigner:font size="13"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -124,7 +124,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa8" species="s3">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="477.5" y="163.0" w="145.0" h="42.0"/>
+<celldesigner:bounds x="616.5" y="151.0" w="145.0" h="42.0"/>
 <celldesigner:font size="13"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -162,7 +162,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa10" species="s5">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="299.5" y="346.0" w="192.0" h="44.0"/>
+<celldesigner:bounds x="282.5" y="398.0" w="192.0" h="44.0"/>
 <celldesigner:font size="13"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -200,7 +200,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa13" species="s9">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="427.5" y="98.0" w="73.0" h="36.0"/>
+<celldesigner:bounds x="595.5" y="84.0" w="73.0" h="36.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -219,14 +219,14 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa14" species="s10">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="560.5" y="344.0" w="192.0" h="44.0"/>
+<celldesigner:bounds x="562.5" y="397.0" w="192.0" h="44.0"/>
 <celldesigner:font size="13"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="192.0" height="44.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffffcccc" scheme="Color"/>
+<celldesigner:paint color="ffffcc33" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -622,27 +622,6 @@ lipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s10" id="s10" name="Phosphoethanolamine(PE)" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="nonlipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Phosphoethanolamine(PE)</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s12" id="s12" name="SGPL1" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -739,6 +718,27 @@ lipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
+<species metaid="s10" id="s10" name="Phosphoethanolamine(PE)" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>Phosphoethanolamine(PE)</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
 </listOfSpecies>
 <listOfReactions>
 <reaction metaid="re1" id="re1" reversible="false">
@@ -775,7 +775,7 @@ lipidSubstrate
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.5215836553239163,0.14148076777515683</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.3560921980109173,0.202272530462273</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
 <celldesigner:modification type="CATALYSIS" modifiers="s7" aliases="sa5" targetLineIndex="0,6">
@@ -879,7 +879,7 @@ lipidSubstrate
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.02672122319158854,0.32473398766425765</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.004329082336909984,0.252726614476378</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
 <celldesigner:modification type="CATALYSIS" modifiers="s4" aliases="sa9" targetLineIndex="0,3">

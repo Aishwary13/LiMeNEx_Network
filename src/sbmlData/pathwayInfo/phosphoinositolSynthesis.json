@@ -1,567 +1,567 @@
 {
-  "nodes": {
-    "Phosphatidylinositol(PI)": {
-      "id": "s77",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Phosphatidylinositol(PI)": {
+            "id": "s77",
+            "class": "lipidMetabolite;first"
+        },
+        "PI4KA": {
+            "id": "s81",
+            "class": "enzymaticGene"
+        },
+        "PI4KB": {
+            "id": "s2",
+            "class": "enzymaticGene"
+        },
+        "SACM1L": {
+            "id": "s3",
+            "class": "enzymaticGene"
+        },
+        "MTMR2": {
+            "id": "s4",
+            "class": "enzymaticGene"
+        },
+        "PIK3C2A": {
+            "id": "s6",
+            "class": "enzymaticGene"
+        },
+        "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2": {
+            "id": "s7",
+            "class": "lipidMetabolite"
+        },
+        "PIKFYVE": {
+            "id": "s8",
+            "class": "enzymaticGene"
+        },
+        "FIG4": {
+            "id": "s9",
+            "class": "enzymaticGene"
+        },
+        "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)": {
+            "id": "s82",
+            "class": "lipidMetabolite"
+        },
+        "TPTE2": {
+            "id": "s83",
+            "class": "enzymaticGene"
+        },
+        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)": {
+            "id": "s84",
+            "class": "lipidMetabolite"
+        },
+        "PIP5K1A": {
+            "id": "s86",
+            "class": "enzymaticGene"
+        },
+        "SYNJ1": {
+            "id": "s87",
+            "class": "enzymaticGene"
+        },
+        "SYNJ2": {
+            "id": "s88",
+            "class": "enzymaticGene"
+        },
+        "INPP5K": {
+            "id": "s89",
+            "class": "enzymaticGene"
+        },
+        "Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)": {
+            "id": "s90",
+            "class": "lipidMetabolite"
+        },
+        "PIK3CA": {
+            "id": "s91",
+            "class": "enzymaticGene"
+        },
+        "PIK3CB": {
+            "id": "s92",
+            "class": "enzymaticGene"
+        },
+        "PIK3CD": {
+            "id": "s93",
+            "class": "enzymaticGene"
+        },
+        "PIK3CG": {
+            "id": "s94",
+            "class": "enzymaticGene"
+        },
+        "PTEN": {
+            "id": "s95",
+            "class": "enzymaticGene"
+        },
+        "PIK3C2B": {
+            "id": "s96",
+            "class": "enzymaticGene"
+        },
+        "PIK3C2G": {
+            "id": "s97",
+            "class": "enzymaticGene"
+        },
+        "PIP4K2A": {
+            "id": "s98",
+            "class": "enzymaticGene"
+        },
+        "PIP4K2B": {
+            "id": "s99",
+            "class": "enzymaticGene"
+        },
+        "INPP4A": {
+            "id": "s100",
+            "class": "enzymaticGene"
+        },
+        "INPP4B": {
+            "id": "s101",
+            "class": "enzymaticGene"
+        },
+        "PIP5K1B": {
+            "id": "s103",
+            "class": "enzymaticGene"
+        },
+        "PIP4K2C": {
+            "id": "s104",
+            "class": "enzymaticGene"
+        },
+        "Phosphatidylinositol-4-phosphate(PI4P)": {
+            "id": "s85",
+            "class": "lipidMetabolite"
+        },
+        "Phosphatidylinositol-3-phosphate(PI3P)": {
+            "id": "s5",
+            "class": "lipidMetabolite"
+        },
+        "Phosphatidylinositol-5-phosphate(PI5P)": {
+            "id": "s102",
+            "class": "lipidMetabolite"
+        }
     },
-    "PI4KA": {
-      "id": "s81",
-      "class": "enzymaticGene"
-    },
-    "PI4KB": {
-      "id": "s2",
-      "class": "enzymaticGene"
-    },
-    "SACM1L": {
-      "id": "s3",
-      "class": "enzymaticGene"
-    },
-    "MTMR2": {
-      "id": "s4",
-      "class": "enzymaticGene"
-    },
-    "PIK3C2A": {
-      "id": "s6",
-      "class": "enzymaticGene"
-    },
-    "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2": {
-      "id": "s7",
-      "class": "lipidMetabolite"
-    },
-    "Phosphatidylinosito-l3-phosphate(PI3P)": {
-      "id": "s5",
-      "class": "lipidMetabolite"
-    },
-    "PIKFYVE": {
-      "id": "s8",
-      "class": "enzymaticGene"
-    },
-    "FIG4": {
-      "id": "s9",
-      "class": "enzymaticGene"
-    },
-    "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)": {
-      "id": "s82",
-      "class": "lipidMetabolite"
-    },
-    "TPTE2": {
-      "id": "s83",
-      "class": "enzymaticGene"
-    },
-    "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)": {
-      "id": "s84",
-      "class": "lipidMetabolite"
-    },
-    "Phosphatidylinosito-l4-phosphate(PI4P)": {
-      "id": "s85",
-      "class": "lipidMetabolite"
-    },
-    "PIP5K1A": {
-      "id": "s86",
-      "class": "enzymaticGene"
-    },
-    "SYNJ1": {
-      "id": "s87",
-      "class": "enzymaticGene"
-    },
-    "SYNJ2": {
-      "id": "s88",
-      "class": "enzymaticGene"
-    },
-    "INPP5K": {
-      "id": "s89",
-      "class": "enzymaticGene"
-    },
-    "Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)": {
-      "id": "s90",
-      "class": "lipidMetabolite"
-    },
-    "PIK3CA": {
-      "id": "s91",
-      "class": "enzymaticGene"
-    },
-    "PIK3CB": {
-      "id": "s92",
-      "class": "enzymaticGene"
-    },
-    "PIK3CD": {
-      "id": "s93",
-      "class": "enzymaticGene"
-    },
-    "PIK3CG": {
-      "id": "s94",
-      "class": "enzymaticGene"
-    },
-    "PTEN": {
-      "id": "s95",
-      "class": "enzymaticGene"
-    },
-    "PIK3C2B": {
-      "id": "s96",
-      "class": "enzymaticGene"
-    },
-    "PIK3C2G": {
-      "id": "s97",
-      "class": "enzymaticGene"
-    },
-    "PIP4K2A": {
-      "id": "s98",
-      "class": "enzymaticGene"
-    },
-    "PIP4K2B": {
-      "id": "s99",
-      "class": "enzymaticGene"
-    },
-    "INPP4A": {
-      "id": "s100",
-      "class": "enzymaticGene"
-    },
-    "INPP4B": {
-      "id": "s101",
-      "class": "enzymaticGene"
-    },
-    "Phosphatidylinosito-l5-phosphate(PI5P)": {
-      "id": "s102",
-      "class": "lipidMetabolite"
-    },
-    "PIP5K1B": {
-      "id": "s103",
-      "class": "enzymaticGene"
-    },
-    "PIP4K2C": {
-      "id": "s104",
-      "class": "enzymaticGene"
+    "reactions": {
+        "r=phosphatidylinositol-3-phosphate(pi3p);p=phosphatidylinositol(pi);g=mtmr2|sacm1l": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol(PI)"
+            ],
+            "geneList": [
+                "MTMR2",
+                "SACM1L"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol(pi);p=phosphatidylinositol-3-phosphate(pi3p);g=pik3c2a": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol(PI)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "geneList": [
+                "PIK3C2A"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-3-phosphate(pi3p);p=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;g=pikfyve": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
+            ],
+            "geneList": [
+                "PIKFYVE"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;p=phosphatidylinositol-3-phosphate(pi3p);g=fig4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
+            ],
+            "productList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "geneList": [
+                "FIG4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-4-phosphate(pi4p);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pip5k1a": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-4-phosphate(PI4P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "geneList": [
+                "PIP5K1A"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinositol-4-phosphate(pi4p);g=inpp5k|synj1|synj2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-4-phosphate(PI4P)"
+            ],
+            "geneList": [
+                "SYNJ1",
+                "SYNJ2",
+                "INPP5K"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinositol3,4,5-trisphosphate(pi(3,4,5)p3);g=pik3ca|pik3cb|pik3cd|pik3cg": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)"
+            ],
+            "geneList": [
+                "PIK3CA",
+                "PIK3CB",
+                "PIK3CD",
+                "PIK3CG"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol3,4,5-trisphosphate(pi(3,4,5)p3);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pten": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "geneList": [
+                "PTEN"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-4-phosphate(pi4p);p=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);g=pik3c2a|pik3c2b|pik3c2g": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-4-phosphate(PI4P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
+            ],
+            "geneList": [
+                "PIK3C2A",
+                "PIK3C2B",
+                "PIK3C2G"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);p=phosphatidylinositol-4-phosphate(pi4p);g=pten": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-4-phosphate(PI4P)"
+            ],
+            "geneList": [
+                "PTEN"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-3-phosphate(pi3p);p=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);g=pip4k2a|pip4k2b": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
+            ],
+            "geneList": [
+                "PIP4K2A",
+                "PIP4K2B"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);p=phosphatidylinositol-3-phosphate(pi3p);g=inpp4a|inpp4b": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "geneList": [
+                "INPP4B",
+                "INPP4A"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol(pi);p=phosphatidylinositol-5-phosphate(pi5p);g=pip5k1a|pip5k1b": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol(PI)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-5-phosphate(PI5P)"
+            ],
+            "geneList": [
+                "PIP5K1A",
+                "PIP5K1B"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-3-phosphate(pi3p);p=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;g=pip5k1a|pip5k1b": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
+            ],
+            "geneList": [
+                "PIP5K1A",
+                "PIP5K1B"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;p=phosphatidylinositol-3-phosphate(pi3p);g=synj1|synj2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
+            ],
+            "productList": [
+                "Phosphatidylinositol-3-phosphate(PI3P)"
+            ],
+            "geneList": [
+                "SYNJ1",
+                "SYNJ2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;p=phosphatidylinositol-5-phosphate(pi5p);g=synj1|synj2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
+            ],
+            "productList": [
+                "Phosphatidylinositol-5-phosphate(PI5P)"
+            ],
+            "geneList": [
+                "SYNJ1",
+                "SYNJ2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol(pi);p=phosphatidylinositol-4-phosphate(pi4p);g=pip4k2a|pip4k2b": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol(PI)"
+            ],
+            "productList": [
+                "Phosphatidylinositol-4-phosphate(PI4P)"
+            ],
+            "geneList": [
+                "PIP4K2A",
+                "PIP4K2B"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-4-phosphate(pi4p);p=phosphatidylinositol(pi);g=synj1|synj2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-4-phosphate(PI4P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol(PI)"
+            ],
+            "geneList": [
+                "SYNJ1",
+                "SYNJ2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinositol(pi);g=sacm1l": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "productList": [
+                "Phosphatidylinositol(PI)"
+            ],
+            "geneList": [
+                "SACM1L"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);g=pik3c2a": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
+            ],
+            "geneList": [
+                "PIK3C2A"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol(pi);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pi4ka|pi4kb": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol(PI)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "geneList": [
+                "PI4KA",
+                "PI4KB"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol-5-phosphate(pi5p);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pip4k2a|pip4k2b|pip4k2c": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol-5-phosphate(PI5P)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "geneList": [
+                "PIP4K2C",
+                "PIP4K2B",
+                "PIP4K2A"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=tpte2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
+            ],
+            "productList": [
+                "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
+            ],
+            "geneList": [
+                "TPTE2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=phosphatidylinosito-l3-phosphate(pi3p);p=phosphatidylinositol(pi);g=mtmr2|sacm1l": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol(PI)"
-      ],
-      "geneList": [
-        "MTMR2",
-        "SACM1L"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol(pi);p=phosphatidylinosito-l3-phosphate(pi3p);g=pik3c2a": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol(PI)"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "geneList": [
-        "PIK3C2A"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinosito-l3-phosphate(pi3p);p=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;g=pikfyve": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
-      ],
-      "geneList": [
-        "PIKFYVE"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;p=phosphatidylinosito-l3-phosphate(pi3p);g=fig4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "geneList": [
-        "FIG4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinosito-l4-phosphate(pi4p);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pip5k1a": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l4-phosphate(PI4P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "geneList": [
-        "PIP5K1A"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinosito-l4-phosphate(pi4p);g=synj1|synj2|inpp5k": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l4-phosphate(PI4P)"
-      ],
-      "geneList": [
-        "SYNJ1",
-        "SYNJ2",
-        "INPP5K"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinositol3,4,5-trisphosphate(pi(3,4,5)p3);g=pik3ca|pik3cb|pik3cd|pik3cg": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)"
-      ],
-      "geneList": [
-        "PIK3CA",
-        "PIK3CB",
-        "PIK3CD",
-        "PIK3CG"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol3,4,5-trisphosphate(pi(3,4,5)p3);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pten": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "geneList": [
-        "PTEN"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinosito-l4-phosphate(pi4p);p=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);g=pik3c2a|pik3c2b|pik3c2g": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l4-phosphate(PI4P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
-      ],
-      "geneList": [
-        "PIK3C2A",
-        "PIK3C2B",
-        "PIK3C2G"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);p=phosphatidylinosito-l4-phosphate(pi4p);g=pten": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l4-phosphate(PI4P)"
-      ],
-      "geneList": [
-        "PTEN"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinosito-l3-phosphate(pi3p);p=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);g=pip4k2a|pip4k2b": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
-      ],
-      "geneList": [
-        "PIP4K2A",
-        "PIP4K2B"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);p=phosphatidylinosito-l3-phosphate(pi3p);g=inpp4b|inpp4a": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "geneList": [
-        "INPP4B",
-        "INPP4A"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol(pi);p=phosphatidylinosito-l5-phosphate(pi5p);g=pip5k1a|pip5k1b": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol(PI)"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l5-phosphate(PI5P)"
-      ],
-      "geneList": [
-        "PIP5K1A",
-        "PIP5K1B"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinosito-l3-phosphate(pi3p);p=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;g=pip5k1a|pip5k1b": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
-      ],
-      "geneList": [
-        "PIP5K1A",
-        "PIP5K1B"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;p=phosphatidylinosito-l3-phosphate(pi3p);g=synj1|synj2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l3-phosphate(PI3P)"
-      ],
-      "geneList": [
-        "SYNJ1",
-        "SYNJ2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol-3,5-bisphosphate-pi(3,5)p2;p=phosphatidylinosito-l5-phosphate(pi5p);g=synj1|synj2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l5-phosphate(PI5P)"
-      ],
-      "geneList": [
-        "SYNJ1",
-        "SYNJ2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol(pi);p=phosphatidylinosito-l4-phosphate(pi4p);g=pip4k2a|pip4k2b": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol(PI)"
-      ],
-      "productList": [
-        "Phosphatidylinosito-l4-phosphate(PI4P)"
-      ],
-      "geneList": [
-        "PIP4K2A",
-        "PIP4K2B"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinosito-l4-phosphate(pi4p);p=phosphatidylinositol(pi);g=synj1|synj2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l4-phosphate(PI4P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol(PI)"
-      ],
-      "geneList": [
-        "SYNJ1",
-        "SYNJ2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinositol(pi);g=sacm1l": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "productList": [
-        "Phosphatidylinositol(PI)"
-      ],
-      "geneList": [
-        "SACM1L"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);p=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);g=pik3c2a": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
-      ],
-      "geneList": [
-        "PIK3C2A"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol(pi);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pi4ka|pi4kb": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol(PI)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "geneList": [
-        "PI4KA",
-        "PI4KB"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinosito-l5-phosphate(pi5p);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=pip4k2c|pip4k2b|pip4k2a": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Phosphatidylinosito-l5-phosphate(PI5P)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "geneList": [
-        "PIP4K2C",
-        "PIP4K2B",
-        "PIP4K2A"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=phosphatidylinositol3,4-bisphosphate(pi(3,4)p2);p=phosphatidylinositol4,5-bisphosphate(pi(4,5)p2);g=tpte2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)"
-      ],
-      "productList": [
-        "Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)"
-      ],
-      "geneList": [
-        "TPTE2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    }
-  }
 }

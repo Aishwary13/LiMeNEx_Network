@@ -1,382 +1,382 @@
 {
-  "nodes": {
-    "Cholesterol": {
-      "id": "s57",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Cholesterol": {
+            "id": "s57",
+            "class": "lipidMetabolite;first"
+        },
+        "7alpha-cholesterol": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "CYP7A1": {
+            "id": "s56",
+            "class": "enzymaticGene"
+        },
+        "4-cholesten-7alpha-ol-3-one": {
+            "id": "s2",
+            "class": "lipidMetabolite"
+        },
+        "HSD3B7": {
+            "id": "s3",
+            "class": "enzymaticGene"
+        },
+        "CYP8B1": {
+            "id": "s6",
+            "class": "enzymaticGene"
+        },
+        "AKR1D1": {
+            "id": "s8",
+            "class": "enzymaticGene"
+        },
+        "AKR1C4": {
+            "id": "s11",
+            "class": "enzymaticGene"
+        },
+        "CYP27A1": {
+            "id": "s15",
+            "class": "enzymaticGene"
+        },
+        "24-hydroxycholesterol": {
+            "id": "s36",
+            "class": "lipidMetabolite"
+        },
+        "CYP46A1": {
+            "id": "s37",
+            "class": "enzymaticGene"
+        },
+        "Cholest-5-ene-3b,7a,24-triol": {
+            "id": "s38",
+            "class": "lipidMetabolite"
+        },
+        "CYP39A1": {
+            "id": "s39",
+            "class": "enzymaticGene"
+        },
+        "4-Cholesten-7a,24(S)-diol-3-one": {
+            "id": "s40",
+            "class": "lipidMetabolite"
+        },
+        "4-Cholesten-7a,12a,24(S)-triol-3-one": {
+            "id": "s42",
+            "class": "lipidMetabolite"
+        },
+        "5b-Cholesten-7a,12a,24(S)-triol-3-one": {
+            "id": "s43",
+            "class": "lipidMetabolite"
+        },
+        "5b-Cholestan-7a,24(S)-diol-3-one": {
+            "id": "s44",
+            "class": "lipidMetabolite"
+        },
+        "5b-Cholestan-3a,7a,12a,24(S)-tetrol": {
+            "id": "s45",
+            "class": "lipidMetabolite"
+        },
+        "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al": {
+            "id": "s49",
+            "class": "lipidMetabolite"
+        },
+        "5b-Cholestan-3a,7a,12a,24(S),27-pentol": {
+            "id": "s47",
+            "class": "lipidMetabolite"
+        },
+        "5b-Cholestan-3a,7a,24(S)-triol": {
+            "id": "s46",
+            "class": "lipidMetabolite"
+        },
+        "3a,7a,24(S)-Trihydroxy-5b-cholestanoate": {
+            "id": "s51",
+            "class": "lipidMetabolite"
+        },
+        "Tetrahydroxy-5b-cholestanoate": {
+            "id": "s50",
+            "class": "lipidMetabolite"
+        },
+        "Cholest-5-ene-3b,7a,25-triol": {
+            "id": "s52",
+            "class": "lipidMetabolite"
+        },
+        "CYP7B1": {
+            "id": "s53",
+            "class": "enzymaticGene"
+        },
+        "5b-Cholestane-3a,7a,24(S),27-tetrol": {
+            "id": "s48",
+            "class": "lipidMetabolite"
+        }
     },
-    "7alpha-cholesterol": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "CYP7A1": {
-      "id": "s56",
-      "class": "enzymaticGene"
-    },
-    "4-cholesten-7alpha-ol-3-one": {
-      "id": "s2",
-      "class": "lipidMetabolite"
-    },
-    "HSD3B7": {
-      "id": "s3",
-      "class": "enzymaticGene"
-    },
-    "CYP8B1": {
-      "id": "s6",
-      "class": "enzymaticGene"
-    },
-    "AKR1D1": {
-      "id": "s8",
-      "class": "enzymaticGene"
-    },
-    "AKR1C4": {
-      "id": "s11",
-      "class": "enzymaticGene"
-    },
-    "CYP27A1": {
-      "id": "s15",
-      "class": "enzymaticGene"
-    },
-    "24-hydroxycholesterol": {
-      "id": "s36",
-      "class": "lipidMetabolite"
-    },
-    "CYP46A1": {
-      "id": "s37",
-      "class": "enzymaticGene"
-    },
-    "Cholest-5-ene-3b,7a,24-triol": {
-      "id": "s38",
-      "class": "lipidMetabolite"
-    },
-    "CYP39A1": {
-      "id": "s39",
-      "class": "enzymaticGene"
-    },
-    "4-Cholesten-7a,24(S)-diol-3-one": {
-      "id": "s40",
-      "class": "lipidMetabolite"
-    },
-    "4-Cholesten-7a,12a,24(S)-triol-3-one": {
-      "id": "s42",
-      "class": "lipidMetabolite"
-    },
-    "5b-Cholesten-7a,12a,24(S)-triol-3-one": {
-      "id": "s43",
-      "class": "lipidMetabolite"
-    },
-    "5b-Cholestan-7a,24(S)-diol-3-one": {
-      "id": "s44",
-      "class": "lipidMetabolite"
-    },
-    "5b-Cholestan-3a,7a,12a,24(S)-tetrol": {
-      "id": "s45",
-      "class": "lipidMetabolite"
-    },
-    "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al": {
-      "id": "s49",
-      "class": "lipidMetabolite"
-    },
-    "5b-Cholestan-3a,7a,12a,24(S),27-pentol": {
-      "id": "s47",
-      "class": "lipidMetabolite"
-    },
-    "5b-Cholestan-3a,7a,24(S),27-tetrol": {
-      "id": "s48",
-      "class": "lipidMetabolite"
-    },
-    "5b-Cholestan-3a,7a,24(S)-triol": {
-      "id": "s46",
-      "class": "lipidMetabolite"
-    },
-    "3a,7a,24(S)-Trihydroxy-5b-cholestanoate": {
-      "id": "s51",
-      "class": "lipidMetabolite"
-    },
-    "Tetrahydroxy-5b-cholestanoate": {
-      "id": "s50",
-      "class": "lipidMetabolite"
-    },
-    "Cholest-5-ene-3b,7a,25-triol": {
-      "id": "s52",
-      "class": "lipidMetabolite"
-    },
-    "CYP7B1": {
-      "id": "s53",
-      "class": "enzymaticGene"
+    "reactions": {
+        "r=cholesterol;p=7alpha-cholesterol;g=cyp7a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Cholesterol"
+            ],
+            "productList": [
+                "7alpha-cholesterol"
+            ],
+            "geneList": [
+                "CYP7A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=7alpha-cholesterol;p=4-cholesten-7alpha-ol-3-one;g=hsd3b7": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "7alpha-cholesterol"
+            ],
+            "productList": [
+                "4-cholesten-7alpha-ol-3-one"
+            ],
+            "geneList": [
+                "HSD3B7"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=cholesterol;p=24-hydroxycholesterol;g=cyp46a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Cholesterol"
+            ],
+            "productList": [
+                "24-hydroxycholesterol"
+            ],
+            "geneList": [
+                "CYP46A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=24-hydroxycholesterol;p=cholest-5-ene-3b,7a,24-triol;g=cyp39a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "24-hydroxycholesterol"
+            ],
+            "productList": [
+                "Cholest-5-ene-3b,7a,24-triol"
+            ],
+            "geneList": [
+                "CYP39A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=cholest-5-ene-3b,7a,24-triol;p=4-cholesten-7a,24(s)-diol-3-one;g=hsd3b7": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Cholest-5-ene-3b,7a,24-triol"
+            ],
+            "productList": [
+                "4-Cholesten-7a,24(S)-diol-3-one"
+            ],
+            "geneList": [
+                "HSD3B7"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4-cholesten-7a,24(s)-diol-3-one;p=4-cholesten-7a,12a,24(s)-triol-3-one;g=cyp8b1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "4-Cholesten-7a,24(S)-diol-3-one"
+            ],
+            "productList": [
+                "4-Cholesten-7a,12a,24(S)-triol-3-one"
+            ],
+            "geneList": [
+                "CYP8B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4-cholesten-7a,12a,24(s)-triol-3-one;p=5b-cholesten-7a,12a,24(s)-triol-3-one;g=akr1d1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "4-Cholesten-7a,12a,24(S)-triol-3-one"
+            ],
+            "productList": [
+                "5b-Cholesten-7a,12a,24(S)-triol-3-one"
+            ],
+            "geneList": [
+                "AKR1D1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4-cholesten-7a,24(s)-diol-3-one;p=5b-cholestan-7a,24(s)-diol-3-one;g=akr1d1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "4-Cholesten-7a,24(S)-diol-3-one"
+            ],
+            "productList": [
+                "5b-Cholestan-7a,24(S)-diol-3-one"
+            ],
+            "geneList": [
+                "AKR1D1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5b-cholesten-7a,12a,24(s)-triol-3-one;p=5b-cholestan-3a,7a,12a,24(s)-tetrol;g=akr1c4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "5b-Cholesten-7a,12a,24(S)-triol-3-one"
+            ],
+            "productList": [
+                "5b-Cholestan-3a,7a,12a,24(S)-tetrol"
+            ],
+            "geneList": [
+                "AKR1C4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5b-cholestan-7a,24(s)-diol-3-one;p=5b-cholestan-3a,7a,24(s)-triol;g=akr1c4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "5b-Cholestan-7a,24(S)-diol-3-one"
+            ],
+            "productList": [
+                "5b-Cholestan-3a,7a,24(S)-triol"
+            ],
+            "geneList": [
+                "AKR1C4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5b-cholestan-3a,7a,12a,24(s)-tetrol;p=5b-cholestan-3a,7a,12a,24(s),27-pentol;g=cyp27a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "5b-Cholestan-3a,7a,12a,24(S)-tetrol"
+            ],
+            "productList": [
+                "5b-Cholestan-3a,7a,12a,24(S),27-pentol"
+            ],
+            "geneList": [
+                "CYP27A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5b-cholestan-3a,7a,24(s)-triol;p=5b-cholestane-3a,7a,24(s),27-tetrol;g=cyp27a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "5b-Cholestan-3a,7a,24(S)-triol"
+            ],
+            "productList": [
+                "5b-Cholestane-3a,7a,24(S),27-tetrol"
+            ],
+            "geneList": [
+                "CYP27A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5b-cholestan-3a,7a,12a,24(s),27-pentol;p=3a,7a,12a,24(s)-tetrahydroxy-5b-cholestan-27-al;g=cyp27a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "5b-Cholestan-3a,7a,12a,24(S),27-pentol"
+            ],
+            "productList": [
+                "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al"
+            ],
+            "geneList": [
+                "CYP27A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=3a,7a,12a,24(s)-tetrahydroxy-5b-cholestan-27-al;p=tetrahydroxy-5b-cholestanoate;g=cyp27a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al"
+            ],
+            "productList": [
+                "Tetrahydroxy-5b-cholestanoate"
+            ],
+            "geneList": [
+                "CYP27A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=3a,7a,12a,24(s)-tetrahydroxy-5b-cholestan-27-al;p=3a,7a,24(s)-trihydroxy-5b-cholestanoate;g=cyp27a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al"
+            ],
+            "productList": [
+                "3a,7a,24(S)-Trihydroxy-5b-cholestanoate"
+            ],
+            "geneList": [
+                "CYP27A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=24-hydroxycholesterol;p=cholest-5-ene-3b,7a,25-triol;g=cyp7b1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "24-hydroxycholesterol"
+            ],
+            "productList": [
+                "Cholest-5-ene-3b,7a,25-triol"
+            ],
+            "geneList": [
+                "CYP7B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=cholesterol;p=7alpha-cholesterol;g=cyp7a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Cholesterol"
-      ],
-      "productList": [
-        "7alpha-cholesterol"
-      ],
-      "geneList": [
-        "CYP7A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=7alpha-cholesterol;p=4-cholesten-7alpha-ol-3-one;g=hsd3b7": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "7alpha-cholesterol"
-      ],
-      "productList": [
-        "4-cholesten-7alpha-ol-3-one"
-      ],
-      "geneList": [
-        "HSD3B7"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=cholesterol;p=24-hydroxycholesterol;g=cyp46a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Cholesterol"
-      ],
-      "productList": [
-        "24-hydroxycholesterol"
-      ],
-      "geneList": [
-        "CYP46A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=24-hydroxycholesterol;p=cholest-5-ene-3b,7a,24-triol;g=cyp39a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "24-hydroxycholesterol"
-      ],
-      "productList": [
-        "Cholest-5-ene-3b,7a,24-triol"
-      ],
-      "geneList": [
-        "CYP39A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=cholest-5-ene-3b,7a,24-triol;p=4-cholesten-7a,24(s)-diol-3-one;g=hsd3b7": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Cholest-5-ene-3b,7a,24-triol"
-      ],
-      "productList": [
-        "4-Cholesten-7a,24(S)-diol-3-one"
-      ],
-      "geneList": [
-        "HSD3B7"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4-cholesten-7a,24(s)-diol-3-one;p=4-cholesten-7a,12a,24(s)-triol-3-one;g=cyp8b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "4-Cholesten-7a,24(S)-diol-3-one"
-      ],
-      "productList": [
-        "4-Cholesten-7a,12a,24(S)-triol-3-one"
-      ],
-      "geneList": [
-        "CYP8B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4-cholesten-7a,12a,24(s)-triol-3-one;p=5b-cholesten-7a,12a,24(s)-triol-3-one;g=akr1d1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "4-Cholesten-7a,12a,24(S)-triol-3-one"
-      ],
-      "productList": [
-        "5b-Cholesten-7a,12a,24(S)-triol-3-one"
-      ],
-      "geneList": [
-        "AKR1D1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4-cholesten-7a,24(s)-diol-3-one;p=5b-cholestan-7a,24(s)-diol-3-one;g=akr1d1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "4-Cholesten-7a,24(S)-diol-3-one"
-      ],
-      "productList": [
-        "5b-Cholestan-7a,24(S)-diol-3-one"
-      ],
-      "geneList": [
-        "AKR1D1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5b-cholesten-7a,12a,24(s)-triol-3-one;p=5b-cholestan-3a,7a,12a,24(s)-tetrol;g=akr1c4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "5b-Cholesten-7a,12a,24(S)-triol-3-one"
-      ],
-      "productList": [
-        "5b-Cholestan-3a,7a,12a,24(S)-tetrol"
-      ],
-      "geneList": [
-        "AKR1C4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5b-cholestan-7a,24(s)-diol-3-one;p=5b-cholestan-3a,7a,24(s)-triol;g=akr1c4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "5b-Cholestan-7a,24(S)-diol-3-one"
-      ],
-      "productList": [
-        "5b-Cholestan-3a,7a,24(S)-triol"
-      ],
-      "geneList": [
-        "AKR1C4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5b-cholestan-3a,7a,12a,24(s)-tetrol;p=5b-cholestan-3a,7a,12a,24(s),27-pentol;g=cyp27a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "5b-Cholestan-3a,7a,12a,24(S)-tetrol"
-      ],
-      "productList": [
-        "5b-Cholestan-3a,7a,12a,24(S),27-pentol"
-      ],
-      "geneList": [
-        "CYP27A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5b-cholestan-3a,7a,24(s)-triol;p=5b-cholestan-3a,7a,24(s),27-tetrol;g=cyp27a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "5b-Cholestan-3a,7a,24(S)-triol"
-      ],
-      "productList": [
-        "5b-Cholestan-3a,7a,24(S),27-tetrol"
-      ],
-      "geneList": [
-        "CYP27A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5b-cholestan-3a,7a,12a,24(s),27-pentol;p=3a,7a,12a,24(s)-tetrahydroxy-5b-cholestan-27-al;g=cyp27a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "5b-Cholestan-3a,7a,12a,24(S),27-pentol"
-      ],
-      "productList": [
-        "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al"
-      ],
-      "geneList": [
-        "CYP27A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=3a,7a,12a,24(s)-tetrahydroxy-5b-cholestan-27-al;p=tetrahydroxy-5b-cholestanoate;g=cyp27a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al"
-      ],
-      "productList": [
-        "Tetrahydroxy-5b-cholestanoate"
-      ],
-      "geneList": [
-        "CYP27A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=3a,7a,12a,24(s)-tetrahydroxy-5b-cholestan-27-al;p=3a,7a,24(s)-trihydroxy-5b-cholestanoate;g=cyp27a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al"
-      ],
-      "productList": [
-        "3a,7a,24(S)-Trihydroxy-5b-cholestanoate"
-      ],
-      "geneList": [
-        "CYP27A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=24-hydroxycholesterol;p=cholest-5-ene-3b,7a,25-triol;g=cyp7b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "24-hydroxycholesterol"
-      ],
-      "productList": [
-        "Cholest-5-ene-3b,7a,25-triol"
-      ],
-      "geneList": [
-        "CYP7B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    }
-  }
 }

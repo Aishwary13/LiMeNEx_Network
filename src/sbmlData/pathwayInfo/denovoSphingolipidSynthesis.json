@@ -1,163 +1,163 @@
 {
-  "nodes": {
-    "Palmitoyl-CoA": {
-      "id": "s2",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Palmitoyl-CoA": {
+            "id": "s2",
+            "class": "lipidMetabolite;first"
+        },
+        "SPTLC1": {
+            "id": "s81",
+            "class": "enzymaticGene"
+        },
+        "SPTLC2": {
+            "id": "s3",
+            "class": "enzymaticGene"
+        },
+        "SPTLC3": {
+            "id": "s4",
+            "class": "enzymaticGene"
+        },
+        "Dihydroceramide(DHCE)": {
+            "id": "s6",
+            "class": "lipidMetabolite"
+        },
+        "CERS1": {
+            "id": "s7",
+            "class": "enzymaticGene"
+        },
+        "KDSR": {
+            "id": "s9",
+            "class": "enzymaticGene"
+        },
+        "3-Ketosphinganine": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "Sphinganine": {
+            "id": "s8",
+            "class": "lipidMetabolite"
+        },
+        "Acyl-CoA": {
+            "id": "s5",
+            "class": "lipidMetabolite"
+        },
+        "Ceramide": {
+            "id": "s11",
+            "class": "lipidMetabolite"
+        },
+        "DEGS1": {
+            "id": "s12",
+            "class": "enzymaticGene"
+        },
+        "Phosphatidylcholine": {
+            "id": "s13",
+            "class": "lipidMetabolite"
+        },
+        "Sphingomyelin": {
+            "id": "s14",
+            "class": "lipidMetabolite"
+        },
+        "SGMS1": {
+            "id": "s16",
+            "class": "enzymaticGene"
+        },
+        "SGMS2": {
+            "id": "s17",
+            "class": "enzymaticGene"
+        }
     },
-    "SPTLC1": {
-      "id": "s81",
-      "class": "enzymaticGene"
-    },
-    "SPTLC2": {
-      "id": "s3",
-      "class": "enzymaticGene"
-    },
-    "SPTLC3": {
-      "id": "s4",
-      "class": "enzymaticGene"
-    },
-    "Dihydroceramide(DHCE)": {
-      "id": "s6",
-      "class": "lipidMetabolite"
-    },
-    "CERS1": {
-      "id": "s7",
-      "class": "enzymaticGene"
-    },
-    "KDSR": {
-      "id": "s9",
-      "class": "enzymaticGene"
-    },
-    "3-Ketosphinganine": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "Sphinganine": {
-      "id": "s8",
-      "class": "lipidMetabolite"
-    },
-    "Acyl-CoA": {
-      "id": "s5",
-      "class": "lipidMetabolite"
-    },
-    "Ceramide": {
-      "id": "s11",
-      "class": "lipidMetabolite"
-    },
-    "DEGS1": {
-      "id": "s12",
-      "class": "enzymaticGene"
-    },
-    "Phosphatidylcholine": {
-      "id": "s13",
-      "class": "lipidMetabolite"
-    },
-    "Sphingomyelin": {
-      "id": "s14",
-      "class": "lipidMetabolite"
-    },
-    "SGMS1": {
-      "id": "s16",
-      "class": "enzymaticGene"
-    },
-    "SGMS2": {
-      "id": "s17",
-      "class": "enzymaticGene"
+    "reactions": {
+        "r=palmitoyl-coa;p=3-ketosphinganine;g=sptlc1|sptlc2|sptlc3": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "condensation",
+            "reactantList": [
+                "Palmitoyl-CoA"
+            ],
+            "productList": [
+                "3-Ketosphinganine"
+            ],
+            "geneList": [
+                "SPTLC1",
+                "SPTLC2",
+                "SPTLC3"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=3-ketosphinganine;p=sphinganine;g=kdsr": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "3-Ketosphinganine"
+            ],
+            "productList": [
+                "Sphinganine"
+            ],
+            "geneList": [
+                "KDSR"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=acyl-coa|sphinganine;p=dihydroceramide(dhce);g=cers1": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "acylation",
+            "reactantList": [
+                "Acyl-CoA",
+                "Sphinganine"
+            ],
+            "productList": [
+                "Dihydroceramide(DHCE)"
+            ],
+            "geneList": [
+                "CERS1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=dihydroceramide(dhce);p=ceramide;g=degs1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Dihydroceramide(DHCE)"
+            ],
+            "productList": [
+                "Ceramide"
+            ],
+            "geneList": [
+                "DEGS1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=ceramide|phosphatidylcholine;p=sphingomyelin;g=sgms1|sgms2": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "synthesis",
+            "reactantList": [
+                "Ceramide",
+                "Phosphatidylcholine"
+            ],
+            "productList": [
+                "Sphingomyelin"
+            ],
+            "geneList": [
+                "SGMS1",
+                "SGMS2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=palmitoyl-coa;p=3-ketosphinganine;g=sptlc1|sptlc2|sptlc3": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "condensation",
-      "reactantList": [
-        "Palmitoyl-CoA"
-      ],
-      "productList": [
-        "3-Ketosphinganine"
-      ],
-      "geneList": [
-        "SPTLC1",
-        "SPTLC2",
-        "SPTLC3"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=3-ketosphinganine;p=sphinganine;g=kdsr": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "3-Ketosphinganine"
-      ],
-      "productList": [
-        "Sphinganine"
-      ],
-      "geneList": [
-        "KDSR"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=acyl-coa|sphinganine;p=dihydroceramide(dhce);g=cers1": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "acylation",
-      "reactantList": [
-        "Acyl-CoA",
-        "Sphinganine"
-      ],
-      "productList": [
-        "Dihydroceramide(DHCE)"
-      ],
-      "geneList": [
-        "CERS1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=dihydroceramide(dhce);p=ceramide;g=degs1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Dihydroceramide(DHCE)"
-      ],
-      "productList": [
-        "Ceramide"
-      ],
-      "geneList": [
-        "DEGS1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=ceramide|phosphatidylcholine;p=sphingomyelin;g=sgms1|sgms2": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "synthesis",
-      "reactantList": [
-        "Ceramide",
-        "Phosphatidylcholine"
-      ],
-      "productList": [
-        "Sphingomyelin"
-      ],
-      "geneList": [
-        "SGMS1",
-        "SGMS2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    }
-  }
 }

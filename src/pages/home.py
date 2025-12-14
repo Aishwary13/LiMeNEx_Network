@@ -1,64 +1,15 @@
 import dash
 import dash_bootstrap_components as dbc
-from dash import dcc, html, clientside_callback, ClientsideFunction, Input, Output
+from dash import dcc, html
+import dash_cytoscape as cyto
+from utils.css import home_page_new_cytoscape_stylesheet
+from utils.home_utils import new_elements
 
 external_js_lib = "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
 
 dash_app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],
                      external_scripts=[external_js_lib], title="LiMeNex")
 
-# layout = html.Div([
-#     # Welcome Section (Hero Section)
-#     html.Div([
-#         html.H1("Welcome to LiMeNEx: Your Gateway to Lipidomics Research",
-#                 style={'color': '#FFFFFF', 'fontWeight': 'bold', 'textAlign': 'center'}),
-#         html.P("Explore the intricate network of lipid metabolic pathways and gain insights into gene regulation with advanced differential expression analysis.",
-#                style={'color': '#FFFFFF', 'textAlign': 'center', 'maxWidth': '800px', 'margin': '0 auto'}),
-#         html.A("Get Started", href="#features",
-#                style={'display': 'inline-block', 'padding': '10px 20px', 'backgroundColor': '#4CAF50', 
-#                       'color': '#FFFFFF', 'textDecoration': 'none', 'borderRadius': '5px', 
-#                       'marginTop': '20px', 'textAlign': 'center'})
-#     ], style={'padding': '50px', 'textAlign': 'center'}),
-
-#     # 3D Network Animation Section
-#     html.Div([
-#         html.H2("Visualize the Lipid Metabolic Pathways", style={'color': '#FFFFFF', 'fontWeight': 'bold', 'textAlign': 'center'}),
-#         html.Div(id='network-animation', style={'height': '500px', 'backgroundColor': '#2C2C2C'}),
-#         html.P("Explore the interconnected pathways that drive lipid metabolism. Watch as nodes change color to indicate differential expression.",
-#                style={'color': '#CCCCCC', 'textAlign': 'center', 'marginTop': '20px'})
-#     ], style={'backgroundColor': '#292929', 'padding': '50px 20px'}),
-
-#     # Functionalities Section
-#     html.Div([
-#         html.H2("Key Features & Functionalities", style={'color': '#FFFFFF', 'fontWeight': 'bold', 'textAlign': 'center'}),
-#         html.Ul([
-#             html.Li("1. Differential Expression Analysis: Identify upregulated and downregulated genes with precision.", style={'color': '#CCCCCC'}),
-#             html.Li("2. Custom Data Input: Upload your data and see real-time results on the network.", style={'color': '#CCCCCC'}),
-#             html.Li("3. Interactive Visualization: Interact with the network and explore gene relationships visually.", style={'color': '#CCCCCC'}),
-#         ], style={'listStyleType': 'none', 'paddingLeft': '0', 'textAlign': 'left', 'maxWidth': '800px', 'margin': '0 auto', 'textAlign': 'center'})
-#     ], style={'backgroundColor': '#1A1A1A', 'padding': '50px 20px'}),
-
-#     # Step-by-Step Guide Section
-#     html.Div([
-#         html.H2("How to Use LiMeNEx", style={'color': '#FFFFFF', 'fontWeight': 'bold', 'textAlign': 'center'}),
-#         html.Div([
-#             html.Div([
-#                 html.H3("Step 1", style={'color': '#4CAF50', 'textAlign': 'center'}),
-#                 html.P("Upload your gene expression data.", style={'color': '#CCCCCC', 'textAlign': 'center'})
-#             ], style={'padding': '20px', 'width': '30%', 'display': 'inline-block', 'verticalAlign': 'top'}),
-
-#             html.Div([
-#                 html.H3("Step 2", style={'color': '#4CAF50', 'textAlign': 'center'}),
-#                 html.P("Run differential expression analysis.", style={'color': '#CCCCCC', 'textAlign': 'center'})
-#             ], style={'padding': '20px', 'width': '30%', 'display': 'inline-block', 'verticalAlign': 'top'}),
-
-#             html.Div([
-#                 html.H3("Step 3", style={'color': '#4CAF50', 'textAlign': 'center'}),
-#                 html.P("Visualize the upregulated and downregulated genes on the network.", style={'color': '#CCCCCC', 'textAlign': 'center'})
-#             ], style={'padding': '20px', 'width': '30%', 'display': 'inline-block', 'verticalAlign': 'top'}),
-#         ], style={'textAlign': 'center'})
-#     ], style={'backgroundColor': '#2D2D2D', 'padding': '50px 20px'}),
-# ], style={'backgroundColor': '#1A1A1A', 'height': '100vh'})
 
 def make_stat_row(label, value, highlight=False):
     return html.Div([
@@ -118,6 +69,61 @@ def make_feature_card(icon, icon_color, title, text):
             'border': '1px solid #374152'
         }
     )
+    
+    
+# -------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+# --------------------------------------------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+home_flowchart = html.Div(
+    [
+        html.Div(
+            "NETWORK COMPLEXITY",
+            className="home-grpah-header",
+        ),
+        cyto.Cytoscape(
+            id="homepage-flowchart",
+            zoomingEnabled=False,
+            userZoomingEnabled=False,
+            panningEnabled=False,
+            userPanningEnabled=False,
+            # boxSelectionEnabled=False,
+            autounselectify = True,
+            style={
+                "minWidth": "700px", 
+                # "width": "100%",
+                "width": "700px",
+                "height": "475px",
+                "backgroundColor": "#0f0f0f",
+                "margin": "0 auto",
+                # "border":"1px",
+                # "borderColor":"white"
+                # "border": "2px solid #4ca9ff",
+                
+            },
+            layout={"name": "preset"},  # preset requires manual (x,y)
+            elements = new_elements,
+            stylesheet= home_page_new_cytoscape_stylesheet
+        ),
+],
+    style={
+        "display" : "flex",
+        "flexDirection" : "column",
+        "padding" : "50px",
+        "width": "100%",
+        "overflowX": "auto",  
+        # "display": "flex",
+        "justifyContent": "center",
+        "alignItems" : "center",
+        "backgroundColor": "#0f0f0f"
+    }
+)
+    
+
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 # ---------- HERO + NETWORK PREVIEW (side-by-side, responsive) ----------
@@ -252,83 +258,11 @@ layout = html.Div([
         "padding": "40px 20px 0px 20px",
     }),
     
-    html.Div([
-
-        # =========================================================
-        # TABLE CARD 1 — NETWORK SUMMARY
-        # =========================================================
-        html.Div([
-            html.Div([
-                html.I(className="fa-solid fa-network-wired",
-                       style={"marginRight": "8px", "color": "#4da6ff"}),
-                html.Span("Network Summary",
-                          style={"fontWeight": "600", "fontSize": "16px"})
-            ], style={
-                # "display": "flex",
-                # "alignItems": "center",
-                # "marginBottom": "12px"
-            }, className="table-header-gradient background1"),
-
-            html.Div([
-                make_stat_row("Total Nodes", "12,847"),
-                make_stat_row("Total Edges", "45,293"),
-                make_stat_row("Network Density", "0.548", highlight=True),
-                make_stat_row("Avg. Degree", "7.05"),
-                make_stat_row("Clustering Coefficient", "0.421", highlight=True)
-            ],style= {"padding" : "20px"})
-        ],
-        style={
-            "backgroundColor": "#202020",
-            # "padding": "20px",
-            "borderRadius": "12px",
-            "boxShadow": "0px 4px 20px rgba(0,0,0,0.35)",
-            "width": "450px",
-            "color": "white",
-            'borderBottom': '2px solid #374152'
-        }),
-
-        # =========================================================
-        # TABLE CARD 2 — CATEGORY SUMMARY
-        # =========================================================
-        html.Div([
-            html.Div([
-                html.I(className="fa-solid fa-flask",
-                       style={"marginRight": "8px", "color": "#c57bff"}),
-                html.Span("Biological Category Summary",
-                          style={"fontWeight": "600", "fontSize": "16px"})
-            ], style={
-                # "display": "flex",
-                # "alignItems": "center",
-                # "marginBottom": "12px"
-            },className="table-header-gradient background2"),
-
-            html.Div([
-                make_stat_row("Metabolic Pathways", "3,421"),
-                make_stat_row("Protein Interactions", "5,847"),
-                make_stat_row("Gene Regulatory", "2,156", highlight=True),
-                make_stat_row("Signal Transduction", "1,423"),
-                make_stat_row("Total Categories", "12,847", highlight=True)
-            ],style= {"padding" : "20px"})
-        ],
-        style={
-            "backgroundColor": "#202020",
-            "borderRadius": "12px",
-            "boxShadow": "0px 4px 20px rgba(0,0,0,0.35)",
-            "width": "450px",
-            "color": "white",
-            'borderBottom': '2px solid #374152'
-        }),
-
-    ],
-    style={
-        "display": "flex",
-        "justifyContent": "center",
-        "marginTop": "40px",
-        "padding": "0px 52px 40px 52px",
-        "fontSize": "15px",
-        "flexWrap": "wrap",
-        "gap" : "20px",
-    }),
+    # sankey_layout,
+    
+    home_flowchart,
+    
+    
     
     html.Div([
 
@@ -398,7 +332,7 @@ layout = html.Div([
 
     ],
     style={
-        "padding": "40px 0",
+        "padding": "20px 0",
     }),
     
     
@@ -424,28 +358,4 @@ layout = html.Div([
 style={
     "backgroundColor": "#101010"
 })
-
-
-# clientside_callback(
-#     ClientsideFunction(namespace="clientside", function_name="expandSegments"),
-#     [
-#         Output("seg-li", "children"),
-#         Output("seg-me", "children"),
-#         Output("seg-n",  "children"),
-#         Output("seg-ex", "children"),
-#         Output("seg-li", "className"),
-#         Output("seg-me", "className"),
-#         Output("seg-n",  "className"),
-#         Output("seg-ex", "className"),
-#         Output("title-interval", "disabled"),   # <- NEW: disable the Interval after expansion
-#     ],
-#     Input("title-interval", "n_intervals"),
-# )
-
-# clientside_callback(
-#     ClientsideFunction(namespace="clientside", function_name="initTypedOnce"),
-#     Output("typed-trigger", "children"),
-#     Input("url", "pathname"),   # fires on initial load / navigation
-# )
-
 

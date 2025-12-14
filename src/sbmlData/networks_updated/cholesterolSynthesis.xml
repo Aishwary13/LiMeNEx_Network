@@ -990,7 +990,7 @@
 <celldesigner:listOfLayers>
 <celldesigner:layer id="1" name="Layer0001" locked="false" visible="true">
 <celldesigner:listOfTexts>
-<celldesigner:layerSpeciesAlias targetType="species" targetId="sa1" x="450.0" y="1969.0">
+<celldesigner:layerSpeciesAlias targetType="species" targetId="sa1" x="450.0" y="1959.0">
 <celldesigner:layerNotes>
 lipidsubstrate
 </celldesigner:layerNotes>
@@ -1937,27 +1937,6 @@ lipidsubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s48" id="s48" name="4CCdienonol" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>4CCdienonol</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s49" id="s49" name="Zymosterone" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2000,27 +1979,6 @@ lipidsubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s51" id="s51" name="Cholesta-7,24-dien-3β-ol" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Cholesta-7,24-dien-3β-ol</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s52" id="s52" name="EBP" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2042,27 +2000,6 @@ lipidsubstrate
 <celldesigner:listOfCatalyzedReactions>
 <celldesigner:catalyzed reaction="re26"/>
 </celldesigner:listOfCatalyzedReactions>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s53" id="s53" name="Cholesta-5,7,24-trien-3β-ol" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Cholesta-5,7,24-trien-3β-ol</celldesigner:name>
-</celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
 </species>
@@ -2152,6 +2089,69 @@ lipidsubstrate
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
 <celldesigner:name>Cholesterol</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s48" id="s48" name="cis-4-decenoyl-CoA" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>cis-4-decenoyl-CoA</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s51" id="s51" name="Cholesta-7,24-dien-3b-ol" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>Cholesta-7,24-dien-3b-ol</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s53" id="s53" name="Cholesta-5,7,24-trien-3b-ol" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>Cholesta-5,7,24-trien-3b-ol</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>

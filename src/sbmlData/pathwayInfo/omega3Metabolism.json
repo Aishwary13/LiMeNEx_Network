@@ -1,467 +1,467 @@
 {
-  "nodes": {
-    "Alpha-Linolenic-Acid": {
-      "id": "s1",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Alpha-Linolenic-Acid": {
+            "id": "s1",
+            "class": "lipidMetabolite;first"
+        },
+        "Alpha-Linolenoyl-CoA": {
+            "id": "s2",
+            "class": "lipidMetabolite"
+        },
+        "ACSL1": {
+            "id": "s81",
+            "class": "enzymaticGene"
+        },
+        "Stearidonoyl-CoA": {
+            "id": "s4",
+            "class": "lipidMetabolite"
+        },
+        "FADS2": {
+            "id": "s5",
+            "class": "enzymaticGene"
+        },
+        "Eicosatetraenoyl-CoA(ETA-CoA)": {
+            "id": "s6",
+            "class": "lipidMetabolite"
+        },
+        "ELOVL1": {
+            "id": "s7",
+            "class": "enzymaticGene"
+        },
+        "ELOVL2": {
+            "id": "s8",
+            "class": "enzymaticGene"
+        },
+        "ELOVL3": {
+            "id": "s9",
+            "class": "enzymaticGene"
+        },
+        "ELOVL5": {
+            "id": "s10",
+            "class": "enzymaticGene"
+        },
+        "Eicosapentaenoyl-CoA (EPA-CoA)": {
+            "id": "s11",
+            "class": "lipidMetabolite"
+        },
+        "FADS1": {
+            "id": "s12",
+            "class": "enzymaticGene"
+        },
+        "Docosapentaenoyl-CoA(DPA-CoA)": {
+            "id": "s13",
+            "class": "lipidMetabolite"
+        },
+        "tetracosapentaenoyl-CoA(TPA-CoA)": {
+            "id": "s14",
+            "class": "lipidMetabolite"
+        },
+        "Tetracosahexaenoyl-CoA(THA-CoA)": {
+            "id": "s15",
+            "class": "lipidMetabolite"
+        },
+        "ACOX1": {
+            "id": "s17",
+            "class": "enzymaticGene"
+        },
+        "HSD17B4": {
+            "id": "s19",
+            "class": "enzymaticGene"
+        },
+        "1-3-hydroxy-tetracosahexaenoyl-CoA": {
+            "id": "s18",
+            "class": "lipidMetabolite"
+        },
+        "1-3-oxo-tetracosahexaenoyl-CoA": {
+            "id": "s20",
+            "class": "lipidMetabolite"
+        },
+        "Docosahexaenoyl-CoA": {
+            "id": "s21",
+            "class": "lipidMetabolite"
+        },
+        "SCP2": {
+            "id": "s22",
+            "class": "enzymaticGene"
+        },
+        "ACAA1": {
+            "id": "s23",
+            "class": "enzymaticGene"
+        },
+        "Linoleic-Acid": {
+            "id": "s24",
+            "class": "lipidMetabolite;first"
+        },
+        "Linoleoyl-CoA": {
+            "id": "s25",
+            "class": "lipidMetabolite"
+        },
+        "Gamma-Linolenoyl-CoA": {
+            "id": "s26",
+            "class": "lipidMetabolite"
+        },
+        "Dihomo-Gamma-Linolenoyl-CoA": {
+            "id": "s27",
+            "class": "lipidMetabolite"
+        },
+        "Arachidonoyl-CoA(AA-CoA)": {
+            "id": "s28",
+            "class": "lipidMetabolite"
+        },
+        "Docosatetraenoyl-CoA(DTA-CoA)": {
+            "id": "s29",
+            "class": "lipidMetabolite"
+        },
+        "Tetracosatetraenoyl-CoA(TTA-CoA)": {
+            "id": "s30",
+            "class": "lipidMetabolite"
+        },
+        "Delta2-tetracosaheptaenoyl(DHA-CoA)": {
+            "id": "s16",
+            "class": "lipidMetabolite"
+        }
     },
-    "Alpha-Linolenoyl-CoA": {
-      "id": "s2",
-      "class": "lipidMetabolite"
-    },
-    "ACSL1": {
-      "id": "s81",
-      "class": "enzymaticGene"
-    },
-    "Stearidonoyl-CoA": {
-      "id": "s4",
-      "class": "lipidMetabolite"
-    },
-    "FADS2": {
-      "id": "s5",
-      "class": "enzymaticGene"
-    },
-    "Eicosatetraenoyl-CoA(ETA-CoA)": {
-      "id": "s6",
-      "class": "lipidMetabolite"
-    },
-    "ELOVL1": {
-      "id": "s7",
-      "class": "enzymaticGene"
-    },
-    "ELOVL2": {
-      "id": "s8",
-      "class": "enzymaticGene"
-    },
-    "ELOVL3": {
-      "id": "s9",
-      "class": "enzymaticGene"
-    },
-    "ELOVL5": {
-      "id": "s10",
-      "class": "enzymaticGene"
-    },
-    "Eicosapentaenoyl-CoA (EPA-CoA)": {
-      "id": "s11",
-      "class": "lipidMetabolite"
-    },
-    "FADS1": {
-      "id": "s12",
-      "class": "enzymaticGene"
-    },
-    "Docosapentaenoyl-CoA(DPA-CoA)": {
-      "id": "s13",
-      "class": "lipidMetabolite"
-    },
-    "tetracosapentaenoyl-CoA(TPA-CoA)": {
-      "id": "s14",
-      "class": "lipidMetabolite"
-    },
-    "Delta2-tetracosaheptaenoyl(THA-CoA)": {
-      "id": "s16",
-      "class": "lipidMetabolite"
-    },
-    "Tetracosahexaenoyl-CoA(THA-CoA)": {
-      "id": "s15",
-      "class": "lipidMetabolite"
-    },
-    "ACOX1": {
-      "id": "s17",
-      "class": "enzymaticGene"
-    },
-    "HSD17B4": {
-      "id": "s19",
-      "class": "enzymaticGene"
-    },
-    "1-3-hydroxy-tetracosahexaenoyl-CoA": {
-      "id": "s18",
-      "class": "lipidMetabolite"
-    },
-    "1-3-oxo-tetracosahexaenoyl-CoA": {
-      "id": "s20",
-      "class": "lipidMetabolite"
-    },
-    "Docosahexaenoyl-CoA": {
-      "id": "s21",
-      "class": "lipidMetabolite"
-    },
-    "SCP2": {
-      "id": "s22",
-      "class": "enzymaticGene"
-    },
-    "ACAA1": {
-      "id": "s23",
-      "class": "enzymaticGene"
-    },
-    "Linoleic-Acid": {
-      "id": "s24",
-      "class": "lipidMetabolite;first"
-    },
-    "Linoleoyl-CoA": {
-      "id": "s25",
-      "class": "lipidMetabolite"
-    },
-    "Gamma-Linolenoyl-CoA": {
-      "id": "s26",
-      "class": "lipidMetabolite"
-    },
-    "Dihomo-Gamma-Linolenoyl-CoA": {
-      "id": "s27",
-      "class": "lipidMetabolite"
-    },
-    "Arachidonoyl-CoA(AA-CoA)": {
-      "id": "s28",
-      "class": "lipidMetabolite"
-    },
-    "Docosatetraenoyl-CoA(DTA-CoA)": {
-      "id": "s29",
-      "class": "lipidMetabolite"
-    },
-    "Tetracosatetraenoyl-CoA(TTA-CoA)": {
-      "id": "s30",
-      "class": "lipidMetabolite"
+    "reactions": {
+        "r=alpha-linolenic-acid;p=alpha-linolenoyl-coa;g=acsl1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "activation",
+            "reactantList": [
+                "Alpha-Linolenic-Acid"
+            ],
+            "productList": [
+                "Alpha-Linolenoyl-CoA"
+            ],
+            "geneList": [
+                "ACSL1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=alpha-linolenoyl-coa;p=stearidonoyl-coa;g=fads2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Alpha-Linolenoyl-CoA"
+            ],
+            "productList": [
+                "Stearidonoyl-CoA"
+            ],
+            "geneList": [
+                "FADS2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=stearidonoyl-coa;p=eicosatetraenoyl-coa(eta-coa);g=elovl1|elovl2|elovl3|elovl5": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "elongation",
+            "reactantList": [
+                "Stearidonoyl-CoA"
+            ],
+            "productList": [
+                "Eicosatetraenoyl-CoA(ETA-CoA)"
+            ],
+            "geneList": [
+                "ELOVL1",
+                "ELOVL2",
+                "ELOVL3",
+                "ELOVL5"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=eicosatetraenoyl-coa(eta-coa);p=eicosapentaenoyl-coa(epa-coa);g=fads1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Eicosatetraenoyl-CoA(ETA-CoA)"
+            ],
+            "productList": [
+                "Eicosapentaenoyl-CoA (EPA-CoA)"
+            ],
+            "geneList": [
+                "FADS1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=eicosapentaenoyl-coa(epa-coa);p=docosapentaenoyl-coa(dpa-coa);g=elovl2|elovl5": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "elongation",
+            "reactantList": [
+                "Eicosapentaenoyl-CoA (EPA-CoA)"
+            ],
+            "productList": [
+                "Docosapentaenoyl-CoA(DPA-CoA)"
+            ],
+            "geneList": [
+                "ELOVL2",
+                "ELOVL5"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=docosapentaenoyl-coa(dpa-coa);p=tetracosapentaenoyl-coa(tpa-coa);g=elovl2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "elongation",
+            "reactantList": [
+                "Docosapentaenoyl-CoA(DPA-CoA)"
+            ],
+            "productList": [
+                "tetracosapentaenoyl-CoA(TPA-CoA)"
+            ],
+            "geneList": [
+                "ELOVL2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=tetracosapentaenoyl-coa(tpa-coa);p=tetracosahexaenoyl-coa(tha-coa);g=fads2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "tetracosapentaenoyl-CoA(TPA-CoA)"
+            ],
+            "productList": [
+                "Tetracosahexaenoyl-CoA(THA-CoA)"
+            ],
+            "geneList": [
+                "FADS2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=tetracosahexaenoyl-coa(tha-coa);p=delta2-tetracosaheptaenoyl(dha-coa);g=acox1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Tetracosahexaenoyl-CoA(THA-CoA)"
+            ],
+            "productList": [
+                "Delta2-tetracosaheptaenoyl(DHA-CoA)"
+            ],
+            "geneList": [
+                "ACOX1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=delta2-tetracosaheptaenoyl(dha-coa);p=1-3-hydroxy-tetracosahexaenoyl-coa;g=hsd17b4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydration",
+            "reactantList": [
+                "Delta2-tetracosaheptaenoyl(DHA-CoA)"
+            ],
+            "productList": [
+                "1-3-hydroxy-tetracosahexaenoyl-CoA"
+            ],
+            "geneList": [
+                "HSD17B4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=1-3-hydroxy-tetracosahexaenoyl-coa;p=1-3-oxo-tetracosahexaenoyl-coa;g=hsd17b4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "1-3-hydroxy-tetracosahexaenoyl-CoA"
+            ],
+            "productList": [
+                "1-3-oxo-tetracosahexaenoyl-CoA"
+            ],
+            "geneList": [
+                "HSD17B4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=1-3-oxo-tetracosahexaenoyl-coa;p=docosahexaenoyl-coa;g=acaa1|scp2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thiolysis",
+            "reactantList": [
+                "1-3-oxo-tetracosahexaenoyl-CoA"
+            ],
+            "productList": [
+                "Docosahexaenoyl-CoA"
+            ],
+            "geneList": [
+                "SCP2",
+                "ACAA1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=linoleic-acid;p=linoleoyl-coa;g=acsl1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "activation",
+            "reactantList": [
+                "Linoleic-Acid"
+            ],
+            "productList": [
+                "Linoleoyl-CoA"
+            ],
+            "geneList": [
+                "ACSL1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=linoleoyl-coa;p=gamma-linolenoyl-coa;g=fads2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Linoleoyl-CoA"
+            ],
+            "productList": [
+                "Gamma-Linolenoyl-CoA"
+            ],
+            "geneList": [
+                "FADS2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=gamma-linolenoyl-coa;p=dihomo-gamma-linolenoyl-coa;g=elovl1|elovl2|elovl3|elovl5": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "elongation",
+            "reactantList": [
+                "Gamma-Linolenoyl-CoA"
+            ],
+            "productList": [
+                "Dihomo-Gamma-Linolenoyl-CoA"
+            ],
+            "geneList": [
+                "ELOVL1",
+                "ELOVL3",
+                "ELOVL5",
+                "ELOVL2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=dihomo-gamma-linolenoyl-coa;p=arachidonoyl-coa(aa-coa);g=fads1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Dihomo-Gamma-Linolenoyl-CoA"
+            ],
+            "productList": [
+                "Arachidonoyl-CoA(AA-CoA)"
+            ],
+            "geneList": [
+                "FADS1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=arachidonoyl-coa(aa-coa);p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "elongation",
+            "reactantList": [
+                "Arachidonoyl-CoA(AA-CoA)"
+            ],
+            "productList": [
+                "Docosatetraenoyl-CoA(DTA-CoA)"
+            ],
+            "geneList": [
+                "ELOVL2",
+                "ELOVL5"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=docosatetraenoyl-coa(dta-coa);p=tetracosatetraenoyl-coa(tta-coa);g=elovl2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "elongation",
+            "reactantList": [
+                "Docosatetraenoyl-CoA(DTA-CoA)"
+            ],
+            "productList": [
+                "Tetracosatetraenoyl-CoA(TTA-CoA)"
+            ],
+            "geneList": [
+                "ELOVL2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=tetracosatetraenoyl-coa(tta-coa);p=tetracosapentaenoyl-coa(tpa-coa);g=fads2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Tetracosatetraenoyl-CoA(TTA-CoA)"
+            ],
+            "productList": [
+                "tetracosapentaenoyl-CoA(TPA-CoA)"
+            ],
+            "geneList": [
+                "FADS2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=tetracosapentaenoyl-coa(tpa-coa);p=docosapentaenoyl-coa(dpa-coa);g=scp2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "thiolysis",
+            "reactantList": [
+                "tetracosapentaenoyl-CoA(TPA-CoA)"
+            ],
+            "productList": [
+                "Docosapentaenoyl-CoA(DPA-CoA)"
+            ],
+            "geneList": [
+                "SCP2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=alpha-linolenic-acid;p=alpha-linolenoyl-coa;g=acsl1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "activation",
-      "reactantList": [
-        "Alpha-Linolenic-Acid"
-      ],
-      "productList": [
-        "Alpha-Linolenoyl-CoA"
-      ],
-      "geneList": [
-        "ACSL1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=alpha-linolenoyl-coa;p=stearidonoyl-coa;g=fads2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Alpha-Linolenoyl-CoA"
-      ],
-      "productList": [
-        "Stearidonoyl-CoA"
-      ],
-      "geneList": [
-        "FADS2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=stearidonoyl-coa;p=eicosatetraenoyl-coa(eta-coa);g=elovl1|elovl2|elovl3|elovl5": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "elongation",
-      "reactantList": [
-        "Stearidonoyl-CoA"
-      ],
-      "productList": [
-        "Eicosatetraenoyl-CoA(ETA-CoA)"
-      ],
-      "geneList": [
-        "ELOVL1",
-        "ELOVL2",
-        "ELOVL3",
-        "ELOVL5"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=eicosatetraenoyl-coa(eta-coa);p=eicosapentaenoyl-coa(epa-coa);g=fads1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Eicosatetraenoyl-CoA(ETA-CoA)"
-      ],
-      "productList": [
-        "Eicosapentaenoyl-CoA (EPA-CoA)"
-      ],
-      "geneList": [
-        "FADS1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=eicosapentaenoyl-coa(epa-coa);p=docosapentaenoyl-coa(dpa-coa);g=elovl2|elovl5": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "elongation",
-      "reactantList": [
-        "Eicosapentaenoyl-CoA (EPA-CoA)"
-      ],
-      "productList": [
-        "Docosapentaenoyl-CoA(DPA-CoA)"
-      ],
-      "geneList": [
-        "ELOVL2",
-        "ELOVL5"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=docosapentaenoyl-coa(dpa-coa);p=tetracosapentaenoyl-coa(tpa-coa);g=elovl2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "elongation",
-      "reactantList": [
-        "Docosapentaenoyl-CoA(DPA-CoA)"
-      ],
-      "productList": [
-        "tetracosapentaenoyl-CoA(TPA-CoA)"
-      ],
-      "geneList": [
-        "ELOVL2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=tetracosapentaenoyl-coa(tpa-coa);p=tetracosahexaenoyl-coa(tha-coa);g=fads2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "tetracosapentaenoyl-CoA(TPA-CoA)"
-      ],
-      "productList": [
-        "Tetracosahexaenoyl-CoA(THA-CoA)"
-      ],
-      "geneList": [
-        "FADS2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=tetracosahexaenoyl-coa(tha-coa);p=delta2-tetracosaheptaenoyl(tha-coa);g=acox1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Tetracosahexaenoyl-CoA(THA-CoA)"
-      ],
-      "productList": [
-        "Delta2-tetracosaheptaenoyl(THA-CoA)"
-      ],
-      "geneList": [
-        "ACOX1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=delta2-tetracosaheptaenoyl(tha-coa);p=1-3-hydroxy-tetracosahexaenoyl-coa;g=hsd17b4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydration",
-      "reactantList": [
-        "Delta2-tetracosaheptaenoyl(THA-CoA)"
-      ],
-      "productList": [
-        "1-3-hydroxy-tetracosahexaenoyl-CoA"
-      ],
-      "geneList": [
-        "HSD17B4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=1-3-hydroxy-tetracosahexaenoyl-coa;p=1-3-oxo-tetracosahexaenoyl-coa;g=hsd17b4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "1-3-hydroxy-tetracosahexaenoyl-CoA"
-      ],
-      "productList": [
-        "1-3-oxo-tetracosahexaenoyl-CoA"
-      ],
-      "geneList": [
-        "HSD17B4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=1-3-oxo-tetracosahexaenoyl-coa;p=docosahexaenoyl-coa;g=scp2|acaa1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thiolysis",
-      "reactantList": [
-        "1-3-oxo-tetracosahexaenoyl-CoA"
-      ],
-      "productList": [
-        "Docosahexaenoyl-CoA"
-      ],
-      "geneList": [
-        "SCP2",
-        "ACAA1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=linoleic-acid;p=linoleoyl-coa;g=acsl1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "activation",
-      "reactantList": [
-        "Linoleic-Acid"
-      ],
-      "productList": [
-        "Linoleoyl-CoA"
-      ],
-      "geneList": [
-        "ACSL1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=linoleoyl-coa;p=gamma-linolenoyl-coa;g=fads2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Linoleoyl-CoA"
-      ],
-      "productList": [
-        "Gamma-Linolenoyl-CoA"
-      ],
-      "geneList": [
-        "FADS2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=gamma-linolenoyl-coa;p=dihomo-gamma-linolenoyl-coa;g=elovl1|elovl3|elovl5|elovl2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "elongation",
-      "reactantList": [
-        "Gamma-Linolenoyl-CoA"
-      ],
-      "productList": [
-        "Dihomo-Gamma-Linolenoyl-CoA"
-      ],
-      "geneList": [
-        "ELOVL1",
-        "ELOVL3",
-        "ELOVL5",
-        "ELOVL2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=dihomo-gamma-linolenoyl-coa;p=arachidonoyl-coa(aa-coa);g=fads1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Dihomo-Gamma-Linolenoyl-CoA"
-      ],
-      "productList": [
-        "Arachidonoyl-CoA(AA-CoA)"
-      ],
-      "geneList": [
-        "FADS1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=arachidonoyl-coa(aa-coa);p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "elongation",
-      "reactantList": [
-        "Arachidonoyl-CoA(AA-CoA)"
-      ],
-      "productList": [
-        "Docosatetraenoyl-CoA(DTA-CoA)"
-      ],
-      "geneList": [
-        "ELOVL2",
-        "ELOVL5"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=docosatetraenoyl-coa(dta-coa);p=tetracosatetraenoyl-coa(tta-coa);g=elovl2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "elongation",
-      "reactantList": [
-        "Docosatetraenoyl-CoA(DTA-CoA)"
-      ],
-      "productList": [
-        "Tetracosatetraenoyl-CoA(TTA-CoA)"
-      ],
-      "geneList": [
-        "ELOVL2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=tetracosatetraenoyl-coa(tta-coa);p=tetracosapentaenoyl-coa(tpa-coa);g=fads2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Tetracosatetraenoyl-CoA(TTA-CoA)"
-      ],
-      "productList": [
-        "tetracosapentaenoyl-CoA(TPA-CoA)"
-      ],
-      "geneList": [
-        "FADS2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=tetracosapentaenoyl-coa(tpa-coa);p=docosapentaenoyl-coa(dpa-coa);g=scp2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "thiolysis",
-      "reactantList": [
-        "tetracosapentaenoyl-CoA(TPA-CoA)"
-      ],
-      "productList": [
-        "Docosapentaenoyl-CoA(DPA-CoA)"
-      ],
-      "geneList": [
-        "SCP2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    }
-  }
 }

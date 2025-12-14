@@ -698,7 +698,7 @@
 <celldesigner:listOfLayers>
 <celldesigner:layer id="1" name="Layer0001" locked="false" visible="true">
 <celldesigner:listOfTexts>
-<celldesigner:layerSpeciesAlias targetType="species" targetId="sa1" x="314.0" y="65.0">
+<celldesigner:layerSpeciesAlias targetType="species" targetId="sa1" x="314.0" y="55.0">
 <celldesigner:layerNotes>
 lipidSubstrate
 </celldesigner:layerNotes>
@@ -1212,27 +1212,6 @@ lipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s21" id="s21" name="β-Galactosylceramide" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>β-Galactosylceramide</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s17" id="s17" name="Sphingomyelin" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -1482,6 +1461,27 @@ lipidSubstrate
 <celldesigner:listOfCatalyzedReactions>
 <celldesigner:catalyzed reaction="re14"/>
 </celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s21" id="s21" name="beta-Galactosylceramide" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>beta-Galactosylceramide</celldesigner:name>
+</celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
 </species>
@@ -2359,7 +2359,7 @@ lipidSubstrate
 <celldesigner:lineDirection arm="2" index="3" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="4" num1="1" num2="3" tShapeIndex="3">0.16961878711496858,0.05169508300457748 0.48584987617621334,-0.19833613717540466 0.5910712968657323,-0.15774641607904272 0.6484647990600152,-0.13560656820829964 0.3695699742595995,-0.06962169476662439 0.08972402589435013,0.0233896695872724 0.1684018866274597,0.1877345150750782 0.7641339327746017,0.29778481105640475 0.2057338450458559,0.24358238183565994</celldesigner:editPoints>
+<celldesigner:editPoints num0="4" num1="1" num2="3" tShapeIndex="3">0.16961878711496858,0.051695083004577924 0.4858498761762142,-0.19833613717540466 0.5910712968657332,-0.15774641607904272 0.6484647990600152,-0.13560656820829964 0.3695699742595995,-0.06962169476662439 0.08972402589435013,0.0233896695872724 0.16840188662746014,0.18773451507507843 0.7641339327746022,0.297784811056405 0.20573384504585235,0.24358238183565817</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
 <celldesigner:modification type="CATALYSIS" modifiers="s9" aliases="sa17" targetLineIndex="0,3" editPoints="0.4480458631444906,-0.4265864426658119">
@@ -2554,7 +2554,7 @@ lipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s24" aliases="sa33" targetLineIndex="-1,7" editPoints="0.5764163332534995,-0.05382950815972176">
+<celldesigner:modification type="CATALYSIS" modifiers="s24" aliases="sa33" targetLineIndex="-1,7" editPoints="0.5764163332535013,-0.05382950815972265">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>

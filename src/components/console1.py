@@ -19,6 +19,8 @@ lipids = [{'label': lipid.strip(), 'value': lipid.strip()} for lipid in sorted(l
 console1_layout = html.Div([
         # Header Section
         # near top of console1_layout children
+        dcc.Store(id="cy-elements-store",data=None,storage_type="memory"),
+        
         dcc.Download(id={'type': 'download-target-json', 'index': 'console-1'}),
         
         html.Div([

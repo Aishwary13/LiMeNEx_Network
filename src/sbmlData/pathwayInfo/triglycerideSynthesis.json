@@ -1,353 +1,353 @@
 {
-  "nodes": {
-    "Glycerol": {
-      "id": "s12",
-      "class": "nonlipidMetabolite"
+    "nodes": {
+        "Glycerol": {
+            "id": "s12",
+            "class": "nonlipidMetabolite"
+        },
+        "AGMO": {
+            "id": "s65",
+            "class": "enzymaticGene"
+        },
+        "GK": {
+            "id": "s15",
+            "class": "enzymaticGene"
+        },
+        "GK2": {
+            "id": "s16",
+            "class": "enzymaticGene"
+        },
+        "GK3": {
+            "id": "s17",
+            "class": "enzymaticGene"
+        },
+        "GPAT2": {
+            "id": "s20",
+            "class": "enzymaticGene"
+        },
+        "GPAM": {
+            "id": "s19",
+            "class": "enzymaticGene"
+        },
+        "AGPAT1": {
+            "id": "s22",
+            "class": "enzymaticGene"
+        },
+        "AGPAT3": {
+            "id": "s24",
+            "class": "enzymaticGene"
+        },
+        "AGPAT4": {
+            "id": "s25",
+            "class": "enzymaticGene"
+        },
+        "AGPAT2": {
+            "id": "s23",
+            "class": "enzymaticGene"
+        },
+        "AGPAT5": {
+            "id": "s26",
+            "class": "enzymaticGene"
+        },
+        "Acyl-dihydroxyacetone-phosphate": {
+            "id": "s27",
+            "class": "nonlipidMetabolite"
+        },
+        "Fatty-Acyl-CoA": {
+            "id": "s28",
+            "class": "lipidMetabolite"
+        },
+        "AGPS": {
+            "id": "s29",
+            "class": "enzymaticGene"
+        },
+        "GNPAT": {
+            "id": "s30",
+            "class": "enzymaticGene"
+        },
+        "GPD1": {
+            "id": "s31",
+            "class": "enzymaticGene"
+        },
+        "Diacylglycerol(DAG)": {
+            "id": "s32",
+            "class": "lipidMetabolite"
+        },
+        "LPIN1": {
+            "id": "s33",
+            "class": "enzymaticGene"
+        },
+        "LPIN2": {
+            "id": "s34",
+            "class": "enzymaticGene"
+        },
+        "PLPP1": {
+            "id": "s35",
+            "class": "enzymaticGene"
+        },
+        "Triacylglycerol": {
+            "id": "s36",
+            "class": "lipidMetabolite"
+        },
+        "DGAT1": {
+            "id": "s38",
+            "class": "enzymaticGene"
+        },
+        "DGAT2": {
+            "id": "s39",
+            "class": "enzymaticGene"
+        },
+        "MOGAT1": {
+            "id": "s40",
+            "class": "enzymaticGene"
+        },
+        "MOGAT2": {
+            "id": "s41",
+            "class": "enzymaticGene"
+        },
+        "Lysophosphatidic-acid(LPA)": {
+            "id": "s18",
+            "class": "lipidMetabolite"
+        },
+        "Phosphatidic-acid(PA)": {
+            "id": "s21",
+            "class": "lipidMetabolite"
+        },
+        "Dihydroxy-acetone-phosphate(DHAP)": {
+            "id": "s11",
+            "class": "nonlipidMetabolite;first"
+        },
+        "Monoacylglycerol": {
+            "id": "s37",
+            "class": "lipidMetabolite"
+        },
+        "Glycerol-3-phosphate(G3P)": {
+            "id": "s14",
+            "class": "nonlipidMetabolite"
+        }
     },
-    "AGMO": {
-      "id": "s65",
-      "class": "enzymaticGene"
-    },
-    "Glycerol-3-phosphate": {
-      "id": "s14",
-      "class": "nonlipidMetabolite"
-    },
-    "GK": {
-      "id": "s15",
-      "class": "enzymaticGene"
-    },
-    "GK2": {
-      "id": "s16",
-      "class": "enzymaticGene"
-    },
-    "GK3": {
-      "id": "s17",
-      "class": "enzymaticGene"
-    },
-    "GPAT2": {
-      "id": "s20",
-      "class": "enzymaticGene"
-    },
-    "GPAM": {
-      "id": "s19",
-      "class": "enzymaticGene"
-    },
-    "AGPAT1": {
-      "id": "s22",
-      "class": "enzymaticGene"
-    },
-    "AGPAT3": {
-      "id": "s24",
-      "class": "enzymaticGene"
-    },
-    "AGPAT4": {
-      "id": "s25",
-      "class": "enzymaticGene"
-    },
-    "AGPAT2": {
-      "id": "s23",
-      "class": "enzymaticGene"
-    },
-    "AGPAT5": {
-      "id": "s26",
-      "class": "enzymaticGene"
-    },
-    "Acyl-dihydroxyacetone-phosphate": {
-      "id": "s27",
-      "class": "nonlipidMetabolite"
-    },
-    "Fatty-Acyl-CoA": {
-      "id": "s28",
-      "class": "lipidMetabolite"
-    },
-    "AGPS": {
-      "id": "s29",
-      "class": "enzymaticGene"
-    },
-    "GNPAT": {
-      "id": "s30",
-      "class": "enzymaticGene"
-    },
-    "GPD1": {
-      "id": "s31",
-      "class": "enzymaticGene"
-    },
-    "Diacylglycerol(DAG)": {
-      "id": "s32",
-      "class": "lipidMetabolite"
-    },
-    "LPIN1": {
-      "id": "s33",
-      "class": "enzymaticGene"
-    },
-    "LPIN2": {
-      "id": "s34",
-      "class": "enzymaticGene"
-    },
-    "PLPP1": {
-      "id": "s35",
-      "class": "enzymaticGene"
-    },
-    "Triacylglycerol": {
-      "id": "s36",
-      "class": "lipidMetabolite"
-    },
-    "DGAT1": {
-      "id": "s38",
-      "class": "enzymaticGene"
-    },
-    "DGAT2": {
-      "id": "s39",
-      "class": "enzymaticGene"
-    },
-    "MOGAT1": {
-      "id": "s40",
-      "class": "enzymaticGene"
-    },
-    "MOGAT2": {
-      "id": "s41",
-      "class": "enzymaticGene"
-    },
-    "Lysophosphatidic-acid(LPA)": {
-      "id": "s18",
-      "class": "lipidMetabolite"
-    },
-    "Phosphatidic-acid(PA)": {
-      "id": "s21",
-      "class": "lipidMetabolite"
-    },
-    "Dihydroxy-acetone-phosphate(DHAP)": {
-      "id": "s11",
-      "class": "nonlipidMetabolite;first"
-    },
-    "Monoacylglycerol": {
-      "id": "s37",
-      "class": "lipidMetabolite"
+    "reactions": {
+        "r=dihydroxy-acetone-phosphate(dhap);p=glycerol;g=agmo": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Dihydroxy-acetone-phosphate(DHAP)"
+            ],
+            "productList": [
+                "Glycerol"
+            ],
+            "geneList": [
+                "AGMO"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=glycerol;p=glycerol-3-phosphate(g3p);g=gk|gk2|gk3": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Glycerol"
+            ],
+            "productList": [
+                "Glycerol-3-phosphate(G3P)"
+            ],
+            "geneList": [
+                "GK",
+                "GK2",
+                "GK3"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=glycerol-3-phosphate(g3p);p=lysophosphatidic-acid(lpa);g=gpat2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "acylation",
+            "reactantList": [
+                "Glycerol-3-phosphate(G3P)"
+            ],
+            "productList": [
+                "Lysophosphatidic-acid(LPA)"
+            ],
+            "geneList": [
+                "GPAT2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=lysophosphatidic-acid(lpa);p=phosphatidic-acid(pa);g=agpat1|agpat2|agpat3|agpat4|agpat5": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "acylation",
+            "reactantList": [
+                "Lysophosphatidic-acid(LPA)"
+            ],
+            "productList": [
+                "Phosphatidic-acid(PA)"
+            ],
+            "geneList": [
+                "AGPAT1",
+                "AGPAT2",
+                "AGPAT3",
+                "AGPAT4",
+                "AGPAT5"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=dihydroxy-acetone-phosphate(dhap)|fatty-acyl-coa;p=acyl-dihydroxyacetone-phosphate;g=agps|gnpat": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "acylation",
+            "reactantList": [
+                "Fatty-Acyl-CoA",
+                "Dihydroxy-acetone-phosphate(DHAP)"
+            ],
+            "productList": [
+                "Acyl-dihydroxyacetone-phosphate"
+            ],
+            "geneList": [
+                "AGPS",
+                "GNPAT"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=dihydroxy-acetone-phosphate(dhap);p=glycerol-3-phosphate(g3p);g=gpd1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Dihydroxy-acetone-phosphate(DHAP)"
+            ],
+            "productList": [
+                "Glycerol-3-phosphate(G3P)"
+            ],
+            "geneList": [
+                "GPD1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=fatty-acyl-coa;p=lysophosphatidic-acid(lpa);g=gpam": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "acylation",
+            "reactantList": [
+                "Fatty-Acyl-CoA"
+            ],
+            "productList": [
+                "Lysophosphatidic-acid(LPA)"
+            ],
+            "geneList": [
+                "GPAM"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=acyl-dihydroxyacetone-phosphate;p=lysophosphatidic-acid(lpa);g=": {
+            "reactionType": "UNKNOWN_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "unknown",
+            "reactantList": [
+                "Acyl-dihydroxyacetone-phosphate"
+            ],
+            "productList": [
+                "Lysophosphatidic-acid(LPA)"
+            ],
+            "geneList": [],
+            "geneModifierType": []
+        },
+        "r=phosphatidic-acid(pa);p=diacylglycerol(dag);g=plpp1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Phosphatidic-acid(PA)"
+            ],
+            "productList": [
+                "Diacylglycerol(DAG)"
+            ],
+            "geneList": [
+                "PLPP1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=fatty-acyl-coa|glycerol-3-phosphate(g3p);p=phosphatidic-acid(pa);g=lpin1|lpin2": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Glycerol-3-phosphate(G3P)",
+                "Fatty-Acyl-CoA"
+            ],
+            "productList": [
+                "Phosphatidic-acid(PA)"
+            ],
+            "geneList": [
+                "LPIN1",
+                "LPIN2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=diacylglycerol(dag)|fatty-acyl-coa;p=triacylglycerol;g=dgat1|dgat2": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "acylation",
+            "reactantList": [
+                "Fatty-Acyl-CoA",
+                "Diacylglycerol(DAG)"
+            ],
+            "productList": [
+                "Triacylglycerol"
+            ],
+            "geneList": [
+                "DGAT1",
+                "DGAT2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=monoacylglycerol;p=diacylglycerol(dag);g=mogat1|mogat2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "acylation",
+            "reactantList": [
+                "Monoacylglycerol"
+            ],
+            "productList": [
+                "Diacylglycerol(DAG)"
+            ],
+            "geneList": [
+                "MOGAT2",
+                "MOGAT1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=dihydroxy-acetone-phosphate(dhap);p=glycerol;g=agmo": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Dihydroxy-acetone-phosphate(DHAP)"
-      ],
-      "productList": [
-        "Glycerol"
-      ],
-      "geneList": [
-        "AGMO"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=glycerol;p=glycerol-3-phosphate;g=gk|gk2|gk3": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Glycerol"
-      ],
-      "productList": [
-        "Glycerol-3-phosphate"
-      ],
-      "geneList": [
-        "GK",
-        "GK2",
-        "GK3"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=glycerol-3-phosphate;p=lysophosphatidic-acid(lpa);g=gpat2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "acylation",
-      "reactantList": [
-        "Glycerol-3-phosphate"
-      ],
-      "productList": [
-        "Lysophosphatidic-acid(LPA)"
-      ],
-      "geneList": [
-        "GPAT2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=lysophosphatidic-acid(lpa);p=phosphatidic-acid(pa);g=agpat1|agpat2|agpat3|agpat4|agpat5": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "acylation",
-      "reactantList": [
-        "Lysophosphatidic-acid(LPA)"
-      ],
-      "productList": [
-        "Phosphatidic-acid(PA)"
-      ],
-      "geneList": [
-        "AGPAT1",
-        "AGPAT2",
-        "AGPAT3",
-        "AGPAT4",
-        "AGPAT5"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=fatty-acyl-coa|dihydroxy-acetone-phosphate(dhap);p=acyl-dihydroxyacetone-phosphate;g=agps|gnpat": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "acylation",
-      "reactantList": [
-        "Fatty-Acyl-CoA",
-        "Dihydroxy-acetone-phosphate(DHAP)"
-      ],
-      "productList": [
-        "Acyl-dihydroxyacetone-phosphate"
-      ],
-      "geneList": [
-        "AGPS",
-        "GNPAT"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=dihydroxy-acetone-phosphate(dhap);p=glycerol-3-phosphate;g=gpd1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Dihydroxy-acetone-phosphate(DHAP)"
-      ],
-      "productList": [
-        "Glycerol-3-phosphate"
-      ],
-      "geneList": [
-        "GPD1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=fatty-acyl-coa;p=lysophosphatidic-acid(lpa);g=gpam": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "acylation",
-      "reactantList": [
-        "Fatty-Acyl-CoA"
-      ],
-      "productList": [
-        "Lysophosphatidic-acid(LPA)"
-      ],
-      "geneList": [
-        "GPAM"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=acyl-dihydroxyacetone-phosphate;p=lysophosphatidic-acid(lpa);g=": {
-      "reactionType": "UNKNOWN_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "unknown",
-      "reactantList": [
-        "Acyl-dihydroxyacetone-phosphate"
-      ],
-      "productList": [
-        "Lysophosphatidic-acid(LPA)"
-      ],
-      "geneList": [],
-      "geneModifierType": []
-    },
-    "r=phosphatidic-acid(pa);p=diacylglycerol(dag);g=plpp1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Phosphatidic-acid(PA)"
-      ],
-      "productList": [
-        "Diacylglycerol(DAG)"
-      ],
-      "geneList": [
-        "PLPP1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=glycerol-3-phosphate|fatty-acyl-coa;p=phosphatidic-acid(pa);g=lpin1|lpin2": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Glycerol-3-phosphate",
-        "Fatty-Acyl-CoA"
-      ],
-      "productList": [
-        "Phosphatidic-acid(PA)"
-      ],
-      "geneList": [
-        "LPIN1",
-        "LPIN2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=fatty-acyl-coa|diacylglycerol(dag);p=triacylglycerol;g=dgat1|dgat2": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "acylation",
-      "reactantList": [
-        "Fatty-Acyl-CoA",
-        "Diacylglycerol(DAG)"
-      ],
-      "productList": [
-        "Triacylglycerol"
-      ],
-      "geneList": [
-        "DGAT1",
-        "DGAT2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=monoacylglycerol;p=diacylglycerol(dag);g=mogat2|mogat1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "acylation",
-      "reactantList": [
-        "Monoacylglycerol"
-      ],
-      "productList": [
-        "Diacylglycerol(DAG)"
-      ],
-      "geneList": [
-        "MOGAT2",
-        "MOGAT1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    }
-  }
 }

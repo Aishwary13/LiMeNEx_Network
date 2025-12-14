@@ -202,26 +202,66 @@ def return_pathway_card(pathways, lipid_list, database):
     )
     
 
+@callback(
+    Output({'type': 'cy-graph','index':'console-1'}, 'elements'),
+    Output({'type': 'cy-graph','index':'console-1'},'stylesheet'),
+    Input("cy-elements-store", "data"),
+    State({'type': 'cy-graph','index':'console-1'},'stylesheet'),
+    prevent_initial_call=True
+)
+def render_graph(data,stylesheet):
+
+    if not data:
+        return [], dash.no_update
+
+    print("Rendering graph in Cytoscape…")
+
+    # 🔴 HARD RESET: clear first
+    # elements = []
+
+    # # 🟢 FULL GRAPH: then add everything
+    # elements = data["nodes"] + data["edges"]
+
+    return data,stylesheet
+
+
+def validate_parents(nodes):
+    """
+    Validates that every node with data.parent refers to an existing node id.
+    Returns a list of errors.
+    """
+    errors = []
+
+    node_ids = {n["data"]["id"] for n in nodes}
+
+    for n in nodes:
+        parent = n["data"].get("parent")
+        if parent and parent not in node_ids:
+            errors.append(
+                f"Node '{n['data']['id']}' has missing parent '{parent}'"
+            )
+    return errors
 
 @callback(
     Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-1'},'elements'),
-    Output({'type': 'cy-graph','index':'console-1'},'stylesheet'),
+    # Output({'type': 'cy-graph','index':'console-1'},'elements'),
+    Output("cy-elements-store", "data"),
+    # Output({'type': 'cy-graph','index':'console-1'},'stylesheet'),
     Output('pathway-info-container','children'),
     Input('fetch-network-button', 'n_clicks'),
     State('lipid-dropdown', 'value'),
-    State({'type': 'cy-graph','index':'console-1'},'stylesheet'),
+    # State({'type': 'cy-graph','index':'console-1'},'stylesheet'),
     prevent_initial_call=True,
     running=[(Output("fetch-network-button", "disabled"), True, False)]
     # background=True
 )
-def fetch_network(n_clicks, selected_lipids,stylesheet):
+def fetch_network(n_clicks, selected_lipids):
     
     try :
         finalNodes, finalEdges, pathway_info_children = [], [], []
         
         if n_clicks is None or not selected_lipids:
-            return return_erorr_messgae(fetch=True,lipid=True),no_update,no_update,no_update
+            return return_erorr_messgae(fetch=True,lipid=True),no_update,no_update
         
         print(f"Selected lipids: {selected_lipids}")
         #get all pathways for selected lipids
@@ -252,12 +292,38 @@ def fetch_network(n_clicks, selected_lipids,stylesheet):
             card = return_pathway_card(pathway, lipids, database)
             pathway_info_children.append(card)
         
+        
+        #########################
+        node_ids = {n['data']['id'] for n in finalNodes}
+        for e in finalEdges:
+            if e['data']['source'] not in node_ids:
+                print("❌ Missing source node:", e['data']['source'])
+            if e['data']['target'] not in node_ids:
+                print("❌ Missing target node:", e['data']['target'])
 
-        return no_update,elements,stylesheet,pathway_info_children
+        
+        for n in finalNodes:
+            if 'parent' in n['data'] and n['data']['parent'] not in node_ids:
+                print("❌ Missing parent:", n['data']['parent'], "for", n['data']['id'])
+
+        
+        ##########################
+        
+        parent_errors = validate_parents(finalNodes)
+        if parent_errors:
+            print("❌ Parent integrity errors:")
+            for e in parent_errors:
+                print("  ", e)
+        else:
+            print("✅ All parent references are valid")
+                
+        print("Passed all the checks")
+
+        return no_update,elements,pathway_info_children
 
     except Exception as e:
         print(f"Error in fetch_network: {e}")
-        return return_erorr_messgae(),no_update, stylesheet, dash.no_update
+        return return_erorr_messgae(),no_update, dash.no_update
 
 
 @callback(

@@ -496,6 +496,20 @@
 .hero-title-wrapper > * { position: relative; z-index: 2; }
 
 
+.home-grpah-header{
+  color : white;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #0f4c75, #3282b8,#353348);
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700; 
+}
+
 /* ------------------------------------------ console1 playcards information------------------------------ */
 
 
@@ -599,3 +613,115 @@
 
 
 /* ---------------- warning css ------------------------------------- */
+
+
+
+
+/*--------------------------------------------------------- Expandable stas css---------------------------------------------------------- */
+
+
+.home-stat-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  border: 1px solid rgba(255,255,255,0.05);
+  background: #1f1f1f;
+  color: #f5f5f5;
+}
+
+.home-stat-card-header {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(90deg, #262626, #2f2f2f);
+}
+
+.home-stat-card-body {
+  padding: 1rem 1.25rem;
+}
+
+.home-stat-accordion .accordion-button {
+  background: transparent;
+  color: #f5f5f5;
+  padding: 0.5rem 0;
+}
+
+.home-stat-accordion .accordion-item {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.home-stat-nested-accordion .accordion-button {
+  font-size: 0.85rem;
+}
+
+.home-stat-accordion .accordion-button::after {
+  /* tweak the caret arrow if you like */
+}
+
+
+
+/* ---------------------------------------------------------------------------------------legend---------------------------------------------------------- */
+
+.legendContainer {
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em; /* Collapsed width */
+    /* background-color: #292929; Uniform color when collapsed */
+
+    background: linear-gradient(
+      180deg,
+      #1f2937,
+      #111827
+    );
+    border-left: 1px solid rgba(59, 130, 245, 0.5);
+    box-shadow: -2px 0 8px rgba(59, 130, 245, 0.35);
+
+    z-index: 3000;
+    display: flex;
+    flex-direction: row; /* Arrange arrow and content in a row */
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden; /* Prevent content from being visible in collapsed state */
+    /* transition: width 0.5s ease, background-color 0.4s ease; */
+    transition: width 0.45s cubic-bezier(.4,0,.2,1), background 0.35s ease, box-shadow 0.35s ease;
+    pointer-events: auto;
+}
+
+.legendContainer::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    background: transparent;
+}
+
+/* Expands the legend when hovered */
+.legendContainer:hover {
+    width: 450px; /* Expanded width */
+    background-color: #FFFFFF; /* Change background to white when expanded */
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow for a cool effect */
+}
+
+/* Arrow to indicate hover action */
+.legendArrow {
+    /* color: #FFFFFF; Arrow color */
+    color: #93c5fd; /* soft blue */
+    opacity: 0.9;
+    font-size: 1.5em; /* Arrow size */
+    transform: rotate(0deg); /* Default left-pointing arrow */
+    transition: transform 0.4s;
+    cursor: pointer;
+    margin-left: 0.25em; /* Adjust positioning */
+    margin-right: 0.25em;
+}
+
+/* Arrow flips when hovered */
+.legendContainer:hover .legendArrow {
+    transform: rotate(180deg); /* Rotate arrow to indicate collapse */
+    color: #1f2937; /* dark arrow on white bg */
+}
+

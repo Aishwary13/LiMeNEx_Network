@@ -1,1150 +1,1150 @@
 {
-  "nodes": {
-    "Cholesterol": {
-      "id": "s106",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Cholesterol": {
+            "id": "s106",
+            "class": "lipidMetabolite;first"
+        },
+        "CYP11A1": {
+            "id": "s56",
+            "class": "enzymaticGene"
+        },
+        "20a,22b-Dihydroxycholesterol": {
+            "id": "s2",
+            "class": "lipidMetabolite"
+        },
+        "Pregnenolone": {
+            "id": "s3",
+            "class": "lipidMetabolite"
+        },
+        "Isocaproaldehyde": {
+            "id": "s4",
+            "class": "nonlipidMetabolite"
+        },
+        "17a,20a-Dihydroxycholesterol": {
+            "id": "s5",
+            "class": "lipidMetabolite"
+        },
+        "20a-Hydroxycholesterol": {
+            "id": "s53",
+            "class": "lipidMetabolite"
+        },
+        "22b-Hydroxycholesterol": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "CYP17A1": {
+            "id": "s6",
+            "class": "enzymaticGene"
+        },
+        "21-Hydroxypregnenolone": {
+            "id": "s7",
+            "class": "lipidMetabolite"
+        },
+        "CYP21A2": {
+            "id": "s8",
+            "class": "enzymaticGene"
+        },
+        "11-Deoxycorticosterone": {
+            "id": "s9",
+            "class": "lipidMetabolite"
+        },
+        "7a-Hydroxypregnenolone": {
+            "id": "s11",
+            "class": "lipidMetabolite"
+        },
+        "CYP7B1": {
+            "id": "s12",
+            "class": "enzymaticGene"
+        },
+        "Progesterone": {
+            "id": "s13",
+            "class": "lipidMetabolite"
+        },
+        "17a-Hydroxypregnenolone": {
+            "id": "s14",
+            "class": "lipidMetabolite"
+        },
+        "17a-Hydroxyprogesterone": {
+            "id": "s15",
+            "class": "lipidMetabolite"
+        },
+        "17a,21-Dihydroxypregnenolone": {
+            "id": "s16",
+            "class": "lipidMetabolite"
+        },
+        "11-Deoxycortisol": {
+            "id": "s17",
+            "class": "lipidMetabolite"
+        },
+        "11b,17a,21-Trihydroxypregnenolone": {
+            "id": "s18",
+            "class": "lipidMetabolite"
+        },
+        "CYP11B1": {
+            "id": "s19",
+            "class": "enzymaticGene"
+        },
+        "CYP11B2": {
+            "id": "s20",
+            "class": "enzymaticGene"
+        },
+        "Corticosterone": {
+            "id": "s21",
+            "class": "lipidMetabolite"
+        },
+        "11beta-Hydroxyprogesterone": {
+            "id": "s22",
+            "class": "lipidMetabolite"
+        },
+        "21-Deoxycortisol": {
+            "id": "s23",
+            "class": "lipidMetabolite"
+        },
+        "Cortisol": {
+            "id": "s24",
+            "class": "lipidMetabolite"
+        },
+        "Cortisone": {
+            "id": "s25",
+            "class": "lipidMetabolite"
+        },
+        "HSD11B2": {
+            "id": "s26",
+            "class": "enzymaticGene"
+        },
+        "11-Dehydrocorticosterone": {
+            "id": "s27",
+            "class": "lipidMetabolite"
+        },
+        "18-Hydroxycorticosterone": {
+            "id": "s28",
+            "class": "lipidMetabolite"
+        },
+        "Aldosterone": {
+            "id": "s29",
+            "class": "lipidMetabolite"
+        },
+        "5b-Pregnane-3,20-dione": {
+            "id": "s30",
+            "class": "lipidMetabolite"
+        },
+        "AKR1D1": {
+            "id": "s31",
+            "class": "enzymaticGene"
+        },
+        "Pregnanolone": {
+            "id": "s32",
+            "class": "lipidMetabolite"
+        },
+        "AKR1C4": {
+            "id": "s33",
+            "class": "enzymaticGene"
+        },
+        "5a-Pregnane-3,20-dione": {
+            "id": "s34",
+            "class": "lipidMetabolite"
+        },
+        "SRD5A1": {
+            "id": "s35",
+            "class": "enzymaticGene"
+        },
+        "Allopregnanolone": {
+            "id": "s36",
+            "class": "lipidMetabolite"
+        },
+        "AKR1C2": {
+            "id": "s37",
+            "class": "enzymaticGene"
+        },
+        "Allopregnane-3a,20a-diol": {
+            "id": "s38",
+            "class": "lipidMetabolite"
+        },
+        "AKR1C1": {
+            "id": "s39",
+            "class": "enzymaticGene"
+        },
+        "Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione": {
+            "id": "s40",
+            "class": "lipidMetabolite"
+        },
+        "17a-Hydroxyallopregnanolone": {
+            "id": "s41",
+            "class": "lipidMetabolite"
+        },
+        "HSD17B6": {
+            "id": "s42",
+            "class": "enzymaticGene"
+        },
+        "Androstenedione": {
+            "id": "s44",
+            "class": "lipidMetabolite"
+        },
+        "Testosterone": {
+            "id": "s45",
+            "class": "lipidMetabolite"
+        },
+        "AKR1C8": {
+            "id": "s46",
+            "class": "enzymaticGene"
+        },
+        "AKR1C3": {
+            "id": "s47",
+            "class": "enzymaticGene"
+        },
+        "HSD17B3": {
+            "id": "s48",
+            "class": "enzymaticGene"
+        },
+        "HSD17B2": {
+            "id": "s49",
+            "class": "enzymaticGene"
+        },
+        "4-Androsten-11b-ol-3,17-dione": {
+            "id": "s50",
+            "class": "lipidMetabolite"
+        },
+        "Adrenosterone": {
+            "id": "s51",
+            "class": "lipidMetabolite"
+        },
+        "19-Hydroxyandrostenedione": {
+            "id": "s52",
+            "class": "lipidMetabolite"
+        },
+        "CYP19A1": {
+            "id": "s54",
+            "class": "enzymaticGene"
+        },
+        "19-Oxoandrostenedione": {
+            "id": "s55",
+            "class": "lipidMetabolite"
+        },
+        "Estrone": {
+            "id": "s57",
+            "class": "lipidMetabolite"
+        },
+        "Androsterone": {
+            "id": "s58",
+            "class": "lipidMetabolite"
+        },
+        "Dihydrotestosterone": {
+            "id": "s61",
+            "class": "lipidMetabolite"
+        },
+        "19-Hydroxytestosterone": {
+            "id": "s63",
+            "class": "lipidMetabolite"
+        },
+        "19-Oxotestosterone": {
+            "id": "s64",
+            "class": "lipidMetabolite"
+        },
+        "Estradiol": {
+            "id": "s65",
+            "class": "lipidMetabolite"
+        },
+        "Dehydroepiandrosterone": {
+            "id": "s66",
+            "class": "lipidMetabolite"
+        },
+        "HSD3B2": {
+            "id": "s10",
+            "class": "enzymaticGene"
+        }
     },
-    "CYP11A1": {
-      "id": "s56",
-      "class": "enzymaticGene"
-    },
-    "20a,22b-Dihydroxycholesterol": {
-      "id": "s2",
-      "class": "lipidMetabolite"
-    },
-    "Pregnenolone": {
-      "id": "s3",
-      "class": "lipidMetabolite"
-    },
-    "Isocaproaldehyde": {
-      "id": "s4",
-      "class": "nonlipidMetabolite"
-    },
-    "17a,20a-Dihydroxycholesterol": {
-      "id": "s5",
-      "class": "lipidMetabolite"
-    },
-    "20a-Hydroxycholesterol": {
-      "id": "s53",
-      "class": "lipidMetabolite"
-    },
-    "22b-Hydroxycholesterol": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "CYP17A1": {
-      "id": "s6",
-      "class": "enzymaticGene"
-    },
-    "21-Hydroxypregnenolone": {
-      "id": "s7",
-      "class": "lipidMetabolite"
-    },
-    "CYP21A2": {
-      "id": "s8",
-      "class": "enzymaticGene"
-    },
-    "11-Deoxycorticosterone": {
-      "id": "s9",
-      "class": "lipidMetabolite"
-    },
-    "7a-Hydroxypregnenolone": {
-      "id": "s11",
-      "class": "lipidMetabolite"
-    },
-    "CYP7B1": {
-      "id": "s12",
-      "class": "enzymaticGene"
-    },
-    "Progesterone": {
-      "id": "s13",
-      "class": "lipidMetabolite"
-    },
-    "17a-Hydroxypregnenolone": {
-      "id": "s14",
-      "class": "lipidMetabolite"
-    },
-    "17a-Hydroxyprogesterone": {
-      "id": "s15",
-      "class": "lipidMetabolite"
-    },
-    "17a,21-Dihydroxypregnenolone": {
-      "id": "s16",
-      "class": "lipidMetabolite"
-    },
-    "11-Deoxycortisol": {
-      "id": "s17",
-      "class": "lipidMetabolite"
-    },
-    "11b,17a,21-Trihydroxypregnenolone": {
-      "id": "s18",
-      "class": "lipidMetabolite"
-    },
-    "CYP11B1": {
-      "id": "s19",
-      "class": "enzymaticGene"
-    },
-    "CYP11B2": {
-      "id": "s20",
-      "class": "enzymaticGene"
-    },
-    "Corticosterone": {
-      "id": "s21",
-      "class": "lipidMetabolite"
-    },
-    "11beta-Hydroxyprogesterone": {
-      "id": "s22",
-      "class": "lipidMetabolite"
-    },
-    "21-Deoxycortisol": {
-      "id": "s23",
-      "class": "lipidMetabolite"
-    },
-    "Cortisol": {
-      "id": "s24",
-      "class": "lipidMetabolite"
-    },
-    "Cortisone": {
-      "id": "s25",
-      "class": "lipidMetabolite"
-    },
-    "HSD11B2": {
-      "id": "s26",
-      "class": "enzymaticGene"
-    },
-    "11-Dehydrocorticosterone": {
-      "id": "s27",
-      "class": "lipidMetabolite"
-    },
-    "18-Hydroxycorticosterone": {
-      "id": "s28",
-      "class": "lipidMetabolite"
-    },
-    "Aldosterone": {
-      "id": "s29",
-      "class": "lipidMetabolite"
-    },
-    "5b-Pregnane-3,20-dione": {
-      "id": "s30",
-      "class": "lipidMetabolite"
-    },
-    "AKR1D1": {
-      "id": "s31",
-      "class": "enzymaticGene"
-    },
-    "Pregnanolone": {
-      "id": "s32",
-      "class": "lipidMetabolite"
-    },
-    "AKR1C4": {
-      "id": "s33",
-      "class": "enzymaticGene"
-    },
-    "5a-Pregnane-3,20-dione": {
-      "id": "s34",
-      "class": "lipidMetabolite"
-    },
-    "SRD5A1": {
-      "id": "s35",
-      "class": "enzymaticGene"
-    },
-    "Allopregnanolone": {
-      "id": "s36",
-      "class": "lipidMetabolite"
-    },
-    "AKR1C2": {
-      "id": "s37",
-      "class": "enzymaticGene"
-    },
-    "Allopregnane-3a,20a-diol": {
-      "id": "s38",
-      "class": "lipidMetabolite"
-    },
-    "AKR1C1": {
-      "id": "s39",
-      "class": "enzymaticGene"
-    },
-    "Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione": {
-      "id": "s40",
-      "class": "lipidMetabolite"
-    },
-    "17a-Hydroxyallopregnanolone": {
-      "id": "s41",
-      "class": "lipidMetabolite"
-    },
-    "HSD17B6": {
-      "id": "s42",
-      "class": "enzymaticGene"
-    },
-    "Androstenedione": {
-      "id": "s44",
-      "class": "lipidMetabolite"
-    },
-    "Testosterone": {
-      "id": "s45",
-      "class": "lipidMetabolite"
-    },
-    "AKR1C8": {
-      "id": "s46",
-      "class": "enzymaticGene"
-    },
-    "AKR1C3": {
-      "id": "s47",
-      "class": "enzymaticGene"
-    },
-    "HSD17B3": {
-      "id": "s48",
-      "class": "enzymaticGene"
-    },
-    "HSD17B2": {
-      "id": "s49",
-      "class": "enzymaticGene"
-    },
-    "4-Androsten-11b-ol-3,17-dione": {
-      "id": "s50",
-      "class": "lipidMetabolite"
-    },
-    "Adrenosterone": {
-      "id": "s51",
-      "class": "lipidMetabolite"
-    },
-    "19-Hydroxyandrostenedione": {
-      "id": "s52",
-      "class": "lipidMetabolite"
-    },
-    "CYP19A1": {
-      "id": "s54",
-      "class": "enzymaticGene"
-    },
-    "19-Oxoandrostenedione": {
-      "id": "s55",
-      "class": "lipidMetabolite"
-    },
-    "Estrone": {
-      "id": "s57",
-      "class": "lipidMetabolite"
-    },
-    "Androsterone": {
-      "id": "s58",
-      "class": "lipidMetabolite"
-    },
-    "Dihydrotestosterone": {
-      "id": "s61",
-      "class": "lipidMetabolite"
-    },
-    "19-Hydroxytestosterone": {
-      "id": "s63",
-      "class": "lipidMetabolite"
-    },
-    "19-Oxotestosterone": {
-      "id": "s64",
-      "class": "lipidMetabolite"
-    },
-    "Estradiol": {
-      "id": "s65",
-      "class": "lipidMetabolite"
-    },
-    "Dehydroepiandrosterone": {
-      "id": "s66",
-      "class": "lipidMetabolite"
-    },
-    "HSD3B2": {
-      "id": "s10",
-      "class": "enzymaticGene"
+    "reactions": {
+        "r=cholesterol;p=20a-hydroxycholesterol;g=cyp11a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Cholesterol"
+            ],
+            "productList": [
+                "20a-Hydroxycholesterol"
+            ],
+            "geneList": [
+                "CYP11A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=cholesterol;p=22b-hydroxycholesterol;g=cyp11a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Cholesterol"
+            ],
+            "productList": [
+                "22b-Hydroxycholesterol"
+            ],
+            "geneList": [
+                "CYP11A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=20a-hydroxycholesterol|22b-hydroxycholesterol;p=20a,22b-dihydroxycholesterol;g=cyp11a1": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "22b-Hydroxycholesterol",
+                "20a-Hydroxycholesterol"
+            ],
+            "productList": [
+                "20a,22b-Dihydroxycholesterol"
+            ],
+            "geneList": [
+                "CYP11A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=20a,22b-dihydroxycholesterol;p=pregnenolone;g=cyp11a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "20a,22b-Dihydroxycholesterol"
+            ],
+            "productList": [
+                "Pregnenolone"
+            ],
+            "geneList": [
+                "CYP11A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pregnenolone;p=isocaproaldehyde;g=cyp11a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Pregnenolone"
+            ],
+            "productList": [
+                "Isocaproaldehyde"
+            ],
+            "geneList": [
+                "CYP11A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=20a-hydroxycholesterol;p=17a,20a-dihydroxycholesterol;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "20a-Hydroxycholesterol"
+            ],
+            "productList": [
+                "17a,20a-Dihydroxycholesterol"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=17a,20a-dihydroxycholesterol;p=isocaproaldehyde;g=cyp11a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "17a,20a-Dihydroxycholesterol"
+            ],
+            "productList": [
+                "Isocaproaldehyde"
+            ],
+            "geneList": [
+                "CYP11A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pregnenolone;p=21-hydroxypregnenolone;g=cyp21a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Pregnenolone"
+            ],
+            "productList": [
+                "21-Hydroxypregnenolone"
+            ],
+            "geneList": [
+                "CYP21A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=21-hydroxypregnenolone;p=11-deoxycorticosterone;g=hsd3b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "21-Hydroxypregnenolone"
+            ],
+            "productList": [
+                "11-Deoxycorticosterone"
+            ],
+            "geneList": [
+                "HSD3B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pregnenolone;p=7a-hydroxypregnenolone;g=cyp7b1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Pregnenolone"
+            ],
+            "productList": [
+                "7a-Hydroxypregnenolone"
+            ],
+            "geneList": [
+                "CYP7B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pregnenolone;p=progesterone;g=hsd3b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "Pregnenolone"
+            ],
+            "productList": [
+                "Progesterone"
+            ],
+            "geneList": [
+                "HSD3B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pregnenolone;p=17a-hydroxypregnenolone;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Pregnenolone"
+            ],
+            "productList": [
+                "17a-Hydroxypregnenolone"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=17a-hydroxypregnenolone;p=17a-hydroxyprogesterone;g=hsd3b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "17a-Hydroxypregnenolone"
+            ],
+            "productList": [
+                "17a-Hydroxyprogesterone"
+            ],
+            "geneList": [
+                "HSD3B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=17a-hydroxyprogesterone;p=17a,21-dihydroxypregnenolone;g=cyp21a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "17a-Hydroxyprogesterone"
+            ],
+            "productList": [
+                "17a,21-Dihydroxypregnenolone"
+            ],
+            "geneList": [
+                "CYP21A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=17a,21-dihydroxypregnenolone;p=11-deoxycortisol;g=hsd3b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "17a,21-Dihydroxypregnenolone"
+            ],
+            "productList": [
+                "11-Deoxycortisol"
+            ],
+            "geneList": [
+                "HSD3B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=17a,21-dihydroxypregnenolone;p=11b,17a,21-trihydroxypregnenolone;g=cyp11b1|cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "17a,21-Dihydroxypregnenolone"
+            ],
+            "productList": [
+                "11b,17a,21-Trihydroxypregnenolone"
+            ],
+            "geneList": [
+                "CYP11B2",
+                "CYP11B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=progesterone;p=11-deoxycorticosterone;g=cyp21a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Progesterone"
+            ],
+            "productList": [
+                "11-Deoxycorticosterone"
+            ],
+            "geneList": [
+                "CYP21A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=progesterone;p=17a-hydroxyprogesterone;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Progesterone"
+            ],
+            "productList": [
+                "17a-Hydroxyprogesterone"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=11-deoxycorticosterone;p=corticosterone;g=cyp11b1|cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "11-Deoxycorticosterone"
+            ],
+            "productList": [
+                "Corticosterone"
+            ],
+            "geneList": [
+                "CYP11B2",
+                "CYP11B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=progesterone;p=11beta-hydroxyprogesterone;g=cyp11b1|cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Progesterone"
+            ],
+            "productList": [
+                "11beta-Hydroxyprogesterone"
+            ],
+            "geneList": [
+                "CYP11B2",
+                "CYP11B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=17a-hydroxyprogesterone;p=21-deoxycortisol;g=cyp11b1|cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "17a-Hydroxyprogesterone"
+            ],
+            "productList": [
+                "21-Deoxycortisol"
+            ],
+            "geneList": [
+                "CYP11B2",
+                "CYP11B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=cortisol;p=21-deoxycortisol;g=cyp21a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Cortisol"
+            ],
+            "productList": [
+                "21-Deoxycortisol"
+            ],
+            "geneList": [
+                "CYP21A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=cortisol;p=cortisone;g=hsd11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "Cortisol"
+            ],
+            "productList": [
+                "Cortisone"
+            ],
+            "geneList": [
+                "HSD11B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=11-deoxycortisol;p=cortisol;g=cyp11b1|cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "11-Deoxycortisol"
+            ],
+            "productList": [
+                "Cortisol"
+            ],
+            "geneList": [
+                "CYP11B2",
+                "CYP11B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=corticosterone;p=11-dehydrocorticosterone;g=hsd11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dehydrogenation",
+            "reactantList": [
+                "Corticosterone"
+            ],
+            "productList": [
+                "11-Dehydrocorticosterone"
+            ],
+            "geneList": [
+                "HSD11B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=corticosterone;p=18-hydroxycorticosterone;g=cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Corticosterone"
+            ],
+            "productList": [
+                "18-Hydroxycorticosterone"
+            ],
+            "geneList": [
+                "CYP11B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=18-hydroxycorticosterone;p=aldosterone;g=cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "18-Hydroxycorticosterone"
+            ],
+            "productList": [
+                "Aldosterone"
+            ],
+            "geneList": [
+                "CYP11B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=11beta-hydroxyprogesterone;p=corticosterone;g=cyp21a2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "11beta-Hydroxyprogesterone"
+            ],
+            "productList": [
+                "Corticosterone"
+            ],
+            "geneList": [
+                "CYP21A2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=21-deoxycortisol;p=11beta-hydroxyprogesterone;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "21-Deoxycortisol"
+            ],
+            "productList": [
+                "11beta-Hydroxyprogesterone"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=progesterone;p=5b-pregnane-3,20-dione;g=akr1d1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Progesterone"
+            ],
+            "productList": [
+                "5b-Pregnane-3,20-dione"
+            ],
+            "geneList": [
+                "AKR1D1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5b-pregnane-3,20-dione;p=pregnanolone;g=akr1c4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "5b-Pregnane-3,20-dione"
+            ],
+            "productList": [
+                "Pregnanolone"
+            ],
+            "geneList": [
+                "AKR1C4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=pregnanolone;p=5a-pregnane-3,20-dione;g=srd5a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Pregnanolone"
+            ],
+            "productList": [
+                "5a-Pregnane-3,20-dione"
+            ],
+            "geneList": [
+                "SRD5A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5a-pregnane-3,20-dione;p=allopregnanolone;g=akr1c2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "5a-Pregnane-3,20-dione"
+            ],
+            "productList": [
+                "Allopregnanolone"
+            ],
+            "geneList": [
+                "AKR1C2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=allopregnanolone;p=allopregnane-3a,20a-diol;g=akr1c1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Allopregnanolone"
+            ],
+            "productList": [
+                "Allopregnane-3a,20a-diol"
+            ],
+            "geneList": [
+                "AKR1C1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=5a-pregnane-3,20-dione;p=allopregnane-3a,20a-diol5a-pregnan-17a-ol-3,20-dione;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "5a-Pregnane-3,20-dione"
+            ],
+            "productList": [
+                "Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=allopregnane-3a,20a-diol5a-pregnan-17a-ol-3,20-dione;p=17a-hydroxyallopregnanolone;g=hsd17b6": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione"
+            ],
+            "productList": [
+                "17a-Hydroxyallopregnanolone"
+            ],
+            "geneList": [
+                "HSD17B6"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=17a-hydroxyprogesterone;p=androstenedione;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "17a-Hydroxyprogesterone"
+            ],
+            "productList": [
+                "Androstenedione"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=androstenedione;p=testosterone;g=akr1c3|akr1c8|hsd17b2|hsd17b3": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Androstenedione"
+            ],
+            "productList": [
+                "Testosterone"
+            ],
+            "geneList": [
+                "AKR1C8",
+                "HSD17B2",
+                "AKR1C3",
+                "HSD17B3"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=androstenedione;p=4-androsten-11b-ol-3,17-dione;g=cyp11b1|cyp11b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Androstenedione"
+            ],
+            "productList": [
+                "4-Androsten-11b-ol-3,17-dione"
+            ],
+            "geneList": [
+                "CYP11B2",
+                "CYP11B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=4-androsten-11b-ol-3,17-dione;p=adrenosterone;g=cyp11b1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "4-Androsten-11b-ol-3,17-dione"
+            ],
+            "productList": [
+                "Adrenosterone"
+            ],
+            "geneList": [
+                "CYP11B1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=androstenedione;p=19-hydroxyandrostenedione;g=cyp19a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Androstenedione"
+            ],
+            "productList": [
+                "19-Hydroxyandrostenedione"
+            ],
+            "geneList": [
+                "CYP19A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=19-hydroxyandrostenedione;p=19-oxoandrostenedione;g=cyp19a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "19-Hydroxyandrostenedione"
+            ],
+            "productList": [
+                "19-Oxoandrostenedione"
+            ],
+            "geneList": [
+                "CYP19A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=19-oxoandrostenedione;p=estrone;g=cyp19a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "aromatization",
+            "reactantList": [
+                "19-Oxoandrostenedione"
+            ],
+            "productList": [
+                "Estrone"
+            ],
+            "geneList": [
+                "CYP19A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=androstenedione;p=androsterone;g=akr1c4|hsd17b2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Androstenedione"
+            ],
+            "productList": [
+                "Androsterone"
+            ],
+            "geneList": [
+                "AKR1C4",
+                "HSD17B2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=androstenedione;p=dihydrotestosterone;g=akr1c3|akr1c8": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Androstenedione"
+            ],
+            "productList": [
+                "Dihydrotestosterone"
+            ],
+            "geneList": [
+                "AKR1C3",
+                "AKR1C8"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=testosterone;p=19-hydroxytestosterone;g=cyp19a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "Testosterone"
+            ],
+            "productList": [
+                "19-Hydroxytestosterone"
+            ],
+            "geneList": [
+                "CYP19A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=19-hydroxytestosterone;p=19-oxotestosterone;g=cyp19a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "19-Hydroxytestosterone"
+            ],
+            "productList": [
+                "19-Oxotestosterone"
+            ],
+            "geneList": [
+                "CYP19A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=19-oxotestosterone;p=estradiol;g=cyp19a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "aromatization",
+            "reactantList": [
+                "19-Oxotestosterone"
+            ],
+            "productList": [
+                "Estradiol"
+            ],
+            "geneList": [
+                "CYP19A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=17a-hydroxypregnenolone;p=dehydroepiandrosterone;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "cleavage",
+            "reactantList": [
+                "17a-Hydroxypregnenolone"
+            ],
+            "productList": [
+                "Dehydroepiandrosterone"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=dehydroepiandrosterone;p=androstenedione;g=akr1c3|akr1c8": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Dehydroepiandrosterone"
+            ],
+            "productList": [
+                "Androstenedione"
+            ],
+            "geneList": [
+                "AKR1C3",
+                "AKR1C8"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=17a-hydroxyallopregnanolone;p=androsterone;g=cyp17a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydroxylation",
+            "reactantList": [
+                "17a-Hydroxyallopregnanolone"
+            ],
+            "productList": [
+                "Androsterone"
+            ],
+            "geneList": [
+                "CYP17A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=cholesterol;p=20a-hydroxycholesterol;g=cyp11a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Cholesterol"
-      ],
-      "productList": [
-        "20a-Hydroxycholesterol"
-      ],
-      "geneList": [
-        "CYP11A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=cholesterol;p=22b-hydroxycholesterol;g=cyp11a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Cholesterol"
-      ],
-      "productList": [
-        "22b-Hydroxycholesterol"
-      ],
-      "geneList": [
-        "CYP11A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=22b-hydroxycholesterol|20a-hydroxycholesterol;p=20a,22b-dihydroxycholesterol;g=cyp11a1": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "22b-Hydroxycholesterol",
-        "20a-Hydroxycholesterol"
-      ],
-      "productList": [
-        "20a,22b-Dihydroxycholesterol"
-      ],
-      "geneList": [
-        "CYP11A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=20a,22b-dihydroxycholesterol;p=pregnenolone;g=cyp11a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "20a,22b-Dihydroxycholesterol"
-      ],
-      "productList": [
-        "Pregnenolone"
-      ],
-      "geneList": [
-        "CYP11A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pregnenolone;p=isocaproaldehyde;g=cyp11a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Pregnenolone"
-      ],
-      "productList": [
-        "Isocaproaldehyde"
-      ],
-      "geneList": [
-        "CYP11A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=20a-hydroxycholesterol;p=17a,20a-dihydroxycholesterol;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "20a-Hydroxycholesterol"
-      ],
-      "productList": [
-        "17a,20a-Dihydroxycholesterol"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=17a,20a-dihydroxycholesterol;p=isocaproaldehyde;g=cyp11a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "17a,20a-Dihydroxycholesterol"
-      ],
-      "productList": [
-        "Isocaproaldehyde"
-      ],
-      "geneList": [
-        "CYP11A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pregnenolone;p=21-hydroxypregnenolone;g=cyp21a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Pregnenolone"
-      ],
-      "productList": [
-        "21-Hydroxypregnenolone"
-      ],
-      "geneList": [
-        "CYP21A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=21-hydroxypregnenolone;p=11-deoxycorticosterone;g=hsd3b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "21-Hydroxypregnenolone"
-      ],
-      "productList": [
-        "11-Deoxycorticosterone"
-      ],
-      "geneList": [
-        "HSD3B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pregnenolone;p=7a-hydroxypregnenolone;g=cyp7b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Pregnenolone"
-      ],
-      "productList": [
-        "7a-Hydroxypregnenolone"
-      ],
-      "geneList": [
-        "CYP7B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pregnenolone;p=progesterone;g=hsd3b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "Pregnenolone"
-      ],
-      "productList": [
-        "Progesterone"
-      ],
-      "geneList": [
-        "HSD3B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pregnenolone;p=17a-hydroxypregnenolone;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Pregnenolone"
-      ],
-      "productList": [
-        "17a-Hydroxypregnenolone"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=17a-hydroxypregnenolone;p=17a-hydroxyprogesterone;g=hsd3b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "17a-Hydroxypregnenolone"
-      ],
-      "productList": [
-        "17a-Hydroxyprogesterone"
-      ],
-      "geneList": [
-        "HSD3B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=17a-hydroxyprogesterone;p=17a,21-dihydroxypregnenolone;g=cyp21a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "17a-Hydroxyprogesterone"
-      ],
-      "productList": [
-        "17a,21-Dihydroxypregnenolone"
-      ],
-      "geneList": [
-        "CYP21A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=17a,21-dihydroxypregnenolone;p=11-deoxycortisol;g=hsd3b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "17a,21-Dihydroxypregnenolone"
-      ],
-      "productList": [
-        "11-Deoxycortisol"
-      ],
-      "geneList": [
-        "HSD3B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=17a,21-dihydroxypregnenolone;p=11b,17a,21-trihydroxypregnenolone;g=cyp11b2|cyp11b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "17a,21-Dihydroxypregnenolone"
-      ],
-      "productList": [
-        "11b,17a,21-Trihydroxypregnenolone"
-      ],
-      "geneList": [
-        "CYP11B2",
-        "CYP11B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=progesterone;p=11-deoxycorticosterone;g=cyp21a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Progesterone"
-      ],
-      "productList": [
-        "11-Deoxycorticosterone"
-      ],
-      "geneList": [
-        "CYP21A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=progesterone;p=17a-hydroxyprogesterone;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Progesterone"
-      ],
-      "productList": [
-        "17a-Hydroxyprogesterone"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=11-deoxycorticosterone;p=corticosterone;g=cyp11b2|cyp11b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "11-Deoxycorticosterone"
-      ],
-      "productList": [
-        "Corticosterone"
-      ],
-      "geneList": [
-        "CYP11B2",
-        "CYP11B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=progesterone;p=11beta-hydroxyprogesterone;g=cyp11b2|cyp11b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Progesterone"
-      ],
-      "productList": [
-        "11beta-Hydroxyprogesterone"
-      ],
-      "geneList": [
-        "CYP11B2",
-        "CYP11B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=17a-hydroxyprogesterone;p=21-deoxycortisol;g=cyp11b2|cyp11b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "17a-Hydroxyprogesterone"
-      ],
-      "productList": [
-        "21-Deoxycortisol"
-      ],
-      "geneList": [
-        "CYP11B2",
-        "CYP11B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=cortisol;p=21-deoxycortisol;g=cyp21a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Cortisol"
-      ],
-      "productList": [
-        "21-Deoxycortisol"
-      ],
-      "geneList": [
-        "CYP21A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=cortisol;p=cortisone;g=hsd11b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "Cortisol"
-      ],
-      "productList": [
-        "Cortisone"
-      ],
-      "geneList": [
-        "HSD11B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=11-deoxycortisol;p=cortisol;g=cyp11b2|cyp11b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "11-Deoxycortisol"
-      ],
-      "productList": [
-        "Cortisol"
-      ],
-      "geneList": [
-        "CYP11B2",
-        "CYP11B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=corticosterone;p=11-dehydrocorticosterone;g=hsd11b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dehydrogenation",
-      "reactantList": [
-        "Corticosterone"
-      ],
-      "productList": [
-        "11-Dehydrocorticosterone"
-      ],
-      "geneList": [
-        "HSD11B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=corticosterone;p=18-hydroxycorticosterone;g=cyp11b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Corticosterone"
-      ],
-      "productList": [
-        "18-Hydroxycorticosterone"
-      ],
-      "geneList": [
-        "CYP11B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=18-hydroxycorticosterone;p=aldosterone;g=cyp11b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "18-Hydroxycorticosterone"
-      ],
-      "productList": [
-        "Aldosterone"
-      ],
-      "geneList": [
-        "CYP11B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=11beta-hydroxyprogesterone;p=corticosterone;g=cyp21a2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "11beta-Hydroxyprogesterone"
-      ],
-      "productList": [
-        "Corticosterone"
-      ],
-      "geneList": [
-        "CYP21A2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=21-deoxycortisol;p=11beta-hydroxyprogesterone;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "21-Deoxycortisol"
-      ],
-      "productList": [
-        "11beta-Hydroxyprogesterone"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=progesterone;p=5b-pregnane-3,20-dione;g=akr1d1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Progesterone"
-      ],
-      "productList": [
-        "5b-Pregnane-3,20-dione"
-      ],
-      "geneList": [
-        "AKR1D1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5b-pregnane-3,20-dione;p=pregnanolone;g=akr1c4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "5b-Pregnane-3,20-dione"
-      ],
-      "productList": [
-        "Pregnanolone"
-      ],
-      "geneList": [
-        "AKR1C4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=pregnanolone;p=5a-pregnane-3,20-dione;g=srd5a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Pregnanolone"
-      ],
-      "productList": [
-        "5a-Pregnane-3,20-dione"
-      ],
-      "geneList": [
-        "SRD5A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5a-pregnane-3,20-dione;p=allopregnanolone;g=akr1c2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "5a-Pregnane-3,20-dione"
-      ],
-      "productList": [
-        "Allopregnanolone"
-      ],
-      "geneList": [
-        "AKR1C2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=allopregnanolone;p=allopregnane-3a,20a-diol;g=akr1c1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Allopregnanolone"
-      ],
-      "productList": [
-        "Allopregnane-3a,20a-diol"
-      ],
-      "geneList": [
-        "AKR1C1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=5a-pregnane-3,20-dione;p=allopregnane-3a,20a-diol5a-pregnan-17a-ol-3,20-dione;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "5a-Pregnane-3,20-dione"
-      ],
-      "productList": [
-        "Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=allopregnane-3a,20a-diol5a-pregnan-17a-ol-3,20-dione;p=17a-hydroxyallopregnanolone;g=hsd17b6": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione"
-      ],
-      "productList": [
-        "17a-Hydroxyallopregnanolone"
-      ],
-      "geneList": [
-        "HSD17B6"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=17a-hydroxyprogesterone;p=androstenedione;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "17a-Hydroxyprogesterone"
-      ],
-      "productList": [
-        "Androstenedione"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=androstenedione;p=testosterone;g=akr1c8|hsd17b2|akr1c3|hsd17b3": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Androstenedione"
-      ],
-      "productList": [
-        "Testosterone"
-      ],
-      "geneList": [
-        "AKR1C8",
-        "HSD17B2",
-        "AKR1C3",
-        "HSD17B3"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=androstenedione;p=4-androsten-11b-ol-3,17-dione;g=cyp11b2|cyp11b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Androstenedione"
-      ],
-      "productList": [
-        "4-Androsten-11b-ol-3,17-dione"
-      ],
-      "geneList": [
-        "CYP11B2",
-        "CYP11B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=4-androsten-11b-ol-3,17-dione;p=adrenosterone;g=cyp11b1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "4-Androsten-11b-ol-3,17-dione"
-      ],
-      "productList": [
-        "Adrenosterone"
-      ],
-      "geneList": [
-        "CYP11B1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=androstenedione;p=19-hydroxyandrostenedione;g=cyp19a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Androstenedione"
-      ],
-      "productList": [
-        "19-Hydroxyandrostenedione"
-      ],
-      "geneList": [
-        "CYP19A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=19-hydroxyandrostenedione;p=19-oxoandrostenedione;g=cyp19a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "19-Hydroxyandrostenedione"
-      ],
-      "productList": [
-        "19-Oxoandrostenedione"
-      ],
-      "geneList": [
-        "CYP19A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=19-oxoandrostenedione;p=estrone;g=cyp19a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "aromatization",
-      "reactantList": [
-        "19-Oxoandrostenedione"
-      ],
-      "productList": [
-        "Estrone"
-      ],
-      "geneList": [
-        "CYP19A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=androstenedione;p=androsterone;g=akr1c4|hsd17b2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Androstenedione"
-      ],
-      "productList": [
-        "Androsterone"
-      ],
-      "geneList": [
-        "AKR1C4",
-        "HSD17B2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=androstenedione;p=dihydrotestosterone;g=akr1c3|akr1c8": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Androstenedione"
-      ],
-      "productList": [
-        "Dihydrotestosterone"
-      ],
-      "geneList": [
-        "AKR1C3",
-        "AKR1C8"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=testosterone;p=19-hydroxytestosterone;g=cyp19a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "Testosterone"
-      ],
-      "productList": [
-        "19-Hydroxytestosterone"
-      ],
-      "geneList": [
-        "CYP19A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=19-hydroxytestosterone;p=19-oxotestosterone;g=cyp19a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "19-Hydroxytestosterone"
-      ],
-      "productList": [
-        "19-Oxotestosterone"
-      ],
-      "geneList": [
-        "CYP19A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=19-oxotestosterone;p=estradiol;g=cyp19a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "aromatization",
-      "reactantList": [
-        "19-Oxotestosterone"
-      ],
-      "productList": [
-        "Estradiol"
-      ],
-      "geneList": [
-        "CYP19A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=17a-hydroxypregnenolone;p=dehydroepiandrosterone;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "cleavage",
-      "reactantList": [
-        "17a-Hydroxypregnenolone"
-      ],
-      "productList": [
-        "Dehydroepiandrosterone"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=dehydroepiandrosterone;p=androstenedione;g=akr1c3|akr1c8": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Dehydroepiandrosterone"
-      ],
-      "productList": [
-        "Androstenedione"
-      ],
-      "geneList": [
-        "AKR1C3",
-        "AKR1C8"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=17a-hydroxyallopregnanolone;p=androsterone;g=cyp17a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydroxylation",
-      "reactantList": [
-        "17a-Hydroxyallopregnanolone"
-      ],
-      "productList": [
-        "Androsterone"
-      ],
-      "geneList": [
-        "CYP17A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    }
-  }
 }

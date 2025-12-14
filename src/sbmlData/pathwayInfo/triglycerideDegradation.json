@@ -1,93 +1,93 @@
 {
-  "nodes": {
-    "Triacylglycerol": {
-      "id": "s36",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Triacylglycerol": {
+            "id": "s36",
+            "class": "lipidMetabolite;first"
+        },
+        "Diacylglycerol(DAG)": {
+            "id": "s32",
+            "class": "lipidMetabolite"
+        },
+        "Fatty-Acids": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "LIPE": {
+            "id": "s17",
+            "class": "enzymaticGene"
+        },
+        "MGLL": {
+            "id": "s8",
+            "class": "enzymaticGene"
+        },
+        "Glycerol": {
+            "id": "s9",
+            "class": "nonlipidMetabolite"
+        },
+        "PNPLA2": {
+            "id": "s10",
+            "class": "enzymaticGene"
+        },
+        "Monoacylglycerol": {
+            "id": "s37",
+            "class": "lipidMetabolite"
+        }
     },
-    "Diacylglycerol(DAG)": {
-      "id": "s32",
-      "class": "lipidMetabolite"
-    },
-    "Fatty-Acids": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "LIPE": {
-      "id": "s17",
-      "class": "enzymaticGene"
-    },
-    "MGLL": {
-      "id": "s8",
-      "class": "enzymaticGene"
-    },
-    "Glycerol": {
-      "id": "s9",
-      "class": "nonlipidMetabolite"
-    },
-    "PNPLA2": {
-      "id": "s10",
-      "class": "enzymaticGene"
-    },
-    "Monoacylglycerol": {
-      "id": "s37",
-      "class": "lipidMetabolite"
+    "reactions": {
+        "r=triacylglycerol;p=diacylglycerol(dag)|fatty-acids;g=lipe|pnpla2": {
+            "reactionType": "DISSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Triacylglycerol"
+            ],
+            "productList": [
+                "Fatty-Acids",
+                "Diacylglycerol(DAG)"
+            ],
+            "geneList": [
+                "LIPE",
+                "PNPLA2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=diacylglycerol(dag);p=monoacylglycerol;g=mgll": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Diacylglycerol(DAG)"
+            ],
+            "productList": [
+                "Monoacylglycerol"
+            ],
+            "geneList": [
+                "MGLL"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=fatty-acids|monoacylglycerol;p=glycerol;g=mgll": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Monoacylglycerol",
+                "Fatty-Acids"
+            ],
+            "productList": [
+                "Glycerol"
+            ],
+            "geneList": [
+                "MGLL"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=triacylglycerol;p=fatty-acids|diacylglycerol(dag);g=lipe|pnpla2": {
-      "reactionType": "DISSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Triacylglycerol"
-      ],
-      "productList": [
-        "Fatty-Acids",
-        "Diacylglycerol(DAG)"
-      ],
-      "geneList": [
-        "LIPE",
-        "PNPLA2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=diacylglycerol(dag);p=monoacylglycerol;g=mgll": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Diacylglycerol(DAG)"
-      ],
-      "productList": [
-        "Monoacylglycerol"
-      ],
-      "geneList": [
-        "MGLL"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=monoacylglycerol|fatty-acids;p=glycerol;g=mgll": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Monoacylglycerol",
-        "Fatty-Acids"
-      ],
-      "productList": [
-        "Glycerol"
-      ],
-      "geneList": [
-        "MGLL"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    }
-  }
 }

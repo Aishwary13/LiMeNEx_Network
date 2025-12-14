@@ -604,7 +604,7 @@
 <celldesigner:layerNotes>
 lipidSubstrate
 </celldesigner:layerNotes>
-<celldesigner:bounds x="914.8238304093568" y="98.0" w="100.0" h="40.0"/>
+<celldesigner:bounds x="920.8238304093568" y="100.0" w="100.0" h="40.0"/>
 <celldesigner:paint color="ff000000"/>
 <celldesigner:font size="11"/>
 </celldesigner:layerSpeciesAlias>
@@ -1656,7 +1656,7 @@ lipidSubstrate
 <celldesigner:editPoints>0.3339390847160493,-0.018479125668112495 0.4739986229766928,-0.01459332821453696 0.5486970433823695,-0.012520902905963638</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s15" aliases="sa22" targetLineIndex="-1,2" editPoints="0.7867459667878682,-0.10414062512950228">
+<celldesigner:modification type="CATALYSIS" modifiers="s15" aliases="sa22" targetLineIndex="-1,2" editPoints="0.7867459667878682,-0.10414062512950184">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -1668,7 +1668,7 @@ lipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s16" aliases="sa23" targetLineIndex="-1,6" editPoints="0.904077679821103,0.08795826315109911">
+<celldesigner:modification type="CATALYSIS" modifiers="s16" aliases="sa23" targetLineIndex="-1,6" editPoints="0.9040776798211025,0.08795826315109867">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -1830,7 +1830,7 @@ lipidSubstrate
 <celldesigner:editPoints>0.5422234242335042,0.11897495041812345 0.6363194543697333,0.11354498641607957</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s18" aliases="sa26" targetLineIndex="-1,2" editPoints="0.17055604052195683,0.11411496778457664 0.7574265139203953,0.26084464134984087">
+<celldesigner:modification type="CATALYSIS" modifiers="s18" aliases="sa26" targetLineIndex="-1,2" editPoints="0.17055604052195683,0.11411496778457686 0.7574265139203953,0.26084464134984087">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -2307,7 +2307,7 @@ lipidSubstrate
 <celldesigner:editPoints num0="4" num1="1" num2="1" tShapeIndex="3">0.11561012246223878,-0.07717038418618216 0.630424797206637,0.2914656861874576 0.7081392090089798,0.23017617273682411 0.7495868953035625,0.19748843222981982 0.07658946832294422,-0.12092168433841355 0.34857392312280844,0.04289451401883326 0.2842374691411411,0.37638856051289427</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s7" aliases="sa11" targetLineIndex="0,7" editPoints="-0.06450678858881975,0.3652389979334876">
+<celldesigner:modification type="CATALYSIS" modifiers="s7" aliases="sa11" targetLineIndex="0,7" editPoints="-0.06450678858881975,0.36523899793348935">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -2467,7 +2467,7 @@ lipidSubstrate
 <celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.0533863720824127,0.2803723674090022</celldesigner:editPoints>
+<celldesigner:editPoints>0.05338637208241259,0.2803723674090022</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>

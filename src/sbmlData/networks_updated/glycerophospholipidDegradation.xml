@@ -93,7 +93,7 @@
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="198.0" height="41.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffffcccc" scheme="Color"/>
+<celldesigner:paint color="ffffcc00" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -233,7 +233,7 @@
 <celldesigner:listOfLayers>
 <celldesigner:layer id="1" name="Layer0001" locked="false" visible="true">
 <celldesigner:listOfTexts>
-<celldesigner:layerSpeciesAlias targetType="species" targetId="sa1" x="186.0" y="52.0">
+<celldesigner:layerSpeciesAlias targetType="species" targetId="sa1" x="186.0" y="42.0">
 <celldesigner:layerNotes>
 lipidSubstrate
 </celldesigner:layerNotes>
@@ -372,7 +372,7 @@ lipidSubstrate
 <title/>
 </head>
 <body>
-<customClass type="nonlipidMetabolite"/>
+<customClass type="lipidMetabolite"/>
 </body>
 </html>
 </notes>

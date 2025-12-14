@@ -3,30 +3,32 @@ import json
 from functools import lru_cache
 import networkx as nx
 from dotenv import load_dotenv
+import copy
 
 load_dotenv()
 
 root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 
-@lru_cache(maxsize=64)
+
 def load_pathway_data(pathway):
     pathway_file = os.path.join(root_dir, 'src/sbmlData/pathwayInfo', f'{pathway}.json')
     with open(pathway_file, 'r') as f:
         pathway_data = json.load(f)
     return pathway_data
 
-
 def create_nodes_and_edges(pathways,selected_lipids):
     print("Creating nodes and edges...")
     print("Pathways: ", pathways)
-    finalNodes = []
-    finalEdges = []
 
     finalReactionList = set()
-    finalLipidNodes = {}
+    currNodes = {}
+    finalEdges = []
     
     finalGeneSet = set()
     genecount = {} 
+    
+    reaction_gene_nodes = {}
+    
       
     with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
         uniprot_cache = json.load(file)
@@ -41,14 +43,20 @@ def create_nodes_and_edges(pathways,selected_lipids):
             
             if key in finalReactionList:
                 print(f"Reaction {key} already processed, only updating the parent pathway.")
-                # continue            
+                if pathway not in currNodes[key]['data']['parent']:
+                    currNodes[key]['data']['parent'].append(pathway)
+                    
+                for gene_node_id in reaction_gene_nodes.get(key, []):
+                    if pathway not in currNodes[gene_node_id]['data']['parent']:
+                        currNodes[gene_node_id]['data']['parent'].append(pathway)
+                            # continue            
             
             #create the connector node for reaction
             if key not in finalReactionList:
-                finalNodes.append({
-                    'data': {'id': key, 'label':key,'classes' : 'temp','parent': pathway},
+                currNodes[key] = {
+                    'data': {'id': key, 'label':key,'classes' : 'temp','parent': [pathway]},
                     'classes': 'temp',
-                })
+                }
             
             intersection = set(selected_lipids).intersection(value.get('reactantList',[]) + value.get('productList',[]))
             if intersection:
@@ -58,18 +66,18 @@ def create_nodes_and_edges(pathways,selected_lipids):
             
             #create node and edges for reaction
             for reactant in value.get('reactantList',[]):
-                if reactant not in finalLipidNodes:
-                    finalLipidNodes[reactant] = {
+                if reactant not in currNodes:
+                    currNodes[reactant] = {
                         'data': {'id': reactant, 'label':reactant,'classes' : nodes.get(reactant,{}).get('class', ''),'parent': [pathway]},
                         'classes': nodes.get(reactant,{}).get('class', ''),
                     }
                     
                     if reactant in selected_lipids:
-                        finalLipidNodes[reactant]['data']['classes'] += ' highlightedNode'
-                        finalLipidNodes[reactant]['classes'] += ' highlightedNode'
+                        currNodes[reactant]['data']['classes'] += ' highlightedNode'
+                        currNodes[reactant]['classes'] += ' highlightedNode'
                 else:
-                    if pathway not in finalLipidNodes[reactant]['data']['parent']:
-                        finalLipidNodes[reactant]['data']['parent'].append(pathway)
+                    if pathway not in currNodes[reactant]['data']['parent']:
+                        currNodes[reactant]['data']['parent'].append(pathway)
                 
                 if key not in finalReactionList:
                     edge = {
@@ -84,18 +92,18 @@ def create_nodes_and_edges(pathways,selected_lipids):
                 
             
             for product in value.get('productList',[]):
-                if product not in finalLipidNodes:
-                    finalLipidNodes[product] = {
+                if product not in currNodes:
+                    currNodes[product] = {
                         'data': {'id': product, 'label':product,'classes' : nodes.get(product,{}).get('class', ''),'parent': [pathway]},
                         'classes': nodes.get(product,{}).get('class', ''),
                     }
                     if product in selected_lipids:
-                        finalLipidNodes[product]['classes'] += ' highlightedNode'
-                        finalLipidNodes[product]['data']['classes'] += ' highlightedNode'
+                        currNodes[product]['classes'] += ' highlightedNode'
+                        currNodes[product]['data']['classes'] += ' highlightedNode'
                     
                 else:
-                    if pathway not in finalLipidNodes[product]['data']['parent']:
-                        finalLipidNodes[product]['data']['parent'].append(pathway)
+                    if pathway not in currNodes[product]['data']['parent']:
+                        currNodes[product]['data']['parent'].append(pathway)
                 
                 if key not in finalReactionList:
                     edge = {
@@ -108,22 +116,23 @@ def create_nodes_and_edges(pathways,selected_lipids):
                         
                     finalEdges.append(edge)            
             
-            #create gene nodes and edges for reaction
+            #create gene nodes and edges for reaction 
             if key not in finalReactionList:
+                reaction_gene_nodes[key] = []
                 for gene, modifier in zip(value.get('geneList',[]),value.get('geneModifierType',[])):
-                    if gene in finalGeneSet:
-                        genecount[gene] += 1
-                    else:
-                        finalGeneSet.add(gene)
-                        genecount[gene] = 1
+                    genecount[gene] = genecount.get(gene, 0) + 1
+                    # final_gene_id = f"{gene}_{genecount[gene]}"
+                    final_gene_id = f"{key}::gene::{gene}"
                     
-                    finalNodes.append({
-                        'data': {'id': f"{gene}_{genecount[gene]}", 'label':gene,'classes' : nodes.get(gene,{}).get('class', ''),'parent': pathway,'uniprotAcc': uniprot_cache.get(gene,'')},
+                    currNodes[final_gene_id] = {
+                        'data': {'id': final_gene_id, 'label':gene,'classes' : nodes.get(gene,{}).get('class', ''),'parent': [pathway],'uniprotAcc': uniprot_cache.get(gene,'')},
                         'classes': nodes.get(gene,{}).get('class', ''),
-                    })
+                    }
+                    
+                    reaction_gene_nodes[key].append(final_gene_id)
                     
                     edge = {
-                        'data': {'source': f"{gene}_{genecount[gene]}", 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
+                        'data': {'source': final_gene_id, 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo',''),'reactionType' : value.get('reactionType','')},
                         'classes': modifier,
                     }
                     if is_selected_lipid_in_reaction:
@@ -134,25 +143,28 @@ def create_nodes_and_edges(pathways,selected_lipids):
             
             finalReactionList.add(key)
                 
-                          
+
+    finalNodes = []
+    
     #add lipid nodes to finalNodes
     uniqueParent = set()
-    for key, value in finalLipidNodes.items():
+    for key, value in currNodes.items():
         #convert parent list to string if multiple parents
         value['data']['parent'] = "_".join(value['data']['parent'])
         uniqueParent.add(value['data']['parent'])
         finalNodes.append(value)
         
     #create parent nodes for lipids with multiple parents
+    parentNode = []
     for parent in uniqueParent:
-        finalNodes.append({
+        parentNode.append({
             'data': {'id': parent, 'label':parent,'classes' : 'pathway'},
             'classes': 'pathway',
             # 'selectable': True,
             # 'grabbable': True
         })
                 
-    return finalNodes, finalEdges
+    return parentNode+finalNodes, finalEdges
 
 
 

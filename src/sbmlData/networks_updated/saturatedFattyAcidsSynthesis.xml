@@ -922,7 +922,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa138" species="s118">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2218.2313468935695" y="6722.0" w="135.0" h="47.0"/>
+<celldesigner:bounds x="1313.2313468935695" y="5975.0" w="135.0" h="47.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -1492,26 +1492,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa173" species="s148">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="890.3749999999998" y="5431.0" w="178.0" h="53.0"/>
-<celldesigner:font size="14"/>
-<celldesigner:view state="usual"/>
-<celldesigner:usualView>
-<celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="178.0" height="53.0"/>
-<celldesigner:singleLine width="3.0"/>
-<celldesigner:paint color="ffffcc33" scheme="Color"/>
-</celldesigner:usualView>
-<celldesigner:briefView>
-<celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="3fff0000" scheme="Color"/>
-</celldesigner:briefView>
-<celldesigner:info state="empty" angle="-1.5707963267948966"/>
-</celldesigner:speciesAlias>
-<celldesigner:speciesAlias id="sa176" species="s149">
-<celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1037.6249999999998" y="5592.5" w="178.0" h="53.0"/>
+<celldesigner:bounds x="884.3749999999998" y="5640.0" w="178.0" h="53.0"/>
 <celldesigner:font size="14"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -1530,7 +1511,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa177" species="s150">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1170.3749999999998" y="5426.0" w="83.0" h="35.0"/>
+<celldesigner:bounds x="1406.3749999999998" y="5667.0" w="83.0" h="35.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -1574,7 +1555,7 @@
 <celldesigner:listOfLayers>
 <celldesigner:layer id="1" name="phosphorylation" locked="false" visible="true">
 <celldesigner:listOfTexts>
-<celldesigner:layerSpeciesAlias targetType="species" targetId="sa35" x="1633.0" y="67.0">
+<celldesigner:layerSpeciesAlias targetType="species" targetId="sa35" x="1633.0" y="57.0">
 <celldesigner:layerNotes>
 nonlipidSubstrate
 </celldesigner:layerNotes>
@@ -2492,27 +2473,6 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s108" id="s108" name="Dodecanoic Acid" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Dodecanoic Acid</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s109" id="s109" name="3-Oxo-tetradecanoyl-ACP" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -2530,27 +2490,6 @@ nonlipidSubstrate
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
 <celldesigner:name>3-Oxo-tetradecanoyl-ACP</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s113" id="s113" name="Tetradecanoic Acid" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Tetradecanoic Acid</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -2614,27 +2553,6 @@ nonlipidSubstrate
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
 <celldesigner:name>trans-hexadec-2-enoyl-ACP</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s118" id="s118" name="Palmitic-Acid" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Palmitic-Acid</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -2751,7 +2669,7 @@ nonlipidSubstrate
 <title/>
 </head>
 <body>
-<customClass type="nonlipidMetabolite"/>
+<customClass type="lipidMetabolite"/>
 </body>
 </html>
 </notes>
@@ -3034,7 +2952,7 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s131" id="s131" name="Trans-oct-2-enoyl-CoA" compartment="default" initialAmount="0">
+<species metaid="s131" id="s131" name="trans-oct-2-enoyl-CoA" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3050,7 +2968,7 @@ nonlipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Trans-oct-2-enoyl-CoA</celldesigner:name>
+<celldesigner:name>trans-oct-2-enoyl-CoA</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3076,7 +2994,7 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s133" id="s133" name="3-Oxo-decanoyl-CoA" compartment="default" initialAmount="0">
+<species metaid="s133" id="s133" name="3-Oxodecanoyl-CoA" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3092,7 +3010,7 @@ nonlipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>3-Oxo-decanoyl-CoA</celldesigner:name>
+<celldesigner:name>3-Oxodecanoyl-CoA</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3118,7 +3036,7 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s135" id="s135" name="Trans-dec-2-enoyl-CoA" compartment="default" initialAmount="0">
+<species metaid="s135" id="s135" name="trans-dec-2-enoyl-CoA" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3134,7 +3052,7 @@ nonlipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Trans-dec-2-enoyl-CoA</celldesigner:name>
+<celldesigner:name>trans-dec-2-enoyl-CoA</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3156,27 +3074,6 @@ nonlipidSubstrate
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
 <celldesigner:name>Decanoyl-CoA</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s137" id="s137" name="3-Oxo-dodecanoyl-CoA" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>3-Oxo-dodecanoyl-CoA</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3244,7 +3141,7 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s141" id="s141" name="3-Oxo-tetra-decanoyl-CoA" compartment="default" initialAmount="0">
+<species metaid="s141" id="s141" name="3-oxotetradecanoyl-CoA" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3260,7 +3157,7 @@ nonlipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>3-Oxo-tetra-decanoyl-CoA</celldesigner:name>
+<celldesigner:name>3-oxotetradecanoyl-CoA</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3370,7 +3267,7 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s147" id="s147" name="trans-hexadec-2-enoyl-CoA" compartment="default" initialAmount="0">
+<species metaid="s147" id="s147" name="trans-Hexadec-2-enoyl-CoA" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3386,7 +3283,7 @@ nonlipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>trans-hexadec-2-enoyl-CoA</celldesigner:name>
+<celldesigner:name>trans-Hexadec-2-enoyl-CoA</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3412,27 +3309,6 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s149" id="s149" name="Palmitate" compartment="default" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>
-<customClass type="lipidMetabolite"/>
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Palmitate</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s150" id="s150" name="PPT1" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -3452,8 +3328,92 @@ nonlipidSubstrate
 <celldesigner:geneReference>gn42</celldesigner:geneReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re105"/>
+<celldesigner:catalyzed reaction="re106"/>
 </celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s108" id="s108" name="dodecanoic-acid" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>dodecanoic-acid</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s113" id="s113" name="tetradecanoic-acid" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>tetradecanoic-acid</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s118" id="s118" name="palmitate" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>palmitate</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s137" id="s137" name="3-Oxododecanoyl-CoA" compartment="default" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<customClass type="lipidMetabolite"/>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>3-Oxododecanoyl-CoA</celldesigner:name>
+</celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
 </species>
@@ -3812,7 +3772,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.49162291836155614,-0.02008896277671468 0.5898665907604981,-0.0062781939512319695</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,3" editPoints="0.7553594926696641,0.4224557419595727 1.0035368630336352,0.0436764958960687">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,3" editPoints="0.7553594926696636,0.42245574195957314 1.0035368630336348,0.04367649589606937">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4031,7 +3991,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s87" aliases="sa102" targetLineIndex="-1,3" editPoints="0.11782248572063736,0.03798510692522039">
+<celldesigner:modification type="CATALYSIS" modifiers="s87" aliases="sa102" targetLineIndex="-1,3" editPoints="0.11782248572063736,0.03798510692522128">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4131,7 +4091,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,6" editPoints="0.6171523685762654,0.4553725770025212">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,6" editPoints="0.6171523685762659,0.45537257700252076">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4223,7 +4183,7 @@ nonlipidSubstrate
 <celldesigner:editPoints num0="1" num1="1" num2="2" tShapeIndex="1">0.7771048044420379,-0.3349358056951828 0.0649262089866891,0.11629661351956755 0.5368421052631582,0.0 0.621052631578948,0.0 0.15846952596201191,0.7304991042787128</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s81" aliases="sa96" targetLineIndex="2,2" editPoints="0.26413705261383935,0.35851796513285095 0.8628348911010721,0.03700392146879494 0.9092958577657302,0.049954584471849195">
+<celldesigner:modification type="CATALYSIS" modifiers="s81" aliases="sa96" targetLineIndex="2,2" editPoints="0.26413705261383935,0.3585179651328496 0.8628348911010719,0.037003921468794054 0.9092958577657302,0.04995458447184831">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4342,7 +4302,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s83" aliases="sa98" targetLineIndex="-1,7" editPoints="0.1498318681691062,-0.09913640475966923 0.7356515366209959,0.30221022167154565">
+<celldesigner:modification type="CATALYSIS" modifiers="s83" aliases="sa98" targetLineIndex="-1,7" editPoints="0.1498318681691062,-0.09913640475966923 0.7356515366209955,0.3022102216715452">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4355,7 +4315,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s84" aliases="sa99" targetLineIndex="-1,2" editPoints="0.3013993811102319,0.33750681460882603 0.9201586370664292,-0.047536947253697726">
+<celldesigner:modification type="CATALYSIS" modifiers="s84" aliases="sa99" targetLineIndex="-1,2" editPoints="0.30139938111023223,0.33750681460882603 0.9201586370664296,-0.047536947253697726">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4548,7 +4508,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.4642857142857135,3.552713678800501E-15 0.5357142857142847,3.552713678800501E-15</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,3" editPoints="0.336086060746851,-0.2817833680931702 0.7911261948795387,0.15666157463760289 0.9865936349970086,-0.013708045127849844">
+<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,3" editPoints="0.336086060746851,-0.2817833680931702 0.7911261948795387,0.15666157463760289 0.9865936349970086,-0.0137080451278494">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4562,7 +4522,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,4" editPoints="0.19875859308976074,0.3290847829034742 0.9497851440584808,-0.02949948466762531 0.9878420842689748,0.006333841415879116">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,4" editPoints="0.19875859308976085,0.32908478290347376 0.9497851440584811,-0.029499484667625753 0.9878420842689748,0.006333841415879116">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4672,7 +4632,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="2,3" editPoints="0.24609585803062262,0.5251050261088541 1.0155199353861482,0.21677913624821454 0.9537939920469632,0.01795040530449432">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="2,3" editPoints="0.24609585803062228,0.5251050261088535 1.0155199353861477,0.21677913624821366 0.953793992046963,0.017950405304493655">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4766,7 +4726,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.4983304219417697,-0.03954046878748585 0.5964354483402126,-0.041651133336515045</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,2" editPoints="0.12550921696736284,0.2690000636706269 0.9735144024144926,-0.021924388869132505">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,2" editPoints="0.12550921696736284,0.26900006367062734 0.9735144024144926,-0.02192438886913184">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4779,7 +4739,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s83" aliases="sa98" targetLineIndex="-1,3" editPoints="0.06002272486825455,-0.04407055959814299 0.8600651214505712,0.279802026962931">
+<celldesigner:modification type="CATALYSIS" modifiers="s83" aliases="sa98" targetLineIndex="-1,3" editPoints="0.06002272486825455,-0.044070559598143655 0.8600651214505712,0.27980202696293055">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4885,7 +4845,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.4714335623706738,0.08529136438730944 0.5737367438473164,0.06878335837686222</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s87" aliases="sa102" targetLineIndex="-1,5" editPoints="0.01409192180612906,-0.0020754970781347026 0.06793756495035486,-0.06324485796452972 0.8424087297375744,0.28531517477241863">
+<celldesigner:modification type="CATALYSIS" modifiers="s87" aliases="sa102" targetLineIndex="-1,5" editPoints="0.01409192180612906,-0.0020754970781347026 0.06793756495035486,-0.06324485796452972 0.8424087297375744,0.2853151747724191">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4899,7 +4859,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,7" editPoints="0.10548457263165317,0.23458724095528827 0.9676195299908186,-0.03946194516000845">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,7" editPoints="0.10548457263165306,0.23458724095528782 0.9676195299908186,-0.03946194516000889">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -5440,7 +5400,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.4642857142857153,0.0 0.5357142857142847,0.0</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,4" editPoints="0.0903615527293673,-0.11330881750618155 0.8151772845493248,0.29074709963636464 0.9914458876200862,-0.0017984008654629569">
+<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,4" editPoints="0.0903615527293673,-0.11330881750618155 0.8151772845493253,0.29074709963636486 0.9914458876200862,-0.0017984008654629569">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -5542,7 +5502,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.8496322529315932,0.26120380179668423 0.8889544297080749,0.1892736018201635 0.9075397464985433,0.16913317291776409</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s98" aliases="sa115" targetLineIndex="-1,2" editPoints="0.01919622057124304,0.004057368327426869 0.11130474051085404,-0.05602769160337895 0.5954005532785689,0.367376648582764 0.9706393676637224,-0.016423066584027812">
+<celldesigner:modification type="CATALYSIS" modifiers="s98" aliases="sa115" targetLineIndex="-1,2" editPoints="0.01919622057124304,0.004057368327426869 0.11130474051085404,-0.05602769160337895 0.5954005532785693,0.3673766485827633 0.9706393676637224,-0.016423066584027812">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -5630,7 +5590,7 @@ nonlipidSubstrate
 <celldesigner:editPoints num0="1" num1="1" num2="2" tShapeIndex="1">0.9606220805313757,0.13477490178571672 0.0366971717715483,0.09280378177651816 0.5405405405405403,3.552713678800501E-15 0.5995085995085994,3.552713678800501E-15 -0.07295072936520519,1.0064889167199578</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="2,5" editPoints="0.015395397497776506,-0.00562567106762768 0.9491297008434484,-0.012093456059597996 0.9591752562829552,5.964507168092492E-4">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="2,5" editPoints="0.015395397497776478,-0.005625671067627236 0.9491297008434484,-0.012093456059597552 0.9591752562829552,5.964507168096933E-4">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -5969,7 +5929,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,2" editPoints="0.013543617578520333,-0.0359858725805664 0.9785417840382377,-0.0860730526592065 0.9917561138510613,6.47897566662059E-4">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="-1,2" editPoints="0.013543617578520333,-0.0359858725805664 0.9785417840382377,-0.0860730526592065 0.9917561138510618,6.47897566662059E-4">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6264,7 +6224,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s84" aliases="sa99" targetLineIndex="-1,7" editPoints="0.026028948086155163,-0.12419284406951481 0.9930757405507864,-0.064026888986493">
+<celldesigner:modification type="CATALYSIS" modifiers="s84" aliases="sa99" targetLineIndex="-1,7" editPoints="0.026028948086155163,-0.12419284406951525 0.9930757405507864,-0.06402688898649345">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6463,7 +6423,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,7" editPoints="0.02439973123709216,-0.02061731490986396 0.8369288337972678,0.3419180323327945">
+<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,7" editPoints="0.02439973123709227,-0.02061731490986418 0.8369288337972678,0.3419180323327945">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6549,7 +6509,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.9855126289169389,0.06824040717370394 0.9910005737655245,0.055468042538526774</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s98" aliases="sa115" targetLineIndex="-1,3" editPoints="0.0035347643752114966,0.01511240876527864 0.0010369133738972192,0.06863534491345397 0.8740621061438991,0.34570588332830476">
+<celldesigner:modification type="CATALYSIS" modifiers="s98" aliases="sa115" targetLineIndex="-1,3" editPoints="0.0035347643752114966,0.01511240876527864 0.0010369133738969971,0.06863534491345413 0.8740621061438991,0.34570588332830476">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6649,7 +6609,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="2,7" editPoints="0.01609074468306953,-0.08595221801656705 0.9788989245196157,-0.06058400547937237">
+<celldesigner:modification type="CATALYSIS" modifiers="s77" aliases="sa91" targetLineIndex="2,7" editPoints="0.01609074468306953,-0.08595221801656705 0.9788989245196161,-0.06058400547937237">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6742,7 +6702,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.4464285714285694,0.0 0.5535714285714306,0.0</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s83" aliases="sa98" targetLineIndex="-1,7" editPoints="-0.009707194088849347,0.07214655034620598 0.8584633735237064,0.37639367792969974">
+<celldesigner:modification type="CATALYSIS" modifiers="s83" aliases="sa98" targetLineIndex="-1,7" editPoints="-0.009707194088849236,0.07214655034620587 0.8584633735237064,0.37639367792969974">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6841,7 +6801,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.4464285714285694,0.0 0.5535714285714235,0.0</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s87" aliases="sa102" targetLineIndex="-1,3" editPoints="0.001304496130135946,0.008810503506161249 -0.014566340703335845,0.07980105996171294 0.8589280055626458,0.3822586673754295">
+<celldesigner:modification type="CATALYSIS" modifiers="s87" aliases="sa102" targetLineIndex="-1,3" editPoints="0.0013044961301358904,0.008810503506161305 -0.014566340703335845,0.07980105996171294 0.8589280055626458,0.3822586673754295">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6930,7 +6890,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.4464285714285694,0.0 0.5535714285714235,0.0</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,6" editPoints="0.017463178613045693,-0.01026785936607022 0.8476489317174547,0.34193704079443105">
+<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,6" editPoints="0.017463178613045804,-0.010267859366070331 0.8476489317174547,0.34193704079443105">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -7026,10 +6986,10 @@ nonlipidSubstrate
 <celldesigner:lineDirection index="2" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.9967744685575415,0.02825239473366814 0.9985047266385749,0.022856541238188477</celldesigner:editPoints>
+<celldesigner:editPoints>0.6744592487365864,-0.15834361576733658 0.6746614118521876,-0.16227526764183642</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,3" editPoints="0.0013540575532875188,0.3519457201422884 0.9781546436191885,0.38758228154379454">
+<celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,3" editPoints="0.0013540575532875188,0.3519457201422888 0.9781546436191888,0.38758228154379504">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -7612,7 +7572,7 @@ nonlipidSubstrate
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s125" aliases="sa149" targetLineIndex="-1,6" editPoints="0.11291079221733513,-0.1372759458466115 0.8960626512110847,0.09948491558928241 0.9727404402897717,-0.00934640135525655">
+<celldesigner:modification type="CATALYSIS" modifiers="s125" aliases="sa149" targetLineIndex="-1,6" editPoints="0.11291079221733513,-0.1372759458466115 0.8960626512110847,0.09948491558928241 0.9727404402897717,-0.009346401355256106">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -7699,7 +7659,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.44770283312466574,0.01632481011182385 0.5562749816255472,0.034635734850233746</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,3" editPoints="0.20677242826258047,-0.22229681703927046 0.8835211193178314,0.1288317744409852">
+<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,3" editPoints="0.20677242826258047,-0.22229681703927057 0.8835211193178314,0.1288317744409852">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -7971,7 +7931,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.3045619482510702,0.029617628829003095 0.4877116641696819,0.021817566274799916 0.5514159131848508,0.0191045010385551</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s124" aliases="sa148" targetLineIndex="-1,7" editPoints="0.02655707287799222,-0.037582843576781544 0.92628440450796,-0.1703296844291271 0.9739538690367352,-0.0012764119473396285">
+<celldesigner:modification type="CATALYSIS" modifiers="s124" aliases="sa148" targetLineIndex="-1,7" editPoints="0.026557072877992166,-0.037582843576781544 0.92628440450796,-0.1703296844291271 0.9739538690367345,-0.0012764119473396285">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -8071,7 +8031,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.48621838775808257,-0.059080458988756135 0.5843277791855002,-0.027532359467649314</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,7" editPoints="0.0549548318909886,-0.03817943735814147 0.88997512832616,0.24276483928100132">
+<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,7" editPoints="0.05495483189098871,-0.0381794373581415 0.8899751283261604,0.24276483928100132">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -8236,7 +8196,7 @@ nonlipidSubstrate
 <celldesigner:editPoints num0="2" num1="0" num2="2" tShapeIndex="1">0.04025280760362837,0.14483494420559728 0.9752833462008964,0.0014007109748073177 0.45480225988700695,0.0 0.5225988700564983,0.0 0.7472915912084019,0.2575254933393012</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s121" aliases="sa146" targetLineIndex="2,3" editPoints="0.03459792260809724,-0.028691856477407768 0.8935695488376255,0.20607314783636532">
+<celldesigner:modification type="CATALYSIS" modifiers="s121" aliases="sa146" targetLineIndex="2,3" editPoints="0.03459792260809724,-0.028691856477407768 0.8935695488376257,0.20607314783636524">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -8424,7 +8384,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.3344329541235602,-0.05906895841168058 0.489601210589683,-0.04933312127618894 0.5574831204484596,-0.027765165164178818</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,4" editPoints="0.01935019975438257,0.03771950911929539 0.9166190271833656,0.24571916614759604 0.9885017115750303,0.0013631413149148702">
+<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,4" editPoints="0.01935019975438257,0.03771950911929539 0.9166190271833656,0.2457191661475961 0.9885017115750303,0.0013631413149148702">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -8590,7 +8550,7 @@ nonlipidSubstrate
 <celldesigner:editPoints num0="2" num1="0" num2="2" tShapeIndex="1">0.05586791089183707,0.1774391128799504 0.9714652530908322,-0.03434553510135396 0.45480225988700695,0.0 0.5225988700564983,0.0 0.7295749588083957,0.2730673961070451</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s121" aliases="sa146" targetLineIndex="2,3" editPoints="0.014696593989769566,0.013866669892558803 0.9227761979670119,0.19724399433167633">
+<celldesigner:modification type="CATALYSIS" modifiers="s121" aliases="sa146" targetLineIndex="2,3" editPoints="0.014696593989769538,0.013866669892558761 0.9227761979670119,0.19724399433167633">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -8697,7 +8657,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.30598732334282985,-0.0518895966659052 0.48897863757736815,-0.042414656648575466 0.551803882527004,-0.023206737143892653</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s125" aliases="sa149" targetLineIndex="-1,3" editPoints="0.009459263625845787,0.1014424478410886 0.9539460937088968,0.2084241252684993 0.9890306274943403,-0.0013445310249621811">
+<celldesigner:modification type="CATALYSIS" modifiers="s125" aliases="sa149" targetLineIndex="-1,3" editPoints="0.009459263625845787,0.10144244784108863 0.9539460937088968,0.2084241252684993 0.9890306274943399,-0.0013445310249621811">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -9050,7 +9010,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.3513406156910541,-0.09613805933144937 0.5226607308060878,-0.07474261886129696 0.5803898629791249,-0.05240332520950286</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s125" aliases="sa149" targetLineIndex="-1,6" editPoints="0.007312198982184187,0.1236668076207233 0.9685665371972401,0.1959300053879683 0.9923026594303297,-3.8682357798799916E-4">
+<celldesigner:modification type="CATALYSIS" modifiers="s125" aliases="sa149" targetLineIndex="-1,6" editPoints="0.0073121989821841316,0.12366680762072331 0.9685665371972401,0.1959300053879683 0.9923026594303297,-3.8682357798799916E-4">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -9131,7 +9091,7 @@ nonlipidSubstrate
 <celldesigner:editPoints>0.33793808257689406,-0.05973287927281623 0.4922950293715651,-0.04982152668676454 0.559796855437412,-0.028265709226888536</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,6" editPoints="0.008546075327860725,0.09387611576022803 0.9644551664522615,0.19481359145815907 0.9940223083586631,-4.3997309977020227E-4">
+<celldesigner:modification type="CATALYSIS" modifiers="s127" aliases="sa151" targetLineIndex="-1,6" editPoints="0.008546075327860753,0.093876115760228 0.9644551664522615,0.19481359145815907 0.9940223083586631,-4.3997309977020227E-4">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -9208,7 +9168,7 @@ nonlipidSubstrate
 <celldesigner:lineDirection index="2" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.3640208244208658,-0.11504770258693497 0.4254555897817518,-0.166947905736766</celldesigner:editPoints>
+<celldesigner:editPoints>0.16519809813918762,-0.00978108745612527 0.19652050686244138,-0.025085548435781924</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
 <celldesigner:modification type="CATALYSIS" modifiers="s88" aliases="sa105" targetLineIndex="-1,3" editPoints="0.01956846205512086,0.013762767837466605 0.9436881944254594,-0.19899131857905256">
@@ -9255,7 +9215,7 @@ nonlipidSubstrate
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re105" id="re105" reversible="false">
+<reaction metaid="re106" id="re106" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -9263,6 +9223,7 @@ nonlipidSubstrate
 </head>
 <body>
 <customInfo info="transesterification"/>
+<customSource source="KEGG"/>
 </body>
 </html>
 </notes>
@@ -9275,29 +9236,25 @@ nonlipidSubstrate
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s149" alias="sa176">
-<celldesigner:linkAnchor position="N"/>
+<celldesigner:baseProduct species="s118" alias="sa138">
+<celldesigner:linkAnchor position="NW"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
-<celldesigner:lineDirection index="1" value="unknown"/>
-<celldesigner:lineDirection index="2" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.5585867784492251,-0.2058545614325631 0.6440335713812146,-0.1853822190773151</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s150" aliases="sa177" targetLineIndex="-1,6" editPoints="0.11663406051823344,-0.16565937484364923">
+<celldesigner:modification type="CATALYSIS" modifiers="s150" aliases="sa177" targetLineIndex="-1,2">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
-<celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
 <celldesigner:linkTarget species="s150" alias="sa177">
-<celldesigner:linkAnchor position="S"/>
+<celldesigner:linkAnchor position="SW"/>
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
@@ -9305,7 +9262,7 @@ nonlipidSubstrate
 </celldesigner:extension>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00288" species="s148">
+<speciesReference metaid="CDMT00006" species="s148">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa173</celldesigner:alias>
@@ -9314,16 +9271,16 @@ nonlipidSubstrate
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00289" species="s149">
+<speciesReference metaid="CDMT00007" species="s118">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>sa176</celldesigner:alias>
+<celldesigner:alias>sa138</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00290" species="s150">
+<modifierSpeciesReference metaid="CDMT00008" species="s150">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa177</celldesigner:alias>

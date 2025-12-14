@@ -1,392 +1,392 @@
 {
-  "nodes": {
-    "Ganglioside(GM1)": {
-      "id": "s28",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "Ganglioside(GM1)": {
+            "id": "s28",
+            "class": "lipidMetabolite;first"
+        },
+        "Ganglioside(GM2)": {
+            "id": "s25",
+            "class": "lipidMetabolite"
+        },
+        "GLB1": {
+            "id": "s81",
+            "class": "enzymaticGene"
+        },
+        "Ganglioside(GM3)": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "N-acetylgalactosamine(GalNAc)": {
+            "id": "s50",
+            "class": "nonlipidMetabolite"
+        },
+        "HEXA": {
+            "id": "s2",
+            "class": "enzymaticGene"
+        },
+        "Lactosylceramide(LacCer)": {
+            "id": "s3",
+            "class": "lipidMetabolite"
+        },
+        "NEU1": {
+            "id": "s4",
+            "class": "enzymaticGene"
+        },
+        "NEU4": {
+            "id": "s5",
+            "class": "enzymaticGene"
+        },
+        "Globotetraosylceramide": {
+            "id": "s6",
+            "class": "lipidMetabolite"
+        },
+        "Globotriaosylceramide": {
+            "id": "s7",
+            "class": "lipidMetabolite"
+        },
+        "Galactose": {
+            "id": "s8",
+            "class": "nonlipidMetabolite"
+        },
+        "GLA": {
+            "id": "s9",
+            "class": "enzymaticGene"
+        },
+        "Sulfated-Glycosphingolipid(SM2)": {
+            "id": "s10",
+            "class": "lipidMetabolite"
+        },
+        "Sulfated-Glycosphingolipid(SM3)": {
+            "id": "s11",
+            "class": "lipidMetabolite"
+        },
+        "ARSA": {
+            "id": "s12",
+            "class": "enzymaticGene"
+        },
+        "Galactocerebroside-(GalCer)": {
+            "id": "s14",
+            "class": "lipidMetabolite"
+        },
+        "GALC": {
+            "id": "s16",
+            "class": "enzymaticGene"
+        },
+        "Phosphocholine": {
+            "id": "s18",
+            "class": "nonlipidMetabolite"
+        },
+        "SMPD1": {
+            "id": "s19",
+            "class": "enzymaticGene"
+        },
+        "Digalactosylceramide(Gal2Cer)": {
+            "id": "s20",
+            "class": "lipidMetabolite"
+        },
+        "Sphingomyelin": {
+            "id": "s17",
+            "class": "lipidMetabolite"
+        },
+        "Ceramide": {
+            "id": "s15",
+            "class": "lipidMetabolite"
+        },
+        "SMPD2": {
+            "id": "s23",
+            "class": "enzymaticGene"
+        },
+        "SMPD3": {
+            "id": "s24",
+            "class": "enzymaticGene"
+        },
+        "GBA2": {
+            "id": "s26",
+            "class": "enzymaticGene"
+        },
+        "Sphingosine": {
+            "id": "s27",
+            "class": "lipidMetabolite"
+        },
+        "Free-Fatty-acid(FFA)": {
+            "id": "s29",
+            "class": "lipidMetabolite"
+        },
+        "ASAH1": {
+            "id": "s30",
+            "class": "enzymaticGene"
+        },
+        "ASAH2": {
+            "id": "s31",
+            "class": "enzymaticGene"
+        },
+        "ENPP7": {
+            "id": "s32",
+            "class": "enzymaticGene"
+        },
+        "GBA": {
+            "id": "s22",
+            "class": "enzymaticGene"
+        },
+        "beta-Galactosylceramide": {
+            "id": "s21",
+            "class": "lipidMetabolite"
+        }
     },
-    "Ganglioside(GM2)": {
-      "id": "s25",
-      "class": "lipidMetabolite"
-    },
-    "GLB1": {
-      "id": "s81",
-      "class": "enzymaticGene"
-    },
-    "Ganglioside(GM3)": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "N-acetylgalactosamine(GalNAc)": {
-      "id": "s50",
-      "class": "nonlipidMetabolite"
-    },
-    "HEXA": {
-      "id": "s2",
-      "class": "enzymaticGene"
-    },
-    "Lactosylceramide(LacCer)": {
-      "id": "s3",
-      "class": "lipidMetabolite"
-    },
-    "NEU1": {
-      "id": "s4",
-      "class": "enzymaticGene"
-    },
-    "NEU4": {
-      "id": "s5",
-      "class": "enzymaticGene"
-    },
-    "Globotetraosylceramide": {
-      "id": "s6",
-      "class": "lipidMetabolite"
-    },
-    "Globotriaosylceramide": {
-      "id": "s7",
-      "class": "lipidMetabolite"
-    },
-    "Galactose": {
-      "id": "s8",
-      "class": "nonlipidMetabolite"
-    },
-    "GLA": {
-      "id": "s9",
-      "class": "enzymaticGene"
-    },
-    "Sulfated-Glycosphingolipid(SM2)": {
-      "id": "s10",
-      "class": "lipidMetabolite"
-    },
-    "Sulfated-Glycosphingolipid(SM3)": {
-      "id": "s11",
-      "class": "lipidMetabolite"
-    },
-    "ARSA": {
-      "id": "s12",
-      "class": "enzymaticGene"
-    },
-    "Galactocerebroside-(GalCer)": {
-      "id": "s14",
-      "class": "lipidMetabolite"
-    },
-    "GALC": {
-      "id": "s16",
-      "class": "enzymaticGene"
-    },
-    "Phosphocholine": {
-      "id": "s18",
-      "class": "nonlipidMetabolite"
-    },
-    "SMPD1": {
-      "id": "s19",
-      "class": "enzymaticGene"
-    },
-    "Digalactosylceramide(Gal2Cer)": {
-      "id": "s20",
-      "class": "lipidMetabolite"
-    },
-    "\u03b2-Galactosylceramide": {
-      "id": "s21",
-      "class": "lipidMetabolite"
-    },
-    "Sphingomyelin": {
-      "id": "s17",
-      "class": "lipidMetabolite"
-    },
-    "Ceramide": {
-      "id": "s15",
-      "class": "lipidMetabolite"
-    },
-    "SMPD2": {
-      "id": "s23",
-      "class": "enzymaticGene"
-    },
-    "SMPD3": {
-      "id": "s24",
-      "class": "enzymaticGene"
-    },
-    "GBA2": {
-      "id": "s26",
-      "class": "enzymaticGene"
-    },
-    "Sphingosine": {
-      "id": "s27",
-      "class": "lipidMetabolite"
-    },
-    "Free-Fatty-acid(FFA)": {
-      "id": "s29",
-      "class": "lipidMetabolite"
-    },
-    "ASAH1": {
-      "id": "s30",
-      "class": "enzymaticGene"
-    },
-    "ASAH2": {
-      "id": "s31",
-      "class": "enzymaticGene"
-    },
-    "ENPP7": {
-      "id": "s32",
-      "class": "enzymaticGene"
-    },
-    "GBA": {
-      "id": "s22",
-      "class": "enzymaticGene"
+    "reactions": {
+        "r=ganglioside(gm1);p=ganglioside(gm2);g=glb1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Ganglioside(GM1)"
+            ],
+            "productList": [
+                "Ganglioside(GM2)"
+            ],
+            "geneList": [
+                "GLB1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=ganglioside(gm2);p=ganglioside(gm3)|n-acetylgalactosamine(galnac);g=hexa": {
+            "reactionType": "DISSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Ganglioside(GM2)"
+            ],
+            "productList": [
+                "Ganglioside(GM3)",
+                "N-acetylgalactosamine(GalNAc)"
+            ],
+            "geneList": [
+                "HEXA"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=ganglioside(gm3);p=lactosylceramide(laccer);g=neu1|neu4": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "notAssignedInfo",
+            "reactantList": [
+                "Ganglioside(GM3)"
+            ],
+            "productList": [
+                "Lactosylceramide(LacCer)"
+            ],
+            "geneList": [
+                "NEU1",
+                "NEU4"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=globotetraosylceramide;p=globotriaosylceramide;g=hexa": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Globotetraosylceramide"
+            ],
+            "productList": [
+                "Globotriaosylceramide"
+            ],
+            "geneList": [
+                "HEXA"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=globotriaosylceramide;p=galactose|lactosylceramide(laccer);g=gla": {
+            "reactionType": "DISSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Globotriaosylceramide"
+            ],
+            "productList": [
+                "Galactose",
+                "Lactosylceramide(LacCer)"
+            ],
+            "geneList": [
+                "GLA"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=sulfated-glycosphingolipid(sm2);p=sulfated-glycosphingolipid(sm3);g=hexa": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Sulfated-Glycosphingolipid(SM2)"
+            ],
+            "productList": [
+                "Sulfated-Glycosphingolipid(SM3)"
+            ],
+            "geneList": [
+                "HEXA"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=sulfated-glycosphingolipid(sm3);p=lactosylceramide(laccer);g=arsa": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Sulfated-Glycosphingolipid(SM3)"
+            ],
+            "productList": [
+                "Lactosylceramide(LacCer)"
+            ],
+            "geneList": [
+                "ARSA"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=lactosylceramide(laccer);p=galactocerebroside-(galcer)|galactose;g=glb1": {
+            "reactionType": "DISSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Lactosylceramide(LacCer)"
+            ],
+            "productList": [
+                "Galactose",
+                "Galactocerebroside-(GalCer)"
+            ],
+            "geneList": [
+                "GLB1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=galactocerebroside-(galcer);p=ceramide;g=galc": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Galactocerebroside-(GalCer)"
+            ],
+            "productList": [
+                "Ceramide"
+            ],
+            "geneList": [
+                "GALC"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=sphingomyelin;p=ceramide|phosphocholine;g=smpd1": {
+            "reactionType": "DISSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Sphingomyelin"
+            ],
+            "productList": [
+                "Phosphocholine",
+                "Ceramide"
+            ],
+            "geneList": [
+                "SMPD1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=digalactosylceramide(gal2cer);p=beta-galactosylceramide|galactose;g=gla": {
+            "reactionType": "DISSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Digalactosylceramide(Gal2Cer)"
+            ],
+            "productList": [
+                "beta-Galactosylceramide",
+                "Galactose"
+            ],
+            "geneList": [
+                "GLA"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=galactocerebroside-(galcer);p=ceramide;g=gba|gba2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Galactocerebroside-(GalCer)"
+            ],
+            "productList": [
+                "Ceramide"
+            ],
+            "geneList": [
+                "GBA",
+                "GBA2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=sphingomyelin;p=ceramide;g=enpp7|smpd2|smpd3": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Sphingomyelin"
+            ],
+            "productList": [
+                "Ceramide"
+            ],
+            "geneList": [
+                "SMPD2",
+                "SMPD3",
+                "ENPP7"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        },
+        "r=ceramide|sphingosine;p=free-fatty-acid(ffa);g=asah1|asah2": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "hydrolysis",
+            "reactantList": [
+                "Ceramide",
+                "Sphingosine"
+            ],
+            "productList": [
+                "Free-Fatty-acid(FFA)"
+            ],
+            "geneList": [
+                "ASAH1",
+                "ASAH2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS",
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=ganglioside(gm1);p=ganglioside(gm2);g=glb1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Ganglioside(GM1)"
-      ],
-      "productList": [
-        "Ganglioside(GM2)"
-      ],
-      "geneList": [
-        "GLB1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=ganglioside(gm2);p=ganglioside(gm3)|n-acetylgalactosamine(galnac);g=hexa": {
-      "reactionType": "DISSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Ganglioside(GM2)"
-      ],
-      "productList": [
-        "Ganglioside(GM3)",
-        "N-acetylgalactosamine(GalNAc)"
-      ],
-      "geneList": [
-        "HEXA"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=ganglioside(gm3);p=lactosylceramide(laccer);g=neu1|neu4": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "notAssignedInfo",
-      "reactantList": [
-        "Ganglioside(GM3)"
-      ],
-      "productList": [
-        "Lactosylceramide(LacCer)"
-      ],
-      "geneList": [
-        "NEU1",
-        "NEU4"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=globotetraosylceramide;p=globotriaosylceramide;g=hexa": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Globotetraosylceramide"
-      ],
-      "productList": [
-        "Globotriaosylceramide"
-      ],
-      "geneList": [
-        "HEXA"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=globotriaosylceramide;p=galactose|lactosylceramide(laccer);g=gla": {
-      "reactionType": "DISSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Globotriaosylceramide"
-      ],
-      "productList": [
-        "Galactose",
-        "Lactosylceramide(LacCer)"
-      ],
-      "geneList": [
-        "GLA"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=sulfated-glycosphingolipid(sm2);p=sulfated-glycosphingolipid(sm3);g=hexa": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Sulfated-Glycosphingolipid(SM2)"
-      ],
-      "productList": [
-        "Sulfated-Glycosphingolipid(SM3)"
-      ],
-      "geneList": [
-        "HEXA"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=sulfated-glycosphingolipid(sm3);p=lactosylceramide(laccer);g=arsa": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Sulfated-Glycosphingolipid(SM3)"
-      ],
-      "productList": [
-        "Lactosylceramide(LacCer)"
-      ],
-      "geneList": [
-        "ARSA"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=lactosylceramide(laccer);p=galactose|galactocerebroside-(galcer);g=glb1": {
-      "reactionType": "DISSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Lactosylceramide(LacCer)"
-      ],
-      "productList": [
-        "Galactose",
-        "Galactocerebroside-(GalCer)"
-      ],
-      "geneList": [
-        "GLB1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=galactocerebroside-(galcer);p=ceramide;g=galc": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Galactocerebroside-(GalCer)"
-      ],
-      "productList": [
-        "Ceramide"
-      ],
-      "geneList": [
-        "GALC"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=sphingomyelin;p=phosphocholine|ceramide;g=smpd1": {
-      "reactionType": "DISSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Sphingomyelin"
-      ],
-      "productList": [
-        "Phosphocholine",
-        "Ceramide"
-      ],
-      "geneList": [
-        "SMPD1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=digalactosylceramide(gal2cer);p=\u03b2-galactosylceramide|galactose;g=gla": {
-      "reactionType": "DISSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Digalactosylceramide(Gal2Cer)"
-      ],
-      "productList": [
-        "\u03b2-Galactosylceramide",
-        "Galactose"
-      ],
-      "geneList": [
-        "GLA"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=galactocerebroside-(galcer);p=ceramide;g=gba|gba2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Galactocerebroside-(GalCer)"
-      ],
-      "productList": [
-        "Ceramide"
-      ],
-      "geneList": [
-        "GBA",
-        "GBA2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=sphingomyelin;p=ceramide;g=smpd2|smpd3|enpp7": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Sphingomyelin"
-      ],
-      "productList": [
-        "Ceramide"
-      ],
-      "geneList": [
-        "SMPD2",
-        "SMPD3",
-        "ENPP7"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    },
-    "r=ceramide|sphingosine;p=free-fatty-acid(ffa);g=asah1|asah2": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "hydrolysis",
-      "reactantList": [
-        "Ceramide",
-        "Sphingosine"
-      ],
-      "productList": [
-        "Free-Fatty-acid(FFA)"
-      ],
-      "geneList": [
-        "ASAH1",
-        "ASAH2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS",
-        "CATALYSIS"
-      ]
-    }
-  }
 }

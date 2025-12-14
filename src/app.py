@@ -18,14 +18,14 @@ temp2 = "https://unpkg.com/react@18/umd/react.production.min.js"
 temp3 = "https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
 
 
-os.environ['TMPDIR'] = 'C:\\Temp'
+# os.environ['TMPDIR'] = 'C:\\Temp'
 
-cache = diskcache.Cache("./cache")
-long_callback_manager = DiskcacheManager(cache)
+# cache = diskcache.Cache("./cache")
+# long_callback_manager = DiskcacheManager(cache)
 
 dash_app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP,font_awesome1,font_awesome3],
                     title="LiMeNex" ,use_pages=True,suppress_callback_exceptions=True,
-                    external_scripts=[external_js_lib, local_warn_suppressor, typedjs, temp2, temp3],background_callback_manager=long_callback_manager)
+                    external_scripts=[external_js_lib, local_warn_suppressor, typedjs, temp2, temp3])
 
 cyto.load_extra_layouts()
 

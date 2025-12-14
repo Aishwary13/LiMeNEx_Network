@@ -1,667 +1,667 @@
 {
-  "nodes": {
-    "2-Acetyl-CoA": {
-      "id": "s27",
-      "class": "lipidMetabolite;first"
+    "nodes": {
+        "2-Acetyl-CoA": {
+            "id": "s27",
+            "class": "lipidMetabolite;first"
+        },
+        "Acetoacetyl-CoA": {
+            "id": "s1",
+            "class": "lipidMetabolite"
+        },
+        "ACAT2": {
+            "id": "s31",
+            "class": "enzymaticGene"
+        },
+        "HMG-CoA": {
+            "id": "s2",
+            "class": "nonlipidMetabolite"
+        },
+        "HMGCS1": {
+            "id": "s3",
+            "class": "enzymaticGene"
+        },
+        "Mevalonate(MVA)": {
+            "id": "s4",
+            "class": "nonlipidMetabolite"
+        },
+        "HMGCR": {
+            "id": "s5",
+            "class": "enzymaticGene"
+        },
+        "Mevalonate-5-phosphate(MVA5P)": {
+            "id": "s6",
+            "class": "nonlipidMetabolite"
+        },
+        "MVK": {
+            "id": "s7",
+            "class": "enzymaticGene"
+        },
+        "Mevalonate-5-pyrophosphate(MVA5PP)": {
+            "id": "s8",
+            "class": "nonlipidMetabolite"
+        },
+        "PMVK": {
+            "id": "s9",
+            "class": "enzymaticGene"
+        },
+        "Isopentenyl-pyrophosphate(IPPP)": {
+            "id": "s10",
+            "class": "nonlipidMetabolite"
+        },
+        "MVD": {
+            "id": "s11",
+            "class": "enzymaticGene"
+        },
+        "Dimethylallyl-pyrophosphate(DMAPP)": {
+            "id": "s12",
+            "class": "nonlipidMetabolite"
+        },
+        "IDI1": {
+            "id": "s13",
+            "class": "enzymaticGene"
+        },
+        "Farnesyl-pyrophosphate(FPP)": {
+            "id": "s14",
+            "class": "lipidMetabolite"
+        },
+        "FDPS": {
+            "id": "s16",
+            "class": "enzymaticGene"
+        },
+        "GGPS1": {
+            "id": "s17",
+            "class": "enzymaticGene"
+        },
+        "Geranylgeranyl-pyrophosphate(GGPP)": {
+            "id": "s15",
+            "class": "lipidMetabolite"
+        },
+        "Presqualene-diphosphate(PSQPP)": {
+            "id": "s18",
+            "class": "lipidMetabolite"
+        },
+        "Presqualene-monophosphate(PSMP)": {
+            "id": "s19",
+            "class": "lipidMetabolite"
+        },
+        "FDFT1": {
+            "id": "s20",
+            "class": "enzymaticGene"
+        },
+        "PLPP6": {
+            "id": "s21",
+            "class": "enzymaticGene"
+        },
+        "Squalene(SQNE)": {
+            "id": "s22",
+            "class": "lipidMetabolite"
+        },
+        "Squalene-2,3-Epoxide": {
+            "id": "s32",
+            "class": "lipidMetabolite"
+        },
+        "SQLE": {
+            "id": "s33",
+            "class": "enzymaticGene"
+        },
+        "Lanosterol": {
+            "id": "s34",
+            "class": "lipidMetabolite"
+        },
+        "LSS": {
+            "id": "s35",
+            "class": "enzymaticGene"
+        },
+        "24,25-Dihydrolanosterol(dhLAN)": {
+            "id": "s36",
+            "class": "lipidMetabolite"
+        },
+        "DHCR24": {
+            "id": "s37",
+            "class": "enzymaticGene"
+        },
+        "DMCHOLtrienol": {
+            "id": "s38",
+            "class": "lipidMetabolite"
+        },
+        "CYP51A1": {
+            "id": "s39",
+            "class": "enzymaticGene"
+        },
+        "DMLAdienol": {
+            "id": "s40",
+            "class": "lipidMetabolite"
+        },
+        "TM7SF2": {
+            "id": "s41",
+            "class": "enzymaticGene"
+        },
+        "4M4Cdienol": {
+            "id": "s42",
+            "class": "lipidMetabolite"
+        },
+        "MSMO1": {
+            "id": "s43",
+            "class": "enzymaticGene"
+        },
+        "4MCdienone": {
+            "id": "s44",
+            "class": "lipidMetabolite"
+        },
+        "NSDHL": {
+            "id": "s45",
+            "class": "enzymaticGene"
+        },
+        "4MCdienonol": {
+            "id": "s46",
+            "class": "lipidMetabolite"
+        },
+        "HSD17B7": {
+            "id": "s47",
+            "class": "enzymaticGene"
+        },
+        "Zymosterone": {
+            "id": "s49",
+            "class": "lipidMetabolite"
+        },
+        "Zymosterol": {
+            "id": "s50",
+            "class": "lipidMetabolite"
+        },
+        "EBP": {
+            "id": "s52",
+            "class": "enzymaticGene"
+        },
+        "SC5D": {
+            "id": "s54",
+            "class": "enzymaticGene"
+        },
+        "Desmosterol": {
+            "id": "s55",
+            "class": "lipidMetabolite"
+        },
+        "DHCR7": {
+            "id": "s56",
+            "class": "enzymaticGene"
+        },
+        "Cholesterol": {
+            "id": "s57",
+            "class": "lipidMetabolite"
+        },
+        "cis-4-decenoyl-CoA": {
+            "id": "s48",
+            "class": "lipidMetabolite"
+        },
+        "Cholesta-7,24-dien-3b-ol": {
+            "id": "s51",
+            "class": "lipidMetabolite"
+        },
+        "Cholesta-5,7,24-trien-3b-ol": {
+            "id": "s53",
+            "class": "lipidMetabolite"
+        }
     },
-    "Acetoacetyl-CoA": {
-      "id": "s1",
-      "class": "lipidMetabolite"
-    },
-    "ACAT2": {
-      "id": "s31",
-      "class": "enzymaticGene"
-    },
-    "HMG-CoA": {
-      "id": "s2",
-      "class": "nonlipidMetabolite"
-    },
-    "HMGCS1": {
-      "id": "s3",
-      "class": "enzymaticGene"
-    },
-    "Mevalonate(MVA)": {
-      "id": "s4",
-      "class": "nonlipidMetabolite"
-    },
-    "HMGCR": {
-      "id": "s5",
-      "class": "enzymaticGene"
-    },
-    "Mevalonate-5-phosphate(MVA5P)": {
-      "id": "s6",
-      "class": "nonlipidMetabolite"
-    },
-    "MVK": {
-      "id": "s7",
-      "class": "enzymaticGene"
-    },
-    "Mevalonate-5-pyrophosphate(MVA5PP)": {
-      "id": "s8",
-      "class": "nonlipidMetabolite"
-    },
-    "PMVK": {
-      "id": "s9",
-      "class": "enzymaticGene"
-    },
-    "Isopentenyl-pyrophosphate(IPPP)": {
-      "id": "s10",
-      "class": "nonlipidMetabolite"
-    },
-    "MVD": {
-      "id": "s11",
-      "class": "enzymaticGene"
-    },
-    "Dimethylallyl-pyrophosphate(DMAPP)": {
-      "id": "s12",
-      "class": "nonlipidMetabolite"
-    },
-    "IDI1": {
-      "id": "s13",
-      "class": "enzymaticGene"
-    },
-    "Farnesyl-pyrophosphate(FPP)": {
-      "id": "s14",
-      "class": "lipidMetabolite"
-    },
-    "FDPS": {
-      "id": "s16",
-      "class": "enzymaticGene"
-    },
-    "GGPS1": {
-      "id": "s17",
-      "class": "enzymaticGene"
-    },
-    "Geranylgeranyl-pyrophosphate(GGPP)": {
-      "id": "s15",
-      "class": "lipidMetabolite"
-    },
-    "Presqualene-diphosphate(PSQPP)": {
-      "id": "s18",
-      "class": "lipidMetabolite"
-    },
-    "Presqualene-monophosphate(PSMP)": {
-      "id": "s19",
-      "class": "lipidMetabolite"
-    },
-    "FDFT1": {
-      "id": "s20",
-      "class": "enzymaticGene"
-    },
-    "PLPP6": {
-      "id": "s21",
-      "class": "enzymaticGene"
-    },
-    "Squalene(SQNE)": {
-      "id": "s22",
-      "class": "lipidMetabolite"
-    },
-    "Squalene-2,3-Epoxide": {
-      "id": "s32",
-      "class": "lipidMetabolite"
-    },
-    "SQLE": {
-      "id": "s33",
-      "class": "enzymaticGene"
-    },
-    "Lanosterol": {
-      "id": "s34",
-      "class": "lipidMetabolite"
-    },
-    "LSS": {
-      "id": "s35",
-      "class": "enzymaticGene"
-    },
-    "24,25-Dihydrolanosterol(dhLAN)": {
-      "id": "s36",
-      "class": "lipidMetabolite"
-    },
-    "DHCR24": {
-      "id": "s37",
-      "class": "enzymaticGene"
-    },
-    "DMCHOLtrienol": {
-      "id": "s38",
-      "class": "lipidMetabolite"
-    },
-    "CYP51A1": {
-      "id": "s39",
-      "class": "enzymaticGene"
-    },
-    "DMLAdienol": {
-      "id": "s40",
-      "class": "lipidMetabolite"
-    },
-    "TM7SF2": {
-      "id": "s41",
-      "class": "enzymaticGene"
-    },
-    "4M4Cdienol": {
-      "id": "s42",
-      "class": "lipidMetabolite"
-    },
-    "MSMO1": {
-      "id": "s43",
-      "class": "enzymaticGene"
-    },
-    "4MCdienone": {
-      "id": "s44",
-      "class": "lipidMetabolite"
-    },
-    "NSDHL": {
-      "id": "s45",
-      "class": "enzymaticGene"
-    },
-    "4MCdienonol": {
-      "id": "s46",
-      "class": "lipidMetabolite"
-    },
-    "HSD17B7": {
-      "id": "s47",
-      "class": "enzymaticGene"
-    },
-    "4CCdienonol": {
-      "id": "s48",
-      "class": "lipidMetabolite"
-    },
-    "Zymosterone": {
-      "id": "s49",
-      "class": "lipidMetabolite"
-    },
-    "Zymosterol": {
-      "id": "s50",
-      "class": "lipidMetabolite"
-    },
-    "Cholesta-7,24-dien-3\u03b2-ol": {
-      "id": "s51",
-      "class": "lipidMetabolite"
-    },
-    "EBP": {
-      "id": "s52",
-      "class": "enzymaticGene"
-    },
-    "Cholesta-5,7,24-trien-3\u03b2-ol": {
-      "id": "s53",
-      "class": "lipidMetabolite"
-    },
-    "SC5D": {
-      "id": "s54",
-      "class": "enzymaticGene"
-    },
-    "Desmosterol": {
-      "id": "s55",
-      "class": "lipidMetabolite"
-    },
-    "DHCR7": {
-      "id": "s56",
-      "class": "enzymaticGene"
-    },
-    "Cholesterol": {
-      "id": "s57",
-      "class": "lipidMetabolite"
+    "reactions": {
+        "r=2-acetyl-coa;p=acetoacetyl-coa;g=acat2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "condensation",
+            "reactantList": [
+                "2-Acetyl-CoA"
+            ],
+            "productList": [
+                "Acetoacetyl-CoA"
+            ],
+            "geneList": [
+                "ACAT2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=acetoacetyl-coa;p=hmg-coa;g=hmgcs1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "condensation",
+            "reactantList": [
+                "Acetoacetyl-CoA"
+            ],
+            "productList": [
+                "HMG-CoA"
+            ],
+            "geneList": [
+                "HMGCS1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=hmg-coa;p=mevalonate(mva);g=hmgcr": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "HMG-CoA"
+            ],
+            "productList": [
+                "Mevalonate(MVA)"
+            ],
+            "geneList": [
+                "HMGCR"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=mevalonate(mva);p=mevalonate-5-phosphate(mva5p);g=mvk": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Mevalonate(MVA)"
+            ],
+            "productList": [
+                "Mevalonate-5-phosphate(MVA5P)"
+            ],
+            "geneList": [
+                "MVK"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=mevalonate-5-phosphate(mva5p);p=mevalonate-5-pyrophosphate(mva5pp);g=pmvk": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "phosphorylation",
+            "reactantList": [
+                "Mevalonate-5-phosphate(MVA5P)"
+            ],
+            "productList": [
+                "Mevalonate-5-pyrophosphate(MVA5PP)"
+            ],
+            "geneList": [
+                "PMVK"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=mevalonate-5-pyrophosphate(mva5pp);p=isopentenyl-pyrophosphate(ippp);g=mvd": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "decarboxylation",
+            "reactantList": [
+                "Mevalonate-5-pyrophosphate(MVA5PP)"
+            ],
+            "productList": [
+                "Isopentenyl-pyrophosphate(IPPP)"
+            ],
+            "geneList": [
+                "MVD"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=isopentenyl-pyrophosphate(ippp);p=dimethylallyl-pyrophosphate(dmapp);g=idi1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "isomerization",
+            "reactantList": [
+                "Isopentenyl-pyrophosphate(IPPP)"
+            ],
+            "productList": [
+                "Dimethylallyl-pyrophosphate(DMAPP)"
+            ],
+            "geneList": [
+                "IDI1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=dimethylallyl-pyrophosphate(dmapp)|isopentenyl-pyrophosphate(ippp);p=geranylgeranyl-pyrophosphate(ggpp);g=ggps1": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "condensation",
+            "reactantList": [
+                "Isopentenyl-pyrophosphate(IPPP)",
+                "Dimethylallyl-pyrophosphate(DMAPP)"
+            ],
+            "productList": [
+                "Geranylgeranyl-pyrophosphate(GGPP)"
+            ],
+            "geneList": [
+                "GGPS1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=geranylgeranyl-pyrophosphate(ggpp)|isopentenyl-pyrophosphate(ippp);p=farnesyl-pyrophosphate(fpp);g=fdps": {
+            "reactionType": "HETERODIMER_ASSOCIATION",
+            "isReversible": "false",
+            "reactInfo": "condensation",
+            "reactantList": [
+                "Isopentenyl-pyrophosphate(IPPP)",
+                "Geranylgeranyl-pyrophosphate(GGPP)"
+            ],
+            "productList": [
+                "Farnesyl-pyrophosphate(FPP)"
+            ],
+            "geneList": [
+                "FDPS"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=farnesyl-pyrophosphate(fpp);p=presqualene-diphosphate(psqpp);g=fdft1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Farnesyl-pyrophosphate(FPP)"
+            ],
+            "productList": [
+                "Presqualene-diphosphate(PSQPP)"
+            ],
+            "geneList": [
+                "FDFT1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=presqualene-diphosphate(psqpp);p=presqualene-monophosphate(psmp);g=plpp6": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "dephosphorylation",
+            "reactantList": [
+                "Presqualene-diphosphate(PSQPP)"
+            ],
+            "productList": [
+                "Presqualene-monophosphate(PSMP)"
+            ],
+            "geneList": [
+                "PLPP6"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=presqualene-monophosphate(psmp);p=squalene(sqne);g=fdft1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Presqualene-monophosphate(PSMP)"
+            ],
+            "productList": [
+                "Squalene(SQNE)"
+            ],
+            "geneList": [
+                "FDFT1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=squalene(sqne);p=squalene-2,3-epoxide;g=sqle": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "Squalene(SQNE)"
+            ],
+            "productList": [
+                "Squalene-2,3-Epoxide"
+            ],
+            "geneList": [
+                "SQLE"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=squalene-2,3-epoxide;p=lanosterol;g=lss": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "Cyclization",
+            "reactantList": [
+                "Squalene-2,3-Epoxide"
+            ],
+            "productList": [
+                "Lanosterol"
+            ],
+            "geneList": [
+                "LSS"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=lanosterol;p=24,25-dihydrolanosterol(dhlan);g=dhcr24": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Lanosterol"
+            ],
+            "productList": [
+                "24,25-Dihydrolanosterol(dhLAN)"
+            ],
+            "geneList": [
+                "DHCR24"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=24,25-dihydrolanosterol(dhlan);p=dmcholtrienol;g=cyp51a1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "24,25-Dihydrolanosterol(dhLAN)"
+            ],
+            "productList": [
+                "DMCHOLtrienol"
+            ],
+            "geneList": [
+                "CYP51A1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=dmcholtrienol;p=dmladienol;g=tm7sf2": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "DMCHOLtrienol"
+            ],
+            "productList": [
+                "DMLAdienol"
+            ],
+            "geneList": [
+                "TM7SF2"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=dmladienol;p=4m4cdienol;g=msmo1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "oxidation",
+            "reactantList": [
+                "DMLAdienol"
+            ],
+            "productList": [
+                "4M4Cdienol"
+            ],
+            "geneList": [
+                "MSMO1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4m4cdienol;p=4mcdienone;g=nsdhl": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "decarboxylation",
+            "reactantList": [
+                "4M4Cdienol"
+            ],
+            "productList": [
+                "4MCdienone"
+            ],
+            "geneList": [
+                "NSDHL"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4mcdienone;p=4mcdienonol;g=hsd17b7": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "4MCdienone"
+            ],
+            "productList": [
+                "4MCdienonol"
+            ],
+            "geneList": [
+                "HSD17B7"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=4mcdienonol;p=cis-4-decenoyl-coa;g=msmo1": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "4MCdienonol"
+            ],
+            "productList": [
+                "cis-4-decenoyl-CoA"
+            ],
+            "geneList": [
+                "MSMO1"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=cis-4-decenoyl-coa;p=zymosterone;g=nsdhl": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "decarboxylation",
+            "reactantList": [
+                "cis-4-decenoyl-CoA"
+            ],
+            "productList": [
+                "Zymosterone"
+            ],
+            "geneList": [
+                "NSDHL"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=zymosterone;p=zymosterol;g=hsd17b7": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Zymosterone"
+            ],
+            "productList": [
+                "Zymosterol"
+            ],
+            "geneList": [
+                "HSD17B7"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=zymosterol;p=cholesta-7,24-dien-3b-ol;g=ebp": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Zymosterol"
+            ],
+            "productList": [
+                "Cholesta-7,24-dien-3b-ol"
+            ],
+            "geneList": [
+                "EBP"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=cholesta-7,24-dien-3b-ol;p=cholesta-5,7,24-trien-3b-ol;g=sc5d": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "desaturation",
+            "reactantList": [
+                "Cholesta-7,24-dien-3b-ol"
+            ],
+            "productList": [
+                "Cholesta-5,7,24-trien-3b-ol"
+            ],
+            "geneList": [
+                "SC5D"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=cholesta-5,7,24-trien-3b-ol;p=desmosterol;g=dhcr7": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Cholesta-5,7,24-trien-3b-ol"
+            ],
+            "productList": [
+                "Desmosterol"
+            ],
+            "geneList": [
+                "DHCR7"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        },
+        "r=desmosterol;p=cholesterol;g=dhcr24": {
+            "reactionType": "STATE_TRANSITION",
+            "isReversible": "false",
+            "reactInfo": "reduction",
+            "reactantList": [
+                "Desmosterol"
+            ],
+            "productList": [
+                "Cholesterol"
+            ],
+            "geneList": [
+                "DHCR24"
+            ],
+            "geneModifierType": [
+                "CATALYSIS"
+            ]
+        }
     }
-  },
-  "reactions": {
-    "r=2-acetyl-coa;p=acetoacetyl-coa;g=acat2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "condensation",
-      "reactantList": [
-        "2-Acetyl-CoA"
-      ],
-      "productList": [
-        "Acetoacetyl-CoA"
-      ],
-      "geneList": [
-        "ACAT2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=acetoacetyl-coa;p=hmg-coa;g=hmgcs1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "condensation",
-      "reactantList": [
-        "Acetoacetyl-CoA"
-      ],
-      "productList": [
-        "HMG-CoA"
-      ],
-      "geneList": [
-        "HMGCS1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=hmg-coa;p=mevalonate(mva);g=hmgcr": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "HMG-CoA"
-      ],
-      "productList": [
-        "Mevalonate(MVA)"
-      ],
-      "geneList": [
-        "HMGCR"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=mevalonate(mva);p=mevalonate-5-phosphate(mva5p);g=mvk": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Mevalonate(MVA)"
-      ],
-      "productList": [
-        "Mevalonate-5-phosphate(MVA5P)"
-      ],
-      "geneList": [
-        "MVK"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=mevalonate-5-phosphate(mva5p);p=mevalonate-5-pyrophosphate(mva5pp);g=pmvk": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "phosphorylation",
-      "reactantList": [
-        "Mevalonate-5-phosphate(MVA5P)"
-      ],
-      "productList": [
-        "Mevalonate-5-pyrophosphate(MVA5PP)"
-      ],
-      "geneList": [
-        "PMVK"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=mevalonate-5-pyrophosphate(mva5pp);p=isopentenyl-pyrophosphate(ippp);g=mvd": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "decarboxylation",
-      "reactantList": [
-        "Mevalonate-5-pyrophosphate(MVA5PP)"
-      ],
-      "productList": [
-        "Isopentenyl-pyrophosphate(IPPP)"
-      ],
-      "geneList": [
-        "MVD"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=isopentenyl-pyrophosphate(ippp);p=dimethylallyl-pyrophosphate(dmapp);g=idi1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "isomerization",
-      "reactantList": [
-        "Isopentenyl-pyrophosphate(IPPP)"
-      ],
-      "productList": [
-        "Dimethylallyl-pyrophosphate(DMAPP)"
-      ],
-      "geneList": [
-        "IDI1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=isopentenyl-pyrophosphate(ippp)|dimethylallyl-pyrophosphate(dmapp);p=geranylgeranyl-pyrophosphate(ggpp);g=ggps1": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "condensation",
-      "reactantList": [
-        "Isopentenyl-pyrophosphate(IPPP)",
-        "Dimethylallyl-pyrophosphate(DMAPP)"
-      ],
-      "productList": [
-        "Geranylgeranyl-pyrophosphate(GGPP)"
-      ],
-      "geneList": [
-        "GGPS1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=isopentenyl-pyrophosphate(ippp)|geranylgeranyl-pyrophosphate(ggpp);p=farnesyl-pyrophosphate(fpp);g=fdps": {
-      "reactionType": "HETERODIMER_ASSOCIATION",
-      "isReversible": "false",
-      "reactInfo": "condensation",
-      "reactantList": [
-        "Isopentenyl-pyrophosphate(IPPP)",
-        "Geranylgeranyl-pyrophosphate(GGPP)"
-      ],
-      "productList": [
-        "Farnesyl-pyrophosphate(FPP)"
-      ],
-      "geneList": [
-        "FDPS"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=farnesyl-pyrophosphate(fpp);p=presqualene-diphosphate(psqpp);g=fdft1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Farnesyl-pyrophosphate(FPP)"
-      ],
-      "productList": [
-        "Presqualene-diphosphate(PSQPP)"
-      ],
-      "geneList": [
-        "FDFT1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=presqualene-diphosphate(psqpp);p=presqualene-monophosphate(psmp);g=plpp6": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "dephosphorylation",
-      "reactantList": [
-        "Presqualene-diphosphate(PSQPP)"
-      ],
-      "productList": [
-        "Presqualene-monophosphate(PSMP)"
-      ],
-      "geneList": [
-        "PLPP6"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=presqualene-monophosphate(psmp);p=squalene(sqne);g=fdft1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Presqualene-monophosphate(PSMP)"
-      ],
-      "productList": [
-        "Squalene(SQNE)"
-      ],
-      "geneList": [
-        "FDFT1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=squalene(sqne);p=squalene-2,3-epoxide;g=sqle": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "Squalene(SQNE)"
-      ],
-      "productList": [
-        "Squalene-2,3-Epoxide"
-      ],
-      "geneList": [
-        "SQLE"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=squalene-2,3-epoxide;p=lanosterol;g=lss": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "Cyclization",
-      "reactantList": [
-        "Squalene-2,3-Epoxide"
-      ],
-      "productList": [
-        "Lanosterol"
-      ],
-      "geneList": [
-        "LSS"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=lanosterol;p=24,25-dihydrolanosterol(dhlan);g=dhcr24": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Lanosterol"
-      ],
-      "productList": [
-        "24,25-Dihydrolanosterol(dhLAN)"
-      ],
-      "geneList": [
-        "DHCR24"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=24,25-dihydrolanosterol(dhlan);p=dmcholtrienol;g=cyp51a1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "24,25-Dihydrolanosterol(dhLAN)"
-      ],
-      "productList": [
-        "DMCHOLtrienol"
-      ],
-      "geneList": [
-        "CYP51A1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=dmcholtrienol;p=dmladienol;g=tm7sf2": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "DMCHOLtrienol"
-      ],
-      "productList": [
-        "DMLAdienol"
-      ],
-      "geneList": [
-        "TM7SF2"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=dmladienol;p=4m4cdienol;g=msmo1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "oxidation",
-      "reactantList": [
-        "DMLAdienol"
-      ],
-      "productList": [
-        "4M4Cdienol"
-      ],
-      "geneList": [
-        "MSMO1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4m4cdienol;p=4mcdienone;g=nsdhl": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "decarboxylation",
-      "reactantList": [
-        "4M4Cdienol"
-      ],
-      "productList": [
-        "4MCdienone"
-      ],
-      "geneList": [
-        "NSDHL"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4mcdienone;p=4mcdienonol;g=hsd17b7": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "4MCdienone"
-      ],
-      "productList": [
-        "4MCdienonol"
-      ],
-      "geneList": [
-        "HSD17B7"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4mcdienonol;p=4ccdienonol;g=msmo1": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "4MCdienonol"
-      ],
-      "productList": [
-        "4CCdienonol"
-      ],
-      "geneList": [
-        "MSMO1"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=4ccdienonol;p=zymosterone;g=nsdhl": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "decarboxylation",
-      "reactantList": [
-        "4CCdienonol"
-      ],
-      "productList": [
-        "Zymosterone"
-      ],
-      "geneList": [
-        "NSDHL"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=zymosterone;p=zymosterol;g=hsd17b7": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Zymosterone"
-      ],
-      "productList": [
-        "Zymosterol"
-      ],
-      "geneList": [
-        "HSD17B7"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=zymosterol;p=cholesta-7,24-dien-3\u03b2-ol;g=ebp": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Zymosterol"
-      ],
-      "productList": [
-        "Cholesta-7,24-dien-3\u03b2-ol"
-      ],
-      "geneList": [
-        "EBP"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=cholesta-7,24-dien-3\u03b2-ol;p=cholesta-5,7,24-trien-3\u03b2-ol;g=sc5d": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "desaturation",
-      "reactantList": [
-        "Cholesta-7,24-dien-3\u03b2-ol"
-      ],
-      "productList": [
-        "Cholesta-5,7,24-trien-3\u03b2-ol"
-      ],
-      "geneList": [
-        "SC5D"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=cholesta-5,7,24-trien-3\u03b2-ol;p=desmosterol;g=dhcr7": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Cholesta-5,7,24-trien-3\u03b2-ol"
-      ],
-      "productList": [
-        "Desmosterol"
-      ],
-      "geneList": [
-        "DHCR7"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    },
-    "r=desmosterol;p=cholesterol;g=dhcr24": {
-      "reactionType": "STATE_TRANSITION",
-      "isReversible": "false",
-      "reactInfo": "reduction",
-      "reactantList": [
-        "Desmosterol"
-      ],
-      "productList": [
-        "Cholesterol"
-      ],
-      "geneList": [
-        "DHCR24"
-      ],
-      "geneModifierType": [
-        "CATALYSIS"
-      ]
-    }
-  }
 }
