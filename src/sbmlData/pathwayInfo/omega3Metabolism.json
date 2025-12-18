@@ -104,7 +104,7 @@
             "id": "s27",
             "class": "lipidMetabolite"
         },
-        "Arachidonoyl-CoA(AA-CoA)": {
+        "Arachidonyl-CoA": {
             "id": "s28",
             "class": "lipidMetabolite"
         },
@@ -376,7 +376,7 @@
                 "CATALYSIS"
             ]
         },
-        "r=dihomo-gamma-linolenoyl-coa;p=arachidonoyl-coa(aa-coa);g=fads1": {
+        "r=dihomo-gamma-linolenoyl-coa;p=arachidonyl-coa;g=fads1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "desaturation",
@@ -384,7 +384,7 @@
                 "Dihomo-Gamma-Linolenoyl-CoA"
             ],
             "productList": [
-                "Arachidonoyl-CoA(AA-CoA)"
+                "Arachidonyl-CoA"
             ],
             "geneList": [
                 "FADS1"
@@ -393,12 +393,12 @@
                 "CATALYSIS"
             ]
         },
-        "r=arachidonoyl-coa(aa-coa);p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
+        "r=arachidonyl-coa;p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "elongation",
             "reactantList": [
-                "Arachidonoyl-CoA(AA-CoA)"
+                "Arachidonyl-CoA"
             ],
             "productList": [
                 "Docosatetraenoyl-CoA(DTA-CoA)"

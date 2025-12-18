@@ -498,8 +498,8 @@
 
 .home-grpah-header{
   color : white;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   width: 700px;
   text-align: center;
   margin-bottom: 25px;
@@ -725,3 +725,17 @@
     color: #1f2937; /* dark arrow on white bg */
 }
 
+
+
+/* -------------------------------------------------------------------------------------------------- */
+.interp-key {
+    font-weight: 600;
+    color: #e5e7eb;
+    white-space: nowrap;
+    word-break: break-word;
+}
+
+.interp-value {
+    color: #d1d5db;
+    word-break: break-word;
+}

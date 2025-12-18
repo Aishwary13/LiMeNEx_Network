@@ -27,6 +27,9 @@ with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
 with open(os.path.join(root_dir,'src/sbmlData/pathwayDropdownOptions.json'), 'r') as file:
     dropdownOptions = json.load(file)
     databaseCategory = dropdownOptions["databaseCategory"]
+    
+with open(os.path.join(root_dir, 'src/sbmlData/metabolite_link_map.json')) as file:
+    metabolite_link_map = json.load(file)
 
 ################################################### download callbacks###################################################
 
@@ -792,7 +795,7 @@ def fetch_rxn(n_clicks, genes, stylesheet):
                 for reactant in value.get('reactantList',[]):
                     if reactant not in finalLipidNodes:
                         finalLipidNodes[reactant] = {
-                            'data': {'id': reactant, 'label':reactant,'classes' : 'lipidMetabolite'},
+                            'data': {'id': reactant, 'label':reactant,'classes' : 'lipidMetabolite', 'link': metabolite_link_map.get(reactant,'')},
                             'classes': 'lipidMetabolite',
                         }
 
@@ -808,7 +811,7 @@ def fetch_rxn(n_clicks, genes, stylesheet):
                 for product in value.get('productList',[]):
                     if product not in finalLipidNodes:
                         finalLipidNodes[product] = {
-                            'data': {'id': product, 'label':product,'classes' : 'lipidMetabolite'},
+                            'data': {'id': product, 'label':product,'classes' : 'lipidMetabolite', 'link': metabolite_link_map.get(product,'')},
                             'classes': 'lipidMetabolite',
                             # 'selectable': True,
                             # 'grabbable': True

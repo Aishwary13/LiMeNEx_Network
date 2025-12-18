@@ -1478,7 +1478,7 @@
         }
     },
     "CYP1B1": {
-        "r=arachidonic-acid;p=18-hydroxyeicosatetraenoicacids;g=cyp1b1": {
+        "r=arachidonic-acid;p=18-hydroxyeicosatetraenoic-acids;g=cyp1b1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "notAssignedInfo",
@@ -1486,7 +1486,7 @@
                 "Arachidonic-acid"
             ],
             "productList": [
-                "18-hydroxyeicosatetraenoic acids"
+                "18-hydroxyeicosatetraenoic-acids"
             ],
             "geneList": [
                 "CYP1B1"
@@ -10033,12 +10033,12 @@
                 "omega3Metabolism"
             ]
         },
-        "r=arachidonoyl-coa(aa-coa);p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
+        "r=arachidonyl-coa;p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "elongation",
             "reactantList": [
-                "Arachidonoyl-CoA(AA-CoA)"
+                "Arachidonyl-CoA"
             ],
             "productList": [
                 "Docosatetraenoyl-CoA(DTA-CoA)"
@@ -10380,12 +10380,12 @@
                 "omega3Metabolism"
             ]
         },
-        "r=arachidonoyl-coa(aa-coa);p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
+        "r=arachidonyl-coa;p=docosatetraenoyl-coa(dta-coa);g=elovl2|elovl5": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "elongation",
             "reactantList": [
-                "Arachidonoyl-CoA(AA-CoA)"
+                "Arachidonyl-CoA"
             ],
             "productList": [
                 "Docosatetraenoyl-CoA(DTA-CoA)"
@@ -10573,7 +10573,7 @@
                 "omega3Metabolism"
             ]
         },
-        "r=dihomo-gamma-linolenoyl-coa;p=arachidonoyl-coa(aa-coa);g=fads1": {
+        "r=dihomo-gamma-linolenoyl-coa;p=arachidonyl-coa;g=fads1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "desaturation",
@@ -10581,7 +10581,7 @@
                 "Dihomo-Gamma-Linolenoyl-CoA"
             ],
             "productList": [
-                "Arachidonoyl-CoA(AA-CoA)"
+                "Arachidonyl-CoA"
             ],
             "geneList": [
                 "FADS1"
@@ -16467,7 +16467,7 @@
                 "unsaturatedFattyAcidsSynthesis"
             ]
         },
-        "r=palmitoyl-coa;p=palmitic-acid;g=acot1|acot2|acot4|acot7|baat": {
+        "r=palmitoyl-coa;p=palmitate;g=acot1|acot2|acot4|acot7|baat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "hydrolysis",
@@ -16475,7 +16475,7 @@
                 "Palmitoyl-CoA"
             ],
             "productList": [
-                "Palmitic-Acid"
+                "palmitate"
             ],
             "geneList": [
                 "ACOT1",
@@ -16758,7 +16758,7 @@
                 "unsaturatedFattyAcidsSynthesis"
             ]
         },
-        "r=palmitoyl-coa;p=palmitic-acid;g=acot1|acot2|acot4|acot7|baat": {
+        "r=palmitoyl-coa;p=palmitate;g=acot1|acot2|acot4|acot7|baat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "hydrolysis",
@@ -16766,7 +16766,7 @@
                 "Palmitoyl-CoA"
             ],
             "productList": [
-                "Palmitic-Acid"
+                "palmitate"
             ],
             "geneList": [
                 "ACOT1",
@@ -17049,7 +17049,7 @@
                 "unsaturatedFattyAcidsSynthesis"
             ]
         },
-        "r=palmitoyl-coa;p=palmitic-acid;g=acot1|acot2|acot4|acot7|baat": {
+        "r=palmitoyl-coa;p=palmitate;g=acot1|acot2|acot4|acot7|baat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "hydrolysis",
@@ -17057,7 +17057,7 @@
                 "Palmitoyl-CoA"
             ],
             "productList": [
-                "Palmitic-Acid"
+                "palmitate"
             ],
             "geneList": [
                 "ACOT1",
@@ -17288,7 +17288,7 @@
                 "unsaturatedFattyAcidsSynthesis"
             ]
         },
-        "r=palmitoyl-coa;p=palmitic-acid;g=acot1|acot2|acot4|acot7|baat": {
+        "r=palmitoyl-coa;p=palmitate;g=acot1|acot2|acot4|acot7|baat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "hydrolysis",
@@ -17296,7 +17296,7 @@
                 "Palmitoyl-CoA"
             ],
             "productList": [
-                "Palmitic-Acid"
+                "palmitate"
             ],
             "geneList": [
                 "ACOT1",
@@ -17414,7 +17414,7 @@
         }
     },
     "BAAT": {
-        "r=palmitoyl-coa;p=palmitic-acid;g=acot1|acot2|acot4|acot7|baat": {
+        "r=palmitoyl-coa;p=palmitate;g=acot1|acot2|acot4|acot7|baat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "hydrolysis",
@@ -17422,7 +17422,7 @@
                 "Palmitoyl-CoA"
             ],
             "productList": [
-                "Palmitic-Acid"
+                "palmitate"
             ],
             "geneList": [
                 "ACOT1",

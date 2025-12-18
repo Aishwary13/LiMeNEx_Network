@@ -60,7 +60,7 @@
             "id": "s106",
             "class": "lipidMetabolite;first"
         },
-        "Palmitic-Acid": {
+        "palmitate": {
             "id": "s107",
             "class": "lipidMetabolite"
         },
@@ -364,7 +364,7 @@
                 "CATALYSIS"
             ]
         },
-        "r=palmitoyl-coa;p=palmitic-acid;g=acot1|acot2|acot4|acot7|baat": {
+        "r=palmitoyl-coa;p=palmitate;g=acot1|acot2|acot4|acot7|baat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "hydrolysis",
@@ -372,7 +372,7 @@
                 "Palmitoyl-CoA"
             ],
             "productList": [
-                "Palmitic-Acid"
+                "palmitate"
             ],
             "geneList": [
                 "ACOT1",

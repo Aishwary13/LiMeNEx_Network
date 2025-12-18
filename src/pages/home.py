@@ -65,7 +65,7 @@ def make_feature_card(icon, icon_color, title, text):
             "width": "300px",
             "boxShadow": "0 6px 12px rgba(55, 65, 82, 0.6)",
             "transition": "transform 0.25s ease, box-shadow 0.25s ease",
-            "cursor": "pointer",
+            # "cursor": "pointer",
             'border': '1px solid #374152'
         }
     )
@@ -121,7 +121,7 @@ home_flowchart = html.Div(
 )
     
 
-# -------------------------------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -186,7 +186,7 @@ layout = html.Div([
 
                 
         html.P(
-            "LiMeNEx is a powerful platform for analyzing and visualizing metabolic networks, protein interactions, and biological pathways with precision and clarity.",
+            "LiMeNEx is a powerful platform for visual exploration of lipid metabolic networks, metabolite-protein interactions, and regulating factors of lipids in biological systems with precision and clarity.",
             style={
                 "color": "#CFCFCF",
                 "maxWidth": "640px",
@@ -223,7 +223,7 @@ layout = html.Div([
             ),
             html.A(
                 "Learn More",
-                href="#how-to-use",
+                href="Tutorial",
                 style={
                     "display": "inline-block",
                     "padding": "10px 18px",
@@ -351,7 +351,7 @@ layout = html.Div([
             'paddingLeft': '3.8em', 
             'paddingBottom':'10px',
             'color': 'white',
-            'marginTop': '20px'
+            'marginTop': '50px'
     })
 
 ],

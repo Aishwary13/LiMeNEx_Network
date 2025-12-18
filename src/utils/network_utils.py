@@ -16,6 +16,13 @@ def load_pathway_data(pathway):
         pathway_data = json.load(f)
     return pathway_data
 
+with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
+        uniprot_cache = json.load(file)
+    
+with open(os.path.join(root_dir, 'src/sbmlData/metabolite_link_map.json')) as file:
+    metabolite_link_map = json.load(file)
+
+
 def create_nodes_and_edges(pathways,selected_lipids):
     print("Creating nodes and edges...")
     print("Pathways: ", pathways)
@@ -30,9 +37,12 @@ def create_nodes_and_edges(pathways,selected_lipids):
     reaction_gene_nodes = {}
     
       
-    with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
-        uniprot_cache = json.load(file)
+    # with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
+    #     uniprot_cache = json.load(file)
     
+    # with open(os.path.join(root_dir, 'src/sbmlData/metabolite_link_map.json')) as file:
+    #     metabolite_link_map = json.load(file)
+        
     for pathway in pathways:
 
         pathway_data = load_pathway_data(pathway)
@@ -68,7 +78,7 @@ def create_nodes_and_edges(pathways,selected_lipids):
             for reactant in value.get('reactantList',[]):
                 if reactant not in currNodes:
                     currNodes[reactant] = {
-                        'data': {'id': reactant, 'label':reactant,'classes' : nodes.get(reactant,{}).get('class', ''),'parent': [pathway]},
+                        'data': {'id': reactant, 'label':reactant,'classes' : nodes.get(reactant,{}).get('class', ''),'parent': [pathway],'link': metabolite_link_map.get(reactant,'')},
                         'classes': nodes.get(reactant,{}).get('class', ''),
                     }
                     
@@ -94,7 +104,7 @@ def create_nodes_and_edges(pathways,selected_lipids):
             for product in value.get('productList',[]):
                 if product not in currNodes:
                     currNodes[product] = {
-                        'data': {'id': product, 'label':product,'classes' : nodes.get(product,{}).get('class', ''),'parent': [pathway]},
+                        'data': {'id': product, 'label':product,'classes' : nodes.get(product,{}).get('class', ''),'parent': [pathway],'link': metabolite_link_map.get(product,'')},
                         'classes': nodes.get(product,{}).get('class', ''),
                     }
                     if product in selected_lipids:

@@ -68,7 +68,7 @@
     "17-hydroxyeicosatetraenoic acids": [
         "arachidonicMetabolism"
     ],
-    "18-hydroxyeicosatetraenoic acids": [
+    "18-hydroxyeicosatetraenoic-acids": [
         "arachidonicMetabolism"
     ],
     "2-oxo-eicosatetraenoic acid(12-oxoETE)": [
@@ -819,8 +819,9 @@
     "Dihomo-Gamma-Linolenoyl-CoA": [
         "omega3Metabolism"
     ],
-    "Arachidonoyl-CoA(AA-CoA)": [
-        "omega3Metabolism"
+    "Arachidonyl-CoA": [
+        "omega3Metabolism",
+        "unsaturatedFattyAcidsSynthesis"
     ],
     "Docosatetraenoyl-CoA(DTA-CoA)": [
         "omega3Metabolism"
@@ -1069,7 +1070,8 @@
         "saturatedFattyAcidsSynthesis"
     ],
     "palmitate": [
-        "saturatedFattyAcidsSynthesis"
+        "saturatedFattyAcidsSynthesis",
+        "unsaturatedFattyAcidsSynthesis"
     ],
     "Phytoceramide(PCE)": [
         "sphingolipidDegradation"
@@ -1227,9 +1229,6 @@
     "Dihomo-gamma-linolenic-acid": [
         "unsaturatedFattyAcidsSynthesis"
     ],
-    "Palmitic-Acid": [
-        "unsaturatedFattyAcidsSynthesis"
-    ],
     "Stearoyl-CoA": [
         "unsaturatedFattyAcidsSynthesis"
     ],
@@ -1291,9 +1290,6 @@
         "unsaturatedFattyAcidsSynthesis"
     ],
     "(11Z,14Z)-Icosadienoyl-CoA": [
-        "unsaturatedFattyAcidsSynthesis"
-    ],
-    "Arachidonyl-CoA": [
         "unsaturatedFattyAcidsSynthesis"
     ]
 }

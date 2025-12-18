@@ -48,14 +48,14 @@ def readSbml(fileName,lipid_map):
             
     return lipid_map
 
-lipid_map = {}
-for file in os.listdir(os.path.join(pathwayInfo)):
-    if file.endswith('.json'):
-        lipid_map = readSbml(fileName=file,lipid_map=lipid_map)
+# lipid_map = {}
+# for file in os.listdir(os.path.join(pathwayInfo)):
+#     if file.endswith('.json'):
+#         lipid_map = readSbml(fileName=file,lipid_map=lipid_map)
 
-print(len(lipid_map))
-with open('D:/Raylab/LiMeNEx_Network/src/sbmlData/lipid_pathway_map.json','w') as f:
-    json.dump(lipid_map,f,indent=4)
+# print(len(lipid_map))
+# with open('D:/Raylab/LiMeNEx_Network/src/sbmlData/lipid_pathway_map.json','w') as f:
+#     json.dump(lipid_map,f,indent=4)
     
     
 ################################################################################################################
@@ -226,6 +226,9 @@ def runUniqueReactions(networkPath,outputPath):
         pickle.dump(list(count.total_unique_enzymatic_genes), f)
     
     
+    with open("src/sbmlData/metabolites.pkl", "wb") as f:
+        pickle.dump(list(list(count.total_lipids) + list(count.total_nonlipids)), f)
+    
     print(count.total_lipids.intersection(count.total_nonlipids))
     # print(count.total_nonlipids - count.total_lipids)
     
@@ -237,7 +240,6 @@ def runUniqueReactions(networkPath,outputPath):
     print(len(count.total_reactions))
     print(count.total_substrate_edges)
     print(len(count.total_unique_enzymatic_genes))
-    
     return
 
 import pandas as pd
@@ -324,10 +326,82 @@ def cross_verify_genes():
     return
 
 
-# if __name__ == "__main__":
+
+def map_metabolite_with_link():
+    
+    csv_path = "D:/Raylab/LiMeNEx_Network/src/sbmlData/Unique_metabolites_source_info.csv"
+    df = pd.read_csv(csv_path)
+    
+    ## check all metabolites
+    csv_metabolites = df['metabolites'].to_list()
+    # print(len(csv_metabolites))
+    # print(len(set(csv_metabolites)))
+    
+    # stripped_metabolite = [temp.strip() for temp in csv_metabolites]
+    # print(len(csv_metabolites))
+    # print(len(set(stripped_metabolite)))
+    
+    met_set = set()
+    for temp in csv_metabolites:
+        if temp not in met_set:
+            met_set.add(temp.strip())
+        else:
+            print(temp)
+    
+    import pickle
+    with open("src/sbmlData/metabolites.pkl", "rb") as f:
+        pathway_met = pickle.load(f)
+        
+    print("------------------------------------------------------")
+    # print(len(pathway_met))
+    # print(len(set(pathway_met)))
+    
+    print(len(met_set.intersection(set(pathway_met))))
+    
+    pathway_met = set(pathway_met)
+    
+    print("\npathways lipid not matching : \n")
+    print(pathway_met-met_set)
+    
+    print("\ncsv lipids not matching\n")
+    print(met_set-pathway_met)
+    
+    
+    metablite_link_map = {}
+    for lipid in pathway_met:
+        row = df[df['metabolites'].str.strip() == lipid]
+        if row.empty:
+            print("No entry found for lipid: ",lipid)
+            continue
+        
+        row = row.iloc[0]
+        
+        link = row['Chebi']
+        if link is None or pd.isna(link) or link.strip() =='':
+            link = row['PubChem']
+        if link is None or pd.isna(link) or link.strip() =='':
+            link = row['kegg']
+        if link is None or pd.isna(link) or link.strip() =='':
+            link = row['Lipidmaps']
+
+        link = str(link).strip()
+        metablite_link_map[lipid] = link
+        
+        if link is None or pd.isna(link) or link.strip() =='' or link.strip() == 'nan':
+            print("No link found for lipid: ",lipid)
+
+    with open('D:/Raylab/LiMeNEx_Network/src/sbmlData/metabolite_link_map.json','w') as f:
+        json.dump(metablite_link_map,f,indent=4)
+    
+    return
+
+
+if __name__ == "__main__":
     # create_phys_tissue_mapping()
     # cross_verify_genes()
     # gene_to_reaction()
     # networkPath = 'D:/Raylab/LiMeNEx_Network/src/sbmlData/networks_updated'
     # outputPath = 'D:/Raylab/LiMeNEx_Network/src/sbmlData/pathwayInfo'
     # runUniqueReactions(networkPath=networkPath,outputPath=outputPath)
+    
+    map_metabolite_with_link()

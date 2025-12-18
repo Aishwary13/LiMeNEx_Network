@@ -31,7 +31,7 @@ cyto.load_extra_layouts()
 
 server = dash_app.server
 
-from pages import home, contact,network
+from pages import home, contact,network,not_available, tutorial
 from callbacks import network_callback
 
 # dataBasePath= sbml_network.dataBasePath
@@ -95,13 +95,21 @@ dash_app.layout = html.Div([
                 #     style={'marginTop' : '7px'}
                 # ),
                 dbc.NavLink([html.Div([
+                    html.I(className="fa-solid fa-book"),
+                    html.Span("Tutorial", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
+                    href="/Tutorial",
+                    active="exact",
+                    className="pe-3",
+                    style={'marginTop' : '7px'}
+                ),
+                dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-address-card"),
                     html.Span("Contact Us", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
                     href="/Contact",
                     active="exact",
                     className="pe-3",
                     style={'marginTop' : '7px'}
-                )
+                ),
             ],
             vertical=True,
             pills=True,
@@ -122,8 +130,9 @@ dash_app.layout = html.Div([
 @dash_app.callback(
         Output('page-content', 'children'),
         Input('url', 'pathname'),
+        State('url', 'search')
     )
-def display_page(pathname):
+def display_page(pathname,search):
     if pathname == '/':
         return home.layout
     # elif pathname == '/Network':
@@ -132,20 +141,36 @@ def display_page(pathname):
         return contact.layout
     elif pathname == '/Network2':
         return network.layout
+    elif pathname == '/Tutorial':
+        return tutorial.layout
+    elif pathname == '/not-available':
+        return not_available.layout(search)
+
+    return html.Div("404: Page not found")
 
 
 dash_app.clientside_callback(
     """
     function(data1, data2, data3) {
-        // get clientside callback context
-        const ctx = dash_clientside.callback_context || window.dash_clientside && window.dash_clientside.callback_context;
+
+        function isInvalidLink(link) {
+            return (
+                link === null ||
+                link === undefined ||
+                link === "" ||
+                link === "nan" ||
+                link === "NaN"
+            );
+        }
+
+        const ctx = dash_clientside.callback_context || 
+                    (window.dash_clientside && window.dash_clientside.callback_context);
+
         if (!ctx || !ctx.triggered || ctx.triggered.length === 0) {
             return window.dash_clientside.no_update;
         }
 
-        // ctx.triggered[0].prop_id looks like:
-        // '{"type":"cy-graph","index":"console-2"}.tapNodeData'
-        const triggeredProp = ctx.triggered[0].prop_id || '';
+        const triggeredProp = ctx.triggered[0].prop_id || "";
 
         let activeData = null;
         if (triggeredProp.indexOf('"console-1"') !== -1) {
@@ -155,15 +180,44 @@ dash_app.clientside_callback(
         } else if (triggeredProp.indexOf('"console-3"') !== -1) {
             activeData = data3;
         } else {
-            // fallback: prefer the most-recent non-null value
             activeData = data3 || data2 || data1;
         }
 
-        if (!activeData || !('uniprotAcc' in activeData) || !activeData.uniprotAcc || activeData.uniprotAcc.length === 0) {
+        if (!activeData) {
             return window.dash_clientside.no_update;
         }
 
-        window.open(`https://www.uniprot.org/uniprotkb/${activeData.uniprotAcc}`, "_blank");
+        if ('uniprotAcc' in activeData) {
+            if (isInvalidLink(activeData.uniprotAcc)) {
+                const node = activeData.label || activeData.id || "Unknown";
+                const type = activeData.type || "Unknown";
+
+                window.open(
+                    `/not-available?node=${encodeURIComponent(node)}&type=${encodeURIComponent(type)}`,
+                    "_blank"
+                );
+                return window.dash_clientside.no_update;
+            }
+
+            window.open(
+                `https://www.uniprot.org/uniprotkb/${activeData.uniprotAcc}`,
+                "_blank"
+            );
+
+        } else if ('link' in activeData) {
+            if (isInvalidLink(activeData.link)) {
+                const node = activeData.label || activeData.id || "Unknown";
+                const type = activeData.type || "Unknown";
+
+                window.open(
+                    `/not-available?node=${encodeURIComponent(node)}&type=${encodeURIComponent(type)}`,
+                    "_blank"
+                );
+                return window.dash_clientside.no_update;
+            }
+
+            window.open(activeData.link, "_blank");
+        }
 
         return window.dash_clientside.no_update;
     }
@@ -174,6 +228,7 @@ dash_app.clientside_callback(
     Input({'type': 'cy-graph','index':'console-3'}, "tapNodeData"),
     prevent_initial_call=True,
 )
+
 
 from flask import jsonify
 

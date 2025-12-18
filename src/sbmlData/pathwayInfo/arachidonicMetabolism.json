@@ -92,7 +92,7 @@
             "id": "s79",
             "class": "lipidMetabolite"
         },
-        "18-hydroxyeicosatetraenoic acids": {
+        "18-hydroxyeicosatetraenoic-acids": {
             "id": "s80",
             "class": "lipidMetabolite"
         },
@@ -1235,7 +1235,7 @@
                 "CATALYSIS"
             ]
         },
-        "r=arachidonic-acid;p=18-hydroxyeicosatetraenoicacids;g=cyp1b1": {
+        "r=arachidonic-acid;p=18-hydroxyeicosatetraenoic-acids;g=cyp1b1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "notAssignedInfo",
@@ -1243,7 +1243,7 @@
                 "Arachidonic-acid"
             ],
             "productList": [
-                "18-hydroxyeicosatetraenoic acids"
+                "18-hydroxyeicosatetraenoic-acids"
             ],
             "geneList": [
                 "CYP1B1"

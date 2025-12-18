@@ -1248,7 +1248,7 @@ lipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s28" id="s28" name="Arachidonoyl-CoA(AA-CoA)" compartment="default" initialAmount="0">
+<species metaid="s28" id="s28" name="Arachidonyl-CoA" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1264,7 +1264,7 @@ lipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Arachidonoyl-CoA(AA-CoA)</celldesigner:name>
+<celldesigner:name>Arachidonyl-CoA</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>

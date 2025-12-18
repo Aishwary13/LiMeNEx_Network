@@ -35,7 +35,7 @@ new_elements = [
     },
     
     {
-        "data": {"id": "lipid", "label": "365\nLipids",'parent' : 'metlayer'},
+        "data": {"id": "lipid", "label": "363\nLipids",'parent' : 'metlayer'},
         "position": {"x":90, "y": 320}
     },
     
@@ -45,7 +45,7 @@ new_elements = [
     },
     
     {
-        "data": {"id": "metabolite", "label": "406\nMetabolites",'parent' : 'metlayer'},
+        "data": {"id": "metabolite", "label": "404\nMetabolites",'parent' : 'metlayer'},
         "position": {"x":250, "y": 360}
     },
     

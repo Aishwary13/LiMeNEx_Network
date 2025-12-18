@@ -141,7 +141,7 @@ layout = html.Div([
                'paddingLeft': '3.8em', 
                'paddingBottom':'10px',
                'color': 'white',
-               'marginTop': '20px'}
+               'marginTop': '50px'}
     )
 
 ], style={'backgroundColor': "#101010", 'height': '100vh', 'overflow': 'auto'})

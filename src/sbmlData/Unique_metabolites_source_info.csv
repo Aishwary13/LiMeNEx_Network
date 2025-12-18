@@ -1,0 +1,405 @@
+﻿classification,metabolites,Chebi,kegg,PubChem,Lipidmaps,Notation
+lipid_species,"(11Z,14Z)-Icosadienoyl-CoA",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=76534,,,,"C20:2-CoA (11Z,14Z)"
+lipid_species,"(11Z,14Z,17Z)-Icosatrienoyl-CoA",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=74606,,,,"C20:3-CoA (11Z,14Z,17Z)"
+lipid_species,"(5Z,8Z,11Z)-Icosatrienoyl-CoA",,http://www.genome.jp/dbget-bin/www_bget?C21939,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=131802076,,"C20:3-CoA (5Z,8Z,11Z)"
+lipid_species,"(5Z,8Z,11Z,14Z,17Z)-Icosapentaenoyl-CoA",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=63539,,,,"C20:5-CoA (5Z,8Z,11Z,14Z,17Z)"
+lipid_species,"(7Z,10Z,13Z,16Z,19Z)-Docosapentaenoyl-CoA",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=63541,http://www.genome.jp/dbget-bin/www_bget?C21937,,,"C22:5-CoA (7Z,10Z,13Z,16Z,19Z)"
+lipid_species,"(8Z,11Z)-Icosadienoyl-CoA",,http://www.genome.jp/dbget-bin/www_bget?C21937,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=376218970,,"C20:2-CoA (8Z,11Z)"
+lipid_species,"(8Z,11Z,14Z,17Z)-Icosatetraenoyl-CoA",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=63542,http://www.genome.jp/dbget-bin/www_bget?C16164,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=56928013,,"C20:4-CoA (8Z,11Z,14Z,17Z)"
+lipid_class,beta-Galactosylceramide,https://www.ebi.ac.uk/chebi/CHEBI:143593,,,,b-D-GalCer
+lipid_derivative,"11b,17a,21-Trihydroxypregnenolone",https://www.ebi.ac.uk/chebi/CHEBI:171954,http://www.genome.jp/dbget-bin/www_bget?C05489,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440708,,"11b,17a,21-Trihydroxypregnenolone"
+lipid_derivative,11beta-Hydroxyprogesterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28247,http://www.genome.jp/dbget-bin/www_bget?C05498, ,,11b-Hydroxyprogesterone
+lipid_derivative,11-Dehydrocorticosterone,,http://www.genome.jp/dbget-bin/www_bget?C05490,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=13783449,,dehydrocorticosterone
+lipid_derivative,11-dehydro-TXB2,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28667,http://www.genome.jp/dbget-bin/www_bget?C05964,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440707,,11-dehydro-TXB2
+lipid_derivative,11-Deoxycorticosterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=16973,http://www.genome.jp/dbget-bin/www_bget?C03205,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=6166,,deoxycorticosterone
+lipid_derivative,11-Deoxycortisol,https://www.ebi.ac.uk/chebi/CHEBI:28324,http://www.genome.jp/dbget-bin/www_bget?C05488,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440707,,Deoxycortisol
+lipid_derivative,11epi-PGF2alpha,https://www.ebi.ac.uk/chebi/CHEBI:27595,https://www.genome.jp/dbget-bin/www_bget?C05959,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=53480669,,11-epi-PGF2a
+lipid_derivative,11-Hydroxyoctadecadienoic-acid(11-HODE),https://www.ebi.ac.uk/chebi/CHEBI:137305,,,,11-HODE
+lipid_derivative,"11-OH-12,13-EpOME",,,,https://www.lipidmaps.org/databases/lmsd/LMFA02000468,"11-OH-12,13-EpOME"
+lipid_derivative,12(13)-EpOME,https://www.ebi.ac.uk/chebi/CHEBI:38299,,,,12(13)-EpOME
+lipid_derivative,"12,14,15-epoxyeicosatrienoic acid(12,14,15-EET)",NA,NA,NA,NA,"12,14,15-EET"
+lipid_derivative,12R-hydroperoxy-eicosatetraenoic acid(12R-HpETE),https://www.ebi.ac.uk/chebi/CHEBI:34145,,https://pubchem.ncbi.nlm.nih.gov/compound/9548885,,12R-HpETE
+lipid_derivative,12S-hydro-eicosatetraenoic acid(12S-HETE),https://www.ebi.ac.uk/chebi/CHEBI:34146,,https://pubchem.ncbi.nlm.nih.gov/compound/5283155,,12S-HETE
+lipid_derivative,12S-hydroperoxy-eicosatetraenoic acid(12S-HpETE),https://www.ebi.ac.uk/chebi/CHEBI:15626,,https://pubchem.ncbi.nlm.nih.gov/compound/5280892,,12S-HpETE
+lipid_derivative,"13,14-dihydro-15-keto-PGE2",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15550,http://www.genome.jp/dbget-bin/www_bget?C04671,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280711,,"13,14-dihydro-15-keto-PGE2"
+lipid_derivative,"13,14-dihydro-15-keto-PGF2alpha",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=63976,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5283039,,"13,14-dihydro-15-keto-PGF2a"
+lipid_derivative,13-hpODE,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15655,http://www.genome.jp/dbget-bin/www_bget?C04717,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280720,,13-hpODE
+lipid_derivative,13-Hydroxyoctadecadienoic-acid(13-HODE),http://www.ebi.ac.uk/chebi/searchId.do?chebiId=34154,http://www.genome.jp/dbget-bin/www_bget?C14762,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=6443013,,13-HODE
+lipid_species,1-3-hydroxy-tetracosahexaenoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=65130,,,,C24:6(OH)-CoA
+lipid_species,1-3-oxo-tetracosahexaenoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=65131,http://www.genome.jp/dbget-bin/www_bget?C16376,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=70678653,,C24:6(oxo)-CoA
+lipid_derivative,15d-PGD2,,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=131769805,,15d-PGD2
+lipid_derivative,15d-PGJ2,https://www.ebi.ac.uk/chebi/CHEBI:34159,http://www.genome.jp/dbget-bin/www_bget?C14717,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5311211,,15d-PGJ2
+lipid_derivative,15-keto-PGD2,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15557,http://www.genome.jp/dbget-bin/www_bget?C04758,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280727,,15-keto-PGD2
+lipid_derivative,15-keto-PGE2,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15547,http://www.genome.jp/dbget-bin/www_bget?C04707,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280719,,15-keto-PGE2
+lipid_derivative,15-keto-PGF2alpha,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28442,http://www.genome.jp/dbget-bin/www_bget?C05960,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280887,,15-keto-PGF2a
+lipid_derivative,15-oxo-eicosatetraenoic acid(15-oxoETE),https://www.ebi.ac.uk/chebi/CHEBI:15559,,,,15-oxoETE
+lipid_derivative,15R-hydroxyeicosatetraenoic acid (15R-HETE),https://www.ebi.ac.uk/chebi/CHEBI:63989,,,,15R-HETE
+lipid_derivative,15S-hydroperoxyeicosatetraenoic acid(15S-HpETE),https://www.ebi.ac.uk/chebi/CHEBI:15628,,,,15S-HpETE
+lipid_derivative,15S-hydroxyeicosatetraenoic acid(15S-HETE),https://www.ebi.ac.uk/chebi/CHEBI:15558,,,,15S-HpETE
+lipid_derivative,16-hydroxyeicosatetraenoic acids,,,https://pubchem.ncbi.nlm.nih.gov/compound/22398293,,16-HETE
+lipid_derivative,16-Hydroxyoctadecadienoic-acid(16-HODE),https://www.ebi.ac.uk/chebi/CHEBI:194441,,https://pubchem.ncbi.nlm.nih.gov/compound/168007645,,16-HODE
+lipid_derivative,"17a,20a-Dihydroxycholesterol",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27832,,,,"17a,20a-diOH-Chol"
+lipid_derivative,"17a,21-Dihydroxypregnenolone",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27832,,22398293,,"17a,21-diOH-Pregnenolone"
+lipid_derivative,17a-Hydroxyallopregnanolone,https://www.ebi.ac.uk/chebi/CHEBI:194477,,,,17a-OH-Allopregnanolone
+lipid_derivative,17a-Hydroxypregnenolone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28750,,,,17a-OH-Pregnenolone
+lipid_derivative,17a-Hydroxyprogesterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=17252,,,,17a-OH-Progesterone
+lipid_derivative,17-hydroxyeicosatetraenoic acids,,,https://pubchem.ncbi.nlm.nih.gov/compound/6442740,,16-HETE
+lipid_derivative,17-Hydroxyoctadecadienoic-acid(17-HODE),NA,NA,NA,,17-HODE
+lipid_derivative,18-Hydroxycorticosterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=16485,,,,18-OH-Corticosterone
+lipid_derivative,18-hydroxyeicosatetraenoic-acids,https://www.ebi.ac.uk/chebi/CHEBI:63579,,https://pubchem.ncbi.nlm.nih.gov/compound/18-Hete,,18-HETE
+lipid_derivative,18-Hydroxyoctadecadienoic-acid(18-HODE),https://www.ebi.ac.uk/chebi/CHEBI:132472,,https://pubchem.ncbi.nlm.nih.gov/compound/19900865,,18-HODE
+lipid_derivative,19-Hydroxyandrostenedione,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27576,,,,19-OH-Androstenedione
+lipid_derivative,19-Hydroxytestosterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27406,,,,19-OH-Testosterone
+lipid_derivative,19-Oxoandrostenedione,,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440622,,19-oxo-Androstenedione
+lipid_derivative,19-Oxotestosterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=75308,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=7048589,,19-oxo-Testosterone
+lipid_subclass,1-acylglycerophosphocholine(AGPC),http://www.ebi.ac.uk/chebi/searchId.do?chebiId=11230,,,,AGPC
+lipid_derivative,"20a,22b-Dihydroxycholesterol",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=1294,http://www.genome.jp/dbget-bin/www_bget?C05501,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=53477897,,"20a,22b-diOH-Chol"
+lipid_derivative,20a-Hydroxycholesterol,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=1296,http://www.genome.jp/dbget-bin/www_bget?C05500,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440711,,20a-OH-Chol
+lipid_derivative,20-carboxy-leukotriene-B4 (LTB4),http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27562,http://www.genome.jp/dbget-bin/www_bget?C05950,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280877,,(20-COOH-LTB4)
+lipid_derivative,20-hydroxy-leukotriene-B4 (LTB4),http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15646,http://www.genome.jp/dbget-bin/www_bget?C04853,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280745,,(20-OH-LTB4)
+lipid_derivative,21-Deoxycortisol,https://www.ebi.ac.uk/chebi/CHEBI:28697,http://www.genome.jp/dbget-bin/www_bget?C05497,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=222803,,21-Deoxycortisol
+lipid_derivative,21-Hydroxypregnenolone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28043,http://www.genome.jp/dbget-bin/www_bget?C05485,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=247020,,21-OH-Pregnenolone
+lipid_derivative,22b-Hydroxycholesterol,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=67237,http://www.genome.jp/dbget-bin/www_bget?C05502,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=167685,,22b-OH-Chol
+lipid_derivative,"24,25-Dihydrolanosterol(dhLAN)",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28113,http://www.genome.jp/dbget-bin/www_bget?C05109,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440560,,dhLAN
+lipid_derivative,24-hydroxycholesterol,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=34310,http://www.genome.jp/dbget-bin/www_bget?C13550,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=121948,,24-OH-Chol
+lipid_species,2-Acetyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:57288,,,,C2:0-CoA (acetyl-CoA)
+lipid_species,2-acyl-Lysophosphatidic-acid,https://www.ebi.ac.uk/chebi/CHEBI:17936,,,,2-acyl-LPA
+lipid_species,2E-phytenoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:58856,,,,2E-phytenoyl-CoA
+lipid_species,2-hydroxyphytanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15475,http://www.genome.jp/dbget-bin/www_bget?C07343,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=441263,,C20:0(OH)-CoA
+lipid_derivative,2-oxo-eicosatetraenoic acid(12-oxoETE),https://www.ebi.ac.uk/chebi/CHEBI:75231,,,,12-oxoETE
+lipid_species,2R-Pristanoyl-CoA,,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=52922052,,2R-Pristanoyl-CoA
+lipid_species,2S-Pristanoyl-CoA,,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=52922051,,2S-Pristanoyl-CoA
+lipid_species,2-trans-4-cis-decadienoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=29119,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=6444117,,"C10:2-CoA (2E,4Z)"
+lipid_species,2-trans-dodecenoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15471,http://www.genome.jp/dbget-bin/www_bget?C03221,,,C12:1-CoA (2E)
+lipid_derivative,"3a,7a,12a,24(S)-tetrahydroxy-5b-cholestan-27-al",https://www.ebi.ac.uk/chebi/CHEBI:63849,,https://pubchem.ncbi.nlm.nih.gov/compound/56927976,,tetrahydroxycholestanal
+lipid_derivative,"3a,7a,24(S)-Trihydroxy-5b-cholestanoate",https://www.ebi.ac.uk/chebi/CHEBI:63848,,,,THCaoate
+lipid_species,bHMG-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15467,http://www.genome.jp/dbget-bin/www_bget?C00356,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=445127,,bHMG-CoA
+lipid_species,3-Hydroxybutanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15452,http://www.genome.jp/dbget-bin/www_bget?C03561,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=11966146,,C4:0(3-OH)-CoA
+lipid_species,3-hydroxy-butanoyl-ACP,,https://www.genome.jp/dbget-bin/www_bget?cpd:C04618,,,C4:0(OH)-ACP
+nonlipid,3-Hydroxybutyrate(3HBA),https://www.ebi.ac.uk/chebi/CHEBI:20067,,,,3HBA
+lipid_species,3-hydroxy-decanoyl-ACP,,http://www.genome.jp/dbget-bin/www_bget?C04619,,,C10:0(OH)-ACP
+lipid_species,3-Hydroxydecanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28325,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=16061159,,C10:0(3-OH)-CoA
+lipid_species,3-hydroxy-dodecanoyl-ACP,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=325,,,,C12:0(OH)-ACP
+lipid_species,3-Hydroxydodecanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:27668,,,,C12:0(3-OH)-CoA
+lipid_species,3-Hydroxy-hexadecanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:27402,,,,C16:0(3-OH)-CoA
+lipid_species,3-hydroxy-hexadecanoyl-ACP,,http://www.genome.jp/dbget-bin/www_bget?C04633,,,C16:0(OH)-ACP
+lipid_species,3-hydroxy-hexanoyl-ACP,,https://www.genome.jp/dbget-bin/www_bget?C05747,,,C6:0(OH)-ACP
+lipid_species,3-Hydroxyhexanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:28276,,,,C6:0(3-OH)-CoA
+lipid_species,3-hydroxy-octanoyl-ACP,,https://www.genome.jp/dbget-bin/www_bget?cpd:C04620,,,C8:0(OH)-ACP
+lipid_species,3-Hydroxyoctanoyl-CoA,,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=11966193,,C8:0(3-OH)-CoA
+lipid_species,3-hydroxypristanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=63914,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=56927993,,3-hydroxypristanoyl-CoA
+lipid_species,3-hydroxy-tetradecanoyl-ACP,,http://www.genome.jp/dbget-bin/www_bget?C04688,,,C14:0(OH)-ACP
+lipid_species,3-Hydroxytetradecanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:85205,,,,C14:0(3-OH)-CoA
+lipid_derivative,3-Ketosphinganine,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=17862,http://www.genome.jp/dbget-bin/www_bget?C02934,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=439853,,3-Ketosphinganine
+lipid_species,3-Ketoxypristanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:57291,,,,3-Ketoxypristanoyl-CoA
+lipid_species,3-Oxodecanoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:1634,,,,C10:0(3-oxo)-ACP
+lipid_species,3-Oxodecanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:28528,,,,C10:0(3-oxo)-CoA
+lipid_species,3-Oxo-dodecanoyl-ACP,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=1637,http://www.genome.jp/dbget-bin/www_bget?C05756,,,C12:0(3-oxo)-ACP
+lipid_species,3-Oxododecanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27868,http://www.genome.jp/dbget-bin/www_bget?C05263,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=16061158,,C12:0(3-oxo)-CoA
+lipid_species,3-Oxohexadecanoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:1639,http://www.genome.jp/dbget-bin/www_bget?C05762,,,C16:0(3-oxo)-ACP
+lipid_species,3-Oxo-hexadecanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15491,http://www.genome.jp/dbget-bin/www_bget?C05259,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440601,,C16:0(3-oxo)-CoA
+lipid_species,3-Oxohexanoyl-ACP,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=1642,http://www.genome.jp/dbget-bin/www_bget?C05746,,,C6:0(3-oxo)-ACP
+lipid_species,3-Oxo-hexanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27648,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=16061163,,C6:0(3-oxo)-CoA
+lipid_species,3-Oxo-octanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:28264,http://www.genome.jp/dbget-bin/www_bget?C05267,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=440608,,C8:0(3-oxo)-CoA
+lipid_species,3-Oxooctanoyl-ACP,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=1646,http://www.genome.jp/dbget-bin/www_bget?C05750,,,C8:0(3-oxo)-ACP
+lipid_species,3-oxopalmitoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15491,,,,C16:0(3-oxo)-CoA
+lipid_species,3-Oxo-tetradecanoyl-ACP,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=1655,http://www.genome.jp/dbget-bin/www_bget?C05759,,,C14:0(3-oxo)-ACP
+lipid_species,3-trans-decenoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=29126,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=16019966,,3-trans-decenoyl CoA
+lipid_species,"4,8,12-trimethyltridecanoyl-CoA",https://www.ebi.ac.uk/chebi/CHEBI:15495,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=131769860,,"4,8,12-trimethyltridecanoyl-CoA"
+lipid_derivative,"4,8-dimethylnonanoylcarnitine",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=63874,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=53477801,,DMN-Carnitine
+lipid_species,"4,8-dimethylnonanoyl-CoA",https://www.ebi.ac.uk/chebi/CHEBI:63856,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=53481003,,"4,8-dimethylnonanoyl-CoA"
+lipid_derivative,"4-Androsten-11b-ol-3,17-dione",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=8067,http://www.genome.jp/dbget-bin/www_bget?C05284,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=4762,,11b-OH-Androstenedione
+lipid_derivative,"4-Cholesten-7a,12a,24(S)-triol-3-one",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=48714,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=24755588,,Cholesten-triol-one
+lipid_derivative,"4-Cholesten-7a,24(S)-diol-3-one",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=48701,http://www.genome.jp/dbget-bin/www_bget?C17331,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=24755589,,Cholesten-diol-one
+lipid_derivative,4-cholesten-7alpha-ol-3-one,,,https://pubchem.ncbi.nlm.nih.gov/compound/123743,,Cholesten-ol-one
+lipid_species,"cis-4-decenoyl-CoA",https://www.ebi.ac.uk/chebi/CHEBI:29140,,,,"cis-4-decenoyl-CoA"
+lipid_derivative,4M4Cdienol,NA,NA,NA,NA,4M4Cdienol
+lipid_derivative,4MCdienone,NA,NA,NA,NA,4MCdienone
+lipid_derivative,4MCdienonol,https://www.ebi.ac.uk/chebi/CHEBI:87051,,,,4MCdienonol
+lipid_derivative,"5,6-epoxyeicosatrienoic acid(5,6-EET)",https://www.ebi.ac.uk/chebi/CHEBI:34450,,,,"5,6-EET"
+lipid_derivative,"5b-Cholestan-3a,7a,12a,24(S),27-pentol",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=63835,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=56927969,,5b-Cholestan-pentol
+lipid_derivative,"5b-Cholestan-3a,7a,12a,24(S)-tetrol",https://www.ebi.ac.uk/chebi/CHEBI:63834,,,,"5b-Cholestan-tetrol(3,7,12,24)"
+lipid_derivative,"5b-Cholestane-3a,7a,24(S),27-tetrol",https://www.ebi.ac.uk/chebi/CHEBI:63833,,https://pubchem.ncbi.nlm.nih.gov/compound/56928010,,"5b-Cholestan-tetrol(3,7,24,27)"
+lipid_derivative,"5b-Cholestan-3a,7a,24(S)-triol",https://www.ebi.ac.uk/chebi/CHEBI:63831,,,,5b-Cholestan-triol
+lipid_derivative,"5b-Cholestan-7a,24(S)-diol-3-one",https://www.ebi.ac.uk/chebi/CHEBI:63829,,,,5b-Cholestan-diol-one
+lipid_derivative,"5b-Cholesten-7a,12a,24(S)-triol-3-one",https://www.ebi.ac.uk/chebi/CHEBI:63830,,,,5b-Cholesten-triol-one
+lipid_derivative,"5b-Pregnane-3,20-dione",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28952,http://www.genome.jp/dbget-bin/www_bget?C03681,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=92810,,"5b-Pregnane-3,20-dione"
+lipid_derivative,5-hydroxyeicosatetraenoic acid(5-HETE),http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28209,http://www.genome.jp/dbget-bin/www_bget?C04805,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280733,,5-HETE
+lipid_derivative,5-oxo-eicosatetraenoic acid(5-oxoETE),https://www.ebi.ac.uk/chebi/CHEBI:52449,,,,5-oxoETE
+lipid_derivative,5S-hydroperoxyeicosatetranoic acid (5S-HpETE),https://www.ebi.ac.uk/chebi/CHEBI:15632,,,,5S-HpETE
+lipid_derivative,6-keto-PGF1alpha,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28158,http://www.genome.jp/dbget-bin/www_bget?C05961,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=5280888,,6-keto-PGF1alpha
+lipid_species,"6Z,9Z-Octadecadienoyl-CoA",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15530,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=52922047,,"C18:2-CoA (6Z,9Z)"
+lipid_derivative,7a-Hydroxypregnenolone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=81467,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=9967418,,7a-OH-Pregnenolone
+lipid_derivative,7alpha-cholesterol,,,https://pubchem.ncbi.nlm.nih.gov/compound/107722,,7alpha-Chol
+lipid_species,"8,11,14-Eicosatrienoyl-CoA",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27979,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=11966190,,"C20:3-CoA (8Z,11Z,14Z)"
+lipid_derivative,"8,9-epoxyeicosatrienoic acid(8,9-EET)",https://www.ebi.ac.uk/chebi/CHEBI:34490,,,,"8,9-EET"
+lipid_derivative,9(10)-EpOME,https://www.ebi.ac.uk/chebi/CHEBI:34494,,,,9(10)-EpOME
+lipid_derivative,9-hpODE,https://www.ebi.ac.uk/chebi/CHEBI:146293,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=1928,,9-HpODE
+lipid_derivative,9-Hydroxyoctadecadienoic-acid(9-HODE),https://www.ebi.ac.uk/chebi/CHEBI:72651,,,,9-HODE
+lipid_derivative,"9-OH-12,13-EpOME",https://www.ebi.ac.uk/chebi/CHEBI:165794,,,,"9-OH-12,13-EpOME"
+nonlipid,Acetate,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15366,http://www.genome.jp/dbget-bin/www_bget?C00033,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=176,,Ac-
+nonlipid,Acetoacetate(ACA),https://www.ebi.ac.uk/chebi/CHEBI:13705,,,,ACA
+lipid_species,Acetoacetyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:2393,,,,Acetoacetyl-ACP
+lipid_species,Acetoacetyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15345,http://www.genome.jp/dbget-bin/www_bget?C00332,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=92153,,Acetoacetyl-CoA
+lipid_species,Acetyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:57288,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=181,,C2:0-CoA
+lipid_species,Acetyl-ACP,,,https://pubchem.ncbi.nlm.nih.gov/compound/10484,,C2:0-ACP
+nonlipid,Acetylcholine,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15355,,,,Achol
+lipid_subclass,AcylCarnitine,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15414,,,,AcylCarnitine
+lipid_subclass,Acyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=17984,,,,Acyl-CoA
+lipid_derivative,Acyl-dihydroxyacetone-phosphate,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=16108,,,,Acyl-DHAP
+lipid_derivative,Adrenosterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=2495,,,,Adrenosterone
+lipid_derivative,Aldosterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27584,,,,Aldosterone
+lipid_derivative,"Allopregnane-3a,20a-diol",http://www.ebi.ac.uk/chebi/searchId.do?chebiId=81470,,,,"Allopregnane-3a,20a-diol"
+lipid_derivative,"Allopregnane-3a,20a-diol 5a-Pregnan-17a-ol-3,20-dione",https://www.ebi.ac.uk/chebi/CHEBI:81470,,,,"Allopregnane-3a,20a-diol"
+lipid_derivative,Allopregnanolone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=50169,,,,Allopregnanolone
+lipid_subclass,Alpha-Linolenic-Acid,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=27432,,,,ALA
+lipid_species,Alpha-Linolenoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=51985,,,,ALA-CoA
+lipid_derivative,anandamide,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=2700,,,,anandamide
+lipid_derivative,Androstenedione,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=16422,,,,Androstenedione
+lipid_derivative,Androsterone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=16032,,,,Androsterone
+lipid_species,Arachidic-acid,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=28822,,,,Arachidic-acid
+lipid_derivative,Arachidonic-acid,https://www.ebi.ac.uk/chebi/CHEBI:15843,,,,AA
+lipid_species,Arachidonyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15514,,,,Arachidonyl-CoA
+lipid_species,Arachidoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15527,,,,Arachidoyl-CoA
+lipid_species,But-2-enoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:132146,,,,C4:1-ACP(2E)
+lipid_species,Butanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:22954,,,,C4:0-CoA
+lipid_species,Butyryl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:3247,,,,C4:0-ACP
+lipid_class,Cardiolipin,https://www.ebi.ac.uk/chebi/CHEBI:28494,,,,CL
+nonlipid,Carnitine,http://ebi.ac.uk/chebi/CHEBI:17126,,,,Carn
+nonlipid,CDP-choline,https://www.ebi.ac.uk/chebi/CHEBI:16436,,,,CDP-cho
+nonlipid,CDP-ethanolamine (CDP-ETA),https://www.ebi.ac.uk/chebi/CHEBI:16732,,,,CDP-ETA
+lipid_subclass,N-acylsphingosine,https://www.ebi.ac.uk/chebi/CHEBI:52639,,,,CERA-d18
+lipid_subclass,Ceramide,https://www.ebi.ac.uk/chebi/CHEBI:17761,,http://www.lipidmaps.org/data/LMSDRecord.php?&LMID=LMSP02,,Cer
+lipid_species,Cerotoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:52966,,,,C26:0-CoA
+lipid_derivative,"Cholest-5-ene-3b,7a,24-triol",,,https://pubchem.ncbi.nlm.nih.gov/compound/24883434,,"Cholest-5-ene-3b,7a,24-triol"
+lipid_derivative,"Cholest-5-ene-3b,7a,25-triol",,,https://pubchem.ncbi.nlm.nih.gov/compound/11954197,,"Cholest-5-ene-3b,7a,25-triol"
+lipid_derivative,"Cholesta-5,7,24-trien-3b-ol",https://www.ebi.ac.uk/chebi/CHEBI:27910,,,,"Cholesta-5,7,24-trien-3b-ol"
+lipid_derivative,"Cholesta-7,24-dien-3b-ol",https://www.ebi.ac.uk/chebi/CHEBI:145214,,,,"Cholesta-7,24-dien-3b-ol"
+lipid_subclass,Cholesterol,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=16113,cholest-5-en-3?-ol,http://www.lipidmaps.org/data/LMSDRecord.php?&LMID=LMST01010001,,Chol
+lipid_subclass,Cholesteryl-ester(CE),https://www.ebi.ac.uk/chebi/CHEBI:142698,,,,CE(22:4)
+nonlipid,Choline,https://www.ebi.ac.uk/chebi/CHEBI:15354,,,,Cho
+lipid_class,Chylomicron-remnants(CE),NA,NA,NA,NA,Chylomicron-remnants(CE)
+lipid_species,"cis,cis-3,6-dodecadienoyl-CoA",https://www.ebi.ac.uk/chebi/CHEBI:28002,,,,"C12:2-CoA(3Z,6Z)"
+nonlipid,citrate,https://www.ebi.ac.uk/chebi/CHEBI:30769,,,,citrate
+nonlipid,CMP-Neu5Ac,https://www.ebi.ac.uk/chebi/CHEBI:16556,,,,CMP-Neu5Ac
+lipid_derivative,Corticosterone,https://www.ebi.ac.uk/chebi/CHEBI:16827,,,,Corticosterone
+lipid_derivative,Cortisol,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=17650,,,,Cortisol
+lipid_derivative,Cortisone,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=16962,,,,Cortisone
+lipid_species,"crotonoyl-coA",https://www.ebi.ac.uk/chebi/CHEBI:15473,,,,Cronoyl-CoA
+nonlipid,Cytidine-diphosphate-diacylglycerol(CDP-DAG),https://www.ebi.ac.uk/chebi/CHEBI:17962,,,,CDP-DAG
+nonlipid,D-beta-hydroxybutyrate,https://www.ebi.ac.uk/chebi/CHEBI:10983,,,,D-beta-OHB
+lipid_species,Decanoic Acid,https://www.ebi.ac.uk/chebi/CHEBI:30813,,,,decanoate
+lipid_species,Decanoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:4349,,,,C10:0-ACP
+lipid_species,Decanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:28493,,,,C10:0-CoA
+lipid_derivative,Dehydroepiandrosterone,https://www.ebi.ac.uk/chebi/CHEBI:28689,,,,DHEA
+lipid_derivative,delta12-PGJ2,https://www.ebi.ac.uk/chebi/CHEBI:28130,,,,delta12-PGJ2
+lipid_species,Delta2-tetracosaheptaenoyl(DHA-CoA),https://www.ebi.ac.uk/chebi/CHEBI:65139,,,,THA-CoA (delta2)
+lipid_derivative,Desmosterol,https://www.ebi.ac.uk/chebi/CHEBI:17737,,,,Desmosterol
+lipid_subclass,Diacylglycerol(DAG),,,https://pubchem.ncbi.nlm.nih.gov/compound/6026790,,DAG
+lipid_subclass,Dietary-Triglycerides,NA,,,,Dietary-TAG
+lipid_class,Digalactosylceramide(Gal2Cer),https://www.ebi.ac.uk/chebi/CHEBI:134506,,,,Gal2Cer
+lipid_species,Dihomo-gamma-linolenic-acid,https://www.ebi.ac.uk/chebi/CHEBI:53486,,,,DGLA
+lipid_derivative,Dihomo-Gamma-Linolenoyl-CoA,,,https://pubchem.ncbi.nlm.nih.gov/compound/157010222,,DGLA-CoA
+lipid_species,Dihydroceramide(DHCE),https://www.ebi.ac.uk/chebi/CHEBI:139048,,,,DHCE
+lipid_derivative,Dihydrotestosterone,https://www.ebi.ac.uk/chebi/CHEBI:16330,,,,DHT
+nonlipid,Dihydroxy-acetone-phosphate(DHAP),https://www.ebi.ac.uk/chebi/CHEBI:16108,,,,DHAP
+lipid_derivative,dihydroxy-acid-leukotriene-B4 (LTB4),https://www.ebi.ac.uk/chebi/CHEBI:15647,,,,dihydroxy-LTB4
+lipid_subclass,Dilysocardiolipin (DLCL),https://www.ebi.ac.uk/chebi/CHEBI:60431,,,,DLCL
+lipid_Derivative,Dimethylallyl-pyrophosphate(DMAPP),https://www.ebi.ac.uk/chebi/CHEBI:16057,,,,DMAPP
+lipid_derivative,"DMCHOLtrienol",https://www.ebi.ac.uk/chebi/CHEBI:17813,,,,DMCHOLtrienol
+lipid_derivative,DMLAdienol,https://www.ebi.ac.uk/chebi/CHEBI:18364,,,,DMLAdienol
+lipid_Derivative,Docosahexaenoic-acid,https://www.ebi.ac.uk/chebi/CHEBI:28125,,,,DHA
+lipid_species,Docosahexaenoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:65132,,,,DHA-CoA
+lipid_species,Docosanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:65088,,,,behenoyl-CoA
+lipid_species,Docosapentaenoyl-CoA(DPA-CoA),,,https://pubchem.ncbi.nlm.nih.gov/compound/56928012,,DPA-CoA
+lipid_species,Docosatetraenoyl-CoA(DTA-CoA),https://www.ebi.ac.uk/chebi/CHEBI:63544,,https://pubchem.ncbi.nlm.nih.gov/compound/56927910,,DTA-CoA
+lipid_species,dodecanoic-acid,https://www.ebi.ac.uk/chebi/CHEBI:30805,,,,laurate
+lipid_species,Dodecanoyl-ACP,,,https://pubchem.ncbi.nlm.nih.gov/compound/447624,,C12:0-ACP
+lipid_species,Dodecanoyl-CoA,http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15521,,,,C12:0-CoA
+lipid_species,3-oxotetradecanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:28726,,,,C14:0(3-oxo)-CoA
+lipid_species,Eicosapentaenoyl-CoA (EPA-CoA),https://www.ebi.ac.uk/chebi/CHEBI:63539,,https://pubchem.ncbi.nlm.nih.gov/compound/56927904,,EPA-CoA
+lipid_species,Eicosatetraenoyl-CoA(ETA-CoA),https://www.ebi.ac.uk/chebi/CHEBI:76538,,,,ETA-CoA
+lipid_derivative,eoxin-A4(EXA4),https://www.ebi.ac.uk/chebi/CHEBI:63983,,,,EXA4
+lipid_derivative,eoxin-C4(EXC4),https://www.ebi.ac.uk/chebi/CHEBI:63984,,,,EXC4
+lipid_derivative,eoxin-D4(EXD4),https://www.ebi.ac.uk/chebi/CHEBI:63985,,,,EXD4
+lipid_derivative,eoxin-E4(EXE4),https://www.ebi.ac.uk/chebi/CHEBI:63986,,,,EXE4
+lipid_derivative,Estradiol,https://www.ebi.ac.uk/chebi/CHEBI:16469,,,,Estradiol
+lipid_derivative,Estrone,https://www.ebi.ac.uk/chebi/CHEBI:17263,,,,Estrone
+lipid_species,Farnesyl-pyrophosphate(FPP),https://www.ebi.ac.uk/chebi/CHEBI:17407,,,,FPP
+lipid_subclass,Fatty-Acids,https://www.ebi.ac.uk/chebi/CHEBI:35366,,,,FA
+lipid_subclass,Fatty-Acyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:37554,,,,FA-CoA
+lipid_species,Formyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15522,,,,Formyl-CoA
+lipid_class,Free-choelsterol(FC),,,,,FC
+lipid_subclass,Free-Fatty-acid(FFA),https://www.ebi.ac.uk/chebi/CHEBI:132494,,,,FFA
+lipid_derivative,FucGA1,https://www.ebi.ac.uk/chebi/CHEBI:90262,,,,FucGA1
+lipid_derivative,FucGM1,https://www.ebi.ac.uk/chebi/CHEBI:61575,,,,FucGM1
+lipid_class,Galactocerebroside-(GalCer),https://www.ebi.ac.uk/chebi/CHEBI:36498,,,,GalCer
+nonlipid,Galactose,https://www.ebi.ac.uk/chebi/CHEBI:28061,,,,Gal
+lipid_species,Gamma-Linolenoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15508,,,,GLA
+lipid_class,Ganglioside(GA1),https://www.ebi.ac.uk/chebi/CHEBI:27938,,https://pubchem.ncbi.nlm.nih.gov/compound/22833634,,GA1
+lipid_class,Ganglioside(GA2),,,https://pubchem.ncbi.nlm.nih.gov/compound/133126497,,GA2
+lipid_class,Ganglioside(GD1A),https://www.ebi.ac.uk/chebi/CHEBI:18163,,https://pubchem.ncbi.nlm.nih.gov/compound/44145122,,GD1A
+lipid_class,Ganglioside(GD1B),https://www.ebi.ac.uk/chebi/CHEBI:28175,,https://pubchem.ncbi.nlm.nih.gov/compound/6450237,,GD1B
+lipid_class,Ganglioside(GD1C),https://www.ebi.ac.uk/chebi/CHEBI:87990,,https://pubchem.ncbi.nlm.nih.gov/substance/405236931,,GD1C
+lipid_class,Ganglioside(GD2),https://www.ebi.ac.uk/chebi/CHEBI:28648,,,,GD2
+lipid_class,Ganglioside(GM1),https://www.ebi.ac.uk/chebi/CHEBI:61048,,,,GM1
+lipid_class,Ganglioside(GM1B),https://www.ebi.ac.uk/chebi/CHEBI:141970,,,,GM1B
+lipid_class,Ganglioside(GM2),https://www.ebi.ac.uk/chebi/CHEBI:141416,,,,GM2
+lipid_class,Ganglioside(GM3),https://www.ebi.ac.uk/chebi/CHEBI:84118,,,,GM3
+lipid_class,Ganglioside(GM4),https://www.ebi.ac.uk/chebi/CHEBI:191904,,,,GM4
+lipid_class,Ganglioside(GQ1B),https://www.ebi.ac.uk/chebi/CHEBI:27515,,,,GQ1B
+lipid_class,Ganglioside(GT1A),https://www.ebi.ac.uk/chebi/CHEBI:27691,,,,GT1A
+lipid_class,Ganglioside(GT1B),https://www.ebi.ac.uk/chebi/CHEBI:60913,,,,GT1B
+lipid_class,Ganglioside-GD1alpha(GD1a),https://www.ebi.ac.uk/chebi/CHEBI:82607,,,,GD1a
+nonlipid,GDP-fucose,https://www.ebi.ac.uk/chebi/CHEBI:64608,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=451,,GDP-Fuc
+lipid_derivative,Geranylgeranyl-pyrophosphate(GGPP),https://www.ebi.ac.uk/chebi/CHEBI:48861,,,,GGPP
+lipid_class,Globotetraosylceramide,https://www.ebi.ac.uk/chebi/CHEBI:140712,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=20057343,,Gb4Cer
+lipid_class,Globotriaosylceramide,https://www.ebi.ac.uk/chebi/CHEBI:18313,,,,Gb3Cer
+lipid_class,Glucosylceramide(GlcCer),https://www.ebi.ac.uk/chebi/CHEBI:36500,,,,GlcCer
+nonlipid,Glycerol,https://www.ebi.ac.uk/chebi/CHEBI:17754,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=753,,Gly
+nonlipid,Glycerol-3-phosphate(G3P),https://www.ebi.ac.uk/chebi/CHEBI:15978,,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=439162,,G3P
+nonlipid,Glycerophosphocholine(GPC),https://www.ebi.ac.uk/chebi/CHEBI:36313,,,,GPC
+nonlipid,Glycerophosphoethanolamine(GPETA),https://www.ebi.ac.uk/chebi/CHEBI:36314,,,,GPETA
+nonlipid,GroPIns(1-(sn-glycero-3-O-phosphonato)-1D-myo-inositol),https://www.ebi.ac.uk/chebi/CHEBI:18321,,,,GroPlns
+lipoprotein,HDL(PL+TG),https://www.ebi.ac.uk/chebi/CHEBI:39025,,,,HDL(PL+TG)
+lipid_derivative,hepoxilin-A3,https://www.ebi.ac.uk/chebi/CHEBI:36190,,,,HxA3
+lipid_species,Hexanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:27540,,,,C6:0-CoA
+lipid_species,Hexanoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:5704,,,,C6:0-ACP
+lipid_species,HMG-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15467,,,,HMG-CoA
+lipid_species,Icosenoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:74126,http://www.genome.jp/dbget-bin/www_bget?C16530,,,Icosenoyl-CoA
+lipoprotein,IDL(TG),https://www.ebi.ac.uk/chebi/CHEBI:132933,,,,IDL(TG)
+nonlipid,Isocaproaldehyde,https://www.ebi.ac.uk/chebi/CHEBI:17998,http://www.genome.jp/dbget-bin/www_bget?C02373,http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=129,,Isocapro-CHO
+lipid_derivative,Isopentenyl-pyrophosphate(IPPP),https://www.ebi.ac.uk/chebi/CHEBI:16584,,,,IPPP
+lipid_class,Lactosylceramide(LacCer),https://www.ebi.ac.uk/chebi/CHEBI:89446,,,,LacCer
+lipid_subclass,Lactotriaosylceramide(Lc3Cer),,,https://pubchem.ncbi.nlm.nih.gov/substance/7402,,Lc3Cer
+lipid_derivative,Lanosterol,https://www.ebi.ac.uk/chebi/CHEBI:16521,,,,Lanosterol
+lipid_species, lauroyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15521,,,,Lauroyl CoA
+lipoprotein,LDL(CE+PL+FC),https://www.ebi.ac.uk/chebi/CHEBI:39026,,,,LDL(CE+PL+FC)
+lipid_derivative,leukotriene-A4(LTA4),https://www.ebi.ac.uk/chebi/CHEBI:15651,,,,LTA4
+lipid_derivative,leukotriene-C4(LTC4),https://www.ebi.ac.uk/chebi/CHEBI:16978,,,,LTC4
+lipid_derivative,leukotriene-D4(LTD4),https://www.ebi.ac.uk/chebi/CHEBI:28666,,,,LTD4
+lipid_derivative,leukotriene-E4(LTE4),https://www.ebi.ac.uk/chebi/CHEBI:15650,,,,LTE4
+lipid_subclass,Linoleic-Acid,https://www.ebi.ac.uk/chebi/CHEBI:17351,,http://www.lipidmaps.org/data/LMSDRecord.php?&LMID=LMFA01030120,,LA
+lipid_species,Linoleoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15530,,,,Linoleoyl-CoA
+lipid_subclass,Lysophosphatidic-acid(LPA),https://www.ebi.ac.uk/chebi/CHEBI:32957,,,,LPA
+lipid_subclass,Lysophosphatidylcholine(LPC),,,https://pubchem.ncbi.nlm.nih.gov/compound/5311264,,LPC
+lipid_subclass,Lysophosphatidylglycerol(LPG),,,https://pubchem.ncbi.nlm.nih.gov/compound/5289143,,LPG
+lipid_subclass,Lysophosphatidylinositol(LPI),,,https://pubchem.ncbi.nlm.nih.gov/compound/73755067,,LPI
+lipid_subclass,Lysophosphatidylserine (LPS),,,https://pubchem.ncbi.nlm.nih.gov/compound/42607474,,LPS
+lipid_class,Lysophospholipids,,,https://pubchem.ncbi.nlm.nih.gov/substance/172819124,,Lysophospholipids
+lipid_species,Malonyl-ACP,https://pubchem.ncbi.nlm.nih.gov/substance/4431,,,,Malonyl-ACP
+lipid_species,Malonyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:57384,,,,malonyl-CoA
+lipoprotein,Mature-HDL(CE+PL),https://www.ebi.ac.uk/chebi/CHEBI:47775,,,,Mature-HDL(CE+PL)
+lipid_derivative,Mevalonate(MVA),https://www.ebi.ac.uk/chebi/CHEBI:25350,,,,MVA
+lipid_derivative,Mevalonate-5-phosphate(MVA5P),,,https://pubchem.ncbi.nlm.nih.gov/compound/439400,,MVA5P
+lipid_derivative,Mevalonate-5-pyrophosphate(MVA5PP),,,https://pubchem.ncbi.nlm.nih.gov/compound/139033581,,MVA5PP
+lipid_class,Monoacylglycerol,https://www.ebi.ac.uk/chebi/CHEBI:17408,,,,MAG
+lipid_subclass,Monolysocardiolipin (MLCL),https://www.ebi.ac.uk/chebi/CHEBI:84302,,https://pubchem.ncbi.nlm.nih.gov/compound/86290183,,MLCL
+lipid_species,Montanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:74150,,https://pubchem.ncbi.nlm.nih.gov/compound/71581022,,Montanoyl-CoA
+lipid_species,myristoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15532,,https://pubchem.ncbi.nlm.nih.gov/compound/11966124,,Myristoyl CoA
+nonlipid,N-acetylgalactosamine(GalNAc),https://www.ebi.ac.uk/chebi/CHEBI:28800,,https://pubchem.ncbi.nlm.nih.gov/compound/84265,,GalNAc
+lipid_class,Nascent-Chylomicrons,NA,NA,NA,,Nascent-Chylomicrons
+lipoprotein,Nascent-HDL(FC),https://www.ebi.ac.uk/chebi/CHEBI:47775,,,,Nascent-HDL(FC)
+lipoprotein,Nascent-VLDL,https://www.ebi.ac.uk/chebi/CHEBI:39027,,,,Nascent-VLDL
+lipid_species,Octanoic Acid,https://www.ebi.ac.uk/chebi/CHEBI:28837,,,,C8:0
+lipid_species,Octanoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:7725,,,,C8:0-ACP
+lipid_species,Octanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15533,,,,C8:0-CoA
+lipid_species,Oleic-acid,https://www.ebi.ac.uk/chebi/CHEBI:16196,,https://pubchem.ncbi.nlm.nih.gov/compound/445639,,Oleic-acid
+lipid_species,Oleoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:57387,,,,Oleoyl-CoA
+lipid_species,palmitate,https://www.ebi.ac.uk/chebi/CHEBI:15756,,,,hexadecanoic-Acid
+lipid_species,Palmitoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:57379,,,,Palmitoyl CoA
+lipid_species,Palmitoyl-ACP,,,https://pubchem.ncbi.nlm.nih.gov/substance/405228276,,Palmitoyl-ACP
+lipid_species,Palmitoylcarnitine(L-PCARN),https://www.ebi.ac.uk/chebi/CHEBI:73067,,https://pubchem.ncbi.nlm.nih.gov/compound/461,,L-PCARN
+lipid_derivative,PGA2,https://www.ebi.ac.uk/chebi/CHEBI:27820,,,,PGA2
+lipid_derivative,PGB2,https://www.ebi.ac.uk/chebi/CHEBI:28099,,https://pubchem.ncbi.nlm.nih.gov/compound/5280880,,PGB2
+lipid_derivative,PGC2,https://www.ebi.ac.uk/chebi/CHEBI:27555,,https://pubchem.ncbi.nlm.nih.gov/compound/5280882,,PGC2
+lipid_derivative,PGD2,https://www.ebi.ac.uk/chebi/CHEBI:15555,,https://pubchem.ncbi.nlm.nih.gov/compound/448457,,PGD2
+lipid_derivative,PGE2,https://www.ebi.ac.uk/chebi/CHEBI:15551,,https://pubchem.ncbi.nlm.nih.gov/compound/5280360,,PGE2
+lipid_derivative,PGF2alpha,https://www.ebi.ac.uk/chebi/CHEBI:15553,,https://pubchem.ncbi.nlm.nih.gov/compound/5280363,,PGF2alpha
+lipid_derivative,PGG2,https://www.ebi.ac.uk/chebi/CHEBI:27647,,https://pubchem.ncbi.nlm.nih.gov/compound/5280883,,PGG2
+lipid_derivative,PGH2,https://www.ebi.ac.uk/chebi/CHEBI:15554,,https://pubchem.ncbi.nlm.nih.gov/compound/445049,,PGH2
+lipid_derivative,PGI2,https://www.ebi.ac.uk/chebi/CHEBI:15552,,https://pubchem.ncbi.nlm.nih.gov/compound/5282411,,PGI2
+lipid_derivative,PGJ2,https://www.ebi.ac.uk/chebi/CHEBI:27485,,https://pubchem.ncbi.nlm.nih.gov/compound/5280884,,PGJ2
+lipid_subclass,Phosphatidic-acid(PA),https://www.ebi.ac.uk/chebi/CHEBI:16337,,,,PA
+lipid_subclass,Phosphatidylcholine,https://www.ebi.ac.uk/chebi/CHEBI:64482,,,,PC
+lipid_class,Phosphatidylethanolamine,https://www.ebi.ac.uk/chebi/CHEBI:47767,,,,PE
+lipid_class,Phosphatidylglycerol,,,https://pubchem.ncbi.nlm.nih.gov/compound/45109789,,PG
+lipid_subclass,Phosphatidylglycerophosphate(PGP),,,https://pubchem.ncbi.nlm.nih.gov/compound/176454263,,PGP
+lipid_subclass,"Phosphatidylinositol 3,4,5-trisphosphate(PI(3,4,5)P3)",,,https://pubchem.ncbi.nlm.nih.gov/compound/9547157,,"PI(3,4,5)P3"
+lipid_subclass,"Phosphatidylinositol 3,4-bisphosphate(PI(3,4)P2)",,,https://pubchem.ncbi.nlm.nih.gov/compound/643960,,"PI(3,4)P2"
+lipid_subclass,"Phosphatidylinositol 4,5-bisphosphate(PI(4,5)P2)",,,https://pubchem.ncbi.nlm.nih.gov/compound/5311358,,"PI(4,5)P2"
+lipid_subclass,Phosphatidylinositol(PI),,,https://pubchem.ncbi.nlm.nih.gov/compound/Phosphatidylinositols,,PI
+lipid_subclass,"Phosphatidylinositol-3,5-bisphosphate-PI(3,5)P2",https://www.ebi.ac.uk/chebi/CHEBI:85342,,,,"PI(3,5)P2"
+lipid_subclass,Phosphatidylinositol-3-phosphate(PI3P),https://www.ebi.ac.uk/chebi/CHEBI:26034,,,,PI3P
+lipid_subclass,Phosphatidylinositol-4-phosphate(PI4P),https://www.ebi.ac.uk/chebi/CHEBI:37530,,,,PI4P
+lipid_subclass,Phosphatidylinositol-5-phosphate(PI5P),https://www.ebi.ac.uk/chebi/CHEBI:37329,,,,PI5P
+lipid_subclass,Phosphatidylserine(PS),,,https://pubchem.ncbi.nlm.nih.gov/compound/9547096,,PS
+nonlipid,Phosphoadenylylsulfate(PAPS),https://www.ebi.ac.uk/chebi/CHEBI:848,,https://pubchem.ncbi.nlm.nih.gov/compound/440048,,PAPS
+nonlipid,Phosphocholine,https://www.ebi.ac.uk/chebi/CHEBI:18132,,,,Pcho
+lipid_class,Phospholipids,https://www.ebi.ac.uk/chebi/CHEBI:16247,,,,PL
+lipid_species,Phytanate,https://www.ebi.ac.uk/chebi/CHEBI:37257,,https://pubchem.ncbi.nlm.nih.gov/compound/11966211,,phytanic acid
+lipid_species,Phytanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15538,,https://pubchem.ncbi.nlm.nih.gov/compound/439640,,Phytanoyl-CoA
+lipid_species,Phytoceramide(PCE),https://www.ebi.ac.uk/chebi/CHEBI:139051,,,,PCE
+lipid_derivative,Phytosphingosine,https://www.ebi.ac.uk/chebi/CHEBI:46961,,,,Phytosphingosine
+lipid_derivative,Pregnanolone,https://www.ebi.ac.uk/chebi/CHEBI:1712,,,,Pregnanolone
+lipid_derivative,Pregnenolone,https://www.ebi.ac.uk/chebi/CHEBI:16581,,,,Pregnenolone
+lipid_derivative,Presqualene-diphosphate(PSQPP),https://www.ebi.ac.uk/chebi/CHEBI:15442,,,,PSQPP
+lipid_derivative,Presqualene-monophosphate(PSMP),https://www.ebi.ac.uk/chebi/CHEBI:134117,,,,PSMP
+lipid_derivative,Pristanal,https://www.ebi.ac.uk/chebi/CHEBI:49189,,,,Pristanal
+lipid_species,Pristanate,https://www.ebi.ac.uk/chebi/CHEBI:77268,,,,Pristanate
+lipid_derivative,Progesterone,https://www.ebi.ac.uk/chebi/CHEBI:17026,,,,Progesterone
+lipid_derivative,Propionylcarnitine,https://www.ebi.ac.uk/chebi/CHEBI:28867,,,,Propionylcarnitine
+lipid_species,Propionyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15539,,,,Propionyl-CoA
+lipid_species,Sapienoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:74610,,,,Sapienoyl-CoA
+lipid_species,Sphinganine,https://www.ebi.ac.uk/chebi/CHEBI:16566,,,,Sphinganine
+lipid_subclass,Sphingomyelin,https://www.ebi.ac.uk/chebi/CHEBI:83358,,,,SM
+lipid_species,Sphingosine,https://www.ebi.ac.uk/chebi/CHEBI:16393,,,,Sphingosine
+lipid_derivative,Sphingosine-1-phosphate(S1P),https://www.ebi.ac.uk/chebi/CHEBI:37550,,,,S1P
+lipid_derivative,Squalene(SQNE),https://www.ebi.ac.uk/chebi/CHEBI:15440,,,,SQNE
+lipid_derivative,"Squalene-2,3-Epoxide",https://www.ebi.ac.uk/chebi/CHEBI:78662,,,,"Squalene-2,3-Epoxide"
+lipid_species,Stearic-acid,https://www.ebi.ac.uk/chebi/CHEBI:25629,,,,Stearic-acid
+lipid_species,Stearidonoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:63545,,,,Stearidonoyl-CoA
+lipid_species,Stearoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:57394,,,,Stearoyl-CoA
+nonlipid,Succinate,https://www.ebi.ac.uk/chebi/CHEBI:15741,,,,Succinate
+lipid_species,Succinyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15380,,,,Succinyl-CoA
+lipid_subclass,Sulfated-Glycosphingolipid(SM2),https://www.ebi.ac.uk/chebi/CHEBI:90163,,,,SM2
+lipid_subclass,Sulfated-Glycosphingolipid(SM3),NA,NA,NA,NA,SM3
+lipid_subclass,Sulfogalactoceramide,,,https://pubchem.ncbi.nlm.nih.gov/compound/5459389,,SGalCer
+lipid_derivative,Testosterone,https://www.ebi.ac.uk/chebi/CHEBI:17347,,,,Testosterone
+lipid_species,Tetracosahexaenoyl-CoA(THA-CoA),https://www.ebi.ac.uk/chebi/CHEBI:63540,,,,THA-CoA
+lipid_species,Tetracosanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:52974,,https://pubchem.ncbi.nlm.nih.gov/compound/53477849,,C24:0-CoA
+lipid_species,tetracosapentaenoyl-CoA(TPA-CoA),https://www.ebi.ac.uk/chebi/CHEBI:63543,,,,TPA-CoA
+lipid_species,Tetracosatetraenoyl-CoA(TTA-CoA),https://www.ebi.ac.uk/chebi/CHEBI:63548,,https://pubchem.ncbi.nlm.nih.gov/compound/56928014,,TTA-CoA
+lipid_species,tetradecanoic-acid,https://www.ebi.ac.uk/chebi/CHEBI:28875,,https://pubchem.ncbi.nlm.nih.gov/compound/11005,,myristic acid
+lipid_species,Tetradecanoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:50651,,,,C14:0-ACP
+lipid_species,tetradecanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15532,,,,C14:0-CoA
+lipid_derivative,Tetrahydroxy-5b-cholestanoate,,,https://pubchem.ncbi.nlm.nih.gov/compound/22833587,,THCAoate
+lipid_species,"trans,cis-Lauro-2,6-dienoyl-CoA",https://www.ebi.ac.uk/chebi/CHEBI:28387,,,,"C12:2-CoA (2E,6Z)"
+lipid_species,"Trans-2,3-dehydropristanoyl-CoA",https://www.ebi.ac.uk/chebi/CHEBI:63803,,,,DHP-CoA
+lipid_species,trans-dec-2-enoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:10724,,,,C10:1-ACP(2E)
+lipid_species,trans-dec-2-enoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:10723,,,,C10:1-CoA(2E)
+lipid_species,trans-dodec-2-enoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:10725,,,,C12:1-ACP(2E)
+lipid_species,trans-dodec-2-enoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15471,,,,C12:1-CoA (2E)
+lipid_species,trans-hex-2-enoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:10727,,,,C6:1-ACP(2E)
+lipid_species,Trans-hex-2-enoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:28706,,,,C6:1-CoA(2E)
+lipid_species,trans-hexadec-2-enoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:10729,,,,C16:1-ACP(2E)
+lipid_species,"trans-Hexadec-2-enoyl-CoA",https://www.ebi.ac.uk/chebi/CHEBI:28935,,,,C16:1-CoA(2E)
+lipid_species,trans-oct-2-enoyl-ACP,,,https://pubchem.ncbi.nlm.nih.gov/substance/8046,,C8:1-ACP(2E)
+lipid_species,trans-oct-2-enoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:27537,,,,C8:1-CoA(2E)
+lipid_species,trans-tetradec-2-enoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:10735,,,,C14:1-ACP(2E)
+lipid_species,trans-tetradec-2-enoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:27721,,,,C14:1-CoA(2E)
+lipid_class,Triacylglycerol,https://www.ebi.ac.uk/chebi/CHEBI:17855,,,,TAG
+lipid_derivative,TXA2,https://www.ebi.ac.uk/chebi/CHEBI:15627,,,,TXA2
+lipid_derivative,TXB2,https://www.ebi.ac.uk/chebi/CHEBI:28728,,,,TXB2
+nonlipid,UDP-alpha-D-galactose,https://www.ebi.ac.uk/chebi/CHEBI:67119,,https://pubchem.ncbi.nlm.nih.gov/compound/4523445,,UDP-Gal
+nonlipid,UDP-galactose(UDP-Gal),https://www.ebi.ac.uk/chebi/CHEBI:18307,,,,UDP-Gal
+nonlipid,UDP-Glucose(UDP-Glu),https://www.ebi.ac.uk/chebi/CHEBI:233760,,,,UDP-Glc
+lipoprotein,VLDL(PL+CE),NA,NA,NA,,VLDL(PL+CE)
+lipoprotein,VLDL(PL+TG),https://www.ebi.ac.uk/chebi/CHEBI:39027,,,,VLDL(PL+TG)
+lipoprotein,VLDL(TG),https://www.ebi.ac.uk/chebi/CHEBI:47776,,,,VLDL(TG)
+lipid_species,Ximenoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:74149,,,,ximenoyl
+lipid_derivative,Zymosterol,https://www.ebi.ac.uk/chebi/CHEBI:18252,,,,Zymosterol
+lipid_derivative,Zymosterone,https://www.ebi.ac.uk/chebi/CHEBI:52386,,,,Zymosterone
+lipid_species,Phosphoethanolamine(PE),https://www.ebi.ac.uk/chebi/CHEBI:36711,,,,
+nonlipid,Ethanolamine(ETA),https://www.ebi.ac.uk/chebi/CHEBI:16000,,,,
+lipid_species,"5a-Pregnane-3,20-dione",https://www.ebi.ac.uk/chebi/CHEBI:233714,,,,
