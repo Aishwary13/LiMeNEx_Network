@@ -57,7 +57,7 @@ console2_layout = html.Div([
             
             html.Div([
                 html.Button(
-                    [html.I(className="fa-solid fa-image"), html.Span("Export PNG", className="btn-text")],
+                    [html.I(className="fa-solid fa-image"), html.Span("Export SVG", className="btn-text")],
                     id={'type':"download-png-btn", 'index': 'console-2'},
                     n_clicks=0,
                     className='download-action btn-png',
