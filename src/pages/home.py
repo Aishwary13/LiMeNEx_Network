@@ -340,7 +340,7 @@ layout = html.Div([
     
     
     html.Div([
-        html.Div("© 2025 LiMeNEx — Ray Lab. All rights reserved.", style={"opacity": 0.6}),
+        html.Div("© 2026 LiMeNEx — Ray Lab. All rights reserved.", style={"opacity": 0.6}),
     ],
     style={'position':'relative',
             'bottom':'0px','display' : 'flex',
