@@ -429,9 +429,9 @@ def populate_table(tf_value, gene_value):
                 "autoHeight": False,
             },
 
-            {"field": "chea", "flex": 1},
-            {"field": "Signor", "flex": 1},
-            {"field": "Trrust", "flex": 1},
+            {"field": "chea", "headerName":"Chea(PMIDs)","flex": 1},
+            {"field": "Signor", "headerName":"Signor(PMIDs)","flex": 1},
+            {"field": "Trrust", "headerName":"Trrust(PMIDs)","flex": 1},
         ]
                 
         # ---- Return for Dash DataTable ----

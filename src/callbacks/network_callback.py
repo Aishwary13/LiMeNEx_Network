@@ -252,16 +252,12 @@ def validate_parents(nodes):
 
 @callback(
     Output('Modal-store','data',allow_duplicate=True),
-    # Output({'type': 'cy-graph','index':'console-1'},'elements'),
     Output("cy-elements-store", "data"),
-    # Output({'type': 'cy-graph','index':'console-1'},'stylesheet'),
     Output('pathway-info-container','children'),
     Input('fetch-network-button', 'n_clicks'),
     State('lipid-dropdown', 'value'),
-    # State({'type': 'cy-graph','index':'console-1'},'stylesheet'),
     prevent_initial_call=True,
     running=[(Output("fetch-network-button", "disabled"), True, False)]
-    # background=True
 )
 def fetch_network(n_clicks, selected_lipids):
     
@@ -336,7 +332,7 @@ def fetch_network(n_clicks, selected_lipids):
 
 @callback(
     Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-1'},'elements', allow_duplicate=True),
+    Output("cy-elements-store",'data', allow_duplicate=True),
     Input('direct-pathway-toggle','value'),
     State({'type': 'cy-graph','index':'console-1'},'elements'),
     State('lipid-dropdown','value'),
@@ -358,6 +354,8 @@ def highlight_reaction_Chain(value, elements, selected_lipids):
         return no_update,elements
     except Exception as e:
         return return_erorr_messgae(),no_update
+
+
 
 
 @callback(
