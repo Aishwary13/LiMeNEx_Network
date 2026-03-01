@@ -25,7 +25,7 @@ console1_layout = html.Div([
         
         html.Div([
             html.Div([
-                html.Span("Console-1: Lipid Pathways Network Exploration",
+                html.Span("Lipid Pathways Network Exploration",
                         style={'color': 'white', 'fontSize': '16px', 'fontWeight': 'bold'}),
 
                 html.Span("Active",
@@ -82,6 +82,21 @@ console1_layout = html.Div([
                 'position' : 'relative',
                 'display' : 'flex',  
             }),
+            
+            html.Button(
+                html.I(className="fa-solid fa-refresh"),
+                id='reset-btn-1',
+                className='primary-btn',
+                title = 'Recenter graph',
+                n_clicks=0,
+                style={
+                    'fontSize' : '16px',
+                    'height' : '30px',
+                    'display' : 'inline-flex',
+                    'alignItems' : 'center',
+                    'justifyContent' : 'center' 
+                },
+            ),
         ],
         style={
             'display': 'flex',
@@ -180,7 +195,9 @@ console1_layout = html.Div([
                         'borderRadius' : '10px'
                     },
                     elements=[],
-                    stylesheet=ex_stylesheet
+                    stylesheet=ex_stylesheet,
+                    minZoom=0.1,
+                    maxZoom=10
                 ),
                 
                 

@@ -1,0 +1,6 @@
+/* truncate long text */
+.ag-theme-alpine-dark .ag-cell-value {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

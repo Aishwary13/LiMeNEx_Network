@@ -2,7 +2,7 @@ import time
 from dash import MATCH, html, dcc, callback, Input, Output, State, no_update,ctx
 import os
 import json
-from utils.network_utils import create_nodes_and_edges, processElements, build_dataframe, highlight_elements, remove_highlight
+from utils.network_utils import create_nodes_and_edges, processElements, build_dataframe, highlight_elements, remove_highlight, populate_table
 import pandas as pd
 from itertools import chain
 import dash
@@ -103,18 +103,23 @@ def trigger_image_export(png_clicks, layout):
 @callback(
     Output({'type': 'download-target-csv', 'index': MATCH}, 'data'),
     Input({'type': 'download-csv-btn', 'index': MATCH}, 'n_clicks'),
-    State({'type': 'info-table', 'index': MATCH}, 'derived_virtual_data'),
+    State({'type': 'info-table', 'index': MATCH}, 'virtualRowData'),
     prevent_initial_call=True
 )
-def download_table_csv(n_clicks, derived_data):
-    if not derived_data:
+def download_table_csv(n_clicks, virtual_data):
+
+    if not virtual_data:
         raise dash.exceptions.PreventUpdate
 
-    df = pd.DataFrame(derived_data)
-    # optional: sanitize/format df here
+    df = pd.DataFrame(virtual_data)
 
     filename = f"table_export_{pd.Timestamp.now():%Y%m%d_%H%M%S}.csv"
-    return dcc.send_data_frame(df.to_csv, filename, index=False)
+
+    return dcc.send_data_frame(
+        df.to_csv,
+        filename,
+        index=False
+    )
 
 ############################### edge information ################################################################
 
@@ -359,7 +364,8 @@ def highlight_reaction_Chain(value, elements, selected_lipids):
     Output('Modal-store','data',allow_duplicate=True),
     Output({'type': 'cy-graph','index':'console-3'},'elements'),
     Output({'type': 'cy-graph','index':'console-3'},'stylesheet'),
-    Output("graph-update-flag", "data"),
+    Output({'type': 'info-table', 'index': 'console-3'},'rowData'),
+    Output({'type': 'info-table', 'index': 'console-3'},'columnDefs'),
     Input('fetch-tfs-button', 'n_clicks'),
     State('gene-dropdown', 'value'),
     State({'type': 'cy-graph','index':'console-3'}, 'stylesheet'),
@@ -370,22 +376,18 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
 
     try:
         if n_clicks is None or not selected_genes:
-            return return_erorr_messgae(fetch=True,genes=True), no_update, stylesheet, {"updated": False}
+            return return_erorr_messgae(fetch=True,genes=True), no_update, stylesheet, no_update, no_update
 
-        # Here you would implement the logic to fetch the transcription factors
-        # based on the selected genes and the current elements of the pathway-gene-graph.
-
-        # For demonstration purposes, let's assume we found some TFs.
         finalNodes = []
         finalEdges = []
-        finalNodeSet = set()
+        finalTargetGene = set()
 
         df = pd.read_csv(os.path.join(root_dir, 'src/sbmlData/final_tf_targetgene_tissue_groups.csv'), dtype=str)
         transcription_factors = df[df['TargetGene'].isin(selected_genes)]['TF'].unique().tolist()
         global_tissues = set()
         for tf in transcription_factors:
             # mask2 = df['TF'] == tf
-            # temp2 = df[mask2]
+            # temp2 = df[mask2] 
             # tissueList = temp2['Tissue'].unique().tolist()
             # nodeTissues = "_T".join(tissueList) + "_T"
             tf_tissueList = set()
@@ -399,8 +401,8 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
                 global_tissues.update(tissueList)
                 
                 if not temp.empty:
-                    if tg not in finalNodeSet:
-                        finalNodeSet.add(tg)
+                    if tg not in finalTargetGene:
+                        finalTargetGene.add(tg)
                         finalNodes.append({
                             'data': {'id': tg, 'label': tg, 'classes': 'enzymaticGene','uniprotAcc': uniprot_cache.get(tg,'')},
                             'classes': 'enzymaticGene',
@@ -417,7 +419,6 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
                 'classes': "transcriptionFactorGene",
             })
         
-        
         # uniqueTissue = tissueToPs.keys()
         for tis in global_tissues:
             stylesheet.extend([{
@@ -427,100 +428,19 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
             # Add a corresponding edge for the tissue
         
         elements = finalNodes + finalEdges
-        return no_update, elements, stylesheet, {"updated": True}
+        
+        
+        # build table data
+        # tf, gene = populate_table_dropdown(1,elements)
+        tf = list(transcription_factors)
+        gene = list(finalTargetGene)
+        df, columnDefs = populate_table(tf_value=tf,gene_value=gene)
+        
+        return no_update, elements, stylesheet, df, columnDefs
     
     except Exception as e:
-        return return_erorr_messgae(), no_update, no_update, no_update
+        return return_erorr_messgae(), no_update, no_update, no_update, no_update
 
-
-# @callback(
-#     Output('Modal-store','data',allow_duplicate=True),
-#     Output("tissue-dropdown", "options"),
-#     Input("physiological-systems-dropdown", "value"),
-#     prevent_initial_call = True
-# )
-# def changeTissueOptions(phySystemOptions):
-#     try:
-#         global psToTissue
-#         # Return placeholder option if no physiological system is selected
-#         if phySystemOptions is None or len(phySystemOptions) == 0:
-#             return no_update,[{'label': 'Select Physiological System To View Tissues List', 'value': 'null'}]
-
-#         if len(phySystemOptions) != 0:
-#             # Collect tissues and format labels with the system name
-#             tissueOptions = []  
-#             for system in phySystemOptions:
-#                 tissues = psToTissue.get(system, [])
-#                 for tissue in tissues:
-#                     tissueOptions.append({'label': f"{system}: {tissue}", 'value': tissue})
-
-#             return no_update, tissueOptions
-#         else:
-            
-#             return no_update,[{'label': 'Select Physiological System To View Tissues List', 'value': 'null'}]
-#     except Exception as e:
-#         return return_erorr_messgae(),no_update
-
-
-
-# @callback(
-#     Output('Modal-store','data',allow_duplicate=True),
-#     Output({'type': 'cy-graph','index':'console-3'}, "stylesheet", allow_duplicate= True),
-#     Output({'type': 'cy-graph','index':'console-3'},"elements",allow_duplicate= True),
-#     Input("physiological-systems-dropdown", "value"),
-#     State({'type': 'cy-graph','index':'console-3'}, "stylesheet"),
-#     State({'type': 'cy-graph','index':'console-3'},"elements"),
-#     prevent_initial_call=True,
-# )
-# def handlePhysiologicalSelection(val,stylesheet, elements):
-#     try:
-#         global tissueToPs
-#         global psToTissue
-
-#         if val is None:
-#             return no_update,stylesheet,elements
-
-#         if len(val) != 0:
-#             val = set(val)
-#             basic_stylesheet = []
-#             show_stylesheet = []
-#             hide_stylesheet = []
-
-#             for style in stylesheet:
-#                 selector = style.get('selector')
-                
-#                 if 'T_' == selector[-1:-3:-1]:
-#                     phySystem = set(tissueToPs[(selector[1:-2])])
-#                     if phySystem.intersection(val):
-#                         style.get('style')['display'] = 'element'
-#                         show_stylesheet.append(style)
-#                     else:
-#                         style.get('style')['display'] = 'none'
-#                         hide_stylesheet.append(style)
-#                 else:
-#                     basic_stylesheet.append(style)
-            
-            
-#             basic_stylesheet.extend(show_stylesheet)
-#             basic_stylesheet.extend(hide_stylesheet)
-
-#             # print(json.dumps(basic_stylesheet,indent=2))
-
-#             allowedTissues = list(chain(*[psToTissue[sys] for sys in val]))
-#             allowedTissues = set([var+"_T" for var in allowedTissues])
-#             newElements = processElements(elements,allowedTissues)
-
-#             return no_update,basic_stylesheet, newElements
-
-#         else:
-#             for style in stylesheet:
-#                 if 'T_' == style.get('selector')[-1:-3:-1]:
-#                     style.get('style')['display'] = 'element'
-
-#             return no_update,stylesheet, elements
-        
-#     except Exception as e:
-#         return return_erorr_messgae(),no_update, no_update
 
 def _changeTissueOptions_core(phySystemOptions):
     try:
@@ -675,78 +595,11 @@ def handleTissueSelection(tisOptions, stylesheet,phySystemOptions,elements):
     except Exception as e:
         return return_erorr_messgae(), no_update, no_update
 
-    
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output("tf-select", "options"),
-    Output("gene-select", "options"),
-    Input("graph-update-flag", "data"),
-    State({'type': 'cy-graph','index':'console-3'},"elements"),
-    prevent_initial_call=True,
-)
-def populate_table_dropdown(flag, elements):
-    try:
-        if flag is None or not flag.get("updated", False):
-            return no_update,[], []
-        
-        tf_options = []
-        gene_options = []
-
-        for element in elements:
-            if "label" in element['data']:
-                if 'classes' not in element['data']:
-                    tf_options.append({'label': element['data']['label'], 'value': element['data']['id']})
-                else:
-                    gene_options.append({'label': element['data']['label'], 'value': element['data']['id']})
-
-        return no_update, tf_options, gene_options
-    except Exception as e:
-        return return_erorr_messgae(), no_update, no_update
-
-
 
 @callback(
     Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'info-table', 'index': 'console-3'}, 'data'),
-    Input('load-evidence-btn', 'n_clicks'),
-    State('tf-select', 'value'),
-    State('gene-select', 'value'),
-    prevent_initial_call=True,
-    running=[(Output("load-evidence-btn", "disabled"), True, False)]
-)
-def populate_table(n_clicks, tf_value, gene_value):
-    try:
-    
-        if not n_clicks or not tf_value or not gene_value:
-            return no_update, no_update
-
-        # ---- Read CSV ----
-        file_path = os.path.join(root_dir, 'src', 'sbmlData', 'final_tf_targetgene_tissue_groups.csv')
-        df = pd.read_csv(file_path, dtype=str).fillna("")
-
-        # ---- Filter by TF(s) and Gene(s) ----
-        filtered_df = df[
-            (df['TF'].isin(tf_value)) &
-            (df['TargetGene'].isin(gene_value))
-        ]
-
-        # ---- Optional: clean/trim whitespace ----
-        # Ensure filtered_df is a DataFrame before calling applymap (Series would raise the "Series is not callable" type error)
-        if isinstance(filtered_df, pd.Series):
-            # convert Series to single-row DataFrame so applymap works uniformly
-            filtered_df = filtered_df.to_frame().T
-
-        filtered_df = filtered_df.map(lambda x: x.strip() if isinstance(x, str) else x) # type: ignore
-
-        # ---- Return for Dash DataTable ----
-        return no_update,filtered_df.to_dict('records')
-    except Exception as e:
-        return return_erorr_messgae(),no_update
-
-
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'info-table', 'index': 'console-2'}, 'data'),
+    Output({'type': 'info-table', 'index': 'console-2'}, "rowData"),
+    Output({'type': 'info-table', 'index': 'console-2'}, "columnDefs"),
     Output({'type': 'cy-graph','index':'console-2'},'elements'),
     Output({'type': 'cy-graph','index':'console-2'},'stylesheet'),
     Input('fetch-reactions-button', 'n_clicks'),
@@ -776,11 +629,12 @@ def fetch_rxn(n_clicks, genes, stylesheet):
                 if key in finalReactionList:
                     print(f"Reaction {key} already processed, skipping.")
                     pathway = set(value.get('pathways',[]))
-                    pathway.update(set(finalReactionList[key]))
-                    finalReactionList[key] = list(pathway)
+                    pathway.update(set(finalReactionList[key]['pathways']))
+                    finalReactionList[key]['pathways'] = list(pathway)
                     continue
                 
                 finalReactionList[key] = value.get('pathways',[])
+                finalReactionList[key] = {'pathways' : value.get('pathways',[]), 'value' : value}
                 
                 #create the connector node for reaction
                 finalNodes.append({
@@ -848,13 +702,13 @@ def fetch_rxn(n_clicks, genes, stylesheet):
                         # 'grabbable': False
                     })
         
-        print(finalReactionList)
+        # print(finalReactionList)
         
-        df = build_dataframe(finalReactionList)
+        df, columnDefs = build_dataframe(finalReactionList)
         
         finalNodes.extend(finalLipidNodes.values())
         
-        return no_update,df.to_dict('records'), finalNodes+finalEdges , stylesheet
+        return no_update, df.to_dict('records'), columnDefs,finalNodes+finalEdges , stylesheet
     except Exception as e:
         return return_erorr_messgae(), no_update, no_update, no_update
     

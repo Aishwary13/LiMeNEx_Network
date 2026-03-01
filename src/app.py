@@ -230,6 +230,77 @@ dash_app.clientside_callback(
 )
 
 
+dash_app.clientside_callback(
+"""
+function(n1, n2, n3) {
+
+    const ctx =
+        dash_clientside.callback_context ||
+        window.dash_clientside.callback_context;
+
+    if (!ctx || !ctx.triggered.length) {
+        return window.dash_clientside.no_update;
+    }
+
+    // ✅ Which button triggered?
+    const trigger = ctx.triggered[0].prop_id.split('.')[0];
+
+    let consoleIndex = null;
+
+    if (trigger === "reset-btn-1") consoleIndex = "1";
+    if (trigger === "reset-btn-2") consoleIndex = "2";
+    if (trigger === "reset-btn-3") consoleIndex = "3";
+
+    if (!consoleIndex) {
+        return window.dash_clientside.no_update;
+    }
+
+    console.log("Resetting console:", consoleIndex);
+
+    // ✅ Find matching cytoscape
+    const cytoElement =
+        document.querySelector(
+            `[id*="console-${consoleIndex}"][id*="cy-graph"]`
+        );
+
+    if (!cytoElement || !cytoElement._cyreg) {
+        console.error("❌ Cytoscape not ready");
+        return window.dash_clientside.no_update;
+    }
+
+    const cy = cytoElement._cyreg.cy;
+
+    const checkReady = setInterval(function () {
+
+        if (cy.nodes().length > 0) {
+
+            cy.animate({
+                fit: {
+                    eles: cy.elements(),
+                    padding: 50
+                },
+                duration: 250
+            });
+
+            clearInterval(checkReady);
+        }
+
+    }, 100);
+
+    setTimeout(() => clearInterval(checkReady), 3000);
+
+    return window.dash_clientside.no_update;
+}
+""",
+Output('reset-dummy-store', 'data'),
+Input('reset-btn-1', 'n_clicks'),
+Input('reset-btn-2', 'n_clicks'),
+Input('reset-btn-3', 'n_clicks'),
+prevent_initial_call=True
+)
+
+
+
 from flask import jsonify
 
 @server.route("/health")

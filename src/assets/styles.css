@@ -739,3 +739,53 @@
     color: #d1d5db;
     word-break: break-word;
 }
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* TAB CONTAINER LINE */
+.nav-tabs {
+    border-bottom: 1px solid #777777;
+}
+
+
+/* ALL TABS */
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #8ab4f8;
+    /* margin-bottom: -1px;   ⭐ KEY MAGIC */
+}
+
+
+/* HOVER */
+.nav-tabs .nav-link:hover {
+    border-color: transparent transparent #3b4350 transparent;
+}
+
+
+/* ACTIVE TAB */
+.nav-tabs .nav-link.active {
+    background-color: #0f0f0f;   /* match content bg */
+    color: white;
+    border: 1px solid #777777;
+    border-bottom-color: #0f0f0f; /* hides bottom edge */
+}
+
+
+/* ------------------------- dash table --------------------------  */
+
+.ag-theme-alpine-dark {
+    --ag-background-color: #292929;
+    --ag-foreground-color: white;
+    --ag-header-background-color: #1f2630;
+    --ag-row-hover-color: #3a3a3a;
+    --ag-border-color: #374152;
+    --ag-font-size: 13px;
+}
+
+.ag-theme-alpine-dark .ag-header {
+    border-bottom: 2px solid #374152;
+}

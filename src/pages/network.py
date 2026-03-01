@@ -69,9 +69,8 @@ legend_elements = [
 
 # print(type(lipids))
 layout = html.Div([
-
     dcc.Store(id="Modal-store"),
-    
+    dcc.Store(id='reset-dummy-store'),
     dbc.Modal(
         [
             dbc.ModalHeader("Warning",style={"padding" : "6px 12px 6px 12px"}),
@@ -125,9 +124,23 @@ layout = html.Div([
         className='legendContainer'
     ),
     
-    console1.console1_layout,
-    console2.console2_layout,
-    console3.console3_layout,
+    
+    dbc.Tabs(
+        [
+            dbc.Tab(console1.console1_layout, label="Console-1"),
+            dbc.Tab(console2.console2_layout, label="Console-2"),
+            dbc.Tab(console3.console3_layout, label="Console-3"),
+        ],
+        style={
+            'marginLeft':'20px',
+            'marginRight' : '20px',
+            'marginTop' : '15px',
+        },
+        
+    ),
+    # console1.console1_layout,
+    # console2.console2_layout,
+    # console3.console3_layout,
     html.Div(
         [
             html.Div("© 2025 LiMeNEx — Ray Lab. All rights reserved.", style={"opacity": 0.6}),

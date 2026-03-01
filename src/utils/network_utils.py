@@ -4,6 +4,7 @@ from functools import lru_cache
 import networkx as nx
 from dotenv import load_dotenv
 import copy
+import pandas as pd
 
 load_dotenv()
 
@@ -259,30 +260,40 @@ def processElements(elements, allowedTissues):
 
 
 def build_dataframe(reactionList):
-    import pandas as pd
-    root_dir = "D:/Raylab/LiMeNEx_Network"
     dfList = []
     
     id = 1
     
-    for reaction, pathway in reactionList.items():
-        info = reaction.split(";")
-        reactants = info[0][2:].split("|")
-        products = info[1][2:].split("|")
-        enzymaticGene = info[2][2:].split("|")
+    for reaction, payload in reactionList.items():
+        
+        pathway = payload['pathways']
+        value = payload['value']
+        
+        reactants = value.get('reactantList')
+        products = value.get('productList')
+        enzymaticGene =  value.get('geneList')
         
         dfList.append({
             'Rxn' : id,
             'EnzymaticGene' : ", ".join(enzymaticGene),
             'Reactants' : ", ".join(reactants),
             'Products' : ", ".join(products),
-            'Pathway' : ", ".join(pathway)
+            'Pathway' : ", ".join(list(set(pathway)))
         })
         
         id += 1
     
     final_df = pd.DataFrame(dfList)
-    return final_df
+
+    columnDefs = [
+        {"field": "Rxn", "headerName" : 'No.' ,"maxWidth": 90},
+        {"field": "EnzymaticGene", "flex": 1},
+        {"field": "Reactants", "flex": 1.5},
+        {"field": "Products", "flex": 1.5},
+        {"field": "Pathway", "flex": 1},
+    ]
+    
+    return final_df, columnDefs
 
 
 def elements_to_digraph(elements):
@@ -370,3 +381,60 @@ def remove_highlight(elements, selected_lipids):
         el['classes'] = data.get('classes','')
 
     return elements
+
+
+def populate_table(tf_value, gene_value):
+    try:
+
+        # ---- Read CSV ----
+        file_path = os.path.join(root_dir, 'src', 'sbmlData', 'final_tf_targetgene_tissue_groups.csv')
+        df = pd.read_csv(file_path, dtype=str).fillna("")
+
+        # ---- Filter by TF(s) and Gene(s) ----
+        filtered_df = df[
+            (df['TF'].isin(tf_value)) &
+            (df['TargetGene'].isin(gene_value))
+        ]
+
+        # ---- Optional: clean/trim whitespace ----
+        # Ensure filtered_df is a DataFrame before calling applymap (Series would raise the "Series is not callable" type error)
+        if isinstance(filtered_df, pd.Series):
+            # convert Series to single-row DataFrame so applymap works uniformly
+            filtered_df = filtered_df.to_frame().T
+
+        filtered_df = filtered_df.map(lambda x: x.strip() if isinstance(x, str) else x) # type: ignore
+        
+        
+        # columnDefs = [
+        #     {"field": "TF","flex": 1},
+        #     {"field": "TargetGene", "headerName" : "EnzymaticGene","flex": 1},
+        #     {"field": "Tissue", "flex": 1},
+        #     {"field": "Experiment", "headerName":"SPP","flex": 1.5},
+        #     {"field": "chea", "flex": 1},
+        #     {"field": "Signor", "flex": 1},
+        #     {"field": "Trrust", "flex": 1},
+        # ]
+        
+        columnDefs = [
+            {"field": "TF", "flex": 1},
+            {"field": "TargetGene", "headerName":"EnzymaticGene", "flex": 1},
+            {"field": "Tissue", "flex": 1},
+
+            {
+                "field": "Experiment",
+                "headerName":"SPP",
+                "flex": 2,
+                "tooltipField": "Experiment",
+                "wrapText": False,
+                "autoHeight": False,
+            },
+
+            {"field": "chea", "flex": 1},
+            {"field": "Signor", "flex": 1},
+            {"field": "Trrust", "flex": 1},
+        ]
+                
+        # ---- Return for Dash DataTable ----
+        return filtered_df.to_dict('records'), columnDefs
+    except Exception as e:
+        return [],[]
