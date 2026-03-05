@@ -510,60 +510,6 @@
   font-weight: 700; 
 }
 
-/* ------------------------------------------ console1 playcards information------------------------------ */
-
-
-/* Each play-card */
-
-/* card container (existing) */
-.pinfo-card {
-    display: grid;
-    grid-template-columns: 60px 1fr;   /* label | value */
-    column-gap: 8px;
-    row-gap: 6px;
-    min-width: 220px;
-    max-width: 340px;
-    background-color: #262626;
-    border: 1.5px solid #374152;
-    border-radius: 8px;
-    padding: 8px 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    cursor: default;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
-/* label side */
-.pinfo-label {
-    color: #a8b3c0;
-    font-weight: 600;
-    font-size: 12px;
-    white-space: nowrap; /* keep labels on one line */
-}
-
-/* value side */
-.pinfo-value {
-    color: #e6e6e6;
-    font-size: 13px;
-    white-space: normal;
-    word-break: break-word;
-    overflow-wrap: anywhere;
-}
-
-/* hover effect (optional) */
-.pinfo-card:hover {
-    transform: translateY(-4px);
-}
-
-/* Responsive tweak */
-@media (max-width: 360px) {
-    .pinfo-card { grid-template-columns: 80px 1fr; }
-}
-
-
-
-
 
 /* ------------------------------------------ Disabled button cursor style ------------------------------ */
 #fetch-network-button:disabled {
@@ -788,4 +734,90 @@
 
 .ag-theme-alpine-dark .ag-header {
     border-bottom: 2px solid #374152;
+}
+
+
+
+/* ----------------------------- console 1 main reaction chain -----------*/
+
+/* Card container */
+.mode-card {
+    margin-top: 20px;
+}
+
+/* Section title */
+.section-title {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    letter-spacing: 0.4px;
+}
+
+/* Dropdown */
+.mode-dropdown .Select-control {
+    background-color: #1f2329 !important;
+    border-radius: 8px !important;
+    border: 1px solid #3a3f47 !important;
+    color: white !important;
+}
+
+/* Button group container */
+
+
+/* Remove default spacing of radio wrapper */
+.network-mode-toggle .form-check {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+/* Base button styling */
+.mode-btn {
+    border: 1px solid #4f8cff !important;
+    color: #4f8cff !important;
+    background-color: transparent !important;
+    padding: 8px 18px !important;
+    font-size: 13px !important;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* Left button */
+.network-mode-toggle .form-check:first-child .btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Right button */
+.network-mode-toggle .form-check:last-child .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -1px;
+}
+
+/* Active state */
+.mode-btn.active {
+    background-color: #4f8cff !important;
+    color: white !important;
+}
+
+/* Hover */
+.mode-btn:hover:not(.active) {
+    background-color: rgba(79,140,255,0.12) !important;
+}
+
+/* Disabled styling */
+.mode-btn.disabled,
+.btn-check:disabled + .mode-btn {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+
+
+/* Status text */
+.mode-status {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #9ca3af;
 }

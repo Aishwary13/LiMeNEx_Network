@@ -1,4 +1,4 @@
-from dash import html, dcc, dash_table
+from dash import html, dcc
 from utils.css import ex_stylesheet
 import dash_cytoscape as cyto
 import os

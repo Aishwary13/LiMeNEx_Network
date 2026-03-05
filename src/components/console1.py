@@ -1,9 +1,11 @@
-from dash import html, dcc, dash_table
+from dash import html, dcc
 from utils.css import ex_stylesheet
 import dash_cytoscape as cyto
 import os
 import json
 from dotenv import load_dotenv
+import dash_ag_grid as dag
+import dash_bootstrap_components as dbc
 
 
 load_dotenv()
@@ -17,11 +19,14 @@ with open(os.path.join(root_dir,'src/sbmlData/lipid_pathway_map.json'), 'r') as 
 lipids = [{'label': lipid.strip(), 'value': lipid.strip()} for lipid in sorted(lipid_map.keys())]
 
 console1_layout = html.Div([
+    html.Div([
         # Header Section
         # near top of console1_layout children
         dcc.Store(id="cy-elements-store",data=None,storage_type="memory"),
+        dcc.Store(id="current-lipid-store", data=None, storage_type='memory'),
         
         dcc.Download(id={'type': 'download-target-json', 'index': 'console-1'}),
+        dcc.Download(id={'type': 'download-target-csv', 'index': 'console-1'}),
         
         html.Div([
             html.Div([
@@ -72,6 +77,13 @@ console1_layout = html.Div([
                         className='download-action btn-json',
                         title="Export Graph JSON"
                     ),
+                    html.Button(
+                        [html.I(className="fa-solid fa-file-csv"), html.Span("Export CSV", className="btn-text")],
+                        id={'type': 'download-csv-btn', 'index': 'console-1'},
+                        n_clicks=0,
+                        className='download-action btn-csv',
+                        title="Export Table CSV"
+                    )
                 ],
                     className='download-panel', 
                     role='group',
@@ -134,18 +146,6 @@ console1_layout = html.Div([
                     
                 ),
 
-                html.Div([ 
-                    dcc.Checklist(
-                        id='direct-pathway-toggle',
-                        options=[{'label': 'Highlight the main reaction chain', 'value': 'highlight'}],
-                        value=[],
-                        inputStyle={'marginRight': '6px'},
-                        labelStyle={'color': 'white', 'fontSize': '13px'}
-                    )
-                ],
-                    style={'marginTop': '10px', 'marginBottom': '15px'}
-                ),
-
                 html.Button('Fetch Network',
                             id='fetch-network-button',
                             className='primary-btn',
@@ -154,22 +154,53 @@ console1_layout = html.Div([
                             ),
 
                 html.Hr(style={'border': '1px solid #EEEEEE', 'margin': '15px 0'}),
+                
+                html.Div([
 
-                html.Div(
-                    id='pathway-info-container',
+                    html.Div(
+                        "Highlight Lipid Centric Pathways",
+                        className="section-title"
+                    ),
+
+                    dcc.Dropdown(
+                        id="main-chain-lipid-dropdown",
+                        options=[],
+                        multi = True,
+                        placeholder="Select target lipids...",
+                        disabled=False,
+                        className="mode-dropdown",
+                        
+                    ),
+
+                    dbc.RadioItems(
+                        id="highlight-radio",
+                        className="btn-group network-mode-toggle",
+                        inputClassName="btn-check",
+                        labelClassName="btn mode-btn",
+                        labelCheckedClassName="active",
+                        options=[
+                            {"label": "Full Network", "value": 1, "disabled": True},
+                            {"label": "Main Chain", "value": 2, "disabled": True},
+                        ],
+                        value=1,
+                        style={'width' : '100%',
+                               'display' : 'flex',
+                               'justifyContent' : 'center',
+                               'marginTop' : '10px'}
+                    ),
+
+                    # html.Div(
+                    #     "Note: To modify your target lipid or Fetch New Network, above selection should be in Full Network mode",
+                    #     id="main-chain-status",
+                    #     className="mode-status"
+                    # ),
                     
-                    children=[
-                        html.Div("No lipids selected yet.",
-                                style={'color': 'white', 'fontSize': '13px', 'textAlign': 'center'}),                        
-                    ],
+                    dbc.Alert("To modify your target lipid or Fetch New Network, above selection should be in Full Network mode",color="info",
+                              style= {'padding' : '6px', 'marginTop' : '12px','fontSize' : '13px'})
+                    
 
-                    style={
-                        'paddingTop': '5px',
-                        'overflowY': 'auto',
-                        'color': 'white',
-                        'fontSize': '13px'
-                    }
-                )
+                ], className="mode-card")
+                
             ],
                 style={
                     'gridColumn': '1',
@@ -215,10 +246,45 @@ console1_layout = html.Div([
         })
     ],
     style={
-        'margin': '20px',
         'border': '1px solid #374152',
         'borderRadius': '10px',
         'backgroundColor': '#292929',
-        'boxShadow': ' 2px 3px 4px 0 rgba(0, 0, 0, 0.3)',
-        'overflow': 'hidden'
-})
+        'boxShadow': ' 2px 3px 4px 0 rgba(0, 0, 0, 0.3)'}
+
+    ),
+    
+    html.Div([
+        dag.AgGrid(
+            id={'type': 'info-table', 'index': 'console-1'},
+
+            columnDefs=[],   # populated dynamically
+            rowData=[],
+
+            defaultColDef={
+                # "sortable": True,
+                "filter": True,
+                "resizable": True,
+                "floatingFilter": True,
+                "wrapText": True,
+                "autoHeight": True,
+            },
+
+            dashGridOptions={
+                "pagination": True,
+                "paginationPageSize": 10,
+                "animateRows": True,
+                "rowSelection": "single",
+                "domLayout": "normal",
+            },
+
+            className="ag-theme-alpine-dark",  
+            style={
+                "height": "250px",
+                "width": "100%",
+                # "marginTop": "10px"
+            },
+        )
+    ], style={'marginTop' : '20px'})
+    
+], style={'overflow': 'hidden','margin' : '20px'})
+

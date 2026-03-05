@@ -193,22 +193,6 @@ def close_popup(n_clicks):
 
 ####################################################################################################################
 
-def return_pathway_card(pathways, lipid_list, database):
-    
-    return html.Div(
-        [
-            html.Div("Pathway:", className="pinfo-label"),
-            html.Div(pathways, className="pinfo-value"),
-
-            html.Div("Lipids:", className="pinfo-label"),
-            html.Div(", ".join(lipid_list), className="pinfo-value"),
-
-            html.Div("Database:", className="pinfo-label"),
-            html.Div(database, className="pinfo-value"),
-        ],
-        className="pinfo-card"
-    )
-    
 
 @callback(
     Output({'type': 'cy-graph','index':'console-1'}, 'elements'),
@@ -253,19 +237,25 @@ def validate_parents(nodes):
 @callback(
     Output('Modal-store','data',allow_duplicate=True),
     Output("cy-elements-store", "data"),
-    Output('pathway-info-container','children'),
+    Output({'type': 'info-table', 'index': 'console-1'},'rowData'),
+    Output({'type': 'info-table', 'index': 'console-1'},'columnDefs'),
+    Output('main-chain-lipid-dropdown','options'),
+    Output('main-chain-lipid-dropdown','value'),
+    Output('highlight-radio','options'),
+    Output('current-lipid-store','data'),
     Input('fetch-network-button', 'n_clicks'),
     State('lipid-dropdown', 'value'),
+    State('highlight-radio','options'),
     prevent_initial_call=True,
     running=[(Output("fetch-network-button", "disabled"), True, False)]
 )
-def fetch_network(n_clicks, selected_lipids):
+def fetch_network(n_clicks, selected_lipids, highlight_options):
     
     try :
         finalNodes, finalEdges, pathway_info_children = [], [], []
         
         if n_clicks is None or not selected_lipids:
-            return return_erorr_messgae(fetch=True,lipid=True),no_update,no_update
+            return return_erorr_messgae(fetch=True,lipid=True),no_update,no_update,no_update,no_update, no_update, no_update, no_update
         
         print(f"Selected lipids: {selected_lipids}")
         #get all pathways for selected lipids
@@ -283,18 +273,30 @@ def fetch_network(n_clicks, selected_lipids):
                 print(f"Lipid {lipid} not found in lipid_map")
 
         #create nodes and edges
-        finalNodes, finalEdges = create_nodes_and_edges(pathways,selected_lipids)
+        finalNodes, finalEdges, lipids_for_rxn_mode = create_nodes_and_edges(pathways,selected_lipids)
         elements = finalNodes + finalEdges
         
         #output for pathway info container
         pathway_info_children = []
                     
         # build infor cards
+        bundled_info = []
         for pathway, lipids in pathway_lipids.items():
             # database_list = ["Kegg","Reactome"]  # Example database list
             database = databaseCategory.get(pathway, "None")
-            card = return_pathway_card(pathway, lipids, database)
-            pathway_info_children.append(card)
+            temp = {}
+            temp['Pathway'] = pathway
+            temp['Databases'] = database
+            temp['Lipids'] = lipids
+            bundled_info.append(temp)
+            # card = return_pathway_card(pathway, lipids, database)
+            # pathway_info_children.append(card)
+        
+        columnDefs = [
+            {"field": "Lipids", "flex": 1},
+            {"field": "Pathway", "flex": 1},
+            {"field": "Databases", "flex": 1},
+        ]
         
         
         #########################
@@ -322,38 +324,85 @@ def fetch_network(n_clicks, selected_lipids):
             print("✅ All parent references are valid")
                 
         print("Passed all the checks")
-
-        return no_update,elements,pathway_info_children
+        
+        
+        # set diable to true, enable reaction view
+        options = [{**x, "disabled": False} for x in highlight_options]
+        option_value = 1 #reset to full network
+        rxn_view_lipids = [] #remove all previous selections for reaction view mode
+        
+        return no_update,elements,bundled_info,columnDefs,lipids_for_rxn_mode,rxn_view_lipids,options,selected_lipids
 
     except Exception as e:
         print(f"Error in fetch_network: {e}")
-        return return_erorr_messgae(),no_update, dash.no_update
+        return return_erorr_messgae(),no_update, no_update, no_update,no_update, no_update, no_update, no_update
 
 
 @callback(
     Output('Modal-store','data',allow_duplicate=True),
-    Output("cy-elements-store",'data', allow_duplicate=True),
-    Input('direct-pathway-toggle','value'),
+    Output({'type': 'cy-graph','index':'console-1'},'elements', allow_duplicate=True),
+    Output("main-chain-lipid-dropdown",'disabled'),
+    Output('lipid-dropdown','disabled'),
+    Output('fetch-network-button','disabled'),
+    Input('highlight-radio','value'),
     State({'type': 'cy-graph','index':'console-1'},'elements'),
-    State('lipid-dropdown','value'),
+    State('main-chain-lipid-dropdown','value'),
     prevent_initial_call=True,
 )
 def highlight_reaction_Chain(value, elements, selected_lipids):
     try:
         if value is None:
             print("Direct pathway toggle value is None")
-            return elements, no_update
+            return elements, no_update, no_update, no_update, no_update
         
         print("Direct pathway toggle value:", value)
+        print(selected_lipids)
         
-        if 'highlight' in value:
+        to_disable = False # whether to diable the lipid input
+        if value == 2:
             elements = highlight_elements(elements, selected_lipids)
+            to_disable = True
         else:
             elements = remove_highlight(elements, selected_lipids)
+            to_disable = False
         
-        return no_update,elements
+        return no_update,elements,to_disable, to_disable, to_disable
     except Exception as e:
-        return return_erorr_messgae(),no_update
+        return return_erorr_messgae(),no_update, no_update, no_update, no_update
+
+
+
+# @callback(
+#     Output({'type': 'cy-graph','index':'console-1'},'elements', allow_duplicate=True),
+#     Input('main-chain-lipid-dropdown','value'),
+#     State({'type': 'cy-graph','index':'console-1'},'elements'),
+#     State('current-lipid-store','data'),
+#     prevent_initial_call=True,
+# )
+# def highlight_selected_lipids(lipids,elements, current_lipids):
+    
+#     if elements is None or lipids is None or not elements:
+#         return no_update
+    
+#     print("-------current_lipids" , current_lipids)
+    
+#     for ele in elements:
+#         if 'source' not in ele['data']:
+#             if ele['data']['id'] in current_lipids:
+#                 continue
+            
+#             if ele['data']['id'] in lipids:
+#                 var = ele['data']['classes'].split(" ")
+#                 if 'highlightedNode' not in var:
+#                     ele['data']['classes'] += ' highlightedNode'
+#                     ele['classes'] = ele['data']['classes']
+#             else:
+#                 var = ele['data']['classes'].split(" ")
+#                 if 'highlightedNode' in var:
+#                     ele['data']['classes'] = " ".join(var[:-1])
+#                     ele['classes'] = ele['data']['classes']            
+    
+#     return elements
 
 
 

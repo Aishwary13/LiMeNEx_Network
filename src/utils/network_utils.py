@@ -32,17 +32,11 @@ def create_nodes_and_edges(pathways,selected_lipids):
     currNodes = {}
     finalEdges = []
     
-    finalGeneSet = set()
+    # finalGeneSet = set()
     genecount = {} 
-    
     reaction_gene_nodes = {}
     
-      
-    # with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
-    #     uniprot_cache = json.load(file)
-    
-    # with open(os.path.join(root_dir, 'src/sbmlData/metabolite_link_map.json')) as file:
-    #     metabolite_link_map = json.load(file)
+    lipids_for_rxn_mode = {}
         
     for pathway in pathways:
 
@@ -77,6 +71,7 @@ def create_nodes_and_edges(pathways,selected_lipids):
             
             #create node and edges for reaction
             for reactant in value.get('reactantList',[]):
+                lipids_for_rxn_mode[reactant] = {'label' : reactant, 'value' : reactant}
                 if reactant not in currNodes:
                     currNodes[reactant] = {
                         'data': {'id': reactant, 'label':reactant,'classes' : nodes.get(reactant,{}).get('class', ''),'parent': [pathway],'link': metabolite_link_map.get(reactant,'')},
@@ -103,6 +98,7 @@ def create_nodes_and_edges(pathways,selected_lipids):
                 
             
             for product in value.get('productList',[]):
+                lipids_for_rxn_mode[product] = {'label' : product, 'value' : product}
                 if product not in currNodes:
                     currNodes[product] = {
                         'data': {'id': product, 'label':product,'classes' : nodes.get(product,{}).get('class', ''),'parent': [pathway],'link': metabolite_link_map.get(product,'')},
@@ -171,11 +167,9 @@ def create_nodes_and_edges(pathways,selected_lipids):
         parentNode.append({
             'data': {'id': parent, 'label':parent,'classes' : 'pathway'},
             'classes': 'pathway',
-            # 'selectable': True,
-            # 'grabbable': True
         })
                 
-    return parentNode+finalNodes, finalEdges
+    return parentNode+finalNodes, finalEdges, list(lipids_for_rxn_mode.values())
 
 
 
@@ -364,8 +358,12 @@ def highlight_elements(elements, selected_lipids):
     
         else:  # node
             nid = data.get('id')
+            
             if nid in node_set:
-                el['classes'] = data.get('classes','') + ' highlighted'
+                if nid in selected_lipids:
+                    el['classes'] = data.get('classes','') + ' highlightedNode' + ' highlighted'
+                else:
+                    el['classes'] = data.get('classes','') + ' highlighted'
             elif data.get('classes','') != 'pathway':
                 el['classes'] = data.get('classes','') + ' dimmed'
     
@@ -438,3 +436,7 @@ def populate_table(tf_value, gene_value):
         return filtered_df.to_dict('records'), columnDefs
     except Exception as e:
         return [],[]
+    
+    
+    
+
