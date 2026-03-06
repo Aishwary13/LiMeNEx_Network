@@ -1,5 +1,5 @@
 import time
-from dash import MATCH, html, dcc, callback, Input, Output, State, no_update,ctx
+from dash import MATCH, dcc, callback, Input, Output, State, no_update,ctx
 import os
 import json
 from utils.network_utils import create_nodes_and_edges, processElements, build_dataframe, highlight_elements, remove_highlight, populate_table
@@ -8,8 +8,12 @@ from itertools import chain
 import dash
 
 from dotenv import load_dotenv
-
 load_dotenv()
+
+
+from callbacks.network_explorer_callbacks import console1, console2, console3
+
+
 root_dir = os.getenv("root_dir_path", default="D:/Raylab/LiMeNEx_Network/")
 with open(os.path.join(root_dir, 'src/sbmlData/lipid_pathway_map.json')) as file:
     lipid_map = json.load(file)
@@ -137,625 +141,590 @@ def return_erorr_messgae(fetch = False,genes = False,lipid = False):
     return message
 
 
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output('cytoscape-pop-pre', 'children'),
-    Output('cytoscape-tap-edge-data-output', 'style'),
-    Input({'type': 'cy-graph','index':'console-2'}, 'tapEdgeData'),
-    prevent_initial_call=True
-)
-def show_popup(tap_edge_data):
-    """Show popup with pretty JSON when an edge is tapped."""
-    try :
-        if not tap_edge_data:
-            return no_update, {'display': 'none'}, no_update
+# @callback(
+#     Output('Modal-store','data',allow_duplicate=True),
+#     Output('cytoscape-pop-pre', 'children'),
+#     Output('cytoscape-tap-edge-data-output', 'style'),
+#     Input({'type': 'cy-graph','index':'console-2'}, 'tapEdgeData'),
+#     prevent_initial_call=True
+# )
+# def show_popup(tap_edge_data):
+#     """Show popup with pretty JSON when an edge is tapped."""
+#     try :
+#         if not tap_edge_data:
+#             return no_update, {'display': 'none'}, no_update
 
-        reactInfo = tap_edge_data.get('reactInfo', 'No reaction info available.')
+#         reactInfo = tap_edge_data.get('reactInfo', 'No reaction info available.')
 
-        info = {'Reaction Info': reactInfo}
-        pretty_text = json.dumps(info, indent=2)
+#         info = {'Reaction Info': reactInfo}
+#         pretty_text = json.dumps(info, indent=2)
 
-        # parent style: make visible and run slideIn animation (forwards to remain)
-        container_style = {
-            'display': 'block',
-            'animation': 'slideIn 250ms ease forwards',
-            '-webkit-animation': 'slideIn 250ms ease forwards',
-            'position': 'absolute',
-            'top': '15px',
-            'right': '15px',
-            'zIndex': 2000
-        }
+#         # parent style: make visible and run slideIn animation (forwards to remain)
+#         container_style = {
+#             'display': 'block',
+#             'animation': 'slideIn 250ms ease forwards',
+#             '-webkit-animation': 'slideIn 250ms ease forwards',
+#             'position': 'absolute',
+#             'top': '15px',
+#             'right': '15px',
+#             'zIndex': 2000
+#         }
 
-        return no_update,pretty_text, container_style
+#         return no_update,pretty_text, container_style
     
-    except Exception as e:
-        return return_erorr_messgae(),no_update,no_update
+#     except Exception as e:
+#         return return_erorr_messgae(),no_update,no_update
 
 
-@callback(
-    Output('cytoscape-pop-pre', 'children',allow_duplicate=True),
-    Output('cytoscape-tap-edge-data-output', 'style',allow_duplicate=True),
-    Input('cytoscape-pop-close-btn', 'n_clicks'),
-    prevent_initial_call=True
-)
-def close_popup(n_clicks):
-    """Hide and clear the popup when close button is clicked."""
-    # return empty children and hide container
-    hidden_style = {
-        'display': 'none',
-        'position': 'absolute',
-        'top': '15px',
-        'right': '15px',
-        'zIndex': 2000
-    }
-    return "", hidden_style
+# @callback(
+#     Output('cytoscape-pop-pre', 'children',allow_duplicate=True),
+#     Output('cytoscape-tap-edge-data-output', 'style',allow_duplicate=True),
+#     Input('cytoscape-pop-close-btn', 'n_clicks'),
+#     prevent_initial_call=True
+# )
+# def close_popup(n_clicks):
+#     """Hide and clear the popup when close button is clicked."""
+#     # return empty children and hide container
+#     hidden_style = {
+#         'display': 'none',
+#         'position': 'absolute',
+#         'top': '15px',
+#         'right': '15px',
+#         'zIndex': 2000
+#     }
+#     return "", hidden_style
 
 
 ####################################################################################################################
 
 
-@callback(
-    Output({'type': 'cy-graph','index':'console-1'}, 'elements'),
-    Output({'type': 'cy-graph','index':'console-1'},'stylesheet'),
-    Input("cy-elements-store", "data"),
-    State({'type': 'cy-graph','index':'console-1'},'stylesheet'),
-    prevent_initial_call=True
-)
-def render_graph(data,stylesheet):
+# @callback(
+#     Output({'type': 'cy-graph','index':'console-1'}, 'elements'),
+#     Output({'type': 'cy-graph','index':'console-1'},'stylesheet'),
+#     Input("cy-elements-store", "data"),
+#     State({'type': 'cy-graph','index':'console-1'},'stylesheet'),
+#     prevent_initial_call=True
+# )
+# def render_graph(data,stylesheet):
 
-    if not data:
-        return [], dash.no_update
+#     if not data:
+#         return [], dash.no_update
 
-    print("Rendering graph in Cytoscape…")
+#     print("Rendering graph in Cytoscape…")
 
-    # 🔴 HARD RESET: clear first
-    # elements = []
+#     # 🔴 HARD RESET: clear first
+#     # elements = []
 
-    # # 🟢 FULL GRAPH: then add everything
-    # elements = data["nodes"] + data["edges"]
+#     # # 🟢 FULL GRAPH: then add everything
+#     # elements = data["nodes"] + data["edges"]
 
-    return data,stylesheet
+#     return data,stylesheet
 
 
-def validate_parents(nodes):
-    """
-    Validates that every node with data.parent refers to an existing node id.
-    Returns a list of errors.
-    """
-    errors = []
+# def validate_parents(nodes):
+#     """
+#     Validates that every node with data.parent refers to an existing node id.
+#     Returns a list of errors.
+#     """
+#     errors = []
 
-    node_ids = {n["data"]["id"] for n in nodes}
+#     node_ids = {n["data"]["id"] for n in nodes}
 
-    for n in nodes:
-        parent = n["data"].get("parent")
-        if parent and parent not in node_ids:
-            errors.append(
-                f"Node '{n['data']['id']}' has missing parent '{parent}'"
-            )
-    return errors
+#     for n in nodes:
+#         parent = n["data"].get("parent")
+#         if parent and parent not in node_ids:
+#             errors.append(
+#                 f"Node '{n['data']['id']}' has missing parent '{parent}'"
+#             )
+#     return errors
 
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output("cy-elements-store", "data"),
-    Output({'type': 'info-table', 'index': 'console-1'},'rowData'),
-    Output({'type': 'info-table', 'index': 'console-1'},'columnDefs'),
-    Output('main-chain-lipid-dropdown','options'),
-    Output('main-chain-lipid-dropdown','value'),
-    Output('highlight-radio','options'),
-    Output('current-lipid-store','data'),
-    Input('fetch-network-button', 'n_clicks'),
-    State('lipid-dropdown', 'value'),
-    State('highlight-radio','options'),
-    prevent_initial_call=True,
-    running=[(Output("fetch-network-button", "disabled"), True, False)]
-)
-def fetch_network(n_clicks, selected_lipids, highlight_options):
+# @callback(
+#     Output('Modal-store','data',allow_duplicate=True),
+#     Output("cy-elements-store", "data"),
+#     Output({'type': 'info-table', 'index': 'console-1'},'rowData'),
+#     Output({'type': 'info-table', 'index': 'console-1'},'columnDefs'),
+#     Output('main-chain-lipid-dropdown','options'),
+#     Output('main-chain-lipid-dropdown','value'),
+#     Output('highlight-radio','options'),
+#     Output('current-lipid-store','data'),
+#     Input('fetch-network-button', 'n_clicks'),
+#     State('lipid-dropdown', 'value'),
+#     State('highlight-radio','options'),
+#     prevent_initial_call=True,
+#     running=[(Output("fetch-network-button", "disabled"), True, False)]
+# )
+# def fetch_network(n_clicks, selected_lipids, highlight_options):
     
-    try :
-        finalNodes, finalEdges, pathway_info_children = [], [], []
+#     try :
+#         finalNodes, finalEdges, pathway_info_children = [], [], []
         
-        if n_clicks is None or not selected_lipids:
-            return return_erorr_messgae(fetch=True,lipid=True),no_update,no_update,no_update,no_update, no_update, no_update, no_update
+#         if n_clicks is None or not selected_lipids:
+#             return return_erorr_messgae(fetch=True,lipid=True),no_update,no_update,no_update,no_update, no_update, no_update, no_update
         
-        print(f"Selected lipids: {selected_lipids}")
-        #get all pathways for selected lipids
-        pathway_lipids = {}
-        pathways = set()
-        for lipid in selected_lipids:
-            if lipid in lipid_map:
-                pathways.update(lipid_map[lipid])
+#         print(f"Selected lipids: {selected_lipids}")
+#         #get all pathways for selected lipids
+#         pathway_lipids = {}
+#         pathways = set()
+#         for lipid in selected_lipids:
+#             if lipid in lipid_map:
+#                 pathways.update(lipid_map[lipid])
                 
-                for pathway in lipid_map[lipid]:
-                    if pathway not in pathway_lipids:
-                        pathway_lipids[pathway] = []
-                    pathway_lipids[pathway].append(lipid)
-            else:
-                print(f"Lipid {lipid} not found in lipid_map")
+#                 for pathway in lipid_map[lipid]:
+#                     if pathway not in pathway_lipids:
+#                         pathway_lipids[pathway] = []
+#                     pathway_lipids[pathway].append(lipid)
+#             else:
+#                 print(f"Lipid {lipid} not found in lipid_map")
 
-        #create nodes and edges
-        finalNodes, finalEdges, lipids_for_rxn_mode = create_nodes_and_edges(pathways,selected_lipids)
-        elements = finalNodes + finalEdges
+#         #create nodes and edges
+#         finalNodes, finalEdges, lipids_for_rxn_mode = create_nodes_and_edges(pathways,selected_lipids)
+#         elements = finalNodes + finalEdges
         
-        #output for pathway info container
-        pathway_info_children = []
+#         #output for pathway info container
+#         pathway_info_children = []
                     
-        # build infor cards
-        bundled_info = []
-        for pathway, lipids in pathway_lipids.items():
-            # database_list = ["Kegg","Reactome"]  # Example database list
-            database = databaseCategory.get(pathway, "None")
-            temp = {}
-            temp['Pathway'] = pathway
-            temp['Databases'] = database
-            temp['Lipids'] = lipids
-            bundled_info.append(temp)
-            # card = return_pathway_card(pathway, lipids, database)
-            # pathway_info_children.append(card)
+#         # build infor cards
+#         bundled_info = []
+#         for pathway, lipids in pathway_lipids.items():
+#             # database_list = ["Kegg","Reactome"]  # Example database list
+#             database = databaseCategory.get(pathway, "None")
+#             temp = {}
+#             temp['Pathway'] = pathway
+#             temp['Databases'] = database
+#             temp['Lipids'] = lipids
+#             bundled_info.append(temp)
+#             # card = return_pathway_card(pathway, lipids, database)
+#             # pathway_info_children.append(card)
         
-        columnDefs = [
-            {"field": "Lipids", "flex": 1},
-            {"field": "Pathway", "flex": 1},
-            {"field": "Databases", "flex": 1},
-        ]
+#         columnDefs = [
+#             {"field": "Lipids", "flex": 1},
+#             {"field": "Pathway", "flex": 1},
+#             {"field": "Databases", "flex": 1},
+#         ]
         
         
-        #########################
-        node_ids = {n['data']['id'] for n in finalNodes}
-        for e in finalEdges:
-            if e['data']['source'] not in node_ids:
-                print("❌ Missing source node:", e['data']['source'])
-            if e['data']['target'] not in node_ids:
-                print("❌ Missing target node:", e['data']['target'])
+#         #########################
+#         node_ids = {n['data']['id'] for n in finalNodes}
+#         for e in finalEdges:
+#             if e['data']['source'] not in node_ids:
+#                 print("❌ Missing source node:", e['data']['source'])
+#             if e['data']['target'] not in node_ids:
+#                 print("❌ Missing target node:", e['data']['target'])
 
         
-        for n in finalNodes:
-            if 'parent' in n['data'] and n['data']['parent'] not in node_ids:
-                print("❌ Missing parent:", n['data']['parent'], "for", n['data']['id'])
+#         for n in finalNodes:
+#             if 'parent' in n['data'] and n['data']['parent'] not in node_ids:
+#                 print("❌ Missing parent:", n['data']['parent'], "for", n['data']['id'])
 
         
-        ##########################
+#         ##########################
         
-        parent_errors = validate_parents(finalNodes)
-        if parent_errors:
-            print("❌ Parent integrity errors:")
-            for e in parent_errors:
-                print("  ", e)
-        else:
-            print("✅ All parent references are valid")
+#         parent_errors = validate_parents(finalNodes)
+#         if parent_errors:
+#             print("❌ Parent integrity errors:")
+#             for e in parent_errors:
+#                 print("  ", e)
+#         else:
+#             print("✅ All parent references are valid")
                 
-        print("Passed all the checks")
+#         print("Passed all the checks")
         
         
-        # set diable to true, enable reaction view
-        options = [{**x, "disabled": False} for x in highlight_options]
-        option_value = 1 #reset to full network
-        rxn_view_lipids = [] #remove all previous selections for reaction view mode
+#         # set diable to true, enable reaction view
+#         options = [{**x, "disabled": False} for x in highlight_options]
+#         option_value = 1 #reset to full network
+#         rxn_view_lipids = [] #remove all previous selections for reaction view mode
         
-        return no_update,elements,bundled_info,columnDefs,lipids_for_rxn_mode,rxn_view_lipids,options,selected_lipids
+#         return no_update,elements,bundled_info,columnDefs,lipids_for_rxn_mode,rxn_view_lipids,options,selected_lipids
 
-    except Exception as e:
-        print(f"Error in fetch_network: {e}")
-        return return_erorr_messgae(),no_update, no_update, no_update,no_update, no_update, no_update, no_update
+#     except Exception as e:
+#         print(f"Error in fetch_network: {e}")
+#         return return_erorr_messgae(),no_update, no_update, no_update,no_update, no_update, no_update, no_update
 
 
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-1'},'elements', allow_duplicate=True),
-    Output("main-chain-lipid-dropdown",'disabled'),
-    Output('lipid-dropdown','disabled'),
-    Output('fetch-network-button','disabled'),
-    Input('highlight-radio','value'),
-    State({'type': 'cy-graph','index':'console-1'},'elements'),
-    State('main-chain-lipid-dropdown','value'),
-    prevent_initial_call=True,
-)
-def highlight_reaction_Chain(value, elements, selected_lipids):
-    try:
-        if value is None:
-            print("Direct pathway toggle value is None")
-            return elements, no_update, no_update, no_update, no_update
+# @callback(
+#     Output('Modal-store','data',allow_duplicate=True),
+#     Output({'type': 'cy-graph','index':'console-1'},'elements', allow_duplicate=True),
+#     Output("main-chain-lipid-dropdown",'disabled'),
+#     Output('lipid-dropdown','disabled'),
+#     Output('fetch-network-button','disabled'),
+#     Input('highlight-radio','value'),
+#     State({'type': 'cy-graph','index':'console-1'},'elements'),
+#     State('main-chain-lipid-dropdown','value'),
+#     prevent_initial_call=True,
+# )
+# def highlight_reaction_Chain(value, elements, selected_lipids):
+#     try:
+#         if value is None:
+#             print("Direct pathway toggle value is None")
+#             return elements, no_update, no_update, no_update, no_update
         
-        print("Direct pathway toggle value:", value)
-        print(selected_lipids)
+#         print("Direct pathway toggle value:", value)
+#         print(selected_lipids)
         
-        to_disable = False # whether to diable the lipid input
-        if value == 2:
-            elements = highlight_elements(elements, selected_lipids)
-            to_disable = True
-        else:
-            elements = remove_highlight(elements, selected_lipids)
-            to_disable = False
+#         to_disable = False # whether to diable the lipid input
+#         if value == 2:
+#             elements = highlight_elements(elements, selected_lipids)
+#             to_disable = True
+#         else:
+#             elements = remove_highlight(elements, selected_lipids)
+#             to_disable = False
         
-        return no_update,elements,to_disable, to_disable, to_disable
-    except Exception as e:
-        return return_erorr_messgae(),no_update, no_update, no_update, no_update
+#         return no_update,elements,to_disable, to_disable, to_disable
+#     except Exception as e:
+#         return return_erorr_messgae(),no_update, no_update, no_update, no_update
 
 
 
 # @callback(
-#     Output({'type': 'cy-graph','index':'console-1'},'elements', allow_duplicate=True),
-#     Input('main-chain-lipid-dropdown','value'),
-#     State({'type': 'cy-graph','index':'console-1'},'elements'),
-#     State('current-lipid-store','data'),
+#     Output('Modal-store','data',allow_duplicate=True),
+#     Output({'type': 'cy-graph','index':'console-3'},'elements'),
+#     Output({'type': 'cy-graph','index':'console-3'},'stylesheet'),
+#     Output({'type': 'info-table', 'index': 'console-3'},'rowData'),
+#     Output({'type': 'info-table', 'index': 'console-3'},'columnDefs'),
+#     Input('fetch-tfs-button', 'n_clicks'),
+#     State('gene-dropdown', 'value'),
+#     State({'type': 'cy-graph','index':'console-3'}, 'stylesheet'),
+#     prevent_initial_call=True,
+#     running=[(Output("fetch-tfs-button", "disabled"), True, False)]
+# )
+# def fetch_tfs(n_clicks, selected_genes, stylesheet):
+
+#     try:
+#         if n_clicks is None or not selected_genes:
+#             return return_erorr_messgae(fetch=True,genes=True), no_update, stylesheet, no_update, no_update
+
+#         finalNodes = []
+#         finalEdges = []
+#         finalTargetGene = set()
+
+#         df = pd.read_csv(os.path.join(root_dir, 'src/sbmlData/final_tf_targetgene_tissue_groups.csv'), dtype=str)
+#         transcription_factors = df[df['TargetGene'].isin(selected_genes)]['TF'].unique().tolist()
+#         global_tissues = set()
+#         for tf in transcription_factors:
+#             # mask2 = df['TF'] == tf
+#             # temp2 = df[mask2] 
+#             # tissueList = temp2['Tissue'].unique().tolist()
+#             # nodeTissues = "_T".join(tissueList) + "_T"
+#             tf_tissueList = set()
+            
+#             for tg in selected_genes:
+#                 mask = (df['TF'] == tf) & (df['TargetGene'] == tg)
+#                 temp = df[mask]
+#                 tissueList = temp['Tissue'].unique().tolist()
+#                 edgeTissues = "_T ".join(tissueList) + "_T"
+#                 tf_tissueList.update(tissueList)
+#                 global_tissues.update(tissueList)
+                
+#                 if not temp.empty:
+#                     if tg not in finalTargetGene:
+#                         finalTargetGene.add(tg)
+#                         finalNodes.append({
+#                             'data': {'id': tg, 'label': tg, 'classes': 'enzymaticGene','uniprotAcc': uniprot_cache.get(tg,'')},
+#                             'classes': 'enzymaticGene',
+#                         })
+                    
+#                     finalEdges.append({
+#                         'data': {'source': tf, 'target': tg, 'tissueClass' : f"TRANSCRIPTION {edgeTissues}"},
+#                         'classes' : f"TRANSCRIPTION",
+#                     })
+            
+#             nodeTissues = "_T ".join(tf_tissueList) + "_T"
+#             finalNodes.append({
+#                 'data': {'id': tf, 'label': tf, 'tissueClass' : f"transcriptionFactorGene {nodeTissues}",'uniprotAcc': uniprot_cache.get(tf,'')},
+#                 'classes': "transcriptionFactorGene",
+#             })
+        
+#         # uniqueTissue = tissueToPs.keys()
+#         for tis in global_tissues:
+#             stylesheet.extend([{
+#                 "selector" : f".{tis}_T",
+#                 "style" : {"display" : "element"}
+#             }])
+#             # Add a corresponding edge for the tissue
+        
+#         elements = finalNodes + finalEdges
+        
+        
+#         # build table data
+#         # tf, gene = populate_table_dropdown(1,elements)
+#         tf = list(transcription_factors)
+#         gene = list(finalTargetGene)
+#         df, columnDefs = populate_table(tf_value=tf,gene_value=gene)
+        
+#         return no_update, elements, stylesheet, df, columnDefs
+    
+#     except Exception as e:
+#         return return_erorr_messgae(), no_update, no_update, no_update, no_update
+
+
+# def _changeTissueOptions_core(phySystemOptions):
+#     try:
+#         global psToTissue
+#         # Return placeholder option if no physiological system is selected
+#         if phySystemOptions is None or len(phySystemOptions) == 0:
+#             return no_update, [{'label': 'Select Physiological System To View Tissues List', 'value': 'null'}]
+
+#         if len(phySystemOptions) != 0:
+#             # Collect tissues and format labels with the system name
+#             tissueOptions = []  
+#             for system in phySystemOptions:
+#                 tissues = psToTissue.get(system, [])
+#                 for tissue in tissues:
+#                     tissueOptions.append({'label': f"{system}: {tissue}", 'value': tissue})
+
+#             return no_update, tissueOptions
+#         else:
+#             return no_update, [{'label': 'Select Physiological System To View Tissues List', 'value': 'null'}]
+#     except Exception as e:
+#         return return_erorr_messgae(), no_update
+
+
+# # --- helper 2: original handlePhysiologicalSelection logic, unchanged ---
+# def _handlePhysiologicalSelection_core(val, stylesheet, elements):
+#     try:
+#         global tissueToPs
+#         global psToTissue
+
+#         if val is None:
+#             return no_update, stylesheet, elements
+
+#         if len(val) != 0:
+#             val = set(val)
+#             basic_stylesheet = []
+#             show_stylesheet = []
+#             hide_stylesheet = []
+
+#             for style in stylesheet:
+#                 selector = style.get('selector')
+                
+#                 if 'T_' == selector[-1:-3:-1]:
+#                     phySystem = set(tissueToPs[(selector[1:-2])])
+#                     if phySystem.intersection(val):
+#                         style.get('style')['display'] = 'element'
+#                         show_stylesheet.append(style)
+#                     else:
+#                         style.get('style')['display'] = 'none'
+#                         hide_stylesheet.append(style)
+#                 else:
+#                     basic_stylesheet.append(style)
+            
+            
+#             basic_stylesheet.extend(show_stylesheet)
+#             basic_stylesheet.extend(hide_stylesheet)
+
+#             # print(json.dumps(basic_stylesheet,indent=2))
+
+#             allowedTissues = list(chain(*[psToTissue[sys] for sys in val]))
+#             allowedTissues = set([var+"_T" for var in allowedTissues])
+#             newElements = processElements(elements, allowedTissues)
+
+#             return no_update, basic_stylesheet, newElements
+
+#         else:
+#             for style in stylesheet:
+#                 if 'T_' == style.get('selector')[-1:-3:-1]:
+#                     style.get('style')['display'] = 'element'
+
+#             return no_update, stylesheet, elements
+        
+#     except Exception as e:
+#         return return_erorr_messgae(), no_update, no_update
+
+
+# @callback(
+#     Output('Modal-store', 'data', allow_duplicate=True),
+#     Output("tissue-dropdown", "options"),
+#     Output({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet", allow_duplicate=True),
+#     Output({'type': 'cy-graph', 'index': 'console-3'}, "elements", allow_duplicate=True),
+#     Input("physiological-systems-dropdown", "value"),
+#     State({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet"),
+#     State({'type': 'cy-graph', 'index': 'console-3'}, "elements"),
 #     prevent_initial_call=True,
 # )
-# def highlight_selected_lipids(lipids,elements, current_lipids):
+# def combined_physio_selection(phySystemOptions, stylesheet, elements):
+#     # run the two original logics independently
     
-#     if elements is None or lipids is None or not elements:
-#         return no_update
-    
-#     print("-------current_lipids" , current_lipids)
-    
-#     for ele in elements:
-#         if 'source' not in ele['data']:
-#             if ele['data']['id'] in current_lipids:
-#                 continue
+#     modal1, tissue_options = _changeTissueOptions_core(phySystemOptions)
+#     modal2, new_stylesheet, new_elements = _handlePhysiologicalSelection_core(
+#         phySystemOptions, stylesheet, elements
+#     )
+
+#     # choose which Modal-store message to show:
+#     # - if the first produced an error/message, prefer it
+#     # - otherwise use the second one
+#     if modal1 is not no_update:
+#         modal_data = modal1
+#     else:
+#         modal_data = modal2
+
+#     return modal_data, tissue_options, new_stylesheet, new_elements
+
+
+# @callback(
+#     Output('Modal-store','data',allow_duplicate=True),
+#     Output({'type': 'cy-graph','index':'console-3'}, "stylesheet", allow_duplicate=True),
+#     Output({'type': 'cy-graph','index':'console-3'},"elements",allow_duplicate= True),
+#     Input("tissue-dropdown", "value"),
+#     State({'type': 'cy-graph','index':'console-3'}, "stylesheet"),
+#     State("physiological-systems-dropdown","value"),
+#     State({'type': 'cy-graph','index':'console-3'},"elements"),
+#     prevent_initial_call=True,
+# )
+# def handleTissueSelection(tisOptions, stylesheet,phySystemOptions,elements):
+#     try:
+#         if tisOptions is None:
+#             return no_update,stylesheet, elements
+        
+#         if len(tisOptions) != 0:
+
+#             if 'null' in tisOptions:
+#                 return no_update,stylesheet,no_update
+
+#             basic_stylesheet = []
+#             show_stylesheet = []
+#             hide_stylesheet = []
+#             for style in stylesheet:
+#                 selector = style.get('selector')
+
+#                 if 'T_' == selector[-1:-3:-1]:
+#                     # print(physiologicalSystemDf[(physiologicalSystemDf['Tissue'] == selector[:-2][1:])]['Physiological System'])
+#                     if selector[:-2][1:] in tisOptions:
+#                         style.get('style')['display'] = 'element'
+#                         show_stylesheet.append(style)
+#                     else:
+#                         style.get('style')['display'] = 'none'
+#                         hide_stylesheet.append(style)
+#                 else:
+#                     basic_stylesheet.append(style)
             
-#             if ele['data']['id'] in lipids:
-#                 var = ele['data']['classes'].split(" ")
-#                 if 'highlightedNode' not in var:
-#                     ele['data']['classes'] += ' highlightedNode'
-#                     ele['classes'] = ele['data']['classes']
-#             else:
-#                 var = ele['data']['classes'].split(" ")
-#                 if 'highlightedNode' in var:
-#                     ele['data']['classes'] = " ".join(var[:-1])
-#                     ele['classes'] = ele['data']['classes']            
-    
-#     return elements
+#             basic_stylesheet.extend(hide_stylesheet)
+#             basic_stylesheet.extend(show_stylesheet)
+
+#             allowedTissue = set([var+'_T' for var in tisOptions])
+
+#             newElements = processElements(elements,allowedTissue)
+        
+#             return no_update,basic_stylesheet ,newElements
+#         else:
+#             return _handlePhysiologicalSelection_core(phySystemOptions,stylesheet, elements)
+#     except Exception as e:
+#         return return_erorr_messgae(), no_update, no_update
 
 
+# @callback(
+#     Output('Modal-store','data',allow_duplicate=True),
+#     Output({'type': 'info-table', 'index': 'console-2'}, "rowData"),
+#     Output({'type': 'info-table', 'index': 'console-2'}, "columnDefs"),
+#     Output({'type': 'cy-graph','index':'console-2'},'elements'),
+#     Output({'type': 'cy-graph','index':'console-2'},'stylesheet'),
+#     Input('fetch-reactions-button', 'n_clicks'),
+#     State('gene-rxn-dropdown', 'value'),
+#     State({'type': 'cy-graph','index':'console-2'},'stylesheet'),
+#     prevent_initial_call = True,
+#     running=[(Output("fetch-reactions-button", "disabled"), True, False)]
+# )
+# def fetch_rxn(n_clicks, genes, stylesheet):
+#     try:
+#         if not n_clicks or not genes:
+#             return return_erorr_messgae(fetch=True,genes=True),[],[],no_update
+        
+#         with open(os.path.join(root_dir, 'src/sbmlData/gene_to_reactions_map.json')) as file:
+#             gene_to_rxn = json.load(file)
 
+#         finalNodes = []
+#         finalEdges = []
+#         finalNodeSet = set()
+#         finalReactionList = {}
+#         finalLipidNodes = {}
 
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-3'},'elements'),
-    Output({'type': 'cy-graph','index':'console-3'},'stylesheet'),
-    Output({'type': 'info-table', 'index': 'console-3'},'rowData'),
-    Output({'type': 'info-table', 'index': 'console-3'},'columnDefs'),
-    Input('fetch-tfs-button', 'n_clicks'),
-    State('gene-dropdown', 'value'),
-    State({'type': 'cy-graph','index':'console-3'}, 'stylesheet'),
-    prevent_initial_call=True,
-    running=[(Output("fetch-tfs-button", "disabled"), True, False)]
-)
-def fetch_tfs(n_clicks, selected_genes, stylesheet):
-
-    try:
-        if n_clicks is None or not selected_genes:
-            return return_erorr_messgae(fetch=True,genes=True), no_update, stylesheet, no_update, no_update
-
-        finalNodes = []
-        finalEdges = []
-        finalTargetGene = set()
-
-        df = pd.read_csv(os.path.join(root_dir, 'src/sbmlData/final_tf_targetgene_tissue_groups.csv'), dtype=str)
-        transcription_factors = df[df['TargetGene'].isin(selected_genes)]['TF'].unique().tolist()
-        global_tissues = set()
-        for tf in transcription_factors:
-            # mask2 = df['TF'] == tf
-            # temp2 = df[mask2] 
-            # tissueList = temp2['Tissue'].unique().tolist()
-            # nodeTissues = "_T".join(tissueList) + "_T"
-            tf_tissueList = set()
+#         for gene in genes:
+#             rxn = gene_to_rxn.get(gene,{})
             
-            for tg in selected_genes:
-                mask = (df['TF'] == tf) & (df['TargetGene'] == tg)
-                temp = df[mask]
-                tissueList = temp['Tissue'].unique().tolist()
-                edgeTissues = "_T ".join(tissueList) + "_T"
-                tf_tissueList.update(tissueList)
-                global_tissues.update(tissueList)
+#             for key,value in rxn.items():
+#                 if key in finalReactionList:
+#                     print(f"Reaction {key} already processed, skipping.")
+#                     pathway = set(value.get('pathways',[]))
+#                     pathway.update(set(finalReactionList[key]['pathways']))
+#                     finalReactionList[key]['pathways'] = list(pathway)
+#                     continue
                 
-                if not temp.empty:
-                    if tg not in finalTargetGene:
-                        finalTargetGene.add(tg)
-                        finalNodes.append({
-                            'data': {'id': tg, 'label': tg, 'classes': 'enzymaticGene','uniprotAcc': uniprot_cache.get(tg,'')},
-                            'classes': 'enzymaticGene',
-                        })
-                    
-                    finalEdges.append({
-                        'data': {'source': tf, 'target': tg, 'tissueClass' : f"TRANSCRIPTION {edgeTissues}"},
-                        'classes' : f"TRANSCRIPTION",
-                    })
-            
-            nodeTissues = "_T ".join(tf_tissueList) + "_T"
-            finalNodes.append({
-                'data': {'id': tf, 'label': tf, 'tissueClass' : f"transcriptionFactorGene {nodeTissues}",'uniprotAcc': uniprot_cache.get(tf,'')},
-                'classes': "transcriptionFactorGene",
-            })
-        
-        # uniqueTissue = tissueToPs.keys()
-        for tis in global_tissues:
-            stylesheet.extend([{
-                "selector" : f".{tis}_T",
-                "style" : {"display" : "element"}
-            }])
-            # Add a corresponding edge for the tissue
-        
-        elements = finalNodes + finalEdges
-        
-        
-        # build table data
-        # tf, gene = populate_table_dropdown(1,elements)
-        tf = list(transcription_factors)
-        gene = list(finalTargetGene)
-        df, columnDefs = populate_table(tf_value=tf,gene_value=gene)
-        
-        return no_update, elements, stylesheet, df, columnDefs
-    
-    except Exception as e:
-        return return_erorr_messgae(), no_update, no_update, no_update, no_update
-
-
-def _changeTissueOptions_core(phySystemOptions):
-    try:
-        global psToTissue
-        # Return placeholder option if no physiological system is selected
-        if phySystemOptions is None or len(phySystemOptions) == 0:
-            return no_update, [{'label': 'Select Physiological System To View Tissues List', 'value': 'null'}]
-
-        if len(phySystemOptions) != 0:
-            # Collect tissues and format labels with the system name
-            tissueOptions = []  
-            for system in phySystemOptions:
-                tissues = psToTissue.get(system, [])
-                for tissue in tissues:
-                    tissueOptions.append({'label': f"{system}: {tissue}", 'value': tissue})
-
-            return no_update, tissueOptions
-        else:
-            return no_update, [{'label': 'Select Physiological System To View Tissues List', 'value': 'null'}]
-    except Exception as e:
-        return return_erorr_messgae(), no_update
-
-
-# --- helper 2: original handlePhysiologicalSelection logic, unchanged ---
-def _handlePhysiologicalSelection_core(val, stylesheet, elements):
-    try:
-        global tissueToPs
-        global psToTissue
-
-        if val is None:
-            return no_update, stylesheet, elements
-
-        if len(val) != 0:
-            val = set(val)
-            basic_stylesheet = []
-            show_stylesheet = []
-            hide_stylesheet = []
-
-            for style in stylesheet:
-                selector = style.get('selector')
+#                 finalReactionList[key] = value.get('pathways',[])
+#                 finalReactionList[key] = {'pathways' : value.get('pathways',[]), 'value' : value}
                 
-                if 'T_' == selector[-1:-3:-1]:
-                    phySystem = set(tissueToPs[(selector[1:-2])])
-                    if phySystem.intersection(val):
-                        style.get('style')['display'] = 'element'
-                        show_stylesheet.append(style)
-                    else:
-                        style.get('style')['display'] = 'none'
-                        hide_stylesheet.append(style)
-                else:
-                    basic_stylesheet.append(style)
-            
-            
-            basic_stylesheet.extend(show_stylesheet)
-            basic_stylesheet.extend(hide_stylesheet)
-
-            # print(json.dumps(basic_stylesheet,indent=2))
-
-            allowedTissues = list(chain(*[psToTissue[sys] for sys in val]))
-            allowedTissues = set([var+"_T" for var in allowedTissues])
-            newElements = processElements(elements, allowedTissues)
-
-            return no_update, basic_stylesheet, newElements
-
-        else:
-            for style in stylesheet:
-                if 'T_' == style.get('selector')[-1:-3:-1]:
-                    style.get('style')['display'] = 'element'
-
-            return no_update, stylesheet, elements
-        
-    except Exception as e:
-        return return_erorr_messgae(), no_update, no_update
-
-
-@callback(
-    Output('Modal-store', 'data', allow_duplicate=True),
-    Output("tissue-dropdown", "options"),
-    Output({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet", allow_duplicate=True),
-    Output({'type': 'cy-graph', 'index': 'console-3'}, "elements", allow_duplicate=True),
-    Input("physiological-systems-dropdown", "value"),
-    State({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet"),
-    State({'type': 'cy-graph', 'index': 'console-3'}, "elements"),
-    prevent_initial_call=True,
-)
-def combined_physio_selection(phySystemOptions, stylesheet, elements):
-    # run the two original logics independently
-    
-    modal1, tissue_options = _changeTissueOptions_core(phySystemOptions)
-    modal2, new_stylesheet, new_elements = _handlePhysiologicalSelection_core(
-        phySystemOptions, stylesheet, elements
-    )
-
-    # choose which Modal-store message to show:
-    # - if the first produced an error/message, prefer it
-    # - otherwise use the second one
-    if modal1 is not no_update:
-        modal_data = modal1
-    else:
-        modal_data = modal2
-
-    return modal_data, tissue_options, new_stylesheet, new_elements
-
-
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-3'}, "stylesheet", allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-3'},"elements",allow_duplicate= True),
-    Input("tissue-dropdown", "value"),
-    State({'type': 'cy-graph','index':'console-3'}, "stylesheet"),
-    State("physiological-systems-dropdown","value"),
-    State({'type': 'cy-graph','index':'console-3'},"elements"),
-    prevent_initial_call=True,
-)
-def handleTissueSelection(tisOptions, stylesheet,phySystemOptions,elements):
-    try:
-        if tisOptions is None:
-            return no_update,stylesheet, elements
-        
-        if len(tisOptions) != 0:
-
-            if 'null' in tisOptions:
-                return no_update,stylesheet,no_update
-
-            basic_stylesheet = []
-            show_stylesheet = []
-            hide_stylesheet = []
-            for style in stylesheet:
-                selector = style.get('selector')
-
-                if 'T_' == selector[-1:-3:-1]:
-                    # print(physiologicalSystemDf[(physiologicalSystemDf['Tissue'] == selector[:-2][1:])]['Physiological System'])
-                    if selector[:-2][1:] in tisOptions:
-                        style.get('style')['display'] = 'element'
-                        show_stylesheet.append(style)
-                    else:
-                        style.get('style')['display'] = 'none'
-                        hide_stylesheet.append(style)
-                else:
-                    basic_stylesheet.append(style)
-            
-            basic_stylesheet.extend(hide_stylesheet)
-            basic_stylesheet.extend(show_stylesheet)
-
-            allowedTissue = set([var+'_T' for var in tisOptions])
-
-            newElements = processElements(elements,allowedTissue)
-        
-            return no_update,basic_stylesheet ,newElements
-        else:
-            return _handlePhysiologicalSelection_core(phySystemOptions,stylesheet, elements)
-    except Exception as e:
-        return return_erorr_messgae(), no_update, no_update
-
-
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'info-table', 'index': 'console-2'}, "rowData"),
-    Output({'type': 'info-table', 'index': 'console-2'}, "columnDefs"),
-    Output({'type': 'cy-graph','index':'console-2'},'elements'),
-    Output({'type': 'cy-graph','index':'console-2'},'stylesheet'),
-    Input('fetch-reactions-button', 'n_clicks'),
-    State('gene-rxn-dropdown', 'value'),
-    State({'type': 'cy-graph','index':'console-2'},'stylesheet'),
-    prevent_initial_call = True,
-    running=[(Output("fetch-reactions-button", "disabled"), True, False)]
-)
-def fetch_rxn(n_clicks, genes, stylesheet):
-    try:
-        if not n_clicks or not genes:
-            return return_erorr_messgae(fetch=True,genes=True),[],[],no_update
-        
-        with open(os.path.join(root_dir, 'src/sbmlData/gene_to_reactions_map.json')) as file:
-            gene_to_rxn = json.load(file)
-
-        finalNodes = []
-        finalEdges = []
-        finalNodeSet = set()
-        finalReactionList = {}
-        finalLipidNodes = {}
-
-        for gene in genes:
-            rxn = gene_to_rxn.get(gene,{})
-            
-            for key,value in rxn.items():
-                if key in finalReactionList:
-                    print(f"Reaction {key} already processed, skipping.")
-                    pathway = set(value.get('pathways',[]))
-                    pathway.update(set(finalReactionList[key]['pathways']))
-                    finalReactionList[key]['pathways'] = list(pathway)
-                    continue
-                
-                finalReactionList[key] = value.get('pathways',[])
-                finalReactionList[key] = {'pathways' : value.get('pathways',[]), 'value' : value}
-                
-                #create the connector node for reaction
-                finalNodes.append({
-                    'data': {'id': key, 'label':key,'classes' : 'temp'},
-                    'classes': 'temp',
-                    # 'selectable': True,
-                    # 'grabbable': True
-                })
+#                 #create the connector node for reaction
+#                 finalNodes.append({
+#                     'data': {'id': key, 'label':key,'classes' : 'temp'},
+#                     'classes': 'temp',
+#                     # 'selectable': True,
+#                     # 'grabbable': True
+#                 })
                 
                 
-                #create node and edges for reaction
-                for reactant in value.get('reactantList',[]):
-                    if reactant not in finalLipidNodes:
-                        finalLipidNodes[reactant] = {
-                            'data': {'id': reactant, 'label':reactant,'classes' : 'lipidMetabolite', 'link': metabolite_link_map.get(reactant,'')},
-                            'classes': 'lipidMetabolite',
-                        }
+#                 #create node and edges for reaction
+#                 for reactant in value.get('reactantList',[]):
+#                     if reactant not in finalLipidNodes:
+#                         finalLipidNodes[reactant] = {
+#                             'data': {'id': reactant, 'label':reactant,'classes' : 'lipidMetabolite', 'link': metabolite_link_map.get(reactant,'')},
+#                             'classes': 'lipidMetabolite',
+#                         }
 
                     
-                    finalEdges.append({
-                        'data': {'source': reactant, 'target': key, 'classes' : 'first_half','reactInfo' : value.get('reactInfo','')},
-                        'classes': 'first_half',
-                        # 'selectable': True, 
-                        # 'grabbable': False
-                    })
+#                     finalEdges.append({
+#                         'data': {'source': reactant, 'target': key, 'classes' : 'first_half','reactInfo' : value.get('reactInfo','')},
+#                         'classes': 'first_half',
+#                         # 'selectable': True, 
+#                         # 'grabbable': False
+#                     })
                     
                 
-                for product in value.get('productList',[]):
-                    if product not in finalLipidNodes:
-                        finalLipidNodes[product] = {
-                            'data': {'id': product, 'label':product,'classes' : 'lipidMetabolite', 'link': metabolite_link_map.get(product,'')},
-                            'classes': 'lipidMetabolite',
-                            # 'selectable': True,
-                            # 'grabbable': True
-                        }
+#                 for product in value.get('productList',[]):
+#                     if product not in finalLipidNodes:
+#                         finalLipidNodes[product] = {
+#                             'data': {'id': product, 'label':product,'classes' : 'lipidMetabolite', 'link': metabolite_link_map.get(product,'')},
+#                             'classes': 'lipidMetabolite',
+#                             # 'selectable': True,
+#                             # 'grabbable': True
+#                         }
                     
-                    finalEdges.append({
-                        'data': {'source': key, 'target': product, 'classes' : 'second_half','reactInfo' : value.get('reactInfo','')},
-                        'classes': 'second_half',
-                        # 'selectable': True, 
-                        # 'grabbable': False
-                    })            
+#                     finalEdges.append({
+#                         'data': {'source': key, 'target': product, 'classes' : 'second_half','reactInfo' : value.get('reactInfo','')},
+#                         'classes': 'second_half',
+#                         # 'selectable': True, 
+#                         # 'grabbable': False
+#                     })            
 
 
-                for gene, modifier in zip(value.get('geneList',[]),value.get('geneModifierType',[])):
-                    if gene not in finalNodeSet:
-                        finalNodeSet.add(gene)
+#                 for gene, modifier in zip(value.get('geneList',[]),value.get('geneModifierType',[])):
+#                     if gene not in finalNodeSet:
+#                         finalNodeSet.add(gene)
                     
-                    geneNode = {
-                        'data': {'id': gene, 'label':gene,'classes' : 'enzymaticGene', 'uniprotAcc': uniprot_cache.get(gene,'')},
-                        'classes': 'enzymaticGene',
-                        # 'selectable': True,
-                        # 'grabbable': True
-                    }
+#                     geneNode = {
+#                         'data': {'id': gene, 'label':gene,'classes' : 'enzymaticGene', 'uniprotAcc': uniprot_cache.get(gene,'')},
+#                         'classes': 'enzymaticGene',
+#                         # 'selectable': True,
+#                         # 'grabbable': True
+#                     }
                     
-                    if gene in genes:
-                        geneNode['classes'] += ' highlightedNode'
+#                     if gene in genes:
+#                         geneNode['classes'] += ' highlightedNode'
                     
-                    finalNodes.append(geneNode)
+#                     finalNodes.append(geneNode)
                     
-                    finalEdges.append({
-                        'data': {'source': gene, 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo','')},
-                        'classes': modifier,
-                        # 'selectable': True, 
-                        # 'grabbable': False
-                    })
+#                     finalEdges.append({
+#                         'data': {'source': gene, 'target': key, 'classes' : modifier,'reactInfo' : value.get('reactInfo','')},
+#                         'classes': modifier,
+#                         # 'selectable': True, 
+#                         # 'grabbable': False
+#                     })
         
-        # print(finalReactionList)
+#         # print(finalReactionList)
         
-        df, columnDefs = build_dataframe(finalReactionList)
+#         df, columnDefs = build_dataframe(finalReactionList)
         
-        finalNodes.extend(finalLipidNodes.values())
+#         finalNodes.extend(finalLipidNodes.values())
         
-        return no_update, df.to_dict('records'), columnDefs,finalNodes+finalEdges , stylesheet
-    except Exception as e:
-        return return_erorr_messgae(), no_update, no_update, no_update
+#         return no_update, df.to_dict('records'), columnDefs,finalNodes+finalEdges , stylesheet
+#     except Exception as e:
+#         return return_erorr_messgae(), no_update, no_update, no_update
     

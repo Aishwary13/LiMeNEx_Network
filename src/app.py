@@ -1,12 +1,8 @@
 import dash
-from dash import html,dcc,MATCH,ALL
+from dash import html,dcc
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output,State
 import dash_cytoscape as cyto
-import diskcache
-from dash import DiskcacheManager
-import os
-import pandas as pd
 
 font_awesome1 = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'
 font_awesome3 = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css'
@@ -33,6 +29,7 @@ server = dash_app.server
 
 from pages import home, contact,network,not_available, tutorial
 from callbacks import network_callback
+from callbacks.clientside_callbacks import uniprot_and_lipid_redirect_callback, recenter_cytoscape_graph
 
 # dataBasePath= sbml_network.dataBasePath
 
@@ -86,14 +83,6 @@ dash_app.layout = html.Div([
                     className="pe-3",
                     style={'marginTop' : '7px'}
                 ),
-                # dbc.NavLink([html.Div([
-                #     html.I(className="fa-solid fa-circle-nodes"),
-                #     html.Span("Network", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
-                #     href="/Network",
-                #     active="exact",
-                #     className="pe-3",
-                #     style={'marginTop' : '7px'}
-                # ),
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-book"),
                     html.Span("Tutorial", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
@@ -127,6 +116,7 @@ dash_app.layout = html.Div([
     )
 ])
 
+
 @dash_app.callback(
         Output('page-content', 'children'),
         Input('url', 'pathname'),
@@ -150,152 +140,13 @@ def display_page(pathname,search):
 
 
 dash_app.clientside_callback(
-    """
-    function(data1, data2, data3) {
-
-        function isInvalidLink(link) {
-            return (
-                link === null ||
-                link === undefined ||
-                link === "" ||
-                link === "nan" ||
-                link === "NaN"
-            );
-        }
-
-        const ctx = dash_clientside.callback_context || 
-                    (window.dash_clientside && window.dash_clientside.callback_context);
-
-        if (!ctx || !ctx.triggered || ctx.triggered.length === 0) {
-            return window.dash_clientside.no_update;
-        }
-
-        const triggeredProp = ctx.triggered[0].prop_id || "";
-
-        let activeData = null;
-        if (triggeredProp.indexOf('"console-1"') !== -1) {
-            activeData = data1;
-        } else if (triggeredProp.indexOf('"console-2"') !== -1) {
-            activeData = data2;
-        } else if (triggeredProp.indexOf('"console-3"') !== -1) {
-            activeData = data3;
-        } else {
-            activeData = data3 || data2 || data1;
-        }
-
-        if (!activeData) {
-            return window.dash_clientside.no_update;
-        }
-
-        if ('uniprotAcc' in activeData) {
-            if (isInvalidLink(activeData.uniprotAcc)) {
-                const node = activeData.label || activeData.id || "Unknown";
-                const type = activeData.type || "Unknown";
-
-                window.open(
-                    `/not-available?node=${encodeURIComponent(node)}&type=${encodeURIComponent(type)}`,
-                    "_blank"
-                );
-                return window.dash_clientside.no_update;
-            }
-
-            window.open(
-                `https://www.uniprot.org/uniprotkb/${activeData.uniprotAcc}`,
-                "_blank"
-            );
-
-        } else if ('link' in activeData) {
-            if (isInvalidLink(activeData.link)) {
-                const node = activeData.label || activeData.id || "Unknown";
-                const type = activeData.type || "Unknown";
-
-                window.open(
-                    `/not-available?node=${encodeURIComponent(node)}&type=${encodeURIComponent(type)}`,
-                    "_blank"
-                );
-                return window.dash_clientside.no_update;
-            }
-
-            window.open(activeData.link, "_blank");
-        }
-
-        return window.dash_clientside.no_update;
-    }
-    """,
-    Output("dummy-output-store", "data"),
-    Input({'type': 'cy-graph','index':'console-1'}, "tapNodeData"),
-    Input({'type': 'cy-graph','index':'console-2'}, "tapNodeData"),
-    Input({'type': 'cy-graph','index':'console-3'}, "tapNodeData"),
+    *uniprot_and_lipid_redirect_callback(),
     prevent_initial_call=True,
 )
 
 
 dash_app.clientside_callback(
-"""
-function(n1, n2, n3) {
-
-    const ctx =
-        dash_clientside.callback_context ||
-        window.dash_clientside.callback_context;
-
-    if (!ctx || !ctx.triggered.length) {
-        return window.dash_clientside.no_update;
-    }
-
-    // ✅ Which button triggered?
-    const trigger = ctx.triggered[0].prop_id.split('.')[0];
-
-    let consoleIndex = null;
-
-    if (trigger === "reset-btn-1") consoleIndex = "1";
-    if (trigger === "reset-btn-2") consoleIndex = "2";
-    if (trigger === "reset-btn-3") consoleIndex = "3";
-
-    if (!consoleIndex) {
-        return window.dash_clientside.no_update;
-    }
-
-    console.log("Resetting console:", consoleIndex);
-
-    // ✅ Find matching cytoscape
-    const cytoElement =
-        document.querySelector(
-            `[id*="console-${consoleIndex}"][id*="cy-graph"]`
-        );
-
-    if (!cytoElement || !cytoElement._cyreg) {
-        console.error("❌ Cytoscape not ready");
-        return window.dash_clientside.no_update;
-    }
-
-    const cy = cytoElement._cyreg.cy;
-
-    const checkReady = setInterval(function () {
-
-        if (cy.nodes().length > 0) {
-
-            cy.animate({
-                fit: {
-                    eles: cy.elements(),
-                    padding: 50
-                },
-                duration: 250
-            });
-
-            clearInterval(checkReady);
-        }
-
-    }, 100);
-
-    setTimeout(() => clearInterval(checkReady), 3000);
-
-    return window.dash_clientside.no_update;
-}
-""",
-Output('reset-dummy-store', 'data'),
-Input('reset-btn-1', 'n_clicks'),
-Input('reset-btn-2', 'n_clicks'),
-Input('reset-btn-3', 'n_clicks'),
+*recenter_cytoscape_graph(),
 prevent_initial_call=True
 )
 
