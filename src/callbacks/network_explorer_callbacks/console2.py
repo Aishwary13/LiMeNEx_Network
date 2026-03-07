@@ -1,10 +1,6 @@
-import time
-from dash import MATCH, dcc, callback, Input, Output, State, no_update,ctx
+from dash import callback, Input, Output, State, no_update
 import os
 import json
-import pandas as pd
-from itertools import chain
-import dash
 import sys
 
 file_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
