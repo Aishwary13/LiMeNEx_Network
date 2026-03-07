@@ -102,7 +102,7 @@ layout = html.Div(
         # Footer (small)
         html.Div(
             [
-                html.Div("© 2025 LiMeNEx — Ray Lab. All rights reserved.", style={"opacity": 0.6}),
+                html.Div("© 2026 LiMeNEx — Ray Lab. All rights reserved.", style={"opacity": 0.6}),
             ],
             style={'position':'absolute','bottom':'0px','display' : 'flex','flexDirection':'column','textAlign':'center','justifyContent':'center','left':'0','width':'100%','paddingLeft': '3.8em', 'paddingBottom':'10px'}
         )

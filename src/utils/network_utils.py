@@ -23,6 +23,10 @@ with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
 with open(os.path.join(root_dir, 'src/sbmlData/metabolite_link_map.json')) as file:
     metabolite_link_map = json.load(file)
 
+with open(os.path.join(root_dir,'src/sbmlData/pathwayDropdownOptions.json'), 'r') as file:
+    dropdownOptions = json.load(file)
+    pathway_name_mapping = dropdownOptions["pathway_name_mapping"]
+
 
 def create_nodes_and_edges(pathways,selected_lipids):
     print("Creating nodes and edges...")
@@ -157,7 +161,8 @@ def create_nodes_and_edges(pathways,selected_lipids):
     uniqueParent = set()
     for key, value in currNodes.items():
         #convert parent list to string if multiple parents
-        value['data']['parent'] = "_".join(value['data']['parent'])
+        mapped = [pathway_name_mapping[x] for x in value['data']['parent']]
+        value['data']['parent'] = "_".join(mapped)
         uniqueParent.add(value['data']['parent'])
         finalNodes.append(value)
         
@@ -260,7 +265,9 @@ def build_dataframe(reactionList):
     
     for reaction, payload in reactionList.items():
         
-        pathway = payload['pathways']
+        pathway = list(set(payload['pathways']))
+        pathway_mapped = [pathway_name_mapping[x] for x in pathway]
+        
         value = payload['value']
         
         reactants = value.get('reactantList')
@@ -272,7 +279,7 @@ def build_dataframe(reactionList):
             'EnzymaticGene' : ", ".join(enzymaticGene),
             'Reactants' : ", ".join(reactants),
             'Products' : ", ".join(products),
-            'Pathway' : ", ".join(list(set(pathway)))
+            'Pathway' : ", ".join(pathway_mapped)
         })
         
         id += 1
@@ -420,16 +427,17 @@ def populate_table(tf_value, gene_value):
 
             {
                 "field": "Experiment",
-                "headerName":"SPP",
+                "headerName": "SPP",
+                # "headerComponent": {"function": "headerLinkRenderer(params)"},
                 "flex": 2,
                 "tooltipField": "Experiment",
                 "wrapText": False,
                 "autoHeight": False,
             },
 
-            {"field": "chea", "headerName":"Chea(PMIDs)","flex": 1},
-            {"field": "Signor", "headerName":"Signor(PMIDs)","flex": 1},
-            {"field": "Trrust", "headerName":"Trrust(PMIDs)","flex": 1},
+            {"field": "Chea", "headerName":"Chea(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True ,"cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
+            {"field": "Signor", "headerName":"Signor(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
+            {"field": "Trrust", "headerName":"Trrust(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
         ]
                 
         # ---- Return for Dash DataTable ----

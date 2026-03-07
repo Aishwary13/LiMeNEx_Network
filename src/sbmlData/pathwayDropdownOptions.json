@@ -1,8 +1,8 @@
 {
     "PathwayOptions": {
-        "Saturated Fatty Acid Synthesis" : "saturatedFattyAcidsSynthesis",
-        "Unsaturated Fatty Acid Synthesis" : "unsaturatedFattyAcidsSynthesis",
-        "Beta Oxidation Fatty Acid" : "betaOxidationFattyAcid",
+        "Saturated FattyAcid Synthesis" : "saturatedFattyAcidsSynthesis",
+        "Unsaturated FattyAcid Synthesis" : "unsaturatedFattyAcidsSynthesis",
+        "Beta Oxidation FattyAcid" : "betaOxidationFattyAcid",
         "Arachidonic Metabolism" : "arachidonicMetabolism",
         "Omega3 Metabolism" : "omega3Metabolism",
         "Peroxisomal Metabolism" : "peroxisomalMetabolism",
@@ -22,6 +22,30 @@
         "Oxylipin Biosynthesis" : "oxylipinBiosynthesis",
         "Steroid Hormone Synthesis" : "steroidHormoneSynthesis",
         "Lipoprotein Metabolism":"lipoproteinMetabolism"
+    },
+    "pathway_name_mapping" : {
+        "saturatedFattyAcidsSynthesis": "Saturated FattyAcid synthesis",
+        "unsaturatedFattyAcidsSynthesis": "Unsaturated FattyAcid synthesis",
+        "betaOxidationFattyAcid": "Beta Oxidation FattyAcid",
+        "arachidonicMetabolism": "Arachidonic metabolism",
+        "omega3Metabolism": "Omega3 metabolism",
+        "peroxisomalMetabolism": "Peroxisomal metabolism",
+        "carnitineMetabolism": "Carnitine metabolism",
+        "triglycerideSynthesis": "Triglyceride synthesis",
+        "triglycerideDegradation": "Triglyceride Degradation",
+        "denovoSphingolipidSynthesis": "Denovo sphingolipid synthesis",
+        "glycerophospholipidDegradation": "Glycerophospholipid degradation",
+        "glycerophospholipidSynthesis": "Glycerophospholipid synthesis",
+        "cholesterolDegradation": "Cholesterol degradation",
+        "cholesterolSynthesis": "Cholesterol synthesis",
+        "glycosphingolipidDegradation": "Glycosphingolipid degradation",
+        "glycosphingolipidSynthesis": "Glycosphingolipid synthesis",
+        "ketoneMetabolism": "Ketone metabolism",
+        "phosphoinositolSynthesis": "Phosphoinositol synthesis",
+        "sphingolipidDegradation": "Sphingolipid degradation",
+        "oxylipinBiosynthesis": "Oxylipin biosynthesis",
+        "steroidHormoneSynthesis": "Steroid Hormone synthesis",
+        "lipoproteinMetabolism": "Lipoprotein metabolism"
     },
     "physiologicalOptions": ["Metabolic","Blood","Cardiovascular","Female reproductive","Gastrointestinal","Immune","Male Reproductive","Neurosensory","Respiratory","Skeletal","Other"],
     "databaseCategory":{

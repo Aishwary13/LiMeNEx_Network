@@ -188,12 +188,6 @@ console1_layout = html.Div([
                                'justifyContent' : 'center',
                                'marginTop' : '10px'}
                     ),
-
-                    # html.Div(
-                    #     "Note: To modify your target lipid or Fetch New Network, above selection should be in Full Network mode",
-                    #     id="main-chain-status",
-                    #     className="mode-status"
-                    # ),
                     
                     dbc.Alert("To modify your target lipid or Fetch New Network, above selection should be in Full Network mode",color="info",
                               style= {'padding' : '6px', 'marginTop' : '12px','fontSize' : '13px'})
@@ -202,45 +196,37 @@ console1_layout = html.Div([
                 ], className="mode-card")
                 
             ],
-                style={
-                    'gridColumn': '1',
-                    'padding': '10px',
-                    'backgroundColor': "#2e2e2e",
-                    'fontSize': '14px',
-                    'overflowY': 'auto',
-                    'height' : '80vh',
-                    'scrollbarWidth': 'thin',
-                    'scrollbarColor': '#555 #2e2e2e'
-                }),
+            style={
+                'gridColumn': '1',
+                'padding': '10px',
+                'backgroundColor': "#2e2e2e",
+                'fontSize': '14px',
+                'overflowY': 'auto',
+                'height' : '70vh',
+                'scrollbarWidth': 'thin',
+                'scrollbarColor': '#555 #2e2e2e'
+            }),
 
             # Cytoscape Graph
-            html.Div([
-                cyto.Cytoscape(
-                    id={'type': 'cy-graph','index':'console-1'},
-                    layout={'name': 'cose-bilkent'},
-                    style={
-                        'width': '100%',
-                        'height': '80vh',
-                        'backgroundColor': "#F3F3F3",
-                        # 'position': 'relative',
-                        'borderRadius' : '10px'
-                    },
-                    elements=[],
-                    stylesheet=ex_stylesheet,
-                    minZoom=0.1,
-                    maxZoom=10
-                ),
-                
-                
-            ],
-            style={
-                'position' : 'relative',
-                'gridColumn': '2',
-                'height': '80vh'
-            })
+            cyto.Cytoscape(
+                id={'type': 'cy-graph','index':'console-1'},
+                layout={'name': 'cose-bilkent'},
+                style={
+                    'width': '100%',
+                    'height': '70vh',
+                    'backgroundColor': "#F3F3F3",
+                    'borderRadius' : '10px',
+                    'gridColumn': '2'
+                },
+                elements=[],
+                stylesheet=ex_stylesheet,
+                minZoom=0.1,
+                maxZoom=10
+            ),
         ],
         style={
             'display': 'grid',
+            # 'height' : '80vh',
             'gridTemplateColumns': '22% 78%',
             'backgroundColor': '#292929'
         })
@@ -272,14 +258,14 @@ console1_layout = html.Div([
             dashGridOptions={
                 "pagination": True,
                 "paginationPageSize": 10,
+                "paginationPageSizeSelector": [10, 20, 50, 100],
                 "animateRows": True,
-                "rowSelection": "single",
                 "domLayout": "normal",
             },
 
             className="ag-theme-alpine-dark",  
             style={
-                "height": "250px",
+                "height": "350px",
                 "width": "100%",
                 # "marginTop": "10px"
             },

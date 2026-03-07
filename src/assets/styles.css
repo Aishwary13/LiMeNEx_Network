@@ -736,7 +736,21 @@
     border-bottom: 2px solid #374152;
 }
 
+.ag-theme-alpine-dark .ag-cell-value {
+    white-space: normal !important;
+}
 
+.ag-theme-alpine-dark .ag-cell-wrapper {
+    align-items: flex-start;
+}
+
+.ag-root-wrapper {
+    border-bottom: none !important;
+}
+
+.ag-paging-panel {
+    height: 40px !important;
+}
 
 /* ----------------------------- console 1 main reaction chain -----------*/
 

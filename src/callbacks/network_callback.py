@@ -27,6 +27,7 @@ with open(os.path.join(root_dir, 'src/sbmlData/uniprot_cache.json')) as file:
 with open(os.path.join(root_dir,'src/sbmlData/pathwayDropdownOptions.json'), 'r') as file:
     dropdownOptions = json.load(file)
     databaseCategory = dropdownOptions["databaseCategory"]
+    pathway_name_mapping = dropdownOptions["pathway_name_mapping"]
     
 with open(os.path.join(root_dir, 'src/sbmlData/metabolite_link_map.json')) as file:
     metabolite_link_map = json.load(file)
@@ -285,7 +286,7 @@ def fetch_network(n_clicks, selected_lipids, highlight_options):
             # database_list = ["Kegg","Reactome"]  # Example database list
             database = databaseCategory.get(pathway, "None")
             temp = {}
-            temp['Pathway'] = pathway
+            temp['Pathway'] = pathway_name_mapping[pathway]
             temp['Databases'] = database
             temp['Lipids'] = lipids
             bundled_info.append(temp)

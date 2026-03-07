@@ -241,8 +241,8 @@ console2_layout = html.Div([
             dashGridOptions={
                 "pagination": True,
                 "paginationPageSize": 10,
+                "paginationPageSizeSelector": [10, 20, 50, 100],
                 "animateRows": True,
-                "rowSelection": "single",
                 "domLayout": "normal",
             },
 
@@ -256,51 +256,3 @@ console2_layout = html.Div([
     ], style={'marginTop' : '20px'})
     
 ], style={'overflow': 'hidden','margin' : '20px'})
-
-
-
-# html.Div([      
-#     dash_table.DataTable(
-#         id={'type': 'info-table', 'index': 'console-2'},
-#         columns=[
-#             {'name': 'Rxn', 'id': 'Rxn'},
-#             {'name': 'Enzymatic Gene', 'id': 'EnzymaticGene'},
-#             {'name': 'Reactants', 'id': 'Reactants'},
-#             {'name': 'Products', 'id': 'Products'},
-#             {'name': 'Pathway', 'id': 'Pathway'},
-#         ],
-#         data=[],
-#         style_table={
-#             'height': '30vh',
-#             'overflowY': 'auto',
-#             'width': '100%',
-#             'overflowX' : 'auto',
-#             'boxSizing' : 'border-box'
-#         },
-#         style_cell={
-#             'textAlign': 'left',
-#             'padding': '4px 6px',  # reduce vertical padding
-#             'whiteSpace': 'normal',
-#             'fontSize': '12px',
-#         },
-#         style_header={
-#             'backgroundColor': '#1f1f1f',
-#             'fontWeight': '600',
-#             'color': 'white',
-#             'borderBottom': '1px solid #444'
-#         },
-#         style_data={
-#             'backgroundColor': '#222',
-#             'color': 'white'
-#         },
-#         sort_action='native',
-#         filter_action='native',
-#         fixed_rows={'headers': True},
-#     )
-# ],
-# style={
-#     'width': '100%',
-#     'height': '30vh',
-#     'overflow' : 'auto',
-#     'boxSizing' : 'border-box',
-# })
