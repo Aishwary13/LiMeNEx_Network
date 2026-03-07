@@ -8642,12 +8642,12 @@
         }
     },
     "LCAT": {
-        "r=nascent-hdl(fc);p=mature-hdl(ce+pl);g=apoa1|lcat": {
+        "r=nascent-hdl;p=mature-hdl(ce+pl);g=apoa1|lcat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "esterification",
             "reactantList": [
-                "Nascent-HDL(FC)"
+                "Nascent-HDL"
             ],
             "productList": [
                 "Mature-HDL(CE+PL)"
@@ -8666,12 +8666,12 @@
         }
     },
     "APOA1": {
-        "r=nascent-hdl(fc);p=mature-hdl(ce+pl);g=apoa1|lcat": {
+        "r=nascent-hdl;p=mature-hdl(ce+pl);g=apoa1|lcat": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "esterification",
             "reactantList": [
-                "Nascent-HDL(FC)"
+                "Nascent-HDL"
             ],
             "productList": [
                 "Mature-HDL(CE+PL)"
@@ -9417,7 +9417,7 @@
         }
     },
     "ABCA1": {
-        "r=apoa1|free-cholesterol(fc);p=fatty-acids|nascent-hdl(fc);g=abca1|abcg1": {
+        "r=apoa1|free-cholesterol(fc);p=fatty-acids|nascent-hdl;g=abca1|abcg1": {
             "reactionType": "DISSOCIATION",
             "isReversible": "false",
             "reactInfo": "efflux",
@@ -9426,7 +9426,7 @@
                 "APOA1"
             ],
             "productList": [
-                "Nascent-HDL(FC)",
+                "Nascent-HDL",
                 "Fatty-Acids"
             ],
             "geneList": [
@@ -9443,7 +9443,7 @@
         }
     },
     "ABCG1": {
-        "r=apoa1|free-cholesterol(fc);p=fatty-acids|nascent-hdl(fc);g=abca1|abcg1": {
+        "r=apoa1|free-cholesterol(fc);p=fatty-acids|nascent-hdl;g=abca1|abcg1": {
             "reactionType": "DISSOCIATION",
             "isReversible": "false",
             "reactInfo": "efflux",
@@ -9452,7 +9452,7 @@
                 "APOA1"
             ],
             "productList": [
-                "Nascent-HDL(FC)",
+                "Nascent-HDL",
                 "Fatty-Acids"
             ],
             "geneList": [

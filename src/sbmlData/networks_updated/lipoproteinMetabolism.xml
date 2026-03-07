@@ -1915,7 +1915,7 @@ lipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s4" id="s4" name="Nascent-HDL(FC)" compartment="default" initialAmount="0">
+<species metaid="s4" id="s4" name="Nascent-HDL" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1931,7 +1931,7 @@ lipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Nascent-HDL(FC)</celldesigner:name>
+<celldesigner:name>Nascent-HDL</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>

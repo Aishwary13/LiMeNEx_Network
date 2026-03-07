@@ -299,7 +299,7 @@ lipid_species,Montanoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:74150,,https://pub
 lipid_species,myristoyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15532,,https://pubchem.ncbi.nlm.nih.gov/compound/11966124,,Myristoyl CoA
 nonlipid,N-acetylgalactosamine(GalNAc),https://www.ebi.ac.uk/chebi/CHEBI:28800,,https://pubchem.ncbi.nlm.nih.gov/compound/84265,,GalNAc
 lipid_class,Nascent-Chylomicrons,NA,NA,NA,,Nascent-Chylomicrons
-lipoprotein,Nascent-HDL(FC),https://www.ebi.ac.uk/chebi/CHEBI:47775,,,,Nascent-HDL(FC)
+lipoprotein,Nascent-HDL,https://www.ebi.ac.uk/chebi/CHEBI:47775,,,,Nascent-HDL
 lipoprotein,Nascent-VLDL,https://www.ebi.ac.uk/chebi/CHEBI:39027,,,,Nascent-VLDL
 lipid_species,Octanoic Acid,https://www.ebi.ac.uk/chebi/CHEBI:28837,,,,C8:0
 lipid_species,Octanoyl-ACP,https://www.ebi.ac.uk/chebi/CHEBI:7725,,,,C8:0-ACP
