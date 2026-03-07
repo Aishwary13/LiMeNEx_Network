@@ -56,7 +56,7 @@
             "id": "s23",
             "class": "lipidMetabolite"
         },
-        "Free-choelsterol(FC)": {
+        "Free-cholesterol(FC)": {
             "id": "s25",
             "class": "lipidMetabolite"
         },
@@ -309,7 +309,7 @@
                 "CATALYSIS"
             ]
         },
-        "r=cholesteryl-ester(ce);p=free-choelsterol(fc);g=lipa|nceh1": {
+        "r=cholesteryl-ester(ce);p=free-cholesterol(fc);g=lipa|nceh1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "hydrolysis",
@@ -317,7 +317,7 @@
                 "Cholesteryl-ester(CE)"
             ],
             "productList": [
-                "Free-choelsterol(FC)"
+                "Free-cholesterol(FC)"
             ],
             "geneList": [
                 "NCEH1",
@@ -328,12 +328,12 @@
                 "CATALYSIS"
             ]
         },
-        "r=free-choelsterol(fc);p=cholesteryl-ester(ce);g=soat1": {
+        "r=free-cholesterol(fc);p=cholesteryl-ester(ce);g=soat1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "esterification",
             "reactantList": [
-                "Free-choelsterol(FC)"
+                "Free-cholesterol(FC)"
             ],
             "productList": [
                 "Cholesteryl-ester(CE)"
@@ -364,7 +364,7 @@
                 "CATALYSIS"
             ]
         },
-        "r=ldl(ce+pl+fc);p=free-choelsterol(fc);g=ldlr|sort1": {
+        "r=ldl(ce+pl+fc);p=free-cholesterol(fc);g=ldlr|sort1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "endocytosis",
@@ -372,7 +372,7 @@
                 "LDL(CE+PL+FC)"
             ],
             "productList": [
-                "Free-choelsterol(FC)"
+                "Free-cholesterol(FC)"
             ],
             "geneList": [
                 "LDLR",
@@ -455,12 +455,12 @@
                 "CATALYSIS"
             ]
         },
-        "r=apoa1|free-choelsterol(fc);p=fatty-acids|nascent-hdl(fc);g=abca1|abcg1": {
+        "r=apoa1|free-cholesterol(fc);p=fatty-acids|nascent-hdl(fc);g=abca1|abcg1": {
             "reactionType": "DISSOCIATION",
             "isReversible": "false",
             "reactInfo": "efflux",
             "reactantList": [
-                "Free-choelsterol(FC)",
+                "Free-cholesterol(FC)",
                 "APOA1"
             ],
             "productList": [
@@ -476,7 +476,7 @@
                 "CATALYSIS"
             ]
         },
-        "r=mature-hdl(ce+pl);p=free-choelsterol(fc);g=apoa1|scarb1": {
+        "r=mature-hdl(ce+pl);p=free-cholesterol(fc);g=apoa1|scarb1": {
             "reactionType": "STATE_TRANSITION",
             "isReversible": "false",
             "reactInfo": "lipiduptakebytissues",
@@ -484,7 +484,7 @@
                 "Mature-HDL(CE+PL)"
             ],
             "productList": [
-                "Free-choelsterol(FC)"
+                "Free-cholesterol(FC)"
             ],
             "geneList": [
                 "SCARB1",

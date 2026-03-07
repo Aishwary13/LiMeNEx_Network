@@ -1265,7 +1265,7 @@ lipidSubstrate
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s25" id="s25" name="Free-choelsterol(FC)" compartment="default" initialAmount="0">
+<species metaid="s25" id="s25" name="Free-cholesterol(FC)" compartment="default" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1281,7 +1281,7 @@ lipidSubstrate
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
-<celldesigner:name>Free-choelsterol(FC)</celldesigner:name>
+<celldesigner:name>Free-cholesterol(FC)</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>

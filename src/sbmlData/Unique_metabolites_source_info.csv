@@ -229,7 +229,7 @@ lipid_species,Farnesyl-pyrophosphate(FPP),https://www.ebi.ac.uk/chebi/CHEBI:1740
 lipid_subclass,Fatty-Acids,https://www.ebi.ac.uk/chebi/CHEBI:35366,,,,FA
 lipid_subclass,Fatty-Acyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:37554,,,,FA-CoA
 lipid_species,Formyl-CoA,https://www.ebi.ac.uk/chebi/CHEBI:15522,,,,Formyl-CoA
-lipid_class,Free-choelsterol(FC),,,,,FC
+lipid_class,Free-cholesterol(FC),,,,,FC
 lipid_subclass,Free-Fatty-acid(FFA),https://www.ebi.ac.uk/chebi/CHEBI:132494,,,,FFA
 lipid_derivative,FucGA1,https://www.ebi.ac.uk/chebi/CHEBI:90262,,,,FucGA1
 lipid_derivative,FucGM1,https://www.ebi.ac.uk/chebi/CHEBI:61575,,,,FucGM1
