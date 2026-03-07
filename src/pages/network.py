@@ -1,5 +1,5 @@
 import os
-from dash import html, dcc
+from dash import html, dcc, callback
 from components import console1,console2,console3
 from dotenv import load_dotenv
 import dash_bootstrap_components as dbc
@@ -127,9 +127,9 @@ layout = html.Div([
     
     dbc.Tabs(
         [
-            dbc.Tab(console1.console1_layout, label="Console-1"),
-            dbc.Tab(console2.console2_layout, label="Console-2"),
-            dbc.Tab(console3.console3_layout, label="Console-3"),
+            dbc.Tab(console1.console1_layout, label="Console-1", tab_id="console1"),
+            dbc.Tab(console2.console2_layout, label="Console-2",tab_id ="console2"),
+            dbc.Tab(console3.console3_layout, label="Console-3", tab_id = "console3"),
         ],
         style={
             'marginLeft':'20px',

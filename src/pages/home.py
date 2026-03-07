@@ -209,7 +209,7 @@ layout = html.Div([
         html.Div([
             html.A(
                 "Get Started",
-                href="Network2",
+                href="network",
                 style={
                     "display": "inline-block",
                     "padding": "10px 18px",
@@ -223,7 +223,7 @@ layout = html.Div([
             ),
             html.A(
                 "Learn More",
-                href="Tutorial",
+                href="tutorial",
                 style={
                     "display": "inline-block",
                     "padding": "10px 18px",

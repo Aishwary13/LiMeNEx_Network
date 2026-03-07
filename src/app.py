@@ -81,7 +81,7 @@ dash_app.layout = html.Div([
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-circle-nodes"),
                     html.Span("Network", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
-                    href="/Network2",
+                    href="/network",
                     active="exact",
                     className="pe-3",
                     style={'marginTop' : '7px'}
@@ -97,7 +97,7 @@ dash_app.layout = html.Div([
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-book"),
                     html.Span("Tutorial", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
-                    href="/Tutorial",
+                    href="/tutorial",
                     active="exact",
                     className="pe-3",
                     style={'marginTop' : '7px'}
@@ -105,7 +105,7 @@ dash_app.layout = html.Div([
                 dbc.NavLink([html.Div([
                     html.I(className="fa-solid fa-address-card"),
                     html.Span("Contact Us", style={'marginTop': '0px', 'marginLeft' :'6px'})], className='icon_title')],
-                    href="/Contact",
+                    href="/contact",
                     active="exact",
                     className="pe-3",
                     style={'marginTop' : '7px'}
@@ -137,11 +137,11 @@ def display_page(pathname,search):
         return home.layout
     # elif pathname == '/Network':
     #     return sbml_network.layout
-    elif pathname == '/Contact':
+    elif pathname == '/contact':
         return contact.layout
-    elif pathname == '/Network2':
+    elif pathname == '/network':
         return network.layout
-    elif pathname == '/Tutorial':
+    elif pathname == '/tutorial':
         return tutorial.layout
     elif pathname == '/not-available':
         return not_available.layout(search)
