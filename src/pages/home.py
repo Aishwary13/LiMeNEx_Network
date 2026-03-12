@@ -262,6 +262,17 @@ layout = html.Div([
     
     home_flowchart,
     
+    html.Div(
+        html.Iframe(
+            src="https://www.youtube.com/embed/wq64mcSQFG8",
+            style={
+                "width": "100%",
+                "height": "450px",
+                "border": "none"
+            }
+        ),
+        style={"maxWidth": "900px", "margin" : "80px auto"}
+    ),
     
     
     html.Div([
