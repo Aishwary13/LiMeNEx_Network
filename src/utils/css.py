@@ -206,6 +206,12 @@ ex_stylesheet = [
         'style': {
             'opacity': 0.2,
         }
+    },
+    {
+        'selector' : '.hide',
+        'style' :{
+            'display' : 'none'
+        }
     }
     
 ]

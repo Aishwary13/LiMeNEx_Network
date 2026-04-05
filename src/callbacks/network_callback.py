@@ -209,10 +209,10 @@ def render_graph(data,stylesheet):
 
     print("Rendering graph in Cytoscape…")
 
-    # 🔴 HARD RESET: clear first
+    # HARD RESET: clear first
     # elements = []
 
-    # # 🟢 FULL GRAPH: then add everything
+    # # FULL GRAPH: then add everything
     # elements = data["nodes"] + data["edges"]
 
     return data,stylesheet
@@ -444,7 +444,7 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
                 mask = (df['TF'] == tf) & (df['TargetGene'] == tg)
                 temp = df[mask]
                 tissueList = temp['Tissue'].unique().tolist()
-                edgeTissues = "_T ".join(tissueList) + "_T"
+                edgeTissues = " ".join(tissueList)
                 tf_tissueList.update(tissueList)
                 global_tissues.update(tissueList)
                 
@@ -461,22 +461,13 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
                         'classes' : f"TRANSCRIPTION",
                     })
             
-            nodeTissues = "_T ".join(tf_tissueList) + "_T"
+            nodeTissues = " ".join(tf_tissueList)
             finalNodes.append({
                 'data': {'id': tf, 'label': tf, 'tissueClass' : f"transcriptionFactorGene {nodeTissues}",'uniprotAcc': uniprot_cache.get(tf,'')},
                 'classes': "transcriptionFactorGene",
             })
-        
-        # uniqueTissue = tissueToPs.keys()
-        for tis in global_tissues:
-            stylesheet.extend([{
-                "selector" : f".{tis}_T",
-                "style" : {"display" : "element"}
-            }])
-            # Add a corresponding edge for the tissue
-        
+                    
         elements = finalNodes + finalEdges
-        
         
         # build table data
         # tf, gene = populate_table_dropdown(1,elements)
@@ -521,45 +512,14 @@ def _handlePhysiologicalSelection_core(val, stylesheet, elements):
         if val is None:
             return no_update, stylesheet, elements
 
-        if len(val) != 0:
-            val = set(val)
-            basic_stylesheet = []
-            show_stylesheet = []
-            hide_stylesheet = []
+        val = set(val)
 
-            for style in stylesheet:
-                selector = style.get('selector')
-                
-                if 'T_' == selector[-1:-3:-1]:
-                    phySystem = set(tissueToPs[(selector[1:-2])])
-                    if phySystem.intersection(val):
-                        style.get('style')['display'] = 'element'
-                        show_stylesheet.append(style)
-                    else:
-                        style.get('style')['display'] = 'none'
-                        hide_stylesheet.append(style)
-                else:
-                    basic_stylesheet.append(style)
+        allowedTissues = list(chain(*[psToTissue[sys] for sys in val]))
+        allowedTissues = set([var for var in allowedTissues])
+        newElements = processElements(elements, allowedTissues)
+
+        return no_update, stylesheet, newElements
             
-            
-            basic_stylesheet.extend(show_stylesheet)
-            basic_stylesheet.extend(hide_stylesheet)
-
-            # print(json.dumps(basic_stylesheet,indent=2))
-
-            allowedTissues = list(chain(*[psToTissue[sys] for sys in val]))
-            allowedTissues = set([var+"_T" for var in allowedTissues])
-            newElements = processElements(elements, allowedTissues)
-
-            return no_update, basic_stylesheet, newElements
-
-        else:
-            for style in stylesheet:
-                if 'T_' == style.get('selector')[-1:-3:-1]:
-                    style.get('style')['display'] = 'element'
-
-            return no_update, stylesheet, elements
-        
     except Exception as e:
         return return_erorr_messgae(), no_update, no_update
 
@@ -613,31 +573,11 @@ def handleTissueSelection(tisOptions, stylesheet,phySystemOptions,elements):
             if 'null' in tisOptions:
                 return no_update,stylesheet,no_update
 
-            basic_stylesheet = []
-            show_stylesheet = []
-            hide_stylesheet = []
-            for style in stylesheet:
-                selector = style.get('selector')
-
-                if 'T_' == selector[-1:-3:-1]:
-                    # print(physiologicalSystemDf[(physiologicalSystemDf['Tissue'] == selector[:-2][1:])]['Physiological System'])
-                    if selector[:-2][1:] in tisOptions:
-                        style.get('style')['display'] = 'element'
-                        show_stylesheet.append(style)
-                    else:
-                        style.get('style')['display'] = 'none'
-                        hide_stylesheet.append(style)
-                else:
-                    basic_stylesheet.append(style)
-            
-            basic_stylesheet.extend(hide_stylesheet)
-            basic_stylesheet.extend(show_stylesheet)
-
-            allowedTissue = set([var+'_T' for var in tisOptions])
+            allowedTissue = set([var for var in tisOptions])
 
             newElements = processElements(elements,allowedTissue)
         
-            return no_update,basic_stylesheet ,newElements
+            return no_update,stylesheet ,newElements
         else:
             return _handlePhysiologicalSelection_core(phySystemOptions,stylesheet, elements)
     except Exception as e:

@@ -179,9 +179,29 @@ def create_nodes_and_edges(pathways,selected_lipids):
 
 
 def processElements(elements, allowedTissues):
+    newElements = []
+    
+    if len(allowedTissues) == 0:
+        #show all, no filter is there
+        for ele in elements:
+            if 'tissueClass' not in ele.get('data'):
+                newElements.append({
+                    'data' : ele.get("data"),
+                    'classes' : ele.get("data").get("classes")
+                })
+                continue
+            
+            fallback_class = ele.get('data').get('tissueClass').split(" ")[0]
+            newElements.append({
+                'data' : ele.get("data"),
+                'classes' : fallback_class
+            })
+        
+        return newElements
+            
+    
 
     tfList = set()
-    newElements = []
     ##3 first processing edges and making Tf list 
     for ele in elements:
         src = ele.get("data").get("source")
@@ -201,23 +221,19 @@ def processElements(elements, allowedTissues):
         cl = cl[1:]
 
         commonTissue = list(allowedTissues & set(cl))
-        notAllowed = list(set(cl) - set(commonTissue))
 
         if len(commonTissue) != 0:
-            newClassFormat = [firstClass] + commonTissue
+            newClassFormat = [firstClass]
             tfList.add(src)
-            # print(newClassFormat)
         else:
-            newClassFormat = [firstClass] + notAllowed
+            newClassFormat = [firstClass] + ['hide']
         
         newClassFormat = " ".join(newClassFormat)
-
-        # print(src,":",newClassFormat)
         newElements.append({
             'data' : ele.get("data"),
             'classes' : newClassFormat
         })
-    # print(tfList)
+
     #processing nodes
     for ele in elements:
         label = ele.get("data").get("source")
@@ -238,18 +254,16 @@ def processElements(elements, allowedTissues):
         cl = cl[1:]
 
         commonTissue = list(allowedTissues & set(cl))
-        notAllowed = list(set(cl) - set(commonTissue))
 
         label = ele.get('data').get('label')
 
         if label in tfList:
-            newClassFormat = [firstClass] + commonTissue
+            newClassFormat = [firstClass]
         else:
-            newClassFormat = [firstClass] + notAllowed
+            newClassFormat = [firstClass] + ['hide']
 
         newClassFormat = " ".join(newClassFormat)
 
-        # print(label," : ",newClassFormat)
         newElements.append({
             'data' : ele.get("data"),
             'classes' : newClassFormat
