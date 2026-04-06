@@ -76,13 +76,6 @@ console1_layout = html.Div([
                         n_clicks=0,
                         className='download-action btn-json',
                         title="Export Graph JSON"
-                    ),
-                    html.Button(
-                        [html.I(className="fa-solid fa-file-csv"), html.Span("Export CSV", className="btn-text")],
-                        id={'type': 'download-csv-btn', 'index': 'console-1'},
-                        n_clicks=0,
-                        className='download-action btn-csv',
-                        title="Export Table CSV"
                     )
                 ],
                     className='download-panel', 
@@ -237,6 +230,17 @@ console1_layout = html.Div([
         'backgroundColor': '#292929',
         'boxShadow': ' 2px 3px 4px 0 rgba(0, 0, 0, 0.3)'}
 
+    ),
+    
+    html.Div([
+        html.Button(
+            [html.I(className="fa-solid fa-file-csv"), html.Span("Export CSV", className="btn-text")],
+            id={'type': 'download-csv-btn', 'index': 'console-1'},
+            n_clicks=0,
+            className='download-action btn-csv',
+            title="Export Table CSV"
+        )],
+        style={'width' : '100%','marginTop' : '20px','display' :'flex','flexDirection' :'row-reverse'}
     ),
     
     html.Div([

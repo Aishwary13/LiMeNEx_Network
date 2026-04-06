@@ -5,6 +5,7 @@ import os
 import json
 import pickle
 import dash_ag_grid as dag
+import dash_bootstrap_components as dbc
 
 from dotenv import load_dotenv
 
@@ -76,13 +77,6 @@ console3_layout = html.Div([
                         n_clicks=0,
                         className='download-action btn-json',
                         title="Export Graph JSON"
-                    ),
-                    html.Button(
-                        [html.I(className="fa-solid fa-file-csv"), html.Span("Export CSV", className="btn-text")],
-                        id={'type': 'download-csv-btn', 'index': 'console-3'},
-                        n_clicks=0,
-                        className='download-action btn-csv',
-                        title="Export Table CSV"
                     )
                 ],
                     className='download-panel', 
@@ -176,6 +170,27 @@ console3_layout = html.Div([
                             'scrollbarColor': '#555 #fff'
                         }
                     ),
+                    
+                    html.Label("Confidence:",
+                            style={'color': '#f1f1f1', 'fontWeight': '600', 'fontSize': '13px'}),
+                    dbc.RadioItems(
+                        id="physio-radio",
+                        className="btn-group network-mode-toggle",
+                        inputClassName="btn-check",
+                        labelClassName="btn mode-btn",
+                        labelCheckedClassName="active",
+                        options=[
+                            {"label": "All", "value": 1, "disabled": True},
+                            {"label": "Medium", "value": 2, "disabled": True},
+                            {"label": "High", "value": 3, "disabled": True},
+                        ],
+                        value=1,
+                        style={'width' : '100%',
+                               'display' : 'flex',
+                               'justifyContent' : 'center',
+                               'marginTop' : '10px'}
+                    ),
+                    
                     html.Label("Tissue(s):",
                             style={'color': '#f1f1f1', 'fontWeight': '600', 'fontSize': '13px'}),
                     dcc.Dropdown(
@@ -187,6 +202,27 @@ console3_layout = html.Div([
                             'backgroundColor': '#fff', 'color': '#000', 'borderRadius': '4px'
                         }
                     ),
+                    
+                    html.Label("Confidence:",
+                            style={'color': '#f1f1f1', 'fontWeight': '600', 'fontSize': '13px'}),
+                    dbc.RadioItems(
+                        id="tissue-radio",
+                        className="btn-group network-mode-toggle",
+                        inputClassName="btn-check",
+                        labelClassName="btn mode-btn",
+                        labelCheckedClassName="active",
+                        options=[
+                            {"label": "All", "value": 1, "disabled": True},
+                            {"label": "Medium", "value": 2, "disabled": True},
+                            {"label": "High", "value": 3, "disabled": True},
+                        ],
+                        value=1,
+                        style={'width' : '100%',
+                               'display' : 'flex',
+                               'justifyContent' : 'center',
+                               'marginTop' : '10px'}
+                    ),
+                    
                 ], style={
                     'padding': '8px 10px',
                     # 'borderBottom': '1px solid #444',
@@ -232,6 +268,17 @@ console3_layout = html.Div([
         'backgroundColor': '#292929',
         'boxShadow': '2px 3px 4px 0 rgba(0, 0, 0, 0.3)'
     }),
+    
+    html.Div([
+        html.Button(
+            [html.I(className="fa-solid fa-file-csv"), html.Span("Export CSV", className="btn-text")],
+            id={'type': 'download-csv-btn', 'index': 'console-3'},
+            n_clicks=0,
+            className='download-action btn-csv',
+            title="Export Table CSV"
+        )],
+        style={'width' : '100%','marginTop' : '20px','display' :'flex','flexDirection' :'row-reverse'}
+    ),
 
     html.Div([
         dag.AgGrid(
@@ -257,7 +304,7 @@ console3_layout = html.Div([
                 "domLayout": "normal",
                 "enableBrowserTooltips": True,
                 # "allowContextMenuWithControlKey": True,
-                "rowSelection": {"mode": "singleRow"},
+                # "rowSelection": {"mode": "disabled"},
                 "tooltipShowDelay": 100,
             },
 
