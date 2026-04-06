@@ -2,7 +2,7 @@ import time
 from dash import MATCH, html, dcc, callback, Input, Output, State, no_update,ctx
 import os
 import json
-from utils.network_utils import create_nodes_and_edges, processElements, build_dataframe, highlight_elements, remove_highlight, populate_table
+from utils.network_utils import create_nodes_and_edges, processElements, build_dataframe, highlight_elements, remove_highlight, populate_table, filterConfidence,make_new_list
 import pandas as pd
 from itertools import chain
 import dash
@@ -414,30 +414,38 @@ def highlight_reaction_Chain(value, elements, selected_lipids):
     Output({'type': 'cy-graph','index':'console-3'},'stylesheet'),
     Output({'type': 'info-table', 'index': 'console-3'},'rowData'),
     Output({'type': 'info-table', 'index': 'console-3'},'columnDefs'),
+    Output('physio-radio','options'),
+    Output('tissue-radio','options'),
     Input('fetch-tfs-button', 'n_clicks'),
     State('gene-dropdown', 'value'),
     State({'type': 'cy-graph','index':'console-3'}, 'stylesheet'),
+    
+    State("physiological-systems-dropdown", "value"),
+    State("tissue-dropdown", "value"),
+    State("physio-radio",'value'),
+    State('tissue-radio','value'),
     prevent_initial_call=True,
     running=[(Output("fetch-tfs-button", "disabled"), True, False)]
 )
-def fetch_tfs(n_clicks, selected_genes, stylesheet):
+def fetch_tfs(n_clicks, selected_genes, stylesheet,physio_dropdownn,tissue_dropdown,physio_radio,tissue_radio):
 
     try:
         if n_clicks is None or not selected_genes:
-            return return_erorr_messgae(fetch=True,genes=True), no_update, stylesheet, no_update, no_update
-
+            return return_erorr_messgae(fetch=True,genes=True), no_update, stylesheet, no_update, no_update, no_update, no_update
+        
+        
+        if physio_dropdownn or (tissue_dropdown and 'null' not in tissue_dropdown) or physio_radio != 'all' or tissue_radio != 'all':
+            return "Kindly clear all the Dropdown selections and set the confidence value to ALL", no_update, stylesheet, no_update, no_update, no_update, no_update        
+        
+        
         finalNodes = []
         finalEdges = []
         finalTargetGene = set()
 
-        df = pd.read_csv(os.path.join(root_dir, 'src/sbmlData/final_tf_targetgene_tissue_groups.csv'), dtype=str)
+        df = pd.read_csv(os.path.join(root_dir, 'src/sbmlData/final_tf_targetgene_tissue_groups_FINAL_FINAL.csv'), dtype=str)
         transcription_factors = df[df['TargetGene'].isin(selected_genes)]['TF'].unique().tolist()
         global_tissues = set()
         for tf in transcription_factors:
-            # mask2 = df['TF'] == tf
-            # temp2 = df[mask2] 
-            # tissueList = temp2['Tissue'].unique().tolist()
-            # nodeTissues = "_T".join(tissueList) + "_T"
             tf_tissueList = set()
             
             for tg in selected_genes:
@@ -449,6 +457,9 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
                 global_tissues.update(tissueList)
                 
                 if not temp.empty:
+                    ps_confidence = temp['PS_Confidence'].unique().tolist()[0]
+                    tissue_confidence = temp['Tissue_Confidence'].unique().tolist()[0]
+                    
                     if tg not in finalTargetGene:
                         finalTargetGene.add(tg)
                         finalNodes.append({
@@ -457,7 +468,7 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
                         })
                     
                     finalEdges.append({
-                        'data': {'source': tf, 'target': tg, 'tissueClass' : f"TRANSCRIPTION {edgeTissues}"},
+                        'data': {'source': tf, 'target': tg, 'tissueClass' : f"TRANSCRIPTION {edgeTissues}", "PS_Confidence" : ps_confidence, "Tissue_Confidence" : tissue_confidence},
                         'classes' : f"TRANSCRIPTION",
                     })
             
@@ -469,16 +480,24 @@ def fetch_tfs(n_clicks, selected_genes, stylesheet):
                     
         elements = finalNodes + finalEdges
         
+        options=[
+            {"label": "All", "value": 'all', "disabled": False}, 
+            {"label": "Low", "value": 'low', "disabled": False},
+            {"label": "Medium", "value": 'medium', "disabled": False},
+            {"label": "High", "value": 'high', "disabled": False},
+        ]
+        
         # build table data
         # tf, gene = populate_table_dropdown(1,elements)
         tf = list(transcription_factors)
         gene = list(finalTargetGene)
         df, columnDefs = populate_table(tf_value=tf,gene_value=gene)
         
-        return no_update, elements, stylesheet, df, columnDefs
+        return no_update, elements, stylesheet, df, columnDefs, options, options
     
     except Exception as e:
-        return return_erorr_messgae(), no_update, no_update, no_update, no_update
+        # print(e)
+        return return_erorr_messgae(), no_update, no_update, no_update, no_update, no_update, no_update
 
 
 def _changeTissueOptions_core(phySystemOptions):
@@ -510,78 +529,188 @@ def _handlePhysiologicalSelection_core(val, stylesheet, elements):
         global psToTissue
 
         if val is None:
-            return no_update, stylesheet, elements
+            return no_update, stylesheet, processElements(elements, set())
 
         val = set(val)
 
         allowedTissues = list(chain(*[psToTissue[sys] for sys in val]))
         allowedTissues = set([var for var in allowedTissues])
-        newElements = processElements(elements, allowedTissues)
+        # newElements = processElements(elements, allowedTissues)
+        
+        allowed_nodes = processElements(elements, allowedTissues)
 
-        return no_update, stylesheet, newElements
+
+        return no_update, stylesheet, allowed_nodes
             
     except Exception as e:
-        return return_erorr_messgae(), no_update, no_update
+        return return_erorr_messgae(), no_update, processElements(elements, set())
+
+
+# @callback(
+#     Output('Modal-store', 'data', allow_duplicate=True),
+#     Output("tissue-dropdown", "options"),
+#     Output("tissue-dropdown", "value"),
+#     Output({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet", allow_duplicate=True),
+#     Output({'type': 'cy-graph', 'index': 'console-3'}, "elements", allow_duplicate=True),
+#     Input("physiological-systems-dropdown", "value"),
+#     Input("tissue-dropdown", "value"),
+#     Input("physio-radio",'value'),
+#     Input('tissue-radio','value'),
+#     State({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet"),
+#     State({'type': 'cy-graph', 'index': 'console-3'}, "elements"),
+    
+#     State("physiological-systems-dropdown", "value"),
+#     State("tissue-dropdown", "value"),
+#     State("physio-radio",'value'),
+#     State('tissue-radio','value'),
+#     prevent_initial_call=True,
+# )
+# def combined_physio_tissue_selection(phySystemOptions, tisOptions, physio_radio, tissue_radio, stylesheet, elements, phySystemOptions_state, tisOptions_state, physio_radio_state_value, tissue_radio_state_value):
+#     try:
+#         # Determine which input triggered the callback
+#         triggered_id = ctx.triggered_id
+        
+#         modal_data = no_update
+#         tissue_options = no_update
+#         tissue_value = no_update
+#         new_stylesheet = stylesheet
+#         # new_elements = elements
+        
+#         if triggered_id not in {'physiological-systems-dropdown','tissue-dropdown','physio-radio','tissue-radio'}:
+#             return modal_data, tissue_options, tissue_value, new_stylesheet, elements
+        
+#         if triggered_id == "physiological-systems-dropdown":
+#             # Physiological system changed: update tissue options and apply physio filtering
+#             modal_data, tissue_options = _changeTissueOptions_core(phySystemOptions_state)
+#             tissue_value = None  # Reset tissue selection when physiological system changes
+#             modal_data2, new_stylesheet, allowed_nodes = _handlePhysiologicalSelection_core(
+#                 phySystemOptions_state, stylesheet, elements
+#             )
+#             if modal_data is no_update:
+#                 modal_data = modal_data2
+                
+#         elif triggered_id == "tissue-dropdown":
+#             # Tissue selection changed: apply tissue filtering
+#             if tisOptions_state is None or 'null' in tisOptions_state:
+#                 allowed_nodes = processElements(elements, set())
+#             elif len(tisOptions_state) != 0:
+#                 allowedTissue = set([var for var in tisOptions_state])
+#                 allowed_nodes = processElements(elements, allowedTissue)
+#             else:
+#                 # No tissues selected, revert to physiological filtering
+#                 modal_data, new_stylesheet, allowed_nodes = _handlePhysiologicalSelection_core(
+#                     phySystemOptions_state, stylesheet, elements
+#                 )
+#         else:
+#             if tisOptions_state and 'null' not in tisOptions_state:
+#                 allowedTissue = set([var for var in tisOptions_state])
+#                 allowed_nodes = processElements(elements, allowedTissue)
+#             else:
+#                 temp, temp, allowed_nodes = _handlePhysiologicalSelection_core(phySystemOptions_state, stylesheet,elements)
+                
+#             # print(allowed_nodes)
+        
+#         # handle confidence
+        
+#         allowed_nodes_physio  =  filterConfidence(elements, physio_radio_state_value, 'PS_Confidence')
+#         allowed_nodes_tissue  =  filterConfidence(elements, tissue_radio_state_value, 'Tissue_Confidence')
+        
+#         #final node list
+#         final_allowed_list = allowed_nodes_tissue.intersection(allowed_nodes_physio).intersection(allowed_nodes)
+        
+        
+#         final_elements = make_new_list(elements, final_allowed_list)
+        
+        
+#         return modal_data, tissue_options, tissue_value, new_stylesheet, final_elements
+    
+#     except Exception as e:
+#         return return_erorr_messgae(), no_update, no_update, no_update, no_update
+
+
+def _get_allowed_nodes(elements, phy_vals, tissue_vals, stylesheet):
+    """
+    Central logic for deciding allowed nodes
+    """
+    # Priority: Tissue > Physiological
+
+    if tissue_vals and 'null' not in tissue_vals:
+        return processElements(elements, set(tissue_vals)), stylesheet, no_update
+
+    # fallback to physiological
+    modal, new_stylesheet, nodes = _handlePhysiologicalSelection_core(
+        phy_vals, stylesheet, elements
+    )
+    return nodes, new_stylesheet, modal
 
 
 @callback(
     Output('Modal-store', 'data', allow_duplicate=True),
     Output("tissue-dropdown", "options"),
+    Output("tissue-dropdown", "value"),
     Output({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet", allow_duplicate=True),
     Output({'type': 'cy-graph', 'index': 'console-3'}, "elements", allow_duplicate=True),
+
     Input("physiological-systems-dropdown", "value"),
+    Input("tissue-dropdown", "value"),
+    Input("physio-radio",'value'),
+    Input('tissue-radio','value'),
+
     State({'type': 'cy-graph', 'index': 'console-3'}, "stylesheet"),
     State({'type': 'cy-graph', 'index': 'console-3'}, "elements"),
+
+    State("physiological-systems-dropdown", "value"),
+    State("tissue-dropdown", "value"),
+    State("physio-radio",'value'),
+    State('tissue-radio','value'),
+
     prevent_initial_call=True,
 )
-def combined_physio_selection(phySystemOptions, stylesheet, elements):
-    # run the two original logics independently
-    
-    modal1, tissue_options = _changeTissueOptions_core(phySystemOptions)
-    modal2, new_stylesheet, new_elements = _handlePhysiologicalSelection_core(
-        phySystemOptions, stylesheet, elements
-    )
-
-    # choose which Modal-store message to show:
-    # - if the first produced an error/message, prefer it
-    # - otherwise use the second one
-    if modal1 is not no_update:
-        modal_data = modal1
-    else:
-        modal_data = modal2
-
-    return modal_data, tissue_options, new_stylesheet, new_elements
-
-
-@callback(
-    Output('Modal-store','data',allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-3'}, "stylesheet", allow_duplicate=True),
-    Output({'type': 'cy-graph','index':'console-3'},"elements",allow_duplicate= True),
-    Input("tissue-dropdown", "value"),
-    State({'type': 'cy-graph','index':'console-3'}, "stylesheet"),
-    State("physiological-systems-dropdown","value"),
-    State({'type': 'cy-graph','index':'console-3'},"elements"),
-    prevent_initial_call=True,
-)
-def handleTissueSelection(tisOptions, stylesheet,phySystemOptions,elements):
+def combined_physio_tissue_selection(
+    phy_input, tis_input, physio_radio, tissue_radio,
+    stylesheet, elements,
+    phy_state, tis_state, physio_radio_state, tissue_radio_state
+):
     try:
-        if tisOptions is None:
-            return no_update,stylesheet, elements
-        
-        if len(tisOptions) != 0:
+        triggered = ctx.triggered_id
 
-            if 'null' in tisOptions:
-                return no_update,stylesheet,no_update
+        modal_data = no_update
+        tissue_options = no_update
+        tissue_value = no_update
+        new_stylesheet = stylesheet
 
-            allowedTissue = set([var for var in tisOptions])
+        # --- Step 1: Handle dropdown change effects ---
+        if triggered == "physiological-systems-dropdown":
+            modal_data, tissue_options = _changeTissueOptions_core(phy_state)
+            tissue_value = None  # reset tissues
 
-            newElements = processElements(elements,allowedTissue)
-        
-            return no_update,stylesheet ,newElements
-        else:
-            return _handlePhysiologicalSelection_core(phySystemOptions,stylesheet, elements)
-    except Exception as e:
-        return return_erorr_messgae(), no_update, no_update
+        # --- Step 2: Compute allowed nodes (core logic) ---
+        allowed_nodes, new_stylesheet, modal_from_core = _get_allowed_nodes(
+            elements,
+            phy_state,
+            tis_state,
+            stylesheet
+        )
+
+        if modal_data is no_update:
+            modal_data = modal_from_core
+
+        # --- Step 3: Confidence filtering ---
+        allowed_nodes_physio = filterConfidence(elements, physio_radio_state, 'PS_Confidence')
+        allowed_nodes_tissue = filterConfidence(elements, tissue_radio_state, 'Tissue_Confidence')
+
+        final_allowed = (
+            allowed_nodes
+            .intersection(allowed_nodes_physio)
+            .intersection(allowed_nodes_tissue)
+        )
+
+        final_elements = make_new_list(elements, final_allowed)
+
+        return modal_data, tissue_options, tissue_value, new_stylesheet, final_elements
+
+    except Exception:
+        return return_erorr_messgae(), no_update, no_update, no_update, no_update
 
 
 @callback(

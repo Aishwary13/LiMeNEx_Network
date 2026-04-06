@@ -178,44 +178,121 @@ def create_nodes_and_edges(pathways,selected_lipids):
 
 
 
-def processElements(elements, allowedTissues):
-    newElements = []
-    
-    if len(allowedTissues) == 0:
-        #show all, no filter is there
-        for ele in elements:
-            if 'tissueClass' not in ele.get('data'):
-                newElements.append({
-                    'data' : ele.get("data"),
-                    'classes' : ele.get("data").get("classes")
-                })
-                continue
-            
-            fallback_class = ele.get('data').get('tissueClass').split(" ")[0]
-            newElements.append({
-                'data' : ele.get("data"),
-                'classes' : fallback_class
-            })
-        
-        return newElements
-            
-    
-
-    tfList = set()
-    ##3 first processing edges and making Tf list 
+def make_new_list(elements,final_allowed_list):
+    final_elements = []
     for ele in elements:
-        src = ele.get("data").get("source")
-        cl = ele.get("data").get("tissueClass")
-        if src is None:
-            continue
-        
-        if cl is None:
-            newElements.append({
+        #check for enzymatic gene
+        if 'tissueClass' not in ele.get('data'):
+            final_elements.append({
                 'data' : ele.get("data"),
                 'classes' : ele.get("data").get("classes")
             })
             continue
+        
+        
+        if 'source' not in ele.get('data'):
+            #node
+            label  = ele.get('data').get('label')
+            cl = ele.get("data").get("tissueClass")
+            
+            cl = cl.split(" ")
+            firstClass = cl[0]
+            
+            if label in final_allowed_list:
+                newClassFormat = [firstClass]
+            else:
+                newClassFormat = [firstClass] + ['hide']
+            
+            newClassFormat = " ".join(newClassFormat)
+            
+            final_elements.append({
+                'data' : ele.get("data"),
+                'classes' : newClassFormat
+            })
+        else:
+            #edge
+            source  = ele.get('data').get('source')
+            target = ele.get('data').get('target')
+            cl = ele.get("data").get("tissueClass")
+            cl = cl.split(" ")
+            firstClass = cl[0]
+            
+            if source in final_allowed_list and target in final_allowed_list:
+                newClassFormat = [firstClass]
+            else:
+                newClassFormat = [firstClass] + ['hide']
+            
+            newClassFormat = " ".join(newClassFormat)
+            
+            final_elements.append({
+                'data' : ele.get("data"),
+                'classes' : newClassFormat
+            })
 
+    return final_elements
+
+
+def filterConfidence(elements, confidence, key) -> set:
+    
+    allowed_nodes = set()
+    
+    if confidence == 'all':
+        #show all, no filter is there
+        for ele in elements:
+            if 'source' not in ele.get('data'):
+                continue
+        
+            allowed_nodes.add(ele.get('data').get('source'))
+            allowed_nodes.add(ele.get('data').get('target'))
+                
+        
+        return allowed_nodes
+            
+    
+    
+    for ele in elements:
+        if 'source' not in ele.get('data'):
+            continue
+        
+        cl = ele.get("data").get(key)
+
+        if cl == confidence:
+            allowed_nodes.add(ele.get('data').get('source'))
+            allowed_nodes.add(ele.get('data').get('target'))
+    
+    return allowed_nodes
+
+
+
+
+def processElements(elements, allowedTissues) -> set:
+    newElements = []
+    allowed_nodes = set()
+    
+    if len(allowedTissues) == 0:
+        #show all, no filter is there
+        for ele in elements:
+            if 'source' not in ele.get('data'):
+                continue
+                
+            # newElements.append({
+            #     'data' : ele.get("data"),
+            #     'classes' : ele.get("data").get("classes")
+            # })
+            allowed_nodes.add(ele.get('data').get('source'))
+            allowed_nodes.add(ele.get('data').get('target'))
+                
+        
+        return allowed_nodes
+            
+    
+    
+    for ele in elements:
+        if 'source' not in ele.get('data'):
+            continue
+        
+        cl = ele.get("data").get("tissueClass")
+        
         cl = cl.split(" ")
         firstClass = cl[0]
         cl = cl[1:]
@@ -223,53 +300,12 @@ def processElements(elements, allowedTissues):
         commonTissue = list(allowedTissues & set(cl))
 
         if len(commonTissue) != 0:
-            newClassFormat = [firstClass]
-            tfList.add(src)
-        else:
-            newClassFormat = [firstClass] + ['hide']
-        
-        newClassFormat = " ".join(newClassFormat)
-        newElements.append({
-            'data' : ele.get("data"),
-            'classes' : newClassFormat
-        })
-
-    #processing nodes
-    for ele in elements:
-        label = ele.get("data").get("source")
-        cl = ele.get("data").get("tissueClass")
-
-        if label:
-            continue
-        
-        if cl is None:
-            newElements.append({
-                'data' : ele.get("data"),
-                'classes' : ele.get("data").get("classes")
-            })
-            continue
-        
-        cl = cl.split(" ")
-        firstClass = cl[0]
-        cl = cl[1:]
-
-        commonTissue = list(allowedTissues & set(cl))
-
-        label = ele.get('data').get('label')
-
-        if label in tfList:
-            newClassFormat = [firstClass]
-        else:
-            newClassFormat = [firstClass] + ['hide']
-
-        newClassFormat = " ".join(newClassFormat)
-
-        newElements.append({
-            'data' : ele.get("data"),
-            'classes' : newClassFormat
-        })
-
-    return newElements
+            # newClassFormat = [firstClass]
+            allowed_nodes.add(ele.get('data').get('source'))
+            allowed_nodes.add(ele.get('data').get('target'))
+    
+    return allowed_nodes
+     
 
 
 def build_dataframe(reactionList):
@@ -406,7 +442,7 @@ def populate_table(tf_value, gene_value):
     try:
 
         # ---- Read CSV ----
-        file_path = os.path.join(root_dir, 'src', 'sbmlData', 'final_tf_targetgene_tissue_groups.csv')
+        file_path = os.path.join(root_dir, 'src', 'sbmlData', 'final_tf_targetgene_tissue_groups_FINAL_FINAL.csv')
         df = pd.read_csv(file_path, dtype=str).fillna("")
 
         # ---- Filter by TF(s) and Gene(s) ----
@@ -452,6 +488,7 @@ def populate_table(tf_value, gene_value):
             {"field": "Chea", "headerName":"Chea(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True ,"cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
             {"field": "Signor", "headerName":"Signor(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
             {"field": "Trrust", "headerName":"Trrust(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
+            {"field": "SPP_Pubmed", "headerName":"SPP(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
         ]
                 
         # ---- Return for Dash DataTable ----
