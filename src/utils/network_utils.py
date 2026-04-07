@@ -471,7 +471,7 @@ def populate_table(tf_value, gene_value):
         # ]
         
         columnDefs = [
-            {"field": "TF", "flex": 1},
+            {"field": "TF", "flex": 0.8},
             {"field": "TargetGene", "headerName":"EnzymaticGene", "flex": 1},
             {"field": "Tissue", "flex": 1},
 
@@ -489,6 +489,8 @@ def populate_table(tf_value, gene_value):
             {"field": "Signor", "headerName":"Signor(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
             {"field": "Trrust", "headerName":"Trrust(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
             {"field": "SPP_Pubmed", "headerName":"SPP(PMIDs)","flex": 1,"wrapText": True, "autoHeight": True, "cellRenderer": {"function": "pubmedLinkRenderer(params)"}},
+            {"field": "PS_Confidence", "headerName":"Physiological Confidence", "flex": 1},
+            {"field": "Tissue_Confidence", "headerName":"Tissue Confidence", "flex": 1}
         ]
                 
         # ---- Return for Dash DataTable ----

@@ -173,23 +173,25 @@ console3_layout = html.Div([
                     
                     html.Label("Confidence:",
                             style={'color': '#f1f1f1', 'fontWeight': '600', 'fontSize': '13px'}),
+                   
+                    
                     dbc.RadioItems(
                         id="physio-radio",
-                        className="btn-group network-mode-toggle",
+                        className="btn-group physio-toggle",   
                         inputClassName="btn-check",
-                        labelClassName="btn mode-btn",
+                        labelClassName="btn physio-mode-btn",            
                         labelCheckedClassName="active",
                         options=[
-                            {"label": "All", "value": 'all', "disabled": True},
-                            {"label": "Low", "value": 'low', "disabled": True},
-                            {"label": "Medium", "value": 'medium', "disabled": True},
-                            {"label": "High", "value": 'high', "disabled": True},
+                            {"label": "All", "value": 'all','disabled' : True},
+                            {"label": "Low", "value": 'low','disabled' : True},
+                            {"label": "Medium", "value": 'medium','disabled' : True},
+                            {"label": "High", "value": 'high','disabled' : True},
                         ],
                         value='all',
-                        style={'width' : '100%',
-                               'display' : 'flex',
-                               'justifyContent' : 'center',
-                               'marginTop' : '10px'}
+                        style={
+                            'width': '100%',
+                            'marginTop': '10px'
+                        }
                     ),
                     
                     html.Label("Tissue(s):",
@@ -208,21 +210,21 @@ console3_layout = html.Div([
                             style={'color': '#f1f1f1', 'fontWeight': '600', 'fontSize': '13px'}),
                     dbc.RadioItems(
                         id="tissue-radio",
-                        className="btn-group network-mode-toggle",
+                        className="btn-group physio-toggle",   
                         inputClassName="btn-check",
-                        labelClassName="btn mode-btn",
+                        labelClassName="btn physio-mode-btn",            
                         labelCheckedClassName="active",
                         options=[
-                            {"label": "All", "value": 'all', "disabled": True}, 
-                            {"label": "Low", "value": 'low', "disabled": True},
-                            {"label": "Medium", "value": 'medium', "disabled": True},
-                            {"label": "High", "value": 'high', "disabled": True},
+                            {"label": "All", "value": 'all','disabled' : True},
+                            {"label": "Low", "value": 'low','disabled' : True},
+                            {"label": "Medium", "value": 'medium','disabled' : True},
+                            {"label": "High", "value": 'high','disabled' : True},
                         ],
                         value='all',
-                        style={'width' : '100%',
-                               'display' : 'flex',
-                               'justifyContent' : 'center',
-                               'marginTop' : '10px'}
+                        style={
+                            'width': '100%',
+                            'marginTop': '10px'
+                        }
                     ),
                     
                 ], style={
@@ -296,6 +298,8 @@ console3_layout = html.Div([
                 "floatingFilter": True,
                 "wrapText": True,
                 "autoHeight": True,
+                "wrapHeaderText": True,
+                "autoHeaderHeight": True,
             },
 
             dashGridOptions={

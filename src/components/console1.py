@@ -257,6 +257,8 @@ console1_layout = html.Div([
                 "floatingFilter": True,
                 "wrapText": True,
                 "autoHeight": True,
+                "wrapHeaderText": True,
+                "autoHeaderHeight": True,
             },
 
             dashGridOptions={
