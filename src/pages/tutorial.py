@@ -177,6 +177,7 @@ def InterpretationPanel(title="Output Interpretation", description=None, items=N
                     "color": "#d1d5db",
                     "lineHeight": "1.6",
                     "marginBottom": "12px",
+                    # "whiteSpace": "pre-line",
                 },
             ) if description else None,
 
@@ -274,16 +275,14 @@ section3 = HelpSection(
                             ),
 
         StepCard(1,header=None,description='''
-                    Select one or more enzymatic genes of interest or corresponding to 
-                    console 2 and click on the option “Fetch TFs” to retrieve corresponding 
-                    transcription factors in the regulatory network panel.
+                    Select one or more enzymatic genes of interest or corresponding to console 2 and click on the option “Fetch TFs” to retrieve corresponding transcription factors in the regulatory network panel.
                     ''',
                     points=[]
                  ), 
         FigurePlaceholder(src="assets/fig15_15.png",caption=None),
         
-        InterpretationPanel(description='''
-                           Feature: Console 3 renders a TF–gene regulatory network for the selected 
+        InterpretationPanel(title="Feature 1",description='''
+                            Console 3 renders a TF–gene regulatory network for the selected 
                             enzymatic genes, displaying the queried genes as green nodes and their 
                             corresponding transcription factors as pink rectangular nodes linked by regulatory 
                             interactions.
@@ -294,36 +293,59 @@ section3 = HelpSection(
         FigurePlaceholder(src="assets/fig16_16.png",caption=None),
         
     
-        InterpretationPanel(description='''
-                           Feature:  Filter the TFs regulating the query-associated enzymes by selecting a 
-                            Physiological System, such as “Gastrointestinal,” to restrict the TF–gene regulatory 
-                            network to that biological context.
-                            ''',
+        InterpretationPanel(title="Feature 2",description='''
+                            Filter the TFs regulating the query-associated enzymes by selecting a Physiological System, such as “Gastrointestinal,” which restricts the TF–gene regulatory network to that specific biological context. By default, the network displays all transcription factors corresponding to the selected physiological system for the queried enzymatic genes.
+                            ''', 
                             items=[
                             ]),
         
         FigurePlaceholder(src="assets/fig17_17.png",caption=None),
         
-        InterpretationPanel(description='''
-                            Feature: After selecting a physiological system, choose a tissue (e.g., 
-                            Gastrointestinal: stomach) to display only those TF regulators supported for the 
-                            query enzymes in that tissue context.
+        
+        
+        InterpretationPanel(title="Feature 3",description=['''
+                            The evidence table renders all TF regulators associated with the queried enzymatic genes across the corresponding tissues. Each row in the table represents a TF–gene interaction in respective tissue context, supporting experimental and associated PubMed literature references (if available), and the corresponding confidence score classes derived from physiological system–based and tissue-based recurrence scoring.
+                            ''',
+                            html.Br(),
+                            html.Br(),
+                            '''
+                            For instance, for the queried enzymatic gene MGLL, TF regulators such as ATF3, CDX2, and CEBPB are displayed across tissues, including colon, bone, and leukocytes, together with supporting PMIDs and their assigned Physiological Confidence and Tissue Confidence labels.
+                            '''],
+                            items=[ 
+                            ]),
+        
+        FigurePlaceholder(src="assets/fig20_20.png",caption=None),
+        
+        
+        
+        InterpretationPanel(title="Feature 4",description='''
+                            After selecting a Physiological System, users can further refine the results by choosing a specific tissue (e.g., Gastrointestinal: stomach). By default, all TF regulators and corresponding evidence entries supported within the selected tissue are displayed in both the TF gene regulatory network and the evidence table.
                             ''',
                             items=[
                             ]),
         
         FigurePlaceholder(src="assets/fig18_18.png",caption=None),
         
-        InterpretationPanel(description='''
-                           Feature: The evidence table lists the transcription factors queried for the selected 
-                            target genes (e.g., SGMS1 and MGLL) and summarizes their tissue-specific 
-                            regulatory interactions supported by SPP evidence, cell-line annotations, and 
-                            PubMed literature indexed in ChEA3, TRRUST v2, and SIGNOR, where available.
+        InterpretationPanel(title="Feature 5",description=[
+                            '''
+                            Users can further refine the TF–gene regulatory network by selecting a confidence class (High, Medium, or Low) under the Physiological System filter to display only TF regulators belonging to the chosen confidence category for the queried enzymatic genes.
                             ''',
+                            html.Br(),
+                            html.Br(),
+                            '''
+                            For example, when the user selects High confidence under the Gastrointestinal physiological system for SGMS1 and MGLL, the network displays only the high-confidence TF regulators supported within that physiological system, as shown in the figure.
+                            ''',
+                            html.Br(),
+                            html.Br(),
+                            '''
+                            If the user selects the High confidence option under the Tissue filter without choosing any specific tissue, the network displays TF regulators that are high-confidence within the selected physiological system, irrespective of tissue context. In this case, regulators such as YY1 and USF1 are excluded, indicating that they do not belong to the high-confidence class under the selected filter.
+                            '''
+                            ],
                             items=[
                             ]),
         
         FigurePlaceholder(src="assets/fig19_19.png",caption=None),
+        FigurePlaceholder(src="assets/fig21_21.png",caption=None),
     ]
 )
 
@@ -343,8 +365,8 @@ section2 = HelpSection(
                  ), 
         FigurePlaceholder(src="assets/fig11_11.png",caption=None),
         
-        InterpretationPanel(description='''
-                            Feature: Selected enzymatic genes are highlighted in sky blue, enabling direct 
+        InterpretationPanel(title="Feature 1.1",description='''
+                            Selected enzymatic genes are highlighted in sky blue, enabling direct 
                             identification of the queried genes within the reaction-level network.
                             ''',
                             items=[
@@ -353,17 +375,15 @@ section2 = HelpSection(
         FigurePlaceholder(src="assets/fig12_12.png",caption=None),
         
     
-        InterpretationPanel(description='''
-                            Feature: For each query, it summarizes the reaction level details of enzymatic 
-                            genes in tabular form, enlisting consistent substrates and products, and their 
-                            pathways.
+        InterpretationPanel(title="Feature 1.2",description='''
+                            Feature: For each query, it summarizes the reaction-level details of enzymatic genes in tabular form, listing consistent substrates and products, along with their pathways. Network and tables in console 2 are also downloadable. 
                             ''',
                             items=[
                             ]),
         
         FigurePlaceholder(src="assets/fig13_13.png",caption=None),
         
-        InterpretationPanel(description='''
+        InterpretationPanel(title="Feature 1.3",description='''
                             Feature: The reaction network also displays co-participating genes as green 
                             rectangular nodes. Selecting a reaction edge reveals the corresponding biochemical 
                             reaction type (e.g., synthesis, hydrolysis, thiolysis, etc). 
@@ -400,8 +420,8 @@ section1 = HelpSection(
         
         FigurePlaceholder(src="assets/fig3_3.png",caption =None),
         
-        InterpretationPanel(description='''
-                            Feature: Queried lipids, central biochemical nodes(Ceramide, Glycerol, 
+        InterpretationPanel(title="Feature 1",description='''
+                            Queried lipids, central biochemical nodes(Ceramide, Glycerol, 
                             Monoacylglycerol, etc), and non-lipid metabolites are represented by sky blue, 
                             blue, and orange nodes, respectively, to facilitate visual distinction within the 
                             network. It also highlights directly involved biochemical reactions, metabolites and 
@@ -426,8 +446,8 @@ section1 = HelpSection(
         
         
         
-        InterpretationPanel(description='''
-                            Feature: This option hides the second-level branched chains arising from ceramide 
+        InterpretationPanel(title="Feature 2.1",description='''
+                            This option hides the second-level branched chains arising from ceramide 
                             and phosphatidylcholine, retaining only the pathways directly connected to the 
                             queried lipid. The corresponding entities are highlighted as query nodes in sky blue 
                             for clear visual distinction. Selecting the “Full Network” option restores the hidden 
@@ -438,8 +458,8 @@ section1 = HelpSection(
         
         FigurePlaceholder(src="assets/fig7_7.png",caption=None),
         
-        InterpretationPanel(description='''
-                            Feature: Pathway evidence table listing queried lipid species, their associated 
+        InterpretationPanel(title="Feature 2.2",description='''
+                            Pathway evidence table listing queried lipid species, their associated 
                             pathways, and supporting source databases, with column-wise filtering options.
                             ''',
                             items=[
@@ -447,41 +467,28 @@ section1 = HelpSection(
         
         FigurePlaceholder(src="assets/fig8_8.png",caption=None),
         
-        InterpretationPanel(description='''
-                            Feature: Console 1 network can be exported in SVG, JSON for network graph and 
-                            CSV formats for table. Download and refresh controls are provided for saving the 
-                            current view and restoring the network visualization.
+        InterpretationPanel(title="Feature 2.3",description='''
+                            Console 1's network can be exported as SVG and JSON for the network graph and as CSV for the table. Download and refresh controls are provided to save the current view and restore the network visualization.
                             ''',
                             items=[
                             ]),
         
         FigurePlaceholder(src="assets/fig9_9.png",caption=None),
         
-        InterpretationPanel(description='''
-                                Feature: Interactive legend panel: An expandable legend panel explains the node 
+        InterpretationPanel(title="Feature 2.4",description="",
+                            items=[
+                                ("Interactive legend panel",'''Interactive legend panel: An expandable legend panel explains the node 
                                 types and edge categories used in the network, including query nodes, metabolites, 
                                 genes, reaction nodes, substrate/product edges, modifier edges, regulatory edges, 
-                                and directly involved reactions.
-                                
-                                Feature: Metabolite database links: connects metabolite nodes to ChEBI, PubChem 
-                                or  KEGG.
-                                ''',
-                            items=[
+                                and directly involved reactions.''')
                             ]),
 
         FigurePlaceholder(src="assets/fig10_10.png",caption=None),
         
-        InterpretationPanel(description='''                                
-                                Feature: Metabolite database links: connects metabolite nodes to ChEBI, PubChem 
-                                or  KEGG.
-                                ''',
+        InterpretationPanel(title="Feature 2.5",description="",
                             items=[
-                            ]),
-        
-        InterpretationPanel(description='''                                
-                                Protein database links: connects gene and TF nodes to UniProt.
-                                ''',
-                            items=[
+                                ("Metabolite database links","connects metabolite nodes to ChEBI, PubChem or  KEGG"),
+                                ("Protein database links","Connects gene and TF nodes to UniProt")
                             ]),
     ]
 )

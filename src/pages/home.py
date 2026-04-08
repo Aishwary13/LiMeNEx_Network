@@ -264,14 +264,15 @@ layout = html.Div([
     
     html.Div(
         html.Iframe(
-            src="https://www.youtube.com/embed/wq64mcSQFG8",
+            src="https://www.youtube.com/embed/c5akhywyLp4",
             style={
                 "width": "100%",
                 "height": "450px",
                 "border": "none"
-            }
+            },
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
         ),
-        style={"maxWidth": "900px", "margin" : "80px auto"}
+        style={"maxWidth": "900px", "margin": "80px auto"}
     ),
     
     
